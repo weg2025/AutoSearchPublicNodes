@@ -3,7 +3,7 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 18 * * *'
+    - cron: '38 03 * * *'
   push:
     paths:
       - 'sources.list'
