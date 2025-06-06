@@ -3,7 +3,6 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    # 表达式生成 https://crontab.guru/
     - cron: '30 */1 * * *'
   push:
     paths:
@@ -20,31 +19,47 @@ jobs:
     steps:
     - name: 迁出代码
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.ACCESS_TOKEN }}  # 使用 PAT 代替默认 token
+        
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      
     - name: 安装 Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.x'
         cache: 'pip'
+        
     - name: 安装依赖
       run: pip install -r requirements.txt
+      
     - name: 执行任务
       run: python ./fetch.py
       
     - name: 提交更改
-      run: |                 
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Actions"
-        git pull origin main
+      id: commit
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git pull --rebase origin main
         git add list*
         git add snippets/
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        if git diff --staged --quiet; then
+          echo "NO_CHANGES=true" >> $GITHUB_OUTPUT
+          echo "没有更改需要提交"
+        else
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+          echo "NO_CHANGES=false" >> $GITHUB_OUTPUT
+        fi
+        
     - name: 推送更改
+      if: steps.commit.outputs.NO_CHANGES == 'false'
       uses: ad-m/github-push-action@master
       with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}  # 使用 PAT
         branch: main
-
+        
     - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
@@ -58,6 +73,7 @@ jobs:
           urls+="${baseUrl}/${f},"
         done
         echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
+        
     - name: 清除 JsDelivr CDN 缓存
       uses: egad13/purge-jsdelivr-cache@v1
       with:
