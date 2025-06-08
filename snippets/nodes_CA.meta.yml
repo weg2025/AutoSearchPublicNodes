@@ -15,12 +15,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|CA_speednode_0002
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 8300
-  server: 104.129.128.58
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CA_speednode_0003
+  port: 443
+  reality-opts:
+    public-key: GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg
+    short-id: 7a2b
+  server: 35.182.59.164
+  servername: zula.ir
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: tqqlqvxj@mayorlogistic.com
+  uuid: 7f93e196-1b2f-4a42-8051-5815554c05db

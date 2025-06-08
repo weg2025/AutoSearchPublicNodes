@@ -15,14 +15,6 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- name: '11|Channel id: @ShadowProxy66🇷🇺'
-  password: dongtaiwang.com
-  port: 30033
-  server: 45.129.2.108
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '11|Channel id: @ShadowProxy66🇷🇺 #1'
   password: ADA91529-7BC1-4A5B-8AE7-30ED6D8959C0
   port: 56410
@@ -31,3 +23,26 @@ proxies:
   sni: dxobg4azmk.gafnode.sbs
   tls: false
   type: hysteria2
+- name: 14|RU_speednode_0055
+  network: ws
+  port: 8880
+  server: 5.182.84.20
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 14|RU_speednode_0056
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 443
+  server: 194.87.197.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: tqqlqvxj@mayorlogistic.com

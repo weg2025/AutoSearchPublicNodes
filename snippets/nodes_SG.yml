@@ -27,6 +27,15 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
+  name: 12,13|新加坡5|@ripaojiedian
+  network: tcp
+  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  port: 27231
+  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
+  skip-cert-verify: false
+  sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
+  type: trojan
+- client-fingerprint: chrome
   name: 12|🇸🇬 新加坡3|@ripaojiedian
   password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
   port: 27231
@@ -35,13 +44,12 @@ proxies:
   sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡5|@ripaojiedian
-  network: tcp
-  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
   port: 27231
-  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
+  server: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
   skip-cert-verify: false
-  sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
+  sni: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
   type: trojan
 - client-fingerprint: chrome
   name: 12,13|新加坡6|@ripaojiedian
@@ -57,4 +65,10 @@ proxies:
   password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
   port: 27231
   server: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
+  type: trojan
+- name: 13|新加坡4|@ripaojiedian
+  network: tcp
+  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
+  port: 27231
+  server: 3a55af19-sxlj40-t8tsp0-1szmi.cm5.cnkuaishou.com
   type: trojan
