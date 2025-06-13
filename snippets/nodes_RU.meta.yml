@@ -1,9 +1,16 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇷🇺俄罗斯 101 | 1x RU
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 0|🇷🇺1 |  2.5MB/s|50%
+  name: 2|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,3 +22,11 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
+- name: '11|Channel id: @ShadowProxy66🇷🇺'
+  password: dongtaiwang.com
+  port: 30033
+  server: 45.129.2.108
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2

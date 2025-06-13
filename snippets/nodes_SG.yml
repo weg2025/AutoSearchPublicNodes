@@ -1,7 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 101 | 1x SG
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31171
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 102 | 1x SG
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31173
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 103 | 1x SG
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31175
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -39,6 +60,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  port: 56051
+  server: 38.47.176.251
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
   name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '41024'
@@ -47,3 +79,61 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡4|@ripaojiedian
+  network: tcp
+  port: '56051'
+  server: 38.47.176.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- name: 14|SG_speednode_0101
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 8189
+  server: t4.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|SG_speednode_0102
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1370
+  server: t5.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|SG_speednode_0103
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1445
+  server: t1.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|SG_speednode_0104
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1998
+  server: t14.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|SG_speednode_0105
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1793
+  server: t13.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|SG_speednode_0106
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1884
+  server: t12.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true

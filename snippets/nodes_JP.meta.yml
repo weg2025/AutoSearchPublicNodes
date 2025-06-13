@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -21,7 +21,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-qDwEcSPT9B.download.microsoft.com
+    host: 202506070920094-n6Kql0nGua.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -39,7 +39,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 33604
+  port: 59294
   server: 43.226.17.11
   tfo: false
   type: ss
@@ -60,28 +60,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 27233
-  server: c82845c8-sxsxs0-t22tug-1q91p.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: c82845c8-sxsxs0-t22tug-1q91p.cm5.cnkuaishou.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.207.233.41
+  name: 12,13|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- name: 13|日本4|@ripaojiedian
-  network: tcp
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 27233
-  server: c82845c8-sxsxs0-t22tug-1q91p.cm5.cnkuaishou.com
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 13|日本V2|@ripaojiedian
@@ -92,45 +87,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
-- name: 14|JP_speednode_0012
-  network: ws
-  port: 443
-  server: 150.66.0.85
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0013
-  network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
-- name: 14|JP_speednode_0014
-  network: ws
-  port: 443
-  server: 160.16.76.226
-  servername: steep.skyfigure.top
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram🇨🇳 @pgkj666 /?ed=2560

@@ -1,6 +1,13 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 101 | 1x TW
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 0|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 2,14|TW_speednode_0108
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -8,4 +15,5 @@ proxies:
   sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
+  udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=

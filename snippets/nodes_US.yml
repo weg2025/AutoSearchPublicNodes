@@ -1,5 +1,26 @@
 proxies:
-- name: 0|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 101 | 1x US Los Angeles
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31211
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 102 | 1x US Los Angeles
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31213
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 103 | 1x US Washington
+  password: c4a3d5ec-5c96-4a77-a43d-32b09d0ac143
+  port: 31215
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -8,7 +29,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -20,14 +41,14 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 0|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -41,7 +62,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-qDwEcSPT9B.download.microsoft.com
+    host: 202506070920094-n6Kql0nGua.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -81,3 +102,35 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
+- name: 14|US_speednode_0119
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 12527
+  server: t11.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0120
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1401
+  server: t10.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0123
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1662
+  server: t16.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0125
+  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
+  port: 1370
+  server: t15.emovpn.buzz
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
