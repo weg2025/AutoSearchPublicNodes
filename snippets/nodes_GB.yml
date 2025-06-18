@@ -1,1 +1,71 @@
-proxies: []
+proxies:
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  delay: 2457
+  name: 10|英国 - 伦敦 - Akamai Technologies,...
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v36.heduian.link
+    path: /oooo
+- country: 🇬🇧GB
+  delay: 1249
+  name: 10|英国 - 伦敦 - OVH SAS - 1
+  password: 5d59a6f0-48a1-11f0-94a7-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  delay: 1236
+  name: 10|英国 - 伦敦 - OVH SAS - 2
+  password: 6c8f2de0-48a2-11f0-bdd4-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  delay: 1240
+  name: 10|英国 - 伦敦 - OVH SAS - 3
+  password: 2543a880-48a1-11f0-8578-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  delay: 1248
+  name: 10|英国 - 伦敦 - OVH SAS - 4
+  password: 970ec930-48a2-11f0-a318-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  delay: 1171
+  name: 10|英国 - 伦敦 - OVH SAS - 5
+  password: a7c7bbf0-48a1-11f0-b880-1239d0255272
+  port: 443
+  server: uk1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 868
+  name: 10|英国 - 伦敦 - OVH SAS - 7
+  password: 34876650-48a2-11f0-8fd6-1239d0255272
+  port: 443
+  server: 51.38.65.155
+  skip-cert-verify: true
+  sni: uk1.test3.net
+  type: trojan
+  udp: true

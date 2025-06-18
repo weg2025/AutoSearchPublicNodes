@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 0|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -12,3 +12,11 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- cipher: chacha20-ietf-poly1305
+  delay: 706
+  name: 10|德国 - 萨尔布吕肯 - OVH ISP - 1
+  password: XwoHfpvuczzHOkOebGXiUO
+  port: 49551
+  server: 87.98.242.137
+  type: ss
+  udp: true

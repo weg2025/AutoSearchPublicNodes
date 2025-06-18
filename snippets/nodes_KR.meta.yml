@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -14,13 +14,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 0|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 1|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -32,16 +32,8 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 10,11|韩国|@ripaojiedian
-  network: tcp
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21056
-  server: 120.233.44.201
-  skip-cert-verify: false
-  sni: k14.tudou211.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 10,11|韩国2|@ripaojiedian
+  delay: 1203
+  name: 10,12,13|韩国2|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -49,15 +41,47 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
+- cipher: aes-256-cfb
+  delay: 554
+  name: 10|韩国 - Gwanak-gu - Korea Telecom...
+  password: qwerREWQ@@
+  port: 11389
+  server: 221.150.109.89
+  type: ss
+- cipher: aes-256-cfb
+  delay: 455
+  name: '10|韩国 - Gwanak-gu - Korea Telecom... #1'
+  password: qwerREWQ@@
+  port: 5344
+  server: 125.141.26.14
+  type: ss
+  udp: true
+- delay: 1543
+  name: 10|韩国 - 首尔特别市 - Baxet Group Inc. ...
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21118
+  server: 120.233.44.201
+  skip-cert-verify: true
+  sni: k17.tudou211.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|韩国|@ripaojiedian
+  network: tcp
+  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
+  port: 21056
+  server: 120.233.44.201
+  skip-cert-verify: false
+  sni: k14.tudou211.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 10|🇰🇷 韩国3|@ripaojiedian
+  name: 12|🇰🇷 韩国3|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 9898
   server: 3.36.114.140
   tfo: false
   type: ss
-- name: 12|KR_speednode_0137
+- name: 14|KR_speednode_0137
   network: ws
   password: ttfang
   port: 26782
@@ -70,7 +94,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0138
+- name: 14|KR_speednode_0138
   network: ws
   password: ttfang
   port: 14074
@@ -83,7 +107,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0139
+- name: 14|KR_speednode_0139
   network: ws
   password: ttfang
   port: 27094
@@ -96,7 +120,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0140
+- name: 14|KR_speednode_0140
   network: ws
   password: ttfang
   port: 31491
@@ -109,7 +133,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0141
+- name: 14|KR_speednode_0141
   network: ws
   password: ttfang
   port: 34689
@@ -122,7 +146,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0142
+- name: 14|KR_speednode_0142
   network: ws
   password: ttfang
   port: 31164
@@ -135,7 +159,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0143
+- name: 14|KR_speednode_0143
   network: ws
   password: ttfang
   port: 10126
@@ -148,7 +172,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0144
+- name: 14|KR_speednode_0144
   network: ws
   password: ttfang
   port: 24304
@@ -161,7 +185,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0145
+- name: 14|KR_speednode_0145
   network: ws
   password: ttfang
   port: 16913
@@ -174,7 +198,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0146
+- name: 14|KR_speednode_0146
   network: ws
   password: ttfang
   port: 28827
@@ -187,7 +211,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0147
+- name: 14|KR_speednode_0147
   network: ws
   password: ttfang
   port: 28568
@@ -200,7 +224,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0148
+- name: 14|KR_speednode_0148
   network: ws
   password: ttfang
   port: 14491
@@ -213,7 +237,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0149
+- name: 14|KR_speednode_0149
   network: ws
   password: ttfang
   port: 29340
@@ -226,7 +250,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0150
+- name: 14|KR_speednode_0150
   network: ws
   password: ttfang
   port: 37865
@@ -239,7 +263,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0151
+- name: 14|KR_speednode_0151
   network: ws
   password: ttfang
   port: 21789
@@ -252,7 +276,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0152
+- name: 14|KR_speednode_0152
   network: ws
   password: ttfang
   port: 29264
@@ -265,7 +289,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0153
+- name: 14|KR_speednode_0153
   network: ws
   password: ttfang
   port: 26120
@@ -278,7 +302,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0154
+- name: 14|KR_speednode_0154
   network: ws
   password: ttfang
   port: 10482
@@ -291,22 +315,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- client-fingerprint: random
-  name: 12|KR_speednode_0155
-  network: ws
-  port: 11333
-  server: 125.134.6.129
-  servername: mihu.sorry.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a7c2881-83f0-47ea-b05c-441a18960ef4
-  ws-opts:
-    headers:
-      Host: mihu.sorry.ip-ddns.com
-    path: /?ed=2560
-- name: 12|KR_speednode_0156
+- name: 14|KR_speednode_0156
   network: ws
   password: ttfang
   port: 14982
@@ -319,7 +328,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /
-- name: 12|KR_speednode_0157
+- name: 14|KR_speednode_0157
   network: ws
   password: ttfang
   port: 18548
