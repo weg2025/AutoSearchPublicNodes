@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -16,14 +16,14 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - delay: 2342
-  name: 10|日本 - Shinagawa - The Constant ...
+  name: 11|日本 - Shinagawa - The Constant ...
   password: HrTsLJvh
   port: 43196
   server: 223.111.144.12
   skip-cert-verify: true
   type: trojan
 - delay: 1913
-  name: '10|日本 - Shinagawa - The Constant ... #1'
+  name: '11|日本 - Shinagawa - The Constant ... #1'
   password: FpQhGpIr
   port: 43196
   server: 223.111.144.12
@@ -35,7 +35,7 @@ proxies:
   delay: 1193
   h2-opts: {}
   http-opts: {}
-  name: 10|日本 - 东京 - Eons Data Communicat...
+  name: 11|日本 - 东京 - Eons Data Communicat...
   network: tcp
   port: 4151
   server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
@@ -44,11 +44,11 @@ proxies:
   uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-H9pCj24A70.download.microsoft.com
+    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -56,7 +56,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: b44864e5b56d
   plugin: v2ray-plugin
   plugin-opts:
@@ -71,7 +71,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -82,7 +82,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 13|🇯🇵 日本4|@ripaojiedian
   port: 41302
   server: 183.236.51.38
   skip-cert-verify: false
@@ -92,7 +92,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 13|🇯🇵 日本5|@ripaojiedian
   password: dwz1GtF7
   port: 30232
   server: 112.54.160.36
@@ -100,7 +100,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本4|@ripaojiedian
+  name: 14|日本4|@ripaojiedian
   network: tcp
   port: '41302'
   server: 183.236.51.38
@@ -110,7 +110,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本v2|@ripaojiedian
+  name: 14|日本v2|@ripaojiedian
   network: kcp
   port: '36668'
   server: 8.211.175.53
@@ -118,12 +118,27 @@ proxies:
   tls: false
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
+- client-fingerprint: random
+  name: 15|JP_speednode_0035
+  network: ws
+  port: 32180
+  server: 122.250.215.82
+  servername: mot.morisi.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3860471-5718-4811-a372-e3ca0204ac4c
+  ws-opts:
+    headers:
+      Host: mot.morisi.ggff.net
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0136
+  name: 15|JP_speednode_0036
   network: ws
   port: 8880
-  server: 103.116.7.63
-  servername: jp.laoyoutiao.link
+  server: 154.92.9.63
+  servername: sg.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
@@ -131,5 +146,20 @@ proxies:
   uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: jp.laoyoutiao.link
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0037
+  network: ws
+  port: 8880
+  server: 103.116.7.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
