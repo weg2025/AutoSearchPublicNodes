@@ -13,17 +13,23 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港|@ripaojiedian
-  port: 22052
-  server: 103.224.80.32
+  name: 13,14|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 13|🇭🇰 香港2|@ripaojiedian
@@ -36,7 +42,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 26902
+  port: 14150
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
@@ -68,33 +74,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|香港7|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 14|香港|@ripaojiedian
-  network: tcp
-  port: '22052'
-  server: 103.224.80.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -105,18 +84,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0031
-  network: ws
-  port: 8880
-  server: 154.218.15.63
-  servername: sg.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560

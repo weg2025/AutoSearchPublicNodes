@@ -77,6 +77,17 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇸🇬 新加坡2|@ripaojiedian
+  port: 50152
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 14|新加坡|@ripaojiedian
   network: kcp
   port: '51713'
@@ -85,48 +96,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
-- client-fingerprint: random
-  name: 15|SG_speednode_0080
-  network: ws
-  port: 27223
-  server: 43.134.111.154
-  servername: etc.mesa.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7d1fef0-8115-4488-9c6e-60bd175c4e33
-  ws-opts:
-    headers:
-      Host: etc.mesa.ip-ddns.com
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0081
-  network: ws
-  port: 20223
-  server: 43.134.23.141
-  servername: mot.majusti.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7eb3991-2371-4b07-8ae6-5a8efac1c155
-  ws-opts:
-    headers:
-      Host: mot.majusti.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 15|SG_speednode_0082
-  network: ws
-  port: 20223
-  server: 43.134.23.141
-  servername: mot.morisi.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a388816-adcb-4d6f-920b-30c8304901f6
-  ws-opts:
-    headers:
-      Host: mot.morisi.ggff.net
-    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '50152'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
