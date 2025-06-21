@@ -1674,14 +1674,6 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '9,12|Channel id: @ShadowProxy66🇫🇷 #1'
-  password: dongtaiwang.com
-  port: 31180
-  server: 51.159.111.32
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: 10|🇱@ا ا
   obfs: salamander
   obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
@@ -1805,13 +1797,11 @@ proxies:
   delay: 876
   h2-opts: {}
   http-opts: {}
-  name: 11,14|香港6|@ripaojiedian
+  name: 11|中国 - 香港 - CTG Server Ltd. - 10
   network: tcp
-  port: '36519'
+  port: 36519
   server: 183.236.51.38
-  servername: ''
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
@@ -1862,14 +1852,13 @@ proxies:
   type: vmess
   uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
 - delay: 620
-  name: 11,15|CN_speednode_0003
+  name: 11|中国 - 香港 - Teleglobal Communica...
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
   server: 116.31.75.150
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-  udp: true
 - delay: 997
   name: 11,13,14|香港4|@ripaojiedian
   network: tcp
@@ -2201,10 +2190,14 @@ proxies:
   delay: 1303
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - DMIT Cloud Services...
+  name: 11,13,14|美国|@ripaojiedian
   network: ws
-  port: 30828
+  port: '30828'
   server: 111.26.109.79
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
@@ -4177,7 +4170,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 11,15|NN_speednode_0012
+  name: 11|越南 - Cầu Diễn - WEB 360 TECHNO...
   network: tcp
   port: 34045
   reality-opts:
@@ -4185,7 +4178,6 @@ proxies:
     short-id: e8ab71d0
   server: 160.250.65.132
   servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -4319,6 +4311,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '12|Channel id: @ShadowProxy66🇫🇷'
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
 - name: '12|Channel id: @ShadowProxy66🇺🇸 #3'
   obfs: salamander
   obfs-password: fWQ4LCfAYiKaEVRe
@@ -4382,9 +4382,9 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
-  password: awsps0501
+  password: qawszxc123
   port: 443
-  server: 18.183.222.24
+  server: 13.250.23.45
   tfo: false
   type: ss
 - alterId: 2
@@ -4414,7 +4414,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 14150
+  port: 12441
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
@@ -4433,52 +4433,40 @@ proxies:
   server: 120.232.220.156
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港6|@ripaojiedian
-  port: 36519
-  server: 183.236.51.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
+    host: 202506131022370-N03InetROm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 278d70a0-ac4b-41fd-a66a-8bd84cdd852c
+  port: 28713
+  server: wb.kaiqsz.com
+  skip-cert-verify: true
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - cipher: aes-256-gcm
   name: 13|🇯🇵 日本2|@ripaojiedian
-  password: 264727317ef6
+  password: 9acff807c3cc
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr9v1.3ci.xyz
+    host: jplistv1.dashengjs.net
     mode: websocket
     mux: true
-    path: /ylikhqxcjfeb
+    path: /bzdeylzmbo
     skip-cert-verify: false
     tls: true
-  port: 34808
-  server: kr9v1.3ci.xyz
+  port: 443
+  server: 163.61.206.64
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  port: 10331
-  server: 45.159.50.131
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
 - cipher: aes-256-gcm
   name: 13|🇯🇵 日本5|@ripaojiedian
   password: dwz1GtF7
@@ -4488,36 +4476,33 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,14|美国|@ripaojiedian
+  name: 13,14|新加坡2|@ripaojiedian
   network: ws
-  port: '80'
-  server: SssssssW.222560.XYz
+  port: '8080'
+  server: 172.64.229.5
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+  uuid: 697343bc-9c91-47bb-a277-181ea7586313
   ws-opts:
     headers:
-      Host: sssssssw.222560.xyz
-    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬 新加坡2|@ripaojiedian
-  port: 50152
-  server: 120.232.153.40
-  skip-cert-verify: false
+      Host: xjp.yilex.icu
+    path: /
+- cipher: rc4-md5
+  name: 13|🇸🇬 新加坡3|@ripaojiedian
+  password: fwjJxq
+  port: 29191
+  server: sgp05.htz.wtf
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
 - cipher: rc4-md5
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
+    host: 202506131022370-N03InetROm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -4528,7 +4513,7 @@ proxies:
   name: 13,14|美国3|@ripaojiedian
   network: ws
   port: '80'
-  server: iIiiI8.222560.xYZ
+  server: dddddDDDDD4.222560.xyZ
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -4537,18 +4522,15 @@ proxies:
   uuid: 393b1061-d615-459a-8616-3f9447bdff5a
   ws-opts:
     headers:
-      Host: iiiii8.222560.xyz
+      Host: dddddddddd4.222560.xyz
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
-- alterId: 0
-  cipher: auto
-  name: 14|香港v2|@ripaojiedian
-  network: kcp
-  port: '10655'
-  server: 43.99.247.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
+- cipher: aes-256-gcm
+  name: 13|🇷🇺 俄罗斯|@ripaojiedian
+  password: ae627920168c1cce
+  port: 50120
+  server: 185.22.154.123
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|台湾v2|@ripaojiedian
@@ -4559,16 +4541,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
-- alterId: 0
-  cipher: auto
-  name: 14|日本4|@ripaojiedian
-  network: tcp
-  port: '10331'
-  server: 45.159.50.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
 - alterId: 0
   cipher: auto
   name: 14|日本v2|@ripaojiedian
@@ -4589,70 +4561,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50152'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|CN_speednode_0004
-  password: VdWBGFmg
-  port: 23770
-  server: 36.151.251.62
+- name: 15|GB_speednode_0005
+  network: ws
+  port: 8880
+  server: 91.193.58.155
+  servername: steep.skyfigure.top
   skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  udp: true
-- http-opts:
-    headers:
-      Host:
-      - divarcdn.com
-    method: GET
-    path:
-    - /
-  name: 15|ES_speednode_0005
-  network: http
-  port: 37823
-  server: tel.vpncustomize.reziazaran.ir
-  servername: divarcdn.com
-  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 5a186a86-1d2c-43b1-85d9-1ad3f60f6be7
-- name: 15|TH_speednode_0014
-  network: ws
-  port: 19816
-  server: 45.144.167.46
-  servername: rs-sg2.lzjnb.shop
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
   ws-opts:
     headers:
-      Host: rs-sg2.lzjnb.shop
-    path: /lzjjjjj666
-- name: 15|TH_speednode_0015
-  network: ws
-  port: 19816
-  server: 45.144.167.46
-  servername: rs-hk.lzjnb.shop
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-  ws-opts:
-    headers:
-      Host: rs-hk.lzjnb.shop
-    path: /lzjjjj666
-- name: 15|US_speednode_0018
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|US_speednode_0017
   network: ws
   port: 80
   server: 104.17.220.188
@@ -4666,63 +4589,7 @@ proxies:
     headers:
       Host: varzesh3.varzesh.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0019
-  network: ws
-  port: 80
-  server: 104.16.136.210
-  servername: agolna.mahsaamini.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cba0b35b-8943-4c70-a864-9f78145b7897
-  ws-opts:
-    headers:
-      Host: agolna.mahsaamini.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0022
-  network: ws
-  port: 80
-  server: 172.67.17.195
-  servername: sib.sibzamini.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
-  ws-opts:
-    headers:
-      Host: sib.sibzamini.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0023
-  network: ws
-  port: 80
-  server: 172.66.132.44
-  servername: abcd.taraneh.dpdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5459f68e-d914-4b31-93a3-ecdf638b7a5b
-  ws-opts:
-    headers:
-      Host: abcd.taraneh.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0024
-  network: ws
-  port: 80
-  server: 104.18.30.65
-  servername: lot.sosant.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  ws-opts:
-    headers:
-      Host: lot.sosant.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0025
+- name: 15|US_speednode_0018
   network: ws
   port: 80
   server: 104.17.104.45
@@ -4736,77 +4603,36 @@ proxies:
     headers:
       Host: lot.sosant.dpdns.org
     path: /?ed=2560
-- client-fingerprint: firefox
-  name: 15|US_speednode_0026
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 144.202.114.28
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 15|US_speednode_0027
+- name: 15|US_speednode_0019
   network: ws
   port: 80
-  server: 104.24.247.217
-  servername: dw.alibichareh.dpdns.org
+  server: 104.16.108.43
+  servername: oops.shalamshorba.dpdns.org
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+  uuid: 948f6596-66f9-4707-aa92-3107a214ce53
   ws-opts:
     headers:
-      Host: dw.alibichareh.dpdns.org
+      Host: oops.shalamshorba.dpdns.org
     path: /?ed=2560
-- name: 15|US_speednode_0028
+- name: 15|US_speednode_0020
   network: ws
   port: 80
-  server: 172.67.92.147
-  servername: br.presskiwi.dpdns.org
+  server: 104.17.99.202
+  servername: lot.sosant.dpdns.org
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: b8be6118-0dd7-4402-ae1a-69b2816f3a7f
+  uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
   ws-opts:
     headers:
-      Host: br.presskiwi.dpdns.org
-    path: /?ed=2560
-- name: 15|US_speednode_0030
-  network: ws
-  port: 80
-  server: fastly.vipfast7.top
-  servername: fastusa.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2820219d-0979-4914-9ea1-09a4bd017535
-  ws-opts:
-    headers:
-      Host: fastusa.com
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
-- name: 15|US_speednode_0031
-  network: ws
-  port: 80
-  server: 104.24.56.187
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
+      Host: lot.sosant.dpdns.org
     path: /?ed=2560
 - client-fingerprint: firefox
-  name: 15|VN_speednode_0032
+  name: 15|VN_speednode_0024
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -4819,25 +4645,12 @@ proxies:
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
 - client-fingerprint: firefox
-  name: 15|VN_speednode_0033
+  name: 15|VN_speednode_0025
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
     short-id: e8ab71d0
   server: 103.12.77.78
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: firefox
-  name: 15|VN_speednode_0034
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 103.12.77.90
   servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
   skip-cert-verify: false
   tls: true
