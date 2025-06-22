@@ -145,26 +145,33 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-N03InetROm.download.microsoft.com
+    host: 202506212021989-867GWDXRgC.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13|🇺🇸 美国3|@ripaojiedian
   network: ws
-  port: '80'
-  server: dddddDDDDD4.222560.xyZ
-  servername: ''
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+  port: 443
+  server: 104.21.6.179
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+  sni: ZZzzzZZ.890601.XYZ
+  type: trojan
   ws-opts:
     headers:
-      Host: dddddddddd4.222560.xyz
-    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+      Host: ZZzzzZZ.890601.XYZ
+    path: /l96MZ8se5Kl2p8BiMhP42l
+- name: 14|美国3|@ripaojiedian
+  network: ws
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+  port: 443
+  server: 104.21.6.179
+  sni: ZZzzzZZ.890601.XYZ
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ZZzzzZZ.890601.XYZ
+    path: '%2Fl96MZ8se5Kl2p8BiMhP42l'
