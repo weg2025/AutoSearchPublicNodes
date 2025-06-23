@@ -8,9 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  client-fingerprint: ''
-  delay: 2124
-  name: 2,11|美国 - 亚特兰大 - Akamai Technologie...
+  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -38,50 +36,65 @@ proxies:
   type: trojan
   udp: true
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 1279
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1971
   name: 11|美国 - Elk Grove Village - HostP...
   network: ws
-  port: 80
-  server: 172.67.199.104
+  password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+  port: 443
+  server: eeddcvfgt6.444682.xyz
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: eeddcvfgt6.444682.xyz
+  type: trojan
   udp: true
-  uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
   ws-opts:
     headers:
-      Host: eeefr5t6.4444916.xyz
-    path: /NjLXrucxVIcvpHPhIJoo2wcE6Q
-  xudp: true
-- alterId: 0
-  cipher: auto
-  delay: 1260
-  name: 11|美国 - 拉斯维加斯 - FranTech Solution...
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /ctHoQlqeZn8pbEUSLppj7jCmY
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 2046
+  name: '11|美国 - Elk Grove Village - HostP... #1'
   network: ws
-  port: 20062
-  server: 45.147.201.231
-  tls: false
-  type: vmess
+  password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+  port: 443
+  server: iiiiop0.444752.xyz
+  skip-cert-verify: false
+  sni: iiiiop0.444752.xyz
+  type: trojan
   udp: true
-  uuid: e1dca130-d74e-47fa-82d6-4c3773e6f813
   ws-opts:
-    path: /
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /ctHoQlqeZn8pbEUSLppj7jCmY
+- client-fingerprint: chrome
+  delay: 1519
+  name: 11|美国 - Reston - OVH SAS - 176
+  network: ws
+  password: aTArbZ2F0E
+  port: 443
+  server: 172.66.168.218
+  skip-cert-verify: false
+  sni: uSa-vp-27.bLAzECLOUD.SITE
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /linkvkws
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  delay: 1303
-  h2-opts: {}
-  http-opts: {}
-  name: 11,13,14|美国|@ripaojiedian
+  client-fingerprint: ''
+  delay: 954
+  name: 11|美国 - 亚特兰大 - Akamai Technologie...
   network: ws
-  port: '30828'
+  port: 30807
   server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -89,45 +102,106 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  delay: 1790
-  name: 11|美国 - 洛杉矶 - HostPapa - 16
+- delay: 2671
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  password: VdWBGFmg
+  port: 23770
+  server: 36.151.251.62
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 2908
+  name: 11|美国 - 水牛城 - HostPapa - 16
   network: ws
-  port: 8443
-  server: 141.101.121.34
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  password: a7c9c017-db10-4d15-b01b-0634db498b57
+  port: 443
+  server: 172.67.197.165
+  skip-cert-verify: false
+  sni: ERt5.0890604.XyZ
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 2767
-  name: 11|美国 - 洛杉矶 - Shenzhen lesuyun Ne...
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12027
-  server: mdss-us.04z3susick.download
-  type: ss
-- delay: 1981
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #33'
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /OBmXcXufeTh7sLJtI1
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1505
+  name: 11|美国 - 水牛城 - HostPapa - 183
+  network: ws
+  password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+  port: 443
+  server: 172.67.135.37
+  skip-cert-verify: false
+  sni: rrrRrRRrT.459.pp.ua
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /znQImc22ijDwVOkZfoq
+- alpn:
+  - http%2F1.1
+  delay: 1866
+  name: 11|美国 - 洛杉矶 - HostPapa - 171
+  network: ws
+  password: f898ffcb-6417-4373-9640-0b66091e8206
+  port: 443
+  server: 34r5.11890604.xyz
+  skip-cert-verify: true
+  sni: 34r5.11890604.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 34r5.11890604.xyz
+    path: /CLtmyjAuOFZsWSituzXyJ5XNeH1R1
+- delay: 1249
+  name: 11|美国 - 紐約 - Massivegrid LTD - 4
+  network: ws
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+  port: 443
+  server: 104.21.6.179
+  skip-cert-verify: false
+  sni: ZZzzzZZ.890601.XYZ
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ZZzzzZZ.890601.XYZ
+    path: /l96MZ8se5Kl2p8BiMhP42l
+- delay: 1896
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #68'
   network: ws
   password: d6b8011a-c725-435a-9fec-bf6d3530392c
   port: 2083
-  server: 194.53.53.249
+  server: 156.238.18.196
   skip-cert-verify: true
-  sni: vle.amclubsvip.dpdns.org
+  sni: vle.amclubdns.dpdns.org
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: vle.amclubsvip.dpdns.org
+      Host: vle.amclubdns.dpdns.org
     path: /?ed=2560&PROT_TYPE=trojan
+- delay: 1559
+  name: 11|美国 - 芝加哥 - BACLOUD - 172
+  password: 800b08d59ae950b1ac3955137d30f98d
+  port: 443
+  server: notice.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  client-fingerprint: ''
-  delay: 2687
+  delay: 1116
   name: 11|荷兰 - Meppel - PQ HOSTING PLUS ...
   network: ws
   port: 30830
@@ -145,33 +219,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-867GWDXRgC.download.microsoft.com
+    host: 202506212021989-k8hslBf1A0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-  port: 443
-  server: 104.21.6.179
-  skip-cert-verify: false
-  sni: ZZzzzZZ.890601.XYZ
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ZZzzzZZ.890601.XYZ
-    path: /l96MZ8se5Kl2p8BiMhP42l
-- name: 14|美国3|@ripaojiedian
-  network: ws
-  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-  port: 443
-  server: 104.21.6.179
-  sni: ZZzzzZZ.890601.XYZ
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ZZzzzZZ.890601.XYZ
-    path: '%2Fl96MZ8se5Kl2p8BiMhP42l'

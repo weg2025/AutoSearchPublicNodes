@@ -1,9 +1,13 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 956
-  name: 11|加拿大 - 多伦多 - DigitalOcean, LLC ...
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12045
-  server: mdss-other.04z3susick.download
-  type: ss
+- cipher: rc4-md5
+  delay: 407
+  name: 11|加拿大 - 渥太華 - Prime Security Cor...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: ypSmfL
+  port: 50472
+  protocol: origin
+  protocol-param: ''
+  server: pccw02.graniterapids.com
+  type: ssr
+  udp: true

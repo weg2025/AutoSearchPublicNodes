@@ -12,11 +12,22 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- cipher: chacha20-ietf-poly1305
-  delay: 706
-  name: 11|德国 - 萨尔布吕肯 - OVH ISP - 1
-  password: XwoHfpvuczzHOkOebGXiUO
-  port: 49551
-  server: 87.98.242.137
-  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: chacha20-poly1305
+  delay: 2119
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 21
+  network: ws
+  port: 8080
+  server: npmjs.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: syyeiypvpv-16219239204.khastehnabashi.com
+    path: /ovh/cdn
+  xudp: true

@@ -1,25 +1,28 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 956
-  name: 11|加拿大 - 多伦多 - DigitalOcean, LLC ...
-  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
-  port: 12045
-  server: mdss-other.04z3susick.download
-  type: ss
-- delay: 2685
-  down: ''
-  fingerprint: ''
-  name: 11|加拿大 - 多伦多 - Oracle Corporation...
-  obfs: ''
-  obfs-password: ''
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 129.153.59.124
+- alpn:
+  - h3
+  auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  delay: 1047
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 150.230.24.24
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-  up: ''
+  udp: true
+- cipher: rc4-md5
+  delay: 407
+  name: 11|加拿大 - 渥太華 - Prime Security Cor...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: ypSmfL
+  port: 50472
+  protocol: origin
+  protocol-param: ''
+  server: pccw02.graniterapids.com
+  type: ssr
+  udp: true
 - name: '12|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
@@ -29,37 +32,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 15|CA_speednode_0009
-  network: ws
-  port: 8880
-  server: 74.49.215.251
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|CA_speednode_0010
-  network: ws
-  port: 8880
-  server: 23.227.60.251
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|CA_speednode_0011
+  name: 15|CA_speednode_0015
   network: ws
   port: 8880
   server: 74.49.214.251
@@ -68,8 +41,22 @@ proxies:
   tls: false
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: 0926.qiang2000.link
+      Host: cf.d3z.net
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|CA_speednode_0017
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  server: 192.18.153.86
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff

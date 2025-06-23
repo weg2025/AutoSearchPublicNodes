@@ -1,92 +1,93 @@
 proxies:
-- client-fingerprint: firefox
-  delay: 1211
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 11|英国 - Erith - OVH SAS - 8
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
+  delay: 749
+  name: 11|英国 - Erith - OVH SAS - 7
   network: tcp
   port: 443
-  reality-opts:
-    public-key: guEY2h3j9K3Z_j0G6SyVjqhwOED7xjQ1Cutajkr6uFw
-    short-id: e60a15dd
-  server: 51.77.109.173
-  servername: mirror.yandex.ru
+  server: 57.128.178.253
+  servername: en.linceedab.com
   tls: true
   type: vless
   udp: true
-  uuid: b4f3c864-3241-4abe-884e-adffcbbc5ffa
+  uuid: 2b5feae8-1a36-43cd-a722-83522e34853c
   xudp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 2457
-  name: 11|英国 - 伦敦 - Akamai Technologies,...
-  network: ws
-  port: 30836
-  server: v36.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v36.heduian.link
-    path: /oooo
-- country: 🇬🇧GB
-  delay: 1249
-  name: 11|英国 - 伦敦 - OVH SAS - 1
-  password: 5d59a6f0-48a1-11f0-94a7-1239d0255272
+- auth: d1ef2a93-0b90-482c-ab0e-489cdcd89e81
+  delay: 905
+  name: 11|英国 - Slough - DigitalOcean, LL...
+  obfs: salamander
+  obfs-password: uEpX5JRpjcSyUrjR
+  password: d1ef2a93-0b90-482c-ab0e-489cdcd89e81
   port: 443
-  server: uk1.test3.net
-  skip-cert-verify: true
-  type: trojan
+  server: gb1.vip.edu.kg
+  skip-cert-verify: false
+  sni: gb1.vip.edu.kg
+  type: hysteria2
   udp: true
-- country: 🇬🇧GB
-  delay: 1236
-  name: 11|英国 - 伦敦 - OVH SAS - 2
-  password: 6c8f2de0-48a2-11f0-bdd4-1239d0255272
+- auth: 45fdac14-b280-452a-8f77-960a86dc1c2c
+  delay: 853
+  name: '11|英国 - Slough - DigitalOcean, LL... #1'
+  obfs: salamander
+  obfs-password: uEpX5JRpjcSyUrjR
+  password: 45fdac14-b280-452a-8f77-960a86dc1c2c
   port: 443
-  server: uk1.test3.net
-  skip-cert-verify: true
-  type: trojan
+  server: gb1.vip.edu.kg
+  skip-cert-verify: false
+  sni: gb1.vip.edu.kg
+  type: hysteria2
   udp: true
-- country: 🇬🇧GB
-  delay: 1240
-  name: 11|英国 - 伦敦 - OVH SAS - 3
-  password: 2543a880-48a1-11f0-8578-1239d0255272
+- auth: 18fc249f-2ed1-4cce-86cf-fc0bfbb12ae7
+  delay: 1329
+  name: '11|英国 - Slough - DigitalOcean, LL... #2'
+  obfs: salamander
+  obfs-password: uEpX5JRpjcSyUrjR
+  password: 18fc249f-2ed1-4cce-86cf-fc0bfbb12ae7
   port: 443
-  server: uk1.test3.net
-  skip-cert-verify: true
-  type: trojan
+  server: gb1.vip.edu.kg
+  skip-cert-verify: false
+  sni: gb1.vip.edu.kg
+  type: hysteria2
   udp: true
-- country: 🇬🇧GB
-  delay: 1248
-  name: 11|英国 - 伦敦 - OVH SAS - 4
-  password: 970ec930-48a2-11f0-a318-1239d0255272
-  port: 443
-  server: uk1.test3.net
+- auth: a6b78477-fa4d-4c9e-be72-e3eaf11135fc
+  delay: 2344
+  name: 11|英国 - 伦敦 - Regxa Company for In...
+  password: a6b78477-fa4d-4c9e-be72-e3eaf11135fc
+  port: 22156
+  server: hsyg.huasuan666.top
   skip-cert-verify: true
-  type: trojan
+  sni: hsyg.huasuan666.top
+  type: hysteria2
   udp: true
-- country: 🇬🇧GB
-  delay: 1171
-  name: 11|英国 - 伦敦 - OVH SAS - 5
-  password: a7c7bbf0-48a1-11f0-b880-1239d0255272
-  port: 443
-  server: uk1.test3.net
+- auth: 3654bb89-1637-4913-9438-c70f74db8698
+  delay: 1000
+  name: '11|英国 - 伦敦 - Regxa Company for In... #1'
+  password: 3654bb89-1637-4913-9438-c70f74db8698
+  port: 18580
+  server: ztcloudgb.ztcloud.xyz
   skip-cert-verify: true
-  type: trojan
+  sni: ztcloudgb.ztcloud.xyz
+  type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  delay: 868
-  name: 11|英国 - 伦敦 - OVH SAS - 7
-  password: 34876650-48a2-11f0-8fd6-1239d0255272
-  port: 443
-  server: 51.38.65.155
+- auth: 961994e0-a204-497d-9d64-4fb2202e6f3f
+  delay: 1203
+  name: '11|英国 - 伦敦 - Regxa Company for In... #2'
+  password: 961994e0-a204-497d-9d64-4fb2202e6f3f
+  port: 18580
+  server: ztcloudgb.ztcloud.xyz
   skip-cert-verify: true
-  sni: uk1.test3.net
-  type: trojan
+  sni: ztcloudgb.ztcloud.xyz
+  type: hysteria2
+  udp: true
+- auth: ec12c3f0-bc9b-44ec-bbc6-990bbca7950c
+  delay: 857
+  name: '11|英国 - 伦敦 - Regxa Company for In... #3'
+  password: ec12c3f0-bc9b-44ec-bbc6-990bbca7950c
+  port: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
+  type: hysteria2
   udp: true
 - name: '12|Channel id: @ShadowProxy66🇬🇧'
   password: e48d6377dda26840
@@ -96,7 +97,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0035
+  name: 15|GB_speednode_0053
   network: ws
   port: 8880
   server: 80.93.202.251
@@ -105,13 +106,28 @@ proxies:
   tls: false
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: 0926.qiang2000.link
+      Host: cf.d3z.net
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0036
+  name: 15|GB_speednode_0054
+  network: ws
+  port: 8880
+  server: 25.129.197.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|GB_speednode_0057
   network: ws
   port: 8880
   server: 25.129.199.251
@@ -120,53 +136,23 @@ proxies:
   tls: false
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: 0926.qiang2000.link
+      Host: cf.d3z.net
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0037
+  name: 15|GB_speednode_0058
   network: ws
   port: 8880
-  server: 194.36.55.251
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|GB_speednode_0038
-  network: ws
-  port: 8880
-  server: 109.176.239.251
+  server: 94.247.142.251
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: 0926.qiang2000.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|GB_speednode_0039
-  network: ws
-  port: 8880
-  server: 104.239.72.251
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-  ws-opts:
-    headers:
-      Host: 0926.qiang2000.link
+      Host: cf.d3z.net
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
