@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -20,14 +20,14 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -35,168 +35,82 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- alterId: 2
+- cipher: aes-256-cfb
+  delay: 630
+  name: 10|美国 - 洛杉矶 - Dedicated.com - 1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1776
+  delay: 671
   h2-opts: {}
   http-opts: {}
-  name: 11|意大利 - 罗马市 - PQ HOSTING PLUS S....
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  servername: ocbc.com
-  skip-cert-verify: true
+  name: 10|美国 - 盐湖城 - Bage Cloud LLC - 3
+  port: 45251
+  server: 112.65.92.20
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      HOST: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1520
-  name: 11|美国 - 亚特兰大 - Akamai Technologie...
-  network: ws
-  port: 30807
-  server: 111.26.109.79
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  delay: 1813
-  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
-  network: ws
-  port: 30804
-  server: v4.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v4.heduian.link
-    path: /oooo
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1058
+  delay: 1208
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: api.jquery.com
-  servername: admin.kasrax.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      HOST: admin.kasrax.ir
-    path: /us.kkp.me.eu.org/aa
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2168
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 紐約 - Massivegrid LTD - 1
+  name: 10|美国 - 紐約 - Massivegrid LTD - 2
   network: ws
   port: 80
-  server: 104.21.38.90
-  servername: dddcccdvfg.222856.xyz
+  server: 104.21.52.157
+  servername: 222222222d.freevpn2026.dpdns.org
   skip-cert-verify: true
   type: vmess
-  uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  uuid: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
   ws-opts:
     headers:
-      HOST: dddcccdvfg.222856.xyz
-    path: /87Ex2JiYYWr7FRa06b88JSo
-- alpn:
-  - http%2F1.1
-  delay: 2724
-  name: 11|美国 - 紐約 - Massivegrid LTD - 18
+      HOST: 222222222d.freevpn2026.dpdns.org
+    path: /WsUikr8wXrXrFl2p8BiMhP42l
+- alterId: 2
+  cipher: auto
+  delay: 2795
+  name: 10|荷兰 - Meppel - PQ HOSTING PLUS ...
   network: ws
-  password: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c
-  port: 443
-  server: 104.21.16.1
-  skip-cert-verify: true
-  sni: ttYUi.7777198.xYZ
-  type: trojan
+  port: 30830
+  server: v30.heduian.link
+  tls: false
+  type: vmess
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ttYUi.7777198.xYZ
-    path: /s1XRkMWuneQkqtp5KKSues
-- delay: 1388
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 156.238.18.196
-  skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- alpn:
-  - http%2F1.1
-  delay: 2823
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #4'
-  network: ws
-  password: c4f42f64-a7cb-4bcb-874e-5088eac28576
-  port: 2053
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: mAHsA.965871a.stORe
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mAHsA.965871a.stORe
-    path: /trm1dElsZUiMH92q8d
-- delay: 1112
-  name: 11|美国 - 芝加哥 - Larus Limited - 14
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 120.233.128.68
-  skip-cert-verify: true
-  sni: 120.233.128.68
-  type: trojan
-  udp: true
+      Host: v30.heduian.link
+    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-5APTadCgJb.download.microsoft.com
+    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 15|US_speednode_0264
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|美国3|@ripaojiedian
   network: ws
-  password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
-  port: 443
-  server: 104.21.3.189
-  skip-cert-verify: true
-  sni: CcCVfGTyU.89060004.Xyz
-  type: trojan
-  udp: true
+  port: '38003'
+  server: 38.11.18.221
+  servername: www.47720602.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: CcCVfGTyU.89060004.Xyz
-    path: /5MkU0nARgHwk3aXBStn7
+      Host: www.47720602.xyz
+    path: /path/262029062315

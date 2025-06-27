@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
+- name: 1|🇩🇪1 |  1.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.148.22
@@ -13,7 +13,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪2 |  1.3MB/s|0%|Openai
+- name: 1|🇩🇪2 |  1.3MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -27,7 +27,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪3 |  2.6MB/s|20%|Openai
+- name: 1|🇩🇪3 |  2.6MB/s|20%|Openai
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 2|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+- name: 1|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -59,7 +59,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -75,7 +75,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  name: 1|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -85,250 +85,148 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- delay: 1491
-  name: 11,15|US_speednode_0179
-  network: ws
-  port: 80
-  server: 172.66.141.21
-  servername: a1.ghormehsabzi.dpdns.org
+- alterId: 0
+  cipher: auto
+  country: 🇩🇪DE
+  delay: 1683
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - Frankfurt Am Main - Hetzn...
+  network: tcp
+  port: 33203
+  server: 91.107.164.255
   skip-cert-verify: true
+  type: vmess
+  uuid: a82148dd-4f11-4472-b341-f63f57dce17f
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 2666
+  h2-opts: {}
+  http-opts: {}
+  name: '10|德国 - Frankfurt Am Main - Hetzn... #1'
+  network: tcp
+  port: 7600
+  server: 78.39.56.4
+  skip-cert-verify: true
+  type: vmess
+  uuid: ce63d7ce-bc85-455a-a12b-4e54eb39a14f
+- alterId: 0
+  cipher: auto
+  delay: 1327
+  h2-opts: {}
+  http-opts: {}
+  name: '10|德国 - Frankfurt Am Main - Hetzn... #2'
+  network: ws
+  port: 80
+  server: 102.132.188.3
+  servername: h4.grAsSoRy.shop
+  skip-cert-verify: true
+  type: vmess
+  uuid: e95e35ba-f874-4eb3-9600-4dbd6d099f4e
+  ws-opts:
+    headers:
+      HOST: h4.grAsSoRy.shop
+    path: /
+- delay: 570
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  network: ws
+  port: 80
+  server: 172.67.36.32
   tls: false
   type: vless
   udp: true
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
+  uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
   ws-opts:
     headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- delay: 1972
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
-  network: ws
-  port: 80
-  server: 104.27.126.10
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- delay: 490
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #2'
-  network: ws
-  port: 80
-  server: 172.67.9.145
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- delay: 492
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #3'
-  network: ws
-  port: 80
-  server: 172.67.56.112
-  servername: entezar.loseyourself.dpdns.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- delay: 456
-  name: 11,15|US_speednode_0182
-  network: ws
-  port: 80
-  server: 104.24.34.94
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  ws-opts:
-    headers:
-      Host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2571
-- delay: 482
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #5'
-  network: ws
-  port: 80
-  server: 104.24.135.83
-  servername: delam.ahaysiahzangi.dpdns.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- delay: 443
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #6'
-  network: ws
-  port: 80
-  server: 172.67.67.92
-  servername: delam.ahaysiahzangi.dpdns.org
-  tls: false
-  type: vless
-  udp: true
-  uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  ws-opts:
-    headers:
-      Host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- delay: 427
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #7'
-  network: ws
-  port: 80
-  server: 104.24.56.187
-  servername: a1.ghormehsabzi.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e6236ebc-7334-4bed-977f-0c20bcdfcc00
-  ws-opts:
-    headers:
-      Host: a1.ghormehsabzi.dpdns.org
-    path: /?ed=2560
-- delay: 1130
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #8'
-  network: ws
-  port: 80
-  server: 172.66.212.68
-  tls: false
-  type: vless
-  udp: true
-  uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  ws-opts:
-    headers:
-      Host: entezar.loseyourself.dpdns.org
-    path: /?ed=2570
+      Host: barayeiran.nastaranh.dpdns.org
+    path: /Telegram@V2ray_Alpha/?ed=2570
 - client-fingerprint: chrome
-  name: 15|DE_speednode_0051
+  delay: 1510
+  name: 10|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
+    short-id: 7def4dde
+  server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+  servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 33707040-edcf-4185-94e4-2a071315c602
+- client-fingerprint: chrome
+  name: 14|DE_speednode_0020
   network: ws
   port: 8880
-  server: 188.244.122.254
+  server: 5.10.215.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 14|DE_speednode_0021
+  network: ws
+  port: 8880
+  server: 77.37.33.3
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  ws-opts:
+    headers:
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|DE_speednode_0052
+  name: 14|DE_speednode_0022
   network: ws
   port: 8880
-  server: 140.99.233.254
+  server: 5.10.214.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|DE_speednode_0053
+  name: 14|DE_speednode_0025
   network: ws
   port: 8880
-  server: 5.182.34.254
+  server: 188.244.122.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|DE_speednode_0054
+  name: 14|DE_speednode_0026
   network: ws
   port: 8880
-  server: 5.10.214.254
+  server: 89.116.46.3
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0055
-  network: ws
-  port: 8880
-  server: 89.116.46.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0056
-  network: ws
-  port: 8880
-  server: 185.135.9.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0057
-  network: ws
-  port: 8880
-  server: 77.37.33.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0058
-  network: ws
-  port: 8880
-  server: 45.80.111.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
+      Host: bitget1.asdasd.click
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560

@@ -1,19 +1,9 @@
 proxies:
-- country: 🇨🇦CA
-  delay: 1842
-  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 129.153.59.124
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
 - alpn:
   - h3
   auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  delay: 1138
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  delay: 1520
+  name: 10|加拿大 - 多伦多 - Cloudflare, Inc. -...
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 150.230.24.24
@@ -21,64 +11,14 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2614
-  h2-opts: {}
-  http-opts: {}
-  name: 11|加拿大 - 多伦多 - HostPapa - 1
-  network: ws
-  port: 2053
-  server: 172.67.131.27
-  servername: cc2d4.89060004.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
-  ws-opts:
-    headers:
-      HOST: cc2d4.89060004.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2603
-  h2-opts: {}
-  http-opts: {}
-  name: 11|加拿大 - 多伦多 - HostPapa - 2
-  network: ws
-  port: 2053
-  server: 104.21.3.189
-  servername: cc2d4.89060004.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
-  ws-opts:
-    headers:
-      HOST: cc2d4.89060004.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1432
-  h2-opts: {}
-  http-opts: {}
-  name: 11|加拿大 - 多伦多 - HostPapa - 3
-  network: ws
-  port: 2087
-  server: 172.67.131.27
-  servername: cc2d2.89060004.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
-  ws-opts:
-    headers:
-      HOST: cc2d2.89060004.xyz
-    path: /
-- name: '12|Channel id: @ShadowProxy66🇨🇦'
+- cipher: chacha20-ietf-poly1305
+  delay: 2003
+  name: 10|加拿大 - 多伦多 - Regxa Company for ...
+  password: N2E4M
+  port: 8388
+  server: ca.opensocks.site
+  type: ss
+- name: '11|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 40.233.70.163
@@ -86,62 +26,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 15|CA_speednode_0019
-  network: ws
-  port: 8880
-  server: 74.49.215.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|CA_speednode_0020
-  network: ws
-  port: 8880
-  server: 74.49.214.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|CA_speednode_0021
-  network: ws
-  port: 8880
-  server: 23.227.60.254
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  ws-opts:
-    headers:
-      Host: yg.bantony199.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CA_speednode_0022
-  port: 42557
-  reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
-  server: 150.230.24.24
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
