@@ -15,23 +15,49 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- auth: 7788d84f-a530-4393-8ce4-a05ab4ef537d
-  delay: 1995
-  name: 10|日本 - 东京 - Baxet Group Inc. - 1
-  password: 7788d84f-a530-4393-8ce4-a05ab4ef537d
-  port: 18530
-  server: ztcloudjp.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudjp.ztcloud.xyz
-  type: hysteria2
+- cipher: aes-256-gcm
+  delay: 349
+  name: 11|日本 - Chiyoda - Velo Link, Inc....
+  password: KY6T7MOYVUYDCE0T
+  port: 18011
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 345
+  name: '11|日本 - Chiyoda - Velo Link, Inc.... #1'
+  password: ARXJ37E4V8N09KWH
+  port: 18005
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  delay: 512
+  name: 11,13|🇯🇵 日本4|@ripaojiedian
+  password: KAB2P3693PNXGL0D
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  delay: 2000
+  name: 11,13|🇯🇵 日本3|@ripaojiedian
+  password: Y5YXP5V1312FYBX8
+  port: 18010
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -39,31 +65,23 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: fbf9b0db0136
+  name: 13|🇯🇵 日本2|@ripaojiedian
+  password: 1ad90a422096
   plugin: v2ray-plugin
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
     mux: true
-    path: /hvehrabivnnp
+    path: /jwuctcuhriiw
     skip-cert-verify: false
     tls: true
-  port: 995
-  server: 43.226.17.11
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.206.224.12
+  port: 636
+  server: 43.226.17.8
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本v2|@ripaojiedian
+  name: 14|日本v2|@ripaojiedian
   network: kcp
   port: '47628'
   server: 47.74.43.182
@@ -72,17 +90,17 @@ proxies:
   type: vmess
   uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - client-fingerprint: chrome
-  name: 14|JP_speednode_0048
+  name: 15|JP_speednode_0089
   network: ws
   port: 8880
-  server: 103.116.7.3
+  server: 103.116.7.13
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
   ws-opts:
     headers:
-      Host: bitget1.asdasd.click
+      Host: c.82313369.xyz
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560

@@ -37,26 +37,97 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- delay: 2059
+  name: 11|新加坡 - 新加坡 - Oracle Corporation...
+  network: tcp
+  port: 13145
+  server: sg2-b2.oraclenat.cc
+  tls: false
+  type: vless
+  udp: true
+  uuid: 65f3443e-4056-4b51-8203-efd6a33aeafa
 - cipher: aes-256-gcm
-  delay: 787
-  name: 10|新加坡 - 新加坡 - Velo Link, Inc. - ...
-  password: A9QFM22KQPP4FDY5
-  port: 16016
+  client-fingerprint: chrome
+  delay: 240
+  name: 11,13|🇸🇬 新加坡|@ripaojiedian
+  password: PTOLSTKKE7DWRV1I
+  port: 16002
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
   udp: true
-- name: '11|Channel id: @ShadowProxy66🇸🇬'
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  delay: 313
+  name: 11,13|🇸🇬 新加坡2|@ripaojiedian
+  password: LHYN1FM2G207U465
+  port: 16013
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+  udp: true
+- name: '12|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
   server: 92.112.23.216
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡|@ripaojiedian
-  password: zcaarradsfasgfdcxx
-  port: 3551
-  server: nstku8v.ns.p36958.xyz
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 15|SG_speednode_0152
+  network: ws
+  port: 8880
+  server: 92.243.74.13
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|SG_speednode_0153
+  network: ws
+  port: 8880
+  server: 92.243.75.13
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  name: 15|SG_speednode_0154
+  network: ws
+  port: 8880
+  server: 92.243.74.13
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9f3c4ab7-ea26-4d96-91a9-c85ff64ad9a0
+  ws-opts:
+    headers:
+      Host: c.82313369.xyz
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 15|SG_speednode_0155
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: false
+  sni: hsdgbuys.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /

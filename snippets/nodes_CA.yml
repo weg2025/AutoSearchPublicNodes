@@ -1,8 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 2003
-  name: 10|加拿大 - 多伦多 - Regxa Company for ...
-  password: N2E4M
-  port: 8388
-  server: ca.opensocks.site
-  type: ss
+- alterId: 2
+  cipher: auto
+  delay: 1025
+  name: 11|加拿大 - 多伦多 - DigitalOcean, LLC ...
+  network: ws
+  port: 30825
+  server: 111.26.109.79
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
