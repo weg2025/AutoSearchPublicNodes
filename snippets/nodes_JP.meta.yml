@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -17,7 +17,7 @@ proxies:
     path: /634c5c4f9782
 - cipher: aes-256-gcm
   delay: 349
-  name: 11|日本 - Chiyoda - Velo Link, Inc....
+  name: 10|日本 - Chiyoda - Velo Link, Inc....
   password: KY6T7MOYVUYDCE0T
   port: 18011
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -25,63 +25,67 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   delay: 345
-  name: '11|日本 - Chiyoda - Velo Link, Inc.... #1'
+  name: '10|日本 - Chiyoda - Velo Link, Inc.... #1'
   password: ARXJ37E4V8N09KWH
   port: 18005
   server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
   delay: 512
-  name: 11,13|🇯🇵 日本4|@ripaojiedian
+  name: '10|日本 - Chiyoda - Velo Link, Inc.... #2'
   password: KAB2P3693PNXGL0D
   port: 18008
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
   delay: 2000
-  name: 11,13|🇯🇵 日本3|@ripaojiedian
+  name: '10|日本 - Chiyoda - Velo Link, Inc.... #3'
   password: Y5YXP5V1312FYBX8
   port: 18010
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
   type: ss
   udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-W24XiAXvfE.download.microsoft.com
+    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本3|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 54.178.162.204
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: 1ad90a422096
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 08f0c77ed619
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr6v1.dashengjs.net
+    host: xwkr1v1.dsjsapi.net
     mode: websocket
     mux: true
-    path: /jwuctcuhriiw
+    path: /yjriebtdvghs
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 43.226.17.8
+  server: 43.226.17.54
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|日本v2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
   port: '47628'
   server: 47.74.43.182
@@ -90,7 +94,7 @@ proxies:
   type: vmess
   uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0089
+  name: 14|JP_speednode_0089
   network: ws
   port: 8880
   server: 103.116.7.13

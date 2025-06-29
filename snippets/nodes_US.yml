@@ -1,5 +1,5 @@
 proxies:
-- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 0|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -20,14 +20,14 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 0|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -41,7 +41,7 @@ proxies:
   delay: 1563
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - Secaucus - Massivegrid LT...
+  name: 10|美国 - Secaucus - Massivegrid LT...
   network: ws
   port: 80
   server: 104.21.57.206
@@ -56,7 +56,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 2502
-  name: 11|美国 - 亚特兰大 - Akamai Technologie...
+  name: 10|美国 - 亚特兰大 - Akamai Technologie...
   network: ws
   port: 30807
   server: v7.heduian.link
@@ -70,12 +70,15 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
+  client-fingerprint: chrome
   delay: 1789
-  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  name: 10,12,13|美国3|@ripaojiedian
   network: ws
-  port: 30824
+  port: '30824'
   server: v24.heduian.link
-  skip-cert-verify: true
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -85,7 +88,7 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   delay: 613
-  name: 11|美国 - 匹兹堡 - Velo Link, Inc. - 1
+  name: 10|美国 - 匹兹堡 - Velo Link, Inc. - 1
   password: XDX84I26C5MTNQIQ
   port: 17002
   server: 23.185.248.12
@@ -96,7 +99,7 @@ proxies:
   delay: 1454
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 紐約 - Massivegrid LTD - 2
+  name: 10|美国 - 紐約 - Massivegrid LTD - 2
   network: ws
   port: 443
   server: 172.67.162.74
@@ -110,7 +113,7 @@ proxies:
       HOST: p09.iran.pp.ua
     path: /VgtsOrriMf1sdep5KKSues
 - delay: 1930
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
   network: ws
   password: d6b8011a-c725-435a-9fec-bf6d3530392c
   port: 2083
@@ -125,34 +128,17 @@ proxies:
     path: /?ed=2560&PROT_TYPE=trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-W24XiAXvfE.download.microsoft.com
+    host: 202506261935105-0ppQRz8sLh.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 104.21.57.206
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
-  ws-opts:
-    headers:
-      Host: sssssssssssdddfgt.4444926.xyz
-    path: /U2Z0FoBkgtZqfwAwY2SNm
-- name: 15|US_speednode_0253
+- name: 14|US_speednode_0253
   network: ws
   password: c7f423b7-ced8-43da-a9ae-e906cb4a222c
   port: 443
