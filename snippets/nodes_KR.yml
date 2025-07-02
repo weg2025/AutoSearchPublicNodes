@@ -1,1 +1,65 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1575
+  name: 11|韩国 - 首尔特别市 - Amazon.com, Inc. ...
+  password: yijian0503
+  port: 443
+  server: 43.203.255.63
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1390
+  name: '11|韩国 - 首尔特别市 - Amazon.com, Inc. ... #1'
+  password: yijian0503
+  port: 443
+  server: 43.202.58.164
+  type: ss
+- client-fingerprint: chrome
+  name: 13,14|韩国|@ripaojiedian
+  network: tcp
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 13,14|韩国2|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 4448
+  server: 36.151.192.61
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,14|美国|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: 111.26.109.79
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- client-fingerprint: chrome
+  name: 13,14|韩国4|@ripaojiedian
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 3.36.117.121
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
