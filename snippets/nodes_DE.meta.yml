@@ -85,122 +85,55 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2595
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  password: a7qmJCwiMc5yrVMUFwleDw
-  port: 1080
-  server: 185.49.105.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  delay: 1889
-  name: '11|德国 - Frankfurt Am Main - Hetzn... #1'
-  password: a7qmJCwiMc5yrVMUFwleDw
-  port: 1080
-  server: mz.mobile7seven.ir
-  type: ss
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0028
+- country: 🇩🇪DE
+  delay: 672
+  name: 10|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.197.182.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1674
+  name: '10|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.197.182.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 1558
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
-  port: 8880
-  server: 77.37.33.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 104.24.159.174
+  servername: vmess.yxxc.cn
+  tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 621a5d75-7cfa-4677-8826-c4acec005dcf
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0027
+      Host: vmess.yxxc.cn
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  delay: 969
+  name: '10|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
   network: ws
-  port: 8880
-  server: 140.99.233.177
-  servername: Telegram-channel-WangCai2
+  port: 443
+  server: 104.26.13.31
+  servername: FinLAnd-A3r.pAgES.dEv
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: 3130e111-a06c-4388-aeda-4b43f6e8e51f
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0029
-  network: ws
-  port: 8880
-  server: 5.10.215.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0030
-  network: ws
-  port: 8880
-  server: 89.116.46.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0032
-  network: ws
-  port: 8880
-  server: 188.244.122.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0033
-  network: ws
-  port: 8880
-  server: 5.10.214.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0034
-  network: ws
-  port: 8880
-  server: 5.10.214.20
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram@WangCai2
+      Host: finland-a3r.pages.dev
+    path: /Tel-@V2ray_Alpha/?ed=2560

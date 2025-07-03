@@ -6,21 +6,15 @@ proxies:
   server: 125.141.31.72
   type: ss
 - cipher: aes-256-cfb
-  delay: 1575
-  name: 11|韩国 - 首尔特别市 - Amazon.com, Inc. ...
-  password: yijian0503
-  port: 443
-  server: 43.203.255.63
+  delay: 752
+  name: 10|韩国 - Gwanak-gu - Korea Telecom...
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
   type: ss
-- cipher: aes-256-cfb
-  delay: 1390
-  name: '11|韩国 - 首尔特别市 - Amazon.com, Inc. ... #1'
-  password: yijian0503
-  port: 443
-  server: 43.202.58.164
-  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 13,14|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: tcp
   password: 85f133142f04dbf6547da33895cfabb3
   port: 39001
@@ -29,18 +23,18 @@ proxies:
   sni: www.yrtok.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|韩国2|@ripaojiedian
+  name: 12,13|韩国2|@ripaojiedian
   network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4448
-  server: 36.151.192.61
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 13.125.64.14
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: baidu.com
   type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -55,11 +49,11 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 13,14|韩国4|@ripaojiedian
+  name: 12,13|韩国4|@ripaojiedian
   network: tcp
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 3.36.117.121
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 13967
+  server: 36.151.192.60
   skip-cert-verify: true
-  sni: baidu.com
+  sni: www.baidu.com
   type: trojan

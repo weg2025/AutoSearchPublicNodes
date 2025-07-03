@@ -15,77 +15,68 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- auth: a2e49067-e1ec-49e3-8133-710dc645cbf9
-  delay: 2473
-  name: 11|日本 - Chiyoda - Datacamp Limite...
-  password: a2e49067-e1ec-49e3-8133-710dc645cbf9
-  port: 21151
-  server: jp.xn--2vxn29amga.com
+- delay: 2823
+  name: 10|日本 - Negishi - rixCloud - 3
+  password: 96eee01d-74be-440a-94f8-7cc52450395e
+  port: 35789
+  server: jpcn286.s2fjeyeeyafe.bond
   skip-cert-verify: false
-  sni: jp.xn--2vxn29amga.com
+  sni: jpcn286.s2fjeyeeyafe.bond
+  tfo: false
   type: hysteria2
-  udp: true
-- auth: 37856c11-a086-424d-ab3c-67ce5f1a03d2
-  delay: 2116
-  name: '11|日本 - Chiyoda - Datacamp Limite... #2'
-  password: 37856c11-a086-424d-ab3c-67ce5f1a03d2
-  port: 21119
-  server: jp.xn--2vxn29amga.com
-  skip-cert-verify: false
-  sni: jp.xn--2vxn29amga.com
-  type: hysteria2
-  udp: true
 - cipher: aes-256-gcm
-  country: 🇨🇳CN
-  delay: 1274
-  name: 11|日本 - 东京 - Akile LTD - 1
+  client-fingerprint: chrome
+  delay: 1547
+  name: 10,12|🇯🇵 日本3|@ripaojiedian
   password: 781bb54c-f089-48df-8102-01288a81eb10
   port: 44721
   server: jsyd.piaomiaoxu.net
+  tfo: false
   type: ss
-- auth: eff01fc9-e535-4b0c-910e-22c5b554657c
-  delay: 1563
-  name: 11|日本 - 东京 - Baxet Group Inc. - 3
-  password: eff01fc9-e535-4b0c-910e-22c5b554657c
-  port: 18530
-  server: ztcloudjp.ztcloud.xyz
+- alterId: 99999
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 1655
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 东京 - Amazon Technologies ...
+  network: tcp
+  port: 21583
+  server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
   skip-cert-verify: true
-  sni: ztcloudjp.ztcloud.xyz
-  type: hysteria2
-  udp: true
-- auth: fef57f24-7e3d-49ba-ac90-8bfeca69f938
-  delay: 1208
-  name: 11|日本 - 东京 - Baxet Group Inc. - 6
-  password: fef57f24-7e3d-49ba-ac90-8bfeca69f938
-  port: 18530
-  server: ztcloudjp.ztcloud.xyz
-  skip-cert-verify: true
-  sni: ztcloudjp.ztcloud.xyz
-  type: hysteria2
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507020089439-ZZW4Z8jpet.download.microsoft.com
+    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 887bfcf43b52
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp6v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /svynueogf
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.142.143
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 2176
-  server: 36.151.192.60
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4445
@@ -93,48 +84,45 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp7v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.191.38
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
+  name: 12|🇯🇵 日本5|@ripaojiedian
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 27233
   server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   skip-cert-verify: false
   sni: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   type: trojan
-- name: 14|日本5|@ripaojiedian
+- name: 13|日本5|@ripaojiedian
   network: tcp
   password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
   port: 27233
   server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
   type: trojan
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0068
+- name: 14|JP_speednode_0058
   network: ws
-  port: 8880
-  server: 103.116.7.177
-  servername: Telegram-channel-WangCai2
+  port: 10443
+  server: 20.243.85.49
+  servername: edmx.aimercc.filegear-sg.me
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      Host: edmx.aimercc.filegear-sg.me
+    path: /
+- name: 14|JP_speednode_0059
+  network: ws
+  port: 8080
+  server: 82.163.16.69
+  servername: edmx.ambercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmx.ambercc.filegear-sg.me
+    path: /
