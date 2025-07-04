@@ -806,11 +806,10 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
   delay: 751
-  name: 10,12|🇸🇬 新加坡3|@ripaojiedian
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
   password: c376082c-95c3-452e-88e4-6bb6a5daab41
   port: 49900
   server: free-relay.t01.themars.top
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
   country: 🇨🇳CN
@@ -825,11 +824,10 @@ proxies:
   type: ssr
 - cipher: aes-256-gcm
   delay: 1547
-  name: 10,12|🇯🇵 日本3|@ripaojiedian
+  name: 10|日本 - 东京 - Akile LTD - 1
   password: 781bb54c-f089-48df-8102-01288a81eb10
   port: 44721
   server: jsyd.piaomiaoxu.net
-  tfo: false
   type: ss
 - alterId: 99999
   cipher: auto
@@ -1029,48 +1027,33 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   delay: 752
-  name: 10|韩国 - Gwanak-gu - Korea Telecom...
+  name: 10,12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
+  tfo: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 47.129.2.253
+  server: 52.193.38.93
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 12,13|香港|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-gcm
   name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 0b191076d18f
+  password: 23d03aa704c7
   plugin: v2ray-plugin
   plugin-opts:
-    host: hk6v1.dsjsapp.com
+    host: cmihk3v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /ugiibpkbca
+    path: /grqhyifio
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 156.251.179.139
+  server: 156.251.179.181
   tfo: false
   type: ss
 - alterId: 0
@@ -1099,49 +1082,18 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 12,13|香港6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: rc4-md5
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
+    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 887bfcf43b52
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp6v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /svynueogf
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.142.143
-  tfo: false
-  type: ss
-- name: 12,13|日本4|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4445
@@ -1149,26 +1101,34 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|韩国|@ripaojiedian
+- cipher: aes-256-gcm
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 70a0b8103356
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /bezradrqccl
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.142.139
+  tfo: false
+  type: ss
+- name: 12,13|日本4|@ripaojiedian
   network: tcp
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.12
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 39701
+  server: 36.151.192.60
   skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- name: 12|🇯🇵 日本5|@ripaojiedian
-  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  port: 27233
-  server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
+  sni: www.baidu.com
   type: trojan
 - name: 12,13|韩国2|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6668
-  server: 13.125.64.14
+  server: 15.165.19.79
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -1191,8 +1151,8 @@ proxies:
 - name: 12,13|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13967
-  server: 36.151.192.60
+  port: 20615
+  server: 36.151.192.61
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -1217,7 +1177,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506101686237-pCdX1ZAl7Y.download.microsoft.com
+    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1269,13 +1229,22 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
-- name: 13|日本5|@ripaojiedian
-  network: tcp
-  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
-  port: 27233
-  server: 096755a1-sytz40-syu28m-1mmbp.cm5.cnkuaishou.com
+- name: 14|CN_speednode_0023
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
+  skip-cert-verify: false
   type: trojan
-- name: 14|ES_speednode_0002
+  udp: true
+- name: 14|CN_speednode_0024
+  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
+  skip-cert-verify: false
+  sni: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
+  type: trojan
+  udp: true
+- name: 14|ES_speednode_0052
   network: ws
   password: trojan
   port: 8443
@@ -1287,30 +1256,4 @@ proxies:
   ws-opts:
     headers:
       Host: store.timimi.dpdns.org
-    path: /
-- name: 14|HK_speednode_0056
-  network: ws
-  password: trojan
-  port: 8443
-  server: 45.192.222.112
-  skip-cert-verify: false
-  sni: store.timimi.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: /?ed=2560
-- name: 14|SG_speednode_0065
-  network: ws
-  password: ttfang
-  port: 443
-  server: 138.2.64.229
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
     path: /
