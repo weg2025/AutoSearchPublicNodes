@@ -85,45 +85,68 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- country: 🇩🇪DE
-  delay: 672
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.197.182.128
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2154
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 1
+  network: ws
+  port: 443
+  server: cloudgetservice2.mcloudservice.site
+  servername: blazE-GEr-248.blAZeClOuDmaiN.sitE
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1674
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.197.182.128
+  tls: true
+  type: vmess
+  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
+  ws-opts:
+    headers:
+      HOST: blazE-GEr-248.blAZeClOuDmaiN.sitE
+    path: /linkwsrt
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2755
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 2
+  network: ws
+  port: 8443
+  server: ov-germany4.09vpn.com
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- delay: 1558
+  tls: true
+  type: vmess
+  uuid: cfc66d8d-48b5-434f-b92d-22de1907ced7
+  ws-opts:
+    path: /vmess/
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  delay: 1426
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 3
+  password: 5bda2736-81e7-43b4-86fc-286f8f8e6578
+  port: 8443
+  server: de-freevmess.privateip.net
+  type: ss
+- delay: 1501
   name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
   port: 443
-  server: 104.24.159.174
-  servername: vmess.yxxc.cn
+  server: ip.sb
+  servername: rc.ylks0033.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 621a5d75-7cfa-4677-8826-c4acec005dcf
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: vmess.yxxc.cn
+      Host: rc.ylks0033.dpdns.org
     path: /?ed=2560
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: randomized
-  delay: 969
+  delay: 1663
   name: '10|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
   network: ws
   port: 443
@@ -137,7 +160,35 @@ proxies:
     headers:
       Host: finland-a3r.pages.dev
     path: /Tel-@V2ray_Alpha/?ed=2560
-- name: 14|DE_speednode_0028
+- name: 14|DE_speednode_0025
+  network: ws
+  port: 8880
+  server: 89.116.46.77
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0027
+  network: ws
+  port: 8880
+  server: 5.175.141.77
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 14|DE_speednode_0029
   network: ws
   port: 8880
   server: 5.10.215.77
@@ -154,34 +205,6 @@ proxies:
 - name: 14|DE_speednode_0030
   network: ws
   port: 8880
-  server: 5.182.34.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0031
-  network: ws
-  port: 8880
-  server: 89.116.46.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0032
-  network: ws
-  port: 8880
   server: 45.80.111.77
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
@@ -196,74 +219,18 @@ proxies:
 - name: 14|DE_speednode_0033
   network: ws
   port: 8880
-  server: 5.10.214.77
-  servername: Telegram-channel-WangCai2
+  server: 77.37.33.177
+  servername: ip.langmanshanxi.top
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
   ws-opts:
     headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0034
-  network: ws
-  port: 8880
-  server: 5.175.141.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
+      Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - name: 14|DE_speednode_0035
-  network: ws
-  port: 8880
-  server: 188.244.122.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0036
-  network: ws
-  port: 8880
-  server: 185.135.9.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0037
-  network: ws
-  port: 8880
-  server: 77.37.33.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|DE_speednode_0038
   network: ws
   port: 8880
   server: 77.37.33.177
@@ -277,21 +244,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2
-- name: 14|DE_speednode_0039
-  network: ws
-  port: 8880
-  server: 5.10.215.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳
-- name: 14|DE_speednode_0040
+- name: 14|DE_speednode_0038
   network: ws
   port: 8880
   server: 5.10.214.20

@@ -118,81 +118,82 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  delay: 218
+  country: 🇨🇳CN
+  delay: 1822
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 47.116.166.178
-  servername: 47.116.166.178
+  name: 10|中国 - 北京 - Shenzhen Tencent Com...
+  network: ws
+  port: 53122
+  server: yyxxcfsdfk.hjdfghfc.asia
+  servername: file.dingtalk.com
   skip-cert-verify: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
 - alterId: 0
   cipher: auto
-  delay: 276
-  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 47.92.152.169
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  delay: 335
+  country: 🇨🇳CN
+  delay: 1401
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 广州市 - China Mobile - 16
+  name: '10|中国 - 北京 - Shenzhen Tencent Com... #1'
+  network: ws
+  port: 65500
+  server: pjknkhkd.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳 CN
+  delay: 232
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 广州市 - China Mobile - 2
+  network: tcp
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
 - alterId: 64
   cipher: auto
-  delay: 516
+  delay: 364
+  h2-opts: {}
+  http-opts: {}
   name: 10|中国 - 广州市 - China Mobile commun...
   port: 50002
   server: 120.210.205.59
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  delay: 200
-  name: 10|中国 - 杭州 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 120.26.55.225
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 353
+  delay: 1594
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  name: 10|中国 - 香港 - Cnservers LLC - 3
   network: tcp
-  port: 50002
-  server: 47.104.186.133
-  servername: trojan.burgerip.co.uk
+  port: 46759
+  server: 120.198.71.215
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  delay: 824
-  name: 10|中国 - 香港 - Cnservers LLC - 39
-  port: 46759
-  server: 120.198.71.217
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  delay: 1669
-  name: 10|中国 - 香港 - Datacamp Limited - 3...
+  country: 🇨🇳CN
+  delay: 2135
+  name: 10|中国 - 香港 - Datacamp Limited - 6
   obfs: plain
   obfs-param: cd2b692902.6602b8463464108506.microsoft.com
   password: ENZ52K
@@ -201,620 +202,670 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2668
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 香港 - Hong Kong Telecommun...
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 890
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #1'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2265
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #2'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2259
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #3'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2466
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #4'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2323
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #5'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2530
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #6'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: c2b58ae0-d21c-11ef-b414-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2245
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #7'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ba64cdc5-c79a-326d-8e63-6903be8183a1
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2118
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #8'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1852
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #9'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2776
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #10'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2174
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #11'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2803
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #12'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 561
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #13'
-  port: 4136
-  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- alterId: 2
-  cipher: auto
-  delay: 1563
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #14'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  delay: 1552
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #15'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2163
-  name: 10|中国 - 香港 - PCCW IMS Limited - 1...
-  network: ws
-  port: 8080
-  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1485
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #1'
-  network: ws
-  port: 8080
-  server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2333
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #2'
-  network: ws
-  port: 8080
-  server: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1355
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #3'
-  network: ws
-  port: 8080
-  server: 9af862d5-sxsxs0-tgl02u-1jr1u.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: 9af862d5-sxsxs0-tgl02u-1jr1u.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2450
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #4'
-  network: ws
-  port: 8080
-  server: 741c97ef-sy9ls0-szpnze-1pr35.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 741c97ef-sy9ls0-szpnze-1pr35.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2465
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #5'
-  network: ws
-  port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2668
-  name: '10|中国 - 香港 - PCCW IMS Limited - 1... #6'
-  network: ws
-  port: 8080
-  server: e0784ed0-swq1s0-sxzls8-1gxvd.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: e0784ed0-swq1s0-sxzls8-1gxvd.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2049
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 香港 - PCCW IMS Limited - 2...
-  network: ws
-  port: 8080
-  server: 383dc598-symkg0-szvj4s-4lg6.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1167
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 香港 - PCCW IMS Limited - 3...
-  network: ws
-  port: 8080
-  server: a9b158f5-syf5s0-szvj4s-4lg6.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1122
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - PCCW IMS Limited - 3... #1'
-  network: ws
-  port: 8080
-  server: 2059a55a-syf5s0-szvfpn-laev.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
   country: 🇨🇳CN
-  delay: 618
+  delay: 2009
   h2-opts: {}
   http-opts: {}
-  name: '10|中国 - 香港 - PCCW IMS Limited - 3... #2'
+  name: 10|中国 - 香港 - PCCW IMS Limited - 7
   network: tcp
   port: 4138
-  server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com
+  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
   skip-cert-verify: true
   type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  delay: 1206
-  name: 10|中国 - 香港 - PCCW IMS Limited - 5
-  network: ws
-  port: 8080
-  server: 4da9741f-swq1s0-sxmlck-1ta58.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 4da9741f-swq1s0-sxmlck-1ta58.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1911
-  name: 10|中国 - 香港 - PCCW IMS Limited - 6
-  network: ws
-  port: 8080
-  server: 1ec053e0-swd340-t4m86v-1s9pj.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 57f70d4e-6428-11ef-8f5f-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 1ec053e0-swd340-t4m86v-1s9pj.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2037
-  name: 10|中国 - 香港 - PCCW IMS Limited - 7
-  network: ws
-  port: 8080
-  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1910
-  name: 10|中国 - 香港 - PCCW IMS Limited - 8
-  network: ws
-  port: 8080
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  servername: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2440
-  name: 10|中国 - 香港 - PCCW IMS Limited - 9
-  network: ws
-  port: 8080
-  server: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 77becdb4-sw7j40-t94bdb-mrtr.hgc1.tcpbbr.net
-    path: /
-- country: 🇩🇪DE
-  delay: 672
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.197.182.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1674
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.197.182.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+- cipher: aes-256-gcm
+  delay: 958
+  name: 10|中国 - 香港 - Velo Link, Inc. - 9
+  password: C30PYDD22BUKL6OB
+  port: 15010
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  delay: 1242
+  country: 🇺🇸US
+  delay: 2103
   h2-opts: {}
   http-opts: {}
-  name: 10|新加坡 - 新加坡 - Akamai Technologie...
-  port: 3681
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
+  name: 10|俄罗斯 - 莫斯科 - Aeza International...
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: e7ffaf73-0f39-4aba-a647-c7446ae1443d
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
 - alterId: 0
   cipher: auto
-  delay: 979
+  country: 🏁ZZ
+  delay: 1430
   h2-opts: {}
   http-opts: {}
-  name: '10|新加坡 - 新加坡 - Akamai Technologie... #1'
-  network: tcp
-  port: 4135
-  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #1'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: 4ee86851-c7e1-42fd-8c71-0dc0e539686f
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
 - alterId: 0
   cipher: auto
-  delay: 684
+  country: 🇺🇸US
+  delay: 2570
   h2-opts: {}
   http-opts: {}
-  name: '10|新加坡 - 新加坡 - Akamai Technologie... #2'
-  network: tcp
-  port: 4135
-  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #2'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 49e93426-2739-4611-a2b2-351462f652fd
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2200
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #3'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9f4e46bf-22e8-4416-84b4-c9e2af227d90
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1435
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #4'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 95c7934a-a138-414e-87aa-b359ecb4d9bb
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2154
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #5'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 149e1aed-9ce4-498b-a79a-bec6d3629cd7
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1362
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #6'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aff54802-244c-478b-a62c-28cd3d05f6d1
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2790
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #7'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9a8b5c74-a850-4464-8957-d33f979fca16
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2328
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #8'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 22f62c59-30d3-4cf4-ae13-2b386b0d3ea7
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1405
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #9'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0bfd8e51-2c62-4fa7-9cd6-67c7472e99c4
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1771
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #10'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cd603046-2b85-435d-9780-ab1ef8e824ce
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2221
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #11'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 59820e73-fadf-4664-aef2-07d70f1cbe6f
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1437
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #12'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: babe8cc0-d752-413c-aeaf-aea5e564b11f
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1426
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #13'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 76febe8a-8de3-45be-80f1-65c45349aa62
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2093
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #14'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 743fe3dd-98f8-495a-bf6d-9745bdea4a6a
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1425
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #15'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 89a45bd4-e71e-423d-b381-ee2aa4b8b0a0
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1604
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #16'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7541ee5a-4810-46f1-b26b-7ecbd94e2510
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1636
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #17'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 539fb99d-424e-45c7-adf3-1f8db74284df
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2443
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #18'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e6d62cc4-4789-4acc-8932-f6ab59688c04
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1654
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #19'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bc53960a-8d7e-40e6-ab9d-e638812636cb
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1655
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #20'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f58c256b-2cc3-4431-89b3-faa8e66f6b93
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2243
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #21'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 584fde7d-faa7-4386-9d8d-dd63341d74d0
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2316
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #22'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e27a98aa-f648-4b24-9481-de084c92a400
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2369
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #23'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db0e6640-ab23-4cb8-94f2-95bdb575fb9f
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2145
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #24'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 316e5a88-db5f-4d18-a01b-564ef98e14b5
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1435
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #25'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 941b131b-be79-45d9-9371-ae4d37709e70
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2088
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #26'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 02e4eb44-e351-4f2a-98e0-240d51de81ae
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1416
+  h2-opts: {}
+  http-opts: {}
+  name: '10|俄罗斯 - 莫斯科 - Aeza International... #27'
+  network: ws
+  port: 8443
+  server: tabnak.andishehnegariran.ir
+  servername: tabnak.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 67bda315-8407-413a-8d3d-b71eba5f2d63
+  ws-opts:
+    headers:
+      HOST: tabnak.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2154
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 1
+  network: ws
+  port: 443
+  server: cloudgetservice2.mcloudservice.site
+  servername: blazE-GEr-248.blAZeClOuDmaiN.sitE
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
+  ws-opts:
+    headers:
+      HOST: blazE-GEr-248.blAZeClOuDmaiN.sitE
+    path: /linkwsrt
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2755
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 2
+  network: ws
+  port: 8443
+  server: ov-germany4.09vpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cfc66d8d-48b5-434f-b92d-22de1907ced7
+  ws-opts:
+    path: /vmess/
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  delay: 1426
+  name: 10|德国 - 兰河畔林堡 - OVH SAS - 3
+  password: 5bda2736-81e7-43b4-86fc-286f8f8e6578
+  port: 8443
+  server: de-freevmess.privateip.net
+  type: ss
+- alterId: 2
+  cipher: auto
+  delay: 1950
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 法兰克福 - DigitalOcean, LLC ...
+  network: ws
+  port: 30833
+  server: v33.heduian.link
   skip-cert-verify: true
   type: vmess
-  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
-- alterId: 0
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
   cipher: auto
   country: 🇨🇳CN
-  delay: 633
+  delay: 1753
   h2-opts: {}
   http-opts: {}
-  name: '10|新加坡 - 新加坡 - Akamai Technologie... #3'
-  network: tcp
-  port: 4135
-  server: 148cda66-su2dc0-susvoj-d6ar.d.volczijie.com
+  name: 10|意大利 - 罗马市 - PQ HOSTING PLUS S....
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  servername: ocbc.com
   skip-cert-verify: true
   type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1720
-  h2-opts: {}
-  http-opts: {}
-  name: '10|新加坡 - 新加坡 - Akamai Technologie... #4'
-  network: tcp
-  port: 3681
-  server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 751
-  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  password: c376082c-95c3-452e-88e4-6bb6a5daab41
-  port: 49900
-  server: free-relay.t01.themars.top
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: ocbc.com
+    path: /oooo
+- cipher: aes-256-cfb
+  country: 🇷🇺 RU
+  delay: 696
+  name: 10|摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
   type: ss
 - cipher: aes-256-cfb
+  delay: 919
+  name: 10|新加坡 - 新加坡 - Amazon Technologie...
+  password: qawszxc123
+  port: 443
+  server: 47.129.2.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1238
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  network: ws
+  port: 39903
+  server: free-relay.themars.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 631484bb-c085-4384-8c3a-d93db3d587ef
+  ws-opts:
+    headers:
+      Host: www.cctv.com
+    path: /cctv1.m3u8
+- cipher: aes-256-cfb
   country: 🇨🇳CN
-  delay: 1839
-  name: 10|新加坡 - 新加坡 - LINODE - 5
+  delay: 1353
+  name: 10|新加坡 - 新加坡 - LINODE - 3
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -822,203 +873,426 @@ proxies:
   protocol: origin
   server: cm2.xcone.xyz
   type: ssr
-- cipher: aes-256-gcm
-  delay: 1547
-  name: 10|日本 - 东京 - Akile LTD - 1
-  password: 781bb54c-f089-48df-8102-01288a81eb10
-  port: 44721
-  server: jsyd.piaomiaoxu.net
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1873
+  name: 10,12|🇸🇬 新加坡3|@ripaojiedian
+  password: YjFmZ
+  port: 8388
+  server: sg.opensocks.site
+  tfo: false
   type: ss
-- alterId: 99999
+- cipher: aes-256-gcm
+  delay: 616
+  name: 10|新加坡 - 新加坡 - Velo Link, Inc. - ...
+  password: 5OR51M9GAGUOSBWV
+  port: 16004
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 613
+  name: '10|新加坡 - 新加坡 - Velo Link, Inc. - ... #1'
+  password: TXS8FTXQXS2LMMJ2
+  port: 16012
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 418
+  name: '10|新加坡 - 新加坡 - Velo Link, Inc. - ... #2'
+  password: IGM0GQP36O0HF1RZ
+  port: 16005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  country: 🇯🇵JP
-  delay: 1655
+  country: 🇨🇳CN
+  delay: 1403
   h2-opts: {}
   http-opts: {}
-  name: 10|日本 - 东京 - Amazon Technologies ...
-  network: tcp
-  port: 21583
-  server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
+  name: 10|日本 - Chiyoda - Asia Pacific Ne...
+  network: ws
+  port: 19331
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1803
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - Chiyoda - Asia Pacific Ne... #1'
+  network: ws
+  port: 80
+  server: nmone.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1403
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - Chiyoda - Asia Pacific Ne... #2'
+  network: ws
+  port: 443
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- cipher: aes-256-gcm
+  delay: 441
+  name: 10|日本 - Chiyoda - Velo Link, Inc....
+  password: I9FVAR8G1D8SSSZO
+  port: 18015
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 437
+  name: '10|日本 - Chiyoda - Velo Link, Inc.... #1'
+  password: YV0YF7FZMY0K5BOG
+  port: 18007
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1561
+  name: 10|日本 - 东京 - CTG Server Ltd. - 1
+  password: 70a0b8103356
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /bezradrqccl
+    tls: true
+  port: 636
+  server: 137.220.142.139
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 2172
+  name: 10|日本 - 东京 - Oracle Corporation -...
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19832
+  server: h.cm2.xiaomi-api.xyz
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1739
+  h2-opts: {}
+  http-opts: {}
+  name: 10|法国 - 巴黎 - PQ HOSTING PLUS S.R....
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  servername: ocbc.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2731
+  h2-opts: {}
+  http-opts: {}
+  name: 10|法国 - 格拉沃利讷 - OVH SAS - 3
+  network: ws
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  servername: Fra-Vp-123.BLaZECLOUD.Site
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-- country: 🇺🇸US
-  delay: 663
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.229.66
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 710
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.233.60
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 2246
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 3
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.233.60
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1644
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 4
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.229.66
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1470
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 水牛城 - HostPapa - 1
-  network: ws
-  port: 80
-  server: 104.21.16.1
-  servername: sssssssdddddeeefgt.7777125.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
   ws-opts:
     headers:
-      HOST: sssssssdddddeeefgt.7777125.xyz
-    path: /6We3U9Df1WGxgFnoFPw1
+      HOST: Fra-Vp-123.BLaZECLOUD.Site
+    path: /linvkws
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  delay: 1073
+  country: 🇳🇱NL
+  delay: 2330
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 水牛城 - HostPapa - 2
+  name: 10|法国 - 里昂 - Feelb Sarl - 1
   network: ws
-  port: 80
-  server: 104.21.48.1
-  servername: sssssssdddddeeefgt.7777125.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      HOST: sssssssdddddeeefgt.7777125.xyz
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1470
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 水牛城 - HostPapa - 3
-  network: ws
-  port: 80
-  server: 104.21.64.1
-  servername: sssssssdddddeeefgt.7777125.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      HOST: sssssssdddddeeefgt.7777125.xyz
-    path: /6We3U9Df1WGxgFnoFPw1
-- delay: 1536
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
   port: 443
-  server: 154.83.2.200
+  server: 193.123.56.79
+  servername: beyonddsz.cfd
   skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- delay: 1647
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #34'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2053
-  server: 156.238.18.112
-  skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- delay: 2445
-  name: 10|美国 - 芝加哥 - Sharktech - 141
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 15229
-  server: ade8cde1-syvts0-t9eu8q-tlhh.cu2.plebai.net
-  sni: ade8cde1-syvts0-t9eu8q-tlhh.cu2.plebai.net
-  type: trojan
-  udp: true
+      HOST: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  country: 🇮🇷IR
-  delay: 868
+  country: 🏁ZZ
+  delay: 1367
   h2-opts: {}
   http-opts: {}
-  name: 10|荷兰 - 阿姆斯特丹 - Servers Tech Fzco...
-  network: tcp
-  port: 5008
-  server: 213.176.0.144
+  name: 10|美国 - San Jose - Oracle Corpora...
+  network: ws
+  port: 443
+  server: 104.26.12.31
+  servername: usshs.atlen.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
+  ws-opts:
+    headers:
+      HOST: usshs.atlen.dpdns.org
+    path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1844
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 凤凰城 - Oracle Corporation ...
+  network: ws
+  port: 2086
+  server: awetdfgn_cdn.hfhfb.homes
+  servername: mgcdn8.hfhfb.homes
   skip-cert-verify: true
   type: vmess
-  uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
-- cipher: aes-256-cfb
-  delay: 547
-  name: 10|葡萄牙 - 里斯本 - I4W - Web Solution...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: mgcdn8.hfhfb.homes
+    path: /market?ed=1024
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2737
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 30824
+  server: v24.heduian.link
+  servername: v24.heduian.link
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: v24.heduian.link
+    path: /oooo
+- cipher: aes-256-gcm
+  delay: 691
+  name: 10|美国 - 匹兹堡 - Velo Link, Inc. - 1...
+  password: PBF5918KRQ6LK2X4
+  port: 17001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1877
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - Multacom Corporatio...
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1045
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 紐約 - Massivegrid LTD - 2
+  network: ws
+  port: 80
+  server: 172.67.175.139
+  servername: rrrrrrrt.859886.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9486ff17-2481-40c7-a5c4-d0d307de2509
+  ws-opts:
+    headers:
+      HOST: rrrrrrrt.859886.xyz
+    path: /T12gH9hdU239ar
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1110
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 紐約 - Massivegrid LTD - 3
+  network: ws
+  port: 80
+  server: 104.21.38.90
+  servername: dddcccdvfg.222856.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  ws-opts:
+    headers:
+      HOST: dddcccdvfg.222856.xyz
+    path: /87Ex2JiYYWr7FRa06b88JSo
+- country: 🇭🇰HK
+  delay: 2355
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #142'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 8443
+  server: 103.160.204.40
+  skip-cert-verify: true
+  sni: vle.amclubdns.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- delay: 1622
+  name: 10|美国 - 芝加哥 - Sharktech - 185
+  password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  port: 15229
+  server: dc3fb40a-syzj40-t6fl0c-1r7od.cu2.plebai.net
+  sni: dc3fb40a-syzj40-t6fl0c-1r7od.cu2.plebai.net
+  type: trojan
+  udp: true
+- delay: 1983
+  name: 10|美国 - 芝加哥 - Sharktech - 189
+  password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+  port: 15229
+  server: f352c63c-syzj40-szdere-155d9.cu2.plebai.net
+  sni: f352c63c-syzj40-szdere-155d9.cu2.plebai.net
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2813
+  h2-opts: {}
+  http-opts: {}
+  name: 10|英国 - Slough - DigitalOcean, LL...
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /oooo
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹LT
+  delay: 627
+  name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 1
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.58
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹LT
+  delay: 1142
+  name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.92
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 487
+  delay: 898
   name: 10|越南 - Hải Dương - FASTLY - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.19
+  server: 103.186.155.18
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2461
+  delay: 898
   name: 10|越南 - Hải Dương - FASTLY - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.20
+  server: 103.186.154.18
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 483
+  delay: 815
   name: 10|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.27
+  server: 103.186.155.23
   type: ss
 - cipher: aes-256-cfb
-  delay: 913
+  country: 🏁 ZZ
+  delay: 1156
+  name: 10|越南 - Hải Dương - FASTLY - 5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.32
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 813
+  name: 10|越南 - Hải Dương - FASTLY - 6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.28
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 893
+  name: 10|越南 - Hải Dương - FASTLY - 7
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.37
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1201
+  name: 10|越南 - Hải Dương - FASTLY - 8
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.25
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1535
   name: 10,12|🇻🇳 越南|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -1026,59 +1300,76 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  delay: 752
-  name: 10,12|🇰🇷 韩国|@ripaojiedian
+  delay: 645
+  name: 10|韩国 - Gwanak-gu - SK Broadband ...
   password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  tfo: false
+  port: 4652
+  server: p141.panda001.net
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 2096
+  name: 10,12|🇰🇷 韩国2|@ripaojiedian
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: h.cm2.xiaomi-api.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 1934
+  name: 10|韩国 - 首尔特别市 - Kaopu Cloud HK Li...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
-  server: 52.193.38.93
+  server: 52.195.220.57
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   name: 12|🇭🇰 香港2|@ripaojiedian
-  password: 23d03aa704c7
+  password: fd86b4005afd
   plugin: v2ray-plugin
   plugin-opts:
-    host: cmihk3v1.dsjsapp.com
+    host: hkxwv1-5.dsjsapi.com
     mode: websocket
     mux: true
-    path: /grqhyifio
+    path: /bxpuuxbqsxeb
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 156.251.179.181
+  port: 10349
+  server: 134.122.155.213
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港3|@ripaojiedian
-  port: 59149
-  server: 43.247.134.201
-  skip-cert-verify: false
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c47ab06:133288
+    mode: tls
+  port: 2377
+  server: 3ce8ee8.hb.gladns.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+  type: ss
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 444
-  server: 36.151.192.61
+  port: 9141
+  server: 36.151.192.10
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 51083
-  server: 36.151.192.58
+  port: 50723
+  server: 36.151.251.24
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -1087,51 +1378,50 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
+    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 12,13|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4445
-  server: 36.151.192.61
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 70a0b8103356
+  password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp5v1.lingjfjkm002.com
+    host: jp7v1.lingjfjkm002.com
     mode: websocket
     mux: true
-    path: /bezradrqccl
+    path: /dchlbvrbbotc
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 137.220.142.139
+  server: 137.220.191.40
   tfo: false
   type: ss
-- name: 12,13|日本4|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 39701
-  server: 36.151.192.60
+  port: 21829
+  server: 36.151.251.58
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 12,13|韩国2|@ripaojiedian
+- name: 12,13|日本4|@ripaojiedian
   network: tcp
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 15.165.19.79
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53067
+  server: 36.151.251.29
   skip-cert-verify: true
-  sni: baidu.com
+  sni: www.baidu.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 12,13|美国|@ripaojiedian
@@ -1151,33 +1441,41 @@ proxies:
 - name: 12,13|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 20615
-  server: 36.151.192.61
+  port: 45203
+  server: 36.151.251.61
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 7571
-  server: 36.151.192.60
+  port: 38482
+  server: 36.151.251.61
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 40621
-  server: 36.151.192.60
+  port: 7041
+  server: 36.151.251.61
   skip-cert-verify: true
   sni: www.baidu.com
+  type: trojan
+- name: 12,13|新加坡4|@ripaojiedian
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 13.215.50.90
+  skip-cert-verify: true
+  sni: baidu.com
   type: trojan
 - cipher: rc4-md5
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
+    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1186,29 +1484,19 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4447
-  server: 36.151.192.61
+  port: 30534
+  server: 36.151.251.36
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 5975
-  server: 36.151.251.56
+  port: 30495
+  server: 36.151.251.60
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|香港3|@ripaojiedian
-  network: tcp
-  port: '59149'
-  server: 43.247.134.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
@@ -1229,22 +1517,7 @@ proxies:
   tls: false
   type: vmess
   uuid: fe797d32-6607-4b46-8e39-c4fb1e3c0872
-- name: 14|CN_speednode_0023
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0024
-  password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  port: 15229
-  server: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  skip-cert-verify: false
-  sni: 95bcc7f1-syxog0-szt6ky-1bonh.cu2.plebai.net
-  type: trojan
-  udp: true
-- name: 14|ES_speednode_0052
+- name: 14|ES_speednode_0048
   network: ws
   password: trojan
   port: 8443

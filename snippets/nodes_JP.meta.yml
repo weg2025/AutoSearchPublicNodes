@@ -15,60 +15,79 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- delay: 2823
-  name: 10|日本 - Negishi - rixCloud - 3
-  password: 96eee01d-74be-440a-94f8-7cc52450395e
-  port: 35789
-  server: jpcn286.s2fjeyeeyafe.bond
-  skip-cert-verify: false
-  sni: jpcn286.s2fjeyeeyafe.bond
-  tfo: false
-  type: hysteria2
-- cipher: aes-256-gcm
-  delay: 1547
-  name: 10|日本 - 东京 - Akile LTD - 1
-  password: 781bb54c-f089-48df-8102-01288a81eb10
-  port: 44721
-  server: jsyd.piaomiaoxu.net
-  type: ss
-- alterId: 99999
+- alterId: 0
   cipher: auto
-  country: 🇯🇵JP
-  delay: 1655
+  country: 🇨🇳CN
+  delay: 1403
   h2-opts: {}
   http-opts: {}
-  name: 10|日本 - 东京 - Amazon Technologies ...
-  network: tcp
-  port: 21583
-  server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
+  name: 10|日本 - Chiyoda - Asia Pacific Ne...
+  network: ws
+  port: 19331
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507031938065-8k6EJ6kiGd.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4445
-  server: 36.151.192.61
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1803
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - Chiyoda - Asia Pacific Ne... #1'
+  network: ws
+  port: 80
+  server: nmone.hjdfghfc.asia
+  servername: file.dingtalk.com
   skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1403
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - Chiyoda - Asia Pacific Ne... #2'
+  network: ws
+  port: 443
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  delay: 441
+  name: 10|日本 - Chiyoda - Velo Link, Inc....
+  password: I9FVAR8G1D8SSSZO
+  port: 18015
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 437
+  name: '10|日本 - Chiyoda - Velo Link, Inc.... #1'
+  password: YV0YF7FZMY0K5BOG
+  port: 18007
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1561
+  name: 10|日本 - 东京 - CTG Server Ltd. - 1
   password: 70a0b8103356
   plugin: v2ray-plugin
   plugin-opts:
@@ -76,22 +95,65 @@ proxies:
     mode: websocket
     mux: true
     path: /bezradrqccl
-    skip-cert-verify: false
     tls: true
   port: 636
   server: 137.220.142.139
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 2172
+  name: 10|日本 - 东京 - Oracle Corporation -...
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19832
+  server: h.cm2.xiaomi-api.xyz
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  password: 823e135ed103
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp7v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /dchlbvrbbotc
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 137.220.191.40
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 21829
+  server: 36.151.251.58
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - client-fingerprint: chrome
   name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 39701
-  server: 36.151.192.60
+  port: 53067
+  server: 36.151.251.29
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 14|JP_speednode_0180
+- name: 14|JP_speednode_0171
   network: ws
   port: 8880
   server: 154.92.9.77
@@ -105,21 +167,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|JP_speednode_0181
-  network: ws
-  port: 8880
-  server: 103.116.7.177
-  servername: ip.langmanshanxi.top
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram@WangCai2/?ed=2560
-- name: 14|JP_speednode_0182
+- name: 14|JP_speednode_0173
   network: ws
   port: 8880
   server: 103.116.7.77
