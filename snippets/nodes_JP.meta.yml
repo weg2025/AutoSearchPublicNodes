@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -21,7 +21,7 @@ proxies:
   delay: 1403
   h2-opts: {}
   http-opts: {}
-  name: 10|日本 - Chiyoda - Asia Pacific Ne...
+  name: 11|日本 - Chiyoda - Asia Pacific Ne...
   network: ws
   port: 19331
   server: nmtow.hjdfghfc.asia
@@ -39,7 +39,7 @@ proxies:
   delay: 1803
   h2-opts: {}
   http-opts: {}
-  name: '10|日本 - Chiyoda - Asia Pacific Ne... #1'
+  name: '11|日本 - Chiyoda - Asia Pacific Ne... #1'
   network: ws
   port: 80
   server: nmone.hjdfghfc.asia
@@ -57,7 +57,7 @@ proxies:
   delay: 1403
   h2-opts: {}
   http-opts: {}
-  name: '10|日本 - Chiyoda - Asia Pacific Ne... #2'
+  name: '11|日本 - Chiyoda - Asia Pacific Ne... #2'
   network: ws
   port: 443
   server: nmtow.hjdfghfc.asia
@@ -71,7 +71,7 @@ proxies:
     path: /market?ed=512
 - cipher: aes-256-gcm
   delay: 441
-  name: 10|日本 - Chiyoda - Velo Link, Inc....
+  name: 11|日本 - Chiyoda - Velo Link, Inc....
   password: I9FVAR8G1D8SSSZO
   port: 18015
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -79,7 +79,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   delay: 437
-  name: '10|日本 - Chiyoda - Velo Link, Inc.... #1'
+  name: '11|日本 - Chiyoda - Velo Link, Inc.... #1'
   password: YV0YF7FZMY0K5BOG
   port: 18007
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -87,7 +87,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   delay: 1561
-  name: 10|日本 - 东京 - CTG Server Ltd. - 1
+  name: 11|日本 - 东京 - CTG Server Ltd. - 1
   password: 70a0b8103356
   plugin: v2ray-plugin
   plugin-opts:
@@ -102,18 +102,18 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
   delay: 2172
-  name: 10|日本 - 东京 - Oracle Corporation -...
+  name: 11|日本 - 东京 - Oracle Corporation -...
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19832
   server: h.cm2.xiaomi-api.xyz
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-GRRLQrsxj2.download.microsoft.com
+    host: 202507031938065-kCgyohOaHg.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -121,7 +121,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
@@ -136,7 +136,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 21829
@@ -145,32 +145,57 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
+  name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53067
-  server: 36.151.251.29
+  port: 19577
+  server: 36.151.251.33
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 14|JP_speednode_0171
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本5|@ripaojiedian
+  password: CFH2Q2LTQ1LC9CRD
+  port: 18011
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,14|日本6|@ripaojiedian
+  network: ws
+  port: '443'
+  server: nmtow.hjdfghfc.asia
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 16f000d7-7805-459d-9130-200d00180b7c
+  ws-opts:
+    headers:
+      Host: file.dingtalk.com
+    path: /market?ed=512
+- name: 15|JP_speednode_0172
   network: ws
   port: 8880
-  server: 154.92.9.77
-  servername: Telegram-channel-WangCai2
+  server: 103.116.7.168
+  servername: kjgx.laoyoutiao.link
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|JP_speednode_0173
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
+- name: 15|JP_speednode_0174
   network: ws
   port: 8880
-  server: 103.116.7.77
+  server: 154.92.9.77
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
