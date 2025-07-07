@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -100,12 +100,14 @@ proxies:
   server: 137.220.142.139
   type: ss
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   country: 🇨🇳CN
   delay: 2172
-  name: 11|日本 - 东京 - Oracle Corporation -...
+  name: 11,13|🇯🇵 日本5|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19832
   server: h.cm2.xiaomi-api.xyz
+  tfo: false
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -113,7 +115,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-kCgyohOaHg.download.microsoft.com
+    host: 202507031938065-JVU2imwfVB.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -153,14 +155,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
-  password: CFH2Q2LTQ1LC9CRD
-  port: 18011
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -178,21 +172,17 @@ proxies:
     headers:
       Host: file.dingtalk.com
     path: /market?ed=512
-- name: 15|JP_speednode_0172
-  network: ws
-  port: 8880
-  server: 103.116.7.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: false
+- alterId: 0
+  cipher: auto
+  name: 14|日本v2|@ripaojiedian
+  network: kcp
+  port: '7965'
+  server: 47.91.19.216
+  servername: ''
   tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- name: 15|JP_speednode_0174
+  type: vmess
+  uuid: 9a2e59c2-e8a1-4684-8df7-5a5ca5ae174a
+- name: 15|JP_speednode_0106
   network: ws
   port: 8880
   server: 154.92.9.77
@@ -206,3 +196,17 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|JP_speednode_0108
+  network: ws
+  port: 8880
+  server: 103.116.7.168
+  servername: kjgx.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2/?ed=2560
