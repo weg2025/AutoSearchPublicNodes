@@ -1,25 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
-- cipher: aes-256-cfb
-  delay: 645
-  name: 11|韩国 - Gwanak-gu - SK Broadband ...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 2096
-  name: 11|韩国 - 春川市 - Oracle Corporation ...
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: h.cm2.xiaomi-api.xyz
+- cipher: aes-128-gcm
+  delay: 1415
+  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
+  password: VXPipi29nxMO
+  plugin: obfs
+  plugin-opts:
+    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+    mode: http
+  port: 1052
+  server: kr2.qiangdong.xyz
   type: ss
 - alterId: 2
   cipher: auto
@@ -42,8 +37,8 @@ proxies:
   name: 13,14|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 45203
-  server: 36.151.251.61
+  port: 4448
+  server: 36.151.192.27
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan

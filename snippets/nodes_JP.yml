@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -15,79 +15,17 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1403
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - Chiyoda - Asia Pacific Ne...
-  network: ws
-  port: 19331
-  server: nmtow.hjdfghfc.asia
-  servername: file.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16f000d7-7805-459d-9130-200d00180b7c
-  ws-opts:
-    headers:
-      HOST: file.dingtalk.com
-    path: /market?ed=512
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1803
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - Chiyoda - Asia Pacific Ne... #1'
-  network: ws
-  port: 80
-  server: nmone.hjdfghfc.asia
-  servername: file.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16f000d7-7805-459d-9130-200d00180b7c
-  ws-opts:
-    headers:
-      HOST: file.dingtalk.com
-    path: /market?ed=512
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1403
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - Chiyoda - Asia Pacific Ne... #2'
-  network: ws
-  port: 443
-  server: nmtow.hjdfghfc.asia
-  servername: file.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16f000d7-7805-459d-9130-200d00180b7c
-  ws-opts:
-    headers:
-      HOST: file.dingtalk.com
-    path: /market?ed=512
-- cipher: aes-256-gcm
-  delay: 441
-  name: 11|日本 - Chiyoda - Velo Link, Inc....
-  password: I9FVAR8G1D8SSSZO
-  port: 18015
-  server: ti3hyra4.slashdevslashnetslashtun.net
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 1010
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  password: ljqdalu13..
+  port: 8319
+  server: 54.238.207.188
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  delay: 437
-  name: '11|日本 - Chiyoda - Velo Link, Inc.... #1'
-  password: YV0YF7FZMY0K5BOG
-  port: 18007
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 1561
-  name: 11|日本 - 东京 - CTG Server Ltd. - 1
+  delay: 1266
+  name: 11|日本 - 东京 - CTG Server Ltd. - 2
   password: 70a0b8103356
   plugin: v2ray-plugin
   plugin-opts:
@@ -95,17 +33,10 @@ proxies:
     mode: websocket
     mux: true
     path: /bezradrqccl
+    skip-cert-verify: false
     tls: true
   port: 636
   server: 137.220.142.139
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 2172
-  name: 11|日本 - 东京 - Oracle Corporation -...
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19832
-  server: h.cm2.xiaomi-api.xyz
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -113,7 +44,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-yZ3kjukUbq.download.microsoft.com
+    host: 202507031938065-U5JTftURXP.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -148,34 +79,18 @@ proxies:
   name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 19577
-  server: 36.151.251.33
+  port: 53248
+  server: 36.151.192.27
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本5|@ripaojiedian
-  password: 0V80159CYIW98X9N
-  port: 18013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本6|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 52.192.64.50
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|日本v2|@ripaojiedian
   network: kcp
-  port: '7965'
-  server: 47.91.19.216
+  port: '2389'
+  server: 8.211.145.146
   servername: ''
   tls: false
   type: vmess
-  uuid: 9a2e59c2-e8a1-4684-8df7-5a5ca5ae174a
+  uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
