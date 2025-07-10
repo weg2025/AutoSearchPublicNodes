@@ -13,14 +13,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '9|Channel id: @ShadowProxy66 🇭🇰'
-  password: 928a3318-b103-4f5f-ac80-1efd6f05d3d7
-  port: 50000
-  server: 47.238.98.245
-  skip-cert-verify: true
-  sni: ali.xiao666666.site
-  tls: false
-  type: hysteria2
 - name: 9|🇭🇰香港
   password: Wo9rLCYw6gzcfTgIu11mhBVciVs
   port: 29282
@@ -43,7 +35,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9,10|@meli_proxyy #7'
+- name: '9,10|Telegram:@config_proxy 😍 #6'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -51,17 +43,14 @@ proxies:
   sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港|@ripaojiedian
-  port: 50170
-  server: 38.147.188.234
-  skip-cert-verify: false
+  password: ELNP3E9X426OSUVK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 37b58e86-83ef-4ff8-b5dd-4bde36921f2b
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港2|@ripaojiedian
@@ -78,6 +67,17 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 33291
+  server: 103.224.80.103
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
 - client-fingerprint: chrome
   name: 13,14|香港4|@ripaojiedian
   network: tcp
@@ -104,16 +104,24 @@ proxies:
   server: 155.117.228.70
   skip-cert-verify: true
   type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港7|@ripaojiedian
+  password: ZX9F8KK21O60YK9T
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
-  port: '50170'
-  server: 38.147.188.234
+  port: '33291'
+  server: 103.224.80.103
   servername: ''
   tls: false
   type: vmess
-  uuid: 37b58e86-83ef-4ff8-b5dd-4bde36921f2b
+  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
 - alterId: 0
   cipher: none
   name: 14|香港v2|@ripaojiedian
@@ -124,71 +132,3 @@ proxies:
   tls: false
   type: vmess
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0042
-  network: ws
-  port: 60565
-  server: 46.3.104.7
-  servername: sgsgsgsgsg.eessgrgrgrgr.cloudns.nz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b25fb1a1-b04c-4b6f-89cb-5300d072030c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sgsgsgsgsg.eessgrgrgrgr.cloudns.nz
-    path: /hiosedhfiosfiosdhiofhsdiofhisdofhsd
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0043
-  network: ws
-  port: 5320
-  server: 46.3.109.215
-  servername: sgsgsgsgsg.eessgrgrgrgr.cloudns.nz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b25fb1a1-b04c-4b6f-89cb-5300d072030c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sgsgsgsgsg.eessgrgrgrgr.cloudns.nz
-    path: /hiosedhfiosfiosdhiofhsdiofhisdofhsd
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: 15|HK_speednode_0044
-  network: ws
-  port: 443
-  server: all.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com
-  servername: de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4cd9656-81a7-4342-9c0f-959ad333acae
-  ws-opts:
-    headers:
-      Host: de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com
-    path: /ws?ed=2560
-- name: 15|HK_speednode_0045
-  network: ws
-  port: 443
-  server: 47.76.218.163
-  servername: steep.skyfigure.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-  ws-opts:
-    headers:
-      Host: steep.skyfigure.top
-    path: /Telegram @V2ray_Alpha/?ed=2560
