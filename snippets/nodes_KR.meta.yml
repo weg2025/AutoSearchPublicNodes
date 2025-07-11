@@ -31,40 +31,29 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- cipher: aes-128-gcm
-  delay: 1415
-  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
+- cipher: chacha20-ietf-poly1305
+  delay: 711
+  name: 11|韩国 - Paripark - Sejong Network...
+  password: 34775242-64cb-4979-9a5c-2dad452e4753
+  port: 23110
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
+  udp: true
+- client-fingerprint: chrome
+  name: 13,14|韩国2|@ripaojiedian
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 3.34.143.101
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
 - client-fingerprint: chrome
   name: 13,14|韩国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4448
-  server: 36.151.192.27
+  port: 16158
+  server: 36.151.192.59
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan

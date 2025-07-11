@@ -140,76 +140,79 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
-- delay: 1356
+- country: 🇩🇪DE
+  delay: 1802
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.124.76.127
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1331
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.124.76.127
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 2336
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - Frankfurt Am Main - Hetzn...
+  network: tcp
+  port: 2087
+  server: s1.dns4wards.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1969a26d-42c3-4788-5fb1-6c2de47e8d35
+- client-fingerprint: random
+  delay: 1350
   name: 11|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
-  port: 80
-  server: 104.24.9.204
-  tls: false
+  port: 443
+  server: 104.24.68.5
+  servername: vpn.6662221.xyz
+  tls: true
   type: vless
-  uuid: ca68a029-971c-4ea4-8c1d-411cb7adc474
+  udp: true
+  uuid: 8b5cf811-af1f-475a-9e61-28b93c38d309
   ws-opts:
     headers:
-      Host: patient-sunset-f000-ppal03.cijej53213.workers.dev
+      Host: vpn.6662221.xyz
     path: /?ed=2560
-- client-fingerprint: chrome
-  delay: 1100
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  delay: 1500
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
   network: ws
   port: 443
-  server: 104.24.218.44
-  servername: autumn.norjson.top
+  server: 104.26.13.31
+  servername: FinLAnd-A3r.pAgES.dEv
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f40b19a1-5515-4c93-804c-334873d38449
+  uuid: 3130e111-a06c-4388-aeda-4b43f6e8e51f
   ws-opts:
     headers:
-      Host: autumn.norjson.top
-    path: /?ed=2560
-- client-fingerprint: chrome
-  delay: 1102
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #2'
-  network: ws
-  port: 443
-  server: 104.24.197.20
-  servername: rayan-fg-1.parmis.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
-  ws-opts:
-    headers:
-      Host: rayan-fg-1.parmis.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  delay: 1691
-  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-    short-id: 7def4dde
-  server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-  servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 33707040-edcf-4185-94e4-2a071315c602
-- name: 15|DE_speednode_0005
-  network: ws
-  port: 8880
-  server: 5.10.215.208
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
+      Host: finland-a3r.pages.dev
+    path: /Tel-@V2ray_Alpha/?ed=2560
+- cipher: chacha20-ietf-poly1305
+  delay: 1256
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: ca41554e-2a01-4ad5-93cc-6a70b7836c2c
+  port: 23210
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+  type: ss
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3
 - name: 15|DE_speednode_0006
   network: ws
   port: 8880
@@ -252,31 +255,3 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2
-- name: 15|DE_speednode_0009
-  network: ws
-  port: 8880
-  server: 5.10.214.180
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 15|DE_speednode_0010
-  network: ws
-  port: 8880
-  server: 5.10.214.81
-  servername: reedfree8mahsang2.redorg.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-    path: /TelegramU0001F1E8U0001F1F3
