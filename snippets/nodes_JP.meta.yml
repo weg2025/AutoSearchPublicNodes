@@ -15,6 +15,14 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- name: 9|🇯🇵日本东京
+  password: b866d83a-d301-4270-b699-40f322bf52fb
+  port: 443
+  server: 154.85.19.63
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   delay: 920
   name: 11|日本 - Chiyoda - Velo Link, Inc....
@@ -54,7 +62,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -94,6 +102,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本5|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 13.231.80.233
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|日本v2|@ripaojiedian
@@ -104,3 +120,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
+- name: 15|JP_speednode_0044
+  network: ws
+  port: 10443
+  server: 20.243.85.49
+  servername: edmx.aimercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edmx.aimercc.filegear-sg.me
+    path: /
+- name: 15|JP_speednode_0045
+  network: ws
+  port: 8880
+  server: 103.116.7.177
+  servername: ip.langmanshanxi.top
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram@WangCai2

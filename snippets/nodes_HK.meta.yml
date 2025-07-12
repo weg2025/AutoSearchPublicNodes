@@ -21,25 +21,28 @@ proxies:
   sni: ali.xiao666666.site
   tls: false
   type: hysteria2
-- name: '9,10|@vpnv2r4y✔️㉿ ᵛᵖⁿ یوتیوب️ #1'
-  password: nfsn666
-  port: 8888
-  server: 45.207.222.138
+- name: 9|🇭🇰香港
+  password: Wo9rLCYw6gzcfTgIu11mhBVciVs
+  port: 29282
+  server: 47.74.34.102
   skip-cert-verify: true
-  sni: hk.nfsn666.gq
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港|@ripaojiedian
-  port: 58236
-  server: 103.224.80.92
-  skip-cert-verify: false
-  tfo: false
+- name: '9|🇭🇰香港 #1'
+  password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
+  port: 63518
+  server: ovo.5188666.xyz
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  type: hysteria2
+- name: 9|🇭🇰香港2
+  password: b866d83a-d301-4270-b699-40f322bf52fb
+  port: 443
+  server: 89.185.27.133
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港2|@ripaojiedian
@@ -56,6 +59,17 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 31076
+  server: 38.147.189.233
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - client-fingerprint: chrome
   name: 13,14|香港4|@ripaojiedian
   network: tcp
@@ -84,14 +98,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
-  port: '58236'
-  server: 103.224.80.92
+  port: '31076'
+  server: 38.147.189.233
   servername: ''
   tls: false
   type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - alterId: 0
   cipher: none
   name: 14|香港v2|@ripaojiedian
@@ -102,3 +116,31 @@ proxies:
   tls: false
   type: vmess
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
+- name: 15|HK_speednode_0041
+  network: ws
+  port: 8880
+  server: 45.192.224.156
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|HK_speednode_0042
+  network: ws
+  port: 8880
+  server: 45.192.222.156
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560

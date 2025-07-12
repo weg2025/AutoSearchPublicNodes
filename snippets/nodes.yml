@@ -228,11 +228,13 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 2772
-  name: 11|中国 - 香港 - DMIT Cloud Services ...
+  name: 11,13,14|香港|@ripaojiedian
   network: ws
-  port: 30809
+  port: '30809'
   server: v9.heduian.link
+  servername: ''
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -603,29 +605,18 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇺🇸 US
   delay: 2530
-  name: 11,13|🇰🇷 韩国|@ripaojiedian
+  name: 11|韩国 - 首尔特别市 - Kaopu Cloud HK Li...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 54.168.210.205
+  server: 3.39.249.233
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
-  port: 58236
-  server: 103.224.80.92
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
 - cipher: aes-256-gcm
   name: 13|🇭🇰 香港2|@ripaojiedian
   password: 9bfdde71b4c0
@@ -641,6 +632,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 31076
+  server: 38.147.189.233
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -669,7 +670,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -706,15 +707,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13,14|韩国2|@ripaojiedian
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇯🇵 日本5|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 3.34.143.101
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-- name: 13,14|韩国4|@ripaojiedian
+  port: 9898
+  server: 13.231.80.233
+  tfo: false
+  type: ss
+- name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
@@ -738,12 +738,19 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: chacha20-ietf
+  name: 13|🇸🇬 新加坡3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -767,14 +774,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
-  port: '58236'
-  server: 103.224.80.92
+  port: '31076'
+  server: 38.147.189.233
   servername: ''
   tls: false
   type: vmess
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - alterId: 0
   cipher: none
   name: 14|香港v2|@ripaojiedian
@@ -795,3 +802,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f9f395b-e9b2-4cfd-85b3-0425f0e11ad7
+- name: 15|SG_speednode_0072
+  network: ws
+  password: ttfang
+  port: 1111
+  server: 138.2.95.61
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
