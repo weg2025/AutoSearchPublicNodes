@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
+- name: 1|🇰🇷1 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 216.116.134.20
@@ -14,13 +14,13 @@ proxies:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - client-fingerprint: chrome
-  name: 2|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
+  name: 1|🇰🇷3 |  1.3MB/s|61%|Disney|Open...
   network: ws
   port: 8880
   server: 212.183.88.20
@@ -31,14 +31,17 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  delay: 711
-  name: 11|韩国 - Paripark - Sejong Network...
-  password: 34775242-64cb-4979-9a5c-2dad452e4753
-  port: 23110
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
+- cipher: aes-128-gcm
+  delay: 662
+  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
+  password: VXPipi29nxMO
+  plugin: obfs
+  plugin-opts:
+    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+    mode: http
+  port: 1052
+  server: kr2.qiangdong.xyz
   type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 13,14|韩国|@ripaojiedian
   network: tcp
@@ -48,3 +51,32 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- name: 15|KR_speednode_0115
+  network: ws
+  port: 30060
+  server: 183.96.245.165
+  servername: steep.skyfigure.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
+  ws-opts:
+    headers:
+      Host: steep.skyfigure.top
+    path: /telegramu0001f1e8u0001f1f3@pgkj666/?ed=2560
+- client-fingerprint: chrome
+  name: 15|KR_speednode_0116
+  network: ws
+  port: 58474
+  server: 152.70.232.251
+  servername: chou3.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c561336-b0c7-4b18-96d1-863240a224ab
+  ws-opts:
+    headers:
+      Host: chou3.pages.dev
+    path: /

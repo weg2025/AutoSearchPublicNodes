@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -20,14 +20,14 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -35,52 +35,337 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- delay: 947
-  name: 11|美国 - 洛杉矶 - Akile LTD - 43
-  password: da233167-3fa6-4361-9aa2-35f7c9e5055d
-  port: 23519
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: cn.bing.com
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  delay: 2171
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #10'
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2276
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
   network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
+  port: 30824
+  server: v24.heduian.link
+  servername: v24.heduian.link
   skip-cert-verify: true
-  sni: epmk.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: epmk.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1248
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+      HOST: v24.heduian.link
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2244
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
   network: ws
-  password: vip
+  port: 30804
+  server: v4.heduian.link
+  servername: ocbc.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2183
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 1
+  network: ws
   port: 443
-  server: www.udemy.com
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
   skip-cert-verify: true
-  sni: heihu880.pages.dev
+  tls: true
+  type: vmess
+  uuid: 06bf0030-5f18-4a0e-ae14-59d4abadda45
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2203
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 2
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bb372d5-2f55-4226-be17-d3c9f4e73a6f
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1119
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 3
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7617dfd5-a5a8-46fd-a8d6-987d7e2099df
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1129
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 4
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 055efe35-c8fd-4e7a-a31b-23489d7699b5
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1587
+  name: 11|美国 - 水牛城 - HostPapa - 43
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98bbab4e-a1cb-49f3-bd56-2ddce2691afd
+  ws-opts:
+    headers:
+      Host: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2002
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 7
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ba355ea2-f3aa-48b5-9079-42e8cd780ac3
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1374
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 8
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dc1a38a3-b8d6-4fd6-a6e2-d55ea637a6bd
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2192
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 9
+  network: ws
+  port: 443
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1824f1a3-93fa-472f-b75b-4020c3e47659
+  ws-opts:
+    headers:
+      HOST: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇨🇾CY
+  delay: 1528
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Leaseweb USA, Inc. ...
+  network: ws
+  port: 8880
+  server: csgo.com
+  servername: cdn-node-oss-99.paofu.de
+  skip-cert-verify: true
+  type: vmess
+  uuid: 27e473f8-d610-4b04-bdf7-d0c39b47c897
+  ws-opts:
+    headers:
+      HOST: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- country: 🇬🇧GB
+  delay: 1949
+  name: 11,15|GB_speednode_0094
+  network: ws
+  password: trojan
+  port: 443
+  server: 91.193.58.0
+  skip-cert-verify: true
+  sni: wahaha.yingyangkuaixian.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: heihu880.pages.dev
+      Host: wahaha.yingyangkuaixian.dpdns.org
     path: /?ed=2560
+- country: 🇭🇰HK
+  delay: 962
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 8443
+  server: 103.160.204.40
+  skip-cert-verify: true
+  sni: vle.amclubdns.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- country: 🇰🇿KZ
+  delay: 1715
+  name: 11,15|KZ_speednode_0121
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- country: 🇷🇺RU
+  delay: 1826
+  name: 11,15|RU_speednode_0179
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 45.67.215.95
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- country: 🇺🇸US
+  delay: 2586
+  name: 11,15|US_speednode_0288
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- country: 🇺🇸US
+  delay: 2028
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #5'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 8443
+  server: 156.238.18.220
+  skip-cert-verify: true
+  sni: vle.amclubdns.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- delay: 1517
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #27'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2096
+  server: 103.160.204.49
+  skip-cert-verify: true
+  sni: vle.amclubsvip.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubsvip.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,14|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 1750158741.tencentapp.cn
+  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0
+  ws-opts:
+    headers:
+      Host: free1.chiikawanetworkcfjiasucdn.us.kg
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
+    host: 202507121073737-hhzLtsIxCt.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -104,3 +389,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- name: 15|US_speednode_0346
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
