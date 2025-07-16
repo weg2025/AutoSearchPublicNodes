@@ -1,27 +1,24 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
-- cipher: aes-128-gcm
-  delay: 662
-  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
+- cipher: aes-256-gcm
+  country: 🇦🇺AU
+  delay: 2068
+  name: 11|韩国 - 首尔特别市 - Baxet Group Inc. ...
+  password: 1928aa4d6e3c8df3
+  port: 19028
+  server: 203.32.26.81
   type: ss
 - client-fingerprint: chrome
   name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
-  server: 36.151.192.59
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan

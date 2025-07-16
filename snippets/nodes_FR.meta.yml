@@ -1,7 +1,7 @@
 proxies:
 - down: ''
   fingerprint: ''
-  name: 2|🇫🇷1 |  3.4MB/s|15%|Openai
+  name: 1|🇫🇷1 |  3.4MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -17,7 +17,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1086
   down: '100'
-  name: 2|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
+  name: 1|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
   obfs: ''
   port: 15010
   protocol: ''
@@ -27,7 +27,7 @@ proxies:
   type: hysteria
   up: '100'
 - client-fingerprint: chrome
-  name: 2|🇫🇷3 |  4.1MB/s|36%|Openai
+  name: 1|🇫🇷3 |  4.1MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -44,7 +44,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇫🇷4 |  1.8MB/s|36%|Openai
+  name: 1|🇫🇷4 |  1.8MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -61,7 +61,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 2|🇫🇷5 |  3.1MB/s|36%|Openai
+  name: 1|🇫🇷5 |  3.1MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -77,7 +77,7 @@ proxies:
         Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: ''
   xudp: true
-- name: 2|🇫🇷6 |  1.5MB/s|36%|Openai
+- name: 1|🇫🇷6 |  1.5MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -91,7 +91,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 2|🇫🇷7 |  3.3MB/s|36%|Openai
+- name: 1|🇫🇷7 |  3.3MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.223.79
@@ -106,31 +106,46 @@ proxies:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
 - country: 🇫🇷FR
-  delay: 1887
+  delay: 1423
   name: 11|法国 - 巴黎 - Online S.A.S. - 1
-  password: dongtaiwang.com
-  port: 50066
+  password: DHvyBZAYmM
+  port: 1935
+  server: x5-france-scaleway-v2.devefun.org
+  skip-cert-verify: true
+  sni: x5-france-scaleway-v2.devefun.org
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1647
+  down: '55'
+  name: 11|法国 - 巴黎 - Online S.A.S. - 3
+  obfs: ''
+  port: 46938
+  protocol: ''
+  server: 195.154.200.178
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '11'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1856
+  down: 100
+  name: 11|法国 - 巴黎 - Online S.A.S. - 4
+  port: 14241
+  protocol: udp
   server: 51.159.226.1
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: apple.com
+  type: hysteria
   udp: true
-- client-fingerprint: chrome
-  name: 15|FR_speednode_0050
-  network: ws
-  port: 8880
-  server: 141.11.203.177
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|FR_speednode_0051
+  up: 100
+- name: 15|FR_speednode_0041
   network: ws
   port: 8880
   server: 141.11.203.186
@@ -144,7 +159,7 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|FR_speednode_0052
+- name: 15|FR_speednode_0042
   network: ws
   port: 8880
   server: 185.16.110.63

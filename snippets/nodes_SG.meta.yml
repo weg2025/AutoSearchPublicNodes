@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -9,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
+- name: 1|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
   server: 64.176.38.232
@@ -23,7 +23,7 @@ proxies:
     headers:
       Host: lighter-missouri-hydrocodone-yeast.trycloudflare.com
     path: /e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048
-- name: 2|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
+- name: 1|🇸🇬3 |  1.2MB/s|30%|Disney|Open...
   network: ws
   port: 8880
   server: 154.197.108.20
@@ -45,46 +45,82 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- delay: 621
-  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
-  network: ws
-  port: 36925
-  server: 18.140.126.155
+- name: '9,10|Telegram@vmessorg #2'
+  password: yoP8tOtEhMTSBUPY9LwnHABvFE
+  port: 14933
+  server: 18.136.211.127
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  delay: 370
+  name: 11|新加坡 - 新加坡 - Amazon Technologie...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 47.129.184.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 186
+  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 18.141.181.229
+  type: ss
+- delay: 1408
+  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  network: ws
+  port: 443
+  server: 160.22.79.155
+  servername: steep.skyfigure.top
+  tls: true
   type: vless
   udp: true
-  uuid: a4d21171-29f4-4f62-f857-026921a26cc8
-  ws-opts:
-    path: /bing
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 368
-  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  password: wcI8DZe0eXSS3upop1QjVB
-  port: 57384
-  server: 128.199.236.104
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 398
-  name: '11|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
-  password: uewxc4bF87Gb2hJWtbMyt1
-  port: 8575
-  server: 167.172.89.195
-  type: ss
-- delay: 1354
-  name: 11|新加坡 - 新加坡 - NewMedia Express P...
-  network: ws
-  port: 8080
-  server: ip.sb
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: bddbc661-a058-4722-dd74-5f8199a4fab6
+  uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
   ws-opts:
     headers:
-      Host: 0611.heweiyi.dpdns.org
-    path: /
+      Host: steep.skyfigure.top
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  delay: 1056
+  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 5.44.249.43
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1054
+  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 5.44.249.51
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇸🇬SG
+  delay: 1743
+  name: 11,13|🇸🇬 新加坡3|@ripaojiedian
+  password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
+  port: 39856
+  server: 165.154.236.149
+  tfo: false
+  type: ss
 - name: '12|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
@@ -96,8 +132,8 @@ proxies:
   name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 8117
-  server: 36.151.192.26
+  port: 44123
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -106,40 +142,12 @@ proxies:
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
-  server: 36.151.192.26
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 15|SG_speednode_0137
-  network: ws
-  port: 8880
-  server: 92.243.74.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|SG_speednode_0138
-  network: ws
-  port: 8880
-  server: 92.243.75.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 15|SG_speednode_0139
+  name: 15|SG_speednode_0109
   network: ws
   port: 8880
   server: 92.243.74.177
@@ -153,3 +161,31 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 15|SG_speednode_0110
+  network: ws
+  port: 8880
+  server: 92.243.74.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 15|SG_speednode_0111
+  network: ws
+  port: 8880
+  server: 92.243.75.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560

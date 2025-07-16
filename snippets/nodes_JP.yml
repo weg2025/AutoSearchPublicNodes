@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -15,13 +15,59 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  delay: 908
+  name: 11|日本 - 东京 - Akamai Technologies,...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 172.237.11.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1289
+  name: '11|日本 - 东京 - Akamai Technologies,... #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 139.162.119.212
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 399
+  name: '11|日本 - 东京 - Amazon Technologies ... #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 8d21436:87091
+    mode: tls
+  port: 2377
+  server: 52.199.164.162
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2048
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - CTG Server Ltd. - 4
+  network: tcp
+  port: 40180
+  server: 120.198.71.213
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-vn1ZEZYzN4.download.microsoft.com
+    host: 202507121073737-EWj4WqPxg0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -47,8 +93,8 @@ proxies:
   name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 41225
-  server: 36.151.192.26
+  port: 53248
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -56,8 +102,8 @@ proxies:
   name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4445
-  server: 36.151.192.26
+  port: 41225
+  server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan

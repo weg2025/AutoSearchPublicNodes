@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -12,3 +12,24 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- alterId: 0
+  cipher: auto
+  country: 🇫🇮FI
+  delay: 2670
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - Frankfurt Am Main - Hetzn...
+  network: tcp
+  port: 32017
+  server: panel3.ipyar.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0ccdeb9-784c-4d67-b904-20dcaac9902a
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇦 UA
+  delay: 920
+  name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
