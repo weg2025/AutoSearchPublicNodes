@@ -15,12 +15,12 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: 9|🇯🇵日本东京2
-  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
+- name: 9|🇯🇵日本
+  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
-  server: 154.85.18.233
+  server: aws-linkhy17.liangxin1.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: www.apple.com.cn
   tls: false
   type: hysteria2
 - name: 9|🇯🇵日本东京
@@ -93,12 +93,22 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-EWj4WqPxg0.download.microsoft.com
+    host: 202507121073737-knyhjj43dT.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 13,14,15|CN_speednode_0011
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53248
+  server: 36.151.251.48
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇯🇵 日本2|@ripaojiedian
@@ -116,16 +126,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53248
-  server: 36.151.251.48
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 13,14,15|CN_speednode_0010
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 41225
@@ -133,6 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 14|日本v2|@ripaojiedian
@@ -143,17 +145,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 15|JP_speednode_0064
-  network: ws
-  port: 8880
-  server: 103.116.7.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560

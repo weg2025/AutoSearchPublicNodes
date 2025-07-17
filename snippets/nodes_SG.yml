@@ -54,17 +54,15 @@ proxies:
   server: 5.44.249.51
   type: ss
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
   country: 🇸🇬SG
   delay: 1743
-  name: 11,13|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|新加坡 - 新加坡 - Scloud Pte Ltd - 5
   password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
   port: 39856
   server: 165.154.236.149
-  tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 13,14,15|CN_speednode_0017
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 44123
@@ -72,8 +70,9 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 13,14,15|CN_speednode_0013
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -81,3 +80,4 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true

@@ -46,16 +46,8 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 22356
-  server: ss.029.node-for-bigairport.win
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: 13,14|香港4|@ripaojiedian
+  name: 13,14,15|CN_speednode_0015
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 1122
@@ -63,8 +55,9 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 13,14|香港5|@ripaojiedian
+  name: 13,14,15|CN_speednode_0014
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 9141
@@ -72,36 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 13,14|香港7|@ripaojiedian
-  network: tcp
-  password: KFpSHZWq
-  port: 16322
-  server: 36.150.215.141
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港8|@ripaojiedian
-  port: 45461
-  server: 103.224.80.95
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b4ab63b7-d208-4be6-aa3b-f0f8c51c286d
-- alterId: 0
-  cipher: auto
-  name: 14|香港8|@ripaojiedian
-  network: tcp
-  port: '45461'
-  server: 103.224.80.95
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b4ab63b7-d208-4be6-aa3b-f0f8c51c286d
+  udp: true
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian

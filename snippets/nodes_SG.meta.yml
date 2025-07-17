@@ -37,22 +37,6 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 9|新加坡
-  password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
-  port: 10264
-  server: 13.212.75.22
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9,10|Telegram@vmessorg #2'
-  password: yoP8tOtEhMTSBUPY9LwnHABvFE
-  port: 14933
-  server: 18.136.211.127
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   delay: 370
   name: 11|新加坡 - 新加坡 - Amazon Technologie...
@@ -112,14 +96,12 @@ proxies:
   server: 5.44.249.51
   type: ss
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
   country: 🇸🇬SG
   delay: 1743
-  name: 11,13|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|新加坡 - 新加坡 - Scloud Pte Ltd - 5
   password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
   port: 39856
   server: 165.154.236.149
-  tfo: false
   type: ss
 - name: '12|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
@@ -129,7 +111,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 13,14,15|CN_speednode_0017
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 44123
@@ -137,8 +119,9 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 13,14,15|CN_speednode_0013
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -146,46 +129,38 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0109
-  network: ws
-  port: 8880
-  server: 92.243.74.177
-  servername: Telegram-channel-WangCai2
+  udp: true
+- http-opts:
+    headers:
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: 15|SG_speednode_0076
+  network: http
+  port: 80
+  server: 5.223.45.64
+  servername: zula.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
+  uuid: 31cebb90-917e-4bf4-9f2c-8ec4e35b286d
+- http-opts:
     headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|SG_speednode_0110
-  network: ws
-  port: 8880
-  server: 92.243.74.186
-  servername: Telegram-channel-WangCai2
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: 15|SG_speednode_0077
+  network: http
+  port: 80
+  server: 5.223.56.230
+  servername: zula.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|SG_speednode_0111
-  network: ws
-  port: 8880
-  server: 92.243.75.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  uuid: 31cebb90-917e-4bf4-9f2c-8ec4e35b286d
