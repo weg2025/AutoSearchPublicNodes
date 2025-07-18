@@ -12,30 +12,21 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|台湾|@ripaojiedian
-  network: ws
-  port: '80'
-  server: twjxlnnoljxc2.jkhkgj.xyz
-  servername: ''
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  port: 3687
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
-  ws-opts:
-    headers:
-      Host: file.dingtalk.com
-    path: /market/tw?ed=512
-- name: 15|TW_speednode_0079
-  network: ws
-  password: ttfang
-  port: 81
-  server: 103.106.230.186
-  skip-cert-verify: true
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+- alterId: 0
+  cipher: auto
+  name: 14|台湾|@ripaojiedian
+  network: tcp
+  port: '3687'
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177

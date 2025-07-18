@@ -119,12 +119,66 @@ proxies:
 - alterId: 0
   cipher: auto
   country: 🇨🇳CN
-  delay: 328
+  delay: 191
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - Shizishan - China Telecom...
   network: ws
   port: 32309
+  server: 111.170.36.146
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 351
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - Shizishan - China Telecom... #1'
+  network: ws
+  port: 25395
+  server: gcvbnjth.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b0ad7ab-57f9-4db2-98dc-daccc9d5938e
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 377
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - Shizishan - China Telecom... #2'
+  network: ws
+  port: 25395
+  server: 111.170.36.146
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b566a8bf-8b33-47fc-a361-e10f96056cff
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 388
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - Shizishan - China Telecom... #3'
+  network: ws
+  port: 25395
   server: 111.170.36.146
   servername: file.dingtalk.com
   skip-cert-verify: true
@@ -137,12 +191,12 @@ proxies:
 - alterId: 0
   cipher: auto
   country: 🇨🇳CN
-  delay: 266
+  delay: 381
   h2-opts: {}
   http-opts: {}
-  name: '11|中国 - Shizishan - China Telecom... #1'
+  name: '11|中国 - Shizishan - China Telecom... #4'
   network: ws
-  port: 32309
+  port: 25395
   server: gcvbnjth.hjdfghfc.asia
   servername: file.dingtalk.com
   skip-cert-verify: true
@@ -154,20 +208,17 @@ proxies:
     path: /market?ed=512
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 143
-  h2-opts: {}
-  http-opts: {}
+  delay: 167
   name: 11|中国 - 上海 - Hangzhou Alibaba Adv...
-  network: tcp
   port: 50002
   server: 47.116.166.178
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  delay: 233
+  delay: 209
   name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
   port: 50002
   server: 47.92.152.169
@@ -176,563 +227,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  delay: 166
-  name: 11|中国 - 台湾 - Chunghwa Telecom Co....
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.200.41
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 990
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #1'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.75.210.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1320
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #2'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.75.210.24
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1884
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #3'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 360
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #4'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.75.117
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 448
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #5'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.35.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 448
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #6'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.75.116
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 442
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #7'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 125.227.86.47
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 571
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #8'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.75.210.23
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 371
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #9'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.248.221.27
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 445
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #10'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.35.94
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 2425
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #11'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.200.40
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 1368
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #12'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.248.221.26
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1524
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #13'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.22.161.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 293
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #14'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 125.227.86.48
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 322
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #15'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 210.61.187.237
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 291
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #16'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 210.61.187.238
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 205
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #17'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.14.95
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 676
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #18'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.14.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1262
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #19'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.72.214.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1596
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #20'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.75.110
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1719
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #21'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.198.42
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1679
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #22'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 61.216.165.29
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 301
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #23'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.14.39
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 2266
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #24'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.14.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 151
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #25'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.198.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 1307
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #26'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.39.203
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1254
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #27'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.198.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 846
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #28'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.248.221.30
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 857
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #29'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.248.221.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 405
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #30'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.39.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1147
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #31'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.200.39
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1314
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #32'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.39.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 561
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #33'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 60.249.39.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 295
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #34'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.62.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1356
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #35'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1288
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #36'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.62.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 307
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #37'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 59.125.62.191
-  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇹🇼TW
-  delay: 1198
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #38'
-  network: ws
-  port: 80
-  server: twjxlnnoljxc2.jkhkgj.xyz
-  servername: file.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
-  ws-opts:
-    headers:
-      HOST: file.dingtalk.com
-    path: /market/tw?ed=512
-- cipher: chacha20-ietf-poly1305
-  delay: 173
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #39'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)4fa101a:48723
-    mode: tls
-  port: 2377
-  server: 60.249.35.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 246
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #40'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)4fa101a:48723
-    mode: tls
-  port: 2377
-  server: 60.249.35.39
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 381
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #41'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 125.227.86.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 499
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #42'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 88a027c.dl.microsoft.lu:14333
-    mode: tls
-  port: 2377
-  server: 118.163.198.43
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 373
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #44'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.198.44
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1251
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #45'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 211.75.210.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 393
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #46'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 118.163.200.42
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 250
-  h2-opts: {}
-  http-opts: {}
+  delay: 1235
   name: 11|中国 - 合肥 - China Unicom CHINA16...
   port: 50007
   server: 112.132.215.34
   servername: 112.132.215.34
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 224
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 合肥 - China Unicom CHINA16... #1'
+  network: tcp
+  port: 50002
+  server: 112.132.215.12
+  servername: 09jzus.zdzdzd.xyz
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   country: 🇨🇳CN
-  delay: 676
+  delay: 2363
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 呼市 - Cloud Computing Corp...
   network: ws
-  port: 80
-  server: nmone.hjdfghfc.asia
-  servername: file.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
-  ws-opts:
-    headers:
-      HOST: file.dingtalk.com
-    path: /market?ed=512
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 913
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 呼市 - Cloud Computing Corp... #1'
-  network: ws
-  port: 80
-  server: nmone.hjdfghfc.asia
+  port: 443
+  server: nmtow.hjdfghfc.asia
   servername: file.dingtalk.com
   skip-cert-verify: true
   type: vmess
@@ -743,8 +272,44 @@ proxies:
     path: /market?ed=512
 - alterId: 0
   cipher: auto
-  delay: 330
-  name: 11|中国 - 广州市 - China Mobile - 4
+  country: 🇨🇳CN
+  delay: 959
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 呼市 - Cloud Computing Corp... #1'
+  network: ws
+  port: 19331
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1989
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 呼市 - Cloud Computing Corp... #2'
+  network: ws
+  port: 443
+  server: nmtow.hjdfghfc.asia
+  servername: file.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
+  ws-opts:
+    headers:
+      HOST: file.dingtalk.com
+    path: /market?ed=512
+- alterId: 0
+  cipher: auto
+  delay: 225
+  name: 11|中国 - 广州市 - China Mobile - 8
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
@@ -753,7 +318,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 268
+  delay: 187
   name: 11|中国 - 广州市 - China Mobile commun...
   port: 50002
   server: 120.210.205.59
@@ -763,83 +328,65 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 831
+  country: 🇸🇬SG
+  delay: 1602
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 成都 - Shenzhen Tencent Com...
+  name: 11|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
-  port: 2579
-  server: rcvxsdfhgf.hjdfghfc.asia
+  port: 50229
+  server: fhrcvbgffxd.hjdfghfc.asia
   servername: file.dingtalk.com
   skip-cert-verify: true
   type: vmess
-  uuid: b566a8bf-8b33-47fc-a361-e10f96056cff
+  uuid: 3b0ad7ab-57f9-4db2-98dc-daccc9d5938e
   ws-opts:
     headers:
       HOST: file.dingtalk.com
     path: /market?ed=512
-- alterId: 0
-  cipher: auto
-  delay: 179
-  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 120.26.55.225
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  country: 🇨🇳CN
-  delay: 284
-  h2-opts: {}
-  http-opts: {}
+  delay: 230
   name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
-  network: tcp
   port: 50002
   server: 47.104.186.133
   servername: trojan.burgerip.co.uk
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- delay: 1872
-  name: 11,13,14|香港6|@ripaojiedian
-  network: tcp
-  password: 7367d04e-4c59-4dff-a50e-12e730a09891
-  port: 26193
-  server: 155.117.228.70
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2537
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - DMIT Cloud Services ...
+  network: ws
+  port: 30809
+  server: v9.heduian.link
+  servername: baidu.com
   skip-cert-verify: true
-  type: trojan
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /oooo
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
-  delay: 2890
+  delay: 2807
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 香港 - Hong Kong Telecommun...
   network: ws
   port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 714
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #1'
-  network: ws
-  port: 80
-  server: be1c3b6c-sv0xs0-sw26q2-php4.hk3.p5pv.com
+  server: 9306fa7b-sv4n40-szj6wo-8f7h.hk3.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: c648ecc0-838a-11ed-bd81-f23c913c8d2b
+  uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       HOST: broadcastlv.chat.bilibili.com
@@ -847,17 +394,17 @@ proxies:
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
-  delay: 1207
+  delay: 2072
   h2-opts: {}
   http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #2'
+  name: 11|中国 - 香港 - PCCW IMS Limited - 1...
   network: ws
   port: 80
-  server: 8ae4848c-szjwg0-t44yvp-155d9.hk3.p5pv.com
+  server: 8e551c95-sv0xs0-szj6wo-8f7h.hk.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+  uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       HOST: broadcastlv.chat.bilibili.com
@@ -865,541 +412,424 @@ proxies:
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
-  delay: 2684
+  delay: 2272
   h2-opts: {}
   http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #3'
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #1'
   network: ws
   port: 80
-  server: 4e909a9d-sv2sg0-sw26q2-php4.hk3.p5pv.com
+  server: be8a9a85-sv2sg0-szj6wo-8f7h.hk.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: c648ecc0-838a-11ed-bd81-f23c913c8d2b
+  uuid: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       HOST: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇩🇪DE
-  delay: 1282
-  h2-opts: {}
-  http-opts: {}
-  name: 11|乌克兰 - Kyiv - South Park Networ...
-  network: ws
-  port: 35966
-  server: 185.126.255.78
-  servername: 185.126.255.78
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5eaa121d-4362-444d-8219-29b02c35303a
-  ws-opts:
-    headers:
-      HOST: 185.126.255.78
-    path: /speedtest
-- cipher: aes-256-gcm
-  country: 🇿🇦ZA
-  delay: 2078
-  name: 11|南非 - 约翰内斯堡 - G-Core Labs S.A. ...
-  password: hKlCaqvF
-  port: 19927
-  server: 94.156.93.86
+- cipher: aes-256-cfb
+  delay: 779
+  name: 11|印度 - 班加羅爾 - DigitalOcean, LLC ...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1164
+  name: 11|奥地利 - 維也納 - Aeza International...
+  password: eUh4lSpi7nOYj0vSrqLUh0
+  port: 8506
+  server: 95.163.176.37
   type: ss
 - cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 546
-  name: 11|奥地利 - 維也納 - netcup GmbH - 1
+  delay: 691
+  name: 11,13|🇦🇹 奥地利|@ripaojiedian
   password: TG:@Enkelte_notif&&TG:@Notif_Chat
   port: 34045
   server: 152.53.2.128
+  tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇫🇮FI
-  delay: 2670
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: tcp
-  port: 32017
-  server: panel3.ipyar.org
+- country: 🇩🇪DE
+  delay: 1225
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.179.32.181
   skip-cert-verify: true
-  type: vmess
-  uuid: c0ccdeb9-784c-4d67-b904-20dcaac9902a
-- cipher: chacha20-ietf-poly1305
-  delay: 447
-  name: 11|德国 - 法兰克福 - Black Mesa Corpora...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 134.195.101.85
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 439
-  name: '11|德国 - 法兰克福 - Black Mesa Corpora... #1'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 134.195.101.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 439
-  name: '11|德国 - 法兰克福 - Black Mesa Corpora... #2'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 134.195.101.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇮🇷IR
-  delay: 1198
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 法兰克福 - Pars Abr Toseeh Er...
-  network: tcp
-  port: 2087
-  server: gon3.pinsood.ir
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇮🇳IN
+  delay: 1603
+  name: 11|德国 - 法兰克福 - G-Core Labs S.A - ...
+  password: '74260628090146500'
+  port: 443
+  server: ample-koi.shiner427.skin
   skip-cert-verify: true
-  type: vmess
-  uuid: d194bf26-0fa5-256a-a5c5-948b8ba0fd25
-- cipher: aes-256-cfb
-  country: 🇮🇶 IQ
-  delay: 2944
-  name: 11|斯洛文尼亚 - 卢布尔雅那 - Optimus IT d.o...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 91.132.94.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 370
-  name: 11|新加坡 - 新加坡 - Amazon Technologie...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 47.129.184.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 186
-  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 18.141.181.229
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1056
-  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 5.44.249.43
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1054
-  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 4
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 5.44.249.51
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇸🇬SG
-  delay: 1743
-  name: 11|新加坡 - 新加坡 - Scloud Pte Ltd - 5
-  password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
-  port: 39856
-  server: 165.154.236.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 908
-  name: 11|日本 - 东京 - Akamai Technologies,...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 172.237.11.224
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1289
-  name: '11|日本 - 东京 - Akamai Technologies,... #1'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 139.162.119.212
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 399
-  name: '11|日本 - 东京 - Amazon Technologies ... #1'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 8d21436:87091
-    mode: tls
-  port: 2377
-  server: 52.199.164.162
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 2048
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - CTG Server Ltd. - 4
-  network: tcp
-  port: 40180
-  server: 120.198.71.213
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- country: 🇫🇷FR
-  delay: 1423
-  name: 11|法国 - 巴黎 - Online S.A.S. - 1
-  password: DHvyBZAYmM
-  port: 1935
-  server: x5-france-scaleway-v2.devefun.org
-  skip-cert-verify: true
-  sni: x5-france-scaleway-v2.devefun.org
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇮🇪IE
-  delay: 530
-  name: 11|爱尔兰 - 都柏林 - Amazon Technologie...
-  password: 8GWVhH7m9rSfTvYcGN7wgR
-  port: 23456
-  server: 3.255.250.127
+  country: 🇪🇸ES
+  delay: 502
+  name: 11|德国 - 法兰克福 - M247 Europe SRL - ...
+  password: 0AGZsqnr52BRlf2iKYXy0l
+  port: 8443
+  server: 185.122.187.192
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺 RU
+  delay: 929
+  name: 11|摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- alterId: 64
+  cipher: auto
+  delay: 808
+  name: 11|日本 - Chiyoda - CTG Server Ltd....
+  port: 43333
+  server: 183.236.97.101
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- country: 🇫🇷FR
+  delay: 2659
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.158.77
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 994
+  name: 11|爱沙尼亚 - 塔林 - RJ Network OU - 1
+  password: F5uqW0l4ECxf4cKStww6AZ
+  port: 8443
+  server: 185.193.49.175
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇮🇪IE
-  delay: 527
-  name: '11|爱尔兰 - 都柏林 - Amazon Technologie... #1'
-  password: 0DusSIuPHmeWMXViBQQ94p
-  port: 23456
-  server: 3.255.250.127
+  country: 🇩🇰DK
+  delay: 1421
+  name: 11|瑞典 - 斯德哥尔摩 - GleSYS AB - 1
+  password: MWhfNwUSZJZZXnKwMbdF1n
+  port: 8443
+  server: 46.246.99.123
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇮🇪IE
-  delay: 526
-  name: '11|爱尔兰 - 都柏林 - Amazon Technologie... #2'
-  password: LGB1ZexCRznHiEZINMyWhC
-  port: 23456
-  server: 3.255.250.127
+  country: 🇺🇦UA
+  delay: 828
+  name: 11|立陶宛 - 维尔纽斯 - Melbikomas UAB - ...
+  password: bRvU8CRl6QkMIFCjtlgGVR
+  port: 8443
+  server: 213.111.142.157
   type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1890
+  delay: 2697
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 17
+  name: 11|美国 - 凤凰城 - Oracle Corporation ...
   network: ws
-  port: 8080
-  server: s1.cn-db.top
-  servername: 100-68-98-225.s1.cn-db.top
+  port: 2086
+  server: awetdfgn_cdn.hfhfb.homes
+  servername: mgcdn9.hfhfb.homes
   skip-cert-verify: true
   type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  uuid: e15ac3ce-6a1a-412a-aa07-4bc52daa5935
   ws-opts:
     headers:
-      HOST: 100-68-98-225.s1.cn-db.top
-    path: /dabai.in172.67.86.139
+      HOST: mgcdn9.hfhfb.homes
+    path: /market?ed=1024
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1996
+  delay: 455
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 18
+  name: '11|美国 - 凤凰城 - Oracle Corporation ... #1'
   network: ws
-  port: 80
-  server: s4.cn-db.top
-  servername: 100-242-127-44.s4.cn-db.top
+  port: 2086
+  server: awetdfgn_cdn.hfhfb.homes
+  servername: mgcdn9.hfhfb.homes
   skip-cert-verify: true
   type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
   ws-opts:
     headers:
-      HOST: 100-242-127-44.s4.cn-db.top
-    path: /dabai.in172.64.1.52
+      HOST: mgcdn9.hfhfb.homes
+    path: /market?ed=1024
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1651
+  delay: 607
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 凤凰城 - Oracle Corporation ... #2'
+  network: ws
+  port: 2086
+  server: awetdfgn_cdn.hfhfb.homes
+  servername: mgcdn9.hfhfb.homes
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b0ad7ab-57f9-4db2-98dc-daccc9d5938e
+  ws-opts:
+    headers:
+      HOST: mgcdn9.hfhfb.homes
+    path: /market?ed=1024
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2873
   h2-opts: {}
   http-opts: {}
   name: 11|美国 - 水牛城 - HostPapa - 3
   network: ws
-  port: 443
-  server: 1750158741.tencentapp.cn
-  servername: free1.loopycloudcfjiasucdn.us.kg
+  port: 2095
+  server: s5.db-link01.top
+  servername: 100-61-120-107.s5.db-link01.top
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 997106cf-97b1-4dbe-9c97-b1258e4eb8d6
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
   ws-opts:
     headers:
-      HOST: free1.loopycloudcfjiasucdn.us.kg
-    path: /
+      HOST: 100-61-120-107.s5.db-link01.top
+    path: /dabai.in172.67.57.150
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 2487
+  delay: 1823
   h2-opts: {}
   http-opts: {}
   name: 11|美国 - 水牛城 - HostPapa - 4
   network: ws
-  port: 443
-  server: 1750158741.tencentapp.cn
-  servername: free1.loopycloudcfjiasucdn.us.kg
+  port: 2086
+  server: s3.cn-db.top
+  servername: 100-216-147-1.s3.cn-db.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  ws-opts:
+    headers:
+      HOST: 100-216-147-1.s3.cn-db.top
+    path: /dabai.in104.20.109.71
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2381
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Leaseweb USA, Inc. ...
+  network: ws
+  port: 8880
+  server: ssrsub.cloudflare.182682.xyz
+  servername: cdn-node-oss-99.paofu.de
+  skip-cert-verify: true
+  type: vmess
+  uuid: 69136cc7-d70e-4357-8230-ec82bec92c19
+  ws-opts:
+    headers:
+      HOST: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2076
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 盐湖城 - FiberState, LLC - 1...
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 85735396-7edb-4766-ba5e-58ba9d0f16b3
+  uuid: 6121bf03-1ed9-4b57-9b79-d1af73058054
   ws-opts:
     headers:
-      HOST: free1.loopycloudcfjiasucdn.us.kg
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1501
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #1'
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8e2368a-2546-4f85-b9ce-83b81a03fe3e
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1536
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #2'
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5d1cde6c-b4c2-47da-b496-ece406eba703
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
     path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1548
+  delay: 1515
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 5
+  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #3'
   network: ws
-  port: 443
-  server: 1750158741.tencentapp.cn
-  servername: free1.loopycloudcfjiasucdn.us.kg
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9212e47b-6ca3-4250-a588-a9320b4c1b87
+  uuid: 073748f2-ddd0-41f4-9bd0-910f04a54df4
   ws-opts:
     headers:
-      HOST: free1.loopycloudcfjiasucdn.us.kg
+      HOST: us01.sh-cloudflare.sbs
     path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1646
+  delay: 1470
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 6
+  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #4'
   network: ws
-  port: 443
-  server: 1750158741.tencentapp.cn
-  servername: free1.loopycloudcfjiasucdn.us.kg
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 83351242-7271-48af-bd9e-67e02cac61fd
+  uuid: 0d009be0-29ad-4fc9-8302-15a4d8665872
   ws-opts:
     headers:
-      HOST: free1.loopycloudcfjiasucdn.us.kg
+      HOST: us01.sh-cloudflare.sbs
     path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 2224
+  delay: 1740
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
+  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #5'
   network: ws
-  port: 443
-  server: api.jquery.com
-  servername: admin.kasrax.ir
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  uuid: 711bba29-b9d9-46ae-906b-e36add5cb83b
   ws-opts:
     headers:
-      HOST: admin.kasrax.ir
-    path: /us.kkp.me.eu.org/aa
-- cipher: chacha20-ietf-poly1305
-  delay: 1813
-  name: 11|美国 - 聖荷西 -  - 10
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.167
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸 US
-  delay: 945
-  name: 11|美国 - 聖荷西 -  - 11
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.165
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 564
-  name: 11|美国 - 聖荷西 -  - 12
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 619
-  name: 11|美国 - 聖荷西 -  - 13
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1274
-  name: 11|美国 - 聖荷西 -  - 14
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 407
-  name: 11|美国 - 聖荷西 -  - 15
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.64
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 420
-  name: 11|美国 - 聖荷西 -  - 16
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.73
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 664
-  name: 11|美国 - 聖荷西 -  - 7
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 780
-  name: 11|美国 - 聖荷西 -  - 8
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.68
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 575
-  name: 11|美国 - 聖荷西 -  - 9
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 23.247.137.72
-  type: ss
-- delay: 2361
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #39'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2053
-  server: 103.160.204.26
-  skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- delay: 2417
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #40'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: ''
-- delay: 2615
-  name: 11,15|US_speednode_0122
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
+      HOST: us01.sh-cloudflare.sbs
     path: /
-- delay: 2527
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1921
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 盐湖城 - FiberState, LLC - 2
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dda037d3-189f-469f-a657-7618be34bee8
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2288
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 盐湖城 - FiberState, LLC - 7
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dabd02ee-f986-4eae-a315-a811b51c4472
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2604
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 盐湖城 - FiberState, LLC - 8
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bcbc9693-e772-4956-9179-ba1633a56d31
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2130
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 盐湖城 - FiberState, LLC - 9
+  network: ws
+  port: 8443
+  server: us01.sh-cloudflare.sbs
+  servername: us01.sh-cloudflare.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be26173c-5573-461a-b302-655fd5080fdc
+  ws-opts:
+    headers:
+      HOST: us01.sh-cloudflare.sbs
+    path: /
+- delay: 2843
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #65'
   network: ws
   password: d6b8011a-c725-435a-9fec-bf6d3530392c
   port: 2083
@@ -1413,70 +843,180 @@ proxies:
     path: /?ed=2560&PROT_TYPE=trojan
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  delay: 2435
+  delay: 2782
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 費利蒙 - Cloudflare, Inc. - ...
+  name: 11|芬兰 - 赫尔辛基 - Cloudflare, Inc. -...
   network: ws
   port: 443
-  server: cf.fovi.tk
-  servername: foxpol.fovi.tk
-  skip-cert-verify: true
+  server: 62.60.156.228
+  servername: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
   tls: true
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
   ws-opts:
     headers:
-      HOST: foxpol.fovi.tk
-    path: /eisasqa
-- cipher: chacha20-ietf-poly1305
-  delay: 688
-  name: 11|芬兰 - 赫尔辛基 - Global Connectivit...
-  password: aNYshRb3mzp7
+      host: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
+    path: /920f9840-4d0f-11f0-a948-6a75f667b472?ed=2048
+- country: 🏁ZZ
+  delay: 2003
+  name: 11|英国 - 尼斯登 - G-Core Labs S.A. - ...
+  password: '74260628090146500'
   port: 443
-  server: 93.152.207.167
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 879
-  name: 11|荷兰 - 阿姆斯特丹 - LeaseWeb Netherla...
-  port: 15709
-  server: channel.dollardoon.com
-  servername: fast.com
+  server: huge-turkey.shiner427.skin
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4ac39e8a-6d5c-48bb-b0d0-f633c829113e
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇦 UA
-  delay: 920
+  delay: 664
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 1
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.131
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹LT
+  delay: 2494
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 675
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 3
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 757
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 6
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 2971
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 7
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 2839
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 8
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 673
+  name: 11|荷兰 - 阿姆斯特丹 - Greenhost BV - 9
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 2017
   name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
+  country: 🇳🇱NL
+  delay: 600
+  name: 11|荷兰 - 阿姆斯特丹 - Online SAS NL - 4
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
+- cipher: aes-256-cfb
   country: 🇵🇹PT
-  delay: 1255
-  name: 11|葡萄牙 - Porto - Baxet Group Inc....
-  password: tunnel-rtr6i7o8o8o7
-  port: 8444
-  server: pt-1-sst.medicaldream.ir
+  delay: 1024
+  name: 11|葡萄牙 - 里斯本 - I4W - Web Solution...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
   type: ss
 - cipher: aes-256-gcm
-  country: 🇦🇺AU
-  delay: 2068
-  name: 11|韩国 - 首尔特别市 - Baxet Group Inc. ...
-  password: 1928aa4d6e3c8df3
-  port: 19028
-  server: 203.32.26.81
+  delay: 1628
+  name: 11|越南 - Cầu Diễn - VNPT Corp - 1
+  password: atjgsJXmcv
+  port: 52327
+  server: 103.15.91.171
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 818
+  name: 11|越南 - Hải Dương - FASTLY - 2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.19
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1844
+  name: 11|越南 - Hải Dương - FASTLY - 3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.28
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1873
+  name: 11|越南 - Hải Dương - FASTLY - 4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1894
+  name: 11|越南 - Hải Dương - FASTLY - 5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.21
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1873
+  name: 11,13|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.18
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 787
+  http-opts:
+    headers:
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: 11|阿拉伯联合酋长国 - 阿布扎比 - Aeza Interna...
+  network: http
+  port: 10410
+  server: 62.60.176.240
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f107a60e-af79-44c9-bc7e-b5707f3208e1
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
-  server: 3.113.25.232
+  server: 54.187.127.254
   tfo: false
   type: ss
 - alterId: 2
@@ -1510,7 +1050,7 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0015
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 1122
@@ -1518,8 +1058,15 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0014
+- name: 13,14|香港3|@ripaojiedian
+  network: tcp
+  password: da631e61-bead-4c9c-8bd7-7bea82f736ae
+  port: 12221
+  server: js-12f83a8c.kaiqsz.com
+  skip-cert-verify: false
+  sni: nkrpjj.cn
+  type: trojan
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 9141
@@ -1527,43 +1074,34 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
+- name: 13,14|香港6|@ripaojiedian
+  network: tcp
+  password: 7367d04e-4c59-4dff-a50e-12e730a09891
+  port: 26193
+  server: 155.117.228.70
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13,14|台湾|@ripaojiedian
-  network: ws
-  port: '80'
-  server: twjxlnnoljxc2.jkhkgj.xyz
-  servername: ''
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  port: 3687
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
-  ws-opts:
-    headers:
-      Host: file.dingtalk.com
-    path: /market/tw?ed=512
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-knyhjj43dT.download.microsoft.com
+    host: 202507121073737-O8zUIKjU25.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0011
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53248
-  server: 36.151.251.48
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 13|🇯🇵 日本2|@ripaojiedian
   password: 823e135ed103
@@ -1579,7 +1117,15 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0010
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 53248
+  server: 36.151.251.48
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 41225
@@ -1587,8 +1133,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0012
+- name: 13,14|韩国|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 16158
@@ -1596,8 +1141,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0017
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 44123
@@ -1605,8 +1149,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0013
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32765
@@ -1614,19 +1157,18 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - cipher: rc4-md5
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-knyhjj43dT.download.microsoft.com
+    host: 202507121073737-O8zUIKjU25.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13,14,15|CN_speednode_0018
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4447
@@ -1634,8 +1176,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
-- name: 13,14,15|CN_speednode_0016
+- name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 13855
@@ -1643,7 +1184,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -1656,6 +1196,16 @@ proxies:
   uuid: ba47c516-0c18-49d5-9548-6370c835e163
 - alterId: 0
   cipher: auto
+  name: 14|台湾|@ripaojiedian
+  network: tcp
+  port: '3687'
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+- alterId: 0
+  cipher: auto
   name: 14|日本v2|@ripaojiedian
   network: kcp
   port: '56428'
@@ -1664,20 +1214,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a37eb45-4cdd-4c2e-914e-ed2f972e4003
-- name: 15|ES_speednode_0029
-  network: ws
-  password: trojan
-  port: 8443
-  server: 109.234.211.66
-  skip-cert-verify: false
-  sni: store.timimi.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: /
-- name: 15|GB_speednode_0047
+- name: 15|GB_speednode_0028
   network: ws
   password: trojan
   port: 443
@@ -1690,20 +1227,7 @@ proxies:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
     path: /
-- name: 15|KZ_speednode_0057
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 15|RU_speednode_0074
+- name: 15|RU_speednode_0040
   network: ws
   password: tg-fq521free
   port: 443
@@ -1716,16 +1240,16 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|TW_speednode_0079
+- name: 15|US_speednode_0077
   network: ws
-  password: ttfang
-  port: 81
-  server: 103.106.230.186
-  skip-cert-verify: true
-  sni: ttfang.fange.me
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ttfang.fange.me
+      Host: torjan.xn--xhq44j.eu.org
     path: /

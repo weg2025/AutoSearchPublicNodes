@@ -15,22 +15,21 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- country: 🇷🇺RU
-  delay: 1354
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
+- name: 9,10|کانفیگ های بیشتر در چنل تلگرام...
   password: dongtaiwang.com
-  port: 50850
-  server: 45.129.2.108
+  port: 30033
+  server: 46.17.41.217
   skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
   type: hysteria2
-  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1182
+  delay: 1665
   down: 100
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 2
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
   port: 62003
   protocol: udp
   server: 176.32.35.226
@@ -47,7 +46,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 15|RU_speednode_0072
+- name: 15|RU_speednode_0038
+  network: ws
+  port: 8880
+  server: 185.174.138.213
+  servername: jp.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: jp.laoyoutiao.link
+    path: /?ed=2560
+- name: 15|RU_speednode_0039
   network: ws
   port: 8880
   server: 176.124.223.213
@@ -61,22 +74,7 @@ proxies:
     headers:
       Host: jp.laoyoutiao.link
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 15|RU_speednode_0073
-  network: ws
-  port: 2053
-  server: 45.142.120.192
-  servername: 019309B7.XyZ0.PaGeS.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
-  ws-opts:
-    headers:
-      Host: 019309B7.XyZ0.PaGeS.dEV
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 15|RU_speednode_0074
+- name: 15|RU_speednode_0040
   network: ws
   password: tg-fq521free
   port: 443

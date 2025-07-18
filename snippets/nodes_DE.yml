@@ -12,22 +12,18 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- alterId: 0
-  cipher: auto
-  country: 🇫🇮FI
-  delay: 2670
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: tcp
-  port: 32017
-  server: panel3.ipyar.org
+- country: 🇩🇪DE
+  delay: 1225
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.179.32.181
   skip-cert-verify: true
-  type: vmess
-  uuid: c0ccdeb9-784c-4d67-b904-20dcaac9902a
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇦 UA
-  delay: 920
+  delay: 2017
   name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
