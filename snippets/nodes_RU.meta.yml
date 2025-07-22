@@ -3,7 +3,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 2|🇷🇺1 |  2.5MB/s|50%
+  name: 1|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,13 +15,21 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
+- cipher: aes-128-gcm
+  country: 🇷🇺RU
+  delay: 1023
+  name: 11|俄罗斯 - 莫斯科 - AdminVPS LLC - 1
+  password: n/9j1jq4dzhHFx5V75vnCh0jJHzQLT2LkMSx9DNMMtA=
+  port: 18011
+  server: 89.191.225.131
+  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1665
+  delay: 2501
   down: 100
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 2
   port: 62003
   protocol: udp
   server: 176.32.35.226
