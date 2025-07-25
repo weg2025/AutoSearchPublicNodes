@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -24,6 +24,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: 9|日本
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|日本2
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 45.11.1.62
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '9|日本 #1'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -53,7 +69,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-CP0L3MZWnq.download.microsoft.com
+    host: 202507232129723-vNgaz226QA.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -76,19 +92,19 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 40937
+  port: 41225
   server: 36.151.251.7
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 41225
+  port: 40937
   server: 36.151.251.7
   skip-cert-verify: true
   sni: www.baidu.com
