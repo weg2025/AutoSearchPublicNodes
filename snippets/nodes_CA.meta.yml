@@ -1,4 +1,58 @@
 proxies:
+- delay: 598
+  name: 11|加拿大 - Beauharnois - OVH SAS - ...
+  network: ws
+  port: 80
+  server: 104.18.26.90
+  servername: blaze-can-118.blazecanada.site
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: blaze-can-118.blazecanada.site
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1857
+  h2-opts: {}
+  http-opts: {}
+  name: 11|加拿大 - 多伦多 - HostPapa - 1
+  network: ws
+  port: 2083
+  server: cc2dash.89060004.xyz
+  servername: cc2d3.89060004.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+  ws-opts:
+    headers:
+      HOST: cc2d3.89060004.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1590
+  h2-opts: {}
+  http-opts: {}
+  name: 11|加拿大 - 多伦多 - HostPapa - 2
+  network: ws
+  port: 2087
+  server: 104.21.3.189
+  servername: cc2d2.89060004.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+  ws-opts:
+    headers:
+      HOST: cc2d2.89060004.xyz
+    path: /
 - name: '12|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979

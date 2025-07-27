@@ -1,9 +1,16 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇷🇺RU
-  delay: 1023
-  name: 11|俄罗斯 - 莫斯科 - AdminVPS LLC - 1
-  password: n/9j1jq4dzhHFx5V75vnCh0jJHzQLT2LkMSx9DNMMtA=
-  port: 18011
-  server: 89.191.225.131
-  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 2306
+  h2-opts: {}
+  http-opts: {}
+  name: 11|俄罗斯 - 莫斯科 - LLC BAXET - 1
+  network: ws
+  port: 8880
+  server: yx2.niaoba.top
+  type: vmess
+  uuid: 763b29f0-ffba-42e8-a054-d595092135e6
+  ws-opts:
+    headers:
+      Host: 1176552658409.vmru.taobao.yyds.niaoba.top
+    path: /

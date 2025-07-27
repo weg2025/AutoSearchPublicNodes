@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -24,22 +24,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: 9|日本
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 153.121.42.218
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 9|日本2
-  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
-  port: 443
-  server: 45.11.1.62
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '9|日本 #1'
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -63,14 +47,33 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|🇯🇵 @Filter_breaker
-  password: bd3e3f61-242a-42ae-8598-fc0821f29104
-  port: 50000
-  server: 45.11.1.62
-  skip-cert-verify: true
-  sni: www.microsoft.com
+- alterId: 0
+  cipher: auto
+  delay: 885
+  name: 11|日本 - 東京都 - Cogent Communicatio...
+  network: ws
+  port: 25276
+  server: cu.awslcn.info
   tls: false
-  type: hysteria2
+  type: vmess
+  udp: true
+  uuid: 4e1704e8-991d-43c6-bbe0-823602c17872
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507121073737-8Na8oPBuci.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇯🇵 日本2|@ripaojiedian
@@ -85,18 +88,6 @@ proxies:
     tls: true
   port: 636
   server: 137.220.191.40
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507232129723-vNgaz226QA.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome

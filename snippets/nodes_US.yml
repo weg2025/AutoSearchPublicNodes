@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -8,7 +8,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -20,14 +20,14 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -35,291 +35,136 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 1418
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 凤凰城 - Oracle Corporation ...
+  delay: 2048
+  name: 11|意大利 - 罗马市 - PQ HOSTING PLUS S....
   network: ws
-  port: 2086
-  server: awetdfgn_cdn.hfhfb.homes
-  skip-cert-verify: true
+  port: 30805
+  server: v5.heduian.link
+  tls: false
   type: vmess
-  uuid: 1ae7b2ce-393d-4b22-ab55-a8d3e319f1a9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: mgcdn10.hfhfb.homes
-    path: /market?ed=1024
+      Host: v5.heduian.link
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  delay: 2440
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 30824
+  server: v24.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v24.heduian.link
+    path: /oooo
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 913
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1877
+  delay: 1369
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - HostPapa - 11
+  name: 11|美国 - 水牛城 - HostPapa - 6
   network: ws
-  port: 80
-  server: s4.cn-db.top
-  servername: 100-242-127-44.s4.cn-db.top
+  port: 2086
+  server: s3.cn-db.top
+  servername: 100-216-147-1.s3.cn-db.top
   skip-cert-verify: true
   type: vmess
   uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
   ws-opts:
     headers:
-      HOST: 100-242-127-44.s4.cn-db.top
-    path: /dabai.in172.64.1.52
+      HOST: 100-216-147-1.s3.cn-db.top
+    path: /dabai.in104.20.109.71
 - alterId: 0
   cipher: auto
-  delay: 2370
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 1...
+  country: 🏁ZZ
+  delay: 2983
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 7
   network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
+  port: 2095
+  server: s5.db-link01.top
+  servername: 100-61-120-107.s5.db-link01.top
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: dda037d3-189f-469f-a657-7618be34bee8
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
   ws-opts:
     headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
+      HOST: 100-61-120-107.s5.db-link01.top
+    path: /dabai.in172.67.57.150
 - alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  delay: 2893
+  country: 🇨🇾CY
+  delay: 1370
   h2-opts: {}
   http-opts: {}
-  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #1'
+  name: 11|美国 - 洛杉矶 - HostPapa - 3
   network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
+  port: 80
+  server: fastcup.net
+  servername: cdn-node-oss-99.paofu.de
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 337edede-50e3-4a26-97e7-7a1013e2f1d5
-  ws-headers:
-    HOST: us01.sh-cloudflare.sbs
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  delay: 2366
-  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #2'
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 073748f2-ddd0-41f4-9bd0-910f04a54df4
+  uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6
   ws-opts:
     headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
+      HOST: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 - alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  delay: 2428
+  country: 🇨🇾CY
+  delay: 1339
   h2-opts: {}
   http-opts: {}
-  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #3'
+  name: 11|美国 - 洛杉矶 - HostPapa - 4
   network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
+  port: 80
+  server: pubg.ac
+  servername: cdn-node-oss-99.paofu.de
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 167395f5-b3b5-4327-844f-4c23f5aac9da
-  ws-headers:
-    HOST: us01.sh-cloudflare.sbs
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 2368
-  h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #4'
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ed573080-0369-4cd3-9a88-e99ab171a8b1
-  ws-headers:
-    HOST: us01.sh-cloudflare.sbs
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  delay: 2415
-  name: '11|美国 - 盐湖城 - FiberState, LLC - 1... #5'
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0d009be0-29ad-4fc9-8302-15a4d8665872
+  uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6
   ws-opts:
     headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
+      HOST: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 2397
+  country: 🇨🇾CY
+  delay: 1391
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 2
+  name: 11|美国 - 洛杉矶 - HostPapa - 5
   network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
+  port: 80
+  server: csgo.com
+  servername: cdn-node-oss-99.paofu.de
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 4942b95a-e7e6-4bdf-9deb-9395bd29e449
+  uuid: 9c67ebbe-d620-4b6d-ad82-1ebc675e22c6
   ws-opts:
     headers:
-      HOST: us01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1679
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 3
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be26173c-5573-461a-b302-655fd5080fdc
-  ws-opts:
-    headers:
-      Host: us01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1786
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 4
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 18437a48-3923-4f60-b94b-bf62812961cf
-  ws-opts:
-    headers:
-      HOST: us01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1879
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 5
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f375c63e-026e-4442-9783-b02622cb708d
-  ws-opts:
-    headers:
-      HOST: us01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 2785
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 6
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c76d3091-7065-440b-b83e-14ce4fd8933d
-  ws-headers:
-    HOST: us01.sh-cloudflare.sbs
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2101
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 7
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5714bc78-14d2-40d2-b017-af400eab9143
-  ws-opts:
-    headers:
-      HOST: us01.sh-cloudflare.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 2867
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 8
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8
-  ws-headers:
-    HOST: us01.sh-cloudflare.sbs
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1802
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberState, LLC - 9
-  network: ws
-  port: 8443
-  server: us01.sh-cloudflare.sbs
-  servername: us01.sh-cloudflare.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 10749b58-d2ce-48db-997a-986d7c2dec35
-  ws-opts:
-    headers:
-      HOST: us01.sh-cloudflare.sbs
-    path: /
+      HOST: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 - client-fingerprint: chrome
-  name: 13|🇺🇸 美国|@ripaojiedian
+  delay: 2798
+  name: 11,13|🇺🇸 美国|@ripaojiedian
   network: ws
   password: trojan
   port: 443
@@ -331,13 +176,207 @@ proxies:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
     path: /
+- delay: 1183
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #6'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 45.67.215.95
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- delay: 789
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- client-fingerprint: chrome
+  delay: 1001
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #8'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    path: /
+- delay: 1450
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #9'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- delay: 1196
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #21'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 8443
+  server: 156.238.18.220
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 837
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 156.225.72.199
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 850
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #25'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 45.156.24.225
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1609
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #28'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1093
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #30'
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 160.79.105.160
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 847
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #31'
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 5.182.84.9
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 943
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2096
+  server: 156.238.19.69
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 992
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 108.165.152.71
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1466
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #43'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2096
+  server: 154.83.2.54
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1325
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #48'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 176.124.223.92
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-gcm
+  delay: 536
+  name: 11|美国 - 聖荷西 - DMIT Cloud Services...
+  password: vGCBLG1SUe7YdXI1fPhdsA==
+  port: 36529
+  server: jpiplc.deuen.com
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507232129723-vNgaz226QA.download.microsoft.com
+    host: 202507121073737-8Na8oPBuci.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -361,14 +400,6 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 13|🇺🇸 美国5|@ripaojiedian
-  password: Gjv3t0WDY17HUakw+2DpeA==
-  port: 17273
-  server: iepl.huli168.com
-  tfo: false
-  type: ss
 - name: 14|美国|@ripaojiedian
   network: ws
   password: trojan

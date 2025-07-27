@@ -1,4 +1,19 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 1435
+  name: 11|英国 - Erith - OVH SAS - 1
+  network: ws
+  port: 2083
+  server: www.meter.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d218dfe5-fae6-408e-b615-8666df7f0924
+  ws-opts:
+    headers:
+      Host: blaze-uk-48.pinkle7.site
+    path: /wssss
 - name: 15|GB_speednode_0122
   password: '!!str 74260628090146500'
   port: 443

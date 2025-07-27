@@ -1,15 +1,47 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
+- delay: 729
+  name: 11|韩国 - Muju-gun - Cloudflare, In...
+  network: ws
+  password: Aimer
+  port: 17776
+  server: 118.45.154.78
+  skip-cert-verify: true
+  sni: epgz.aimercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgz.aimercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇰🇷 KR
-  delay: 1313
-  name: 11,13|🇰🇷 韩国|@ripaojiedian
+  delay: 294
+  name: 11,13|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 15.165.12.14
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  delay: 312
+  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
+  password: VXPipi29nxMO
+  plugin: obfs
+  plugin-opts:
+    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+    mode: http
+  port: 1052
+  server: kr2.qiangdong.xyz
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
