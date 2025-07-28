@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -16,7 +16,7 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - cipher: aes-256-cfb
-  name: 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  name: 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
@@ -24,7 +24,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -32,7 +32,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -41,7 +41,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  name: 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -55,14 +55,14 @@ proxies:
       Host: th.lzj520hxw.dpdns.org
     path: /lzjjj
 - cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -78,7 +78,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -89,7 +89,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -101,14 +101,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -834,15 +834,19 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 629
-  name: 11|日本 - 东京 - Alibaba (US) Technol...
+  name: 11,13,14|日本5|@ripaojiedian
   network: ws
-  port: 8080
+  port: '8080'
   server: 47.79.94.25
-  skip-cert-verify: true
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: b36d992c-786b-4136-96d6-c37641207d47
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -1117,12 +1121,12 @@ proxies:
       HOST: cdn-node-oss-99.paofu.de
     path: /profile/telegram@ssrsub
 - delay: 2798
-  name: 11,13|🇺🇸 美国|@ripaojiedian
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
   password: trojan
   port: 443
   server: 91.193.58.0
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: wahaha.yingyangkuaixian.dpdns.org
   type: trojan
   ws-opts:
@@ -1317,10 +1321,11 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-gcm
   delay: 536
-  name: 11|美国 - 聖荷西 - DMIT Cloud Services...
+  name: 11,13|🇺🇸 美国|@ripaojiedian
   password: vGCBLG1SUe7YdXI1fPhdsA==
   port: 36529
   server: jpiplc.deuen.com
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -1390,11 +1395,10 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
   delay: 294
-  name: 11,13|tg频道:@ripaojiedian
+  name: 11|韩国 - 首尔特别市 - Amazon Technologi...
   password: amazonskr05
   port: 443
   server: 15.165.12.14
-  tfo: false
   type: ss
 - cipher: aes-128-gcm
   delay: 312
@@ -1406,6 +1410,13 @@ proxies:
     mode: http
   port: 1052
   server: kr2.qiangdong.xyz
+  type: ss
+- cipher: aes-256-cfb
+  name: 13|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.86.81.76
+  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -1441,13 +1452,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰 香港3|@ripaojiedian
-  port: 12425
-  server: 38.147.188.87
+  port: 42203
+  server: 103.224.80.29
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2f927b33-021b-4d45-9d4e-9a3592aef502
+  uuid: 89e3bb59-bf63-4346-9864-cbc79cee58a5
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1464,28 +1475,22 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 13,14|香港6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com
-  servername: ''
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  port: 49597
+  server: 103.181.165.26
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-8Na8oPBuci.download.microsoft.com
+    host: 202507022251291-d01YttPsbj.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1522,13 +1527,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  tfo: false
-  type: ss
+- name: 13,14|韩国|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 16012
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1558,20 +1564,12 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-8Na8oPBuci.download.microsoft.com
+    host: 202507022251291-d01YttPsbj.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13,14|美国3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 3596
-  server: 36.151.251.7
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1580,23 +1578,34 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 13|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.26
-  tfo: false
-  type: ss
+- name: 13,14|美国3|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 3596
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|香港3|@ripaojiedian
   network: tcp
-  port: '12425'
-  server: 38.147.188.87
+  port: '42203'
+  server: 103.224.80.29
   servername: ''
   tls: false
   type: vmess
-  uuid: 2f927b33-021b-4d45-9d4e-9a3592aef502
+  uuid: 89e3bb59-bf63-4346-9864-cbc79cee58a5
+- alterId: 0
+  cipher: auto
+  name: 14|香港6|@ripaojiedian
+  network: tcp
+  port: '49597'
+  server: 103.181.165.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -1617,17 +1626,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 14|美国|@ripaojiedian
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: '%2F'
 - name: 15|GB_speednode_0122
   password: '74260628090146500'
   port: 443
