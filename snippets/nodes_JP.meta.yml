@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -15,7 +15,15 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: '9,10|🔷🆔@v2ray_configs_pool🔷 #3'
+- name: 8|日本Hy2-3
+  password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
+  port: 443
+  server: jp1.interld123456789.com
+  skip-cert-verify: true
+  sni: 1231231.1234567890spcloud.com
+  tls: false
+  type: hysteria2
+- name: '8|Channel id: @ShadowProxy66 🇯🇵'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -23,7 +31,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 9|🇯🇵日本
+- name: 8|🇯🇵日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
   server: aws-linkhy17.liangxin1.xyz
@@ -31,7 +39,7 @@ proxies:
   sni: www.apple.com.cn
   tls: false
   type: hysteria2
-- name: 9|🇯🇵日本东京2
+- name: 8|🇯🇵日本东京2
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
   server: 154.85.18.233
@@ -39,7 +47,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|🇯🇵日本东京
+- name: 8|🇯🇵日本东京
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
   server: 154.85.19.63
@@ -50,7 +58,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 885
-  name: 11|日本 - 東京都 - Cogent Communicatio...
+  name: 10|日本 - 東京都 - Cogent Communicatio...
   network: ws
   port: 25276
   server: cu.awslcn.info
@@ -64,11 +72,11 @@ proxies:
     path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507022251291-d01YttPsbj.download.microsoft.com
+    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -76,7 +84,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
@@ -91,26 +99,50 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 40937
-  server: 36.151.251.7
+  port: 443
+  server: 172.238.14.135
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 41225
-  server: 36.151.251.7
+  port: 443
+  server: 172.237.27.220
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- client-fingerprint: chrome
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  network: ws
+  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: /
+- name: 13|日本5|@ripaojiedian
+  network: ws
+  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
+  port: 20230
+  server: jp006.421421.xyz
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 14|日本v2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -118,7 +150,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 15|JP_speednode_0167
+- name: 14|JP_speednode_0167
   network: ws
   port: 8880
   server: 103.116.7.3
