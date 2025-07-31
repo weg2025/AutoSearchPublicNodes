@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -23,7 +23,15 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66 🇯🇵'
+- name: '9|Channel id: @ShadowProxy66🇯🇵'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '9|Channel id: @ShadowProxy66🇯🇵 #1'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -55,28 +63,57 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  delay: 885
-  name: 11|日本 - 東京都 - Cogent Communicatio...
-  network: ws
-  port: 25276
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
+- client-fingerprint: chrome
+  delay: 1273
+  name: 11|日本 - 东京 - Akamai Technologies,...
+  password: 7ZkPnMNGly
+  port: 1935
+  server: x1-japan-linode-v2-pwlzp.devefun.org
+  skip-cert-verify: false
+  sni: x1-japan-linode-v2-pwlzp.devefun.org
+  type: trojan
   udp: true
-  uuid: 4e1704e8-991d-43c6-bbe0-823602c17872
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
+- auth: ''
+  delay: 529
+  fast-open: false
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  password: 5rtu6prtJJgafPOKLo44QsEJv94
+  port: 16362
+  server: 13.113.195.235
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- auth: ''
+  delay: 1522
+  fast-open: false
+  name: '11|日本 - 东京 - Amazon Technologies ... #1'
+  password: dBiusBlM91DiN5o9F2iHLDUQBuQ
+  port: 15394
+  server: 18.183.94.194
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- auth: zO3j18CpknDJ09KzlHN0Gq2lvM
+  delay: 2943
+  name: '11|日本 - 东京 - Amazon Technologies ... #2'
+  password: zO3j18CpknDJ09KzlHN0Gq2lvM
+  port: 19245
+  server: 18.181.145.34
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -98,6 +135,15 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 13,14|日本4|@ripaojiedian
+  network: tcp
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 1466
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -110,11 +156,11 @@ proxies:
   type: vmess
   uuid: fea0400c-9dab-4709-a149-9f3144e5a346
 - client-fingerprint: chrome
-  name: 13,14|日本4|@ripaojiedian
+  name: 13,14|日本5|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 46135
-  server: 36.151.192.243
+  port: 181
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -138,17 +184,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 15|JP_speednode_0167
-  network: ws
-  port: 8880
-  server: 103.116.7.3
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-  ws-opts:
-    headers:
-      Host: bitget1.asdasd.click
-    path: /TelegramU0001F1E8U0001F1F3

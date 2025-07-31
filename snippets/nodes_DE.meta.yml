@@ -1,5 +1,5 @@
 proxies:
-- name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
+- name: 1|🇩🇪1 |  1.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.148.22
@@ -13,7 +13,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪2 |  1.3MB/s|0%|Openai
+- name: 1|🇩🇪2 |  1.3MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -27,7 +27,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪3 |  2.6MB/s|20%|Openai
+- name: 1|🇩🇪3 |  2.6MB/s|20%|Openai
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -41,7 +41,7 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 2|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
+- name: 1|🇩🇪4 |  2.8MB/s|13%|Netflix|You...
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -59,7 +59,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -75,7 +75,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  name: 1|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -85,7 +85,17 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 10|@v2ray_configs_pool🔷
+- name: 10|آم 🇩🇪 @V2xay
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  port: 35000
+  server: 77.90.52.69
+  skip-cert-verify: true
+  sni: pichondan.com
+  tls: false
+  type: hysteria2
+- name: 10|@Daily_Configs
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -104,322 +114,485 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 10|@Filter_breaker | Germany
-  password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90
+- alterId: 0
+  cipher: auto
+  country: 🇩🇪DE
+  delay: 1670
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - Falkenstein - Hetzner Onl...
+  network: tcp
+  port: 14090
+  server: fast5.daallygold.com
+  servername: telewebion.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 37fc85cf-30d6-4f25-a19b-cfa5732ff6ca
+- delay: 760
+  name: '11|德国 - Falkenstein - Hetzner Onl... #1'
+  network: tcp
+  port: 2020
+  server: 78.47.24.36
+  type: vless
+  udp: true
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  xudp: true
+- delay: 789
+  name: '11|德国 - Falkenstein - Hetzner Onl... #2'
+  network: tcp
+  port: 2020
+  server: 78.46.230.173
+  type: vless
+  udp: true
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  delay: 2618
+  name: '11|德国 - Falkenstein - Hetzner Onl... #3'
+  network: ws
   port: 443
-  server: 185.146.173.3400
-  skip-cert-verify: false
-  sni: hysteria.de.vpnfree.org
-  tls: false
-  type: hysteria2
-- country: 🇩🇪DE
-  delay: 1990
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.157.93.118
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1990
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.159.77.32
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 687
-  name: '11|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.159.77.32
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 655
-  name: '11|德国 - Frankfurt am Main - Amazo... #3'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.157.93.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- delay: 1164
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: ws
-  port: 8080
-  server: 85.133.202.90
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 6e8e9178-24dd-4b56-b5d8-fe753237be24
-  ws-opts:
-    path: /
-- delay: 979
-  name: '11|德国 - Frankfurt Am Main - Hetzn... #1'
-  network: ws
-  port: 2082
-  server: 85.133.204.84
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 5337c939-01b4-47d7-b1c6-2ad04095c996
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 692
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 8
-  network: ws
-  port: 2083
-  server: 172.67.72.15
-  servername: blaze-ger-248.blazecloudmain.site
-  skip-cert-verify: true
+  server: www.speedtest.net
+  servername: matoride2.sabzipolo.site
   tls: true
-  type: vmess
-  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
+  type: vless
+  udp: true
+  uuid: 930e2d97-c3e4-4840-9289-748ae4fde82e
   ws-opts:
     headers:
-      HOST: blaze-ger-248.blazecloudmain.site
-    path: /linkwsrt?ed=2560
+      Host: matoride2.sabzipolo.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /downloader.php?ed=2560
+  xudp: true
+- delay: 1498
+  name: '11|德国 - Falkenstein - Hetzner Onl... #4'
+  network: tcp
+  port: 2020
+  server: 168.119.245.178
+  type: vless
+  udp: true
+  uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+  xudp: true
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  delay: 670
+  country: 🇮🇷IR
+  delay: 1373
   h2-opts: {}
   http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 9
-  network: ws
-  port: 2083
-  server: 104.26.5.16
-  servername: blaze-ger-248.blazecloudmain.site
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
+  network: tcp
+  port: 56701
+  server: fast17.new1gold.com
+  servername: telewebion.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
-  ws-opts:
-    headers:
-      HOST: blaze-ger-248.blazecloudmain.site
-    path: /linkwsrt?ed=2560
-- delay: 507
+  uuid: 1d350e55-cd4e-4c93-9f8b-f8684aa5b8dc
+- client-fingerprint: chrome
+  delay: 2872
   name: 11|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
-  port: 80
-  server: 104.24.37.192
-  tls: false
+  port: 443
+  server: 104.25.209.180
+  servername: rayan-08.parastoo.dpdns.org
+  tls: true
   type: vless
-  uuid: 9a2680ff-c5d5-410a-9108-8d6b10e4ea1e
+  udp: true
+  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
   ws-opts:
     headers:
-      Host: ppal03.dolobe7975.workers.dev
-    path: /?ed=2560
-- delay: 523
+      Host: rayan-08.parastoo.dpdns.org
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /@Rayan_Config
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  delay: 2021
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
   network: ws
-  port: 80
-  server: 104.24.147.64
-  servername: ppal03-ppal03.letiwe3303.workers.dev
-  tls: false
+  port: 2096
+  server: 104.26.13.38
+  servername: inVINCIble.fAFA20.Shop
+  tls: true
   type: vless
-  uuid: 03e4d6fe-f461-499f-b9c6-35c60f192e1a
+  udp: true
+  uuid: 376734bc-4db8-4317-b451-af0262cb01c7
   ws-opts:
     headers:
-      Host: ppal03-ppal03.letiwe3303.workers.dev
-    path: /?ed=2560
+      Host: invincible.fafa20.shop
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /yRVRnY2jDtjg67UV/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
+  xudp: true
 - client-fingerprint: chrome
-  delay: 527
+  delay: 1934
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #2'
   network: ws
-  port: 80
-  server: 104.24.248.204
-  tls: false
+  port: 443
+  server: 104.25.39.179
+  servername: rayan-10.leila.dpdns.org
+  tls: true
   type: vless
-  uuid: 2370f4d8-6694-4e51-8c72-b2782ae96a59
+  udp: true
+  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
   ws-opts:
     headers:
-      Host: withered-wave-ee0b-ppal03.faxip46069.workers.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  delay: 463
+      Host: rayan-10.leila.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /@Rayan_Config
+  xudp: true
+- delay: 477
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #3'
   network: ws
-  port: 80
-  server: 104.24.186.156
-  tls: false
+  port: 8880
+  server: 162.159.130.115
   type: vless
-  uuid: 6ff4726f-3650-4803-95eb-50b240f6ac75
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
   ws-opts:
     headers:
-      Host: red-math-7092-ppal03.mewoco2522.workers.dev
-    path: /?ed=2560
-- delay: 580
+      Host: VngSuPpLY.IP-DdnS.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /6E93lmPGHVCySaRK?ed=2560
+  xudp: true
+- delay: 518
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #4'
   network: ws
-  port: 80
-  server: 104.24.248.85
-  tls: false
+  port: 8880
+  server: 172.67.65.158
   type: vless
-  uuid: 7fea28c6-f9b0-45ce-b7c2-ed3a3991d1e8
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
   ws-opts:
     headers:
-      Host: curly-waterfall-509e-ppal03.wimiba9167.workers.dev
-    path: /?ed=2560
-- client-fingerprint: randomized
-  delay: 1351
+      Host: VngSuPpLY.IP-DdnS.com
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /Etb1L6YUdZFZuTOr?ed=2560
+  xudp: true
+- delay: 902
   name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #5'
   network: ws
-  port: 2053
-  server: 162.159.129.11
-  servername: vle.amclubsdns.dpdns.org
+  port: 8880
+  server: 104.20.10.254
+  servername: vnGSuPPly.IP-ddNS.COm
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /G8ZDmBYwOAz3ahmR?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1867
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #6'
+  network: ws
+  port: 443
+  server: 162.159.152.2
+  servername: vle.amclubsvip.dpdns.org
   tls: true
   type: vless
   udp: true
   uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
   ws-opts:
     headers:
-      Host: vle.amclubsdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless&NAT64=true
-- client-fingerprint: chrome
-  delay: 1254
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #6'
+      Host: vle.amclubsvip.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /Telegram@V2ray_Alpha/?ed=2560
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  delay: 2622
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #7'
   network: ws
   port: 443
-  server: cdnjs.com
+  server: 104.24.171.107
+  servername: vNgSUppLy.IP-dDnS.COm
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /eJ5JZ3A1HxfU0bPO?ed=2560/?JOKERRVPN_BIA_CHANEL@JOKERRVPN
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1495
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #8'
+  network: ws
+  port: 443
+  server: 104.24.197.20
   servername: rayan-roof.atena.dpdns.org
   tls: true
   type: vless
   udp: true
   uuid: db400287-fb42-441d-8a76-5624a8a96f49
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: rayan-roof.atena.dpdns.org
-    max-early-data: 2560
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
     path: /
-- client-fingerprint: random
-  delay: 637
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #7'
+  xudp: true
+- delay: 548
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #9'
   network: ws
-  port: 2087
-  server: 104.24.135.129
-  servername: fandouhuayuan.pages.dev
-  skip-cert-verify: true
-  tfo: false
+  port: 8880
+  server: 104.25.130.167
+  servername: vNgSuPPlY.Ip-ddnS.cOM
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /lllVIgoVmfBciTg2?ed=2560
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: random
+  delay: 854
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #10'
+  network: ws
+  port: 2083
+  server: 162.159.142.252
+  servername: fei.634676.xyz
   tls: true
   type: vless
-  uuid: 7b5ea382-cbc6-4169-9f88-8200ca80c31a
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
   ws-opts:
     headers:
-      Host: fandouhuayuan.pages.dev
+      Host: fei.634676.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /?ed=2560
-- country: 🇩🇪DE
-  delay: 1343
-  name: 11|德国 - 杜塞尔多夫 - Cloudflare, Inc. ...
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 185.208.207.217
-  skip-cert-verify: true
-  sni: dus.freeguard.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1463
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 格尔恩豪森 - ROETH & BECK GbR ...
+  xudp: true
+- delay: 989
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #11'
   network: ws
-  port: 443
-  server: 1753328541.tencentapp.cn
-  servername: de1.hoshinonetwork.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9e513633-a12f-49e0-87fe-c3086ce4f840
+  port: 8880
+  server: join.vizzpn.telegram.for.more.freevpn.vizzfrag.ir
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
   ws-opts:
     headers:
-      HOST: de1.hoshinonetwork.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 840
-  name: '11|德国 - 格尔恩豪森 - ROETH & BECK GbR ... #1'
+      Host: VngSuPpLY.IP-DdnS.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /Etb1L6YUdZFZuTOr?ed=2560
+  xudp: true
+- delay: 1085
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #12'
+  network: ws
+  port: 8880
+  server: 172.67.119.42
+  servername: vNGSUPply.ip-dDns.COm
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /UTpGy4cyQ62xfAtu?ed=2560
+  xudp: true
+- delay: 485
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #13'
+  network: ws
+  port: 8880
+  server: 104.20.18.168
+  type: vless
+  udp: true
+  uuid: d26009b6-d347-403f-95ce-1816bb8b8ca4
+  ws-opts:
+    headers:
+      Host: v2raylandd.werokac991.workers.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- client-fingerprint: randomized
+  delay: 1877
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #14'
   network: ws
   port: 443
-  server: 1753328541.tencentapp.cn
-  servername: de1.hoshinonetwork.pp.ua
+  server: time.is
+  servername: vle.amclubsapp.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  ws-opts:
+    headers:
+      Host: vle.amclubsapp.dpdns.org
+    path: /?ed=2560&PROT_TYPE=vless&NAT64=true
+- delay: 912
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #15'
+  network: ws
+  port: 8880
+  server: 162.159.42.20
+  tls: false
+  type: vless
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  delay: 1809
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #16'
+  network: ws
+  port: 443
+  server: 104.24.129.78
+  servername: rayan-09.leila.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+  ws-opts:
+    headers:
+      Host: rayan-09.leila.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+  xudp: true
+- delay: 596
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #17'
+  network: ws
+  port: 8880
+  server: 104.25.210.16
+  servername: vngsuPPly.IP-dDNs.CoMتعداد
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /TJhZjFeb0fQLVntH?ed=2560
+  xudp: true
+- delay: 813
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #18'
+  network: ws
+  port: 8880
+  server: 104.25.229.227
+  type: vless
+  udp: true
+  uuid: e9979910-79d1-4621-a93c-b2a579c44ba7
+  ws-opts:
+    headers:
+      Host: vngsupply.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  delay: 1916
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #19'
+  network: ws
+  port: 443
+  server: www.indyskipass.com
+  servername: albedoalbedochan.violetchaan.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 004ba5d4-d448-4960-a762-e5190ab415f2
+  ws-opts:
+    headers:
+      Host: albedoalbedochan.violetchaan.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1247
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #20'
+  network: ws
+  port: 443
+  server: 104.25.156.18
+  servername: rayan-07.parastoo.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+  ws-opts:
+    headers:
+      Host: rayan-07.parastoo.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /@Rayan_Config
+  xudp: true
+- alterId: 0
+  cipher: auto
+  delay: 1161
+  name: 11|德国 - 格尔恩豪森 - Layer7 Networks G...
+  network: tcp
+  port: 27839
+  server: sp.bggaming.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dc9b7c08-029e-4e53-985f-8d3d84300394
+  xudp: true
+- client-fingerprint: firefox
+  delay: 1926
+  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: tcp
+  port: 13136
+  reality-opts:
+    public-key: r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms
+    short-id: 27e6b66aa77662fb
+  server: meow.postpapet.ir
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 508d96e8-953f-4a67-bc7d-8aba5878f38a
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇦 UA
+  delay: 2019
+  name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 2450
+  down: 55 Mbps
+  name: 11|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 12
+  port: 37519
+  ports: 10000-20000
+  server: 109.104.153.91
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 63424067-9489-4855-ba2d-78b2aef805d0
-  ws-opts:
-    headers:
-      Host: de1.hoshinonetwork.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1317
-  name: '11|德国 - 格尔恩豪森 - ROETH & BECK GbR ... #2'
-  network: ws
-  port: 443
-  server: 1753328541.tencentapp.cn
-  servername: de1.hoshinonetwork.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9de3ebf5-8f58-4aa7-9786-aada43996d9d
-  ws-opts:
-    headers:
-      Host: de1.hoshinonetwork.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1008
-  name: '11|德国 - 格尔恩豪森 - ROETH & BECK GbR ... #3'
-  network: ws
-  port: 443
-  server: 1753328541.tencentapp.cn
-  servername: de1.hoshinonetwork.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4ff856f5-4ab1-48ba-bc65-356689e92039
-  ws-opts:
-    headers:
-      Host: de1.hoshinonetwork.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1219
-  name: '11|德国 - 格尔恩豪森 - ROETH & BECK GbR ... #4'
-  network: ws
-  port: 443
-  server: 1753328541.tencentapp.cn
-  servername: de1.hoshinonetwork.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aa5ddec1-778a-49dd-8e16-cf400efb7a11
-  ws-opts:
-    headers:
-      Host: de1.hoshinonetwork.pp.ua
-    path: /
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
 - name: 15|DE_speednode_0040
   network: ws
   port: 8880
@@ -462,20 +635,6 @@ proxies:
     headers:
       Host: kjgx.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0043
-  network: ws
-  port: 8880
-  server: 188.244.122.188
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - name: 15|DE_speednode_0044
   network: ws
   port: 8880
@@ -508,34 +667,6 @@ proxies:
   network: ws
   port: 8880
   server: 77.37.33.188
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0047
-  network: ws
-  port: 8880
-  server: 5.10.214.188
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0048
-  network: ws
-  port: 8880
-  server: 45.80.111.188
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
@@ -588,20 +719,6 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0052
-  network: ws
-  port: 8880
-  server: 140.99.233.188
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - name: 15|DE_speednode_0053
   network: ws
   port: 8880
@@ -615,20 +732,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3
-- name: 15|DE_speednode_0054
-  network: ws
-  port: 8880
-  server: 188.244.122.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
 - name: 15|DE_speednode_0055
   network: ws
@@ -658,20 +761,6 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|DE_speednode_0058
-  network: ws
-  port: 8880
-  server: 188.244.122.247
-  servername: ex.sue.x10.mx
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  ws-opts:
-    headers:
-      Host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
 - name: 15|DE_speednode_0059
   network: ws
   port: 8880
