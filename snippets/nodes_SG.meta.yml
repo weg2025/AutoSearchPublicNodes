@@ -79,12 +79,11 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   delay: 694
-  name: 11,15|SG_speednode_0088
+  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   port: 443
   server: 3.0.39.179
   servername: jd.chenchuanjin.sbs
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -92,6 +91,8 @@ proxies:
   ws-opts:
     headers:
       Host: jd.chenchuanjin.sbs
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /
   xudp: true
 - cipher: chacha20-ietf-poly1305
@@ -148,42 +149,3 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
-- name: 15|SG_speednode_0090
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: 15|SG_speednode_0091
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.239
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|SG_speednode_0092
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560

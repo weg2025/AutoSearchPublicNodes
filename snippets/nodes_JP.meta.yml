@@ -23,7 +23,15 @@ proxies:
   sni: 1231231.1234567890spcloud.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇯🇵'
+- name: '9,10|@v2ray_configs_pool #3'
+  password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
+  port: 443
+  server: 153.121.42.218
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '9,10|@v2ray_configs_pool #4'
   password: 262100bd-a0c7-4412-a62d-a07d01f11a6a
   port: 443
   server: 45.11.1.62
@@ -55,7 +63,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇯🇵 #1'
+- name: '9,10|@v2ray_configs_pool #30'
   password: wl4HYN9PPKs8d8IzGIt4yKqt0
   port: 53348
   server: 47.74.34.102
@@ -112,7 +120,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-5Up7OUIi18.download.microsoft.com
+    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -162,42 +170,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 15|JP_speednode_0064
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 103.116.7.103
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|JP_speednode_0065
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.220
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|JP_speednode_0066
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
