@@ -31,13 +31,21 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- auth: 2FS7C9xVijQO192Thw3VKvT8A
-  delay: 963
-  name: 11|韩国 - 首尔特别市 - Amazon.com, Inc. ...
-  password: 2FS7C9xVijQO192Thw3VKvT8A
-  port: 24070
-  server: 43.203.248.119
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
+- client-fingerprint: chrome
+  delay: 1703
+  name: 11|韩国 - Muju-gun - Cloudflare, In...
+  network: ws
+  port: 58474
+  server: 152.70.232.251
+  servername: chou3.pages.dev
+  tls: true
+  type: vless
   udp: true
+  uuid: 0c561336-b0c7-4b18-96d1-863240a224ab
+  ws-opts:
+    headers:
+      Host: chou3.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true

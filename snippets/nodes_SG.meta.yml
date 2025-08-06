@@ -53,32 +53,78 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- auth: ''
-  delay: 438
-  fast-open: false
+- auth: NyZlWTQUTchX2Q4Sw72woWCA
+  delay: 496
   name: 11|新加坡 - 新加坡 - Amazon Technologie...
-  password: l86SBypDhl4oJMbsNBs9Mez2pzU
-  port: 26652
-  server: 13.213.65.106
+  password: NyZlWTQUTchX2Q4Sw72woWCA
+  port: 22641
+  server: 47.129.184.251
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- auth: ''
+  delay: 473
+  fast-open: false
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #1'
+  password: m1o75lGkBsA1vZ2EV1iOnKEy80
+  port: 15750
+  server: 18.139.227.121
   servername: bing.com
   skip-cert-verify: true
   sni: bing.com
   tfo: false
   type: hysteria2
 - auth: ''
-  delay: 780
+  delay: 1321
+  fast-open: false
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #2'
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 18.143.180.14
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- auth: ''
+  delay: 707
+  fast-open: false
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #3'
+  password: 664S8kkvFHXmO1auxV6A9gKAHI
+  port: 8030
+  server: 18.143.168.252
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- auth: ''
+  delay: 676
+  fast-open: false
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #4'
+  password: mAgQYYwZd9QTlpri006FnX7PZas
+  port: 20669
+  server: 18.142.181.0
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- auth: ''
+  delay: 453
   fast-open: false
   name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
-  password: Uz32yF97OQ1rgJrTK1Dj7T07wdU
-  port: 11587
-  server: 54.169.156.126
+  password: kmE3TxNJpvDZlvnPcXrs4TE
+  port: 15907
+  server: 54.169.122.188
   servername: bing.com
   skip-cert-verify: true
   sni: bing.com
   tfo: false
   type: hysteria2
 - client-fingerprint: chrome
-  delay: 694
+  delay: 641
   name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   port: 443
@@ -91,30 +137,19 @@ proxies:
   ws-opts:
     headers:
       Host: jd.chenchuanjin.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
     path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 1362
-  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  password: HBWP5MZVXfvDu2NcrqctpIcs3so/B3IuxPR7nNGxhJc=
-  port: 14956
-  server: 128.199.88.201
-  type: ss
-- alpn:
-  - h3
-  auth: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  delay: 2562
-  name: 11|新加坡 - 新加坡 - NewMedia Express P...
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
+- delay: 1770
+  name: 11|新加坡 - 新加坡 - Coaxial Cable LLC ...
+  password: CjDOC3zpcPNVv34pLckfOU6Q4A
+  port: 26213
+  server: 92.112.22.221
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: bing.com
+  tfo: false
   type: hysteria2
-  udp: true
 - name: '12|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
@@ -139,13 +174,4 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
-  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
-  port: 443
-  server: sg.mjt000.com
-  skip-cert-verify: false
-  sni: sg.mjt000.com
   type: trojan

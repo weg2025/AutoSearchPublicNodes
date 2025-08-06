@@ -1,26 +1,12 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 1148
-  name: 11|英国 - 倫敦金融城 - Leaseweb UK Limit...
-  network: ws
-  port: 2083
-  server: 104.26.6.89
-  servername: sadegheh3.sadafspace.com
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  delay: 2491
+  name: 11|英国 - 伦敦 - Global Connectivity ...
+  password: PPDI4eTCSUzQ
+  port: 443
+  server: 89.185.84.172
+  type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: sadegheh3.sadafspace.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /ed=2560
-  xudp: true
 - name: '12|Channel id: @ShadowProxy66🇬🇧'
   password: e48d6377dda26840
   port: 42353
@@ -112,6 +98,20 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 15|GB_speednode_0024
+  network: ws
+  port: 8880
+  server: 25.129.198.186
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
 - name: 15|GB_speednode_0025
   network: ws
   port: 8880
@@ -197,6 +197,20 @@ proxies:
     headers:
       Host: sk.laoyoutiao.link
     path: /TelegramğŸ‡¨ğŸ‡³
+- name: 15|GB_speednode_0031
+  network: ws
+  port: 8880
+  server: 91.193.58.34
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
 - name: 15|GB_speednode_0032
   network: ws
   port: 8880
@@ -239,6 +253,48 @@ proxies:
     headers:
       Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
+- name: 15|GB_speednode_0035
+  network: ws
+  port: 8880
+  server: 91.193.58.21
+  servername: kjgx.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2
+- name: 15|GB_speednode_0036
+  network: ws
+  port: 8880
+  server: 91.193.58.102
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_0037
+  network: ws
+  port: 8880
+  server: 91.193.58.233
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
 - name: 15|GB_speednode_0038
   network: ws
   port: 8880
@@ -252,6 +308,48 @@ proxies:
   ws-opts:
     headers:
       Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- name: 15|GB_speednode_0039
+  network: ws
+  port: 8880
+  server: 91.193.58.246
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
+    path: /Telegram🇨🇳
+- name: 15|GB_speednode_0040
+  network: ws
+  port: 8880
+  server: 91.193.58.134
+  servername: us.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: us.laoyoutiao.link
+    path: /
+- name: 15|GB_speednode_0041
+  network: ws
+  port: 8880
+  server: 91.193.58.42
+  servername: sk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
 - name: 15|GB_speednode_0042
   network: ws
@@ -281,3 +379,17 @@ proxies:
     headers:
       Host: sk.laoyoutiao.link
     path: /
+- name: 15|GB_speednode_0044
+  network: ws
+  port: 8880
+  server: 91.193.58.120
+  servername: kjgx.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: kjgx.laoyoutiao.link
+    path: /Telegram@WangCai2

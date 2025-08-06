@@ -1,19 +1,44 @@
 proxies:
-- delay: 2124
-  name: 11|加拿大 - 密西沙加 - Cloudflare, Inc. ...
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  delay: 1619
+  name: 11|加拿大 - 蒙特利尔 - OVH SAS - 1
   network: ws
-  port: 443
-  server: 140.238.158.238
-  servername: hx.ylks0033.dpdns.org
-  skip-cert-verify: true
+  port: 2096
+  server: upwork.com
+  servername: baNG.MiRAclEHeaRtBit.iCU.
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 31f787f5-fd25-49ea-b86c-0362f02cc7a3
   ws-opts:
     headers:
-      Host: hx.ylks0033.dpdns.org
-    path: /?ed=2560
+      Host: BaNG.MiRACleHearTBit.ICu.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /api/ai/socket/@V2RayyNGvpn?ed=2048
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  delay: 1396
+  name: 11|加拿大 - 蒙特利尔 - OVH SAS - 2
+  network: ws
+  port: 2096
+  server: upwork.com
+  servername: baNG.MiRAclEHeaRtBit.iCU.
+  tls: true
+  type: vless
+  udp: true
+  uuid: f462ab51-54fe-4882-a119-d1c4ef7b3a64
+  ws-opts:
+    headers:
+      Host: BaNG.MiRACleHearTBit.ICu.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /api/ai/socket/@V2RayyNGvpn?ed=2048
+  xudp: true
 - name: '12|Channel id: @ShadowProxy66🇨🇦'
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979

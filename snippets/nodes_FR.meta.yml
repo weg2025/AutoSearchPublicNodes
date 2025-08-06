@@ -15,9 +15,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1560
+  delay: 1409
   down: '100'
-  name: 2,11|法国 - 巴黎 - Online S.A.S. - 3
+  name: 2,11|法国 - 巴黎 - Online S.A.S. - 2
   obfs: ''
   port: 15010
   protocol: ''
@@ -113,94 +113,13 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- country: 🇫🇷FR
-  delay: 1074
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.54.149
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 757
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.54.149
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- delay: 1245
-  name: 11|法国 - 巴黎 - CGI GLOBAL LIMITED -...
-  network: raw
-  port: 7600
-  server: 193.176.179.65
-  type: vless
-  udp: true
-  uuid: 29d2d8ee-a277-43c8-b94b-67cec1c55c80
-  xudp: true
-- delay: 711
-  name: 11|法国 - 鲁贝 - OVH SAS - 4
-  network: ws
-  port: 2052
-  server: 104.24.158.0
-  type: vless
-  udp: true
-  uuid: b6a617b7-758e-4639-b2f4-d296c0f1b03e
-  ws-opts:
-    headers:
-      Host: register.tunnelbreaking.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
-  xudp: true
-- delay: 2806
-  name: 11|法国 - 鲁贝 - OVH SAS - 6
-  network: ws
-  port: 2052
-  server: 104.17.169.85
-  type: vless
-  udp: true
-  uuid: b6a617b7-758e-4639-b2f4-d296c0f1b03e
-  ws-opts:
-    headers:
-      Host: register.tunnelbreaking.shop
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-  xudp: true
-- delay: 1524
-  name: 11|法国 - 鲁贝 - OVH SAS - 7
-  network: ws
-  port: 2052
-  server: 104.18.252.199
-  type: vless
-  udp: true
-  uuid: b6a617b7-758e-4639-b2f4-d296c0f1b03e
-  ws-opts:
-    headers:
-      Host: register.tunnelbreaking.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-  xudp: true
-- delay: 1068
-  name: 11|法国 - 鲁贝 - OVH SAS - 8
-  network: ws
-  port: 2052
-  server: 94.140.0.22
-  type: vless
-  udp: true
-  uuid: b6a617b7-758e-4639-b2f4-d296c0f1b03e
-  ws-opts:
-    headers:
-      Host: register.tunnelbreaking.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 699
+  name: 11|法国 - 巴黎 - Global Connectivity ...
+  password: uE1eKTXRZcZHOnPSfB6jgz
+  port: 22695
+  server: 109.172.55.38
+  type: ss
 - name: 15|FR_speednode_0016
   network: ws
   port: 8880
@@ -215,3 +134,17 @@ proxies:
     headers:
       Host: ip.langmanshanxi.top
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 15|FR_speednode_0017
+  network: ws
+  port: 8880
+  server: 185.16.110.63
+  servername: sg.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: sg.laoyoutiao.link
+    path: /Telegram🇨🇳

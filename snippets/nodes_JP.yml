@@ -15,23 +15,13 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- client-fingerprint: chrome
-  delay: 1273
-  name: 11|日本 - 东京 - Akamai Technologies,...
-  password: 7ZkPnMNGly
-  port: 1935
-  server: x1-japan-linode-v2-pwlzp.devefun.org
-  skip-cert-verify: false
-  sni: x1-japan-linode-v2-pwlzp.devefun.org
-  type: trojan
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
+    host: 202507282137611-RCmbvsdXhz.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -53,15 +43,6 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 181
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - client-fingerprint: chrome
   name: 13,14|日本4|@ripaojiedian
   network: tcp
