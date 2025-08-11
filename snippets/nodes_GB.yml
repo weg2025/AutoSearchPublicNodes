@@ -1,9 +1,35 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 2491
-  name: 11|英国 - 伦敦 - Global Connectivity ...
-  password: PPDI4eTCSUzQ
-  port: 443
-  server: 89.185.84.172
+- cipher: rc4-md5
+  delay: 737
+  name: 10|英国 - Erith - OVH SAS - 2
+  password: eVMVtt
+  port: 61147
+  server: uk04.graniterapids.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2552
+  name: 10|英国 - Tower Hamlets - Massivegr...
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36259
+  server: del.papermsg.com
+  type: ss
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  delay: 1460
+  name: 10|英国 - 豪恩斯洛 - Cloudflare, Inc. -...
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 91.199.32.191
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw

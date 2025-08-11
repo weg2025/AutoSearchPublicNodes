@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 0|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -9,8 +9,94 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+- cipher: rc4-md5
+  delay: 429
+  name: 10|新加坡 - 新加坡 - Datacamp Limited -...
+  password: eVMVtt
+  port: 61147
+  server: sgp09.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 429
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #1'
+  password: eVMVtt
+  port: 61147
+  server: sgp11.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1348
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #2'
+  password: eVMVtt
+  port: 61147
+  server: sgp01.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1360
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #3'
+  password: eVMVtt
+  port: 61147
+  server: sgp02.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 565
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #4'
+  password: eVMVtt
+  port: 61147
+  server: sgp04.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1289
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #5'
+  password: eVMVtt
+  port: 61147
+  server: sgp06.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 429
+  name: '10|新加坡 - 新加坡 - Datacamp Limited -... #6'
+  password: eVMVtt
+  port: 61147
+  server: sgp07.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 429
+  name: 10|新加坡 - 新加坡 - Host Universal Pty...
+  password: eVMVtt
+  port: 61147
+  server: sgp10.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 417
+  name: '10|新加坡 - 新加坡 - Host Universal Pty... #1'
+  password: eVMVtt
+  port: 61147
+  server: sgp05.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 421
+  name: '10|新加坡 - 新加坡 - Host Universal Pty... #2'
+  password: eVMVtt
+  port: 61147
+  server: sgp08.graniterapids.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 582
+  name: 10|新加坡 - 新加坡 - Internet Utilities...
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 33733
+  server: sgone.papermsg.com
+  type: ss
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
@@ -18,8 +104,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13,14|CN_speednode_0018
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
@@ -27,12 +112,12 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
+  udp: true
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: f60cd513-7b83-4b64-936c-f7e88e95dacd
-  port: 9231
-  server: 120.240.118.215
+  port: 8233
+  server: 120.240.118.187
   skip-cert-verify: true
-  sni: steampipe.akamaized.net
+  sni: steamcdn-a.akamaihd.net
   type: trojan

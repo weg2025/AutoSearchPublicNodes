@@ -1,7 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  delay: 1233
-  name: 1,11|中国 - 台湾 - Chunghwa Telecom Co....
+  name: 0|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -10,7 +9,7 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 13|🇹🇼 台湾|@ripaojiedian
+- name: 12|🇹🇼 台湾|@ripaojiedian
   password: test.+
   port: 30443
   server: cmhkb.ssv.vc
@@ -19,3 +18,16 @@ proxies:
   tls: true
   type: http
   username: test
+- name: 14|TW_speednode_0132
+  network: ws
+  password: ttfang
+  port: 81
+  server: 103.106.230.186
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /

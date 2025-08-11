@@ -1,15 +1,26 @@
 proxies:
-- name: 15|CH_speednode_0007
+- auth: 1ce0d5df-7408-429d-bcfa-654720d5bb02
+  delay: 888
+  name: 10|瑞士 - 苏黎世 - Oracle Corporation ...
+  password: 1ce0d5df-7408-429d-bcfa-654720d5bb02
+  port: 35000
+  ports: 35000-39000
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- name: 14|CH_speednode_0015
   network: ws
   port: 8880
-  server: 185.18.250.29
-  servername: hk.laoyoutiao.link
+  server: 185.18.250.3
+  servername: bitget1.asdasd.click
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
   ws-opts:
     headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
+      Host: bitget1.asdasd.click
+    path: /

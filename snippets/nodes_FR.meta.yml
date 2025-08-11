@@ -1,7 +1,7 @@
 proxies:
 - down: ''
   fingerprint: ''
-  name: 1|🇫🇷1 |  3.4MB/s|15%|Openai
+  name: 0|🇫🇷1 |  3.4MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -15,9 +15,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1409
+  delay: 1417
   down: '100'
-  name: 1,11|法国 - 巴黎 - Online S.A.S. - 2
+  name: 0,10|法国 - 巴黎 - Online S.A.S. - 1
   obfs: ''
   port: 15010
   protocol: ''
@@ -27,7 +27,7 @@ proxies:
   type: hysteria
   up: '100'
 - client-fingerprint: chrome
-  name: 1|🇫🇷3 |  4.1MB/s|36%|Openai
+  name: 0|🇫🇷3 |  4.1MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -44,7 +44,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇫🇷4 |  1.8MB/s|36%|Openai
+  name: 0|🇫🇷4 |  1.8MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -61,7 +61,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 1|🇫🇷5 |  3.1MB/s|36%|Openai
+  name: 0|🇫🇷5 |  3.1MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -77,7 +77,7 @@ proxies:
         Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: ''
   xudp: true
-- name: 1|🇫🇷6 |  1.5MB/s|36%|Openai
+- name: 0|🇫🇷6 |  1.5MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -91,7 +91,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 1|🇫🇷7 |  3.3MB/s|36%|Openai
+- name: 0|🇫🇷7 |  3.3MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.223.79
@@ -105,7 +105,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 10|FR 2 🇷 | @v2xay
+- name: 9|FR 2 🇷 | @v2xay
   password: dongtaiwang.com
   port: 31180
   server: 51.159.111.32
@@ -113,14 +113,60 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 699
-  name: 11|法国 - 巴黎 - Global Connectivity ...
-  password: uE1eKTXRZcZHOnPSfB6jgz
-  port: 22695
-  server: 109.172.55.38
+- delay: 2025
+  name: 10|法国 - 奧奈叢林 - Cloudflare, Inc. -...
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 94.23.169.3
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: rc4-md5
+  delay: 836
+  name: 10|法国 - 鲁贝 - OVH SAS - 3
+  password: eVMVtt
+  port: 61147
+  server: fr02.graniterapids.com
   type: ss
-- name: 15|FR_speednode_0011
+  udp: true
+- cipher: rc4-md5
+  delay: 342
+  name: 10|法国 - 鲁贝 - OVH SAS - 4
+  password: eVMVtt
+  port: 61147
+  server: fr03.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 287
+  name: 10|法国 - 鲁贝 - OVH SAS - 5
+  password: eVMVtt
+  port: 61147
+  server: fr04.graniterapids.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 14|FR_speednode_0032
+  network: ws
+  port: 8880
+  server: 141.11.203.177
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  ws-opts:
+    headers:
+      Host: ip.langmanshanxi.top
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 14|FR_speednode_0033
   network: ws
   port: 8880
   server: 185.16.110.63

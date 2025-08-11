@@ -1,8 +1,39 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 699
-  name: 11|法国 - 巴黎 - Global Connectivity ...
-  password: uE1eKTXRZcZHOnPSfB6jgz
-  port: 22695
-  server: 109.172.55.38
+- delay: 2025
+  name: 10|法国 - 奧奈叢林 - Cloudflare, Inc. -...
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 94.23.169.3
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: rc4-md5
+  delay: 836
+  name: 10|法国 - 鲁贝 - OVH SAS - 3
+  password: eVMVtt
+  port: 61147
+  server: fr02.graniterapids.com
   type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 342
+  name: 10|法国 - 鲁贝 - OVH SAS - 4
+  password: eVMVtt
+  port: 61147
+  server: fr03.graniterapids.com
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 287
+  name: 10|法国 - 鲁贝 - OVH SAS - 5
+  password: eVMVtt
+  port: 61147
+  server: fr04.graniterapids.com
+  type: ss
+  udp: true
