@@ -96,7 +96,8 @@ proxies:
   port: 33733
   server: sgone.papermsg.com
   type: ss
-- name: 13,14|新加坡|@ripaojiedian
+- client-fingerprint: chrome
+  name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
@@ -104,7 +105,8 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13,14,15|CN_speednode_0018
+- client-fingerprint: chrome
+  name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
@@ -112,4 +114,76 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- client-fingerprint: chrome
+  name: 13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
+  port: 25010
+  server: 8.148.194.255
+  skip-cert-verify: true
+  type: trojan
+- name: 15|SG_speednode_0171
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 92.243.74.23
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|SG_speednode_0172
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.3
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|SG_speednode_0173
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 27.50.49.37
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|SG_speednode_0174
+  network: ws
+  password: Aimer
+  port: 443
+  server: 27.50.49.136
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 15|SG_speednode_0175
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.239
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560
