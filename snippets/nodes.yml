@@ -118,7 +118,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  delay: 191
+  delay: 2342
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 上海 - Hangzhou Alibaba Adv...
@@ -128,1434 +128,299 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- delay: 1620
+  name: 11|中国 - 台湾 - Akari Networks Limit...
+  password: 30f05ba0-9b94-422e-887c-d2d45918a06b
+  port: 600
+  server: updatess.sub-zrj.com
+  skip-cert-verify: true
+  sni: data.sub-zrj.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  delay: 406
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 47.92.152.169
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 564
-  name: 11|中国 - 台湾 - Chunghwa Telecom Co....
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 210.61.187.240
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳 TW
-  delay: 429
+  delay: 2816
+  grpc-opts:
+    grpc-service-name: '12306'
   name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #1'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 210.61.187.236
-  type: ss
-- cipher: rc4-md5
-  delay: 422
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #2'
-  password: eVMVtt
-  port: 61147
-  server: tw01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 601
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #3'
-  password: eVMVtt
-  port: 61147
-  server: tw02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 419
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #4'
-  password: eVMVtt
-  port: 61147
-  server: tw05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 645
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #5'
-  password: eVMVtt
-  port: 61147
-  server: tw06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 592
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #6'
-  password: eVMVtt
-  port: 61147
-  server: tw07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1290
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #7'
-  password: eVMVtt
-  port: 61147
-  server: tw08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 644
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #8'
-  password: eVMVtt
-  port: 61147
-  server: tw09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 630
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #9'
-  password: eVMVtt
-  port: 61147
-  server: twgame03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 639
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #10'
-  password: eVMVtt
-  port: 61147
-  server: twgame04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 416
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #11'
-  password: eVMVtt
-  port: 61147
-  server: twgame06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 639
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #12'
-  password: eVMVtt
-  port: 61147
-  server: twgame07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 634
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #13'
-  password: eVMVtt
-  port: 61147
-  server: twgame08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 639
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #14'
-  password: eVMVtt
-  port: 61147
-  server: twgame09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 638
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #15'
-  password: eVMVtt
-  port: 61147
-  server: twct01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 543
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #16'
-  password: eVMVtt
-  port: 61147
-  server: twct04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 682
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #17'
-  password: eVMVtt
-  port: 61147
-  server: twct06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 483
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #18'
-  password: eVMVtt
-  port: 61147
-  server: twct08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 483
-  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #19'
-  password: eVMVtt
-  port: 61147
-  server: twct09.graniterapids.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 168
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 合肥 - China Unicom CHINA16...
-  port: 50007
-  server: 112.132.215.34
-  servername: 112.132.215.34
+  network: grpc
+  port: 443
+  server: sg02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+  servername: www.12306.cn
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: f5d21654-bed8-4e78-96c5-15d828040575
 - alterId: 0
   cipher: auto
-  delay: 241
+  delay: 2291
+  grpc-opts:
+    grpc-service-name: douyin
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #2'
+  network: grpc
+  port: 443
+  server: b3b79a78-7956-4ce5-b68d-4b3ab27dc219.6e4adf81-ee8f-427f-ae02-3ef80d0b5ac2.c35531f1-5881-4e5b-9adc-2b6822d57186.smartprivatelink.com
+  servername: www.douyin.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f5d21654-bed8-4e78-96c5-15d828040575
+- alterId: 0
+  cipher: auto
+  delay: 1398
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #3'
+  port: 39999
+  server: twgnjby3f.kw1030v8.xyz
+  servername: twgnjby3f.kw1030v8.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 765b0464-789d-375d-a549-8149d1f1dba1
+- alterId: 0
+  cipher: auto
+  delay: 1311
+  name: 11|中国 - 台湾 - WAP.AC LTD - 27
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 2a2ff7b1-70b4-457c-86a6-89d0c82a6ef6
+  ws-opts:
+    headers:
+      Host: b9a5cb96086e1936fdb38d3f04bec740.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2491
+  name: 11|中国 - 台湾 - WAP.AC LTD - 4
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
+  ws-opts:
+    headers:
+      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2290
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 广州市 - China Mobile - 4
+  name: 11|中国 - 广州市 - China Mobile - 1
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  delay: 422
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
-  port: 50112
-  server: 120.26.55.225
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 179
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  servername: trojan.burgerip.co.uk
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  delay: 1232
-  name: 11|中国 - 香港 - GOALNOW NETWORK TECH...
-  password: eVMVtt
-  port: 61147
-  server: hkt07.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 847
+  name: 11|中国 - 香港 - Amazon Technologies ...
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a002.standard-nodes-chickenfarms.com
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 971
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #1'
-  password: eVMVtt
-  port: 61147
-  server: bgp02.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 1888
+  name: '11|中国 - 香港 - Amazon Technologies ... #1'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 15099
+  server: ss.023.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 638
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #2'
-  password: eVMVtt
-  port: 61147
-  server: bgp03.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 1112
+  name: '11|中国 - 香港 - Amazon Technologies ... #2'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 11688
+  server: ss.037.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 974
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #3'
-  password: eVMVtt
-  port: 61147
-  server: bgp04.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 681
+  name: '11|中国 - 香港 - Amazon Technologies ... #3'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 15099
+  server: ss.017.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 468
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #4'
-  password: eVMVtt
-  port: 61147
-  server: pccw03.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 855
+  name: 11|中国 - 香港 - Amazon.com - 22
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a011.standard-nodes-chickenfarms.com
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 320
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #5'
-  password: eVMVtt
-  port: 61147
-  server: pccw04.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 1066
+  name: 11|中国 - 香港 - Amazon.com, Inc. - 2...
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a001.standard-nodes-chickenfarms.com
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 682
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #6'
-  password: eVMVtt
-  port: 61147
-  server: pccw05.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 1121
+  name: 11|中国 - 香港 - Amazon.com, Inc. - 3...
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19688
+  server: ss.001.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 319
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #7'
-  password: eVMVtt
-  port: 61147
-  server: pccw08.graniterapids.com
+- cipher: aes-256-gcm
+  delay: 2007
+  name: '11|中国 - 香港 - Amazon.com, Inc. - 3... #1'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 36888
+  server: ss.034.node-for-bigairport.win
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 492
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #8'
-  password: eVMVtt
-  port: 61147
-  server: zero01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 454
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #9'
-  password: eVMVtt
-  port: 61147
-  server: zero06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1517
-  name: '11|中国 - 香港 - GOALNOW NETWORK TECH... #10'
-  password: eVMVtt
-  port: 61147
-  server: hkt05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 811
-  name: 11|中国 - 香港 - HiveData Limited - 1...
-  password: eVMVtt
-  port: 61147
-  server: qat03.ctg.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 807
-  name: '11|中国 - 香港 - HiveData Limited - 1... #1'
-  password: eVMVtt
-  port: 61147
-  server: qat04.ctg.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 806
-  name: '11|中国 - 香港 - HiveData Limited - 1... #2'
-  password: eVMVtt
-  port: 61147
-  server: qat06.ctg.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 993
-  name: '11|中国 - 香港 - HiveData Limited - 1... #3'
-  password: eVMVtt
-  port: 61147
-  server: qat07.ctg.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 996
-  name: '11|中国 - 香港 - HiveData Limited - 1... #4'
-  password: eVMVtt
-  port: 61147
-  server: qat08.ctg.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 993
-  name: '11|中国 - 香港 - HiveData Limited - 1... #5'
-  password: eVMVtt
-  port: 61147
-  server: qat09.ctg.wtf
+- cipher: chacha20-ietf-poly1305
+  delay: 882
+  name: '11|中国 - 香港 - Amazon.com, Inc. - 3... #2'
+  password: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  port: 56000
+  server: 120.27.9.227
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  delay: 2322
-  name: 11|中国 - 香港 - Hong Kong Telecommun...
-  network: ws
-  port: 30807
-  server: v10.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1781
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #1'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2284
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #2'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 659
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #3'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 642
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #4'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2848
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #5'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2849
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #6'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1080
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #7'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1080
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #8'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1932
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #9'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 996
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #10'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 1077
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #11'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2617
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #12'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2443
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #13'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 2915
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #14'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 784
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #15'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2694
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #16'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1625
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #17'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1822
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #18'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1815
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #19'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 398e0d38-8649-11ef-959c-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 595
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #20'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2594
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #21'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1782
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - Hong Kong Telecommun... #22'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- delay: 982
-  name: 11|中国 - 香港 - Hytron Network Servi...
-  password: 396f0b52-0876-45dd-a0f8-d0a9f570fae0
-  port: 443
-  server: us4.baba6b53-d7e7-6185-f548-038dd49650f9.30d6a0d0.the-best-airport.com
-  skip-cert-verify: true
-  sni: new.download.the-best-airport.com
-  type: trojan
-- delay: 547
-  name: 11|中国 - 香港 - Kaopu Cloud HK Limit...
-  password: af0685ca5b4a4353a91a08200aef5f47
-  port: 3387
-  server: i2.tjone.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  delay: 2590
+  delay: 1573
   name: 11|中国 - 香港 - PCCW IMS Limited - 1...
   network: ws
   port: 80
-  server: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
-  servername: 🇭🇰HK-1.65.202.174-5020 | 4.155MB
-  skip-cert-verify: false
+  server: 285b986d-t0zr40-t67sv3-1snfs.hk3.p5pv.com
   tls: false
   type: vmess
-  uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1161
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #1'
-  network: ws
-  port: 80
-  server: 99a914f2-t00kg0-t1gmun-1rfon.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 892
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #2'
-  network: ws
-  port: 80
-  server: a04ab468-t0fds0-t1a5pv-luwe.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 843
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #3'
-  network: ws
-  port: 80
-  server: 12052f04-t0fds0-t0ht6z-1oijm.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 959
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #4'
-  network: ws
-  port: 80
-  server: 69cd7a07-t0u740-tbmeud-1th9y.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1823
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #5'
-  network: ws
-  port: 80
-  server: a352005b-t0fds0-t94bdb-mrtr.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2123
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 香港 - PCCW IMS Limited - 2...
-  network: ws
-  port: 80
-  server: e5c8864f-t0u740-t49lki-1ejce.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1166
-  h2-opts: {}
-  http-opts: {}
-  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #1'
-  network: ws
-  port: 80
-  server: e92f165b-t0fds0-t7fl9b-1q16i.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  delay: 1165
-  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #2'
-  network: ws
-  port: 80
-  server: a89c5ae8-szan40-t0r7zu-17z95.hkt.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
+  uuid: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1023
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 香港 - PCCW IMS Limited - 3...
-  network: ws
-  port: 80
-  server: 27780e68-t0bog0-thcykv-14au8.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
     path: /
 - alterId: 2
   cipher: auto
-  country: 🇭🇰HK
-  delay: 2706
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 香港 - PCCW IMS Limited - 4...
+  delay: 1521
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #1'
   network: ws
   port: 80
-  server: e977bef7-sv4n40-swfla6-1rdqg.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
+  server: 9993d2b5-t0zr40-ta5nd4-e06r.hk3.p5pv.com
+  tls: false
   type: vmess
-  uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
   ws-opts:
     headers:
-      HOST: broadcastlv.chat.bilibili.com
+      Host: broadcastlv.chat.bilibili.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
     path: /
-- cipher: rc4-md5
-  delay: 994
-  name: 11|中国 - 香港 - Prime Security Corp....
-  password: eVMVtt
-  port: 61147
-  server: bgp05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1684
-  name: '11|中国 - 香港 - Prime Security Corp.... #1'
-  password: eVMVtt
-  port: 61147
-  server: bgp06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 804
-  name: '11|中国 - 香港 - Prime Security Corp.... #2'
-  password: eVMVtt
-  port: 61147
-  server: bgp07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 994
-  name: '11|中国 - 香港 - Prime Security Corp.... #3'
-  password: eVMVtt
-  port: 61147
-  server: bgp08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 381
-  name: '11|中国 - 香港 - Prime Security Corp.... #4'
-  password: eVMVtt
-  port: 61147
-  server: pvcc01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 488
-  name: '11|中国 - 香港 - Prime Security Corp.... #5'
-  password: eVMVtt
-  port: 61147
-  server: sg01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 480
-  name: '11|中国 - 香港 - Prime Security Corp.... #6'
-  password: eVMVtt
-  port: 61147
-  server: sg02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 486
-  name: '11|中国 - 香港 - Prime Security Corp.... #7'
-  password: eVMVtt
-  port: 61147
-  server: sg04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 480
-  name: '11|中国 - 香港 - Prime Security Corp.... #8'
-  password: eVMVtt
-  port: 61147
-  server: sg06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1358
-  name: '11|中国 - 香港 - Prime Security Corp.... #9'
-  password: eVMVtt
-  port: 61147
-  server: sg07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1365
-  name: '11|中国 - 香港 - Prime Security Corp.... #10'
-  password: eVMVtt
-  port: 61147
-  server: sg08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1365
-  name: '11|中国 - 香港 - Prime Security Corp.... #11'
-  password: eVMVtt
-  port: 61147
-  server: ru02.fjk.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 491
-  name: '11|中国 - 香港 - Prime Security Corp.... #12'
-  password: eVMVtt
-  port: 61147
-  server: ru03.fjk.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1233
-  name: '11|中国 - 香港 - Prime Security Corp.... #13'
-  password: eVMVtt
-  port: 61147
-  server: ru04.fjk.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 485
-  name: '11|中国 - 香港 - Prime Security Corp.... #14'
-  password: eVMVtt
-  port: 61147
-  server: ru06.fjk.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 484
-  name: '11|中国 - 香港 - Prime Security Corp.... #15'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.48
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 586
-  name: '11|中国 - 香港 - Prime Security Corp.... #16'
-  password: eVMVtt
-  port: 61147
-  server: hkaia01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 97
-  name: '11|中国 - 香港 - Prime Security Corp.... #17'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.50
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 96
-  name: '11|中国 - 香港 - Prime Security Corp.... #18'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.51
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 96
-  name: '11|中国 - 香港 - Prime Security Corp.... #19'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.176
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 95
-  name: '11|中国 - 香港 - Prime Security Corp.... #20'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.177
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 94
-  name: '11|中国 - 香港 - Prime Security Corp.... #21'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.54
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 90
-  name: '11|中国 - 香港 - Prime Security Corp.... #22'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.178
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 88
-  name: '11|中国 - 香港 - Prime Security Corp.... #23'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.179
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 88
-  name: '11|中国 - 香港 - Prime Security Corp.... #24'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.180
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 94
-  name: '11|中国 - 香港 - Prime Security Corp.... #25'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.209
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 93
-  name: '11|中国 - 香港 - Prime Security Corp.... #26'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.210
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 88
-  name: '11|中国 - 香港 - Prime Security Corp.... #27'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.211
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 94
-  name: '11|中国 - 香港 - Prime Security Corp.... #28'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.61
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 88
-  name: '11|中国 - 香港 - Prime Security Corp.... #29'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.62
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 88
-  name: '11|中国 - 香港 - Prime Security Corp.... #30'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.212
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 89
-  name: '11|中国 - 香港 - Prime Security Corp.... #31'
-  password: eVMVtt
-  port: 61147
-  server: 118.184.136.131
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1362
-  name: '11|中国 - 香港 - Prime Security Corp.... #32'
-  password: eVMVtt
-  port: 61147
-  server: hkt04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 635
-  name: '11|中国 - 香港 - Prime Security Corp.... #33'
-  password: eVMVtt
-  port: 61147
-  server: hkt06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 486
-  name: 11|加拿大 - Beauharnois - OVH SAS - ...
-  password: eVMVtt
-  port: 61147
-  server: ca01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|加拿大 - Beauharnois - OVH SAS - ... #1'
-  password: eVMVtt
-  port: 61147
-  server: ca02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 646
-  name: '11|加拿大 - Beauharnois - OVH SAS - ... #2'
-  password: eVMVtt
-  port: 61147
-  server: ca05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 596
-  name: 11|印度 - Mumbai - Cyberzone S.A. -...
-  password: eVMVtt
-  port: 61147
-  server: in01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 646
-  name: '11|印度 - Mumbai - Cyberzone S.A. -... #1'
-  password: eVMVtt
-  port: 61147
-  server: in02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1276
-  name: '11|印度 - Mumbai - Cyberzone S.A. -... #2'
-  password: eVMVtt
-  port: 61147
-  server: in03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 601
-  name: '11|印度 - Mumbai - Cyberzone S.A. -... #3'
-  password: eVMVtt
-  port: 61147
-  server: in04.graniterapids.com
-  type: ss
-  udp: true
-- delay: 1187
-  name: 11|印度 - Santa Cruz - Cloudflare, ...
+- alterId: 0
+  cipher: auto
+  delay: 517
+  name: 11|中国 - 香港 - WAP.AC LTD - 10
   network: ws
-  password: ttfang
-  port: 443
-  server: 20.235.105.146
-  sni: ttfang.fange.me
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 766
+  name: 11|中国 - 香港 - WAP.AC LTD - 11
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
+  ws-opts:
+    headers:
+      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 376
+  name: 11|中国 - 香港 - WAP.AC LTD - 14
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 1750b2cf-ad75-4ab6-890d-4198e15a87c9
+  ws-opts:
+    headers:
+      Host: 4754c42d1187ea83bebcc2f0c6727e5d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 793
+  name: 11|中国 - 香港 - WAP.AC LTD - 9
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  ws-opts:
+    headers:
+      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2589
+  name: 11|印度 - 班加羅爾 - DigitalOcean, LLC ...
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1390
+  name: '11|印度 - 班加羅爾 - DigitalOcean, LLC ... #1'
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  ws-opts:
+    headers:
+      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
+    path: /
+- delay: 2252
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #5'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.13.31
+  skip-cert-verify: false
+  sni: qianlang.pages.dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ttfang.fange.me
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 1819
-  name: 11|哥伦比亚 - Cota - Oracle Corporati...
-  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
-  port: 36178
-  server: del.papermsg.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1107
-  name: 11|巴基斯坦 - 伊斯兰堡 - Virtury - 1
-  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
-  port: 36175
-  server: del.papermsg.com
-  type: ss
-- cipher: aes-256-cfb
-  delay: 709
-  name: 11|希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. P...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇩🇪DE
-  delay: 1472
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: tcp
-  port: 32020
-  server: s3.ipyar.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
-- cipher: rc4-md5
-  delay: 614
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 10
-  password: eVMVtt
-  port: 61147
-  server: ge02.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1363
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 11
-  password: eVMVtt
-  port: 61147
-  server: ge03.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 483
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 12
-  password: eVMVtt
-  port: 61147
-  server: ge04.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1350
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 13
-  password: eVMVtt
-  port: 61147
-  server: ge05.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1348
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 14
-  password: eVMVtt
-  port: 61147
-  server: ge06.htz.wtf
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2181
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 3
-  network: ws
-  port: 2083
-  server: 104.26.5.16
-  servername: blaze-ger-248.blazecloudmain.site
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
-  ws-opts:
-    headers:
-      HOST: blaze-ger-248.blazecloudmain.site
-    path: /linkwsrt?ed=2560
-- cipher: rc4-md5
-  delay: 1365
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 9
-  password: eVMVtt
-  port: 61147
-  server: ge01.htz.wtf
-  type: ss
-  udp: true
-- delay: 997
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #4'
+- delay: 2318
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #7'
   network: ws
   password: bpb-trojan
   port: 443
@@ -1565,444 +430,459 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /tr?ed=2560
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1809
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 法兰克福 - DigitalOcean, LLC ...
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    max-early-data: 2560
+    path: /tr
+- delay: 1596
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #11'
   network: ws
-  port: 8080
-  server: cf.090227.xyz
-  servername: gyde.aifjj.asia
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 162.159.133.85
   skip-cert-verify: true
-  type: vmess
-  uuid: e9123cce-e4bd-46cf-8466-708b363a9807
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: gyde.aifjj.asia
-    path: /
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 2610
-  name: 11|德国 - 法兰克福 - Mario Kurz trading...
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1358
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #13'
   network: ws
-  port: 80
-  server: test2.flha.ru
+  password: Aimer
+  port: 443
+  server: 172.67.77.127
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 793
+  name: 11|德国 - 法兰克福 - Dominic Scholz tra...
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35789
+  server: t1.fttos.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2489
+  name: '11|德国 - 法兰克福 - Oracle Corporation... #1'
+  network: ws
+  port: 8443
+  server: fk1.620720.xyz
+  servername: fk1.620720.xyz
   skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fk1.620720.xyz
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1362
+  name: '11|德国 - 法兰克福 - Oracle Corporation... #2'
+  network: ws
+  port: 8443
+  server: fk3.620720.xyz
+  servername: fk3.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fk3.620720.xyz
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1503
+  name: '11|德国 - 法兰克福 - Oracle Corporation... #5'
+  network: ws
+  port: 8443
+  server: fk2.620720.xyz
+  servername: fk2.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fk2.620720.xyz
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2508
+  name: '11|德国 - 法兰克福 - Oracle Corporation... #6'
+  network: ws
+  port: 8443
+  server: fk4.620720.xyz
+  servername: fk4.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fk4.620720.xyz
+    max-early-data: 2560
+    path: /
+- delay: 2615
+  name: 11|新加坡 - 新加坡 - Amazon Technologie...
+  network: ws
+  password: 745bb716-150d-482b-8942-250150bf1fc2
+  port: 20230
+  server: sg007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  delay: 808
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #3'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a006.standard-nodes-chickenfarms.com
+  type: ss
+  udp: true
+- delay: 1593
+  name: '11|新加坡 - 新加坡 - Amazon.com, Inc. -... #3'
+  network: ws
+  password: 813e7fc5-2c9a-4967-802b-6443930ecb7e
+  port: 20230
+  server: sg005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  delay: 745
+  name: '11|新加坡 - 新加坡 - Amazon.com, Inc. -... #4'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a015.standard-nodes-chickenfarms.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 964
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 2
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 965
+  name: 11,13,14|新加坡4|@ripaojiedian
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 15f62abf-8cc9-4598-8d57-e4df7b499a84
+  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
   ws-opts:
     headers:
-      Host: test2.flha.ru
-    path: /15f62abf-8cc9-4598-8d57-e4df7b499a84-vmess
-  xudp: true
+      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  delay: 1169
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 法兰克福 - SEBEK sp. z o.o - ...
+  delay: 2325
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 3...
   network: ws
-  port: 20521
-  server: 148.253.209.172
-  skip-cert-verify: true
+  port: 16618
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: 42364c51-2b0d-4b93-81dc-fc907757e470
+  udp: true
+  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
   ws-opts:
+    headers:
+      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
     path: /
-- cipher: rc4-md5
-  delay: 429
-  name: 11|新加坡 - 新加坡 - Datacamp Limited -...
-  password: eVMVtt
-  port: 61147
-  server: sgp09.graniterapids.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 871
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 4...
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 429
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #1'
-  password: eVMVtt
-  port: 61147
-  server: sgp11.graniterapids.com
-  type: ss
+  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
+  ws-opts:
+    headers:
+      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1270
+  name: '11|新加坡 - 新加坡 - FDCservers.net - 4... #1'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 1348
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #2'
-  password: eVMVtt
-  port: 61147
-  server: sgp01.graniterapids.com
-  type: ss
+  uuid: 1750b2cf-ad75-4ab6-890d-4198e15a87c9
+  ws-opts:
+    headers:
+      Host: 4754c42d1187ea83bebcc2f0c6727e5d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1975
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 5
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 1360
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #3'
-  password: eVMVtt
-  port: 61147
-  server: sgp02.graniterapids.com
-  type: ss
+  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  ws-opts:
+    headers:
+      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 964
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 6
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 565
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #4'
-  password: eVMVtt
-  port: 61147
-  server: sgp04.graniterapids.com
-  type: ss
+  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
+  ws-opts:
+    headers:
+      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 806
+  name: 11|新加坡 - 新加坡 - FDCservers.net - 7
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 1289
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #5'
-  password: eVMVtt
-  port: 61147
-  server: sgp06.graniterapids.com
-  type: ss
+  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  ws-opts:
+    headers:
+      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
+    path: /
+- alterId: '2'
+  cipher: auto
+  delay: 767
+  name: 11|日本 - Chiyoda City - GMO Global...
+  network: ws
+  port: 10001
+  server: b.jp.mbsurfnode3.top
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 429
-  name: '11|新加坡 - 新加坡 - Datacamp Limited -... #6'
-  password: eVMVtt
-  port: 61147
-  server: sgp07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 429
-  name: 11|新加坡 - 新加坡 - Host Universal Pty...
-  password: eVMVtt
-  port: 61147
-  server: sgp10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 417
-  name: '11|新加坡 - 新加坡 - Host Universal Pty... #1'
-  password: eVMVtt
-  port: 61147
-  server: sgp05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 421
-  name: '11|新加坡 - 新加坡 - Host Universal Pty... #2'
-  password: eVMVtt
-  port: 61147
-  server: sgp08.graniterapids.com
+  uuid: 8689d089-90a5-3ade-a25e-ebe157df8d99
+  ws-opts:
+    headers:
+      Host: download.visualstudio.microsoft.com
+    path: /download/pr/9b564b8a-a26d-4bb3-8f30-1101ae71a55a/2cee4f9e4c0e77e3d0f866fdf690864e/windowsdesktop-runtime-5.0.8-win-x64.exe
+- cipher: chacha20-ietf-poly1305
+  delay: 685
+  name: 11|日本 - 东京 - Akile LTD - 10
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35794
+  server: t1.fttos.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 582
-  name: 11|新加坡 - 新加坡 - Internet Utilities...
-  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
-  port: 33733
-  server: sgone.papermsg.com
+  delay: 1023
+  name: 11,13|🇯🇵 日本5|@ripaojiedian
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35782
+  server: t1.fttos.xyz
+  tfo: false
   type: ss
-- cipher: rc4-md5
-  delay: 536
-  name: 11|日本 - 东京 - Akari Networks Limit...
-  password: eVMVtt
-  port: 61147
-  server: hr13.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 794
-  name: '11|日本 - 东京 - Akari Networks Limit... #1'
-  password: eVMVtt
-  port: 61147
-  server: hr16.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 683
-  name: '11|日本 - 东京 - Akari Networks Limit... #2'
-  password: eVMVtt
-  port: 61147
-  server: hr17.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 681
-  name: '11|日本 - 东京 - Akari Networks Limit... #3'
-  password: eVMVtt
-  port: 61147
-  server: hr18.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 539
-  name: '11|日本 - 东京 - Akari Networks Limit... #4'
-  password: eVMVtt
-  port: 61147
-  server: hr10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 561
-  name: '11|日本 - 东京 - Akari Networks Limit... #5'
-  password: eVMVtt
-  port: 61147
-  server: jp06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|日本 - 东京 - Akari Networks Limit... #6'
-  password: eVMVtt
-  port: 61147
-  server: jp07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 372
-  name: '11|日本 - 东京 - Akari Networks Limit... #7'
-  password: eVMVtt
-  port: 61147
-  server: jp09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #8'
-  password: eVMVtt
-  port: 61147
-  server: jp10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 427
-  name: '11|日本 - 东京 - Akari Networks Limit... #9'
-  password: eVMVtt
-  port: 61147
-  server: jp01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #10'
-  password: eVMVtt
-  port: 61147
-  server: jp03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 564
-  name: '11|日本 - 东京 - Akari Networks Limit... #11'
-  password: eVMVtt
-  port: 61147
-  server: jp04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 371
-  name: '11|日本 - 东京 - Akari Networks Limit... #12'
-  password: eVMVtt
-  port: 61147
-  server: jp27.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #13'
-  password: eVMVtt
-  port: 61147
-  server: jp29.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 426
-  name: '11|日本 - 东京 - Akari Networks Limit... #14'
-  password: eVMVtt
-  port: 61147
-  server: jp30.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 414
-  name: '11|日本 - 东京 - Akari Networks Limit... #15'
-  password: eVMVtt
-  port: 61147
-  server: jp31.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|日本 - 东京 - Akari Networks Limit... #16'
-  password: eVMVtt
-  port: 61147
-  server: jp32.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 426
-  name: '11|日本 - 东京 - Akari Networks Limit... #17'
-  password: eVMVtt
-  port: 61147
-  server: jp23.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 430
-  name: '11|日本 - 东京 - Akari Networks Limit... #18'
-  password: eVMVtt
-  port: 61147
-  server: jp24.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 590
-  name: '11|日本 - 东京 - Akari Networks Limit... #19'
-  password: eVMVtt
-  port: 61147
-  server: jp25.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 543
-  name: '11|日本 - 东京 - Akari Networks Limit... #20'
-  password: eVMVtt
-  port: 61147
-  server: hr01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 588
-  name: '11|日本 - 东京 - Akari Networks Limit... #21'
-  password: eVMVtt
-  port: 61147
-  server: jp26.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|日本 - 东京 - Akari Networks Limit... #22'
-  password: eVMVtt
-  port: 61147
-  server: jp14.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 582
-  name: '11|日本 - 东京 - Akari Networks Limit... #23'
-  password: eVMVtt
-  port: 61147
-  server: jp15.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 591
-  name: '11|日本 - 东京 - Akari Networks Limit... #24'
-  password: eVMVtt
-  port: 61147
-  server: jp16.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|日本 - 东京 - Akari Networks Limit... #25'
-  password: eVMVtt
-  port: 61147
-  server: jp19.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 632
-  name: '11|日本 - 东京 - Akari Networks Limit... #26'
-  password: eVMVtt
-  port: 61147
-  server: hkt02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 369
-  name: '11|日本 - 东京 - Akari Networks Limit... #27'
-  password: eVMVtt
-  port: 61147
-  server: hr03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 537
-  name: '11|日本 - 东京 - Akari Networks Limit... #28'
-  password: eVMVtt
-  port: 61147
-  server: hr04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 684
-  name: '11|日本 - 东京 - Akari Networks Limit... #29'
-  password: eVMVtt
-  port: 61147
-  server: hr06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 349
-  name: '11|日本 - 东京 - Akari Networks Limit... #30'
-  password: eVMVtt
-  port: 61147
-  server: hr09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 479
-  name: '11|日本 - 东京 - Akari Networks Limit... #31'
-  password: eVMVtt
-  port: 61147
-  server: hr11.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 286
-  name: '11|日本 - 东京 - Akari Networks Limit... #32'
-  password: eVMVtt
-  port: 61147
-  server: hr12.graniterapids.com
-  type: ss
-  udp: true
-- country: 🇯🇵JP
-  delay: 2822
-  name: 11|日本 - 东京 - Amazon Technologies ...
-  password: 0xC6Mws4Dg
-  port: 1935
-  server: x2-japan-amazon-v2.devefun.org
-  skip-cert-verify: true
-  sni: x2-japan-amazon-v2.devefun.org
-  type: trojan
   udp: true
 - cipher: aes-256-gcm
-  delay: 1559
-  name: 11|日本 - 东京 - CTG Server Ltd. - 2
-  password: 70a0b8103356
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /bezradrqccl
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.142.139
+  delay: 748
+  name: '11|日本 - 东京 - Amazon Technologies ... #1'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a003.standard-nodes-chickenfarms.com
   type: ss
-- delay: 2025
-  name: 11|法国 - 奧奈叢林 - Cloudflare, Inc. -...
+  udp: true
+- delay: 1454
+  name: '11|日本 - 东京 - Amazon Technologies ... #7'
+  network: ws
+  password: 745bb716-150d-482b-8942-250150bf1fc2
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- delay: 1096
+  name: '11|日本 - 东京 - Amazon Technologies ... #9'
+  network: ws
+  password: 813e7fc5-2c9a-4967-802b-6443930ecb7e
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  delay: 734
+  name: '11|日本 - 东京 - Amazon Technologies ... #10'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a013.standard-nodes-chickenfarms.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 670
+  name: '11|日本 - 东京 - Amazon Technologies ... #13'
+  port: 21002
+  server: tls.01.node-for-bigairport.win
+  type: vmess
+  udp: true
+  uuid: 792e0bdb-01db-450c-94c4-925151eb396e
+- alterId: 0
+  cipher: auto
+  delay: 670
+  name: '11|日本 - 东京 - Amazon Technologies ... #14'
+  port: 10202
+  server: tls.85.node-for-bigairport.win
+  type: vmess
+  udp: true
+  uuid: 792e0bdb-01db-450c-94c4-925151eb396e
+- delay: 2256
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 6...
+  network: ws
+  password: 745bb716-150d-482b-8942-250150bf1fc2
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2490
+  name: 11|日本 - 东京 - FDCservers.net - 24
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
+  ws-opts:
+    headers:
+      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1415
+  name: 11|日本 - 东京 - FDCservers.net - 48
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
+  ws-opts:
+    headers:
+      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1370
+  name: 11|日本 - 东京 - FDCservers.net - 49
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  ws-opts:
+    headers:
+      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1364
+  name: 11|日本 - 东京 - FDCservers.net - 50
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
+  ws-opts:
+    headers:
+      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2984
+  name: 11|日本 - 东京 - FDCservers.net - 51
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- delay: 492
+  name: 11|日本 - 福岡市 - Cloudflare, Inc. - ...
   network: ws
   password: Aimer
-  port: 2053
-  server: 94.23.169.3
+  port: 17000
+  server: 183.106.218.118
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
@@ -2011,318 +891,293 @@ proxies:
     headers:
       Host: epgb.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: rc4-md5
-  delay: 836
-  name: 11|法国 - 鲁贝 - OVH SAS - 3
-  password: eVMVtt
-  port: 61147
-  server: fr02.graniterapids.com
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  delay: 1286
+  name: 11|法国 - 巴黎 - OVH SAS - 1
+  password: jG7G5om8i7HZPxnU7HL6bA
+  port: 100
+  server: 91.134.11.136
   type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 342
-  name: 11|法国 - 鲁贝 - OVH SAS - 4
-  password: eVMVtt
-  port: 61147
-  server: fr03.graniterapids.com
+- cipher: chacha20-ietf-poly1305
+  delay: 870
+  name: 11|法国 - 里昂 - Feelb Sarl - 7
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35802
+  server: t1.fttos.xyz
   type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 287
-  name: 11|法国 - 鲁贝 - OVH SAS - 5
-  password: eVMVtt
-  port: 61147
-  server: fr04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 750
-  name: 11|澳大利亚 - 悉尼 - Datacamp Limited -...
-  password: eVMVtt
-  port: 61147
-  server: au01.graniterapids.com
-  type: ss
-  udp: true
-- country: 🇸🇪SE
-  delay: 952
-  name: 11|瑞典 - 斯德哥尔摩 - Kamatera, Inc. - ...
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
-  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1780
-  name: 11|瑞典 - 斯德哥尔摩 - xorek.cloud Inter...
-  password: _b6x5tfO1wZUxObuR_AIXg
-  port: 1080
-  server: 150.241.86.252
+  delay: 797
+  name: 11|法国 - 里昂 - Feelb Sarl - 8
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35790
+  server: t1.fttos.xyz
   type: ss
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 1922
-  name: 11|立陶宛 - 倫特瓦里斯 - Cloudflare, Inc....
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 91.197.3.168
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1915
+  name: '11|美国 - San Jose - Oracle Corpora... #2'
+  network: ws
+  port: 8443
+  server: sj3.620720.xyz
+  servername: sj3.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 2350
+      Host: sj3.620720.xyz
+    max-early-data: 2560
+    path: /
+- delay: 912
   name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #3'
   network: ws
   password: Aimer
-  port: 443
-  server: 4.242.243.5
+  port: 2053
+  server: 162.159.44.230
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1145
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 19...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 1221
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #4'
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 788
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 22...
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 729
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 39...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  ws-opts:
+    headers:
+      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 576
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 40...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2210
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 93
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
+  ws-opts:
+    headers:
+      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1580
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 443
+  server: 87ctcc.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- alterId: 0
+  cipher: auto
+  delay: 2595
+  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #2'
+  network: ws
+  port: 443
+  server: 87cf.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- alterId: 0
+  cipher: auto
+  delay: 2786
+  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #3'
+  network: ws
+  port: 443
+  server: ctcc.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- delay: 2625
+  name: 11|美国 - 洛杉矶 - Akari Networks Limi...
+  password: 30f05ba0-9b94-422e-887c-d2d45918a06b
+  port: 6811
+  server: updatess.sub-zrj.com
+  skip-cert-verify: true
+  sni: data.sub-zrj.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  delay: 2195
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 2...
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2309
+  name: '11|美国 - 洛杉矶 - Psychz Networks - 2... #3'
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  ws-opts:
+    headers:
+      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1968
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 3...
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
+  ws-opts:
+    headers:
+      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
+    path: /
+- delay: 2156
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #19'
   network: ws
   password: Aimer
-  port: 11002
-  server: 38.148.253.85
-  skip-cert-verify: true
+  port: 8443
+  server: 160.79.105.160
+  skip-cert-verify: false
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: rc4-md5
-  delay: 832
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 46
-  password: eVMVtt
-  port: 61147
-  server: us06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 588
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 50
-  password: eVMVtt
-  port: 61147
-  server: us10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 355
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 52
-  password: eVMVtt
-  port: 61147
-  server: us02.graniterapids.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 542
-  name: 11|美国 - 洛杉矶 - NTT America - 92
-  network: ws
-  port: 20086
-  server: 128.241.227.188
-  tls: false
-  type: vmess
-  uuid: 5b0d1179-cb7c-4b5f-9b8e-c8048c34d2a0
-  ws-opts:
-    headers: {}
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    max-early-data: 2560
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 874
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberPower LLC - 1
+- delay: 1406
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #21'
   network: ws
-  port: 8443
-  server: 23.136.164.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 606f0d8e-b3d6-493b-bd5d-f3483c21fd3e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1141
-  name: 11|美国 - 紐約 - Ace Data Centers II ...
-  network: ws
-  port: 20086
-  server: 23.27.51.56
-  tls: false
-  type: vmess
-  uuid: 9a2bbd36-ccff-4a47-8cde-548e2fc50b49
-  ws-opts:
-    headers: {}
-    path: /
-- delay: 1595
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #74'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- delay: 1726
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #85'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
+  password: Aimer
+  port: 2087
+  server: 104.19.60.99
   skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: torjan.xn--xhq44j.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    max-early-data: 2560
     path: /
-- delay: 898
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #119'
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 188.164.159.246
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1349
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #161'
-  network: ws
-  password: Aimer
-  port: 443
-  server: 108.162.194.193
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1795
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #179'
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.76
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 977
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #189'
-  network: ws
-  password: slch2024
-  port: 8443
-  server: 104.18.3.108
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /
-- delay: 1129
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #245'
+- delay: 1768
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
   network: ws
   password: Aimer
   port: 2083
-  server: 192.0.54.221
-  skip-cert-verify: true
+  server: 192.200.160.35
+  skip-cert-verify: false
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1329
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #254'
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.166.131
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1393
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #258'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 188.164.159.248
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1977
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #260'
-  network: ws
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1497
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #261'
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    max-early-data: 2560
+    path: /
+- delay: 2605
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
   network: ws
   password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2096
-  server: 103.160.204.49
+  port: 2083
+  server: 104.16.134.27
   skip-cert-verify: true
   sni: vle.amclubsvip.dpdns.org
   type: trojan
@@ -2331,442 +1186,265 @@ proxies:
     headers:
       Host: vle.amclubsvip.dpdns.org
     path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
-- cipher: rc4-md5
-  delay: 587
-  name: 11|美国 - 西雅圖 - Brain PEACE Science...
-  password: eVMVtt
-  port: 61147
-  server: us07.graniterapids.com
-  type: ss
+- delay: 2320
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #35'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #1'
-  password: eVMVtt
-  port: 61147
-  server: us08.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1210
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #36'
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 92.243.74.23
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 593
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #2'
-  password: eVMVtt
-  port: 61147
-  server: us09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 592
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #3'
-  password: eVMVtt
-  port: 61147
-  server: us01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 587
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #4'
-  password: eVMVtt
-  port: 61147
-  server: us03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 585
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #5'
-  password: eVMVtt
-  port: 61147
-  server: us04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1299
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #6'
-  password: eVMVtt
-  port: 61147
-  server: us05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱NL
-  delay: 645
-  name: 11|芬兰 - 埃斯波 - M247 Europe SRL - 1
-  password: o1LUNy8qePnhsaiXV8n66t
-  port: 8443
-  server: 83.172.135.98
-  type: ss
-- cipher: rc4-md5
-  delay: 737
-  name: 11|英国 - Erith - OVH SAS - 2
-  password: eVMVtt
-  port: 61147
-  server: uk04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2552
-  name: 11|英国 - Tower Hamlets - Massivegr...
-  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
-  port: 36259
-  server: del.papermsg.com
-  type: ss
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 1460
-  name: 11|英国 - 豪恩斯洛 - Cloudflare, Inc. -...
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 2590
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #37'
   network: ws
   password: Aimer
   port: 2053
-  server: 91.199.32.191
+  server: 46.254.93.211
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1869
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #38'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 176.124.223.40
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 2113
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #40'
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.239
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1673
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #41'
+  network: ws
+  password: Aimer
+  port: 443
+  server: lynn.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1846
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 108.162.193.162
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
+      Host: epgb.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 2331
-  name: 11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ...
+- delay: 2373
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #43'
   network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: aio.zipzap.biz.id
-  skip-cert-verify: false
-  sni: aio.zipzap.biz.id
+  password: Aimer
+  port: 2087
+  server: 172.64.33.69
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 2066
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #201'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 103.160.204.59
+  skip-cert-verify: true
+  sni: vle.amclubsvip.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubsvip.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- cipher: chacha20-ietf-poly1305
+  delay: 993
+  name: 11|英国 - Tower Hamlets - SpeedyPag...
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35785
+  server: t1.fttos.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1269
+  name: 11|英国 - 倫敦金融城 - OVH SAS - 1
+  network: ws
+  port: 16645
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- delay: 1676
+  name: 11|英国 - 梅登黑德 - Servernet Internet...
+  password: 30f05ba0-9b94-422e-887c-d2d45918a06b
+  port: 121
+  server: updatess.sub-zrj.com
+  skip-cert-verify: true
+  sni: data.sub-zrj.com
+  type: trojan
+- alpn:
+  - http/1.1
+  delay: 1257
+  name: '11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #2'
+  network: ws
+  password: zY0HGcoAcY2v
+  port: 443
+  server: 104.21.16.1
+  skip-cert-verify: false
+  sni: scHQQN0YHRrs34qn3a2k4i6g9xaP1tPH.pagEs.DEV
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /aioproxybot/129.150.49.58-18650
-- delay: 2351
-  name: '11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #1'
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    max-early-data: 2560
+    path: /tr2mBr1NNWmU5CEViR/NDQuMjI0LjI0LjkxLDE4LjE4My4xNTguMjEx
+- delay: 2325
+  name: '11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #7'
+  network: ws
+  password: bbbbbbbb-cccc-4ddd-eeee-ffffffffffff
+  port: 443
+  server: vipren.biz.id
+  skip-cert-verify: false
+  sni: vipren.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Neoxide-X/194.87.62.236-443
+- delay: 2704
+  name: '11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #13'
   network: ws
   password: f282b878-8711-45a1-8c69-5564172123c1
   port: 443
-  server: 104.21.72.109
+  server: vpn.stupidworld.web.id
   skip-cert-verify: false
   sni: vpn.stupidworld.web.id
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /Stupid-World/103.106.228.126-2053
-- delay: 2052
-  name: '11|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #7'
+- cipher: chacha20-ietf-poly1305
+  delay: 683
+  name: 11|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35791
+  server: t1.fttos.xyz
+  type: ss
+  udp: true
+- delay: 755
+  name: '11|韩国 - Muju-gun - Cloudflare, In... #1'
   network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 172.67.156.25
-  skip-cert-verify: false
-  sni: aio.zipzap.biz.id
+  password: Aimer
+  port: 50000
+  server: 211.198.136.117
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /aioproxybot/129.150.49.58-18650
-- alterId: 0
-  cipher: auto
-  delay: 1665
-  name: 11|菲律宾 - Makati City - Eastern Te...
-  port: 10010
-  server: manager.gghbjnjbff.shop
-  type: vmess
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 670
+  name: '11|韩国 - Muju-gun - Cloudflare, In... #8'
+  network: ws
+  password: Aimer
+  port: 32764
+  server: 222.113.18.207
+  skip-cert-verify: false
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
-- alterId: 0
-  cipher: auto
-  delay: 965
-  name: '11|菲律宾 - Makati City - Eastern Te... #1'
-  port: 10007
-  server: manager.gghbjnjbff.shop
-  type: vmess
-  udp: true
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
-- alterId: 0
-  cipher: auto
-  delay: 1041
-  name: 11|菲律宾 - 奎松市 - Eastern Telecommun...
-  port: 10008
-  server: manager.gghbjnjbff.shop
-  type: vmess
-  udp: true
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
-- cipher: aes-256-cfb
-  delay: 553
-  name: 11|越南 - Hải Dương - FASTLY - 1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1121
-  name: 11|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.22
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 487
-  name: 11|越南 - Hải Dương - FASTLY - 3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.27
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 458
-  name: 11|越南 - Hải Dương - FASTLY - 4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1432
-  name: 11|韩国 - Gasan-dong - Hostcenter -...
-  password: eVMVtt
-  port: 61147
-  server: kr09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 418
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #1'
-  password: eVMVtt
-  port: 61147
-  server: kr10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1271
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #2'
-  password: eVMVtt
-  port: 61147
-  server: krgame01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1335
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #3'
-  password: eVMVtt
-  port: 61147
-  server: krgame02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 731
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #4'
-  password: eVMVtt
-  port: 61147
-  server: krgame05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 487
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #5'
-  password: eVMVtt
-  port: 61147
-  server: krgame08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 432
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #6'
-  password: eVMVtt
-  port: 61147
-  server: krgame09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1366
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #7'
-  password: eVMVtt
-  port: 61147
-  server: krgame10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 591
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #8'
-  password: eVMVtt
-  port: 61147
-  server: krsk01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 363
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #9'
-  password: eVMVtt
-  port: 61147
-  server: krsk02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 591
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #10'
-  password: eVMVtt
-  port: 61147
-  server: krsk03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #11'
-  password: eVMVtt
-  port: 61147
-  server: krsk04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #12'
-  password: eVMVtt
-  port: 61147
-  server: krsk05.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 590
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #13'
-  password: eVMVtt
-  port: 61147
-  server: krsk06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1377
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #14'
-  password: eVMVtt
-  port: 61147
-  server: krsk07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 639
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #15'
-  password: eVMVtt
-  port: 61147
-  server: krsk08.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 642
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #16'
-  password: eVMVtt
-  port: 61147
-  server: krsk09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 642
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #17'
-  password: eVMVtt
-  port: 61147
-  server: krsk10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 793
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #18'
-  password: eVMVtt
-  port: 61147
-  server: kr01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 750
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #19'
-  password: eVMVtt
-  port: 61147
-  server: kr02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 437
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #20'
-  password: eVMVtt
-  port: 61147
-  server: kr03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 748
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #21'
-  password: eVMVtt
-  port: 61147
-  server: kr04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 752
-  name: '11|韩国 - Gasan-dong - Hostcenter -... #22'
-  password: eVMVtt
-  port: 61147
-  server: kr06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1187
-  name: 11|韩国 - 光明市 - SK Broadband Co Ltd...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1608
-  name: 11,13|🇰🇷 韩国|@ripaojiedian
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: mm.huawei-api.top
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  delay: 455
-  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 948
-  name: 11|马来西亚 - 吉隆坡 - EVOXT - 1
-  port: 10004
-  server: manager.gghbjnjbff.shop
-  type: vmess
-  udp: true
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
-- alterId: 0
-  cipher: auto
-  delay: 1324
-  name: 11|墨西哥 - 克雷塔罗 - The Constant Comp...
-  port: 10900
-  server: manager.gghbjnjbff.shop
-  type: vmess
-  udp: true
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 15.188.74.209
+  server: 51.44.179.14
   tfo: false
   type: ss
 - alterId: 2
@@ -2800,22 +1478,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 13,14|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 44470
+  server: 43.247.135.176
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2839,29 +1511,12 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港7|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-- name: 13,14|台湾2|@ripaojiedian
-  network: tcp
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  port: 25004
-  server: 8.134.93.116
-  skip-cert-verify: true
-  type: trojan
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2898,6 +1553,13 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: mm.huawei-api.top
+  tfo: false
+  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2938,7 +1600,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -2962,7 +1624,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港7|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '44470'
   server: 43.247.135.176

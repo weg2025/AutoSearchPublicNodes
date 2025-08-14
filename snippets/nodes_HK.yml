@@ -13,6 +13,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 683
+  name: 11|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35791
+  server: t1.fttos.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -46,23 +54,17 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 44470
+  server: 43.247.135.176
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
 - client-fingerprint: chrome
   name: 13,14|香港4|@ripaojiedian
   network: tcp
@@ -91,18 +93,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港7|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-- alterId: 0
-  cipher: auto
-  name: 14|香港7|@ripaojiedian
+  name: 14|香港3|@ripaojiedian
   network: tcp
   port: '44470'
   server: 43.247.135.176

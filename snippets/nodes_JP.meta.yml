@@ -15,14 +15,6 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: 9|日本Hy2-3
-  password: 1c473b13-502d-47eb-8cf8-70a38d56c5bd
-  port: 443
-  server: jp1.interld123456789.com
-  skip-cert-verify: true
-  sni: 1231231.1234567890spcloud.com
-  tls: false
-  type: hysteria2
 - name: 9|🇯🇵日本
   password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
   port: 443
@@ -55,6 +47,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- auth: oATw4IRtuUOozpOLFflGnWjtg
+  delay: 1299
+  name: '9,11|日本 - 东京 - Amazon Technologies ... #3'
+  password: oATw4IRtuUOozpOLFflGnWjtg
+  port: 18219
+  server: 52.193.71.150
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+  udp: true
 - name: 9|JP
   password: oCt1QU5QUB9vPtoBq3SzGrjlBTU
   port: 11534
@@ -71,313 +74,644 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- cipher: rc4-md5
-  delay: 536
-  name: 11|日本 - 东京 - Akari Networks Limit...
-  password: eVMVtt
-  port: 61147
-  server: hr13.graniterapids.com
-  type: ss
+- alterId: '2'
+  cipher: auto
+  delay: 767
+  name: 11|日本 - Chiyoda City - GMO Global...
+  network: ws
+  port: 10001
+  server: b.jp.mbsurfnode3.top
+  type: vmess
   udp: true
-- cipher: rc4-md5
-  delay: 794
-  name: '11|日本 - 东京 - Akari Networks Limit... #1'
-  password: eVMVtt
-  port: 61147
-  server: hr16.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 683
-  name: '11|日本 - 东京 - Akari Networks Limit... #2'
-  password: eVMVtt
-  port: 61147
-  server: hr17.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 681
-  name: '11|日本 - 东京 - Akari Networks Limit... #3'
-  password: eVMVtt
-  port: 61147
-  server: hr18.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 539
-  name: '11|日本 - 东京 - Akari Networks Limit... #4'
-  password: eVMVtt
-  port: 61147
-  server: hr10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 561
-  name: '11|日本 - 东京 - Akari Networks Limit... #5'
-  password: eVMVtt
-  port: 61147
-  server: jp06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|日本 - 东京 - Akari Networks Limit... #6'
-  password: eVMVtt
-  port: 61147
-  server: jp07.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 372
-  name: '11|日本 - 东京 - Akari Networks Limit... #7'
-  password: eVMVtt
-  port: 61147
-  server: jp09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #8'
-  password: eVMVtt
-  port: 61147
-  server: jp10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 427
-  name: '11|日本 - 东京 - Akari Networks Limit... #9'
-  password: eVMVtt
-  port: 61147
-  server: jp01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #10'
-  password: eVMVtt
-  port: 61147
-  server: jp03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 564
-  name: '11|日本 - 东京 - Akari Networks Limit... #11'
-  password: eVMVtt
-  port: 61147
-  server: jp04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 371
-  name: '11|日本 - 东京 - Akari Networks Limit... #12'
-  password: eVMVtt
-  port: 61147
-  server: jp27.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 428
-  name: '11|日本 - 东京 - Akari Networks Limit... #13'
-  password: eVMVtt
-  port: 61147
-  server: jp29.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 426
-  name: '11|日本 - 东京 - Akari Networks Limit... #14'
-  password: eVMVtt
-  port: 61147
-  server: jp30.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 414
-  name: '11|日本 - 东京 - Akari Networks Limit... #15'
-  password: eVMVtt
-  port: 61147
-  server: jp31.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|日本 - 东京 - Akari Networks Limit... #16'
-  password: eVMVtt
-  port: 61147
-  server: jp32.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 426
-  name: '11|日本 - 东京 - Akari Networks Limit... #17'
-  password: eVMVtt
-  port: 61147
-  server: jp23.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 430
-  name: '11|日本 - 东京 - Akari Networks Limit... #18'
-  password: eVMVtt
-  port: 61147
-  server: jp24.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 590
-  name: '11|日本 - 东京 - Akari Networks Limit... #19'
-  password: eVMVtt
-  port: 61147
-  server: jp25.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 543
-  name: '11|日本 - 东京 - Akari Networks Limit... #20'
-  password: eVMVtt
-  port: 61147
-  server: hr01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 588
-  name: '11|日本 - 东京 - Akari Networks Limit... #21'
-  password: eVMVtt
-  port: 61147
-  server: jp26.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|日本 - 东京 - Akari Networks Limit... #22'
-  password: eVMVtt
-  port: 61147
-  server: jp14.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 582
-  name: '11|日本 - 东京 - Akari Networks Limit... #23'
-  password: eVMVtt
-  port: 61147
-  server: jp15.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 591
-  name: '11|日本 - 东京 - Akari Networks Limit... #24'
-  password: eVMVtt
-  port: 61147
-  server: jp16.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|日本 - 东京 - Akari Networks Limit... #25'
-  password: eVMVtt
-  port: 61147
-  server: jp19.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 632
-  name: '11|日本 - 东京 - Akari Networks Limit... #26'
-  password: eVMVtt
-  port: 61147
-  server: hkt02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 369
-  name: '11|日本 - 东京 - Akari Networks Limit... #27'
-  password: eVMVtt
-  port: 61147
-  server: hr03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 537
-  name: '11|日本 - 东京 - Akari Networks Limit... #28'
-  password: eVMVtt
-  port: 61147
-  server: hr04.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 684
-  name: '11|日本 - 东京 - Akari Networks Limit... #29'
-  password: eVMVtt
-  port: 61147
-  server: hr06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 349
-  name: '11|日本 - 东京 - Akari Networks Limit... #30'
-  password: eVMVtt
-  port: 61147
-  server: hr09.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 479
-  name: '11|日本 - 东京 - Akari Networks Limit... #31'
-  password: eVMVtt
-  port: 61147
-  server: hr11.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 286
-  name: '11|日本 - 东京 - Akari Networks Limit... #32'
-  password: eVMVtt
-  port: 61147
-  server: hr12.graniterapids.com
-  type: ss
-  udp: true
-- country: 🇯🇵JP
-  delay: 2822
-  name: 11|日本 - 东京 - Amazon Technologies ...
-  password: 0xC6Mws4Dg
-  port: 1935
-  server: x2-japan-amazon-v2.devefun.org
+  uuid: 8689d089-90a5-3ade-a25e-ebe157df8d99
+  ws-opts:
+    headers:
+      Host: download.visualstudio.microsoft.com
+    path: /download/pr/9b564b8a-a26d-4bb3-8f30-1101ae71a55a/2cee4f9e4c0e77e3d0f866fdf690864e/windowsdesktop-runtime-5.0.8-win-x64.exe
+- delay: 998
+  down: 300
+  name: 11|日本 - Minato - Yuwan Networks L...
+  password: 4c0109f7-e002-410a-b37d-a56b391237a5
+  port: 8080
+  server: jp6.7896543.xyz
+  skip-cert-verify: false
+  sni: jp6.7896543.xyz
+  type: hysteria2
+  up: 300
+- delay: 850
+  name: 11|日本 - Shibuya City - Akile LTD ...
+  password: c43d7e1b-8595-4d9e-99cf-49f06d1933bc
+  port: 40002
+  server: 154.85.18.101
   skip-cert-verify: true
-  sni: x2-japan-amazon-v2.devefun.org
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- delay: 798
+  name: '11|日本 - Shibuya City - Akile LTD ... #1'
+  password: c43d7e1b-8595-4d9e-99cf-49f06d1933bc
+  port: 40001
+  server: 154.85.18.101
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  congestion-controller: bbr
+  delay: 1512
+  name: 11|日本 - Shinagawa - Datacamp Limi...
+  password: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  port: 51001
+  server: zhaji-jp.xiaoqi999.space
+  skip-cert-verify: true
+  sni: statici.icloud.com
+  type: tuic
+  udp: true
+  udp-relay-mode: quic
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  version: 5
+- delay: 2575
+  name: 11|日本 - 东京 - Akamai Technologies,...
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 0cab4bce-t0zr40-t67sv3-1snfs.jp4.oshuawei.com
+  sni: 0cab4bce-t0zr40-t67sv3-1snfs.jp4.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  delay: 685
+  name: 11|日本 - 东京 - Akile LTD - 10
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35794
+  server: t1.fttos.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  delay: 1023
+  name: 11,13|🇯🇵 日本5|@ripaojiedian
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35782
+  server: t1.fttos.xyz
+  tfo: false
+  type: ss
+  udp: true
+- auth: ''
+  delay: 820
+  fast-open: false
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  password: vvv6vVxcPggObZtT1Zrgs6YG8
+  port: 33753
+  server: 13.114.69.151
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  delay: 748
+  name: '11|日本 - 东京 - Amazon Technologies ... #1'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a003.standard-nodes-chickenfarms.com
+  type: ss
+  udp: true
+- delay: 2953
+  down: 10000
+  name: '11|日本 - 东京 - Amazon Technologies ... #2'
+  password: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- delay: 2950
+  down: 10000
+  name: '11|日本 - 东京 - Amazon Technologies ... #4'
+  password: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- delay: 1713
+  name: '11|日本 - 东京 - Amazon Technologies ... #5'
+  password: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  port: 40000
+  server: jp.xiaoqi777.store
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- delay: 708
+  down: 1000
+  name: '11|日本 - 东京 - Amazon Technologies ... #6'
+  obfs: salamander
+  obfs-password: asdfghjkl
+  password: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  port: 51160
+  server: jp.xiaoqi777.store
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: 1000
+- delay: 1454
+  name: '11|日本 - 东京 - Amazon Technologies ... #7'
+  network: ws
+  password: 745bb716-150d-482b-8942-250150bf1fc2
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
   type: trojan
   udp: true
-- delay: 1526
-  name: 11|日本 - 东京 - Baxet Group Inc. - 3...
+  ws-opts:
+    path: /
+- delay: 1977
+  down: 10000
+  name: '11|日本 - 东京 - Amazon Technologies ... #8'
+  password: 1750b2cf-ad75-4ab6-890d-4198e15a87c9
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- delay: 1096
+  name: '11|日本 - 东京 - Amazon Technologies ... #9'
+  network: ws
+  password: 813e7fc5-2c9a-4967-802b-6443930ecb7e
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  delay: 734
+  name: '11|日本 - 东京 - Amazon Technologies ... #10'
+  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
+  port: 50000
+  server: a013.standard-nodes-chickenfarms.com
+  type: ss
+  udp: true
+- delay: 1973
+  down: 10000
+  name: '11|日本 - 东京 - Amazon Technologies ... #11'
+  password: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- delay: 1439
+  down: 10000
+  name: '11|日本 - 东京 - Amazon Technologies ... #12'
+  password: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+  up: 10000
+- alterId: 0
+  cipher: auto
+  delay: 670
+  name: '11|日本 - 东京 - Amazon Technologies ... #13'
+  port: 21002
+  server: tls.01.node-for-bigairport.win
+  type: vmess
+  udp: true
+  uuid: 792e0bdb-01db-450c-94c4-925151eb396e
+- alterId: 0
+  cipher: auto
+  delay: 670
+  name: '11|日本 - 东京 - Amazon Technologies ... #14'
+  port: 10202
+  server: tls.85.node-for-bigairport.win
+  type: vmess
+  udp: true
+  uuid: 792e0bdb-01db-450c-94c4-925151eb396e
+- auth: PrNQv0f1Xwi1DjxLGPoARTbJSwA
+  delay: 1716
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 1...
+  password: PrNQv0f1Xwi1DjxLGPoARTbJSwA
+  port: 26835
+  server: 54.248.36.154
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  udp: true
+- auth: ''
+  delay: 1766
+  fast-open: false
+  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #1'
+  password: 1JA6CF8JMUDvoz6zfm5qHwlN3Wo
+  port: 4410
+  server: 43.207.119.98
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- delay: 2256
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 6...
+  network: ws
+  password: 745bb716-150d-482b-8942-250150bf1fc2
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- delay: 2469
+  name: 11|日本 - 东京 - Baxet Group Inc. - 1...
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b058f12d-d1c6-4a6b-94cd-8f68b05bb0f5
+  password: 0bf10437-aa17-4a4c-a804-e8236de49707
   port: 33657
   server: rb.dport.top
   skip-cert-verify: true
   sni: rb.dport.top
   type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  delay: 1559
-  name: 11|日本 - 东京 - CTG Server Ltd. - 2
-  password: 70a0b8103356
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /bezradrqccl
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.142.139
-  type: ss
+- delay: 1330
+  name: 11|日本 - 东京 - Baxet Group Inc. - 2...
+  password: 4eba7d4d-8460-4f9f-9718-9f06886b5489
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- delay: 1737
+  name: '11|日本 - 东京 - Baxet Group Inc. - 2... #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f64b52e4-c41f-4ee0-b8bc-1893202d3489
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- delay: 1415
+  name: 11|日本 - 东京 - Baxet Group Inc. - 3...
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: d2ac7f0e-af85-48d6-ab1b-5f6da5c74073
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- delay: 1358
+  name: 11|日本 - 东京 - Baxet Group Inc. - 4...
+  password: 1acd1a12-bc74-452a-999f-539f4d492c6d
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- delay: 1614
+  name: '11|日本 - 东京 - Baxet Group Inc. - 4... #1'
+  password: e8db53c3-5b35-4044-9b77-fca87e1647af
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- delay: 1152
+  name: '11|日本 - 东京 - Baxet Group Inc. - 4... #2'
+  password: 0d1a2fa3-2db6-499c-9a57-39cdd653b292
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- delay: 1391
+  name: 11|日本 - 东京 - Baxet Group Inc. - 5...
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 002f5b53-3bdd-4a20-9c6c-0e20486a57aa
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- delay: 2097
+  name: '11|日本 - 东京 - Baxet Group Inc. - 5... #1'
+  password: e4cdceed-6020-4312-9d21-8e73342d5582
+  port: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2490
+  name: 11|日本 - 东京 - FDCservers.net - 24
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
+  ws-opts:
+    headers:
+      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1415
+  name: 11|日本 - 东京 - FDCservers.net - 48
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
+  ws-opts:
+    headers:
+      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1370
+  name: 11|日本 - 东京 - FDCservers.net - 49
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  ws-opts:
+    headers:
+      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1364
+  name: 11|日本 - 东京 - FDCservers.net - 50
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
+  ws-opts:
+    headers:
+      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2984
+  name: 11|日本 - 东京 - FDCservers.net - 51
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- delay: 653
+  mport: 50000-53000
+  name: 11|日本 - 东京 - Oracle Corporation -...
+  password: a957d687-bb5e-47dc-a82f-9e494cfe9cba
+  port: 50000
+  ports: 50000-53000
+  server: 131.186.42.162
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- delay: 1091
+  down: 998
+  name: 11|日本 - 东京 - SAKURA Internet Inc....
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30303
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 2491
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #1'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30302
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 1214
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #2'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30375
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 591
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #3'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30362
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 757
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #4'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30360
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 317
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #5'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30344
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 1079
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #6'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30338
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 2007
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #7'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30398
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 1043
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #8'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30359
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 1027
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #9'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30335
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 1217
+  down: 1000
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #10'
+  password: 1434e74d-e7bb-421b-9439-f2b139190dcc
+  port: 20201
+  server: rb3.xueshan.shop
+  skip-cert-verify: true
+  sni: rb3.xueshan.shop
+  type: hysteria2
+  up: 1000
+- delay: 635
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #11'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30372
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 756
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #12'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30378
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 943
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #13'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30383
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 306
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #14'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30380
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 575
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #15'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30331
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 442
+  down: 998
+  name: '11|日本 - 东京 - SAKURA Internet Inc.... #16'
+  password: 46912c4b-6112-4bc6-9b23-b9615b06468b
+  port: 30373
+  ports: 30301-30399
+  server: rb.yuanbaojc.site
+  skip-cert-verify: false
+  sni: rb.yuanbaojc.site
+  type: hysteria2
+  up: 1000
+- delay: 492
+  name: 11|日本 - 福岡市 - Cloudflare, Inc. - ...
+  network: ws
+  password: Aimer
+  port: 17000
+  server: 183.106.218.118
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz

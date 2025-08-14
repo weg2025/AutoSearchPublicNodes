@@ -1,39 +1,25 @@
 proxies:
-- delay: 2025
-  name: 11|法国 - 奧奈叢林 - Cloudflare, Inc. -...
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 94.23.169.3
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: rc4-md5
-  delay: 836
-  name: 11|法国 - 鲁贝 - OVH SAS - 3
-  password: eVMVtt
-  port: 61147
-  server: fr02.graniterapids.com
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  delay: 1286
+  name: 11|法国 - 巴黎 - OVH SAS - 1
+  password: jG7G5om8i7HZPxnU7HL6bA
+  port: 100
+  server: 91.134.11.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 870
+  name: 11|法国 - 里昂 - Feelb Sarl - 7
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35802
+  server: t1.fttos.xyz
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 342
-  name: 11|法国 - 鲁贝 - OVH SAS - 4
-  password: eVMVtt
-  port: 61147
-  server: fr03.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 287
-  name: 11|法国 - 鲁贝 - OVH SAS - 5
-  password: eVMVtt
-  port: 61147
-  server: fr04.graniterapids.com
+- cipher: chacha20-ietf-poly1305
+  delay: 797
+  name: 11|法国 - 里昂 - Feelb Sarl - 8
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35790
+  server: t1.fttos.xyz
   type: ss
   udp: true

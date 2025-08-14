@@ -1,15 +1,117 @@
 proxies:
-- auth: 1ce0d5df-7408-429d-bcfa-654720d5bb02
-  delay: 888
-  name: 11|瑞士 - 苏黎世 - Oracle Corporation ...
-  password: 1ce0d5df-7408-429d-bcfa-654720d5bb02
-  port: 35000
-  ports: 35000-39000
-  server: 152.67.95.183
+- delay: 1075
+  name: 11|瑞士 - 巴塞尔 - Cloudflare, Inc. - ...
+  password: cf73ba63-6097-45b1-a1f2-7094307be1cb
+  port: 46981
+  server: 104.244.76.174
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: www.bing.com
+  tfo: false
   type: hysteria2
-  udp: true
+- delay: 1197
+  down: 1000
+  name: 11|越南 - Cầu Diễn - ICTMEDIATECH -...
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20640
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 1303
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #1'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20674
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 1044
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #2'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20652
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 979
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #3'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20620
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 1557
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #4'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20664
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 1042
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #5'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20642
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 1863
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #6'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20679
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
+- delay: 875
+  down: 1000
+  name: '11|越南 - Cầu Diễn - ICTMEDIATECH -... #7'
+  obfs: salamander
+  obfs-password: TTEmefHq1OlFElQr
+  password: 98ea14f1-cdc2-4e94-b45c-add5c89d8f94
+  port: 20699
+  ports: 20601-20699
+  server: vn.gomeow.online
+  skip-cert-verify: false
+  sni: vn.gomeow.online
+  type: hysteria2
+  up: 1000
 - name: 15|CH_speednode_0026
   network: ws
   port: 8880
@@ -24,3 +126,17 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /
+- name: 15|CH_speednode_0027
+  network: ws
+  port: 8880
+  server: 185.18.250.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3

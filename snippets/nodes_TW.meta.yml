@@ -1,28 +1,39 @@
 proxies:
 - client-fingerprint: chrome
-  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  delay: 1899
+  name: 1,11|中国 - 台湾 - Chunghwa Telecom Co....
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 13|🇹🇼 台湾|@ripaojiedian
-  password: test.+
-  port: 30443
-  server: cmhkb.ssv.vc
-  skip-cert-verify: false
-  sni: cmhkb.ssv.vc
-  tls: true
-  type: http
-  username: test
-- client-fingerprint: chrome
-  name: 13,14|台湾2|@ripaojiedian
-  network: tcp
-  password: be76ac23-8ff8-4afe-a86e-5153f4ce869d
-  port: 25004
-  server: 8.134.93.116
+- name: 10|https://t.me/VTWORAY_WOLF
+  obfs: salamander
+  obfs-password: Skksksjsns
+  password: D9LQsYxAUo
+  port: 27557
+  server: 91.108.240.122
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: hysteria2
+- name: '10|https://t.me/VTWORAY_WOLF #1'
+  obfs: salamander
+  obfs-password: Slskkskssush
+  password: D9LQsYxAUo
+  port: 37502
+  server: 91.108.240.122
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '10|https://t.me/VTWORAY_WOLF #2'
+  obfs: salamander
+  obfs-password: Lzakmdjsia
+  password: D9LQsYxAUo
+  port: 58430
+  server: 91.108.240.122
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2

@@ -12,89 +12,25 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- alterId: 0
-  cipher: auto
-  country: 🇩🇪DE
-  delay: 1472
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: tcp
-  port: 32020
-  server: s3.ipyar.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
-- cipher: rc4-md5
-  delay: 614
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 10
-  password: eVMVtt
-  port: 61147
-  server: ge02.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1363
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 11
-  password: eVMVtt
-  port: 61147
-  server: ge03.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 483
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 12
-  password: eVMVtt
-  port: 61147
-  server: ge04.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1350
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 13
-  password: eVMVtt
-  port: 61147
-  server: ge05.htz.wtf
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1348
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 14
-  password: eVMVtt
-  port: 61147
-  server: ge06.htz.wtf
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2181
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 3
+- client-fingerprint: chrome
+  delay: 2252
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #5'
   network: ws
-  port: 2083
-  server: 104.26.5.16
-  servername: blaze-ger-248.blazecloudmain.site
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c208e0ae-6f6d-4745-99da-44a44744c530
+  password: trojan
+  port: 8443
+  server: 104.26.13.31
+  skip-cert-verify: false
+  sni: qianlang.pages.dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: blaze-ger-248.blazecloudmain.site
-    path: /linkwsrt?ed=2560
-- cipher: rc4-md5
-  delay: 1365
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 9
-  password: eVMVtt
-  port: 61147
-  server: ge01.htz.wtf
-  type: ss
-  udp: true
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
 - client-fingerprint: chrome
-  delay: 997
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #4'
+  delay: 2318
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #7'
   network: ws
   password: bpb-trojan
   port: 443
@@ -104,7 +40,39 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /tr?ed=2560
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    max-early-data: 2560
+    path: /tr
+- delay: 1596
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #11'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 162.159.133.85
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1358
+  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #13'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 172.67.77.127
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /

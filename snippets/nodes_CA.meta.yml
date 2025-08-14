@@ -1,5 +1,10 @@
 proxies:
-- name: '9|Channel id: @ShadowProxy66🇨🇦'
+- delay: 2013
+  down: ''
+  fingerprint: ''
+  name: '9,11|加拿大 - 多伦多 - Oracle Corporation... #2'
+  obfs: ''
+  obfs-password: ''
   password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   port: 54530
   server: 192.18.150.167
@@ -7,59 +12,81 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: rc4-md5
-  delay: 486
-  name: 11|加拿大 - Beauharnois - OVH SAS - ...
-  password: eVMVtt
-  port: 61147
-  server: ca01.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 415
-  name: '11|加拿大 - Beauharnois - OVH SAS - ... #1'
-  password: eVMVtt
-  port: 61147
-  server: ca02.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 646
-  name: '11|加拿大 - Beauharnois - OVH SAS - ... #2'
-  password: eVMVtt
-  port: 61147
-  server: ca05.graniterapids.com
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  delay: 1864
-  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 129.153.52.235
+  up: ''
+- delay: 2246
+  name: 11|加拿大 - 多伦多 - DigitalOcean, LLC ...
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: 9a6b4cb6-d3eb-4068-8049-df29f10c606b
+  port: 22812
+  ports: 21000-26000
+  server: jnd1.gy6688.xyz
+  skip-cert-verify: true
+  sni: jnd1.gy6688.xyz
+  type: hysteria2
+- delay: 1287
+  name: '11|加拿大 - 多伦多 - DigitalOcean, LLC ... #1'
+  password: b060fbe9-52da-4385-8119-08214caf433b
+  port: 54700
+  server: 147.182.153.80
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
   udp: true
-- alpn:
-  - h3
-  auth: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  delay: 2922
+- delay: 1746
+  name: '11|加拿大 - 多伦多 - DigitalOcean, LLC ... #2'
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: 9a6b4cb6-d3eb-4068-8049-df29f10c606b
+  port: 24740
+  ports: 21000-26000
+  server: jnd1.gy6688.xyz
+  skip-cert-verify: true
+  sni: jnd1.gy6688.xyz
+  type: hysteria2
+- delay: 1360
   name: 11|加拿大 - 多伦多 - Oracle Corporation...
-  password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-  port: 54530
-  server: 192.18.150.167
+  password: a957d687-bb5e-47dc-a82f-9e494cfe9cba
+  port: 65535
+  server: 40.233.77.86
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: www.microsoft.com
   type: hysteria2
   udp: true
-- delay: 2660
+- delay: 953
+  name: '11|加拿大 - 多伦多 - Oracle Corporation... #1'
+  password: 45e44247-a685-447b-aea2-21da5095d642
+  port: 65535
+  server: 40.233.77.86
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- delay: 1423
+  name: '11|加拿大 - 多伦多 - Oracle Corporation... #3'
+  password: f7bf7119-45dc-4a17-a1b0-8017e01658f3
+  port: 65535
+  server: 40.233.77.86
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- delay: 1503
   name: 11|加拿大 - 多伦多 - Regxa Company for ...
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b058f12d-d1c6-4a6b-94cd-8f68b05bb0f5
+  password: 989074b8-bbf5-4af4-8799-855c3b92c020
+  port: 33651
+  server: jnd.dport.top
+  skip-cert-verify: true
+  sni: jnd.dport.top
+  type: hysteria2
+  udp: true
+- delay: 1216
+  name: '11|加拿大 - 多伦多 - Regxa Company for ... #1'
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: fb10ef6d-29d5-4d69-91fa-7e187711e6f0
   port: 33651
   server: jnd.dport.top
   skip-cert-verify: true

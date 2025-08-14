@@ -35,251 +35,272 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 2350
+- alterId: 0
+  cipher: auto
+  delay: 1915
+  name: '11|美国 - San Jose - Oracle Corpora... #2'
+  network: ws
+  port: 8443
+  server: sj3.620720.xyz
+  servername: sj3.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sj3.620720.xyz
+    max-early-data: 2560
+    path: /
+- delay: 912
   name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #3'
   network: ws
   password: Aimer
-  port: 443
-  server: 4.242.243.5
+  port: 2053
+  server: 162.159.44.230
   skip-cert-verify: true
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1145
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 19...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  delay: 1221
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #4'
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 788
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 22...
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 729
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 39...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
+  ws-opts:
+    headers:
+      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 576
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 40...
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2210
+  name: 11|美国 - 丹佛 - ZYC Network LLC - 93
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
+  ws-opts:
+    headers:
+      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1580
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 443
+  server: 87ctcc.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- alterId: 0
+  cipher: auto
+  delay: 2595
+  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #2'
+  network: ws
+  port: 443
+  server: 87cf.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- alterId: 0
+  cipher: auto
+  delay: 2786
+  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #3'
+  network: ws
+  port: 443
+  server: ctcc.yangmie.online
+  servername: zhaji-us666.xiao666666.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
+  ws-opts:
+    headers:
+      Host: zhaji-us666.xiao666666.site
+    path: /xiaoqi
+- delay: 2625
+  name: 11|美国 - 洛杉矶 - Akari Networks Limi...
+  password: 30f05ba0-9b94-422e-887c-d2d45918a06b
+  port: 6811
+  server: updatess.sub-zrj.com
+  skip-cert-verify: true
+  sni: data.sub-zrj.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  delay: 2195
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 2...
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
+  ws-opts:
+    headers:
+      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2309
+  name: '11|美国 - 洛杉矶 - Psychz Networks - 2... #3'
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
+  ws-opts:
+    headers:
+      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1968
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 3...
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
+  ws-opts:
+    headers:
+      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  delay: 2156
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #19'
   network: ws
   password: Aimer
-  port: 11002
-  server: 38.148.253.85
-  skip-cert-verify: true
+  port: 8443
+  server: 160.79.105.160
+  skip-cert-verify: false
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: rc4-md5
-  delay: 832
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 46
-  password: eVMVtt
-  port: 61147
-  server: us06.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 588
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 50
-  password: eVMVtt
-  port: 61147
-  server: us10.graniterapids.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 355
-  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 52
-  password: eVMVtt
-  port: 61147
-  server: us02.graniterapids.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 542
-  name: 11|美国 - 洛杉矶 - NTT America - 92
-  network: ws
-  port: 20086
-  server: 128.241.227.188
-  tls: false
-  type: vmess
-  uuid: 5b0d1179-cb7c-4b5f-9b8e-c8048c34d2a0
-  ws-opts:
-    headers: {}
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    max-early-data: 2560
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 874
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 盐湖城 - FiberPower LLC - 1
+- client-fingerprint: chrome
+  delay: 1406
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #21'
   network: ws
-  port: 8443
-  server: 23.136.164.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 606f0d8e-b3d6-493b-bd5d-f3483c21fd3e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1141
-  name: 11|美国 - 紐約 - Ace Data Centers II ...
-  network: ws
-  port: 20086
-  server: 23.27.51.56
-  tls: false
-  type: vmess
-  uuid: 9a2bbd36-ccff-4a47-8cde-548e2fc50b49
-  ws-opts:
-    headers: {}
-    path: /
-- delay: 1595
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #74'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- delay: 1726
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #85'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
+  password: Aimer
+  port: 2087
+  server: 104.19.60.99
   skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: torjan.xn--xhq44j.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    max-early-data: 2560
     path: /
-- delay: 898
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #119'
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 188.164.159.246
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1349
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #161'
-  network: ws
-  password: Aimer
-  port: 443
-  server: 108.162.194.193
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1795
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #179'
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.76
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 977
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #189'
-  network: ws
-  password: slch2024
-  port: 8443
-  server: 104.18.3.108
-  skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /
-- delay: 1129
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #245'
+- client-fingerprint: chrome
+  delay: 1768
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
   network: ws
   password: Aimer
   port: 2083
-  server: 192.0.54.221
-  skip-cert-verify: true
+  server: 192.200.160.35
+  skip-cert-verify: false
   sni: epgb.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1329
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #254'
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.166.131
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1393
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #258'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 188.164.159.248
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1977
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #260'
-  network: ws
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1497
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #261'
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    max-early-data: 2560
+    path: /
+- delay: 2605
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
   network: ws
   password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2096
-  server: 103.160.204.49
+  port: 2083
+  server: 104.16.134.27
   skip-cert-verify: true
   sni: vle.amclubsvip.dpdns.org
   type: trojan
@@ -288,62 +309,144 @@ proxies:
     headers:
       Host: vle.amclubsvip.dpdns.org
     path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
-- cipher: rc4-md5
-  delay: 587
-  name: 11|美国 - 西雅圖 - Brain PEACE Science...
-  password: eVMVtt
-  port: 61147
-  server: us07.graniterapids.com
-  type: ss
+- delay: 2320
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #35'
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 364
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #1'
-  password: eVMVtt
-  port: 61147
-  server: us08.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1210
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #36'
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 92.243.74.23
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 593
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #2'
-  password: eVMVtt
-  port: 61147
-  server: us09.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 2590
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #37'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 46.254.93.211
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 592
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #3'
-  password: eVMVtt
-  port: 61147
-  server: us01.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1869
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #38'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 176.124.223.40
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 587
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #4'
-  password: eVMVtt
-  port: 61147
-  server: us03.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 2113
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #40'
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.239
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 585
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #5'
-  password: eVMVtt
-  port: 61147
-  server: us04.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1673
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #41'
+  network: ws
+  password: Aimer
+  port: 443
+  server: lynn.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 1299
-  name: '11|美国 - 西雅圖 - Brain PEACE Science... #6'
-  password: eVMVtt
-  port: 61147
-  server: us05.graniterapids.com
-  type: ss
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    max-early-data: 2560
+    path: /
+- delay: 1846
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 108.162.193.162
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 2373
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #43'
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 172.64.33.69
+  skip-cert-verify: true
+  sni: epgb.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgb.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 2066
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #201'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 103.160.204.59
+  skip-cert-verify: true
+  sni: vle.amclubsvip.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubsvip.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
 - client-fingerprint: chrome
   name: 13|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -363,7 +466,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
