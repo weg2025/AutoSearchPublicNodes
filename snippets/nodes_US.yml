@@ -1,416 +1,252 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 1915
-  name: '11|美国 - San Jose - Oracle Corpora... #2'
-  network: ws
-  port: 8443
-  server: sj3.620720.xyz
-  servername: sj3.620720.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sj3.620720.xyz
-    max-early-data: 2560
-    path: /
-- delay: 912
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #3'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 162.159.44.230
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1145
-  name: 11|美国 - 丹佛 - ZYC Network LLC - 19...
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
-  ws-opts:
-    headers:
-      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 788
-  name: 11|美国 - 丹佛 - ZYC Network LLC - 22...
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
-  ws-opts:
-    headers:
-      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 729
-  name: 11|美国 - 丹佛 - ZYC Network LLC - 39...
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
-  ws-opts:
-    headers:
-      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 576
-  name: 11|美国 - 丹佛 - ZYC Network LLC - 40...
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
-  ws-opts:
-    headers:
-      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2210
-  name: 11|美国 - 丹佛 - ZYC Network LLC - 93
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
-  ws-opts:
-    headers:
-      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1580
-  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
-  network: ws
-  port: 443
-  server: 87ctcc.yangmie.online
-  servername: zhaji-us666.xiao666666.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
-  ws-opts:
-    headers:
-      Host: zhaji-us666.xiao666666.site
-    path: /xiaoqi
-- alterId: 0
-  cipher: auto
-  delay: 2595
-  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #2'
-  network: ws
-  port: 443
-  server: 87cf.yangmie.online
-  servername: zhaji-us666.xiao666666.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
-  ws-opts:
-    headers:
-      Host: zhaji-us666.xiao666666.site
-    path: /xiaoqi
-- alterId: 0
-  cipher: auto
-  delay: 2786
-  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #3'
-  network: ws
-  port: 443
-  server: ctcc.yangmie.online
-  servername: zhaji-us666.xiao666666.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3375024a-02d6-40b1-a3ee-627266cdcd7f
-  ws-opts:
-    headers:
-      Host: zhaji-us666.xiao666666.site
-    path: /xiaoqi
-- delay: 2625
-  name: 11|美国 - 洛杉矶 - Akari Networks Limi...
-  password: 30f05ba0-9b94-422e-887c-d2d45918a06b
-  port: 6811
-  server: updatess.sub-zrj.com
-  skip-cert-verify: true
-  sni: data.sub-zrj.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  delay: 2195
-  name: 11|美国 - 洛杉矶 - Psychz Networks - 2...
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
-  ws-opts:
-    headers:
-      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2309
-  name: '11|美国 - 洛杉矶 - Psychz Networks - 2... #3'
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
-  ws-opts:
-    headers:
-      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1968
-  name: 11|美国 - 洛杉矶 - Psychz Networks - 3...
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
-  ws-opts:
-    headers:
-      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  delay: 2156
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #19'
+  delay: 1867
+  name: 11,13,14|美国4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 22006
+  server: 36.156.102.67
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  delay: 2531
+  name: '11|美国 - 北伯根 - DigitalOcean, LLC -... #1'
   network: ws
-  password: Aimer
-  port: 8443
-  server: 160.79.105.160
+  port: 30824
+  server: v24.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v24.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  delay: 1526
+  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 137
+  port: 50002
+  server: 50002.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 1526
+  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 138
+  port: 50007
+  server: 50007.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 1464
+  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 139
+  port: 50015
+  server: 50015.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 2239
+  name: 11|美国 - 洛杉矶 - HostPapa - 145
+  network: ws
+  port: 8880
+  server: 102.132.188.15
+  servername: TG.WangCai2.s4.db-link02.top
   skip-cert-verify: false
-  sni: epgb.aimercc.dpdns.org
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 1970
+  name: 11|美国 - 洛杉矶 - HostPapa - 146
+  network: ws
+  port: 8880
+  server: 45.128.76.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 1960
+  name: 11|美国 - 洛杉矶 - HostPapa - 147
+  network: ws
+  port: 8880
+  server: 103.169.142.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 2718
+  name: 11|美国 - 洛杉矶 - HostPapa - 156
+  network: ws
+  port: 8880
+  server: 154.197.64.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 1675
+  name: 11|美国 - 洛杉矶 - HostPapa - 159
+  network: ws
+  port: 8880
+  server: 25.129.196.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 2791
+  name: 11|美国 - 洛杉矶 - HostPapa - 160
+  network: ws
+  port: 8880
+  server: 185.176.24.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  delay: 2044
+  name: 11|美国 - 洛杉矶 - HostPapa - 161
+  network: ws
+  port: 8880
+  server: 92.243.75.15
+  servername: TG.WangCai2.s4.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: TG.WangCai2.s4.db-link02.top
+    max-early-data: 2560
+    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2857
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #61'
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: 172.66.44.214
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
   type: trojan
   udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
     max-early-data: 2560
-    path: /
+    path: /trGPZDfetEwuO25SAs
 - client-fingerprint: chrome
-  delay: 1406
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #21'
+  delay: 1542
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #678'
   network: ws
-  password: Aimer
-  port: 2087
-  server: 104.19.60.99
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
   skip-cert-verify: false
-  sni: epgb.aimercc.dpdns.org
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    max-early-data: 2560
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
     path: /
-- client-fingerprint: chrome
-  delay: 1768
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: false
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
+- cipher: rc4-md5
+  delay: 536
+  name: 11|美国 - 聖荷西 - Zenlayer Inc - 1
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 23.251.121.242
+  type: ss
   udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    max-early-data: 2560
-    path: /
-- delay: 2605
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 104.16.134.27
-  skip-cert-verify: true
-  sni: vle.amclubsvip.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vle.amclubsvip.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
-- delay: 2320
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #35'
-  network: ws
-  password: Aimer
-  port: 443
-  server: 31.43.179.27
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 1210
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #36'
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 92.243.74.23
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 2590
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #37'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 46.254.93.211
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 1869
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #38'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 176.124.223.40
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 2113
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #40'
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.239
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 1673
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #41'
-  network: ws
-  password: Aimer
-  port: 443
-  server: lynn.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    max-early-data: 2560
-    path: /
-- delay: 1846
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 108.162.193.162
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 2373
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #43'
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 172.64.33.69
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 2066
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #201'
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 443
-  server: 103.160.204.59
-  skip-cert-verify: true
-  sni: vle.amclubsvip.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vle.amclubsvip.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
 - client-fingerprint: chrome
   name: 13|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -430,7 +266,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-vye4FDfLUP.download.microsoft.com
+    host: 202508150964186-C3Laaffn48.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -442,15 +278,6 @@ proxies:
   password: 253bc477d4e43c209f2d427272968280
   port: 347
   server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|美国4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 22006
-  server: 36.156.102.67
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan

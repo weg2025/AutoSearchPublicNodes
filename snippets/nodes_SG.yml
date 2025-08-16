@@ -1,172 +1,7 @@
 proxies:
-- delay: 2615
-  name: 11|新加坡 - 新加坡 - Amazon Technologie...
-  network: ws
-  password: 745bb716-150d-482b-8942-250150bf1fc2
-  port: 20230
-  server: sg007.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  delay: 808
-  name: '11|新加坡 - 新加坡 - Amazon Technologie... #3'
-  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
-  port: 50000
-  server: a006.standard-nodes-chickenfarms.com
-  type: ss
-  udp: true
-- delay: 1593
-  name: '11|新加坡 - 新加坡 - Amazon.com, Inc. -... #3'
-  network: ws
-  password: 813e7fc5-2c9a-4967-802b-6443930ecb7e
-  port: 20230
-  server: sg005.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  delay: 745
-  name: '11|新加坡 - 新加坡 - Amazon.com, Inc. -... #4'
-  password: 448ace18-4ae3-4629-8ed4-afdcf168592c
-  port: 50000
-  server: a015.standard-nodes-chickenfarms.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 964
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 2
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 0f28341a-a57d-40ed-ba7a-67d128fa61af
-  ws-opts:
-    headers:
-      Host: bb2ac0573b5cb897e6bd539c2f10dd75.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 965
-  name: 11,13,14|新加坡4|@ripaojiedian
-  network: ws
-  port: '16618'
-  server: t.cnmjcn.cyou
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
-  ws-opts:
-    headers:
-      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2325
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 3...
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 5d775d7d-17b0-4f81-b7c9-7421956f35b6
-  ws-opts:
-    headers:
-      Host: a6f74433a5426b92cd45a9fc7df251c8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 871
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 4...
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: ee6de8b3-2c40-4241-9ce7-6a698fdda5de
-  ws-opts:
-    headers:
-      Host: 9fb919c6db9658c9685fef3f1c426965.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1270
-  name: '11|新加坡 - 新加坡 - FDCservers.net - 4... #1'
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 1750b2cf-ad75-4ab6-890d-4198e15a87c9
-  ws-opts:
-    headers:
-      Host: 4754c42d1187ea83bebcc2f0c6727e5d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1975
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 5
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: c054f1c2-dac7-41c2-b07b-f601d83e524f
-  ws-opts:
-    headers:
-      Host: 4ef7e643151600339f1b5efd6d680ab4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 964
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 6
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 8b34905e-db18-4c4d-b808-33947e36b698
-  ws-opts:
-    headers:
-      Host: 2b07676dbfda0a21afd0ef3c36c0a2d9.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 806
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 7
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 9247fb55-4a03-482b-8a75-a9edb272f7c2
-  ws-opts:
-    headers:
-      Host: f3e1601e930045d89fef715ea2fd8372.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1256
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  delay: 627
+  name: 11,13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
@@ -176,21 +11,58 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
-  network: ws
-  port: '49102'
-  server: free-relay.themars.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  delay: 1004
+  name: 11|新加坡 - 新加坡 - Oracle Corporation...
+  port: 50010
+  server: 50010.20250808iplcin.top
   type: vmess
-  uuid: 631484bb-c085-4384-8c3a-d93db3d587ef
-  ws-opts:
-    headers:
-      Host: www.cctv.com
-    path: /cctv1.m3u8
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 951
+  name: '11|新加坡 - 新加坡 - Oracle Corporation... #1'
+  port: 50018
+  server: 50018.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 1008
+  name: '11|新加坡 - 新加坡 - Oracle Corporation... #2'
+  port: 50019
+  server: 50019.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 1018
+  name: '11|新加坡 - 新加坡 - Oracle Corporation... #3'
+  port: 50020
+  server: 50020.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- alterId: 0
+  cipher: auto
+  delay: 1069
+  name: '11|新加坡 - 新加坡 - Oracle Corporation... #4'
+  port: 50021
+  server: 50021.20250808iplcin.top
+  type: vmess
+  udp: true
+  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
+- client-fingerprint: chrome
+  name: 13,14|新加坡|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1256
+  server: 36.156.102.125
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - name: 15|SG_speednode_0171
   network: ws
   password: Aimer

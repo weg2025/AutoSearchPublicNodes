@@ -1,29 +1,12 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 683
-  name: 11|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
-  password: 628726b8-9371-4bdd-aab5-d864a492a492
-  port: 35791
-  server: t1.fttos.xyz
+- cipher: aes-256-cfb
+  delay: 1105
+  name: 11|巴西 - Sao Paulo - Kaopu Cloud H...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|香港|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港2|@ripaojiedian
@@ -40,26 +23,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  port: 44470
-  server: 43.247.135.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
-- client-fingerprint: chrome
-  name: 13,14|香港4|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 36.156.102.125
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -72,7 +35,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -86,26 +49,33 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 14|香港3|@ripaojiedian
-  network: tcp
-  port: '44470'
-  server: 43.247.135.176
+  client-fingerprint: chrome
+  name: 13,14|香港7|@ripaojiedian
+  network: ws
+  port: '80'
+  server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: f7adceb1-556b-44f4-a2c2-20f3e06e2001
+  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
   network: kcp
-  port: '5225'
-  server: 47.243.135.47
+  port: '3351'
+  server: 47.83.181.154
   servername: ''
   tls: false
   type: vmess
-  uuid: e64f666d-4b75-473b-9cc2-aaf6f0bf0e33
+  uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
 - name: 15|HK_speednode_0061
   network: ws
   password: Aimer
