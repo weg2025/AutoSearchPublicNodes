@@ -53,7 +53,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇭🇰'
+- name: '9|Channel id: @proxy_kafee🇭🇰 #1'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -85,19 +85,30 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇭🇰 香港3|@ripaojiedian
+  port: 21186
+  server: 43.247.134.190
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 13,14|香港5|@ripaojiedian
   network: ws
   port: '80'
-  server: hkt.gotochinatown.net
+  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -111,23 +122,37 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 2
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13,14|香港7|@ripaojiedian
-  network: ws
-  port: '80'
-  server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
-  servername: ''
+  name: 13|🇭🇰 香港7|@ripaojiedian
+  port: 42272
+  server: 183.240.245.239
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 14|香港3|@ripaojiedian
+  network: tcp
+  port: '21186'
+  server: 43.247.134.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
+- alterId: 64
+  cipher: auto
+  name: 14|香港7|@ripaojiedian
+  network: tcp
+  port: '42272'
+  server: 183.240.245.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14|香港v2|@ripaojiedian
@@ -138,43 +163,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
-- name: 15|HK_speednode_0060
-  network: ws
-  port: 8880
-  server: 45.192.223.156
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|HK_speednode_0061
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.211.8.227
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|HK_speednode_0062
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 154.211.8.150
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560
