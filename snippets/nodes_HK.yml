@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
   delay: 1105
-  name: 11|巴西 - Sao Paulo - Kaopu Cloud H...
+  name: 10|巴西 - Sao Paulo - Kaopu Cloud H...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.54.57.90
@@ -9,7 +9,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 9bfdde71b4c0
   plugin: v2ray-plugin
   plugin-opts:
@@ -26,7 +26,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   port: 21186
   server: 43.247.134.190
   skip-cert-verify: false
@@ -34,25 +34,8 @@ proxies:
   tls: false
   type: vmess
   uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,14|香港5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - client-fingerprint: chrome
-  name: 13,14|香港6|@ripaojiedian
+  name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 444
@@ -60,10 +43,18 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港5|@ripaojiedian
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13872
+  server: hk1-20250813213806be3c17japantm01.tmdns-sing.top
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 13|🇭🇰 香港7|@ripaojiedian
+  name: 12|🇭🇰 香港7|@ripaojiedian
   port: 42272
   server: 183.240.245.239
   skip-cert-verify: false
@@ -73,7 +64,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
   port: '21186'
   server: 43.247.134.190
@@ -83,7 +74,7 @@ proxies:
   uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
 - alterId: 64
   cipher: auto
-  name: 14|香港7|@ripaojiedian
+  name: 13|香港7|@ripaojiedian
   network: tcp
   port: '42272'
   server: 183.240.245.239
@@ -93,7 +84,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|香港v2|@ripaojiedian
+  name: 13|香港v2|@ripaojiedian
   network: kcp
   port: '3351'
   server: 47.83.181.154

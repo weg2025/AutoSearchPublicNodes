@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-gcm
   delay: 708
-  name: 11|俄罗斯 - 莫斯科 - Smart Digital Idea...
+  name: 10|俄罗斯 - 莫斯科 - Smart Digital Idea...
   password: 58092131-aeda-43f9-9f68-4140fcee9e90
   port: 443
   server: 45.134.13.46
   type: ss
   udp: true
-- name: 15|RU_speednode_0183
+- name: 14|RU_speednode_0180
   network: ws
   password: Aimer
   port: 2087
@@ -20,33 +20,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|RU_speednode_0185
-  network: ws
-  password: Aimer
-  port: 443
-  server: 5.182.84.244
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|RU_speednode_0186
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 5.182.85.255
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|RU_speednode_0187
+- name: 14|RU_speednode_0181
   network: ws
   password: Aimer
   port: 2053
@@ -59,11 +33,11 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|RU_speednode_0188
+- name: 14|RU_speednode_0182
   network: ws
   password: Aimer
   port: 443
-  server: 176.124.223.92
+  server: 5.182.84.244
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -72,7 +46,20 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|RU_speednode_0189
+- name: 14|RU_speednode_0183
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.85.255
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 14|RU_speednode_0184
   network: ws
   password: tg-fq521free
   port: 443
@@ -85,7 +72,20 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 15|RU_speednode_0190
+- name: 14|RU_speednode_0185
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 5.182.84.52
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 14|RU_speednode_0186
   network: ws
   password: Aimer
   port: 2087
@@ -98,11 +98,11 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|RU_speednode_0191
+- name: 14|RU_speednode_0187
   network: ws
   password: Aimer
-  port: 2083
-  server: 5.182.84.52
+  port: 443
+  server: 176.124.223.92
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan

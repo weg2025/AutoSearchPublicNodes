@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 1135
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 4
+  name: 10|日本 - 东京 - G-Core Labs S.A. - 4
   port: 50011
   server: 50011.20250808iplcin.top
   type: vmess
@@ -11,7 +11,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 2016
-  name: 11|日本 - 东京 - Oracle Corporation -...
+  name: 10|日本 - 东京 - Oracle Corporation -...
   port: 50030
   server: 50030.20250808iplcin.top
   type: vmess
@@ -19,7 +19,7 @@ proxies:
   uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
 - client-fingerprint: chrome
   delay: 2586
-  name: 11,13,14|日本3|@ripaojiedian
+  name: 10,12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 409
@@ -29,7 +29,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   delay: 1243
-  name: 11,13,14|日本4|@ripaojiedian
+  name: 10,12,13|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 461
@@ -39,11 +39,11 @@ proxies:
   type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-XFJ7C2EYDL.download.microsoft.com
+    host: 202508150964186-iN9Ka3jcO2.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -51,7 +51,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 13|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
@@ -65,18 +65,17 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|日本5|@ripaojiedian
-  network: tcp
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6668
-  server: 52.194.230.74
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13890
+  server: japan001.tmdns-sing.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|日本v2|@ripaojiedian
+  name: 13|日本v2|@ripaojiedian
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -84,20 +83,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 15|JP_speednode_0076
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.235
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 15|JP_speednode_0077
+- name: 14|JP_speednode_0075
   network: ws
   password: Aimer
   port: 2087
@@ -110,7 +96,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|JP_speednode_0078
+- name: 14|JP_speednode_0076
   network: ws
   password: Aimer
   port: 443
@@ -123,7 +109,20 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: 15|JP_speednode_0079
+- name: 14|JP_speednode_0077
+  network: ws
+  password: Aimer
+  port: 443
+  server: 103.116.7.235
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 14|JP_speednode_0078
   network: ws
   password: Aimer
   port: 2083
