@@ -1,19 +1,36 @@
 proxies:
-- cipher: aes-128-gcm
-  delay: 1096
-  name: 10|韩国 - 首尔特别市 - Sejong Networks -...
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇰🇷KR
+  delay: 1192
+  name: 11,13|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  delay: 2828
+  name: 11|韩国 - 春川市 - Oracle Corporation ...
+  network: ws
+  port: 8443
+  server: c3.620720.xyz
+  servername: c3.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: c3.620720.xyz
+    max-early-data: 2560
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 13|🇰🇷 韩国|@ripaojiedian
   password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
   port: 13882
   server: hanguo01.tmdns-sing.top

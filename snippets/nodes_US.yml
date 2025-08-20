@@ -1,16 +1,63 @@
 proxies:
-- delay: 1867
-  name: 10|美国 - 北伯根 - DigitalOcean, LLC -...
-  password: 253bc477d4e43c209f2d427272968280
-  port: 22006
-  server: 36.156.102.67
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
+- alterId: '0'
+  cipher: auto
+  delay: 2351
+  name: 11|罗马尼亚 - 布加勒斯特 - PQ HOSTING PLUS...
+  network: ws
+  port: 8080
+  server: npmjs.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vw6hjp6qlg-525340125.zamam.co
+    path: /download/cdn
+  xudp: true
+- alterId: 0
+  cipher: auto
+  delay: 1754
+  name: 11|美国 - San Jose - Oracle Corpora...
+  network: ws
+  port: 8443
+  server: sj1.620720.xyz
+  servername: sj1.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sj1.620720.xyz
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1945
+  name: '11|美国 - San Jose - Oracle Corpora... #1'
+  network: ws
+  port: 8443
+  server: sj4.620720.xyz
+  servername: sj4.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sj4.620720.xyz
+    max-early-data: 2560
+    path: /
 - alterId: 2
   cipher: auto
-  delay: 2531
-  name: '10|美国 - 北伯根 - DigitalOcean, LLC -... #1'
+  delay: 2317
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
   network: ws
   port: 30824
   server: v24.heduian.link
@@ -22,190 +69,511 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1041
+  name: 11|美国 - 昆西 - Microsoft Corporatio...
+  password: nHBhAa3B5BsgoG6T3VZHVdGLIItbzKyEQU9AbJaaCMI=
+  port: 16792
+  server: nameyoui87.pdteyv343.com
+  type: ss
 - alterId: 0
   cipher: auto
-  delay: 1526
-  name: 10|美国 - 希尔斯伯勒 - OVH SAS - 137
-  port: 50002
-  server: 50002.20250808iplcin.top
-  type: vmess
-  udp: true
-  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
-- alterId: 0
-  cipher: auto
-  delay: 1526
-  name: 10|美国 - 希尔斯伯勒 - OVH SAS - 138
-  port: 50007
-  server: 50007.20250808iplcin.top
-  type: vmess
-  udp: true
-  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
-- alterId: 0
-  cipher: auto
-  delay: 1464
-  name: 10|美国 - 希尔斯伯勒 - OVH SAS - 139
-  port: 50015
-  server: 50015.20250808iplcin.top
-  type: vmess
-  udp: true
-  uuid: d086274c-9628-4dc2-80e2-1284f4baaa12
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 2239
-  name: 10|美国 - 洛杉矶 - HostPapa - 145
+  country: 🇬🇧GB
+  delay: 1681
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
   network: ws
-  port: 8880
-  server: 102.132.188.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
+  port: 8443
+  server: 158.180.49.11
+  servername: farid.1.berozha.ir
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 1970
-  name: 10|美国 - 洛杉矶 - HostPapa - 146
+      HOST: farid.1.berozha.ir
+    path: /us.kkp.me.eu.org/aa
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1634
+  name: 11|美国 - 紐約 - NetAssist LLC - 1
+  password: MnEw5zo2ZhdS8Gy9fAMPfbhoguuv8biNYpoyHoNQLH2oZXWA4U4y6iNTYMexjaiBvQWv2N4b43gp9SVEG3nYvMf75p46K3He
+  port: 40565
+  server: imap.roomyinmita.name
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1630
+  name: 11|美国 - 紐約 - NetAssist LLC - 2
+  password: gur3VP5Cgfz68c1yVS3qrbDcQBeSySzfDYfCjpZWBVvjKAwhtgW583JscrGez5vdW17oJmncDoDktCPJReeexG8YuaYd4XbG
+  port: 40565
+  server: imap.roomyinmita.name
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1631
+  name: 11|美国 - 紐約 - NetAssist LLC - 3
+  password: 2PQVPJEWXxMkkdE82AW7qEj7jxQrZxqFUj3zheLjFArvtmuzUXNp9JUwzXGD1yJEHcDyH41HfPNo37vHWuLBp3guiRSuUZ6v
+  port: 40565
+  server: imap.roomyinmita.name
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 857
+  name: 11|美国 - 紐約 - NetAssist LLC - 5
+  password: 15irSWJJbfLiFzN3qtGbWAQ9i15yJAuWp7Lhy8sAzsb38vaDjSbgZd2HGtaFHG3sS6FqzY658Ud3qdEi5LZhyboxeSLnXJks
+  port: 40565
+  server: imap.roomyinmita.name
+  type: ss
+- delay: 2092
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #190'
   network: ws
-  port: 8880
-  server: 45.128.76.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 198.62.62.4
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
   udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 1960
-  name: 10|美国 - 洛杉矶 - HostPapa - 147
-  network: ws
-  port: 8880
-  server: 103.169.142.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 2718
-  name: 10|美国 - 洛杉矶 - HostPapa - 156
-  network: ws
-  port: 8880
-  server: 154.197.64.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 1675
-  name: 10|美国 - 洛杉矶 - HostPapa - 159
-  network: ws
-  port: 8880
-  server: 25.129.196.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 2791
-  name: 10|美国 - 洛杉矶 - HostPapa - 160
-  network: ws
-  port: 8880
-  server: 185.176.24.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  delay: 2044
-  name: 10|美国 - 洛杉矶 - HostPapa - 161
-  network: ws
-  port: 8880
-  server: 92.243.75.15
-  servername: TG.WangCai2.s4.db-link02.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8b6c8a4-5633-3158-9c0e-77518e3fc356
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: TG.WangCai2.s4.db-link02.top
-    max-early-data: 2560
-    path: /dabai&Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-  xudp: true
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
 - client-fingerprint: chrome
-  delay: 2857
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #61'
+  delay: 2245
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #372'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2053
+  server: 103.160.204.26
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1265
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #384'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2096
+  server: 156.238.19.69
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 2108
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #389'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 103.160.204.1
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1126
+  name: 11,15|RU_speednode_0175
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 45.67.215.95
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- client-fingerprint: chrome
+  delay: 2017
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #693'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  delay: 1661
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #694'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 5.10.214.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 788
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #695'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 5.10.215.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2142
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #697'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 14.102.228.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2112
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #698'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.8.211.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2113
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #699'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.12.31.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1123
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #700'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.149.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2152
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #701'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.152.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1665
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #702'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.153.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1118
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #703'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.155.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2129
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #704'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.119.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1275
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #705'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.5.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2589
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #706'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.7.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2419
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #708'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.208.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1010
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #709'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.209.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2184
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #710'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.211.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 978
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #711'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.142.120.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 791
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #712'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.153.7.216
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1008
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #713'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.216.216
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 953
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #714'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.217.216
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 2321
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #715'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 46.254.92.216
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1239
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #716'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.91.216
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /Telegram🇨🇳
+- client-fingerprint: chrome
+  delay: 1400
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #794'
+  network: ws
+  password: Ng35283528
+  port: 443
+  server: 104.16.83.8
+  skip-cert-verify: false
+  sni: c2.validbv3528.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  delay: 979
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #798'
+  network: ws
+  password: Ng35283528
+  port: 443
+  server: 104.16.83.43
+  skip-cert-verify: false
+  sni: c2.validbv3528.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 937
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #814'
+  network: ws
+  password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: inVinciBLe.fafa20.sHop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trwidp0ENHXMUNX4bA/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ
+- delay: 1698
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #928'
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -215,58 +583,31 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    max-early-data: 2560
+      Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs
-- client-fingerprint: chrome
-  delay: 1542
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #678'
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /
-- cipher: rc4-md5
-  delay: 536
-  name: 10|美国 - 聖荷西 - Zenlayer Inc - 1
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202508150964186-3bI5FffInl.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 13|🇺🇸 美国|@ripaojiedian
   password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
   port: 13892
   server: usa022.tmdns-sing.top
   tfo: false
   type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 13|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202508150964186-dmRA1xMJaG.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 347
@@ -275,7 +616,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 22006
@@ -283,7 +624,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 14|US_speednode_0282
+- name: 15|US_speednode_0282
   network: ws
   password: slch2024
   port: 8443
@@ -296,7 +637,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /
-- name: 14|US_speednode_0283
+- name: 15|US_speednode_0283
   network: ws
   password: tg-fq521free
   port: 443
@@ -309,7 +650,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 14|US_speednode_0284
+- name: 15|US_speednode_0284
   network: ws
   password: tg-fq521free
   port: 443
