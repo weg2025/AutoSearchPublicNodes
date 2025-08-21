@@ -367,7 +367,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '9|Channel id: @@singbox1🇰 #1'
+- name: '9|Channel id: @@singbox1🇰 #2'
   password: cc83a02b-90ea-403b-9c76-27e4be95f637
   port: 50256
   server: 154.204.181.230
@@ -435,7 +435,7 @@ proxies:
   server: asg.pagate.top
   tls: false
   type: hysteria2
-- name: '9|Channel id: @ShadowProxy66🇸🇬 #2'
+- name: '9,10|@Daily_Configs #3'
   password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
   port: 43057
   server: 203.174.82.145
@@ -521,6 +521,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '10|@V2rayNG3 #1'
+  password: 15cca331-9e92-449d-93b0-25f82203595f
+  port: 20309
+  server: gb.gomeow.online
+  skip-cert-verify: false
+  sni: gb.gomeow.online
+  tls: false
+  type: hysteria2
+- name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
   password: 22f2c759db51b3d0
@@ -546,7 +554,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #2'
+- name: '10|@V2rayNG3 #3'
   password: 75577117-ABCD-DCBA-AAAA-CC777775577B
   port: 7777
   server: s15.serv00.com
@@ -562,7 +570,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #3'
+- name: '10|@V2rayNG3 #4'
   obfs: salamander
   obfs-password: '@azadi_az_inja_migzare'
   password: '@azadi_az_inja_migzare'
@@ -572,7 +580,7 @@ proxies:
   sni: all-v4.dgi000.store
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #4'
+- name: '10|@V2rayNG3 #5'
   obfs: salamander
   obfs-password: bipbip
   password: AtTK3tiEA0
@@ -581,7 +589,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #5'
+- name: '10|@V2rayNG3 #6'
   obfs: salamander
   obfs-password: bleepbloop
   password: AtTK3tiEA0
@@ -590,7 +598,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #6'
+- name: '10|@V2rayNG3 #7'
   obfs: salamander
   obfs-password: bluhbluh
   password: AtTK3tiEA0
@@ -655,7 +663,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #7'
+- name: '10|@V2rayNG3 #8'
   password: dongtaiwang.com
   port: 50717
   server: 46.17.41.189
@@ -663,7 +671,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@V2rayNG3 #8'
+- name: '10|@V2rayNG3 #9'
   obfs: salamander
   obfs-password: dbc688df29e582d3
   password: f8e40931bbb827df
@@ -25913,7 +25921,7 @@ proxies:
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 51.44.212.37
+  server: 176.34.150.214
   tfo: false
   type: ss
 - alterId: 2
@@ -25980,22 +25988,43 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 13|🇭🇰 香港7|@ripaojiedian
-  port: 42272
-  server: 183.240.245.239
+  port: 36600
+  server: 38.147.188.156
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 33cc836e-d562-4f39-8369-23a1f06dcb73
+- alterId: 64
+  cipher: auto
+  name: 13|🇭🇰 香港8|@ripaojiedian
+  port: 48333
+  server: 183.240.245.245
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: d35c547:137545
+    mode: tls
+  port: 2377
+  server: 60.249.14.38
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-dmRA1xMJaG.download.microsoft.com
+    host: 202508150964186-K2NRtAGhZK.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -26016,14 +26045,6 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 409
-  server: 36.156.102.78
-  skip-cert-verify: true
-  sni: 1-dy.ixigua.com
-  type: trojan
 - name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -26031,6 +26052,14 @@ proxies:
   server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 409
+  server: 36.156.102.78
+  skip-cert-verify: true
+  sni: 1-dy.ixigua.com
   type: trojan
 - cipher: aes-128-gcm
   name: 13|🇰🇷 韩国|@ripaojiedian
@@ -26042,16 +26071,16 @@ proxies:
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1256
-  server: 36.156.102.125
+  port: 15015
+  server: 36.156.102.78
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 406
-  server: 36.156.102.125
+  port: 14568
+  server: 36.156.102.78
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -26067,7 +26096,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-dmRA1xMJaG.download.microsoft.com
+    host: 202508150964186-K2NRtAGhZK.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -26090,10 +26119,10 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-128-gcm
-  name: 13|🇮🇩 印尼|@ripaojiedian
+  name: 13|🇻🇳 越南|@ripaojiedian
   password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13879
-  server: yinni01.tmdns-sing.top
+  port: 13875
+  server: yuenan01.tmdns-sing.top
   tfo: false
   type: ss
 - alterId: 0
@@ -26106,12 +26135,22 @@ proxies:
   tls: false
   type: vmess
   uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 14|香港7|@ripaojiedian
   network: tcp
-  port: '42272'
-  server: 183.240.245.239
+  port: '36600'
+  server: 38.147.188.156
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33cc836e-d562-4f39-8369-23a1f06dcb73
+- alterId: 64
+  cipher: auto
+  name: 14|香港8|@ripaojiedian
+  network: tcp
+  port: '48333'
+  server: 183.240.245.245
   servername: ''
   tls: false
   type: vmess
