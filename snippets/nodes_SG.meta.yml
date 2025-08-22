@@ -1,8 +1,24 @@
 proxies:
+- name: '8|SG #1'
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 54.255.144.66
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '8|SG #2'
+  password: 5OiuCsPmULZ0lJwts89fegLJE
+  port: 17193
+  server: 52.221.210.182
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - auth: ''
   delay: 647
   fast-open: false
-  name: 9,11|新加坡 - 新加坡 - Amazon.com, Inc. -...
+  name: 8,10|新加坡 - 新加坡 - Amazon.com, Inc. -...
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
   server: 54.169.224.169
@@ -12,15 +28,15 @@ proxies:
   tfo: false
   tls: false
   type: hysteria2
-- name: 9|🍰30@oneclickvpnkeys
-  password: Y5kSCRNcOSz5YQUkjehzVXeT2mk
-  port: 19298
-  server: 175.41.154.215
+- name: '8|SG #4'
+  password: XON4wZ0sXe1YaqFY2FeM7uZY4
+  port: 15221
+  server: 122.248.205.111
   skip-cert-verify: true
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|新加坡
+- name: 8|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -28,7 +44,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 9|🇸🇬新加坡
+- name: 8|🇸🇬新加坡
   password: e10ea0d5-4244-4aec-9ba0-cafe77cc6d90
   port: 443
   server: aws-linkhy10.liangxin1.xyz
@@ -36,15 +52,7 @@ proxies:
   sni: www.teslaautomation.de
   tls: false
   type: hysteria2
-- name: '9,10|@Daily_Configs #3'
-  password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  port: 43057
-  server: 203.174.82.145
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '9|新加坡 #1'
+- name: '8|新加坡 #1'
   password: lPK6OZ9ouqyXrCghO6ohUbbN5g
   port: 33131
   server: 8.222.183.55
@@ -52,7 +60,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|新加坡 #2'
+- name: '8|新加坡 #2'
   password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
   port: 10264
   server: 13.212.75.22
@@ -63,7 +71,7 @@ proxies:
 - auth: ''
   delay: 671
   fast-open: false
-  name: 11|新加坡 - 新加坡 - Amazon Technologie...
+  name: 10|新加坡 - 新加坡 - Amazon Technologie...
   password: k4L6CnJLP2fqbNLYryqXSehls
   port: 7077
   server: 13.229.70.133
@@ -74,7 +82,7 @@ proxies:
   type: hysteria2
 - delay: 820
   down: 1000
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 1...
+  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 1...
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 48616
   ports: 40000-50000
@@ -85,7 +93,7 @@ proxies:
   up: 1000
 - delay: 1809
   down: 1000
-  name: '11|新加坡 - 新加坡 - Bage Cloud LLC - 1... #1'
+  name: '10|新加坡 - 新加坡 - Bage Cloud LLC - 1... #1'
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 43349
   ports: 40000-50000
@@ -96,7 +104,7 @@ proxies:
   up: 1000
 - delay: 1391
   down: 1000
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 3
+  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 3
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 46540
   ports: 40000-50000
@@ -107,7 +115,7 @@ proxies:
   up: 1000
 - delay: 808
   down: 1000
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 5
+  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 5
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 40830
   ports: 40000-50000
@@ -118,7 +126,7 @@ proxies:
   up: 1000
 - delay: 1212
   down: 1000
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 7
+  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 7
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 48544
   ports: 40000-50000
@@ -129,7 +137,7 @@ proxies:
   up: 1000
 - delay: 1982
   down: 1000
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 8
+  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 8
   password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
   port: 45927
   ports: 40000-50000
@@ -140,7 +148,7 @@ proxies:
   up: 1000
 - client-fingerprint: random
   delay: 2376
-  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   port: 27248
   server: 112.170.112.178
@@ -155,7 +163,7 @@ proxies:
       Host: test1.testspeed.sbs
     path: /proxyip=112.170.112.178:27248
 - delay: 835
-  name: 11|新加坡 - 新加坡 - PT Herza Digital I...
+  name: 10|新加坡 - 新加坡 - PT Herza Digital I...
   network: tcp
   port: 59967
   server: 38.47.176.134
@@ -164,7 +172,7 @@ proxies:
   uuid: a19fd311-c343-4b54-9ca3-fe6dcd84c0fc
   xudp: true
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 15015
@@ -173,7 +181,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 14568
@@ -181,31 +189,11 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 15|SG_speednode_0180
-  network: ws
-  port: 8880
-  server: 92.243.75.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 15|SG_speednode_0181
-  network: ws
-  port: 8880
-  server: 92.243.75.186
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-  ws-opts:
-    headers:
-      Host: ip.langmanshanxi.top
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: wHEcezPWLS3XPDat8UKkYY
+  port: 56668
+  server: 128.199.164.171
+  tfo: false
+  type: ss
