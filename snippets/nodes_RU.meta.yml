@@ -1,44 +1,10 @@
 proxies:
-- name: 14|RU_speednode_0021
-  network: ws
-  port: 8880
-  server: 185.174.138.213
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- delay: 2122
+  name: 10|俄罗斯 - 莫斯科 - LLC Baxet - 1
+  password: b65313fe-e990-4c2b-8c1c-07e98e98250b
+  port: 47300
+  server: elsmsk.youxixia.top
+  skip-cert-verify: true
+  sni: elsmsk.youxixia.top
+  type: hysteria2
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /?ed=2560
-- name: 14|RU_speednode_0022
-  network: ws
-  port: 8880
-  server: 46.254.92.8
-  servername: cf.d3z.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- client-fingerprint: chrome
-  name: 14|RU_speednode_0023
-  network: ws
-  port: 8880
-  server: 46.254.92.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: jp.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560

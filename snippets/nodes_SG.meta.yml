@@ -15,23 +15,26 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- auth: ''
-  delay: 647
-  fast-open: false
-  name: 8,10|新加坡 - 新加坡 - Amazon.com, Inc. -...
+- name: '8|未命名 #2'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
   server: 54.169.224.169
-  servername: bing.com
   skip-cert-verify: true
   sni: bing.com
-  tfo: false
   tls: false
   type: hysteria2
 - name: '8|SG #4'
   password: XON4wZ0sXe1YaqFY2FeM7uZY4
   port: 15221
   server: 122.248.205.111
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '8|SG #5'
+  password: Y5kSCRNcOSz5YQUkjehzVXeT2mk
+  port: 19298
+  server: 175.41.154.215
   skip-cert-verify: true
   sni: bing.com
   tls: false
@@ -68,109 +71,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- auth: ''
-  delay: 671
-  fast-open: false
-  name: 10|新加坡 - 新加坡 - Amazon Technologie...
-  password: k4L6CnJLP2fqbNLYryqXSehls
-  port: 7077
-  server: 13.229.70.133
-  servername: bing.com
-  skip-cert-verify: true
-  sni: bing.com
-  tfo: false
-  type: hysteria2
-- delay: 820
-  down: 1000
-  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 1...
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 48616
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- delay: 1809
-  down: 1000
-  name: '10|新加坡 - 新加坡 - Bage Cloud LLC - 1... #1'
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 43349
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- delay: 1391
-  down: 1000
-  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 3
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 46540
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- delay: 808
-  down: 1000
-  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 5
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 40830
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- delay: 1212
-  down: 1000
-  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 7
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 48544
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- delay: 1982
-  down: 1000
-  name: 10|新加坡 - 新加坡 - Bage Cloud LLC - 8
-  password: 49a0f107-fb57-4df8-ab7f-d69e24bf6840
-  port: 45927
-  ports: 40000-50000
-  server: sg.ali.7li7li.vip
-  skip-cert-verify: true
-  sni: sg.ali.7li7li.vip
-  type: hysteria2
-  up: 1000
-- client-fingerprint: random
-  delay: 2376
-  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  port: 27248
-  server: 112.170.112.178
-  servername: test1.testspeed.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 689e5c9c-3c97-4eaf-9716-287dffa6afe0
-  ws-opts:
-    headers:
-      Host: test1.testspeed.sbs
-    path: /proxyip=112.170.112.178:27248
-- delay: 835
-  name: 10|新加坡 - 新加坡 - PT Herza Digital I...
-  network: tcp
-  port: 59967
-  server: 38.47.176.134
-  type: vless
-  udp: true
-  uuid: a19fd311-c343-4b54-9ca3-fe6dcd84c0fc
-  xudp: true
 - client-fingerprint: chrome
   name: 12,13|新加坡|@ripaojiedian
   network: tcp
