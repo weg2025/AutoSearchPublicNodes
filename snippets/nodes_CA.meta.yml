@@ -1,16 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  name: 14|CA_speednode_0005
+- delay: 1269
+  name: 10|加拿大 - 多伦多 - Cloudflare, Inc. -...
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 40.233.102.224
+  skip-cert-verify: true
+  sni: www.bing.com
+  tfo: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  delay: 934
+  name: 10|加拿大 - 蒙特利尔 - M247 Europe SRL -...
   network: ws
-  port: 8880
-  server: 74.49.214.63
-  servername: jp.laoyoutiao.link
-  skip-cert-verify: false
+  port: 2086
+  server: cloudflare.182682.xyz
   tls: false
   type: vless
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  uuid: dead1bb8-e95a-4517-8ed2-e0694de80ba6
   ws-opts:
     headers:
-      Host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+      Host: CA3.naichachong.top
+    path: /

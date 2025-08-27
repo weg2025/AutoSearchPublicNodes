@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- delay: 1689
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.26.4.60
+  skip-cert-verify: true
+  sni: zamim340.ggff.net
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: zamim340.ggff.net
+    max-early-data: 2560
+    path: /tr
+- cipher: chacha20-ietf-poly1305
+  delay: 851
+  name: 10|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss

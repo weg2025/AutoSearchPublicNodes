@@ -1,19 +1,17 @@
 proxies:
 - alterId: 64
   cipher: auto
-  delay: 707
-  h2-opts: {}
-  http-opts: {}
+  delay: 312
   name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
-  network: tcp
   port: 50002
   server: 47.116.166.178
+  tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  delay: 711
+  delay: 287
   name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
   port: 50002
   server: 47.92.152.169
@@ -22,19 +20,610 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  delay: 613
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 343
+  name: 10|中国 - 台湾 - Chunghwa Telecom Co....
+  password: bc60ddcd-d5bc-4212-a319-7dd59e991d25
+  port: 10123
+  server: 36.232.88.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 339
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #1'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10034
+  server: 1.165.98.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 619
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #2'
+  password: cc72685d-c4b6-4d37-9edb-606afa58e012
+  port: 10007
+  server: 125.229.191.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 345
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #3'
+  password: 30437510-b11a-402e-8e43-585d6bd05608
+  port: 10117
+  server: 36.235.20.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 622
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #4'
+  password: c13cbbd6-3630-4800-bf20-bec5f81497e9
+  port: 10023
+  server: 125.229.191.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 342
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #5'
+  password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd
+  port: 10119
+  server: 1.170.29.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 1368
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #6'
+  password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76
+  port: 10055
+  server: 36.234.118.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 627
   name: 10,12|🇹🇼 台湾|@ripaojiedian
-  password: 01721e43-5389-4f97-b21c-900abb2bda9e
-  port: 12031
-  server: awes35lesl.blhao0o.dpdns.org
+  password: 9c148944-7bca-4ed3-96a4-514d874226e8
+  port: 10149
+  server: 36.232.83.98
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 337
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #8'
+  password: 381a837c-e89b-4f84-9a7e-89685b7f1bea
+  port: 10071
+  server: 114.46.64.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 341
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #9'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10048
+  server: 125.231.86.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 332
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #10'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10059
+  server: 1.165.114.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 618
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #11'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10022
+  server: 118.170.228.117
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 348
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #12'
+  password: 30437510-b11a-402e-8e43-585d6bd05608
+  port: 10129
+  server: 114.35.114.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 351
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #13'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10086
+  server: 1.170.38.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 1455
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #14'
+  password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76
+  port: 10016
+  server: 118.170.221.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 358
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #15'
+  password: ad14ac91-6101-4888-9d17-ca11150d823e
+  port: 10119
+  server: 1.170.29.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 365
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #16'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10037
+  server: 114.33.53.213
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 341
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #17'
+  password: c13cbbd6-3630-4800-bf20-bec5f81497e9
+  port: 10058
+  server: 59.126.32.1
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 358
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #18'
+  password: bc60ddcd-d5bc-4212-a319-7dd59e991d25
+  port: 10145
+  server: 125.228.162.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 353
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #19'
+  password: 2663374d-ebd2-4cea-b3bd-fb274b857632
+  port: 10101
+  server: 1.170.41.78
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 158
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #20'
+  password: 2663374d-ebd2-4cea-b3bd-fb274b857632
+  port: 10027
+  server: 1.165.101.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 173
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #21'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10012
+  server: 114.46.88.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 164
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #22'
+  password: 381a837c-e89b-4f84-9a7e-89685b7f1bea
+  port: 10112
+  server: 1.170.13.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 171
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #23'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10149
+  server: 36.232.83.98
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 178
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #24'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10103
+  server: 1.170.23.40
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 173
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #25'
+  password: cc72685d-c4b6-4d37-9edb-606afa58e012
+  port: 10151
+  server: 36.232.123.141
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 172
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #26'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10028
+  server: 118.170.220.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 180
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #27'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10119
+  server: 1.170.29.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 180
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #28'
+  password: ad14ac91-6101-4888-9d17-ca11150d823e
+  port: 10114
+  server: 36.232.80.194
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 184
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #29'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10086
+  server: 1.170.38.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1262
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #30'
+  password: 9c148944-7bca-4ed3-96a4-514d874226e8
+  port: 10022
+  server: 118.170.228.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 195
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #31'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10054
+  server: 118.170.200.140
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1275
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #32'
+  password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd
+  port: 10151
+  server: 36.232.123.141
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 466
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #33'
+  password: 2663374d-ebd2-4cea-b3bd-fb274b857632
+  port: 10030
+  server: 118.170.229.112
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 192
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #34'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10131
+  server: 36.232.106.237
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 183
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #35'
+  password: 9c148944-7bca-4ed3-96a4-514d874226e8
+  port: 10118
+  server: 1.170.32.139
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 191
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #36'
+  password: ad14ac91-6101-4888-9d17-ca11150d823e
+  port: 10121
+  server: 125.229.88.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 157
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #37'
+  password: a1a8765b-b0d9-4a7e-aac3-3138711d9e4e
+  port: 10022
+  server: 118.170.228.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1169
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #38'
+  password: 99a82766-3973-4bc0-8b5b-e04327db4bb7
+  port: 10008
+  server: 114.46.69.124
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1181
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #39'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10092
+  server: 36.235.19.193
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 169
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #40'
+  password: bc60ddcd-d5bc-4212-a319-7dd59e991d25
+  port: 10058
+  server: 59.126.32.1
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1143
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #41'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10068
+  server: 114.46.87.110
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 162
+  name: 10,12|🇹🇼 台湾2|@ripaojiedian
+  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
+  port: 10105
+  server: 125.228.34.244
   tfo: false
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 161
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #43'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10143
+  server: 36.232.85.67
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 168
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #44'
+  password: ad14ac91-6101-4888-9d17-ca11150d823e
+  port: 10089
+  server: 125.228.180.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 705
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #45'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10117
+  server: 36.235.20.162
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 639
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #46'
+  password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd
+  port: 10136
+  server: 36.232.94.130
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 320
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #47'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10124
+  server: 36.232.75.180
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 801
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #48'
+  password: bc60ddcd-d5bc-4212-a319-7dd59e991d25
+  port: 10025
+  server: 1.165.83.47
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 320
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #49'
+  password: c13cbbd6-3630-4800-bf20-bec5f81497e9
+  port: 10047
+  server: 114.33.53.80
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1240
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #50'
+  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
+  port: 10131
+  server: 36.232.106.237
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 320
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #51'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10140
+  server: 36.232.78.214
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 852
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #52'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10029
+  server: 1.165.69.73
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 292
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #53'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10068
+  server: 114.46.87.110
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 285
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #54'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10066
+  server: 59.126.32.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 269
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #55'
+  password: 381a837c-e89b-4f84-9a7e-89685b7f1bea
+  port: 10037
+  server: 114.33.53.213
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 284
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #56'
+  password: c13cbbd6-3630-4800-bf20-bec5f81497e9
+  port: 10054
+  server: 118.170.200.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 297
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #57'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10081
+  server: 125.228.180.250
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 307
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #58'
+  password: bc60ddcd-d5bc-4212-a319-7dd59e991d25
+  port: 10113
+  server: 125.228.31.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 307
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #59'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10119
+  server: 1.170.29.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 291
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #60'
+  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
+  port: 10046
+  server: 36.234.77.238
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 277
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #61'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10147
+  server: 36.232.91.227
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 158
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #62'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10109
+  server: 1.170.37.210
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 167
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #63'
+  password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd
+  port: 10110
+  server: 1.170.30.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 200
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #64'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10101
+  server: 1.170.41.78
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 172
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #65'
+  password: 1c2fa5ce-bb64-4e10-8b22-fa5d81c095fd
+  port: 10023
+  server: 125.229.191.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 178
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #66'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10045
+  server: 36.234.106.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 165
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #67'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10136
+  server: 36.232.94.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 171
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #68'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10048
+  server: 125.231.86.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 175
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #69'
+  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
+  port: 10145
+  server: 125.228.162.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 179
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #70'
+  password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042
+  port: 10057
+  server: 36.234.105.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 165
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #71'
+  password: cc72685d-c4b6-4d37-9edb-606afa58e012
+  port: 10059
+  server: 1.165.114.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 186
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #72'
+  password: 517d8f0a-6636-42f2-8580-62c94779d7ba
+  port: 10040
+  server: 118.170.193.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 168
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #73'
+  password: d45329b9-8a29-41a0-8101-7f9cab1a773a
+  port: 10016
+  server: 118.170.221.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1173
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #74'
+  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
+  port: 10040
+  server: 118.170.193.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 183
+  name: '10|中国 - 台湾 - Chunghwa Telecom Co.... #75'
+  password: 26997e99-57a0-48e3-8aea-8cebab89fecd
+  port: 10122
+  server: 111.253.193.168
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 306
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 合肥 - China Unicom CHINA16...
+  network: tcp
+  port: 50007
+  server: 112.132.215.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  delay: 234
-  name: 10|中国 - 合肥 - China Unicom CHINA16...
+  delay: 2187
+  name: '10|中国 - 合肥 - China Unicom CHINA16... #1'
   port: 50002
   server: 112.132.215.12
   servername: 09jzus.zdzdzd.xyz
@@ -42,55 +631,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  delay: 692
-  name: 10|中国 - 广州市 - China Mobile commun...
-  port: 50002
-  server: 120.210.205.59
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 239
-  name: 10|中国 - 惠州市 - China Mobile - 5
+  delay: 302
+  name: 10|中国 - 惠州市 - China Mobile - 6
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  delay: 682
+  delay: 328
   h2-opts: {}
   http-opts: {}
+  name: 10|中国 - 杭州 - Hangzhou Alibaba Adv...
+  port: 50112
+  server: 120.26.55.225
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  delay: 448
   name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
-  network: tcp
   port: 50002
   server: 47.104.186.133
+  tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  delay: 2150
-  name: 10|中国 - 香港 - Cnservers LLC - 7
-  password: 0b191076d18f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /ugiibpkbca
-    tls: true
-  port: 636
-  server: 156.251.179.139
-  type: ss
-- cipher: aes-256-gcm
-  delay: 2039
-  name: 10|中国 - 香港 - Cnservers LLC - 8
+  delay: 1977
+  name: 10|中国 - 香港 - Cnservers LLC - 9
   password: 23d03aa704c7
   plugin: v2ray-plugin
   plugin-opts:
@@ -102,84 +676,270 @@ proxies:
   port: 636
   server: 156.251.179.181
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇹🇷TR
-  delay: 1421
-  name: 10|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
-  password: tunnel-fbrof
-  port: 8444
-  server: tr-1.stunnel.cc
+  delay: 141
+  name: 10|中国 - 香港 - G-Core Labs S.A. - 6...
+  password: 3c794ce4-43a0-4eec-98b9-208058bf2be3
+  port: 23764
+  server: tun.tuzivip.pw
   type: ss
-- cipher: aes-256-cfb
-  delay: 1879
-  name: 10|巴西 - Sao Paulo - Kaopu Cloud H...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.57.90
+  udp: true
+- alterId: 2
+  cipher: auto
+  delay: 1475
+  name: 10|中国 - 香港 - PCCW IMS Limited - 8
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 943
+  name: 10|土耳其 - 伊斯坦布尔 - Global Connectiv...
+  password: 7bO8akoRoM2M
+  port: 443
+  server: 83.217.9.120
   type: ss
-- cipher: aes-256-cfb
-  delay: 2009
-  name: 10|希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. P...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.166.100
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇦CA
-  delay: 646
-  name: 10|日本 - 东京 - Baxet Group Inc. - 1
-  password: pRAqZ4afakQyiP8f
-  port: 8388
-  server: 167.17.179.116
-  type: ss
-- country: 🇫🇷FR
-  delay: 1088
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.89.204
+- delay: 1689
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.26.4.60
   skip-cert-verify: true
+  sni: zamim340.ggff.net
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 701
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.110.242
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: zamim340.ggff.net
+    max-early-data: 2560
+    path: /tr
+- cipher: chacha20-ietf-poly1305
+  delay: 405
+  name: 10,12|🇸🇬 新加坡3|@ripaojiedian
+  password: GhYEufnq9M9yvgAc1ylvfq
+  port: 18336
+  server: 165.22.61.177
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 598
+  name: '10|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
+  password: c376082c-95c3-452e-88e4-6bb6a5daab41
+  port: 49901
+  server: free-relay.t01.themars.top
+  type: ss
+- cipher: aes-128-gcm
+  delay: 1591
+  name: 10|新加坡 - 新加坡 - Oracle Corporation...
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12020
+  server: awes35lesl.blhao0o.dpdns.org
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 2035
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 东京 - Amazon Technologies ...
+  network: tcp
+  port: 11777
+  server: 50w1l-g05.jp02-9a99-vm0.entry.fr0307a.art
+  servername: 50w1l-g05.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 441
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - 东京 - Amazon Technologies ... #1'
+  network: tcp
+  port: 28787
+  server: dgfhj-g05.jp07-1f28-vm0.entry.fr0307a.art
+  servername: dgfhj-g05.jp07-1f28-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 558
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - 东京 - Amazon Technologies ... #2'
+  network: tcp
+  port: 448
+  server: t492d-g05.jp04-3771-vm0.entry.fr0307a.art
+  servername: t492d-g05.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 1972
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - 东京 - Amazon Technologies ... #3'
+  network: tcp
+  port: 21585
+  server: a59bn-g05.jp03-7d22-vm0.entry.fr0307a.art
+  servername: a59bn-g05.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 1115
+  h2-opts: {}
+  http-opts: {}
+  name: '10|日本 - 东京 - Amazon Technologies ... #4'
+  network: tcp
+  port: 21585
+  server: 77h9d-g05.jp01-0986-vm0.entry.fr0307a.art
+  servername: 77h9d-g05.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 730
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 东京 - Amazon.com, Inc. - 5
+  network: tcp
+  port: 46486
+  server: 39t03-g05.jp05-6786-vm0.entry.fr0307a.art
+  servername: 39t03-g05.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
+- cipher: chacha20-ietf-poly1305
+  delay: 625
+  name: 10|日本 - 东京 - G-Core Labs S.A. - 9
+  password: fe8858b3-715a-4442-a99d-5bf3be4cb17b
+  port: 47296
+  server: tun.tuzivip.pw
+  type: ss
+  udp: true
+- country: 🇫🇷FR
+  delay: 1925
+  name: 10|法国 - 巴黎 - Amazon Technologies ...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.136.125
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 651
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 418
-  name: '10|美国 - 圣克拉拉 - prgmr.com, Inc. - ... #1'
-  password: cWCt8FRw9qXHQaG59JrNLi
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- delay: 2686
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #377'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 5.182.84.216
-  sni: ttfang.fange.me
+- country: 🇫🇷FR
+  delay: 725
+  name: '10|法国 - 巴黎 - Amazon Technologies ... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.1.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2326
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 亨德森 - Cloudflare, Inc. - ...
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: consumption-ty-auctions-explorer.trycloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e71a7ddf-942c-4d10-a2e3-c6a0facfc34b
   ws-opts:
     headers:
-      Host: ttfang.fange.me
-    path: '%25252FTelegram'
-- delay: 1395
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #378'
+      HOST: consumption-ty-auctions-explorer.trycloudflare.com
+    path: /e71a7ddf-942c-4d10-a2e3-c6a0facfc34b-vm?ed=2048
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 712
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: none
+  delay: 957
+  name: 10|美国 - 德雷珀 - FiberState, LLC - 5...
+  network: ws
+  port: 443
+  server: 104.194.86.235
+  servername: screen-imperial-caps-tmp.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: bc97f674-c578-4940-9234-0a1da46041b9
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: screen-imperial-caps-tmp.trycloudflare.com
+    max-early-data: 2560
+    path: /vmess-argo
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1427
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 旧金山 - Newserverlife LLC -...
+  network: ws
+  port: 8443
+  server: 3h-unitedstates3.09vpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
+  ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1725
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - IT7 Networks Inc - ...
+  network: ws
+  port: 10826
+  server: ssm.pimax.com
+  servername: ssm.pimax.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
+  ws-opts:
+    headers:
+      HOST: ssm.pimax.com
+    path: /fkgevws
+- delay: 994
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #250'
   network: ws
   password: ttfang
   port: 2096
@@ -189,9 +949,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2899
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #379'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 2653
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #251'
   network: ws
   password: ttfang
   port: 2096
@@ -201,9 +961,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1419
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #380'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 1446
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #252'
   network: ws
   password: ttfang
   port: 2096
@@ -213,21 +973,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2311
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #381'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 50.62.198.216
-  sni: ttfang.fange.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 936
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #382'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 1006
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #254'
   network: ws
   password: ttfang
   port: 2096
@@ -237,21 +985,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 945
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #383'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 77.37.33.216
-  sni: ttfang.fange.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1939
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #384'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 1786
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #255'
   network: ws
   password: ttfang
   port: 2096
@@ -261,9 +997,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2147
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #386'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 781
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #257'
   network: ws
   password: ttfang
   port: 2096
@@ -273,21 +1009,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2039
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #387'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 88.216.69.216
-  sni: ttfang.fange.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2112
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #388'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 810
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #258'
   network: ws
   password: ttfang
   port: 2096
@@ -297,9 +1021,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 980
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #389'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 1374
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #259'
   network: ws
   password: ttfang
   port: 2096
@@ -309,9 +1033,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1943
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #390'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 814
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #260'
   network: ws
   password: ttfang
   port: 2096
@@ -321,33 +1045,9 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1614
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #391'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 91.209.253.216
-  sni: ttfang.fange.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1249
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #392'
-  network: ws
-  password: ttfang
-  port: 2096
-  server: 92.243.74.216
-  sni: ttfang.fange.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 2997
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #393'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 1837
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #261'
   network: ws
   password: ttfang
   port: 2096
@@ -357,21 +1057,1149 @@ proxies:
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1815
-  name: '10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #3'
+    path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3
+- delay: 2011
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #311'
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 45.67.215.95
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: '%25252F'
+- delay: 810
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #312'
   network: ws
   password: ttfang
   port: 2096
-  server: ttfang.fange.me
+  server: 5.10.245.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1151
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #313'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 5.175.141.194
   sni: ttfang.fange.me
   type: trojan
   ws-opts:
     headers:
       Host: ttfang.fange.me
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3
-- delay: 2546
-  name: '10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #4'
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1142
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #314'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 5.182.85.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1903
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #315'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 14.102.228.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1148
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #316'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 14.102.229.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1878
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #317'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 25.25.25.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1815
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #318'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 25.26.27.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1141
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #320'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 31.12.75.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1970
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #321'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 31.43.179.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1800
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #322'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 31.185.108.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1968
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #323'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.8.211.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1896
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #324'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.12.30.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1146
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #325'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.144.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1798
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #326'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.146.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1154
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #327'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.150.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2635
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #328'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.152.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1158
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #329'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.153.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1102
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #331'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.40.155.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2199
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #332'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.67.215.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2875
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #333'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.80.108.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2410
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #334'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.118.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1368
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #335'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.119.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2087
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #336'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.128.76.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2447
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #337'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.130.125.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1365
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #338'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.6.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1379
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #339'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.7.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1583
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #340'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.208.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1584
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #342'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.142.120.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1781
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #343'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.149.12.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1376
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #344'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.153.7.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2686
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #345'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.216.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1526
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #346'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.218.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1541
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #347'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.219.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1517
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #348'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 46.202.30.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1597
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #349'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.88.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1364
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #350'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.89.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2623
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #351'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.90.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1851
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #353'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.91.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1723
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #354'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.172.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1081
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #355'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.173.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1572
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #356'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.174.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1088
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #357'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 50.62.175.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1060
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #358'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 63.141.128.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1265
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #359'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 66.225.252.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1365
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #360'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 66.235.200.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1078
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #361'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 69.84.182.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1965
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #362'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 72.167.25.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1083
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #364'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 72.167.230.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1070
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #365'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 72.167.241.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1067
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #366'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 72.167.242.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1809
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #367'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 74.49.214.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1263
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #368'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 77.74.228.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1256
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #369'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 77.75.199.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1259
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #370'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 77.105.163.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2333
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #371'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 88.216.66.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1066
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #372'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 88.216.69.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1254
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #373'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 89.116.46.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1877
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #375'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 89.116.161.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1169
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #376'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 89.116.180.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1882
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #377'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 89.116.250.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 910
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #378'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 89.117.112.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1120
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #379'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 91.124.127.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2891
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #380'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 91.206.71.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2500
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #381'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 91.209.253.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1105
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #382'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.53.188.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1102
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #383'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.53.190.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1113
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #384'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.53.191.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1121
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #386'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.60.74.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1879
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #387'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.243.74.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1885
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #388'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 94.247.142.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1106
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #389'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.116.7.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1129
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #390'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.133.1.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1928
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #391'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.160.204.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1398
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #392'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.169.142.194
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2197
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #393'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.216.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram'
+- delay: 956
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #394'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 31.185.108.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram'
+- delay: 944
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #395'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.209.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram'
+- delay: 758
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #397'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.7.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram'
+- delay: 951
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #398'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.119.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3'
+- delay: 1262
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #399'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.159.219.216
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /%25252FTelegram
+- delay: 1214
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #400'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.131.210.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: '%25252FTelegram'
+- delay: 909
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #415'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 94.247.142.216
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1262
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #419'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 443
+  server: 198.62.62.4
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 2153
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #422'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.116.7.216
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2353
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #424'
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2087
+  server: 154.83.2.125
+  skip-cert-verify: true
+  sni: vle.amclubssss.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vle.amclubssss.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
+- delay: 1026
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #430'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 103.245.229.194
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1145
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #434'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 45.85.118.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    path: /Telegram🇨🇳
+- delay: 1994
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #436'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 92.243.75.216
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    path: /Telegram🇨🇳
+- delay: 1326
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #437'
+  network: ws
+  password: ttfang
+  port: 2096
+  server: 25.26.27.216
+  sni: ttfang.fange.me
+  type: trojan
+  ws-opts:
+    path: /Telegram馃嚚馃嚦
+- delay: 934
+  name: 10,14|KZ_speednode_0035
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 194.76.18.129
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- delay: 993
+  name: 10,14|US_speednode_0090
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- country: 🇬🇧GB
+  delay: 1035
+  name: 10|英国 - Erith - OVH SAS - 1
+  password: 1ce1df7962f71c6f
+  port: 8443
+  server: uk-03.allhubb.info
+  skip-cert-verify: true
+  sni: uk-03.allhubb.info
+  type: trojan
+  udp: true
+- delay: 2418
+  name: 10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ...
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
+  port: 443
+  server: 172.67.181.173
+  sni: vpn.stupidworld.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn.stupidworld.web.id
+    path: '%25252F%252540Hddify---%252540Hddify---%252540Hddify---%252540Hddify---%252540Hddify---%252540Hddify'
+- delay: 1178
+  name: '10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #3'
   network: ws
   password: f282b878-8711-45a1-8c69-5564172123c1
   port: 443
@@ -384,18 +2212,70 @@ proxies:
     headers:
       Host: aio.zipzap.biz.id
     path: /aioproxybot/129.150.49.58-18650
-- cipher: chacha20-ietf-poly1305
-  delay: 1380
-  name: 10|越南 - Bo - VNPT Corp - 1
-  password: Nk9asglDzHzjktVzTkvhaA
+- delay: 1492
+  name: '10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ... #6'
+  network: ws
+  password: f282b878-8711-45a1-8c69-5564172123c1
   port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  server: aio.zipzap.biz.id
+  sni: aio.zipzap.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aio.zipzap.biz.id
+    path: '%25252Faioproxybot%25252F129.150.49.58-18650'
+- cipher: chacha20-ietf-poly1305
+  delay: 851
+  name: 10|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1248
+  name: 10|越南 - Hải Dương - FASTLY - 1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.23
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1439
+  name: 10|越南 - Hải Dương - FASTLY - 2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.33
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1489
+  name: 10|越南 - Hải Dương - FASTLY - 3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.21
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1477
+  name: 10|越南 - Hải Dương - FASTLY - 4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.25
+  type: ss
+- cipher: aes-256-cfb
+  delay: 2990
+  name: 10|越南 - Hải Dương - FASTLY - 5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.249.82.191
+  server: 108.129.163.206
   tfo: false
   type: ss
 - alterId: 2
@@ -429,37 +2309,35 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
-  port: 14951
-  server: 103.224.80.79
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8f5f6bb6-115f-4736-b36c-479da6636106
+- name: 12,13|香港3|@ripaojiedian
+  network: tcp
+  password: 0042a837-cf5e-4d00-b31a-460677e68b6f
+  port: 12221
+  server: hxkad246454.nkrpjj.cn
+  skip-cert-verify: true
+  sni: nkrpjj.cn
+  type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 28865
-  server: 36.156.102.116
+  port: 6928
+  server: 223.111.144.13
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 51281
-  server: 36.151.251.45
+  port: 443
+  server: 3.112.225.166
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇹🇼 台湾2|@ripaojiedian
-  password: ae223226-ead3-450c-b4dc-803072b2decb
-  port: 10145
-  server: 125.228.162.233
+  name: 12|🇹🇼 台湾3|@ripaojiedian
+  password: ad14ac91-6101-4888-9d17-ca11150d823e
+  port: 10034
+  server: 1.165.98.202
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -467,7 +2345,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-s7f2G9IKUT.download.microsoft.com
+    host: 202508150964186-fU2HxC1HnE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -491,32 +2369,32 @@ proxies:
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4611
-  server: 36.156.102.116
+  port: 40950
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1334
-  server: 36.156.102.116
+  port: 13345
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 2671
-  server: 36.156.102.116
+  port: 8116
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3765
-  server: 36.156.102.116
+  port: 2045
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -541,7 +2419,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-s7f2G9IKUT.download.microsoft.com
+    host: 202508150964186-fU2HxC1HnE.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -550,29 +2428,19 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 2206
-  server: 36.156.102.116
+  port: 4801
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: 36.156.102.116
   type: trojan
 - name: 12,13|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4729
-  server: 36.156.102.116
+  port: 5343
+  server: 43.199.63.145
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|香港3|@ripaojiedian
-  network: tcp
-  port: '14951'
-  server: 103.224.80.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8f5f6bb6-115f-4736-b36c-479da6636106
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
@@ -593,20 +2461,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: 14|KZ_speednode_0047
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 14|LT_speednode_0052
+- name: 14|LT_speednode_0040
   network: ws
   password: ttfang
   port: 2096
@@ -619,7 +2474,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /TelegramU0001F1E8U0001F1F3
-- name: 14|RU_speednode_0081
+- name: 14|RU_speednode_0065
   network: ws
   password: tg-fq521free
   port: 443
@@ -632,37 +2487,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 14|US_speednode_0109
+- name: 14|US_speednode_0092
   network: ws
   password: tg-fq521free
   port: 443
   server: 198.62.62.67
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 14|US_speednode_0110
-  network: ws
-  password: ttfang
-  port: 2096
-  server: ttfang.fange.me
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /Telegram🇨🇳
-- name: 14|US_speednode_0111
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan

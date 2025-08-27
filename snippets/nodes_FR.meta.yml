@@ -1,68 +1,44 @@
 proxies:
+- name: '8,9|@ZenixVPN_Channel #1'
+  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
+  port: 2056
+  server: de.eyucdn.xyz
+  skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
+  type: hysteria2
 - country: 🇫🇷FR
-  delay: 1088
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 1
+  delay: 1925
+  name: 10|法国 - 巴黎 - Amazon Technologies ...
   password: telegram-id-privatevpns
   port: 22222
-  server: 51.44.89.204
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 701
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.110.242
+  server: 13.39.136.125
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 14|FR_speednode_0017
-  network: ws
-  port: 8880
-  server: 141.11.203.168
-  servername: kjgx.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- country: 🇫🇷FR
+  delay: 725
+  name: '10|法国 - 巴黎 - Amazon Technologies ... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.1.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: kjgx.laoyoutiao.link
-    path: /Telegram@WangCai2/?ed=2560
-- http-opts:
-    headers:
-      Host:
-      - varzesh3.ir
-    method: GET
-    path:
-    - /
-  name: 14|FR_speednode_0018
-  network: http
-  port: 33801
-  server: m11a.vip784.com
-  servername: varzesh3.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 426cb1e2-9390-4ea2-9932-489d38aa7803
-- http-opts:
-    headers:
-      Host:
-      - varzesh3.ir
-    method: GET
-    path:
-    - /
-  name: 14|FR_speednode_0020
-  network: http
-  port: 33801
-  server: m2a.vip784.com
-  servername: varzesh3.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 56c3abea-507d-4559-b1bd-39f339fc4997
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1397
+  down: '100'
+  name: 10|法国 - 巴黎 - Online S.A.S. - 3
+  obfs: ''
+  port: 15010
+  protocol: ''
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
