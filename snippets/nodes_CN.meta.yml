@@ -2,7 +2,7 @@ proxies:
 - alterId: 64
   cipher: auto
   delay: 312
-  name: 9|中国 - 上海 - Hangzhou Alibaba Adv...
+  name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
   port: 50002
   server: 47.116.166.178
   tls: false
@@ -12,7 +12,7 @@ proxies:
 - alterId: 64
   cipher: auto
   delay: 287
-  name: 9|中国 - 北京 - Hangzhou Alibaba Adv...
+  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
   port: 50002
   server: 47.92.152.169
   servername: chunchuan.kejixiaoqi666.store
@@ -23,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 302
-  name: 9|中国 - 惠州市 - China Mobile - 6
+  name: 10|中国 - 惠州市 - China Mobile - 6
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
@@ -35,7 +35,7 @@ proxies:
   delay: 328
   h2-opts: {}
   http-opts: {}
-  name: 9|中国 - 杭州 - Hangzhou Alibaba Adv...
+  name: 10|中国 - 杭州 - Hangzhou Alibaba Adv...
   port: 50112
   server: 120.26.55.225
   skip-cert-verify: true
@@ -44,10 +44,21 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 448
-  name: 9|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
   port: 50002
   server: 47.104.186.133
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0001
+  port: 35000
+  server: gzyd.cg.xxality.cn
+  servername: cggb.hysality.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c1bf6a3-d378-45c8-b1fa-f94a256380cf

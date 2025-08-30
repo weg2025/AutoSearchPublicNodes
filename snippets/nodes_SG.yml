@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   delay: 405
-  name: 9|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
   password: GhYEufnq9M9yvgAc1ylvfq
   port: 18336
   server: 165.22.61.177
   type: ss
 - cipher: chacha20-ietf-poly1305
   delay: 598
-  name: '9|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
+  name: '10|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
   password: c376082c-95c3-452e-88e4-6bb6a5daab41
   port: 49901
   server: free-relay.t01.themars.top
   type: ss
 - cipher: aes-128-gcm
   delay: 1591
-  name: 9|新加坡 - 新加坡 - Oracle Corporation...
+  name: 10|新加坡 - 新加坡 - Oracle Corporation...
   password: 01721e43-5389-4f97-b21c-900abb2bda9e
   port: 12020
   server: awes35lesl.blhao0o.dpdns.org
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3043
@@ -31,7 +31,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -39,3 +39,20 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|新加坡3|@ripaojiedian
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
