@@ -7,47 +7,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|香港 #1'
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: xg.dimoyun.top
-  skip-cert-verify: true
-  sni: xg.dimoyun.top
-  tls: false
-  type: hysteria2
-- country: 🇬🇧GB
-  delay: 1035
-  name: 10|英国 - Erith - OVH SAS - 1
-  password: 1ce1df7962f71c6f
-  port: 8443
-  server: uk-03.allhubb.info
-  skip-cert-verify: true
-  sni: uk-03.allhubb.info
-  type: trojan
-  udp: true
-- delay: 2051
-  name: 10|英国 - Slough - DigitalOcean, LL...
-  password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
-  port: 30000
-  server: de.6315687.xyz
-  skip-cert-verify: true
-  sni: de.6315687.xyz
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  delay: 1910
-  name: 10|英国 - 伦敦 - DataCamp Limited - 2
-  network: ws
-  port: 2086
-  server: uk2.naichachong.top
-  tls: false
-  type: vless
-  udp: true
-  uuid: dead1bb8-e95a-4517-8ed2-e0694de80ba6
-  ws-opts:
-    headers:
-      Host: uk2.naichachong.top
-    path: /
 - client-fingerprint: chrome
   name: 14|GB_speednode_0002
   port: 34045

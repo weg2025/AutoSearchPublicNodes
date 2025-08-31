@@ -23,14 +23,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #1'
-  password: 66975a45-dd40-4854-ba7b-80157a38dd64
-  port: 40001
-  server: rb.dimoyun.top
-  skip-cert-verify: true
-  sni: rb.dimoyun.top
-  tls: false
-  type: hysteria2
 - name: 8|🇯🇵日本东京
   password: b866d83a-d301-4270-b699-40f322bf52fb
   port: 443
@@ -39,7 +31,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #2'
+- name: '8|日本 #1'
   password: oATw4IRtuUOozpOLFflGnWjtg
   port: 18219
   server: 52.193.71.150
@@ -71,128 +63,33 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- delay: 1932
-  name: 10|日本 - 东京 - Alibaba Cloud LLC - ...
-  password: yD0mxkCA18WgPD1uVGd3Eu1dc
-  port: 27789
-  server: 47.245.0.72
-  skip-cert-verify: true
-  tfo: false
-  type: hysteria2
-- alterId: 1
-  cipher: auto
+- cipher: aes-256-gcm
   country: 🇯🇵JP
-  delay: 2035
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - 东京 - Amazon Technologies ...
-  network: tcp
-  port: 11777
-  server: 50w1l-g05.jp02-9a99-vm0.entry.fr0307a.art
-  servername: 50w1l-g05.jp02-9a99-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 441
-  h2-opts: {}
-  http-opts: {}
-  name: '10|日本 - 东京 - Amazon Technologies ... #1'
-  network: tcp
-  port: 28787
-  server: dgfhj-g05.jp07-1f28-vm0.entry.fr0307a.art
-  servername: dgfhj-g05.jp07-1f28-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 558
-  h2-opts: {}
-  http-opts: {}
-  name: '10|日本 - 东京 - Amazon Technologies ... #2'
-  network: tcp
-  port: 448
-  server: t492d-g05.jp04-3771-vm0.entry.fr0307a.art
-  servername: t492d-g05.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1972
-  h2-opts: {}
-  http-opts: {}
-  name: '10|日本 - 东京 - Amazon Technologies ... #3'
-  network: tcp
-  port: 21585
-  server: a59bn-g05.jp03-7d22-vm0.entry.fr0307a.art
-  servername: a59bn-g05.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1115
-  h2-opts: {}
-  http-opts: {}
-  name: '10|日本 - 东京 - Amazon Technologies ... #4'
-  network: tcp
-  port: 21585
-  server: 77h9d-g05.jp01-0986-vm0.entry.fr0307a.art
-  servername: 77h9d-g05.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 730
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - 东京 - Amazon.com, Inc. - 5
-  network: tcp
-  port: 46486
-  server: 39t03-g05.jp05-6786-vm0.entry.fr0307a.art
-  servername: 39t03-g05.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b30da31-c82a-3c2a-bb35-e9e2bb142781
-- delay: 1980
-  name: 10|日本 - 东京 - Baxet Group Inc. - 1...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 9f7987cf-d2fd-4b99-89cf-8b3009bd4235
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- delay: 1754
-  name: 10|日本 - 东京 - Baxet Group Inc. - 8
-  password: 3a6148f3-ba99-4b0e-8022-043aa94b5864
-  port: 22161
-  server: hsrb.huasuan666.top
-  skip-cert-verify: true
-  sni: hsrb.huasuan666.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 625
-  name: 10|日本 - 东京 - G-Core Labs S.A. - 9
-  password: fe8858b3-715a-4442-a99d-5bf3be4cb17b
-  port: 47296
-  server: tun.tuzivip.pw
+  delay: 1542
+  name: 10|日本 - Chiyoda City - KAGOYA JAP...
+  password: zJcvujpsXt
+  port: 37422
+  server: 133.18.108.187
   type: ss
-  udp: true
+- delay: 2390
+  name: 10|日本 - 京都 - OPTAGE Inc. - 3
+  password: 93ce285e-1d56-4526-8180-f26d85481f94
+  port: 11004
+  ports: 11001-11099
+  server: fq-jp.mxtn.net
+  skip-cert-verify: false
+  sni: fq-jp.mxtn.net
+  type: hysteria2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇯🇵JP
+  delay: 1859
+  name: 10,12|🇯🇵 日本5|@ripaojiedian
+  password: 940031a6-fd32-4d6b-901d-77b7f943698e
+  port: 50414
+  server: bl.sytes.net
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -208,17 +105,17 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
+  password: 8a6ca14c0936
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp7v1.lingjfjkm002.com
+    host: jpxw9v1.dashengjs.net
     mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
+    mux: false
+    path: /wrdfiatyd
     skip-cert-verify: false
     tls: true
-  port: 636
-  server: 137.220.191.40
+  port: 443
+  server: 137.220.142.150
   tfo: false
   type: ss
 - client-fingerprint: chrome
