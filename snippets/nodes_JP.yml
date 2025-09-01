@@ -8,14 +8,12 @@ proxies:
   server: 133.18.108.187
   type: ss
 - cipher: aes-128-gcm
-  client-fingerprint: chrome
   country: 🇯🇵JP
   delay: 1859
-  name: 10,12|🇯🇵 日本5|@ripaojiedian
+  name: 10|日本 - 横滨市 - NEC BIGLOBE Ltd. - ...
   password: 940031a6-fd32-4d6b-901d-77b7f943698e
   port: 50414
   server: bl.sytes.net
-  tfo: false
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -23,12 +21,21 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-UsfARRoWJx.download.microsoft.com
+    host: 202508150964186-OTqy9HvgIK.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3270
+  server: 36.150.215.203
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
@@ -45,15 +52,6 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3270
-  server: 36.150.215.203
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
 - client-fingerprint: chrome
   name: 12,13|日本4|@ripaojiedian
   network: tcp
