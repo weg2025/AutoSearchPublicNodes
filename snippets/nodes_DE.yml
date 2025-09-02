@@ -1,31 +1,17 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 2324
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.78.75.41
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1008
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.179.8.202
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 990
-  name: '10|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.179.8.202
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 689
+  name: 9|德国 - Frankfurt am Main - Amazo...
+  password: amazonskr05
+  port: 443
+  server: 18.196.64.123
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 919
+  name: 9|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss

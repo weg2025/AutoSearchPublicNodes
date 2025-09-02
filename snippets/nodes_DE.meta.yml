@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: 7|DE
   password: 7JnRmdeMP4gsvp0nXjYofBNvsdk
   port: 7414
   server: 3.75.180.49
@@ -7,21 +7,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@FreakConfig #2'
+- name: '8|🇩🇪@FreakConfig #2'
   password: 88984417-da74-4a6e-a6fe-9336adf8e644
   port: 20340
   server: 77.90.50.59
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
+- name: 8|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دانل...
   password: Bz0jKM83wa
   port: 443
   server: android.yas-nowin.ir
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: '9|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
+- name: '8|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها #1'
   password: J7VnJazPBw
   port: 443
   server: android.yas-nowin.ir
@@ -29,7 +29,7 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: 9|@SaghiVpnXBOT 🇩🇪[🇩🇪]
+- name: 8|@SaghiVpnXBOT 🇩🇪[🇩🇪]
   password: xnChC7dKZ8
   port: 443
   server: android.yas-nowin.ir
@@ -37,39 +37,25 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 2324
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.78.75.41
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1008
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.179.8.202
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 990
-  name: '10|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.179.8.202
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 689
+  name: 9|德国 - Frankfurt am Main - Amazo...
+  password: amazonskr05
+  port: 443
+  server: 18.196.64.123
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 919
+  name: 9|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|DE_speednode_0008
+  name: 13|DE_speednode_0010
   port: 443
   reality-opts:
     public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
@@ -80,3 +66,20 @@ proxies:
   type: vless
   udp: true
   uuid: b4b8aa1f-77d2-4851-a5a4-f78886f3e997
+- http-opts:
+    headers:
+      Host:
+      - speedtest.net
+    method: GET
+    path:
+    - /
+  name: 13|DE_speednode_0011
+  network: http
+  port: 8444
+  server: fina.iranbuildings.com
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ac083fa9-df9a-4722-b70d-24c17bef0516

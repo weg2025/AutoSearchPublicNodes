@@ -1,5 +1,5 @@
 proxies:
-- name: 8,9|🇩🇪@FreakConfig
+- name: 7,8|🇩🇪@FreakConfig
   password: 45b46edb-679b-4ea5-befd-88c05bb94f80
   port: 2056
   server: de.eyucdn.xyz
@@ -7,3 +7,18 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1147
+  down: '100'
+  name: 9|法国 - 巴黎 - Online S.A.S. - 3
+  obfs: ''
+  port: 15010
+  protocol: ''
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'

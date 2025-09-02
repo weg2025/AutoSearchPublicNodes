@@ -1,44 +1,28 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇯🇵JP
-  delay: 1542
-  name: 10|日本 - Chiyoda City - KAGOYA JAP...
-  password: zJcvujpsXt
-  port: 37422
-  server: 133.18.108.187
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇯🇵JP
-  delay: 1859
-  name: 10|日本 - 横滨市 - NEC BIGLOBE Ltd. - ...
-  password: 940031a6-fd32-4d6b-901d-77b7f943698e
-  port: 50414
-  server: bl.sytes.net
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+    host: 202508150964186-YHuMkhj2A5.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 11,12|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3270
-  server: 36.150.215.203
+  port: 1924
+  server: xx.baku7.com
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: 23.45.86.28
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   password: 8a6ca14c0936
   plugin: v2ray-plugin
   plugin-opts:
@@ -53,17 +37,17 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
+  name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 40950
-  server: 36.150.215.203
+  port: 4613
+  server: xx.baku7.com
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: 23.45.86.28
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|日本v2|@ripaojiedian
+  name: 12|日本v2|@ripaojiedian
   network: kcp
   port: '34933'
   server: 8.209.211.236
