@@ -1,61 +1,8 @@
 proxies:
-- name: 7|香港
-  password: 38589924-caf7-4857-812b-80020febd3ff
-  port: 10880
-  server: ssssssssssssssssssssssssssss-mualhk229.hizui.cn
-  skip-cert-verify: true
-  sni: ssssssssssssssssssssssssssss-mualhk229.hizui.cn
-  tls: false
-  type: hysteria2
-- name: 7|HK
-  password: Cyi3TPih9FtQRwsZAh8aT6ynGJk
-  port: 2166
-  server: 54.169.144.240
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '7|HK #1'
-  password: L60nS04NhsoMpN2DDGbnMqLP8DY
-  port: 11243
-  server: 47.76.83.25
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 7|🇭🇰香港
-  password: Wo9rLCYw6gzcfTgIu11mhBVciVs
-  port: 29282
-  server: 47.74.34.102
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '7|🇭🇰香港 #1'
-  password: b57bbf70-8958-4ae5-b6fd-bcf39b81900c
-  port: 63518
-  server: ovo.5188666.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 7|🇰香港2
-  password: b866d83a-d301-4270-b699-40f322bf52fb
-  port: 443
-  server: 89.185.27.133
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '7|🇭🇰香港 #2'
-  password: de8854c7-fa17-4266-ae18-50a9732a0c4e
-  port: 3001
-  server: hk1.1010991.xyz
-  skip-cert-verify: true
-  sni: hk1.1010991.xyz
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -71,42 +18,44 @@ proxies:
     path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 9969db7a2f51
+  name: 12|🇭🇰 香港2|@ripaojiedian
+  password: 2b5fad3874e5
   plugin: v2ray-plugin
   plugin-opts:
     host: hk6v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /fgsauuoqxwx
+    path: /aqwshiog
     skip-cert-verify: false
     tls: true
   port: 443
   server: 156.251.179.135
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 47405
+  server: 38.147.188.96
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
 - client-fingerprint: chrome
-  name: 11,12|香港3|@ripaojiedian
-  network: tcp
-  password: 20a5d874-4387-446b-b616-de6c98ef0ee2
-  port: 12221
-  server: hxkad246454.nkrpjj.cn
-  skip-cert-verify: true
-  sni: nkrpjj.cn
-  type: trojan
-- client-fingerprint: chrome
-  name: 11,12|香港4|@ripaojiedian
+  name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 218.102.206.179
+  server: 219.77.131.1
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港5|@ripaojiedian
+  name: 12,13|香港5|@ripaojiedian
   network: ws
   port: '80'
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -121,17 +70,27 @@ proxies:
       Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
     path: /
 - client-fingerprint: chrome
-  name: 11,12|香港6|@ripaojiedian
+  name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: xx.avxqx.cn
+  server: 1.65.215.113
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|香港v2|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '47405'
+  server: 38.147.188.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
+- alterId: 0
+  cipher: auto
+  name: 13|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
   server: 47.239.183.87
