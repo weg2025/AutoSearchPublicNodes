@@ -1,27 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 2323
-  name: 11|韩国 - Gwangsan-gu - Korea Telec...
-  network: ws
-  port: 55582
-  server: 121.148.27.194
-  tls: false
+  country: 🇺🇸US
+  delay: 720
+  h2-opts: {}
+  http-opts: {}
+  name: 11|韩国 - Paripark - Sejong Network...
+  network: tcp
+  port: 45245
+  server: ye.fxlcn.com
+  servername: ye.fxlcn.com
+  skip-cert-verify: true
   type: vmess
-  udp: true
-  uuid: c47059b2-c52e-4abd-b585-417461366b0c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /arki
-- cipher: aes-128-gcm
-  delay: 221
-  name: 11|韩国 - 首尔特别市 - Sejong Networks -...
-  password: VXPipi29nxMO
-  plugin: obfs
-  plugin-opts:
-    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
-    mode: http
-  port: 1052
-  server: kr2.qiangdong.xyz
-  type: ss
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
