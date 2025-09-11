@@ -1,23 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  delay: 982
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - Contabo Asia Priva...
-  network: tcp
-  port: 39674
-  server: 82.197.69.131
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5a89386a-827b-4f54-8778-2f1b5122c6ef
 - client-fingerprint: chrome
   name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3957
   server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- client-fingerprint: chrome
+  name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 9160
+  server: 36.156.102.77
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
@@ -38,12 +34,3 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 9160
-  server: 36.156.102.77
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan

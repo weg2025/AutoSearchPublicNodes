@@ -1,54 +1,46 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 835
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: cWCt8FRw9qXHQaG59JrNLi
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 1248
-  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
-  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
-  port: 27232
-  server: cgroup.node5.s2.nodelist-airport.com
-  type: ss
 - country: 🇺🇸US
-  delay: 1244
+  delay: 923
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  password: ZIXQa-7pg0vPahuyi8bABhob
+  port: 25131
+  server: starlink-us2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- delay: 833
   name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
   password: slch2024
   port: 2096
-  server: 216.24.57.195
+  server: 185.238.228.195
   skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- delay: 2302
+    path: /Telegram
+- delay: 1009
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
   network: ws
   password: slch2024
   port: 2096
-  server: 198.62.62.87
+  server: 185.221.160.195
+  skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
-- delay: 1603
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
+    path: /Telegram
+- delay: 2002
+  name: 11,15|RU_speednode_0053
   network: ws
   password: slch2024
   port: 2096
-  server: 195.13.44.195
+  server: 185.59.218.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -56,10 +48,213 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇬🇧GB
-  delay: 1680
-  name: 11,15|GB_speednode_0028
+    path: /Telegram
+- delay: 1026
+  name: 11,15|FR_speednode_0023
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.16.110.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 827
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #4'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.18.250.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 1887
+  name: 11,15|LU_speednode_0038
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.42.88.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 947
+  name: 11,15|GB_speednode_0027
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.156.19.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 810
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.105.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 954
+  name: 11,15|ES_speednode_0020
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.81.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 769
+  name: 11,15|CY_speednode_0005
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.26.229.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 793
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #10'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.13.44.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 2050
+  name: 11,15|NL_speednode_0045
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.164.248.87
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 856
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #12'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.176.24.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 954
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #13'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.18.184.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3
+- delay: 828
+  name: 11,15|ES_speednode_0017
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.80.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 821
+  name: 11,15|ES_speednode_0015
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.83.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /TelegramU0001F1E8U0001F1F3
+- delay: 1147
+  name: 11,15|ES_speednode_0018
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.82.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 786
+  name: 11,15|FR_speednode_0021
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.7.240.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 1212
+  name: 11,15|GB_speednode_0030
   network: ws
   password: slch2024
   port: 2096
@@ -71,10 +266,9 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇰🇿KZ
-  delay: 2594
-  name: 11,15|KZ_speednode_0037
+    path: /Telegram
+- delay: 839
+  name: 11,15|KZ_speednode_0035
   network: ws
   password: slch2024
   port: 2096
@@ -86,10 +280,9 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇰🇿KZ
-  delay: 1696
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #5'
+    path: /Telegram
+- delay: 830
+  name: 11,15|KZ_speednode_0036
   network: ws
   password: slch2024
   port: 2096
@@ -101,55 +294,115 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇳🇱NL
-  delay: 1251
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #6'
+    path: /Telegram
+- delay: 812
+  name: 11,15|LU_speednode_0041
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.42.89.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 817
+  name: 11,15|NL_speednode_0044
   network: ws
   password: slch2024
   port: 2096
   server: 188.164.248.195
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 810
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #23'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 193.9.49.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 1797
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #24'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 188.42.145.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- country: 🇷🇺RU
-  delay: 1635
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
+- delay: 1997
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #25'
   network: ws
   password: slch2024
   port: 2096
   server: 213.219.247.195
-  skip-cert-verify: true
   sni: ocost-dy.wmlefl.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇷🇺RU
-  delay: 1253
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #8'
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3
+- delay: 2604
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #26'
   network: ws
   password: slch2024
   port: 2096
-  server: 185.174.138.195
+  server: 195.13.45.195
   skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 1149
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #27'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.54.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 2499
+  name: 11,15|US_speednode_0062
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.229.195
+  skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- country: 🇺🇸US
-  delay: 2143
-  name: 11,15|CZ_speednode_0009
+    path: /Telegram
+- delay: 1349
+  name: 11,15|CZ_speednode_0007
   network: ws
   password: slch2024
   port: 2096
@@ -161,14 +414,501 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 1550
+  name: 11,15|US_speednode_0070
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.200.160.87
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
+- delay: 1032
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #31'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 216.24.57.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 830
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #32'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.200.160.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 883
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #33'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.230.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 811
+  name: 11,15|US_speednode_0065
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.148.106.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 777
+  name: 11,15|US_speednode_0060
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 795
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #36'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 198.62.62.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1005
+  name: 11,15|US_speednode_0064
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.13.44.87
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram
+- delay: 778
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #38'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 840
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #39'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.46.30.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 774
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #40'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 205.233.181.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 783
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #41'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.181.197.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 894
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #42'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1109
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #43'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.230.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1002
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #44'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.34.229.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1822
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #45'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.26.229.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 1775
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #46'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 195.13.45.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 844
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #47'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.76.18.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 824
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #48'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.36.55.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 784
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #49'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 193.124.224.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2257
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #50'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.65.217.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 904
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #51'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.0.63.87
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3
+- delay: 2159
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #52'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.46.30.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: '%25252F%2525E7%252594%2525B1%2525E9%25259B%2525B6%2525E5%2525BC%252580%2525E5%2525A7%25258B'
+- delay: 777
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #53'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.181.197.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- delay: 836
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #54'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 205.233.181.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: '%25252FTelegram'
+- delay: 1810
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #55'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 198.62.62.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: '%25252F%2525E7%252594%2525B1%2525E9%25259B%2525B6%2525E5%2525BC%252580%2525E5%2525A7%25258B'
+- delay: 836
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #56'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 192.65.217.195
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: '%25252F%2525E7%252594%2525B1%2525E9%25259B%2525B6%2525E5%2525BC%252580%2525E5%2525A7%25258B'
+- alterId: 0
+  cipher: auto
+  delay: 1683
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 達拉斯 - Baxet Group Inc. - ...
+  network: none
+  port: 6510
+  server: 193.124.24.230
+  type: vmess
+  uuid: 72446b05-3f87-499e-e4ec-28045a298f09
+- alterId: 0
+  cipher: auto
+  delay: 662
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #1'
+  network: none
+  port: 6513
+  server: 193.124.24.230
+  type: vmess
+  uuid: 651d7ad8-db2f-46a9-ec68-ef7054774fc0
+- alterId: 0
+  cipher: auto
+  delay: 642
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #2'
+  network: none
+  port: 6504
+  server: 193.124.24.230
+  type: vmess
+  uuid: 3c7c8995-1ab6-4997-9c01-0aaaab66f5d1
+- alterId: 0
+  cipher: auto
+  delay: 640
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #3'
+  network: none
+  port: 6505
+  server: 193.124.24.230
+  type: vmess
+  uuid: f77456b5-5a82-45ba-a941-1a83c09a1f41
+- alterId: 0
+  cipher: auto
+  delay: 541
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #4'
+  network: none
+  port: 6506
+  server: 193.124.24.230
+  type: vmess
+  uuid: ef5c146e-1dbd-4b9d-a18f-4b29af4a17e2
+- alterId: 0
+  cipher: auto
+  delay: 1529
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #5'
+  network: none
+  port: 6511
+  server: 193.124.24.230
+  type: vmess
+  uuid: d4b322b2-99e6-46ab-e68c-38901a1efbe0
+- alterId: 0
+  cipher: auto
+  delay: 923
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #6'
+  network: none
+  port: 6503
+  server: 193.124.24.230
+  type: vmess
+  uuid: ade0486c-fe64-4815-9895-78de66553a2c
+- alterId: 0
+  cipher: auto
+  delay: 922
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #7'
+  network: none
+  port: 6509
+  server: 193.124.24.230
+  type: vmess
+  uuid: c9c85c15-d7fa-4e9a-df8a-f80cdfdbcb06
+- alterId: 0
+  cipher: auto
+  delay: 922
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #8'
+  network: none
+  port: 6501
+  server: 193.124.24.230
+  type: vmess
+  uuid: c76ad3e5-9930-49e6-c448-3d490bb807dc
+- alterId: 0
+  cipher: auto
+  delay: 923
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #9'
+  network: none
+  port: 6502
+  server: 193.124.24.230
+  type: vmess
+  uuid: 44e32afd-714e-4d60-f6bc-5d7a1d34080b
+- alterId: 0
+  cipher: auto
+  delay: 2007
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #10'
+  network: none
+  port: 6507
+  server: 193.124.24.230
+  type: vmess
+  uuid: 5d12135d-1676-490c-b490-b6e624c431a3
+- alterId: 0
+  cipher: auto
+  delay: 1348
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 達拉斯 - Cogent Communicatio...
+  network: none
+  port: 6514
+  server: 193.124.24.230
+  type: vmess
+  uuid: cecc9594-e9bd-40ab-9d82-65418694630f
+- alterId: 0
+  cipher: auto
+  delay: 537
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 達拉斯 - Cogent Communicatio... #1'
+  network: none
+  port: 6515
+  server: 193.124.24.230
+  type: vmess
+  uuid: a9a09619-ccc9-4092-e9c0-e4aa0ac5849b
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇺🇸 美国|@ripaojiedian
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12009
+  server: awes35lesl.blhao0o.dpdns.org
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-UO2JxEthna.download.microsoft.com
+    host: 202509031722041-5eflEJAUDw.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -231,19 +971,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /
-- name: 15|US_speednode_0060
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 209.94.90.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
 - name: 15|US_speednode_0061
   network: ws
   password: slch2024
@@ -257,19 +984,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: 15|US_speednode_0062
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 199.34.229.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
 - name: 15|US_speednode_0063
   network: ws
   password: slch2024
@@ -283,45 +997,6 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇮🇷ShadowProxy66
-- name: 15|US_speednode_0064
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 195.13.44.87
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- name: 15|US_speednode_0065
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.148.106.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram
-- name: 15|US_speednode_0070
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 192.200.160.87
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
 - name: 15|US_speednode_0071
   network: ws
   password: slch2024
