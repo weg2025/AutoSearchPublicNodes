@@ -1,12 +1,4 @@
 proxies:
-- name: 10|⚡@Takv2ray_org | US 🇸²
-  password: dongtaiwang.com
-  port: 63015
-  server: 108.181.5.130
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
 - name: '10|@FreakConfig #1'
   password: miaoge110
   port: 12687
@@ -426,13 +418,30 @@ proxies:
   tls: false
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmic4qzsbQtgRsShBbaIBIQh4xsnp5o63PElOVpFduiCmYA==
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,14|美国|@ripaojiedian
+  network: ws
+  port: '30829'
+  server: v29.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-lmIPZ06Vxb.download.microsoft.com
+    host: 202509121565513-rPSxwUwJgK.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
