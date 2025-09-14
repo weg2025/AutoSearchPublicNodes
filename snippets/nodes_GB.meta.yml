@@ -1,6 +1,6 @@
 proxies:
 - delay: 954
-  name: 11|英国 - Erith - OVH SAS - 2
+  name: 10|英国 - Erith - OVH SAS - 2
   password: '!!str 1'
   port: 8081
   server: 51.89.173.123
@@ -8,7 +8,7 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmieDZBplD1mu_AbUcPvR_ekJxsnp5o63PElOVpFduiCmYA==
 - delay: 1227
-  name: 11|英国 - Poplar - Clouvider Limite...
+  name: 10|英国 - Poplar - Clouvider Limite...
   password: '!!str 1'
   port: 8081
   server: 185.145.201.31
@@ -16,7 +16,7 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmifes3OejJ50c1_tsMp1gd01xsnp5o63PElOVpFduiCmYA==
 - delay: 1497
-  name: 11|英国 - 倫敦金融城 - GTHost - 4
+  name: 10|英国 - 倫敦金融城 - GTHost - 4
   password: '!!str 1'
   port: 8081
   server: 172.99.190.183
@@ -24,14 +24,14 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifDWZN5g3ismbb27nc1X_RhoXw609MC0WdYefYZbCn32A==
 - delay: 2070
-  name: 11|英国 - 诺丁汉 - Skymarket - 5
+  name: 10|英国 - 诺丁汉 - Skymarket - 5
   password: '!!str 1'
   port: 8081
   server: 212.84.160.58
   tls: false
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifSW5qhgwSDyxLPcNVoRHLToXw609MC0WdYefYZbCn32A==
-- name: 15|GB_speednode_0039
+- name: 14|GB_speednode_0037
   network: ws
   password: slch2024
   port: 2096
@@ -44,11 +44,24 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /由零开始
-- name: 15|GB_speednode_0040
+- name: 14|GB_speednode_0038
   network: ws
   password: slch2024
   port: 2096
-  server: 185.156.19.195
+  server: 194.36.55.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: 14|GB_speednode_0039
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.36.55.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -57,16 +70,3 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram
-- name: 15|GB_speednode_0041
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.156.19.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /TelegramU0001F1E8U0001F1F3
