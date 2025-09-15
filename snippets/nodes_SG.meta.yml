@@ -1,6 +1,6 @@
 proxies:
 - delay: 1180
-  name: 10|新加坡 - 新加坡 - OneAsiaHost - 1
+  name: 11|新加坡 - 新加坡 - OneAsiaHost - 1
   password: '!!str 1'
   port: 8081
   server: 116.251.217.47
@@ -8,16 +8,16 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmieLW0BXbIy3_acU2Rwt2QBQoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3957
-  server: xingxing.jiasu123.org
+  port: 1501
+  server: 36.156.102.77
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 9160
@@ -28,7 +28,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|新加坡3|@ripaojiedian
+  name: 13,14|新加坡3|@ripaojiedian
   network: ws
   port: '30839'
   server: v39.heduian.link
@@ -42,3 +42,11 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 15|SG_speednode_0022
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: de.viefast.net
+  skip-cert-verify: true
+  sni: csapp.catch.net.tw
+  type: trojan
+  udp: true
