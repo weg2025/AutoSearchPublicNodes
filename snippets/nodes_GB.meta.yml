@@ -1,33 +1,39 @@
 proxies:
-- delay: 954
-  name: 10|英国 - Erith - OVH SAS - 2
-  password: '!!str 1'
-  port: 8081
-  server: 51.89.173.123
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmieDZBplD1mu_AbUcPvR_ekJxsnp5o63PElOVpFduiCmYA==
-- delay: 1227
-  name: 10|英国 - Poplar - Clouvider Limite...
-  password: '!!str 1'
-  port: 8081
-  server: 185.145.201.31
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmifes3OejJ50c1_tsMp1gd01xsnp5o63PElOVpFduiCmYA==
-- delay: 1497
-  name: 10|英国 - 倫敦金融城 - GTHost - 4
-  password: '!!str 1'
-  port: 8081
-  server: 172.99.190.183
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifDWZN5g3ismbb27nc1X_RhoXw609MC0WdYefYZbCn32A==
-- delay: 2070
-  name: 10|英国 - 诺丁汉 - Skymarket - 5
-  password: '!!str 1'
-  port: 8081
-  server: 212.84.160.58
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifSW5qhgwSDyxLPcNVoRHLToXw609MC0WdYefYZbCn32A==
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1014
+  h2-opts: {}
+  http-opts: {}
+  name: 11|英国 - Sowerby Bridge - OVH SAS ...
+  network: ws
+  port: 443
+  server: 57.128.189.240
+  servername: kapelleng.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: kapelleng.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 965
+  h2-opts: {}
+  http-opts: {}
+  name: '11|英国 - Sowerby Bridge - OVH SAS ... #1'
+  network: ws
+  port: 443
+  server: 57.128.189.253
+  servername: kapelleng.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: kapelleng.com
+    path: /linkvws

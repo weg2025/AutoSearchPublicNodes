@@ -1,5 +1,5 @@
 proxies:
-- name: '8|Channel id: @ShadowProxy66🇯🇵'
+- name: '9|Channel id: @ShadowProxy66🇯🇵'
   password: fabd2b79-693a-4a37-827c-6d299e8813b1
   port: 443
   server: 133.18.163.202
@@ -7,49 +7,38 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- delay: 2053
-  name: 10|日本 - 东京 - Host Universal Pty L...
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.50
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmif6nHRWt0-OV5QJrvIHmyLEoXw609MC0WdYefYZbCn32A==
-- delay: 2282
-  name: '10|日本 - 东京 - Host Universal Pty L... #1'
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.51
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmieCg1XZn07vnwWAiQjjrgTloXw609MC0WdYefYZbCn32A==
-- delay: 1032
-  name: '10|日本 - 东京 - Host Universal Pty L... #2'
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.31
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmic_Q25a7bqHY0WS7Dc5cH-XoXw609MC0WdYefYZbCn32A==
-- delay: 1019
-  name: '10|日本 - 东京 - Host Universal Pty L... #3'
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.241
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmic6mDQLHnFrA-9fXb44HTU8oXw609MC0WdYefYZbCn32A==
-- delay: 1179
-  name: 10|波兰 - 若利博日区 - M247 Europe - 1
-  password: '!!str 1'
-  port: 8081
-  server: 5.253.206.122
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmifu1S8CdW1NLxDNTM5iU8yloXw609MC0WdYefYZbCn32A==
+- alterId: 0
+  cipher: auto
+  delay: 2383
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Shenzhen Tencent Com...
+  network: ws
+  port: 13892
+  server: 43.167.226.254
+  servername: node.94v.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bcec480c-c466-4780-c749-366c73c596d9
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 594
+  h2-opts: {}
+  http-opts: {}
+  name: '11|日本 - 东京 - Shenzhen Tencent Com... #1'
+  network: ws
+  port: 41363
+  server: 43.167.226.254
+  type: vmess
+  uuid: a6a0793c-4ed4-4df5-a53b-501928245d1b
+  ws-opts:
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 13|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -61,7 +50,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵 日本2|@ripaojiedian
   password: 8808e9f11454
   plugin: v2ray-plugin
   plugin-opts:
@@ -76,16 +65,16 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 133
-  server: xingxing.jiasu123.org
+  port: 3160
+  server: 153.121.76.9
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
+  name: 13,14|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1806
@@ -95,19 +84,19 @@ proxies:
   type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 13|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 57.183.17.7
+  server: 18.178.135.125
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本v2|@ripaojiedian
+  name: 14|日本v2|@ripaojiedian
   network: kcp
-  port: '34933'
-  server: 8.209.211.236
+  port: '40354'
+  server: 47.74.42.174
   servername: ''
   tls: false
   type: vmess
-  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+  uuid: 79f0cb97-d631-493e-84a1-82a0576fa952

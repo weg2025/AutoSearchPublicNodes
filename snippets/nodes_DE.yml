@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- country: 🇩🇪DE
+  delay: 746
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.121.173.169
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 761
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.121.173.169
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 2916
+  name: 11|德国 - 杜塞尔多夫 - WIIT AG - 1
+  password: fe166c5b3465540f
+  port: 57456
+  server: desrv.ssvpnapp.win
+  type: ss

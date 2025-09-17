@@ -1,50 +1,65 @@
 proxies:
-- name: 9|🇩🇪@FreakConfig
-  obfs: salamander
-  obfs-password: 5zcstyddEr2HrwDFUGsF87IdN4eokPcN
-  password: dailyconfigs
+- name: 10|🇩🇪𝗚𝗲𝗿𝗺𝗮𝗻𝘆 ➠ همه اپراتورها دنو ...
+  password: zPb5RRsckD
   port: 443
-  server: 176.124.204.248
-  skip-cert-verify: true
-  sni: ubuntu com
+  server: android.yas-nowin.ir
+  skip-cert-verify: false
+  sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- delay: 1592
-  name: 10|德国 - Frankfurt - GTHost - 3
-  password: '!!str 1'
-  port: 8081
-  server: 193.108.118.11
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmifvVDOZWQLWnRh66A-VZx_yxsnp5o63PElOVpFduiCmYA==
-- delay: 1428
-  name: 10|德国 - Frankfurt - GTHost - 4
-  password: '!!str 1'
-  port: 8081
-  server: 185.177.229.234
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9Bmmie17QpapW4ln8EzxSYW3mI1xsnp5o63PElOVpFduiCmYA==
-- delay: 2045
-  name: 10|德国 - Frankfurt - GTHost - 5
-  password: '!!str 1'
-  port: 8081
-  server: 193.108.116.211
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kajglYHBNb94lUqgr9BmmicnNWQd2WdrvA37nQ-Q3Z8fxsnp5o63PElOVpFduiCmYA==
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 2049
-  down: 55
-  name: 10|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 5
-  port: 37519
-  protocol: udp
-  server: 109.104.153.91
+- country: 🇩🇪DE
+  delay: 746
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.121.173.169
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-  up: 11
+- country: 🇩🇪DE
+  delay: 761
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.121.173.169
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 2916
+  name: 11|德国 - 杜塞尔多夫 - WIIT AG - 1
+  password: fe166c5b3465540f
+  port: 57456
+  server: desrv.ssvpnapp.win
+  type: ss
+- client-fingerprint: chrome
+  name: 15|DE_speednode_0009
+  network: ws
+  port: 443
+  server: hdfynpv2d1.farvaharforever.com
+  servername: hdfynpv2d1.farvaharforever.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
+  ws-opts:
+    headers:
+      Host: hdfynpv2d1.farvaharforever.com
+    path: /Iyq035lnud9R8ruNNrqGxZZ2
+- client-fingerprint: chrome
+  name: 15|DE_speednode_0010
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
