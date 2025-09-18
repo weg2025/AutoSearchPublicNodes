@@ -1,12 +1,4 @@
 proxies:
-- name: 10|@FreakConfig
-  password: miaoge110
-  port: 12687
-  server: 45.58.38.153
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -99,15 +91,6 @@ proxies:
     headers:
       HOST: dabaius.webn.cc
     path: /dabai.ine0b757045bfc996e6868fcf774241daf
-- client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 13855
-  server: 36.150.215.200
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
@@ -120,111 +103,135 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇺🇸 美国|@ripaojiedian
-  port: 6506
-  server: 193.124.24.247
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
+- client-fingerprint: chrome
+  name: 13,14|美国3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3294
+  server: 153.121.73.102
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
   name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4317
-  server: xingxing.jiasu123.org
+  server: 153.121.76.9
   skip-cert-verify: true
-  sni: 23.45.86.28
+  sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|美国|@ripaojiedian
-  network: tcp
-  port: '6506'
-  server: 193.124.24.247
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
-  port: 8880
+  name: 15|US_speednode_0034
+  port: 34074
   reality-opts:
-    public-key: zQw1fAQByQ8nSFvliZS4NsIWdhfzMnRMnK_xCFRwFQQ
-  server: 155.117.19.221
-  servername: aws.amazon.com
+    public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY
+    short-id: 061cca24
+  server: 500770.xyz
+  servername: www.ucla.edu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f2f00a89-cc9d-450f-b8bb-0d5b2d4c5a65
+  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 28109
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 92.112.126.110
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 330cc365-1a14-48ae-a97e-679b5a112d99
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0030
-  port: 10001
-  reality-opts:
-    public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-  server: 1002.952326.xyz
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c6b0284-77b9-48c8-969a-4be6b18b10d3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0031
-  port: 8443
-  reality-opts:
-    public-key: XgQPLMVHvbUKTzcAZPBDGZ_mDhaZRiAJEk7c4-7UzR4
-  server: 172.245.251.10
-  servername: www.ieee.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9b3d65ab-576c-4750-9cb3-bb41c12c085e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0032
+  name: 15|US_speednode_0037
   port: 443
   reality-opts:
-    public-key: QHkMTl1hdagEIqAb-o0UubqxctDrBUUYKQ2jawa6oX4
-  server: 176.126.111.10
-  servername: speed.cloudflare.com
+    public-key: fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU
+    short-id: ad2e
+  server: uisacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcoruisa.outline360bot.com
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0033
-  port: 1443
+  uuid: aca8c3b9-9637-4c90-937b-64d30b6dcb45
+- name: 15|US_speednode_0038
+  network: ws
+  port: 8880
+  server: 172.66.40.99
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 934ad667-dce8-402a-aa45-3c3b52252c0a
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
+    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
+- name: 15|US_speednode_0039
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 64060858-31b4-4fcd-f2c3-0dba9f93c959
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- name: 15|US_speednode_0040
+  network: ws
+  port: 80
+  server: light-presence.oneeat.co
+  servername: light-presence.oneeat.co
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
+  ws-opts:
+    headers:
+      Host: light-presence.oneeat.co
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15|US_speednode_0041
+  network: ws
+  port: 2053
+  server: 104.16.53.11
+  servername: frAgeU2.cpI2HIdd.eu.ORG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+  ws-opts:
+    headers:
+      Host: frAgeU2.cpI2HIdd.eu.ORG
+    path: /?ed=2048
+- name: 15|US_speednode_0042
+  network: ws
+  port: 443
+  server: 104.21.36.57
+  servername: orange.fullmargintraders.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c835bff-4f4d-4608-bb21-120099089688
+  ws-opts:
+    headers:
+      Host: orange.fullmargintraders.com
+    path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048
+- client-fingerprint: firefox
+  name: 15|US_speednode_0043
+  port: 10001
   reality-opts:
-    public-key: QHkMTl1hdagEIqAb-o0UubqxctDrBUUYKQ2jawa6oX4
-  server: 176.126.111.10
-  servername: speed.cloudflare.com
+    public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
+    short-id: 1a24af87
+  server: 172.233.153.209
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3c7a1227-5383-3a19-7084-76624ec8f84f
+  uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
