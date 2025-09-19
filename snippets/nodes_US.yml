@@ -1,103 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2069
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1253
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
   port: 443
-  server: api.jquery.com
-  servername: admin.kasrax.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      HOST: admin.kasrax.ir
-    path: /us.kkp.me.eu.org/aa
-- alterId: 0
-  cipher: auto
-  delay: 679
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
-  network: none
-  port: 29302
-  server: 38.99.248.180
-  type: vmess
-  uuid: c11e4411-6368-45e4-a310-4ca8ab4bfbf3
-- alterId: 0
-  cipher: auto
-  delay: 750
-  h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 洛杉矶 - Cogent Communicatio... #1'
-  network: ws
-  port: 20521
-  server: 209.146.100.247
-  type: vmess
-  uuid: 9239aaf5-8516-4690-9621-ae4ceac87a99
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1633
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 聖荷西 - FiberPower LLC - 3
-  network: ws
-  port: 25431
-  server: 38.93.202.253
-  type: vmess
-  uuid: 6d8f6ae4-b831-43c2-aa39-8049eef8d8c7
-  ws-opts:
-    path: /6d8f6ae4
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1586
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 達拉斯 - Baxet Group Inc. - ...
-  network: ws
-  port: 80
-  server: s1.db-link.in
-  servername: dabaius.webn.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 003ef206-46b6-3701-ab77-b03debe7511f
-  ws-opts:
-    headers:
-      HOST: dabaius.webn.cc
-    path: /dabai.in3e44a6f24f4f40dbd1a1b3a34c340af7
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1186
-  h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #1'
-  network: ws
-  port: 80
-  server: s2.db-link.in
-  servername: dabaius.webn.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3
-  ws-opts:
-    headers:
-      HOST: dabaius.webn.cc
-    path: /dabai.ine0b757045bfc996e6868fcf774241daf
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hDcp24etDx.download.microsoft.com
+    host: 202509121565513-XAa9x2cfsM.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -109,15 +25,15 @@ proxies:
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
   server: 153.121.73.102
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 153.121.76.9
-  skip-cert-verify: true
+  port: 3296
+  server: 153.121.73.102
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

@@ -1,103 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2069
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1253
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
   port: 443
-  server: api.jquery.com
-  servername: admin.kasrax.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      HOST: admin.kasrax.ir
-    path: /us.kkp.me.eu.org/aa
-- alterId: 0
-  cipher: auto
-  delay: 679
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
-  network: none
-  port: 29302
-  server: 38.99.248.180
-  type: vmess
-  uuid: c11e4411-6368-45e4-a310-4ca8ab4bfbf3
-- alterId: 0
-  cipher: auto
-  delay: 750
-  h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 洛杉矶 - Cogent Communicatio... #1'
-  network: ws
-  port: 20521
-  server: 209.146.100.247
-  type: vmess
-  uuid: 9239aaf5-8516-4690-9621-ae4ceac87a99
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1633
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 聖荷西 - FiberPower LLC - 3
-  network: ws
-  port: 25431
-  server: 38.93.202.253
-  type: vmess
-  uuid: 6d8f6ae4-b831-43c2-aa39-8049eef8d8c7
-  ws-opts:
-    path: /6d8f6ae4
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1586
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 達拉斯 - Baxet Group Inc. - ...
-  network: ws
-  port: 80
-  server: s1.db-link.in
-  servername: dabaius.webn.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 003ef206-46b6-3701-ab77-b03debe7511f
-  ws-opts:
-    headers:
-      HOST: dabaius.webn.cc
-    path: /dabai.in3e44a6f24f4f40dbd1a1b3a34c340af7
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1186
-  h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 達拉斯 - Baxet Group Inc. - ... #1'
-  network: ws
-  port: 80
-  server: s2.db-link.in
-  servername: dabaius.webn.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3
-  ws-opts:
-    headers:
-      HOST: dabaius.webn.cc
-    path: /dabai.ine0b757045bfc996e6868fcf774241daf
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+- delay: 737
+  name: 11|美国 - 明克勒 - Alibaba Cloud LLC -...
+  password: ZYxVNDT9pS
+  port: 6770
+  server: 47.254.121.69
+  type: http
+  username: HlZHOwkdIL
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 13|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hDcp24etDx.download.microsoft.com
+    host: 202509121565513-XAa9x2cfsM.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -109,129 +32,120 @@ proxies:
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
   server: 153.121.73.102
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   name: 13,14|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 153.121.76.9
-  skip-cert-verify: true
+  port: 3296
+  server: 153.121.73.102
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0034
-  port: 34074
-  reality-opts:
-    public-key: zimSAAs4SyUKAR-MTMaw08PuI7skyi1U5Peb6VGJwjY
-    short-id: 061cca24
-  server: 500770.xyz
-  servername: www.ucla.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
-- client-fingerprint: chrome
-  name: 15|US_speednode_0037
-  port: 443
-  reality-opts:
-    public-key: fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU
-    short-id: ad2e
-  server: uisacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcoruisa.outline360bot.com
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aca8c3b9-9637-4c90-937b-64d30b6dcb45
-- name: 15|US_speednode_0038
+- name: 15|US_speednode_0026
   network: ws
   port: 8880
-  server: 172.66.40.99
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
+  server: 104.16.142.193
+  servername: SomeNotificationsChangeYourLife.EiNetwork.News.
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 934ad667-dce8-402a-aa45-3c3b52252c0a
+  uuid: 2a2f8790-99ab-4788-985c-0fe5627af2a9
   ws-opts:
     headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
-    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
-- name: 15|US_speednode_0039
+      Host: SomeNotificationsChangeYourLife.EiNetwork.News.
+    path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0032
+  port: 17779
+  reality-opts:
+    public-key: zM_4XVYflnr-VmBsc06Qk_KzaUABAriVqqKEsEBb2C8
+    short-id: ea7bf16e8eb5769d
+  server: 38.244.39.95
+  servername: learn.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a83d7ca8-9ff7-3c65-ace5-b2f53dd5b1dc
+- client-fingerprint: random
+  name: 15|US_speednode_0036
   network: ws
-  port: 2082
-  server: www.speedtest.net
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-lon1.008883.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 64060858-31b4-4fcd-f2c3-0dba9f93c959
+  uuid: c4253041-7593-447d-a582-5ab80bc85918
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: do-lon1.008883.xyz
+    path: /freev2.net?ed=2048
+- client-fingerprint: random
+  name: 15|US_speednode_0038
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-sgp1.008883.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4253041-7593-447d-a582-5ab80bc85918
+  ws-opts:
+    headers:
+      Host: do-sgp1.008883.xyz
+    path: /freev2.net?ed=2048
+- client-fingerprint: random
+  name: 15|US_speednode_0039
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: do-syd1.008883.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4253041-7593-447d-a582-5ab80bc85918
+  ws-opts:
+    headers:
+      Host: do-syd1.008883.xyz
+    path: /freev2.net?ed=2048
 - name: 15|US_speednode_0040
   network: ws
   port: 80
-  server: light-presence.oneeat.co
-  servername: light-presence.oneeat.co
+  server: FASTSHOVPNTELEGRAM2.vinamarketcenter.ir
+  servername: eng.vinamarketcenter.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
+  uuid: f18203b6-f3a3-4aee-de1f-dce5e4228e91
   ws-opts:
     headers:
-      Host: light-presence.oneeat.co
-    path: /
+      Host: eng.vinamarketcenter.ir
+    path: /FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   name: 15|US_speednode_0041
   network: ws
-  port: 2053
-  server: 104.16.53.11
-  servername: frAgeU2.cpI2HIdd.eu.ORG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
-  ws-opts:
-    headers:
-      Host: frAgeU2.cpI2HIdd.eu.ORG
-    path: /?ed=2048
-- name: 15|US_speednode_0042
-  network: ws
   port: 443
-  server: 104.21.36.57
-  servername: orange.fullmargintraders.com
+  server: 172.66.40.99
+  servername: www.dollardoon.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4c835bff-4f4d-4608-bb21-120099089688
+  uuid: 0261c8f9-413a-455b-942b-3713c6b0084a
   ws-opts:
     headers:
-      Host: orange.fullmargintraders.com
-    path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048
-- client-fingerprint: firefox
-  name: 15|US_speednode_0043
-  port: 10001
-  reality-opts:
-    public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
-    short-id: 1a24af87
-  server: 172.233.153.209
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
+      Host: www.dollardoon.com
+    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
