@@ -2,13 +2,13 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   delay: 1253
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
 - delay: 737
-  name: 11|美国 - 明克勒 - Alibaba Cloud LLC -...
+  name: 10|美国 - 明克勒 - Alibaba Cloud LLC -...
   password: ZYxVNDT9pS
   port: 6770
   server: 47.254.121.69
@@ -16,18 +16,18 @@ proxies:
   username: HlZHOwkdIL
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 13|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-XAa9x2cfsM.download.microsoft.com
+    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3294
@@ -36,7 +36,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
@@ -44,108 +44,94 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 15|US_speednode_0026
-  network: ws
-  port: 8880
-  server: 104.16.142.193
-  servername: SomeNotificationsChangeYourLife.EiNetwork.News.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2a2f8790-99ab-4788-985c-0fe5627af2a9
-  ws-opts:
-    headers:
-      Host: SomeNotificationsChangeYourLife.EiNetwork.News.
-    path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0032
-  port: 17779
-  reality-opts:
-    public-key: zM_4XVYflnr-VmBsc06Qk_KzaUABAriVqqKEsEBb2C8
-    short-id: ea7bf16e8eb5769d
-  server: 38.244.39.95
-  servername: learn.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a83d7ca8-9ff7-3c65-ace5-b2f53dd5b1dc
-- client-fingerprint: random
-  name: 15|US_speednode_0036
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-lon1.008883.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4253041-7593-447d-a582-5ab80bc85918
-  ws-opts:
-    headers:
-      Host: do-lon1.008883.xyz
-    path: /freev2.net?ed=2048
-- client-fingerprint: random
-  name: 15|US_speednode_0038
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.008883.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4253041-7593-447d-a582-5ab80bc85918
-  ws-opts:
-    headers:
-      Host: do-sgp1.008883.xyz
-    path: /freev2.net?ed=2048
-- client-fingerprint: random
-  name: 15|US_speednode_0039
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: do-syd1.008883.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4253041-7593-447d-a582-5ab80bc85918
-  ws-opts:
-    headers:
-      Host: do-syd1.008883.xyz
-    path: /freev2.net?ed=2048
-- name: 15|US_speednode_0040
+- name: 14|US_speednode_0027
   network: ws
   port: 80
-  server: FASTSHOVPNTELEGRAM2.vinamarketcenter.ir
-  servername: eng.vinamarketcenter.ir
+  server: 104.18.109.147
+  servername: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: f18203b6-f3a3-4aee-de1f-dce5e4228e91
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
   ws-opts:
     headers:
-      Host: eng.vinamarketcenter.ir
-    path: /FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 15|US_speednode_0041
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+    path: /Telegram-XV2ry2?ed=2048
+- name: 14|US_speednode_0035
   network: ws
+  packet-encoding: xudp
+  port: 2082
+  server: 159.112.235.174
+  servername: workerr.schodog1.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  ws-opts:
+    headers:
+      Host: workerr.schodog1.workers.dev
+    path: /?ed=2048
+- http-opts:
+    headers:
+      Host:
+      - varzesh3.ir
+    method: GET
+    path:
+    - /
+  name: 14|US_speednode_0040
+  network: http
+  port: 33801
+  server: m44a.vip784.com
+  servername: varzesh3.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39c8e0d3-c932-4ff7-b3e3-83002647907b
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0041
   port: 443
-  server: 172.66.40.99
-  servername: www.dollardoon.com
+  reality-opts:
+    public-key: Xd2u-uX0dhiJrB_ESaDSoQBmT6Jv1tEmqn3inOiYFDg
+    short-id: 207a3de5
+  server: 146.235.193.81
+  servername: iosapps.itunes.apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 0261c8f9-413a-455b-942b-3713c6b0084a
+  uuid: 747c62da-109f-4add-8e67-c66e1af7d255
+- name: 14|US_speednode_0044
+  network: ws
+  port: 8080
+  server: cafearz.com
+  servername: shad.ir.de.test.digicyber.click.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5218f249-128d-40bf-d9b9-64004622b502
   ws-opts:
     headers:
-      Host: www.dollardoon.com
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
+      Host: shad.ir.de.test.digicyber.click.
+    path: /olem/ws?ed=1024
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 14|US_speednode_0045
+  network: ws
+  port: 2053
+  server: www.speedtest.net
+  servername: 2020.dnss-mobile.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20d98fd8-b472-4574-eeae-b1ecc9082eb9
+  ws-opts:
+    headers:
+      Host: 2020.dnss-mobile.ir
+    path: /
