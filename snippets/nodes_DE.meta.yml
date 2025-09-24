@@ -1,5 +1,5 @@
 proxies:
-- name: 10|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
+- name: 9|🇩🇪@EXPRESSVPN_420 ➠ همه اپراتو...
   password: 3QlSMKyqLp
   port: 443
   server: android.yas-nowin.ir
@@ -7,7 +7,7 @@ proxies:
   sni: android.yas-nowin.ir
   tls: false
   type: hysteria2
-- name: '10|DE-telegram-@ISVvpn   :  '
+- name: '9|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
@@ -16,7 +16,7 @@ proxies:
   type: hysteria2
 - country: 🇩🇪DE
   delay: 1063
-  name: 11|德国 - Frankfurt am Main - Amazo...
+  name: 10|德国 - Frankfurt am Main - Amazo...
   password: telegram-id-directvpn
   port: 22223
   server: 52.28.47.115
@@ -30,7 +30,7 @@ proxies:
   delay: 1518
   h2-opts: {}
   http-opts: {}
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
+  name: 10|德国 - Frankfurt Am Main - Hetzn...
   network: tcp
   port: 100
   server: cpanel.erade32.ir
@@ -40,7 +40,7 @@ proxies:
   uuid: 20f40751-2c55-4338-b04f-f9409c6df5c3
 - client-fingerprint: chrome
   delay: 2245
-  name: 11|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
   port: 2087
   server: 104.26.12.31
@@ -60,7 +60,7 @@ proxies:
   country: 🇳🇱NL
   delay: 2421
   down: '55'
-  name: 11|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 5
+  name: 10|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 5
   port: 37519
   protocol: udp
   server: 109.104.153.91
@@ -69,34 +69,7 @@ proxies:
   type: hysteria
   udp: true
   up: '11'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|DE_speednode_0015
-  port: 223
-  reality-opts:
-    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
-    short-id: e41865e506628f44
-  server: swit.amirconfigpaanelllll.com
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0016
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    short-id: b525ecd2fc
-  server: 188.68.53.100
-  servername: Tgju.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: 15|DE_speednode_0017
+- name: 14|DE_speednode_0007
   network: ws
   port: 2053
   server: 89.169.53.131
@@ -110,22 +83,49 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- name: 15|DE_speednode_0018
-  network: ws
-  port: 443
-  server: 91.149.223.242
-  servername: kejiland.freewarp.eu.org
+- client-fingerprint: chrome
+  name: 14|DE_speednode_0008
+  port: 6666
+  reality-opts:
+    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+    short-id: b525ecd2fc
+  server: 188.68.53.100
+  servername: Tgju.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0009
+  port: 223
+  reality-opts:
+    public-key: 2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U
+    short-id: e41865e506628f44
+  server: swit.amirconfigpaanelllll.com
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8f0120f1-ba26-e137-5e06-a99b844741aa
+- name: 14|DE_speednode_0010
+  network: ws
+  port: 2053
+  server: 89.169.53.131
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
   ws-opts:
     headers:
       Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
 - client-fingerprint: chrome
-  name: 15|DE_speednode_0019
+  name: 14|DE_speednode_0011
   port: 443
   reality-opts:
     public-key: AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw
