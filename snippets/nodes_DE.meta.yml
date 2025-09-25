@@ -14,61 +14,21 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 1063
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.28.47.115
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇩🇪DE
-  delay: 1518
-  h2-opts: {}
-  http-opts: {}
-  name: 10|德国 - Frankfurt Am Main - Hetzn...
-  network: tcp
-  port: 100
-  server: cpanel.erade32.ir
-  servername: uploadboy.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 20f40751-2c55-4338-b04f-f9409c6df5c3
-- client-fingerprint: chrome
-  delay: 2245
-  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  delay: 1448
+  name: 10|德国 - 莱比锡 - Cloudflare, Inc. - ...
   network: ws
-  port: 2087
-  server: 104.26.12.31
-  servername: 0000bldeqtt93cv2ia9d.9qhfz.0mdhvs60.d2dl09xr.isqhyop.inv1w8h.w8qr7n1t9pl.ornd3ui.t5clre6qc35.7bl5kpqtymz3.687d4r1yy2wmyc5.neib.cn
+  port: 8443
+  server: buyix.qzz.io
+  servername: buyix.qzz.io
   tls: true
-  type: vless
-  udp: true
-  uuid: 01996431-3e8b-e8ed-202a-baf93f8e8851
+  type: vmess
+  uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d
   ws-opts:
     headers:
-      Host: 0000bldeqtt93cv2ia9d.9qhfz.0mdhvs60.d2dl09xr.isqhyop.inv1w8h.w8qr7n1t9pl.ornd3ui.t5clre6qc35.7bl5kpqtymz3.687d4r1yy2wmyc5.neib.cn
-    path: /snippets?ip=proxyip:port(443)&nat64=6to4
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  country: 🇳🇱NL
-  delay: 2421
-  down: '55'
-  name: 10|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 5
-  port: 37519
-  protocol: udp
-  server: 109.104.153.91
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '11'
+      Host: buyix.qzz.io
+    path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm
 - name: 14|DE_speednode_0007
   network: ws
   port: 2053

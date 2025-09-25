@@ -1,27 +1,44 @@
 proxies:
+- delay: 2709
+  name: 10|美国 - 东洛杉矶 - Cloudflare, Inc. -...
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 689
+  delay: 806
   name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1040
-  name: 10|美国 - 洛杉矶 - Dedicated.com - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  delay: 829
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - Cogent Communicatio...
+  network: none
+  port: 6514
+  server: 193.124.24.247
+  skip-cert-verify: true
+  type: vmess
+  uuid: c362d735-01a8-48eb-baa2-ae7aa63bfdc3
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

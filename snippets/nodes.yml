@@ -2,7 +2,7 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 393
+  delay: 327
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
@@ -15,7 +15,7 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 160
+  delay: 306
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
@@ -28,7 +28,7 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 131
+  delay: 541
   h2-opts: {}
   http-opts: {}
   name: '10|中国 - 北京 - Hangzhou Alibaba Adv... #1'
@@ -40,80 +40,52 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  delay: 178
+  country: 🇨🇳 CN
+  delay: 406
+  h2-opts: {}
+  http-opts: {}
   name: 10|中国 - 合肥 - China Unicom CHINA16...
-  port: 50002
-  server: 112.132.215.12
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 190
-  name: '10|中国 - 合肥 - China Unicom CHINA16... #1'
+  network: tcp
   port: 50007
   server: 112.132.215.34
-  tls: false
+  skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 293
+  delay: 1526
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
   port: 11399
   server: 119.29.98.43
-  skip-cert-verify: true
   type: vmess
   uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 258
+  delay: 414
   h2-opts: {}
   http-opts: {}
   name: '10|中国 - 广州市 - Shenzhen Tencent Co... #1'
   network: ws
-  port: 20521
-  server: 119.29.98.43
-  skip-cert-verify: true
-  type: vmess
-  uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 216
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #2'
-  network: ws
   port: 48536
   server: 119.29.98.43
-  skip-cert-verify: true
   type: vmess
   uuid: 057caba1-2237-41e6-a54d-ec03509898a5
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 224
+  delay: 1502
   h2-opts: {}
   http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #3'
+  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #2'
   network: ws
   port: 56532
   server: 119.29.98.43
-  skip-cert-verify: true
   type: vmess
   uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
   ws-opts:
@@ -121,20 +93,7 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 364
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 杭州 - Hangzhou Alibaba Adv...
-  network: tcp
-  port: 50002
-  server: 120.26.137.112
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 332
+  delay: 226
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
@@ -146,313 +105,913 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  delay: 2758
+  country: 🇺🇸US
+  delay: 363
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 香港 - Hong Kong Telecommun...
-  network: ws
-  port: 80
-  server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: aes-256-cfb
-  country: 🇭🇰HK
-  delay: 1801
-  name: 10|中国 - 香港 - SunnyVision Limited ...
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1310
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 香港 - WAP.AC LTD - 14
-  network: tcp
-  port: 39056
-  server: nnertn.vxzjv.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-- cipher: chacha20-ietf-poly1305
-  delay: 774
-  name: 10|俄罗斯 - 莫斯科 - Global Internet So...
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40031
-  server: ru.fastsoonlink.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1675
-  h2-opts: {}
-  http-opts: {}
-  name: 10|加拿大 - Beauharnois - OVH SAS - ...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  servername: persH-cAN-78.lirAapp.SiTE
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9bb3115e-3cec-488d-81d6-4d3cbfbcf090
-  ws-opts:
-    headers:
-      HOST: persH-cAN-78.lirAapp.SiTE
-    path: /linkvkwss
-- alterId: 0
-  cipher: auto
-  country: 🇮🇩ID
-  delay: 626
-  h2-opts: {}
-  http-opts: {}
-  name: 10|印度尼西亚 - 勿加泗 - PT. Media Antar ...
+  name: 10|中国 - 香港 - Alibaba (US) Technol...
   network: none
-  port: 44979
-  server: 202.155.138.154
+  port: 53544
+  server: 47.83.10.70
   skip-cert-verify: true
   type: vmess
-  uuid: 8e03466d-2170-4fd0-d672-7c468075f808
+  uuid: e7b88e16-7480-4ec1-e1f2-523b45462467
+- cipher: aes-256-gcm
+  country: 🇨🇿CZ
+  delay: 771
+  name: 10|俄罗斯 - 圣彼得堡 - LLC Baxet - 1
+  password: 9f3d1a6d31468599
+  port: 1901
+  server: 195.58.49.100
+  type: ss
 - cipher: aes-256-cfb
-  country: 🇬🇷GR
-  delay: 653
-  name: 10|希腊 - 塞萨洛尼基 - SYNAPSECOM S.A. P...
+  country: 🇭🇰HK
+  delay: 1065
+  name: 10|哥伦比亚 - 波哥大 - Kaopu Cloud HK Li...
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 192.71.166.100
+  server: 154.223.16.212
   type: ss
-- country: 🇩🇪DE
-  delay: 1063
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.28.47.115
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇩🇪DE
-  delay: 1518
+  country: 🇷🇴RO
+  delay: 1365
   h2-opts: {}
   http-opts: {}
-  name: 10|德国 - Frankfurt Am Main - Hetzn...
+  name: 10|德国 - 法兰克福 - OVH SAS - 1
   network: tcp
-  port: 100
-  server: cpanel.erade32.ir
-  servername: uploadboy.com
+  port: 45228
+  server: lt.fxlcn.com
+  servername: lt.fxlcn.com
   skip-cert-verify: true
   type: vmess
-  uuid: 20f40751-2c55-4338-b04f-f9409c6df5c3
-- cipher: aes-256-cfb
-  country: 🇸🇰SK
-  delay: 623
-  name: 10|斯洛伐克 - 布拉迪斯拉发 - DataCamp Limit...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 925
-  name: 10|新加坡 - 新加坡 - M1 LIMITED - 1
-  password: '03241'
-  port: 8899
-  server: sgmob222.asuscomm.com
-  type: ss
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  delay: 416
-  name: 10|日本 - 東京都 - Nearoute Limited - ...
-  port: 37925
-  server: nnertn.vxzjv.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1160
-  h2-opts: {}
-  http-opts: {}
-  name: 10|法国 - 巴黎 - Akamai Technologies,...
+  delay: 1448
+  name: 10|德国 - 莱比锡 - Cloudflare, Inc. - ...
   network: ws
-  port: 443
-  server: 172.232.50.230
-  servername: glweidf.sbs
-  skip-cert-verify: true
+  port: 8443
+  server: buyix.qzz.io
+  servername: buyix.qzz.io
   tls: true
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d
   ws-opts:
     headers:
-      HOST: glweidf.sbs
-    path: /linkws
-- country: 🇫🇷FR
-  delay: 1126
-  name: 10|法国 - 巴黎 - Amazon Technologies ...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.87.56
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+      Host: buyix.qzz.io
+    path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  delay: 775
+  name: 10|摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 401
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|日本 - 东京 - Ipxo LLC - 2
+  network: http
+  port: 18639
+  server: 158.51.110.111
+  type: vmess
+  uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc
+- cipher: chacha20-ietf-poly1305
+  delay: 2662
+  name: 10|日本 - 东京 - PQ HOSTING PLUS S.R....
+  password: AIlKLws5WOwElkhke1F1yc
+  port: 1235
+  server: sakura.outlinekeys.net
+  type: ss
   udp: true
-- country: 🇫🇷FR
-  delay: 2799
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.241.245
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1345
+  h2-opts: {}
+  http-opts: {}
+  name: 10|澳大利亚 - 悉尼 - The Constant Compa...
+  network: tcp
+  port: 45237
+  server: fa.fxlcn.com
+  servername: fa.fxlcn.com
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  country: 🇷🇴RO
+  delay: 2036
+  h2-opts: {}
+  http-opts: {}
+  name: 10|罗马尼亚 - Timișoara - Unmanaged L...
+  network: tcp
+  port: 45236
+  server: ys.fxlcn.com
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- delay: 2709
+  name: 10|美国 - 东洛杉矶 - Cloudflare, Inc. -...
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  sni: juzi8186-sr1.pages.dev
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 689
+  delay: 806
   name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  delay: 829
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - Cogent Communicatio...
+  network: none
+  port: 6514
+  server: 193.124.24.247
+  skip-cert-verify: true
+  type: vmess
+  uuid: c362d735-01a8-48eb-baa2-ae7aa63bfdc3
+- alterId: 0
+  cipher: auto
+  country: 🇷🇴RO
+  delay: 2289
+  h2-opts: {}
+  http-opts: {}
+  name: 10|英国 - Tower Hamlets - VORBOSS-L...
+  network: tcp
+  port: 45210
+  server: lt.fxlcn.com
+  servername: vle.amclubdns.dpdns.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1040
-  name: 10|美国 - 洛杉矶 - Dedicated.com - 1
+  delay: 1828
+  name: 10|荷兰 - 哈勒姆 - Online SAS NL - 1
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 880
-  name: 10|英国 - 伦敦 - Comsenso BV - 1
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40008
-  server: uk.fastsoonlink.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 629
-  name: 10|荷兰 - 阿姆斯特丹 - Aeza Internationa...
-  password: xwhJKQGU6EBtCQWwSf4kOk
-  port: 20904
-  server: 95.181.162.236
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱NL
-  delay: 639
-  name: 10|荷兰 - 阿姆斯特丹 - Servers Tech Fzco...
-  password: S2QudBxi0vRySw4YRLloPq
-  port: 55702
-  server: 77.238.224.29
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇳🇱NL
-  delay: 644
-  name: 10|荷兰 - 阿姆斯特丹 - Timeweb, LLP - 1
-  password: Pmv1JTWlDUABkAbOnaJ4Tf
-  port: 50042
-  server: 80.242.56.218
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇵🇹PT
-  delay: 944
-  name: 10|葡萄牙 - 里斯本 - BrainStorm Network...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 359
+  delay: 1477
   name: 10|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.53
+  server: 103.186.155.34
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 349
+  delay: 336
   name: 10|越南 - Hải Dương - FASTLY - 10
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.199
+  server: 103.186.155.53
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 1296
+  delay: 744
   name: 10|越南 - Hải Dương - FASTLY - 100
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 412
+  name: 10|越南 - Hải Dương - FASTLY - 101
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 425
+  name: 10|越南 - Hải Dương - FASTLY - 102
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.214
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 432
+  name: 10|越南 - Hải Dương - FASTLY - 103
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.192
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 400
+  name: 10|越南 - Hải Dương - FASTLY - 104
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.213
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1069
+  name: 10|越南 - Hải Dương - FASTLY - 105
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.105
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 608
+  name: 10|越南 - Hải Dương - FASTLY - 106
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.55
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 420
+  name: 10|越南 - Hải Dương - FASTLY - 107
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.140
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 432
+  name: 10|越南 - Hải Dương - FASTLY - 108
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.123
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 536
+  name: 10|越南 - Hải Dương - FASTLY - 109
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.145
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 432
+  name: 10|越南 - Hải Dương - FASTLY - 11
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.233
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 523
+  name: 10|越南 - Hải Dương - FASTLY - 110
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.76
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 508
+  name: 10|越南 - Hải Dương - FASTLY - 111
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.225
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 542
+  name: 10|越南 - Hải Dương - FASTLY - 112
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.131
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1318
+  name: 10|越南 - Hải Dương - FASTLY - 113
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.17
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1355
+  name: 10|越南 - Hải Dương - FASTLY - 114
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.152
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1734
+  name: 10|越南 - Hải Dương - FASTLY - 115
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.220
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1638
-  name: 10|越南 - Hải Dương - FASTLY - 101
+  delay: 516
+  name: 10|越南 - Hải Dương - FASTLY - 116
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.248
+  server: 103.186.154.245
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 497
+  name: 10|越南 - Hải Dương - FASTLY - 117
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.206
+  type: ss
+- cipher: aes-256-cfb
+  delay: 763
+  name: 10|越南 - Hải Dương - FASTLY - 118
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.221
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 441
+  name: 10|越南 - Hải Dương - FASTLY - 119
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.9
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 310
-  name: 10|越南 - Hải Dương - FASTLY - 102
+  delay: 751
+  name: 10|越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.136
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 395
+  name: 10|越南 - Hải Dương - FASTLY - 120
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.60
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1976
+  name: 10|越南 - Hải Dương - FASTLY - 121
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 421
+  name: 10|越南 - Hải Dương - FASTLY - 122
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1143
+  name: 10|越南 - Hải Dương - FASTLY - 123
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 639
+  name: 10|越南 - Hải Dương - FASTLY - 124
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.52
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 652
+  name: 10|越南 - Hải Dương - FASTLY - 125
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.80
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 424
+  name: 10|越南 - Hải Dương - FASTLY - 126
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.155
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 379
+  name: 10|越南 - Hải Dương - FASTLY - 127
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.27
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1312
+  name: 10|越南 - Hải Dương - FASTLY - 128
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.28
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 455
+  name: 10|越南 - Hải Dương - FASTLY - 129
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.32
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 304
+  name: 10|越南 - Hải Dương - FASTLY - 13
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.223
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 438
+  name: 10|越南 - Hải Dương - FASTLY - 130
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.20
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1904
+  name: 10|越南 - Hải Dương - FASTLY - 131
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.21
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 950
+  name: 10|越南 - Hải Dương - FASTLY - 132
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.35
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2711
+  name: 10|越南 - Hải Dương - FASTLY - 133
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.22
+  type: ss
+- cipher: aes-256-cfb
+  delay: 2711
+  name: 10|越南 - Hải Dương - FASTLY - 134
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1771
+  name: 10|越南 - Hải Dương - FASTLY - 135
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.177
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2855
+  name: 10|越南 - Hải Dương - FASTLY - 136
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.188
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1369
+  name: 10|越南 - Hải Dương - FASTLY - 137
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.201
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1368
+  name: 10|越南 - Hải Dương - FASTLY - 138
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.161
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1344
+  name: 10|越南 - Hải Dương - FASTLY - 139
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.212
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 309
-  name: 10|越南 - Hải Dương - FASTLY - 103
+  delay: 721
+  name: 10|越南 - Hải Dương - FASTLY - 14
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.167
+  server: 103.186.155.145
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 338
-  name: 10|越南 - Hải Dương - FASTLY - 104
+  delay: 1767
+  name: 10|越南 - Hải Dương - FASTLY - 140
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.116
+  server: 103.186.155.128
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 292
-  name: 10|越南 - Hải Dương - FASTLY - 105
+  delay: 521
+  name: 10|越南 - Hải Dương - FASTLY - 141
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.242
+  server: 103.186.155.222
   type: ss
 - cipher: aes-256-cfb
-  delay: 297
-  name: 10|越南 - Hải Dương - FASTLY - 106
+  country: 🏁ZZ
+  delay: 1875
+  name: 10|越南 - Hải Dương - FASTLY - 142
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.244
+  server: 103.186.155.225
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 895
+  name: 10|越南 - Hải Dương - FASTLY - 143
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 491
+  name: 10|越南 - Hải Dương - FASTLY - 144
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.40
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1591
+  name: 10|越南 - Hải Dương - FASTLY - 145
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.138
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 485
+  name: 10|越南 - Hải Dương - FASTLY - 146
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 520
+  name: 10|越南 - Hải Dương - FASTLY - 147
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.59
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1315
+  name: 10|越南 - Hải Dương - FASTLY - 148
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.44
+  type: ss
+- cipher: aes-256-cfb
+  delay: 894
+  name: 10|越南 - Hải Dương - FASTLY - 149
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.77
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 271
-  name: 10|越南 - Hải Dương - FASTLY - 107
+  country: 🏁ZZ
+  delay: 917
+  name: 10|越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.85
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1349
+  name: 10|越南 - Hải Dương - FASTLY - 150
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.78
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 484
+  name: 10|越南 - Hải Dương - FASTLY - 151
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.180
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 489
+  name: 10|越南 - Hải Dương - FASTLY - 152
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.144
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 483
+  name: 10|越南 - Hải Dương - FASTLY - 153
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.186
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2327
+  name: 10|越南 - Hải Dương - FASTLY - 154
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.169
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 978
+  name: 10|越南 - Hải Dương - FASTLY - 155
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.222
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2150
+  name: 10|越南 - Hải Dương - FASTLY - 156
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2314
+  name: 10|越南 - Hải Dương - FASTLY - 157
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.112
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1756
+  name: 10|越南 - Hải Dương - FASTLY - 158
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.59
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1524
+  name: 10|越南 - Hải Dương - FASTLY - 159
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.204
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 497
+  name: 10|越南 - Hải Dương - FASTLY - 16
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.218
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 334
+  name: 10|越南 - Hải Dương - FASTLY - 17
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.197
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1208
+  name: 10|越南 - Hải Dương - FASTLY - 18
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2271
+  name: 10|越南 - Hải Dương - FASTLY - 19
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.160
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 345
+  name: 10|越南 - Hải Dương - FASTLY - 2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.11
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇻🇳VN
+  delay: 744
+  name: 10|越南 - Hải Dương - FASTLY - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.198
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 727
+  name: 10|越南 - Hải Dương - FASTLY - 21
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.45
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 733
+  name: 10|越南 - Hải Dương - FASTLY - 22
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.247
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1397
+  name: 10|越南 - Hải Dương - FASTLY - 23
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.108
+  type: ss
+- cipher: aes-256-cfb
+  delay: 765
+  name: 10|越南 - Hải Dương - FASTLY - 24
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.43
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1393
+  name: 10|越南 - Hải Dương - FASTLY - 25
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.144
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 686
+  name: 10|越南 - Hải Dương - FASTLY - 26
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1388
+  name: 10|越南 - Hải Dương - FASTLY - 27
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.62
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1678
+  name: 10|越南 - Hải Dương - FASTLY - 28
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.173
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 779
+  name: 10|越南 - Hải Dương - FASTLY - 29
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.115
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 772
+  name: 10|越南 - Hải Dương - FASTLY - 3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.235
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 731
+  name: 10|越南 - Hải Dương - FASTLY - 30
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2490
+  name: 10|越南 - Hải Dương - FASTLY - 31
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.170
+  type: ss
+- cipher: aes-256-cfb
+  delay: 763
+  name: 10|越南 - Hải Dương - FASTLY - 32
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.83
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 751
+  name: 10|越南 - Hải Dương - FASTLY - 33
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.229
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 2908
+  name: 10|越南 - Hải Dương - FASTLY - 34
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.42
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1355
+  name: 10|越南 - Hải Dương - FASTLY - 35
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.8
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 686
+  name: 10|越南 - Hải Dương - FASTLY - 36
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.3
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1284
+  name: 10|越南 - Hải Dương - FASTLY - 37
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.57
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1336
+  name: 10|越南 - Hải Dương - FASTLY - 38
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.70
+  type: ss
+- cipher: aes-256-cfb
+  delay: 405
+  name: 10|越南 - Hải Dương - FASTLY - 39
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.9
@@ -460,1593 +1019,537 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 290
-  name: 10|越南 - Hải Dương - FASTLY - 108
+  delay: 673
+  name: 10|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.50
+  server: 103.186.155.203
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 281
-  name: 10|越南 - Hải Dương - FASTLY - 109
+  delay: 665
+  name: 10|越南 - Hải Dương - FASTLY - 40
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.114
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 406
+  name: 10|越南 - Hải Dương - FASTLY - 41
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.42
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 398
+  name: 10|越南 - Hải Dương - FASTLY - 42
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.69
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 286
+  name: 10|越南 - Hải Dương - FASTLY - 43
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.246
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 592
-  name: 10|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.247
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1302
-  name: 10|越南 - Hải Dương - FASTLY - 110
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.228
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2268
-  name: 10|越南 - Hải Dương - FASTLY - 111
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.8
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 283
-  name: 10|越南 - Hải Dương - FASTLY - 112
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.56
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 653
-  name: 10|越南 - Hải Dương - FASTLY - 113
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.76
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 571
-  name: 10|越南 - Hải Dương - FASTLY - 114
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.41
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2566
-  name: 10|越南 - Hải Dương - FASTLY - 115
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.160
-  type: ss
-- cipher: aes-256-cfb
-  delay: 327
-  name: 10|越南 - Hải Dương - FASTLY - 116
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 299
-  name: 10|越南 - Hải Dương - FASTLY - 117
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.68
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 290
-  name: 10|越南 - Hải Dương - FASTLY - 118
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.17
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 288
-  name: 10|越南 - Hải Dương - FASTLY - 119
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.84
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 316
-  name: 10|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.58
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 299
-  name: 10|越南 - Hải Dương - FASTLY - 120
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 321
-  name: 10|越南 - Hải Dương - FASTLY - 121
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.145
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1649
-  name: 10|越南 - Hải Dương - FASTLY - 122
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.179
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 559
-  name: 10|越南 - Hải Dương - FASTLY - 123
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.206
-  type: ss
-- cipher: aes-256-cfb
-  delay: 630
-  name: 10|越南 - Hải Dương - FASTLY - 124
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.170
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1609
-  name: 10|越南 - Hải Dương - FASTLY - 125
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.46
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 309
-  name: 10|越南 - Hải Dương - FASTLY - 126
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.174
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 510
-  name: 10|越南 - Hải Dương - FASTLY - 127
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.210
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 311
-  name: 10|越南 - Hải Dương - FASTLY - 128
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.146
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 265
-  name: 10|越南 - Hải Dương - FASTLY - 129
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.57
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 344
-  name: 10|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.12
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 310
-  name: 10|越南 - Hải Dương - FASTLY - 130
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.51
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 306
-  name: 10|越南 - Hải Dương - FASTLY - 131
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.31
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1657
-  name: 10|越南 - Hải Dương - FASTLY - 132
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.187
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 594
-  name: 10|越南 - Hải Dương - FASTLY - 133
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.71
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 320
-  name: 10|越南 - Hải Dương - FASTLY - 134
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.39
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 305
-  name: 10|越南 - Hải Dương - FASTLY - 135
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.61
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 303
-  name: 10|越南 - Hải Dương - FASTLY - 136
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.201
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 679
-  name: 10|越南 - Hải Dương - FASTLY - 137
+  delay: 1897
+  name: 10|越南 - Hải Dương - FASTLY - 44
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.217
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 305
-  name: 10|越南 - Hải Dương - FASTLY - 138
+  delay: 318
+  name: 10|越南 - Hải Dương - FASTLY - 45
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.214
+  server: 103.186.154.162
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 302
-  name: 10|越南 - Hải Dương - FASTLY - 139
+  delay: 625
+  name: 10|越南 - Hải Dương - FASTLY - 46
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.140
+  server: 103.186.154.20
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 2066
-  name: 10|越南 - Hải Dương - FASTLY - 14
+  delay: 1326
+  name: 10|越南 - Hải Dương - FASTLY - 47
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.127
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 272
-  name: 10|越南 - Hải Dương - FASTLY - 140
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.54
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1307
-  name: 10|越南 - Hải Dương - FASTLY - 141
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.27
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 301
-  name: 10|越南 - Hải Dương - FASTLY - 142
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.3
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 421
-  name: 10|越南 - Hải Dương - FASTLY - 143
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.76
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 278
-  name: 10|越南 - Hải Dương - FASTLY - 144
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.234
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 417
-  name: 10|越南 - Hải Dương - FASTLY - 145
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.223
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 412
-  name: 10|越南 - Hải Dương - FASTLY - 146
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.213
-  type: ss
-- cipher: aes-256-cfb
-  delay: 435
-  name: 10|越南 - Hải Dương - FASTLY - 147
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.144
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 433
-  name: 10|越南 - Hải Dương - FASTLY - 148
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.55
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2316
-  name: 10|越南 - Hải Dương - FASTLY - 149
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.43
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 272
-  name: 10|越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.178
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 375
-  name: 10|越南 - Hải Dương - FASTLY - 150
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.62
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2298
-  name: 10|越南 - Hải Dương - FASTLY - 151
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.52
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 680
-  name: 10|越南 - Hải Dương - FASTLY - 152
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.44
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 416
-  name: 10|越南 - Hải Dương - FASTLY - 153
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.104
-  type: ss
-- cipher: aes-256-cfb
-  delay: 399
-  name: 10|越南 - Hải Dương - FASTLY - 154
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.211
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 679
-  name: 10|越南 - Hải Dương - FASTLY - 155
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.131
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 268
-  name: 10|越南 - Hải Dương - FASTLY - 156
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 663
-  name: 10|越南 - Hải Dương - FASTLY - 157
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.78
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 271
-  name: 10|越南 - Hải Dương - FASTLY - 158
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.204
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1060
-  name: 10|越南 - Hải Dương - FASTLY - 159
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.75
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 283
-  name: 10|越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
-  type: ss
-- cipher: aes-256-cfb
-  delay: 275
-  name: 10|越南 - Hải Dương - FASTLY - 160
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1833
-  name: 10|越南 - Hải Dương - FASTLY - 161
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.209
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 319
-  name: 10|越南 - Hải Dương - FASTLY - 162
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.193
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 381
-  name: 10|越南 - Hải Dương - FASTLY - 163
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.45
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 428
-  name: 10|越南 - Hải Dương - FASTLY - 164
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.57
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1601
-  name: 10|越南 - Hải Dương - FASTLY - 165
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.219
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 445
-  name: 10|越南 - Hải Dương - FASTLY - 166
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.226
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 289
-  name: 10|越南 - Hải Dương - FASTLY - 167
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 388
-  name: 10|越南 - Hải Dương - FASTLY - 168
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.215
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 382
-  name: 10|越南 - Hải Dương - FASTLY - 169
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.172
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1325
-  name: 10|越南 - Hải Dương - FASTLY - 17
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.214
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1619
-  name: 10|越南 - Hải Dương - FASTLY - 170
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.216
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1062
-  name: 10|越南 - Hải Dương - FASTLY - 171
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.236
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 430
-  name: 10|越南 - Hải Dương - FASTLY - 172
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.37
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 641
-  name: 10|越南 - Hải Dương - FASTLY - 173
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.61
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 468
-  name: 10|越南 - Hải Dương - FASTLY - 174
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.134
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 419
-  name: 10|越南 - Hải Dương - FASTLY - 175
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.154
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 310
-  name: 10|越南 - Hải Dương - FASTLY - 176
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.156
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 270
-  name: 10|越南 - Hải Dương - FASTLY - 177
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.106
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1144
-  name: 10|越南 - Hải Dương - FASTLY - 178
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.26
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 631
-  name: 10|越南 - Hải Dương - FASTLY - 179
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1162
-  name: 10|越南 - Hải Dương - FASTLY - 18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.60
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 423
-  name: 10|越南 - Hải Dương - FASTLY - 180
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.50
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 630
-  name: 10|越南 - Hải Dương - FASTLY - 181
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.243
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 270
-  name: 10|越南 - Hải Dương - FASTLY - 182
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.191
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 269
-  name: 10|越南 - Hải Dương - FASTLY - 183
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.115
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1407
-  name: 10|越南 - Hải Dương - FASTLY - 184
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.155
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 303
-  name: 10|越南 - Hải Dương - FASTLY - 185
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.168
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 916
-  name: 10|越南 - Hải Dương - FASTLY - 186
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 893
-  name: 10|越南 - Hải Dương - FASTLY - 187
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2094
-  name: 10|越南 - Hải Dương - FASTLY - 188
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 971
-  name: 10|越南 - Hải Dương - FASTLY - 189
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.20
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1068
-  name: 10|越南 - Hải Dương - FASTLY - 19
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 922
-  name: 10|越南 - Hải Dương - FASTLY - 190
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2801
-  name: 10|越南 - Hải Dương - FASTLY - 191
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.24
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 725
-  name: 10|越南 - Hải Dương - FASTLY - 192
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1950
-  name: 10|越南 - Hải Dương - FASTLY - 193
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.35
-  type: ss
-- cipher: aes-256-cfb
-  delay: 805
-  name: 10|越南 - Hải Dương - FASTLY - 194
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 672
-  name: 10|越南 - Hải Dương - FASTLY - 195
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.29
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 508
-  name: 10|越南 - Hải Dương - FASTLY - 196
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.153
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1637
-  name: 10|越南 - Hải Dương - FASTLY - 197
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.64
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1637
-  name: 10|越南 - Hải Dương - FASTLY - 198
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.34
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 481
-  name: 10|越南 - Hải Dương - FASTLY - 199
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.41
-  type: ss
-- cipher: aes-256-cfb
-  delay: 317
-  name: 10|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.11
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 296
-  name: 10|越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.223
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 817
-  name: 10|越南 - Hải Dương - FASTLY - 200
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.66
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1800
-  name: 10|越南 - Hải Dương - FASTLY - 201
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.125
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 927
-  name: 10|越南 - Hải Dương - FASTLY - 202
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.151
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1205
-  name: 10|越南 - Hải Dương - FASTLY - 203
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.22
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1591
-  name: 10|越南 - Hải Dương - FASTLY - 204
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.4
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 836
-  name: 10|越南 - Hải Dương - FASTLY - 205
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.148
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1006
-  name: 10|越南 - Hải Dương - FASTLY - 206
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.228
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 282
-  name: 10|越南 - Hải Dương - FASTLY - 207
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.186
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1267
-  name: 10|越南 - Hải Dương - FASTLY - 21
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.102
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 291
-  name: 10|越南 - Hải Dương - FASTLY - 22
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.81
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 299
-  name: 10|越南 - Hải Dương - FASTLY - 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.66
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 288
-  name: 10|越南 - Hải Dương - FASTLY - 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.136
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 328
-  name: 10|越南 - Hải Dương - FASTLY - 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.231
-  type: ss
-- cipher: aes-256-cfb
-  delay: 271
-  name: 10|越南 - Hải Dương - FASTLY - 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 735
-  name: 10|越南 - Hải Dương - FASTLY - 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.114
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 704
-  name: 10|越南 - Hải Dương - FASTLY - 28
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.161
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 283
-  name: 10|越南 - Hải Dương - FASTLY - 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.2
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 313
-  name: 10|越南 - Hải Dương - FASTLY - 3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.75
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1811
-  name: 10|越南 - Hải Dương - FASTLY - 30
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.139
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 326
-  name: 10|越南 - Hải Dương - FASTLY - 31
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 304
-  name: 10|越南 - Hải Dương - FASTLY - 32
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.197
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 306
-  name: 10|越南 - Hải Dương - FASTLY - 33
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.129
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 277
-  name: 10|越南 - Hải Dương - FASTLY - 34
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2830
-  name: 10|越南 - Hải Dương - FASTLY - 35
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.55
-  type: ss
-- cipher: aes-256-cfb
-  delay: 730
-  name: 10|越南 - Hải Dương - FASTLY - 36
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 277
-  name: 10|越南 - Hải Dương - FASTLY - 37
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.40
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 301
-  name: 10|越南 - Hải Dương - FASTLY - 38
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.182
+  server: 103.186.154.210
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   delay: 396
-  name: 10|越南 - Hải Dương - FASTLY - 39
+  name: 10|越南 - Hải Dương - FASTLY - 48
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.120
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 598
-  name: 10|越南 - Hải Dương - FASTLY - 4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 373
-  name: 10|越南 - Hải Dương - FASTLY - 40
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.221
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 365
-  name: 10|越南 - Hải Dương - FASTLY - 41
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.49
+  server: 103.186.154.253
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   delay: 396
-  name: 10|越南 - Hải Dương - FASTLY - 42
+  name: 10|越南 - Hải Dương - FASTLY - 49
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.200
   type: ss
 - cipher: aes-256-cfb
-  delay: 362
-  name: 10|越南 - Hải Dương - FASTLY - 43
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.12
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 901
-  name: 10|越南 - Hải Dương - FASTLY - 44
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.225
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 366
-  name: 10|越南 - Hải Dương - FASTLY - 45
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.62
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 397
-  name: 10|越南 - Hải Dương - FASTLY - 46
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.218
-  type: ss
-- cipher: aes-256-cfb
-  delay: 391
-  name: 10|越南 - Hải Dương - FASTLY - 47
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.188
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 621
-  name: 10|越南 - Hải Dương - FASTLY - 48
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.183
-  type: ss
-- cipher: aes-256-cfb
-  delay: 361
-  name: 10|越南 - Hải Dương - FASTLY - 49
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.177
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1378
+  delay: 439
   name: 10|越南 - Hải Dương - FASTLY - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.227
+  server: 103.186.155.39
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 367
+  delay: 465
   name: 10|越南 - Hải Dương - FASTLY - 50
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.10
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 815
-  name: 10|越南 - Hải Dương - FASTLY - 51
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.52
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 368
-  name: 10|越南 - Hải Dương - FASTLY - 52
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1382
-  name: 10|越南 - Hải Dương - FASTLY - 53
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.16
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 810
-  name: 10|越南 - Hải Dương - FASTLY - 54
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.230
-  type: ss
-- cipher: aes-256-cfb
-  delay: 392
-  name: 10|越南 - Hải Dương - FASTLY - 55
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.122
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 670
-  name: 10|越南 - Hải Dương - FASTLY - 56
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.236
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 432
-  name: 10|越南 - Hải Dương - FASTLY - 57
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.74
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1107
-  name: 10|越南 - Hải Dương - FASTLY - 58
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.132
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 403
-  name: 10|越南 - Hải Dương - FASTLY - 59
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.205
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 259
-  name: 10|越南 - Hải Dương - FASTLY - 6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.235
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1267
-  name: 10|越南 - Hải Dương - FASTLY - 60
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.195
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 435
-  name: 10|越南 - Hải Dương - FASTLY - 61
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.63
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 387
-  name: 10|越南 - Hải Dương - FASTLY - 62
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.49
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1630
-  name: 10|越南 - Hải Dương - FASTLY - 63
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.79
-  type: ss
-- cipher: aes-256-cfb
-  delay: 426
-  name: 10|越南 - Hải Dương - FASTLY - 64
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 365
-  name: 10|越南 - Hải Dương - FASTLY - 65
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.117
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 383
-  name: 10|越南 - Hải Dương - FASTLY - 66
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.63
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 711
-  name: 10|越南 - Hải Dương - FASTLY - 67
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.15
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 430
-  name: 10|越南 - Hải Dương - FASTLY - 68
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.69
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1830
-  name: 10|越南 - Hải Dương - FASTLY - 69
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.108
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1081
-  name: 10|越南 - Hải Dương - FASTLY - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.128
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1500
-  name: 10|越南 - Hải Dương - FASTLY - 70
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.202
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2444
-  name: 10|越南 - Hải Dương - FASTLY - 71
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.124
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 374
-  name: 10|越南 - Hải Dương - FASTLY - 72
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.173
-  type: ss
-- cipher: aes-256-cfb
-  delay: 395
-  name: 10|越南 - Hải Dương - FASTLY - 73
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 441
-  name: 10|越南 - Hải Dương - FASTLY - 74
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.169
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 381
-  name: 10|越南 - Hải Dương - FASTLY - 75
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.190
-  type: ss
-- cipher: aes-256-cfb
-  delay: 371
-  name: 10|越南 - Hải Dương - FASTLY - 76
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1534
-  name: 10|越南 - Hải Dương - FASTLY - 77
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.238
-  type: ss
-- cipher: aes-256-cfb
-  delay: 290
-  name: 10|越南 - Hải Dương - FASTLY - 78
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.215
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 301
-  name: 10|越南 - Hải Dương - FASTLY - 79
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.143
-  type: ss
-- cipher: aes-256-cfb
-  delay: 304
-  name: 10|越南 - Hải Dương - FASTLY - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.207
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2107
-  name: 10|越南 - Hải Dương - FASTLY - 80
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.141
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 294
-  name: 10|越南 - Hải Dương - FASTLY - 81
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.33
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 405
-  name: 10|越南 - Hải Dương - FASTLY - 82
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.15
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 327
-  name: 10|越南 - Hải Dương - FASTLY - 83
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.71
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 317
-  name: 10|越南 - Hải Dương - FASTLY - 84
+  delay: 419
+  name: 10|越南 - Hải Dương - FASTLY - 51
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.80
+  server: 103.186.154.72
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 815
-  name: 10|越南 - Hải Dương - FASTLY - 85
+  delay: 450
+  name: 10|越南 - Hải Dương - FASTLY - 52
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.56
+  server: 103.186.155.75
   type: ss
 - cipher: aes-256-cfb
-  delay: 331
-  name: 10|越南 - Hải Dương - FASTLY - 86
+  country: 🏁ZZ
+  delay: 408
+  name: 10|越南 - Hải Dương - FASTLY - 53
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.51
+  server: 103.186.155.18
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 302
-  name: 10|越南 - Hải Dương - FASTLY - 87
+  country: 🏁ZZ
+  delay: 394
+  name: 10|越南 - Hải Dương - FASTLY - 54
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.82
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 471
+  name: 10|越南 - Hải Dương - FASTLY - 55
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 393
+  name: 10|越南 - Hải Dương - FASTLY - 56
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.10
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 416
+  name: 10|越南 - Hải Dương - FASTLY - 57
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.61
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 393
+  name: 10|越南 - Hải Dương - FASTLY - 58
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 606
+  name: 10|越南 - Hải Dương - FASTLY - 59
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 630
+  name: 10|越南 - Hải Dương - FASTLY - 6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.36
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 692
+  name: 10|越南 - Hải Dương - FASTLY - 60
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.224
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 916
+  name: 10|越南 - Hải Dương - FASTLY - 61
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.49
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1285
+  name: 10|越南 - Hải Dương - FASTLY - 62
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.69
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 324
-  name: 10|越南 - Hải Dương - FASTLY - 88
+  delay: 372
+  name: 10|越南 - Hải Dương - FASTLY - 63
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.107
+  server: 103.186.154.147
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 584
-  name: 10|越南 - Hải Dương - FASTLY - 89
+  delay: 368
+  name: 10|越南 - Hải Dương - FASTLY - 64
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.211
+  server: 103.186.154.154
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 1277
-  name: 10|越南 - Hải Dương - FASTLY - 9
+  delay: 515
+  name: 10|越南 - Hải Dương - FASTLY - 65
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.17
-  type: ss
-- cipher: aes-256-cfb
-  delay: 314
-  name: 10|越南 - Hải Dương - FASTLY - 90
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.47
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 298
-  name: 10|越南 - Hải Dương - FASTLY - 91
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.54
+  server: 103.186.154.229
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 2175
-  name: 10|越南 - Hải Dương - FASTLY - 92
+  delay: 373
+  name: 10|越南 - Hải Dương - FASTLY - 66
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.53
+  server: 103.186.154.203
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 756
-  name: 10|越南 - Hải Dương - FASTLY - 93
+  delay: 348
+  name: 10|越南 - Hải Dương - FASTLY - 67
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.80
+  server: 103.186.155.143
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   delay: 330
-  name: 10|越南 - Hải Dương - FASTLY - 94
+  name: 10|越南 - Hải Dương - FASTLY - 68
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.222
+  server: 103.186.155.207
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 324
-  name: 10|越南 - Hải Dương - FASTLY - 95
+  delay: 345
+  name: 10|越南 - Hải Dương - FASTLY - 69
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.70
+  server: 103.186.155.209
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 268
-  name: 10|越南 - Hải Dương - FASTLY - 96
+  delay: 962
+  name: 10|越南 - Hải Dương - FASTLY - 7
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.237
+  server: 103.186.155.213
   type: ss
 - cipher: aes-256-cfb
-  delay: 306
-  name: 10|越南 - Hải Dương - FASTLY - 97
+  country: 🏁ZZ
+  delay: 351
+  name: 10|越南 - Hải Dương - FASTLY - 70
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.194
+  server: 103.186.155.54
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 368
+  name: 10|越南 - Hải Dương - FASTLY - 71
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.190
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1243
+  name: 10|越南 - Hải Dương - FASTLY - 72
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.76
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 769
+  name: 10|越南 - Hải Dương - FASTLY - 73
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 363
+  name: 10|越南 - Hải Dương - FASTLY - 74
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.236
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 344
+  name: 10|越南 - Hải Dương - FASTLY - 75
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.248
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 346
+  name: 10|越南 - Hải Dương - FASTLY - 76
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.216
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 793
+  name: 10|越南 - Hải Dương - FASTLY - 77
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.140
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 329
+  name: 10|越南 - Hải Dương - FASTLY - 78
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.182
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1393
+  name: 10|越南 - Hải Dương - FASTLY - 79
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.238
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 663
+  name: 10|越南 - Hải Dương - FASTLY - 8
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.13
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 378
+  name: 10|越南 - Hải Dương - FASTLY - 80
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.154
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1425
+  name: 10|越南 - Hải Dương - FASTLY - 81
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.141
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1903
+  name: 10|越南 - Hải Dương - FASTLY - 82
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.142
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1081
+  name: 10|越南 - Hải Dương - FASTLY - 83
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.119
   type: ss
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 303
-  name: 10|越南 - Hải Dương - FASTLY - 98
+  delay: 1753
+  name: 10|越南 - Hải Dương - FASTLY - 84
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.231
+  server: 103.186.155.12
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 281
+  delay: 1460
+  name: 10|越南 - Hải Dương - FASTLY - 85
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.206
+  type: ss
+- cipher: aes-256-cfb
+  delay: 373
+  name: 10|越南 - Hải Dương - FASTLY - 86
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.235
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 371
+  name: 10|越南 - Hải Dương - FASTLY - 87
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 410
+  name: 10|越南 - Hải Dương - FASTLY - 88
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.184
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1403
+  name: 10|越南 - Hải Dương - FASTLY - 89
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.65
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 940
+  name: 10|越南 - Hải Dương - FASTLY - 9
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 420
+  name: 10|越南 - Hải Dương - FASTLY - 90
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.126
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 378
+  name: 10|越南 - Hải Dương - FASTLY - 91
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.219
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 461
+  name: 10|越南 - Hải Dương - FASTLY - 92
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.15
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1592
+  name: 10|越南 - Hải Dương - FASTLY - 93
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.51
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 806
+  name: 10|越南 - Hải Dương - FASTLY - 94
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 402
+  name: 10|越南 - Hải Dương - FASTLY - 95
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.122
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1860
+  name: 10|越南 - Hải Dương - FASTLY - 96
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.77
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 840
+  name: 10|越南 - Hải Dương - FASTLY - 97
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.149
+  type: ss
+- cipher: aes-256-cfb
+  delay: 378
+  name: 10|越南 - Hải Dương - FASTLY - 98
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.101
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1368
   name: 10|越南 - Hải Dương - FASTLY - 99
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.109
+  server: 103.186.154.254
   type: ss
-- cipher: aes-256-cfb
-  country: 🇰🇷 KR
-  delay: 2190
-  name: 10|韩国 - 光明市 - SK Broadband Co Ltd...
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.185.56.207
+  server: 54.72.237.123
   tfo: false
   type: ss
 - alterId: 2
@@ -2082,20 +1585,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12,13|香港3|@ripaojiedian
-  network: ws
-  port: '41311'
-  server: xiaoniu.v.jsqcdn.bid
-  servername: ''
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 44601
+  server: 43.247.135.86
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2104,16 +1601,6 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港5|@ripaojiedian
-  port: 57586
-  server: 45.89.233.236
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
 - name: 12,13|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2122,18 +1609,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港HK|@ripaojiedian
-  network: http
-  port: 24939
-  server: 38.147.188.112
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - name: 12,13|台湾|@ripaojiedian
   network: tcp
   password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
@@ -2147,7 +1622,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2228,7 +1703,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -2259,14 +1734,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港5|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
-  port: '57586'
-  server: 45.89.233.236
+  port: '44601'
+  server: 43.247.135.86
   servername: ''
   tls: false
   type: vmess
-  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - alterId: 0
   cipher: auto
   name: 13|香港v2|@ripaojiedian
@@ -2277,16 +1752,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
-- alterId: 0
-  cipher: auto
-  name: 13|香港HK|@ripaojiedian
-  network: tcp
-  port: '24939'
-  server: 38.147.188.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - alterId: 0
   cipher: auto
   name: 13|日本v2|@ripaojiedian

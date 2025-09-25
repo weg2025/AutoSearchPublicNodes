@@ -1,21 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 416
-  name: 10|日本 - 東京都 - Nearoute Limited - ...
-  port: 37925
-  server: nnertn.vxzjv.xyz
-  tls: false
+  delay: 401
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|日本 - 东京 - Ipxo LLC - 2
+  network: http
+  port: 18639
+  server: 158.51.110.111
   type: vmess
-  udp: true
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
+  uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
