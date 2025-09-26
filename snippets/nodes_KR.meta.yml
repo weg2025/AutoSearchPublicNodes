@@ -7,7 +7,16 @@ proxies:
   server: 154.90.63.177
   tfo: false
   type: ss
-- name: 14|KR_speednode_0028
+- name: 14|KR_speednode_0024
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: 14|KR_speednode_0025
   network: ws
   port: 8443
   server: 158.180.82.203
@@ -21,10 +30,10 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 14|KR_speednode_0029
+- name: 14|KR_speednode_0026
   network: ws
-  port: 30067
-  server: 112.156.154.95
+  port: 50000
+  server: 124.48.225.132
   servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
   tls: true
@@ -35,24 +44,10 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 14|KR_speednode_0031
+- name: 14|KR_speednode_0027
   network: ws
-  port: 18788
-  server: 146.56.157.15
-  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
-  ws-opts:
-    headers:
-      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
-    path: /snippets
-- name: 14|KR_speednode_0032
-  network: ws
-  port: 30063
-  server: 118.131.232.132
+  port: 30067
+  server: 112.156.154.95
   servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
   tls: true
