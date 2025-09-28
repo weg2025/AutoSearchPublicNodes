@@ -1,13 +1,5 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  delay: 771
-  name: 10|俄罗斯 - 圣彼得堡 - LLC Baxet - 1
-  password: 9f3d1a6d31468599
-  port: 1901
-  server: 195.58.49.100
-  type: ss
-- name: 14|RU_speednode_0028
+- name: 15|RU_speednode_0014
   network: ws
   port: 8443
   server: 81.200.158.206
@@ -21,7 +13,21 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 14|RU_speednode_0029
+- name: 15|RU_speednode_0015
+  network: ws
+  port: 2053
+  server: 89.169.160.84
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+- name: 15|RU_speednode_0016
   network: ws
   port: 2053
   server: 89.169.160.84

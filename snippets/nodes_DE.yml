@@ -1,16 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 1448
-  name: 10|德国 - 莱比锡 - Cloudflare, Inc. - ...
-  network: ws
-  port: 8443
-  server: buyix.qzz.io
-  servername: buyix.qzz.io
-  tls: true
-  type: vmess
-  uuid: 2d24d147-366a-4cfa-9f15-c86402d3840d
-  ws-opts:
-    headers:
-      Host: buyix.qzz.io
-    path: /2d24d147-366a-4cfa-9f15-c86402d3840d-vm
+- cipher: chacha20-ietf
+  delay: 1186
+  name: 11|德国 - Offenbach Am Main - dataf...
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1394
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: hneyoxqhenuf.dnsfailover.org
+  type: ssr
+  udp: true

@@ -2,23 +2,10 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 327
+  delay: 1458
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
-  network: tcp
-  port: 50002
-  server: 106.14.75.114
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 306
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
+  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
   network: tcp
   port: 50002
   server: 39.100.81.215
@@ -28,10 +15,10 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 541
+  delay: 1290
   h2-opts: {}
   http-opts: {}
-  name: '10|中国 - 北京 - Hangzhou Alibaba Adv... #1'
+  name: '11|中国 - 北京 - Hangzhou Alibaba Adv... #1'
   network: tcp
   port: 30302
   server: 39.107.155.11
@@ -40,10 +27,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 1526
+  delay: 1551
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 广州市 - Shenzhen Tencent Co...
+  name: 11|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
   port: 11399
   server: 119.29.98.43
@@ -53,23 +40,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  delay: 414
+  delay: 1425
   h2-opts: {}
   http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #1'
-  network: ws
-  port: 48536
-  server: 119.29.98.43
-  type: vmess
-  uuid: 057caba1-2237-41e6-a54d-ec03509898a5
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 1502
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #2'
+  name: '11|中国 - 广州市 - Shenzhen Tencent Co... #1'
   network: ws
   port: 56532
   server: 119.29.98.43
@@ -80,35 +54,13 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 226
+  delay: 364
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
   network: tcp
   port: 50002
-  server: 139.129.20.6
+  server: 120.26.137.112
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|CN_speednode_0002
-  network: ws
-  port: 443
-  server: blog.811520.xyz
-  servername: vless4-8y8.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2c4d3d64-9742-4d2e-9f6f-a1ecabd22b27
-  ws-opts:
-    headers:
-      Host: vless4-8y8.pages.dev
-    path: /?ed=2560
-- name: 14|CN_speednode_0003
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
-  type: trojan
-  udp: true

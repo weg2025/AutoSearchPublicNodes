@@ -1,6 +1,18 @@
 proxies:
+- cipher: chacha20-ietf
+  delay: 332
+  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 1
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1456
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: 106.126.3.24
+  type: ssr
+  udp: true
 - client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -9,32 +21,15 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 4397
-  server: 160.16.117.182
+  port: 449
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|新加坡3|@ripaojiedian
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- name: 14|SG_speednode_0030
+- name: 15|SG_speednode_0020
   network: ws
   port: 2096
   server: 92.243.75.32
@@ -48,17 +43,3 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippetssecurity=tls
-- name: 14|SG_speednode_0031
-  network: ws
-  port: 2096
-  server: 92.243.75.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets

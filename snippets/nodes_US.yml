@@ -1,39 +1,90 @@
 proxies:
-- delay: 2709
-  name: 10|美国 - 东洛杉矶 - Cloudflare, Inc. -...
-  network: ws
-  password: juzi
-  port: 443
-  server: 154.29.155.249
-  sni: juzi8186-sr1.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: juzi8186-sr1.pages.dev
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 806
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  delay: 1684
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 609
+  name: 11|美国 - 洛杉矶 - Global Communicatio...
+  password: 9rLHtN
+  plugin: obfs
+  plugin-opts:
+    host: 018085824a.microsoft.com
+    mode: http
+  port: 37269
+  server: x-nubla-01.o-airport.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇷🇺RU
-  delay: 829
+  country: 🇨🇾CY
+  delay: 2781
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 達拉斯 - Cogent Communicatio...
-  network: none
-  port: 6514
-  server: 193.124.24.247
+  name: 11|美国 - 洛杉矶 - HostPapa - 31
+  network: ws
+  port: 2053
+  server: fastcup.net
+  servername: cdn-node-oss-94.paofu.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8b0a592f-1fee-4da0-add6-f8e108611164
+  ws-opts:
+    headers:
+      HOST: cdn-node-oss-94.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1582
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - HostPapa - 32
+  network: ws
+  port: 2052
+  server: 104.16.155.10
+  servername: 100-253-62-167.s5.cn-db.top
   skip-cert-verify: true
   type: vmess
-  uuid: c362d735-01a8-48eb-baa2-ae7aa63bfdc3
+  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
+  ws-opts:
+    headers:
+      HOST: 100-253-62-167.s5.cn-db.top
+    path: /dabai.in172.64.15.49
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1233
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - WebNX, Inc. - 2
+  network: tcp
+  port: 45257
+  server: ys.fxlcn.com
+  servername: ys.fxlcn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  delay: 2903
+  name: 11|美国 - 纽约 - FranTech Solutions -...
+  network: ws
+  port: 22121
+  server: 45.144.174.60
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e9a5998-5d8a-4b1e-98b2-b05e6c5564f0
+  ws-opts:
+    path: /
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1700
@@ -42,7 +93,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
