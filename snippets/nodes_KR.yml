@@ -2,8 +2,29 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇰🇷KR
   delay: 2959
-  name: 11|韩国 - 首尔特别市 - Korea Telecom - 2
+  name: 10|韩国 - 首尔特别市 - Korea Telecom - 2
   password: qwerREWQ@@
   port: 2520
   server: 121.170.203.147
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  port: 10755
+  server: 45.94.68.13
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a844b289-6fd7-407b-8312-d600ec2efcd4
+- alterId: 0
+  cipher: auto
+  name: 13|韩国|@ripaojiedian
+  network: tcp
+  port: '10755'
+  server: 45.94.68.13
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a844b289-6fd7-407b-8312-d600ec2efcd4
