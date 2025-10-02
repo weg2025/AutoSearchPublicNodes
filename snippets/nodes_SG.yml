@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf
+  delay: 332
+  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 1
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1456
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: 106.126.3.24
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  name: 13,14|新加坡|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1085
+  server: 36.156.102.88
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2173
+  server: 160.16.72.33
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
