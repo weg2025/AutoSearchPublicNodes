@@ -1,99 +1,101 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  delay: 1414
+  name: 10|美国 - 亚特兰大 - Melbikomas UAB - 2
+  password: oGOnNFGhv1SAL5rKSYCdVv
+  port: 8443
+  server: 95.81.85.102
+  type: ss
+- country: 🇺🇸US
+  delay: 875
+  name: 10|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  password: a1a37563-3bd9-45d0-b6a5-be921b623391
+  port: 443
+  server: jp2.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
+  skip-cert-verify: true
+  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   country: 🇺🇸US
-  delay: 1684
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  delay: 520
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|美国 - 圣克拉拉 - HostPapa - 4
+  network: http
+  port: 32301
+  server: 104.168.94.41
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+- cipher: chacha20-ietf-poly1305
+  delay: 1664
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 609
-  name: 11|美国 - 洛杉矶 - Global Communicatio...
-  password: 9rLHtN
-  plugin: obfs
-  plugin-opts:
-    host: 018085824a.microsoft.com
-    mode: http
-  port: 37269
-  server: x-nubla-01.o-airport.net
-  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇨🇾CY
-  delay: 2781
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - HostPapa - 31
-  network: ws
-  port: 2053
-  server: fastcup.net
-  servername: cdn-node-oss-94.paofu.de
+- country: 🇺🇸 US
+  delay: 1375
+  name: 10|美国 - 洛杉矶 - IT7 Networks Inc - ...
+  password: AtnzQFeFeEqgDqs6
+  port: 29443
+  server: us2.petal.news
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8b0a592f-1fee-4da0-add6-f8e108611164
-  ws-opts:
-    headers:
-      HOST: cdn-node-oss-94.paofu.de
-    path: /profile/telegram@ssrsub
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1582
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - HostPapa - 32
-  network: ws
-  port: 2052
-  server: 104.16.155.10
-  servername: 100-253-62-167.s5.cn-db.top
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  delay: 1158
+  name: '10|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
+  password: OAj6Zba9QLK9HxrV
+  port: 31443
+  server: us1.petal.news
   skip-cert-verify: true
-  type: vmess
-  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
-  ws-opts:
-    headers:
-      HOST: 100-253-62-167.s5.cn-db.top
-    path: /dabai.in172.64.15.49
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
-  delay: 1233
+  delay: 1138
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - WebNX, Inc. - 2
-  network: tcp
-  port: 45257
-  server: ys.fxlcn.com
-  servername: ys.fxlcn.com
+  name: 10|美国 - 玛丽埃塔 - HostPapa - 3
+  network: none
+  port: 16082
+  server: 198.23.148.39
   skip-cert-verify: true
   type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
-- alterId: 0
-  cipher: auto
-  delay: 2903
-  name: 11|美国 - 纽约 - FranTech Solutions -...
+  uuid: f96e94b6-1d90-4984-9388-66295fcb27e1
+- delay: 1511
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
   network: ws
-  port: 22121
-  server: 45.144.174.60
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4e9a5998-5d8a-4b1e-98b2-b05e6c5564f0
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 160.16.124.55
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: hsdgbuys.pages.dev
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
+- country: 🇺🇸US
+  delay: 859
+  name: 10|美国 - 聖荷西 - xTom - 13
+  password: YlfdAfTHoAuoRIbTPl
+  port: 443
+  server: us-3.regentgrandvalley.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 13,14|美国2|@ripaojiedian
+  name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3296

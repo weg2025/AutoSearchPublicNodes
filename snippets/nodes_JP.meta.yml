@@ -1,6 +1,39 @@
 proxies:
+- delay: 2010
+  name: 10|日本 - 东京 - Host Universal Pty L...
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.169
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPNmq1-aN8GAeRxOOjysuM7ZoXw609MC0WdYefYZbCn32A==
+- delay: 2707
+  name: '10|日本 - 东京 - Host Universal Pty L... #1'
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.241
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPMVEaranltxM5Roo0spIk8PoXw609MC0WdYefYZbCn32A==
+- country: 🇩🇪DE
+  delay: 1519
+  name: 10|日本 - 東京都 - xTom Japan Corporat...
+  password: YlfdAfTHoAuoRIbTPl
+  port: 443
+  server: ty-4.rise-fuji.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 1016
+  name: 10|波兰 - 若利博日区 - M247 Europe - 2
+  password: '!!str 1'
+  port: 8081
+  server: 5.253.206.122
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPNLrReBZhffDzjJ1HSRlocNoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
+  name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1806
@@ -9,7 +42,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3160
@@ -17,18 +50,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|日本v2|@ripaojiedian
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0016
+  name: 14|JP_speednode_0013
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
