@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   delay: 1414
-  name: 10|美国 - 亚特兰大 - Melbikomas UAB - 2
+  name: 11|美国 - 亚特兰大 - Melbikomas UAB - 2
   password: oGOnNFGhv1SAL5rKSYCdVv
   port: 8443
   server: 95.81.85.102
   type: ss
 - country: 🇺🇸US
   delay: 875
-  name: 10|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
   password: a1a37563-3bd9-45d0-b6a5-be921b623391
   port: 443
   server: jp2.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
@@ -25,7 +25,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 10|美国 - 圣克拉拉 - HostPapa - 4
+  name: 11|美国 - 圣克拉拉 - HostPapa - 4
   network: http
   port: 32301
   server: 104.168.94.41
@@ -34,7 +34,7 @@ proxies:
   uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - cipher: chacha20-ietf-poly1305
   delay: 1664
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
@@ -42,7 +42,7 @@ proxies:
   udp: true
 - country: 🇺🇸 US
   delay: 1375
-  name: 10|美国 - 洛杉矶 - IT7 Networks Inc - ...
+  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
   password: AtnzQFeFeEqgDqs6
   port: 29443
   server: us2.petal.news
@@ -51,7 +51,7 @@ proxies:
   udp: true
 - country: 🇺🇸 US
   delay: 1158
-  name: '10|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
+  name: '11|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
   password: OAj6Zba9QLK9HxrV
   port: 31443
   server: us1.petal.news
@@ -64,7 +64,7 @@ proxies:
   delay: 1138
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 玛丽埃塔 - HostPapa - 3
+  name: 11|美国 - 玛丽埃塔 - HostPapa - 3
   network: none
   port: 16082
   server: 198.23.148.39
@@ -72,7 +72,7 @@ proxies:
   type: vmess
   uuid: f96e94b6-1d90-4984-9388-66295fcb27e1
 - delay: 1511
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
   network: ws
   password: wb6368
   port: 2087
@@ -87,7 +87,7 @@ proxies:
     path: /
 - country: 🇺🇸US
   delay: 859
-  name: 10|美国 - 聖荷西 - xTom - 13
+  name: 11|美国 - 聖荷西 - xTom - 13
   password: YlfdAfTHoAuoRIbTPl
   port: 443
   server: us-3.regentgrandvalley.com
@@ -95,10 +95,19 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3296
+  port: 1572
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 13,14|美国2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 472
   server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
