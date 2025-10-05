@@ -1,52 +1,67 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  delay: 301
-  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
-  port: 30302
-  server: 39.107.155.11
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 788
+  name: 11|中国 - 乌恰 - Baxet Group Inc. - 1...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 61532
+  server: 212.192.12.234
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- delay: 2410
+  name: '11|中国 - 乌恰 - Baxet Group Inc. - 1... #1'
+  obfs: salamander
+  obfs-password: CDDQ1dntNm3j0K9i
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 44463
+  server: 212.192.12.234
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1039
+  name: '11|中国 - 乌恰 - Baxet Group Inc. - 1... #2'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 51562
+  server: 212.192.12.234
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
 - alterId: 64
   cipher: auto
-  delay: 314
-  name: '11|中国 - 北京 - Hangzhou Alibaba Adv... #1'
+  country: 🇨🇳CN
+  delay: 397
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
+  network: tcp
   port: 50002
   server: 39.100.81.215
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 983
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 深圳 - Hangzhou Alibaba Adv...
-  network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
-  servername: tms.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
-    path: /
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 325
+  delay: 1786
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  name: 11|中国 - 广州市 - China Mobile commun...
   network: tcp
   port: 50002
-  server: 139.129.20.6
+  server: 120.210.205.59
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

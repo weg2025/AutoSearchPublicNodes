@@ -1,13 +1,35 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 1519
-  name: 11|日本 - 東京都 - xTom Japan Corporat...
-  password: YlfdAfTHoAuoRIbTPl
-  port: 443
-  server: ty-4.rise-fuji.com
+- alterId: 1
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 729
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  network: tcp
+  port: 446
+  server: 7cmy5-g03.jp04-1d-vm0.entry.fr0528.art
+  servername: 7cmy5-g03.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: true
-  type: trojan
+  type: vmess
+  uuid: 0a503c30-d319-31c1-9346-038ecbb13de8
+- alterId: 0
+  cipher: auto
+  delay: 1201
+  name: '11|日本 - 东京 - Eons Data Communicat... #1'
+  port: 20021
+  server: itjhcwds.xn--fiqs8sjz2bull.com
+  type: vmess
   udp: true
+  uuid: 16b0c0a5-b393-4145-b51c-aab99d8c43b8
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本|@ripaojiedian
+  password: be0a39a72e
+  port: 28303
+  server: 670ead.gkzltp.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 13,14|日本2|@ripaojiedian
   network: tcp

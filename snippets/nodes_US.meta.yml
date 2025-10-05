@@ -7,93 +7,1447 @@ proxies:
   sni: mg1.mangshe.xyz
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 1414
-  name: 11|美国 - 亚特兰大 - Melbikomas UAB - 2
-  password: oGOnNFGhv1SAL5rKSYCdVv
-  port: 8443
-  server: 95.81.85.102
-  type: ss
-- country: 🇺🇸US
-  delay: 875
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
-  password: a1a37563-3bd9-45d0-b6a5-be921b623391
-  port: 443
-  server: jp2.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
-  type: trojan
-  udp: true
+- delay: 1771
+  name: 11|美国 - Cedar Knolls - Akamai Tec...
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 24b051eb-t3m740-tgxeiy-3kis.nyc.us.189ti.com
+  sni: 24b051eb-t3m740-tgxeiy-3kis.nyc.us.189ti.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 520
-  h2-opts: {}
+  client-fingerprint: ''
+  delay: 1775
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - Douglasville - DigitalOce...
+  network: ws
+  port: 443
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 2312
+  name: 11|美国 - 休斯敦 - Cogent Communicatio...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 52526
+  server: 38.134.41.9
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1152
+  name: '11|美国 - 休斯敦 - Cogent Communicatio... #1'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 15526
+  server: 38.134.41.9
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- delay: 2465
+  name: '11|美国 - 休斯敦 - Cogent Communicatio... #2'
+  obfs: salamander
+  obfs-password: CCi4KYucnIr2dMGf
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 52416
+  server: 38.134.41.9
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- delay: 2860
+  name: '11|美国 - 休斯敦 - Cogent Communicatio... #3'
+  obfs: salamander
+  obfs-password: 7buYbeSOivQaYCXZ
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 32115
+  server: 38.134.41.9
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- delay: 2854
+  name: '11|美国 - 休斯敦 - Cogent Communicatio... #4'
+  obfs: salamander
+  obfs-password: pG4ac7sm0fq93XhN
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 52136
+  server: 38.134.41.9
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 532
+  name: 11|美国 - 休斯敦 - Snaju Development -...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 31631
+  server: 166.0.192.239
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- delay: 1661
+  name: '11|美国 - 休斯敦 - Snaju Development -... #1'
+  obfs: salamander
+  obfs-password: IGIanRJXA7UdAsad
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 31532
+  server: 166.0.192.239
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1433
+  name: '11|美国 - 休斯敦 - Snaju Development -... #2'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 61631
+  server: 166.0.192.239
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1515
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 443
+  server: cg1c10.waimaojd.com
+  servername: cg1c10.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c10.waimaojd.com
+    path: /api/v1/graphql
+- alpn:
+  - h3
+  auth-str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  auth_str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  delay: 1488
+  disable_mtu_discovery: true
+  down: 70
+  fast-open: true
+  name: 11|美国 - 埃尔塞贡多 - Cogent Communicat...
+  port: 10006
+  ports: 6000-11000
+  protocol: udp
+  server: us2.shiyuandian.shop
+  skip-cert-verify: true
+  sni: us2.shiyuandian.shop
+  type: hysteria
+  up: 30
+- delay: 672
   http-opts:
-    method: GET
+    headers: {}
     path:
     - /
-  name: 11|美国 - 圣克拉拉 - HostPapa - 4
-  network: http
-  port: 32301
-  server: 104.168.94.41
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-- cipher: chacha20-ietf-poly1305
-  delay: 1664
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
+  name: 11|美国 - 希尔斯伯勒 - Hetzner Online Gm...
+  network: tcp
+  port: 15253
+  server: 5.78.52.105
+  type: vless
+  udp: true
+  uuid: 84566df5-a979-4194-94a2-720552440025
+  xudp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 586
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  port: 27232
+  server: cgroup.node5.s2.nodelist-airport.com
   type: ss
-  udp: true
-- country: 🇺🇸 US
-  delay: 1375
-  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
-  password: AtnzQFeFeEqgDqs6
-  port: 29443
-  server: us2.petal.news
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  delay: 1158
-  name: '11|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
-  password: OAj6Zba9QLK9HxrV
-  port: 31443
-  server: us1.petal.news
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- delay: 1462
+  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
+  password: TDBLtJz
+  port: 46415
+  server: 38.34.24.232
+  type: http
+  username: kZXMC3Z1
+- delay: 2187
+  name: '11|美国 - 洛杉矶 - Cogent Communicatio... #1'
+  password: 3Wpj66
+  port: 64363
+  server: 216.151.168.188
+  type: http
+  username: kZXMC3Z1
+- delay: 1142
+  name: '11|美国 - 洛杉矶 - Cogent Communicatio... #2'
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 1138
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 玛丽埃塔 - HostPapa - 3
-  network: none
-  port: 16082
-  server: 198.23.148.39
-  skip-cert-verify: true
+  delay: 1915
+  name: 11|美国 - 洛杉矶 - HostPapa - 36
+  network: ws
+  port: 8880
+  server: s1.db-link03.top
   type: vmess
-  uuid: f96e94b6-1d90-4984-9388-66295fcb27e1
-- delay: 1352
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 4e43bd24150af811e255fc226bef0a46.s1.db-link03.top
+    path: /dabai.in?=4e43bd24150af811e255fc226bef0a46
+- alterId: 0
+  cipher: auto
+  delay: 1917
+  name: 11|美国 - 洛杉矶 - HostPapa - 38
+  network: ws
+  port: 2095
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 400e16fa96eca85d55e637d3e3a83b46.s1.db-link03.top
+    path: /dabai.in?=400e16fa96eca85d55e637d3e3a83b46
+- alterId: 0
+  cipher: auto
+  delay: 1223
+  name: 11|美国 - 洛杉矶 - HostPapa - 41
+  network: ws
+  port: 2086
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 817f0470a8cfd0e4e20ec1030d996397.s1.db-link03.top
+    path: /dabai.in?=817f0470a8cfd0e4e20ec1030d996397
+- alterId: 0
+  cipher: auto
+  delay: 1221
+  name: 11|美国 - 洛杉矶 - HostPapa - 42
+  network: ws
+  port: 80
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top
+    path: /dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1198
+  name: 11|美国 - 洛杉矶 - Ipfb LLC - 80
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 41890
+  server: 207.174.28.26
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 878
+  name: 11|美国 - 洛杉矶 - Ipfb LLC - 81
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 41894
+  server: 207.174.28.26
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- delay: 2466
+  name: 11|美国 - 洛杉矶 - Ipfb LLC - 82
+  obfs: salamander
+  obfs-password: u8ORyk51cvrLeAgy
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 31890
+  server: 207.174.28.26
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- delay: 1947
+  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
+  password: 6ccf8b74-2f0d-4373-8615-2b98e12c918e
+  port: 50108
+  server: 104.224.152.40
+  skip-cert-verify: true
+  sni: yahoo.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  delay: 2746
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 1...
+  network: ws
+  port: 443
+  server: 185.133.35.90
+  servername: d-us1.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45e44247-a685-447b-aea2-21da5095d642
+  ws-opts:
+    headers:
+      Host: d-us1.djwstlsweb.top
+    path: /djjc/us1
+- client-fingerprint: ios
+  delay: 2092
+  name: '11|美国 - 洛杉矶 - Psychz Networks - 1... #1'
+  network: ws
+  port: 443
+  server: 185.133.35.93
+  servername: d-us4.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45e44247-a685-447b-aea2-21da5095d642
+  ws-opts:
+    headers:
+      Host: d-us4.djwstlsweb.top
+    path: /djjc/us4
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 2168
+  down: 55 Mbps
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 2
+  port: 38845
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1915
+  down: '100'
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 3...
+  obfs: ''
+  port: 15823
+  protocol: ''
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
+- alterId: 0
+  cipher: auto
+  delay: 866
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 8...
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 1ecaf43c-5b0c-4ed6-bb19-5423084071ee
+  ws-opts:
+    headers:
+      Host: ac14afb6e6a4050c1803dc03874ffd7d.mobgslb.tbcache.com
+    path: /
+- delay: 1707
+  name: 11|美国 - 洛杉矶 - Sharktech - 109
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: a3f2aed8-t35j40-teqqcv-1rc6n.cu.oshuawei.com
+  sni: a3f2aed8-t35j40-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 1859
+  name: 11|美国 - 洛杉矶 - Sharktech - 11
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 292af216-t20sg0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 292af216-t20sg0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1676
+  name: 11|美国 - 洛杉矶 - Sharktech - 110
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: a60f6fc0-t35j40-ta5nd4-e06r.cu.oshuawei.com
+  sni: a60f6fc0-t35j40-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2597
+  name: 11|美国 - 洛杉矶 - Sharktech - 111
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 443
+  server: 6ff0f477-t35j40-t51upj-ochh.los.gotochinatown.net
+  sni: 6ff0f477-t35j40-t51upj-ochh.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2071
+  name: 11|美国 - 洛杉矶 - Sharktech - 114
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: e8496f82-t35j40-tei4of-1qxa1.cu.oshuawei.com
+  sni: e8496f82-t35j40-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2443
+  name: 11|美国 - 洛杉矶 - Sharktech - 115
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: c53c766e-t35j40-tedirp-1fli7.cu.oshuawei.com
+  sni: c53c766e-t35j40-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 1843
+  name: 11|美国 - 洛杉矶 - Sharktech - 116
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 7c01315d-t35j40-t51upj-ochh.cu.oshuawei.com
+  sni: 7c01315d-t35j40-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2693
+  name: 11|美国 - 洛杉矶 - Sharktech - 118
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: d334b71d-t398g0-tedirp-1fli7.cu.oshuawei.com
+  sni: d334b71d-t398g0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2165
+  name: 11|美国 - 洛杉矶 - Sharktech - 119
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 62dd46ea-t398g0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 62dd46ea-t398g0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2243
+  name: 11|美国 - 洛杉矶 - Sharktech - 12
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: c133c139-t1yxs0-tei4of-1qxa1.cu.oshuawei.com
+  sni: c133c139-t1yxs0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1849
+  name: 11|美国 - 洛杉矶 - Sharktech - 120
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 5441b7c5-t398g0-t51upj-ochh.cu.oshuawei.com
+  sni: 5441b7c5-t398g0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1569
+  name: 11|美国 - 洛杉矶 - Sharktech - 127
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: a9986851-t3b340-ta5nd4-e06r.cu.oshuawei.com
+  sni: a9986851-t3b340-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1488
+  name: 11|美国 - 洛杉矶 - Sharktech - 13
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 840da04a-t20sg0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 840da04a-t20sg0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 1487
+  name: 11|美国 - 洛杉矶 - Sharktech - 132
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 7cba0168-t3cxs0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 7cba0168-t3cxs0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1413
+  name: 11|美国 - 洛杉矶 - Sharktech - 133
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 1cc61a69-t3cxs0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 1cc61a69-t3cxs0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2470
+  name: 11|美国 - 洛杉矶 - Sharktech - 134
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: a818c8b8-t3cxs0-t51upj-ochh.cu.oshuawei.com
+  sni: a818c8b8-t3cxs0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2930
+  name: 11|美国 - 洛杉矶 - Sharktech - 138
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 3e2404ad-t3esg0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 3e2404ad-t3esg0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1789
+  name: 11|美国 - 洛杉矶 - Sharktech - 139
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 00513cc6-t3esg0-tei4of-1qxa1.cu.oshuawei.com
+  sni: 00513cc6-t3esg0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2577
+  name: 11|美国 - 洛杉矶 - Sharktech - 14
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: bc016580-t20sg0-tedirp-1fli7.cu.oshuawei.com
+  sni: bc016580-t20sg0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2742
+  name: 11|美国 - 洛杉矶 - Sharktech - 141
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: a3bcedf5-t3h9c0-tcl9of-5fdt.los.west.wctype.com
+  sni: a3bcedf5-t3h9c0-tcl9of-5fdt.los.west.wctype.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 1379
+  name: 11|美国 - 洛杉矶 - Sharktech - 144
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 4ea6d243-t3gn40-tei4of-1qxa1.cu.oshuawei.com
+  sni: 4ea6d243-t3gn40-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2203
+  name: 11|美国 - 洛杉矶 - Sharktech - 145
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: 315d2918-t3gn40-tei4of-1qxa1.los.gotochinatown.net
+  sni: 315d2918-t3gn40-tei4of-1qxa1.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1654
+  name: 11|美国 - 洛杉矶 - Sharktech - 147
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: fb81d736-t3gn40-ta5nd4-e06r.cu.oshuawei.com
+  sni: fb81d736-t3gn40-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2778
+  name: 11|美国 - 洛杉矶 - Sharktech - 148
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: eeee9e0f-t3gn40-t51upj-ochh.cu.oshuawei.com
+  sni: eeee9e0f-t3gn40-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2518
+  name: 11|美国 - 洛杉矶 - Sharktech - 150
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: 9b464a6a-t3ihs0-t4v5wg-z93q.los.gotochinatown.net
+  sni: 9b464a6a-t3ihs0-t4v5wg-z93q.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 40639730-e027-11ea-87ad-f23c913c8d2b
+- delay: 2513
+  name: 11|美国 - 洛杉矶 - Sharktech - 151
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 32880aff-t3ihs0-tgxeiy-3kis.los.west.wctype.com
+  sni: 32880aff-t3ihs0-tgxeiy-3kis.los.west.wctype.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1423
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 157
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  servername: cg1c01.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c01.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 2547
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 158
+  network: ws
+  port: 443
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1487
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 159
+  network: ws
+  port: 443
+  server: cg1c07.waimaojd.com
+  servername: cg1c07.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c07.waimaojd.com
+    path: /api/v1/graphql
+- delay: 2506
+  name: 11|美国 - 洛杉矶 - Sharktech - 162
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: cc54d2d7-t3ihs0-ta5nd4-e06r.los.gotochinatown.net
+  sni: cc54d2d7-t3ihs0-ta5nd4-e06r.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1625
+  name: 11|美国 - 洛杉矶 - Sharktech - 164
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 15229
+  server: ec93f67b-t3ihs0-tcinla-hrtf.cu.oshuawei.com
+  sni: ec93f67b-t3ihs0-tcinla-hrtf.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- delay: 2846
+  name: 11|美国 - 洛杉矶 - Sharktech - 165
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 73a7bc47-t3ihs0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 73a7bc47-t3ihs0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2733
+  name: 11|美国 - 洛杉矶 - Sharktech - 166
+  password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+  port: 15229
+  server: 05b67439-t3ihs0-tdahby-1tnab.cu.oshuawei.com
+  sni: 05b67439-t3ihs0-tdahby-1tnab.cu.oshuawei.com
+  tls: true
+  type: http
+  username: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+- delay: 1540
+  name: 11|美国 - 洛杉矶 - Sharktech - 167
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 3f0ae4d0-t3ihs0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 3f0ae4d0-t3ihs0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2435
+  name: 11|美国 - 洛杉矶 - Sharktech - 168
+  password: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  port: 15229
+  server: 3010d06c-t3ihs0-tegcd3-1ne75.cu.oshuawei.com
+  sni: 3010d06c-t3ihs0-tegcd3-1ne75.cu.oshuawei.com
+  tls: true
+  type: http
+  username: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+- delay: 2492
+  name: 11|美国 - 洛杉矶 - Sharktech - 171
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 20d4f856-t3ihs0-t51upj-ochh.cu.oshuawei.com
+  sni: 20d4f856-t3ihs0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1249
+  name: 11|美国 - 洛杉矶 - Sharktech - 175
+  password: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  port: 15229
+  server: b497803e-t3kcg0-tdnzz0-1qtp7.cu.oshuawei.com
+  sni: b497803e-t3kcg0-tdnzz0-1qtp7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 3653c708-df72-11ee-aec1-f23c9164ca5d
+- delay: 2435
+  name: 11|美国 - 洛杉矶 - Sharktech - 18
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: d955c966-t22n40-t51upj-ochh.cu.oshuawei.com
+  sni: d955c966-t22n40-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1261
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 183
+  network: ws
+  port: 443
+  server: cg1c04.waimaojd.com
+  servername: cg1c04.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c04.waimaojd.com
+    path: /api/v1/graphql
+- delay: 2012
+  name: 11|美国 - 洛杉矶 - Sharktech - 185
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 15229
+  server: a768cf42-t3kcg0-tcinla-hrtf.cu.oshuawei.com
+  sni: a768cf42-t3kcg0-tcinla-hrtf.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- delay: 2068
+  name: 11|美国 - 洛杉矶 - Sharktech - 186
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: f99df71c-t3kcg0-tei4of-1qxa1.los.gotochinatown.net
+  sni: f99df71c-t3kcg0-tei4of-1qxa1.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1605
+  name: 11|美国 - 洛杉矶 - Sharktech - 187
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 9fd2fe62-t3kcg0-tei4of-1qxa1.cu.oshuawei.com
+  sni: 9fd2fe62-t3kcg0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1973
+  name: 11|美国 - 洛杉矶 - Sharktech - 188
+  password: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  port: 443
+  server: 59488bfd-t3kcg0-tegcd3-1ne75.los.gotochinatown.net
+  sni: 59488bfd-t3kcg0-tegcd3-1ne75.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+- delay: 1475
+  name: 11|美国 - 洛杉矶 - Sharktech - 189
+  password: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  port: 15229
+  server: 73b2963d-t3kcg0-tegcd3-1ne75.cu.oshuawei.com
+  sni: 73b2963d-t3kcg0-tegcd3-1ne75.cu.oshuawei.com
+  tls: true
+  type: http
+  username: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+- delay: 2020
+  name: 11|美国 - 洛杉矶 - Sharktech - 190
+  password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
+  port: 15229
+  server: 2348b113-t3kcg0-tcum62-se45.cu.oshuawei.com
+  sni: 2348b113-t3kcg0-tcum62-se45.cu.oshuawei.com
+  tls: true
+  type: http
+  username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
+- delay: 2828
+  name: 11|美国 - 洛杉矶 - Sharktech - 192
+  password: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  port: 443
+  server: e83acc83-t3m740-tdnzz0-1qtp7.los.gotochinatown.net
+  sni: e83acc83-t3m740-tdnzz0-1qtp7.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 3653c708-df72-11ee-aec1-f23c9164ca5d
+- delay: 1762
+  name: 11|美国 - 洛杉矶 - Sharktech - 193
+  password: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  port: 15229
+  server: 743a2dcb-t3m740-tdnzz0-1qtp7.cu.oshuawei.com
+  sni: 743a2dcb-t3m740-tdnzz0-1qtp7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 3653c708-df72-11ee-aec1-f23c9164ca5d
+- delay: 2248
+  name: 11|美国 - 洛杉矶 - Sharktech - 194
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: 6b16a08c-t3m740-tckngf-5fdt.los.west.wctype.com
+  sni: 6b16a08c-t3m740-tckngf-5fdt.los.west.wctype.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 1930
+  name: 11|美国 - 洛杉矶 - Sharktech - 198
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 5802e55f-t3m740-tgxeiy-3kis.los.west.wctype.com
+  sni: 5802e55f-t3m740-tgxeiy-3kis.los.west.wctype.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- delay: 2576
+  name: 11|美国 - 洛杉矶 - Sharktech - 206
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 78dc7c06-t3m740-tcinla-hrtf.los.gotochinatown.net
+  sni: 78dc7c06-t3m740-tcinla-hrtf.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- delay: 1731
+  name: 11|美国 - 洛杉矶 - Sharktech - 208
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 3edd319f-t3m740-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 3edd319f-t3m740-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2196
+  name: 11|美国 - 洛杉矶 - Sharktech - 209
+  password: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  port: 15229
+  server: 5bc5508f-t3m740-tegcd3-1ne75.cu.oshuawei.com
+  sni: 5bc5508f-t3m740-tegcd3-1ne75.cu.oshuawei.com
+  tls: true
+  type: http
+  username: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+- delay: 2972
+  name: 11|美国 - 洛杉矶 - Sharktech - 21
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: fb91c4cf-t26cg0-t51upj-ochh.cu.oshuawei.com
+  sni: fb91c4cf-t26cg0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1734
+  name: 11|美国 - 洛杉矶 - Sharktech - 210
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 72f9e340-t3m740-t51upj-ochh.cu.oshuawei.com
+  sni: 72f9e340-t3m740-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2782
+  name: 11|美国 - 洛杉矶 - Sharktech - 215
+  password: 56b7180c-2545-11ee-b973-f23c913c8d2b
+  port: 443
+  server: 5ce0339a-t3o1s0-t7c9mf-1kww5.los.gotochinatown.net
+  sni: 5ce0339a-t3o1s0-t7c9mf-1kww5.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 56b7180c-2545-11ee-b973-f23c913c8d2b
+- delay: 1530
+  name: 11|美国 - 洛杉矶 - Sharktech - 22
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 8fb95fe4-t28740-t51upj-ochh.cu.oshuawei.com
+  sni: 8fb95fe4-t28740-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1522
+  name: 11|美国 - 洛杉矶 - Sharktech - 23
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 374b443c-t26cg0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 374b443c-t26cg0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 1720
+  name: 11|美国 - 洛杉矶 - Sharktech - 27
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 7bd213cb-t2a1s0-tei4of-1qxa1.cu.oshuawei.com
+  sni: 7bd213cb-t2a1s0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1578
+  name: 11|美国 - 洛杉矶 - Sharktech - 29
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 806cc5d8-t2bwg0-t51upj-ochh.cu.oshuawei.com
+  sni: 806cc5d8-t2bwg0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1935
+  name: 11|美国 - 洛杉矶 - Sharktech - 30
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 0423b890-t2dr40-tei4of-1qxa1.cu.oshuawei.com
+  sni: 0423b890-t2dr40-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2320
+  name: 11|美国 - 洛杉矶 - Sharktech - 31
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 62c1ecc1-t2dr40-ta5nd4-e06r.cu.oshuawei.com
+  sni: 62c1ecc1-t2dr40-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2760
+  name: 11|美国 - 洛杉矶 - Sharktech - 32
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 8929c835-t2fls0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 8929c835-t2fls0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1687
+  name: 11|美国 - 洛杉矶 - Sharktech - 33
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 36e92c45-t2fls0-tei4of-1qxa1.cu.oshuawei.com
+  sni: 36e92c45-t2fls0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1695
+  name: 11|美国 - 洛杉矶 - Sharktech - 34
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: 25450414-t2fls0-tedirp-1fli7.cu.oshuawei.com
+  sni: 25450414-t2fls0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2948
+  name: 11|美国 - 洛杉矶 - Sharktech - 35
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: b14c263b-t2fls0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: b14c263b-t2fls0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2610
+  name: 11|美国 - 洛杉矶 - Sharktech - 37
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: c8200cc5-t2fls0-t51upj-ochh.cu.oshuawei.com
+  sni: c8200cc5-t2fls0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2918
+  name: 11|美国 - 洛杉矶 - Sharktech - 45
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: 05de3769-t2n0g0-t8kd6j-1c9em.los.gotochinatown.net
+  sni: 05de3769-t2n0g0-t8kd6j-1c9em.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- delay: 2925
+  name: 11|美国 - 洛杉矶 - Sharktech - 47
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: 5e3cb23b-t2n0g0-tei4of-1qxa1.los.gotochinatown.net
+  sni: 5e3cb23b-t2n0g0-tei4of-1qxa1.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2575
+  name: 11|美国 - 洛杉矶 - Sharktech - 49
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 962abfcd-t2l5s0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 962abfcd-t2l5s0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2260
+  name: 11|美国 - 洛杉矶 - Sharktech - 50
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: cc68bf09-t2ov40-t67sv3-1snfs.los.gotochinatown.net
+  sni: cc68bf09-t2ov40-t67sv3-1snfs.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 1442
+  name: 11|美国 - 洛杉矶 - Sharktech - 51
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: ad3e2fbf-t2n0g0-tedirp-1fli7.cu.oshuawei.com
+  sni: ad3e2fbf-t2n0g0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 1527
+  name: 11|美国 - 洛杉矶 - Sharktech - 52
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: 635defaa-t2ov40-tei4of-1qxa1.cu.oshuawei.com
+  sni: 635defaa-t2ov40-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1431
+  name: 11|美国 - 洛杉矶 - Sharktech - 53
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 9cecf492-t2ov40-ta5nd4-e06r.cu.oshuawei.com
+  sni: 9cecf492-t2ov40-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1529
+  name: 11|美国 - 洛杉矶 - Sharktech - 55
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: be42f130-t2n0g0-t51upj-ochh.cu.oshuawei.com
+  sni: be42f130-t2n0g0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1882
+  name: 11|美国 - 洛杉矶 - Sharktech - 56
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: f93bb0f0-t2n0g0-ta5nd4-e06r.cu.oshuawei.com
+  sni: f93bb0f0-t2n0g0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1644
+  name: 11|美国 - 洛杉矶 - Sharktech - 67
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: d29d1e89-t2qps0-tedirp-1fli7.cu.oshuawei.com
+  sni: d29d1e89-t2qps0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2723
+  name: 11|美国 - 洛杉矶 - Sharktech - 68
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: 380969a7-t2uf40-tedirp-1fli7.cu.oshuawei.com
+  sni: 380969a7-t2uf40-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2712
+  name: 11|美国 - 洛杉矶 - Sharktech - 69
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: 89c9ac23-t2w9s0-tedirp-1fli7.cu.oshuawei.com
+  sni: 89c9ac23-t2w9s0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2257
+  name: 11|美国 - 洛杉矶 - Sharktech - 7
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: b21972bc-t1yxs0-ta5nd4-e06r.cu.oshuawei.com
+  sni: b21972bc-t1yxs0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1721
+  name: 11|美国 - 洛杉矶 - Sharktech - 70
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 15229
+  server: 1ca85b0b-t2w9s0-teqqcv-1rc6n.cu.oshuawei.com
+  sni: 1ca85b0b-t2w9s0-teqqcv-1rc6n.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 1314
+  name: 11|美国 - 洛杉矶 - Sharktech - 71
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 597887d2-t2w9s0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 597887d2-t2w9s0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1967
+  name: 11|美国 - 洛杉矶 - Sharktech - 72
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 15229
+  server: c0f7fb61-t2w9s0-tei4of-1qxa1.cu.oshuawei.com
+  sni: c0f7fb61-t2w9s0-tei4of-1qxa1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2635
+  name: 11|美国 - 洛杉矶 - Sharktech - 73
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: e9428c04-t2y4g0-tedirp-1fli7.los.gotochinatown.net
+  sni: e9428c04-t2y4g0-tedirp-1fli7.los.gotochinatown.net
+  tls: true
+  type: socks5
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2741
+  name: 11|美国 - 洛杉矶 - Sharktech - 74
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: 11bb1da6-t2y4g0-t51upj-ochh.cu.oshuawei.com
+  sni: 11bb1da6-t2y4g0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2172
+  name: 11|美国 - 洛杉矶 - Sharktech - 76
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: 10d495f7-t2zz40-tedirp-1fli7.cu.oshuawei.com
+  sni: 10d495f7-t2zz40-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 1841
+  name: 11|美国 - 洛杉矶 - Sharktech - 79
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: 625d5d87-t31ts0-ta5nd4-e06r.cu.oshuawei.com
+  sni: 625d5d87-t31ts0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2963
+  name: 11|美国 - 洛杉矶 - Sharktech - 8
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 15229
+  server: b37c1e18-t1yxs0-t51upj-ochh.cu.oshuawei.com
+  sni: b37c1e18-t1yxs0-t51upj-ochh.cu.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 2012
+  name: 11|美国 - 洛杉矶 - Sharktech - 89
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 15229
+  server: d582c2e5-t33og0-ta5nd4-e06r.cu.oshuawei.com
+  sni: d582c2e5-t33og0-ta5nd4-e06r.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2576
+  name: 11|美国 - 洛杉矶 - Sharktech - 90
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 15229
+  server: 2b36e6ed-t33og0-tedirp-1fli7.cu.oshuawei.com
+  sni: 2b36e6ed-t33og0-tedirp-1fli7.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- client-fingerprint: chrome
+  delay: 1715
   name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
   port: 2096
-  server: 5.182.85.54
-  servername: sni.aizrf.com
+  server: 72.167.25.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
-  uuid: 12345678-1234-1234-1234-123456789123
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
     headers:
-      Host: sni.aizrf.com
-    path: /snippetsfp=chrome
-- delay: 1511
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2700
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  network: ws
+  port: 2096
+  server: 5.10.246.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1268
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
+  network: ws
+  port: 2096
+  server: 154.197.108.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2222
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
+  network: ws
+  port: 2096
+  server: 188.244.122.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1269
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #4'
+  network: ws
+  port: 2096
+  server: 166.62.106.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1692
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #5'
+  network: ws
+  port: 2096
+  server: 192.0.54.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2325
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #6'
+  network: ws
+  port: 2096
+  server: 194.36.55.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /snippets
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1204
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
+  network: ws
+  port: 2096
+  server: 94.140.0.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /snippets
+  xudp: true
+- delay: 2429
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #8'
+  network: ws
+  port: 443
+  server: snipaste1.speedip.eu.org
+  servername: 0000a3jqgnbe1kqszgj8.mf7z.uzkj9fc.vc5se3p.rtcso.lhyo0h17bay.ekqctmd3.itl.vi5o6fa54.39tu.68d506nf53m05oznndpsdto46z4gnq6m6.neib.cn
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0199699c-a5d9-a685-dba9-c6475658b302
+  ws-opts:
+    headers:
+      Host: 0000a3jqgnbe1kqszgj8.mf7z.uzkj9fc.vc5se3p.rtcso.lhyo0h17bay.ekqctmd3.itl.vi5o6fa54.39tu.68d506nf53m05oznndpsdto46z4gnq6m6.neib.cn
+    path: /snippets?ip=proxyip:port(443)
+- client-fingerprint: chrome
+  delay: 2193
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #9'
+  network: ws
+  port: 2053
+  server: snipaste4.speedip.eu.org
+  servername: 0000ft59cw1n4gis9uuz.buz.puxw754ojer.1dft56g5u4.761.2inpm7p8lm9.sfk9qc2t.eo5zoab75dri.dx6.flri2ucsk.tm1obobnkxyojq2ketzao.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01997503-65ce-f6a3-4a43-fc3c5e8cb366
+  ws-opts:
+    headers:
+      Host: 0000ft59cw1n4gis9uuz.buz.puxw754ojer.1dft56g5u4.761.2inpm7p8lm9.sfk9qc2t.eo5zoab75dri.dx6.flri2ucsk.tm1obobnkxyojq2ketzao.neib.cn
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  delay: 1373
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #10'
+  network: ws
+  port: 2083
+  server: snipaste4.speedip.eu.org
+  servername: 0000a3jqgnljbym4k8qt.m1xu2jxf6wb.tq1duvi4w.ay62u.a56fngfn.yftzfjlf.ip66k92ltd5.a9pfave.yj8wq8bvsz.cdq0j.y73xu865qic5fky0b.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0199699c-a5d9-a685-dba9-c6475658b302
+  ws-opts:
+    headers:
+      Host: 0000a3jqgnljbym4k8qt.m1xu2jxf6wb.tq1duvi4w.ay62u.a56fngfn.yftzfjlf.ip66k92ltd5.a9pfave.yj8wq8bvsz.cdq0j.y73xu865qic5fky0b.neib.cn
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- delay: 1705
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #11'
+  network: ws
+  port: 2096
+  server: 104.129.164.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    path: /snippets
+- client-fingerprint: chrome
+  delay: 2599
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #12'
   network: ws
   password: wb6368
   port: 2087
@@ -104,403 +1458,812 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      Host: hsdgbuys.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
-- delay: 1061
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
-  network: ws
-  port: 2096
-  server: 72.167.243.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    headers:
-      Host: sni.aizrf.com
-    path: /snippets
-- delay: 859
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
-  network: ws
-  port: 2096
-  server: 193.9.49.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
 - client-fingerprint: chrome
-  delay: 972
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #4'
-  network: ws
-  port: 2096
-  server: 199.68.156.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- client-fingerprint: chrome
-  delay: 979
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #5'
-  network: ws
-  port: 2096
-  server: 89.117.112.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1019
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #6'
-  network: ws
-  port: 2096
-  server: 167.68.11.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1625
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
-  network: ws
-  port: 2096
-  server: 185.59.218.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1728
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #8'
-  network: ws
-  port: 2096
-  server: 25.26.27.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1318
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #9'
-  network: ws
-  port: 2096
-  server: 155.46.167.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1246
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #10'
-  network: ws
-  port: 2096
-  server: 147.78.140.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    headers:
-      Host: sni.aizrf.com
-    path: /snippets
-- delay: 732
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #11'
-  network: ws
-  port: 2096
-  server: 185.251.82.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 827
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #12'
-  network: ws
-  port: 2096
-  server: 5.10.215.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 1877
+  delay: 1431
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #13'
   network: ws
-  port: 2096
-  server: 192.65.217.54
-  servername: sni.aizrf.com
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- client-fingerprint: chrome
-  delay: 1620
+    path: /tro8sFW1S91B6sZrM1
+- delay: 1742
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #14'
   network: ws
   port: 2096
-  server: 156.225.72.54
-  servername: sni.aizrf.com
+  server: 45.40.148.43
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
+      Host: kejiland.freewarp.eu.org
     max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 834
+    path: /snippets&freecodes @节点狂魔 /
+- delay: 1965
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #15'
   network: ws
-  port: 2096
-  server: 188.42.145.54
-  servername: sni.aizrf.com
-  tls: true
+  port: 2095
+  server: www.udemy.com
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 861
+      Host: snippets.pusytroller.cf
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+- delay: 1639
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #16'
   network: ws
   port: 2096
-  server: 154.197.108.54
-  servername: sni.aizrf.com
+  server: 188.42.88.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
     max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
+    path: /snippets&hongkong @freecodes2 /
 - client-fingerprint: chrome
-  delay: 2407
+  delay: 2159
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #17'
   network: ws
-  port: 2096
-  server: 164.38.155.54
-  servername: sni.aizrf.com
+  port: 2083
+  server: 27.50.48.186
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+  xudp: true
 - client-fingerprint: chrome
-  delay: 1701
+  delay: 1804
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #18'
   network: ws
-  port: 2096
-  server: 154.197.64.54
-  servername: sni.aizrf.com
+  port: 8443
+  server: 92.243.74.3
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
     headers:
-      Host: sni.aizrf.com
-    path: /snippets
-- delay: 697
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2471
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #19'
   network: ws
-  port: 2096
-  server: 154.211.8.54
-  servername: sni.aizrf.com
+  port: 2087
+  server: snipaste4.speedip.eu.org
+  servername: 00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 01996e2d-b638-4e9f-2b24-38a6379f68a2
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 719
+      Host: 00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /snippetsfp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1521
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #20'
   network: ws
-  port: 2096
-  server: 185.156.19.54
-  servername: sni.aizrf.com
+  port: 2053
+  server: snipaste1.speedip.eu.org
+  servername: 0000hckhxlvib1h4xk7f.n24.jci8uetubmkp.xb71x63c8vp.yzjyv1cj.m4pekb.44im9lt1u.cdlq6qkqh.m7ql78c.d8ls4sr.p2elzz2rm57d112wt3w.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 0199737e-f5a7-197e-35be-ba156931ead5
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
-    max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- delay: 642
+      Host: 0000hckhxlvib1h4xk7f.n24.jci8uetubmkp.xb71x63c8vp.yzjyv1cj.m4pekb.44im9lt1u.cdlq6qkqh.m7ql78c.d8ls4sr.p2elzz2rm57d112wt3w.neib.cn
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  delay: 2759
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #21'
   network: ws
   port: 2096
-  server: 154.198.173.54
-  servername: sni.aizrf.com
+  server: 89.117.112.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.aizrf.com
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     max-early-data: 2560
-    path: /snippets&freecodes@节点狂魔/
-- country: 🇦🇺AU
-  delay: 898
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2137
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #22'
   network: ws
   port: 2096
-  server: 103.169.142.253
-  servername: krill.xfan01.sbs
+  server: 5.10.245.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: e191ac99-e071-4e36-9a01-107eaf26a780
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: krill.xfan01.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- delay: 2328
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2752
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #23'
   network: ws
-  port: 443
-  server: wwwopensignalcom-goodspeed-8xx.pages.dev.
-  servername: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
+  port: 2096
+  server: 66.235.200.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
-    path: //
-- country: 🇺🇸US
-  delay: 865
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1134
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #24'
   network: ws
   port: 2096
-  server: 72.167.25.253
-  servername: gaosir.unfeeling.sbs
+  server: 154.83.2.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- country: 🇺🇸US
-  delay: 1113
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1664
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #25'
   network: ws
   port: 2096
-  server: 108.165.152.253
-  servername: krill.xfan01.sbs
+  server: 170.114.45.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
   tls: true
   type: vless
   udp: true
-  uuid: e191ac99-e071-4e36-9a01-107eaf26a780
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 2272
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #26'
+  network: ws
+  port: 2096
+  server: 185.159.247.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1719
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #27'
+  network: ws
+  port: 2096
+  server: 45.80.110.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1269
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #28'
+  network: ws
+  port: 2096
+  server: 192.169.223.36
+  servername: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /snippets&HongKong@freecodes2/
+  xudp: true
+- alterId: 2
+  cipher: auto
+  delay: 1613
+  name: 11|美国 - 芝加哥 - Atomic Networks LLC...
+  network: ws
+  port: 13116
+  server: sag.easylink1.com
+  type: vmess
+  udp: true
+  uuid: c9b1a9ec-c4a2-3780-9743-a17165966530
   ws-opts:
     headers:
-      Host: krill.xfan01.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- country: 🇺🇸US
-  delay: 859
-  name: 11|美国 - 聖荷西 - xTom - 13
-  password: YlfdAfTHoAuoRIbTPl
+      Host: sacn.easylink1.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1531
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 芝加哥 - Sharktech - 160
+  network: ws
   port: 443
-  server: us-3.regentgrandvalley.com
-  skip-cert-verify: true
-  type: trojan
+  server: cg1c05.waimaojd.com
+  servername: cg1c05.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-- delay: 964
-  name: 11|美国 - 達拉斯 - GTHost - 15
-  password: '!!str 1'
-  port: 8081
-  server: 167.17.66.82
-  tls: false
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c05.waimaojd.com
+    path: /api/v1/graphql
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 2752
+  name: 11|美国 - 西雅圖 - Baxet Group Inc. - ...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 21841
+  server: 166.88.197.92
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 668
+  name: '11|美国 - 西雅圖 - Baxet Group Inc. - ... #1'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 21844
+  server: 166.88.197.92
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- delay: 960
+  name: '11|美国 - 西雅圖 - Baxet Group Inc. - ... #2'
+  obfs: salamander
+  obfs-password: 3TTmGGkK35pdXrNL
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 14162
+  server: 166.88.197.92
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  auth_str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  delay: 1477
+  disable_mtu_discovery: true
+  down: 70
+  fast-open: true
+  name: 11|美国 - 西雅圖 - Datacamp Limited - ...
+  port: 9249
+  ports: 6000-11000
+  protocol: udp
+  server: uk1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: uk1.shiyuandian.shop
+  type: hysteria
+  up: 30
+- alpn:
+  - h3
+  auth-str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  auth_str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  delay: 1738
+  disable_mtu_discovery: true
+  down: 70
+  fast-open: true
+  name: '11|美国 - 西雅圖 - Datacamp Limited - ... #1'
+  port: 6170
+  ports: 6000-11000
+  protocol: udp
+  server: us1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: us1.shiyuandian.shop
+  type: hysteria
+  up: 30
+- delay: 2550
+  name: 11|美国 - 西雅圖 - Spartan Host LLC - ...
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: 584cb348-t3ihs0-tckngf-5fdt.seadc2.cdnbytescm.com
+  sni: 584cb348-t3ihs0-tckngf-5fdt.seadc2.cdnbytescm.com
+  tls: true
   type: http
-  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPO4zG1fOzCNysb6B9VrWKHmxsnp5o63PElOVpFduiCmYA==
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 1927
+  name: '11|美国 - 西雅圖 - Spartan Host LLC - ... #1'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: c91caaba-t3kyo0-tcl9of-5fdt.seadc2.cdnbytescm.com
+  sni: c91caaba-t3kyo0-tcl9of-5fdt.seadc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 2409
+  name: '11|美国 - 西雅圖 - Spartan Host LLC - ... #2'
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 6ac1670f-t3m740-tgxeiy-3kis.seadc2.cdnbytescm.com
+  sni: 6ac1670f-t3m740-tgxeiy-3kis.seadc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- delay: 2938
+  name: 11|美国 - 西雅圖 - Spartan Host Ltd - ...
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 3430734a-t22n40-ta5nd4-e06r.sv.plebai.net
+  sni: 3430734a-t22n40-ta5nd4-e06r.sv.plebai.net
+  tls: true
+  type: socks5
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2628
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #1'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 5b573360-t3b340-tedirp-1fli7.se.oshuawei.com
+  sni: 5b573360-t3b340-tedirp-1fli7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2513
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #2'
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: 95b0f1a9-t3cxs0-tei4of-1qxa1.se.oshuawei.com
+  sni: 95b0f1a9-t3cxs0-tei4of-1qxa1.se.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2427
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #3'
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 89d8f50a-t3gn40-ta5nd4-e06r.sv.plebai.net
+  sni: 89d8f50a-t3gn40-ta5nd4-e06r.sv.plebai.net
+  tls: true
+  type: socks5
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 1662
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #4'
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: 71ccaa5d-t3gn40-teqqcv-1rc6n.se.oshuawei.com
+  sni: 71ccaa5d-t3gn40-teqqcv-1rc6n.se.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2145
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #5'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: a59cc467-t26cg0-t67sv3-1snfs.se.oshuawei.com
+  sni: a59cc467-t26cg0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 2971
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #6'
+  password: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+  port: 443
+  server: d280ce7c-t26cg0-t51upj-ochh.se.oshuawei.com
+  sni: d280ce7c-t26cg0-t51upj-ochh.se.oshuawei.com
+  tls: true
+  type: http
+  username: cf89e064-5c77-11eb-bd3a-f23c9164ca5d
+- delay: 1940
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #7'
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: 151afb96-t26cg0-tei4of-1qxa1.se.oshuawei.com
+  sni: 151afb96-t26cg0-tei4of-1qxa1.se.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 1798
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #8'
+  password: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  port: 443
+  server: 230aac7b-t3kcg0-tdnzz0-1qtp7.se.oshuawei.com
+  sni: 230aac7b-t3kcg0-tdnzz0-1qtp7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 3653c708-df72-11ee-aec1-f23c9164ca5d
+- delay: 2840
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #9'
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  port: 443
+  server: b20268ef-t3kcg0-t4v5wg-z93q.se.oshuawei.com
+  sni: b20268ef-t3kcg0-t4v5wg-z93q.se.oshuawei.com
+  tls: true
+  type: http
+  username: 40639730-e027-11ea-87ad-f23c913c8d2b
+- delay: 2670
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #10'
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 5ef143f0-t3kcg0-tcinla-hrtf.se.oshuawei.com
+  sni: 5ef143f0-t3kcg0-tcinla-hrtf.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+- delay: 2836
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #11'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 6d6b5885-t28740-tedirp-1fli7.se.oshuawei.com
+  sni: 6d6b5885-t28740-tedirp-1fli7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2500
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #12'
+  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  port: 443
+  server: f97ca52a-t3m740-thmjbt-1rk9y.se.oshuawei.com
+  sni: f97ca52a-t3m740-thmjbt-1rk9y.se.oshuawei.com
+  tls: true
+  type: http
+  username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+- delay: 2515
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #13'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 3c39df05-t28740-t67sv3-1snfs.se.oshuawei.com
+  sni: 3c39df05-t28740-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 2032
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #14'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 2900e2cd-t3m740-tedirp-1fli7.se.oshuawei.com
+  sni: 2900e2cd-t3m740-tedirp-1fli7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 1965
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #15'
+  password: 56b7180c-2545-11ee-b973-f23c913c8d2b
+  port: 443
+  server: 6ef01249-t3o1s0-t7c9mf-1kww5.se.oshuawei.com
+  sni: 6ef01249-t3o1s0-t7c9mf-1kww5.se.oshuawei.com
+  tls: true
+  type: http
+  username: 56b7180c-2545-11ee-b973-f23c913c8d2b
+- delay: 2247
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #16'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
+  sni: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- delay: 2247
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #17'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 1bbf8a6f-t2bwg0-t67sv3-1snfs.se.oshuawei.com
+  sni: 1bbf8a6f-t2bwg0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 1742
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #18'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: b6f25653-t2dr40-t67sv3-1snfs.se.oshuawei.com
+  sni: b6f25653-t2dr40-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 1733
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #19'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: c822b636-t2fls0-t67sv3-1snfs.se.oshuawei.com
+  sni: c822b636-t2fls0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 2278
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #20'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: 085150b8-t1yxs0-tedirp-1fli7.se.oshuawei.com
+  sni: 085150b8-t1yxs0-tedirp-1fli7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2084
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #21'
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 210fb431-t22n40-ta5nd4-e06r.se.oshuawei.com
+  sni: 210fb431-t22n40-ta5nd4-e06r.se.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2150
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #22'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: ca5c8749-t2l5s0-t67sv3-1snfs.se.oshuawei.com
+  sni: ca5c8749-t2l5s0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 1898
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #23'
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: 228cc92d-t2l5s0-teqqcv-1rc6n.se.oshuawei.com
+  sni: 228cc92d-t2l5s0-teqqcv-1rc6n.se.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2721
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #24'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: a55bafde-t2n0g0-t8kd6j-1c9em.se.oshuawei.com
+  sni: a55bafde-t2n0g0-t8kd6j-1c9em.se.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- delay: 2939
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #25'
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: 443
+  server: cd088821-t2n0g0-tei4of-1qxa1.se.oshuawei.com
+  sni: cd088821-t2n0g0-tei4of-1qxa1.se.oshuawei.com
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- delay: 2942
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #26'
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: b9c31e9a-t2ov40-ta5nd4-e06r.se.oshuawei.com
+  sni: b9c31e9a-t2ov40-ta5nd4-e06r.se.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- delay: 2067
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #27'
+  password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+  port: 443
+  server: df715422-t22n40-tedirp-1fli7.se.oshuawei.com
+  sni: df715422-t22n40-tedirp-1fli7.se.oshuawei.com
+  tls: true
+  type: http
+  username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
+- delay: 2064
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #28'
+  password: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: 7055f590-t22n40-teqqcv-1rc6n.se.oshuawei.com
+  sni: 7055f590-t22n40-teqqcv-1rc6n.se.oshuawei.com
+  tls: true
+  type: http
+  username: 32bd96d6-186b-11f0-9a65-f23c9164ca5d
+- delay: 2556
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #29'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: ab45667f-t31ts0-t67sv3-1snfs.se.oshuawei.com
+  sni: ab45667f-t31ts0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 2905
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #30'
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
+  port: 443
+  server: bbfbd420-t33og0-t8kd6j-1c9em.se.oshuawei.com
+  sni: bbfbd420-t33og0-t8kd6j-1c9em.se.oshuawei.com
+  tls: true
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
+- delay: 2214
+  name: '11|美国 - 西雅圖 - Spartan Host Ltd - ... #31'
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 86c84628-t24hs0-t67sv3-1snfs.se.oshuawei.com
+  sni: 86c84628-t24hs0-t67sv3-1snfs.se.oshuawei.com
+  tls: true
+  type: http
+  username: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+- delay: 2446
+  name: 11|美国 - 費利蒙 - Akamai Technologies...
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 68447de3-t3dk00-tgy0qy-3kis.fmt-us.sghuawei.com
+  sni: 68447de3-t3dk00-tgy0qy-3kis.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- delay: 1828
+  name: '11|美国 - 費利蒙 - Akamai Technologies... #1'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: b6299111-t3ihs0-tckngf-5fdt.fmt-us.sghuawei.com
+  sni: b6299111-t3ihs0-tckngf-5fdt.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 1774
+  name: '11|美国 - 費利蒙 - Akamai Technologies... #2'
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: 7d3bb106-t3kcg0-tgxeiy-3kis.fmt-us.sghuawei.com
+  sni: 7d3bb106-t3kcg0-tgxeiy-3kis.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- delay: 1967
+  name: '11|美国 - 費利蒙 - Akamai Technologies... #3'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: 34ae4261-t3kyo0-tcl9of-5fdt.fmt-us.sghuawei.com
+  sni: 34ae4261-t3kyo0-tcl9of-5fdt.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 2497
+  name: '11|美国 - 費利蒙 - Akamai Technologies... #4'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 3443
+  server: 0e693d85-t3m740-tckngf-5fdt.fmt-us.sghuawei.com
+  sni: 0e693d85-t3m740-tckngf-5fdt.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 712bdc36-24be-11ee-be53-f23c9313b177
+- delay: 2839
+  name: '11|美国 - 費利蒙 - Akamai Technologies... #5'
+  password: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  port: 3443
+  server: d11fdb74-t3m740-tgxeiy-3kis.fmt-us.sghuawei.com
+  sni: d11fdb74-t3m740-tgxeiy-3kis.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1824
+  name: 11|美国 - 達拉斯 - Cogent Communicatio...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 31551
+  server: 38.114.101.118
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 2366
+  name: '11|美国 - 達拉斯 - Cogent Communicatio... #1'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 64141
+  server: 38.114.101.118
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
@@ -511,7 +2274,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国2|@ripaojiedian
+  name: 13,14,15|CN_speednode_0007
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 472
@@ -519,9 +2282,10 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0021
+  name: 15|US_speednode_0037
   port: 36678
   reality-opts:
     public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0

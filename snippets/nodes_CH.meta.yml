@@ -1,1 +1,44 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1280
+  name: 11|瑞士 - 苏黎世 - Baxet Group Inc. - ...
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 53414
+  server: 167.17.181.233
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- alpn:
+  - h3
+  congestion-controller: bbr
+  delay: 1170
+  name: '11|瑞士 - 苏黎世 - Baxet Group Inc. - ... #1'
+  password: 0494e68d-e085-4237-b274-5e65574ad7c2
+  port: 23414
+  server: iplc.vosniehcihwocc.cfd
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
+  version: 5
+- client-fingerprint: chrome
+  name: 15|CH_speednode_0005
+  port: 8080
+  reality-opts:
+    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+    short-id: 27cfa05000c23cc4
+  server: 45.95.232.10
+  servername: yandex.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37

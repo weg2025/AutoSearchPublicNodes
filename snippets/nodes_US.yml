@@ -1,78 +1,205 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 1414
-  name: 11|美国 - 亚特兰大 - Melbikomas UAB - 2
-  password: oGOnNFGhv1SAL5rKSYCdVv
-  port: 8443
-  server: 95.81.85.102
-  type: ss
-- country: 🇺🇸US
-  delay: 875
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
-  password: a1a37563-3bd9-45d0-b6a5-be921b623391
-  port: 443
-  server: jp2.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 520
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|美国 - 圣克拉拉 - HostPapa - 4
-  network: http
-  port: 32301
-  server: 104.168.94.41
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-- cipher: chacha20-ietf-poly1305
-  delay: 1664
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
+  client-fingerprint: ''
+  delay: 1775
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - Douglasville - DigitalOce...
+  network: ws
   port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
-- country: 🇺🇸 US
-  delay: 1375
-  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
-  password: AtnzQFeFeEqgDqs6
-  port: 29443
-  server: us2.petal.news
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  delay: 1158
-  name: '11|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
-  password: OAj6Zba9QLK9HxrV
-  port: 31443
-  server: us1.petal.news
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 1138
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 玛丽埃塔 - HostPapa - 3
-  network: none
-  port: 16082
-  server: 198.23.148.39
-  skip-cert-verify: true
+  client-fingerprint: ''
+  delay: 1515
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 北伯根 - DigitalOcean, LLC -...
+  network: ws
+  port: 443
+  server: cg1c10.waimaojd.com
+  servername: cg1c10.waimaojd.com
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: f96e94b6-1d90-4984-9388-66295fcb27e1
-- delay: 1511
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c10.waimaojd.com
+    path: /api/v1/graphql
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 586
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  port: 27232
+  server: cgroup.node5.s2.nodelist-airport.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1915
+  name: 11|美国 - 洛杉矶 - HostPapa - 36
+  network: ws
+  port: 8880
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 4e43bd24150af811e255fc226bef0a46.s1.db-link03.top
+    path: /dabai.in?=4e43bd24150af811e255fc226bef0a46
+- alterId: 0
+  cipher: auto
+  delay: 1917
+  name: 11|美国 - 洛杉矶 - HostPapa - 38
+  network: ws
+  port: 2095
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 400e16fa96eca85d55e637d3e3a83b46.s1.db-link03.top
+    path: /dabai.in?=400e16fa96eca85d55e637d3e3a83b46
+- alterId: 0
+  cipher: auto
+  delay: 1223
+  name: 11|美国 - 洛杉矶 - HostPapa - 41
+  network: ws
+  port: 2086
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: 817f0470a8cfd0e4e20ec1030d996397.s1.db-link03.top
+    path: /dabai.in?=817f0470a8cfd0e4e20ec1030d996397
+- alterId: 0
+  cipher: auto
+  delay: 1221
+  name: 11|美国 - 洛杉矶 - HostPapa - 42
+  network: ws
+  port: 80
+  server: s1.db-link03.top
+  type: vmess
+  udp: true
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
+  ws-opts:
+    headers:
+      Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top
+    path: /dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0
+- alterId: 0
+  cipher: auto
+  delay: 866
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 8...
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 1ecaf43c-5b0c-4ed6-bb19-5423084071ee
+  ws-opts:
+    headers:
+      Host: ac14afb6e6a4050c1803dc03874ffd7d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1423
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 157
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  servername: cg1c01.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c01.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 2547
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 158
+  network: ws
+  port: 443
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1487
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 159
+  network: ws
+  port: 443
+  server: cg1c07.waimaojd.com
+  servername: cg1c07.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c07.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1261
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 洛杉矶 - Sharktech - 183
+  network: ws
+  port: 443
+  server: cg1c04.waimaojd.com
+  servername: cg1c04.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c04.waimaojd.com
+    path: /api/v1/graphql
+- client-fingerprint: chrome
+  delay: 2599
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #12'
   network: ws
   password: wb6368
   port: 2087
@@ -83,17 +210,61 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      Host: hsdgbuys.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
-- country: 🇺🇸US
-  delay: 859
-  name: 11|美国 - 聖荷西 - xTom - 13
-  password: YlfdAfTHoAuoRIbTPl
-  port: 443
-  server: us-3.regentgrandvalley.com
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  delay: 1431
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- alterId: 2
+  cipher: auto
+  delay: 1613
+  name: 11|美国 - 芝加哥 - Atomic Networks LLC...
+  network: ws
+  port: 13116
+  server: sag.easylink1.com
+  type: vmess
+  udp: true
+  uuid: c9b1a9ec-c4a2-3780-9743-a17165966530
+  ws-opts:
+    headers:
+      Host: sacn.easylink1.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1531
+  fingerprint: ''
+  flow: ''
+  name: 11|美国 - 芝加哥 - Sharktech - 160
+  network: ws
+  port: 443
+  server: cg1c05.waimaojd.com
+  servername: cg1c05.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c05.waimaojd.com
+    path: /api/v1/graphql
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
@@ -104,7 +275,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国2|@ripaojiedian
+  name: 13,14,15|CN_speednode_0007
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 472
@@ -112,3 +283,4 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true

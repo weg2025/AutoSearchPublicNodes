@@ -1,39 +1,7 @@
 proxies:
-- delay: 1093
-  name: 11|俄罗斯 - 莫斯科 - M247 Europe SRL - ...
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.231.130
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPPBUpeb0o1NY7Oeoy8XJLZjoXw609MC0WdYefYZbCn32A==
-- delay: 1096
-  name: '11|俄罗斯 - 莫斯科 - M247 Europe SRL - ... #1'
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.52.62
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPN-MV4v9SZp10WABOuyJX-ToXw609MC0WdYefYZbCn32A==
-- delay: 1236
-  name: 11|白俄罗斯 - 明斯克市 - Support Chain LL...
-  password: '!!str 1'
-  port: 8081
-  server: 178.172.217.13
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPPbfHtlz63TgCpOaZGuWREEoXw609MC0WdYefYZbCn32A==
-- delay: 2282
-  name: '11|白俄罗斯 - 明斯克市 - Support Chain LL... #1'
-  password: '!!str 1'
-  port: 8081
-  server: 178.172.217.19
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kUzS0XxmIWg5iAd5FOI6sPMrnJrYOd8BrWI2rhvxpxIeoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0016
+  name: 15|RU_speednode_0031
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -46,34 +14,8 @@ proxies:
   udp: true
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
-  name: 15|RU_speednode_0017
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 84.22.150.195
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- client-fingerprint: chrome
-  name: 15|RU_speednode_0018
-  port: 8080
-  reality-opts:
-    public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-    short-id: 27cfa05000c23cc4
-  server: 5.181.2.51
-  servername: yandex.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0019
+  name: 15|RU_speednode_0032
   port: 443
   reality-opts:
     public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
@@ -86,15 +28,43 @@ proxies:
   udp: true
   uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
 - client-fingerprint: chrome
-  name: 15|RU_speednode_0020
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0033
+  port: 443
+  reality-opts:
+    public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
+    short-id: 2d46a79deebf50fd
+  server: 94.198.218.41
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
+- client-fingerprint: chrome
+  name: 15|RU_speednode_0034
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
     short-id: 27cfa05000c23cc4
-  server: 147.45.217.250
+  server: 84.22.150.195
   servername: yandex.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0035
+  port: 443
+  reality-opts:
+    public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+    short-id: 16895459a2c7768d
+  server: 66.90.90.10
+  servername: wa.sfasti.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
