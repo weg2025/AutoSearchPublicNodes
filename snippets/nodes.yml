@@ -647,6 +647,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 13|🇭🇰 香港5|@ripaojiedian
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: lazy.rsqpq.cn
+  type: trojan
 - name: 13,14|香港6|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -655,6 +662,22 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13,14|日本|@ripaojiedian
+  network: ws
+  port: '30806'
+  server: v6.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -717,7 +740,7 @@ proxies:
   name: 13|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.51
+  server: 103.186.155.233
   tfo: false
   type: ss
 - alterId: 0
@@ -730,6 +753,13 @@ proxies:
   tls: false
   type: vmess
   uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+- name: 14|香港5|@ripaojiedian
+  network: tcp
+  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+  port: 30002
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|新加坡3|@ripaojiedian
@@ -740,11 +770,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
-- name: 15|CN_speednode_0007
-  password: 253bc477d4e43c209f2d427272968280
-  port: 472
-  server: 36.156.102.88
+- name: 15|SG_speednode_0023
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: hsdgbuys.pages.dev
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
+- name: 15|US_speednode_0037
+  network: ws
+  password: YwuvGJk36B
+  port: 2053
+  server: creativecommons.org
+  skip-cert-verify: false
+  sni: kotlet.arshiacomplus.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kotlet.arshiacomplus.dpdns.org
+    path: /yamtekodasayahhh
