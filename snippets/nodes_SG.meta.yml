@@ -108,45 +108,25 @@ proxies:
   type: http
   username: dd247fc262
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 13,14,15|NL_speednode_0047
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 26295
-  server: 36.156.102.86
+  port: 443
+  server: 38.180.249.152
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 2200
-  server: 182.237.0.26
+  port: 1085
+  server: 153.121.39.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇸🇬 新加坡3|@ripaojiedian
-  port: 49513
-  server: laeg.hsymanuscript.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡3|@ripaojiedian
-  network: tcp
-  port: '49513'
-  server: laeg.hsymanuscript.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
-- name: 15|SG_speednode_0023
+- name: 15|SG_speednode_0050
   network: ws
   password: wb6368
   port: 2087
@@ -161,14 +141,42 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|SG_speednode_0024
-  port: 25288
+  name: 15|SG_speednode_0051
+  port: 25801
   reality-opts:
-    public-key: kGb4d8KXEtQ3ayLLBMs5N2dz5__9aH7wdk0QEwl6f2Q
-  server: 206.189.83.23
-  servername: icloud.cdn-apple.com
+    public-key: gmha_iOyNgQ8D3BgHnz9bn51qvuvaNLyfUZphycu_HQ
+  server: 178.128.223.26
+  servername: updates.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 34393e91-834d-4a3d-a901-bbfde643c4e0
+  uuid: e1d5bfa9-cf32-454a-b746-b1b6b796ccfb
+- name: 15|SG_speednode_0052
+  network: ws
+  port: 80
+  server: test.sachix.online
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: /
+- name: 15|SG_speednode_0053
+  network: ws
+  port: 80
+  server: test.sachix.online
+  servername: test.sachix.online
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
+  ws-opts:
+    headers:
+      Host: test.sachix.online
+    path: /
