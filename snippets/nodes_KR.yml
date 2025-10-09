@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  delay: 2988
+  name: 10|韩国 - 春川市 - Oracle Corporation ...
+  network: ws
+  port: 8443
+  server: c7.620720.xyz
+  servername: c7.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: c7.620720.xyz
+    max-early-data: 2560
+    path: /
+- delay: 2994
+  name: 10|韩国 - 首尔特别市 - KOR VULTR - 3
+  password: f47c6dfb-0611-478b-8429-fe764440a06c
+  port: 30056
+  server: cloudteddt.eellgg.com
+  skip-cert-verify: true
+  sni: v3-web-prime.douyinvod.com
+  type: trojan
+  udp: true

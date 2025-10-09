@@ -1,6 +1,26 @@
 proxies:
 - client-fingerprint: chrome
-  name: 15|RU_speednode_0049
+  delay: 1606
+  name: 10|俄罗斯 - 多莫傑多沃 - Cloudflare, Inc....
+  network: ws
+  port: 8443
+  server: 81.200.158.206
+  servername: kejiland.freewarp.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kejiland.freewarp.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    max-early-data: 2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+  xudp: true
+- client-fingerprint: chrome
+  name: 14|RU_speednode_0049
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs

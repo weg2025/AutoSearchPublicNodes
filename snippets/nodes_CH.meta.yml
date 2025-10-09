@@ -1,36 +1,21 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  delay: 1280
-  name: 11|瑞士 - 苏黎世 - Baxet Group Inc. - ...
-  password: 0494e68d-e085-4237-b274-5e65574ad7c2
-  port: 53414
-  server: 167.17.181.233
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
+- delay: 2844
+  name: 10|瑞士 - Les Acacias - Infomaniak ...
+  network: ws
+  port: 7035
+  server: switrhshaxakiri.vtuix.space
+  type: vless
   udp: true
-  udp-relay-mode: native
-  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-  version: 5
-- alpn:
-  - h3
-  congestion-controller: bbr
-  delay: 1170
-  name: '11|瑞士 - 苏黎世 - Baxet Group Inc. - ... #1'
-  password: 0494e68d-e085-4237-b274-5e65574ad7c2
-  port: 23414
-  server: iplc.vosniehcihwocc.cfd
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-  version: 5
+  uuid: acdf1a94-393f-4b5a-86c2-65558b18e7b5
+  ws-opts:
+    headers:
+      Host: filimo.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
-  name: 15|CH_speednode_0015
+  name: 14|CH_speednode_0015
   port: 8080
   reality-opts:
     public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs

@@ -1,67 +1,54 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  delay: 788
-  name: 11|中国 - 乌恰 - Baxet Group Inc. - 1...
-  password: 0494e68d-e085-4237-b274-5e65574ad7c2
-  port: 61532
-  server: 212.192.12.234
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-  version: 5
-- delay: 2410
-  name: '11|中国 - 乌恰 - Baxet Group Inc. - 1... #1'
-  obfs: salamander
-  obfs-password: CDDQ1dntNm3j0K9i
-  password: 0494e68d-e085-4237-b274-5e65574ad7c2
-  port: 44463
-  server: 212.192.12.234
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  delay: 1039
-  name: '11|中国 - 乌恰 - Baxet Group Inc. - 1... #2'
-  password: 0494e68d-e085-4237-b274-5e65574ad7c2
-  port: 51562
-  server: 212.192.12.234
-  skip-cert-verify: true
-  sni: apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 0494e68d-e085-4237-b274-5e65574ad7c2
-  version: 5
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 397
+  delay: 2000
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
+  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
   network: tcp
   port: 50002
   server: 39.100.81.215
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  delay: 880
+  name: '10|中国 - 北京 - Hangzhou Alibaba Adv... #1'
+  port: 30302
+  server: 39.107.155.11
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 1786
+  delay: 2865
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 广州市 - China Mobile commun...
+  name: 10|中国 - 广州市 - China Mobile commun...
   network: tcp
   port: 50002
   server: 120.210.205.59
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|CN_speednode_0017
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 14|CN_speednode_0018
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6752
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true

@@ -1,1 +1,58 @@
-proxies: []
+proxies:
+- delay: 1767
+  name: 10|瑞典 - Steninge - Cloudflare, In...
+  network: ws
+  port: 8443
+  server: 92.42.102.73
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kejiland.freewarp.eu.org
+    max-early-data: 2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+- client-fingerprint: chrome
+  delay: 1406
+  name: '10|瑞典 - Steninge - Cloudflare, In... #1'
+  network: ws
+  port: 2053
+  server: 77.221.142.186
+  servername: kejiland.freewarp.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kejiland.freewarp.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    max-early-data: 2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+  xudp: true
+- client-fingerprint: chrome
+  delay: 1376
+  name: '10|瑞典 - Steninge - Cloudflare, In... #2'
+  network: ws
+  port: 2053
+  server: 77.91.78.97
+  servername: kejiland.freewarp.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kejiland.freewarp.eu.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+  xudp: true
