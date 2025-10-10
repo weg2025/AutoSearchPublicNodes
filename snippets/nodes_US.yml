@@ -1,6 +1,6 @@
 proxies:
 - delay: 2710
-  name: 10|美国 - 凤凰城 - Oracle Corporation ...
+  name: 11|美国 - 凤凰城 - Oracle Corporation ...
   password: f47c6dfb-0611-478b-8429-fe764440a06c
   port: 32454
   server: cloudteddt.eellgg.com
@@ -11,7 +11,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 2747
-  name: 10|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
   network: ws
   port: 30824
   server: v24.heduian.link
@@ -27,7 +27,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 1074
-  name: 10|美国 - 洛杉矶 - FDCservers.net - 12...
+  name: 11|美国 - 洛杉矶 - FDCservers.net - 12...
   network: ws
   port: 8080
   server: us1.ap-yuko.work
@@ -44,7 +44,7 @@ proxies:
   delay: 2863
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - Multacom Corporatio...
+  name: 11|美国 - 洛杉矶 - Multacom Corporatio...
   network: none
   port: 27691
   server: 74.48.194.7
@@ -53,7 +53,7 @@ proxies:
   uuid: 56520f0d-2bbc-4b8b-f438-82e151d66f96
 - client-fingerprint: chrome
   delay: 1634
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #23'
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #23'
   network: ws
   password: wb6368
   port: 2087
@@ -69,53 +69,29 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   delay: 748
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
   password: 7af26eae-63c7-43c8-b335-e3528f790459
   port: 614
   server: stancsus-alpha.ilayernet.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14,15|US_speednode_0080
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 23.227.194.234
+  server: 23.227.194.19
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14,15|CN_speednode_0024
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 1572
+  port: 6752
   server: 36.156.102.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14|US_speednode_0072
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: 14|US_speednode_0074
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /

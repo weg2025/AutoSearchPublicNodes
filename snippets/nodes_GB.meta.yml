@@ -1,18 +1,8 @@
 proxies:
-- name: '8|Channel id: @ShadowProxy66🇬🇧'
-  obfs: salamander
-  obfs-password: ki(rtoko(s-maret-khamneii
-  password: siEk2SjZFG
-  port: 2083
-  server: adas-polo-ba-mahi.kotlet.org
-  skip-cert-verify: true
-  sni: ghasem.kotlet.org
-  tls: false
-  type: hysteria2
 - delay: 1201
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 10|英国 - 曼彻斯特 - OVH SAS - 1
+  name: 11|英国 - 曼彻斯特 - OVH SAS - 1
   network: grpc
   port: 47765
   server: 141.227.174.234
@@ -21,7 +11,7 @@ proxies:
   uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
   xudp: true
 - delay: 2763
-  name: 10|英国 - 豪恩斯洛 - Cloudflare, Inc. -...
+  name: 11,15|GB_speednode_0041
   network: ws
   port: 8080
   server: 159.65.94.176
@@ -32,28 +22,12 @@ proxies:
   udp: true
   uuid: 01996549-6892-dbf0-0453-f700236936bd
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: kejiland.freewarp.eu.org
-    max-early-data: 2560
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 14|GB_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
-    short-id: aac4df9d05a5ba8f
-  server: 132.145.62.88
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52ed75e2-70a2-41a0-b258-58ca4b200be9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0023
+  name: 15|GB_speednode_0039
   port: 443
   reality-opts:
     public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
@@ -64,3 +38,17 @@ proxies:
   type: vless
   udp: true
   uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- name: 15|GB_speednode_0040
+  network: ws
+  port: 2096
+  server: 185.193.31.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets

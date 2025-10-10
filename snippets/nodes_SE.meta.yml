@@ -1,6 +1,6 @@
 proxies:
 - delay: 1767
-  name: 10|瑞典 - Steninge - Cloudflare, In...
+  name: 11|瑞典 - Steninge - Cloudflare, In...
   network: ws
   port: 8443
   server: 92.42.102.73
@@ -18,7 +18,7 @@ proxies:
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - client-fingerprint: chrome
   delay: 1406
-  name: '10|瑞典 - Steninge - Cloudflare, In... #1'
+  name: '11|瑞典 - Steninge - Cloudflare, In... #1'
   network: ws
   port: 2053
   server: 77.221.142.186
@@ -38,7 +38,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   delay: 1376
-  name: '10|瑞典 - Steninge - Cloudflare, In... #2'
+  name: '11|瑞典 - Steninge - Cloudflare, In... #2'
   network: ws
   port: 2053
   server: 77.91.78.97
@@ -56,3 +56,33 @@ proxies:
     max-early-data: 2560
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
   xudp: true
+- client-fingerprint: chrome
+  name: 15|SE_speednode_0066
+  network: ws
+  port: 8443
+  server: 77.221.137.105
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+- client-fingerprint: chrome
+  name: 15|SE_speednode_0067
+  network: ws
+  port: 8443
+  server: 77.221.137.105
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443

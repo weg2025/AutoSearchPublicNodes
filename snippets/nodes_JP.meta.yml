@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   delay: 1973
-  name: 10|日本 - Ōkubo-naka - Cloudflare, ...
+  name: 11|日本 - Ōkubo-naka - Cloudflare, ...
   network: ws
   port: 56417
   server: 140.83.56.110
@@ -20,7 +20,7 @@ proxies:
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
   xudp: true
 - delay: 2069
-  name: '10|日本 - Ōkubo-naka - Cloudflare, ... #1'
+  name: '11|日本 - Ōkubo-naka - Cloudflare, ... #1'
   network: ws
   port: 587
   server: 138.2.49.197
@@ -37,7 +37,7 @@ proxies:
     max-early-data: 2560
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443
 - delay: 1766
-  name: 10|日本 - 东京 - Alibaba.com LLC - 4
+  name: 11|日本 - 东京 - Alibaba.com LLC - 4
   password: gk2HOfA
   port: 40262
   server: 47.79.41.4
@@ -46,15 +46,24 @@ proxies:
 - cipher: aes-128-gcm
   country: 🇨🇳CN
   delay: 796
-  name: 10|日本 - 东京 - DMIT Cloud Services ...
+  name: 11|日本 - 东京 - DMIT Cloud Services ...
   password: 45957f47-4f68-4059-9c54-d1242b939ba5
   port: 60250
   server: sh9929.alibabaapi6.com
   type: ss
+- client-fingerprint: chrome
+  name: 13,14|日本2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3271
+  server: 160.16.63.16
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|日本|@ripaojiedian
+  name: 13,14|日本|@ripaojiedian
   network: ws
   port: '30806'
   server: v6.heduian.link
@@ -69,32 +78,15 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 12,13|日本2|@ripaojiedian
+  name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 36.156.102.84
+  port: 3160
+  server: 160.16.63.16
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 153.121.70.134
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 14|JP_speednode_0032
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 60.83.190.248
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0033
+- name: 15|JP_speednode_0050
   network: ws
   port: 1443
   server: 140.238.62.82
@@ -108,11 +100,3 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 14|JP_speednode_0034
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 160.16.136.130
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
