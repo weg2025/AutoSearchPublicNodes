@@ -1,107 +1,203 @@
 proxies:
+- client-fingerprint: chrome
+  delay: 1639
+  name: 11|法国 - 奧奈叢林 - Cloudflare, Inc. -...
+  network: ws
+  port: 2053
+  server: 188.130.207.158
+  servername: kejiland.freewarp.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01998846-8a17-c5bf-5b2f-6e85f5964400
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kejiland.freewarp.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    max-early-data: 2560
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1286
+  h2-opts: {}
+  http-opts: {}
+  name: 11|法国 - 巴黎 - Akamai Technologies,...
+  network: ws
+  port: 443
+  server: 172.232.50.230
+  servername: glweidf.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      HOST: glweidf.sbs
+    path: /linkws
 - country: 🇫🇷FR
-  delay: 1779
+  delay: 745
   name: 11|法国 - 巴黎 - Amazon Technologies ...
   password: telegram-id-privatevpns
   port: 22222
-  server: 15.237.17.57
+  server: 52.47.97.33
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 1265
+  delay: 2620
   name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
   password: telegram-id-privatevpns
   port: 22222
-  server: 35.180.6.53
+  server: 15.236.170.222
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 1111
+  delay: 730
   name: '11|法国 - 巴黎 - Amazon Technologies ... #2'
   password: telegram-id-directvpn
   port: 22223
-  server: 35.180.6.53
+  server: 15.236.170.222
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 1811
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.217.168
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 983
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 2
+  delay: 733
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 4
   password: telegram-id-directvpn
   port: 22223
-  server: 35.181.217.168
+  server: 35.181.124.105
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: 🇫🇷FR
+  delay: 772
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 5
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.124.105
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 1266
+  name: 11|法国 - 巴黎 - GTHost - 11
+  password: '!!str 1'
+  port: 8081
+  server: 139.64.167.194
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5zDVF_dNENpQ7sBnBPrQ8Gxsnp5o63PElOVpFduiCmYA==
+- delay: 1270
+  name: 11|法国 - 巴黎 - GTHost - 13
+  password: '!!str 1'
+  port: 8081
+  server: 139.64.167.210
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4nwXArbzEHfDUE1A0cwUO6xsnp5o63PElOVpFduiCmYA==
+- delay: 1080
+  name: 11|法国 - 巴黎 - Online S.A.S. - 14
+  password: '!!str 1'
+  port: 8081
+  server: 163.172.54.132
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6q_bC7_9yEB9rcrSE9iSOVxsnp5o63PElOVpFduiCmYA==
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 2065
-  down: '100'
-  name: 11|法国 - 巴黎 - Online S.A.S. - 6
-  obfs: ''
-  port: 15010
-  protocol: ''
-  server: 195.154.200.40
+  delay: 2364
+  down: 55 Mbps
+  name: 11|法国 - 巴黎 - Online S.A.S. - 7
+  port: 50011
+  protocol: udp
+  server: 62.210.127.217
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  up: '100'
-- name: 15|FR_speednode_0036
-  network: ws
-  port: 2096
-  server: 185.7.240.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
+  up: 11 Mbps
+- delay: 863
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 11|法国 - 巴黎 - OVH SAS - 20
+  network: grpc
+  port: 42817
+  server: 141.227.132.199
   type: vless
   udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippetssecurity=tls
-- name: 15|FR_speednode_0037
-  network: ws
-  port: 2096
-  server: 141.11.203.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
+  uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
+  xudp: true
+- delay: 1054
+  name: 11|法国 - 斯特拉斯堡 - OVH SAS - 17
+  password: '!!str 1'
+  port: 8081
+  server: 51.77.190.29
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6EKr3v7cD606FJyDqn0AaYxsnp5o63PElOVpFduiCmYA==
+- delay: 664
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 11|法国 - 斯特拉斯堡 - OVH SAS - 23
+  network: grpc
+  port: 22808
+  server: 51.178.253.133
   type: vless
   udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|FR_speednode_0038
-  port: 443
-  reality-opts:
-    public-key: 21MNt-O8tq9gP9o7yeT9iVQslHPdNVHtqI9Kg5p-lHo
-  server: 38.54.122.118
-  servername: dash.cloudflare.com
-  skip-cert-verify: false
-  tls: true
+  uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+  xudp: true
+- delay: 837
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 11|法国 - 格拉沃利讷 - OVH SAS - 21
+  network: grpc
+  port: 47583
+  server: 135.125.89.80
   type: vless
   udp: true
-  uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
+  uuid: 60c1dd76-f09f-4c9b-a22a-1672f6959f36
+  xudp: true
+- delay: 447
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 11|法国 - 格拉沃利讷 - OVH SAS - 22
+  network: grpc
+  port: 23279
+  server: 141.94.210.231
+  type: vless
+  udp: true
+  uuid: 30198cba-c828-4b34-8165-25942bad201e
+  xudp: true
+- delay: 1348
+  name: 11|法国 - 格拉沃利讷 - OVH SAS - 9
+  password: '!!str 1'
+  port: 8081
+  server: 37.187.194.214
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee65CyqSu2ne5kO1wqyJhaibxsnp5o63PElOVpFduiCmYA==
+- delay: 1056
+  name: 11|法国 - 瓦特勒洛 - OVH SAS - 16
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.100.204
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee7e3vaBxqL9Mhdl0kXsC7lIxsnp5o63PElOVpFduiCmYA==
+- delay: 1309
+  name: 11|法国 - 瓦特勒洛 - OVH SAS - 8
+  password: '!!str 1'
+  port: 8081
+  server: 79.137.101.250
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6NJOlWl3ob3LSYG0Jz1hvuxsnp5o63PElOVpFduiCmYA==

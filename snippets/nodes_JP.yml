@@ -1,21 +1,33 @@
 proxies:
 - cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 796
-  name: 11|日本 - 东京 - DMIT Cloud Services ...
-  password: 45957f47-4f68-4059-9c54-d1242b939ba5
-  port: 60250
-  server: sh9929.alibabaapi6.com
+  client-fingerprint: chrome
+  country: 🇯🇵JP
+  delay: 739
+  name: 11,13|🇯🇵 日本4|@ripaojiedian
+  password: lINaALnHIiH4cSj8pJn6TQ==
+  port: 9443
+  server: 202.182.98.223
+  tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 160.16.63.16
+- alterId: 0
+  cipher: auto
+  delay: 2577
+  name: 11|日本 - 东京 - Oracle Corporation -...
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  servername: t1.620720.xyz
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: t1.620720.xyz
+    max-early-data: 2560
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -34,11 +46,20 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
+  name: 13,14|日本2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4451
+  server: 160.16.68.250
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
   name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.63.16
+  port: 1331
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

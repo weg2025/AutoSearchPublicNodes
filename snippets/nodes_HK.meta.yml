@@ -1,4 +1,31 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1020
+  name: 11|巴西 - Sao Paulo - Kaopu Cloud H...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 38.54.57.90
+  type: ss
+- delay: 2068
+  name: 11|科威特 - 科威特市 - Kaopu Cloud HK Li...
+  password: '!!str 1'
+  port: 8081
+  server: 38.54.124.170
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6Zfh_tvAK4QHF_dyyueQ0qoXw609MC0WdYefYZbCn32A==
+- alterId: 0
+  cipher: auto
+  delay: 2096
+  name: 11|马来西亚 - 吉隆坡 - Kaopu Cloud HK Li...
+  port: 2052
+  server: 38.54.98.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -16,17 +43,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  port: 55238
-  server: 103.224.80.122
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 13|🇭🇰 香港2|@ripaojiedian
@@ -48,7 +64,7 @@ proxies:
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 60.84.23.102
+  server: 203.198.123.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -57,31 +73,7 @@ proxies:
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4400
-  server: 221.128.195.219
+  server: 221.128.195.220
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|香港3|@ripaojiedian
-  network: tcp
-  port: '55238'
-  server: 103.224.80.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6771d73-462f-488e-8419-a133f34d051a
-- name: 15|HK_speednode_0044
-  network: ws
-  port: 2096
-  server: 45.192.223.44
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12345678-1234-1234-1234-123456789123
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets

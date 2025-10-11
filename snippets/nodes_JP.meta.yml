@@ -1,65 +1,128 @@
 proxies:
-- client-fingerprint: chrome
-  delay: 1973
-  name: 11|日本 - Ōkubo-naka - Cloudflare, ...
-  network: ws
-  port: 56417
-  server: 140.83.56.110
-  servername: kejiland.freewarp.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kejiland.freewarp.eu.org
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    max-early-data: 2560
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-  xudp: true
-- delay: 2069
-  name: '11|日本 - Ōkubo-naka - Cloudflare, ... #1'
-  network: ws
-  port: 587
-  server: 138.2.49.197
-  servername: kejiland.freewarp.eu.org
+- delay: 1421
+  name: 11|尼日利亚 - 拉哥斯 - Host Africa (Pty)...
+  password: '!!str 1'
+  port: 8081
+  server: 169.255.57.58
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee48uVUgeOp99Ve9EHg8weNxoXw609MC0WdYefYZbCn32A==
+- delay: 2554
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: 11|日本 - Minamishinagawa - Back Wa...
+  password: 80c9752a41
+  port: 20443
+  server: aw-jp-28374.strongpipe.cloud
   skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
   tls: true
+  type: http
+  username: dd247fc262
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇯🇵JP
+  delay: 739
+  name: 11,13|🇯🇵 日本4|@ripaojiedian
+  password: lINaALnHIiH4cSj8pJn6TQ==
+  port: 9443
+  server: 202.182.98.223
+  tfo: false
+  type: ss
+- country: 🇨🇳CN
+  delay: 1649
+  name: 11|日本 - Negishi - rixCloud - 1
+  network: tcp
+  port: 11443
+  server: 183.240.179.88
   type: vless
   udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kejiland.freewarp.eu.org
-    max-early-data: 2560
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- delay: 1766
-  name: 11|日本 - 东京 - Alibaba.com LLC - 4
+  uuid: df245bf8-8253-4029-90d8-ef30cfac75f1
+- delay: 748
+  name: 11|日本 - 东京 - Alibaba.com LLC - 10
   password: gk2HOfA
   port: 40262
   server: 47.79.41.4
   type: http
   username: kZXMC3Z1
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 796
-  name: 11|日本 - 东京 - DMIT Cloud Services ...
-  password: 45957f47-4f68-4059-9c54-d1242b939ba5
-  port: 60250
-  server: sh9929.alibabaapi6.com
-  type: ss
-- client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 160.16.63.16
+- delay: 2403
+  name: 11|日本 - 东京 - Host Universal Pty L...
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.52
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5DxiuMqmrN8QAEaIghGibeoXw609MC0WdYefYZbCn32A==
+- delay: 926
+  name: '11|日本 - 东京 - Host Universal Pty L... #1'
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.50
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee71toFHH7saNWA4HwXB21zzoXw609MC0WdYefYZbCn32A==
+- delay: 1415
+  name: '11|日本 - 东京 - Host Universal Pty L... #2'
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.169
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5HnmEg4vZL2CRC-0R1EYlpoXw609MC0WdYefYZbCn32A==
+- delay: 935
+  name: '11|日本 - 东京 - Host Universal Pty L... #3'
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.31
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5pTbme1UQR13AU2TKKjq_9oXw609MC0WdYefYZbCn32A==
+- delay: 939
+  name: '11|日本 - 东京 - Host Universal Pty L... #4'
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.51
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5OzOQ5SMYzLUxEaDwNTdQ-oXw609MC0WdYefYZbCn32A==
+- delay: 917
+  name: '11|日本 - 东京 - Host Universal Pty L... #5'
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.241
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee69WdyMKL5sXdShLd88RWI4oXw609MC0WdYefYZbCn32A==
+- alterId: 0
+  cipher: auto
+  delay: 2577
+  name: 11|日本 - 东京 - Oracle Corporation -...
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  servername: t1.620720.xyz
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: t1.620720.xyz
+    max-early-data: 2560
+    path: /
+- delay: 782
+  name: 11|波兰 - 若利博日区 - M247 Europe - 4
+  password: '!!str 1'
+  port: 8081
+  server: 5.253.206.122
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee7c2OKyI-AQpUJbGLBtTbIvoXw609MC0WdYefYZbCn32A==
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -78,25 +141,20 @@ proxies:
       Host: ocbc.com
     path: /oooo
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.63.16
+  port: 4451
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 15|JP_speednode_0050
-  network: ws
-  port: 1443
-  server: 140.238.62.82
-  servername: kejiland.freewarp.eu.org
+- client-fingerprint: chrome
+  name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1331
+  server: 160.16.116.227
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+  sni: www.nintendogames.net
+  type: trojan

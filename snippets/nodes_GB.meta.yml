@@ -1,54 +1,122 @@
 proxies:
-- delay: 1201
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 11|英国 - 曼彻斯特 - OVH SAS - 1
-  network: grpc
-  port: 47765
-  server: 141.227.174.234
-  type: vless
-  udp: true
-  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-  xudp: true
-- delay: 2763
-  name: 11,15|GB_speednode_0041
-  network: ws
-  port: 8080
-  server: 159.65.94.176
-  servername: kejiland.freewarp.eu.org
+- delay: 1728
+  name: 11|英国 - Erith - OVH SAS - 5
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.173.123
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee7oy6W8SLp_LeIQoNmhcsOYxsnp5o63PElOVpFduiCmYA==
+- delay: 1288
+  name: 11|英国 - Poplar - Clouvider Limite...
+  password: '!!str 1'
+  port: 8081
+  server: 185.245.80.156
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6zwLqiNfcTNHmLzd8IATXkoXw609MC0WdYefYZbCn32A==
+- delay: 951
+  name: '11|英国 - Poplar - Clouvider Limite... #1'
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.211.94
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4BXdcfsYOD_-evEzwvYNAQoXw609MC0WdYefYZbCn32A==
+- delay: 1815
+  name: 11|英国 - Slough - DigitalOcean, LL...
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: bc4f280b-1fea-414c-b73c-6770c6f20ef9
+  port: 22026
+  ports: 21000-26000
+  server: yg1.gy6688.xyz
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01996549-6892-dbf0-0453-f700236936bd
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets/ip=proxyip.fxxk.dedyn.io:443
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0039
-  port: 443
-  reality-opts:
-    public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-  server: 178.20.215.2
-  servername: speed.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
-- name: 15|GB_speednode_0040
-  network: ws
-  port: 2096
-  server: 185.193.31.32
-  servername: kejiland.freewarp.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-  ws-opts:
-    headers:
-      Host: kejiland.freewarp.eu.org
-    path: /snippets
+  sni: yg1.gy6688.xyz
+  type: hysteria2
+- delay: 1044
+  name: '11|英国 - Slough - DigitalOcean, LL... #1'
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: bc4f280b-1fea-414c-b73c-6770c6f20ef9
+  port: 23848
+  ports: 21000-26000
+  server: yg1.gy6688.xyz
+  skip-cert-verify: true
+  sni: yg1.gy6688.xyz
+  type: hysteria2
+- delay: 956
+  name: '11|英国 - Slough - DigitalOcean, LL... #2'
+  obfs: salamander
+  obfs-password: LNAnPYDfFyesRAVn
+  password: bc4f280b-1fea-414c-b73c-6770c6f20ef9
+  port: 25215
+  ports: 21000-26000
+  server: yg1.gy6688.xyz
+  skip-cert-verify: true
+  sni: yg1.gy6688.xyz
+  type: hysteria2
+- delay: 844
+  name: 11|英国 - Stretford - M247 Europe S...
+  password: '!!str 1'
+  port: 8081
+  server: 139.28.176.106
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5I9pxZk-mi4Z_V6Vlf4292oXw609MC0WdYefYZbCn32A==
+- delay: 1425
+  name: 11|英国 - 伦敦 - OVH SAS - 6
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.153.211
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee5rMbfj_csDboWG3IfELzg0xsnp5o63PElOVpFduiCmYA==
+- delay: 683
+  name: 11|英国 - 伦敦 - OVH SAS - 8
+  password: '!!str 1'
+  port: 8081
+  server: 145.239.6.2
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee6FGmED-Ep4mab-IpTJBxProXw609MC0WdYefYZbCn32A==
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇬BG
+  delay: 585
+  name: 11|英国 - 倫敦金融城 - BrainStorm Networ...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 94.156.250.122
+  type: ss
+- delay: 1753
+  name: 11|英国 - 倫敦金融城 - GTHost - 10
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.215
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee67h9GpELfUaIc8dLG952aqoXw609MC0WdYefYZbCn32A==
+- delay: 890
+  name: 11|英国 - 倫敦金融城 - GTHost - 4
+  password: '!!str 1'
+  port: 8081
+  server: 38.114.120.157
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4m8dsyuxbArxoeES0LAFaNxsnp5o63PElOVpFduiCmYA==
+- delay: 2802
+  name: 11|英国 - 倫敦金融城 - GTHost - 7
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.183
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee79WtZnb2Efu-fVolOvPTF1oXw609MC0WdYefYZbCn32A==
+- delay: 684
+  name: 11|英国 - 诺丁汉 - Skymarket - 11
+  password: '!!str 1'
+  port: 8081
+  server: 212.84.160.58
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4cgAnn8z0W7g95BDHSiNSDoXw609MC0WdYefYZbCn32A==

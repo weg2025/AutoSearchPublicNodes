@@ -1,16 +1,28 @@
 proxies:
-- delay: 2844
-  name: 11|瑞士 - Les Acacias - Infomaniak ...
-  network: ws
-  port: 7035
-  server: switrhshaxakiri.vtuix.space
+- delay: 920
+  name: 11|瑞士 - 呂姆朗 - Private Layer INC -...
+  password: '!!str 1'
+  port: 8081
+  server: 179.43.172.58
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee7xEpeDt7gWceQJoTfz9c_goXw609MC0WdYefYZbCn32A==
+- delay: 1713
+  name: 11|瑞士 - 苏黎世 - M247 Europe SRL - 2
+  password: '!!str 1'
+  port: 8081
+  server: 185.183.104.146
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee77M5_QTGFEPW2SBhOvHEl6oXw609MC0WdYefYZbCn32A==
+- delay: 835
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 11|瑞士 - 苏黎世 - OVH SAS - 3
+  network: grpc
+  port: 18541
+  server: 141.227.138.82
   type: vless
   udp: true
-  uuid: acdf1a94-393f-4b5a-86c2-65558b18e7b5
-  ws-opts:
-    headers:
-      Host: filimo.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /
+  uuid: 49ffd741-9736-40fb-9217-76a8fcfb3ffd
   xudp: true

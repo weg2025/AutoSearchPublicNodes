@@ -1,59 +1,78 @@
 proxies:
-- delay: 2710
-  name: 11|美国 - 凤凰城 - Oracle Corporation ...
-  password: f47c6dfb-0611-478b-8429-fe764440a06c
-  port: 32454
-  server: cloudteddt.eellgg.com
-  skip-cert-verify: true
-  sni: cloud.tencent.eellgg.com
+- cipher: chacha20-ietf-poly1305
+  delay: 805
+  name: 11|哈萨克斯坦 - 阿拉木圖 - PQ HOSTING PLUS...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.159.250.190
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  delay: 927
+  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  delay: 2747
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
-  network: ws
-  port: 30824
-  server: v24.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: v24.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  delay: 1074
-  name: 11|美国 - 洛杉矶 - FDCservers.net - 12...
-  network: ws
-  port: 8080
-  server: us1.ap-yuko.work
-  type: vmess
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- cipher: chacha20-ietf-poly1305
+  delay: 1064
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
   udp: true
-  uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
-  ws-opts:
-    headers:
-      Host: us1.ap-yuko.work
-    path: /15346d1172d1571b2be7d1c5896eee72ac3d1601
 - alterId: 0
   cipher: auto
-  country: 🇨🇦CA
-  delay: 2863
+  country: 🏁ZZ
+  delay: 1032
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - Multacom Corporatio...
-  network: none
-  port: 27691
-  server: 74.48.194.7
+  name: 11|美国 - 洛杉矶 - HostPapa - 3
+  network: ws
+  port: 2095
+  server: 104.19.48.236
+  servername: 100-147-248-105.s2.cn-db.top
   skip-cert-verify: true
   type: vmess
-  uuid: 56520f0d-2bbc-4b8b-f438-82e151d66f96
+  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
+  ws-opts:
+    headers:
+      HOST: 100-147-248-105.s2.cn-db.top
+    path: /dabai.in104.24.253.15
+- alterId: 0
+  cipher: auto
+  country: 🇰🇷KR
+  delay: 1918
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
+  network: ws
+  port: 50001
+  server: 221.164.142.10
+  servername: aa.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+  ws-opts:
+    headers:
+      HOST: aa.nbee.pp.ua
+    path: /qq
 - client-fingerprint: chrome
-  delay: 1634
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #23'
+  delay: 861
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #67'
   network: ws
   password: wb6368
   port: 2087
@@ -67,31 +86,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
-- cipher: aes-128-gcm
-  delay: 748
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: 7af26eae-63c7-43c8-b335-e3528f790459
-  port: 614
-  server: stancsus-alpha.ilayernet.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 13,14,15|US_speednode_0080
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 23.227.194.19
+  port: 2381
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 13,14,15|CN_speednode_0024
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 36.156.102.84
+  port: 1572
+  server: 160.16.196.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
