@@ -1,6 +1,6 @@
 proxies:
 - delay: 919
-  name: 11|新加坡 - 新加坡 - Aceville Pte.ltd -...
+  name: 10|新加坡 - 新加坡 - Aceville Pte.ltd -...
   password: yunxi8848
   port: 52871
   server: 101.32.245.58
@@ -9,13 +9,13 @@ proxies:
 - cipher: chacha20-ietf
   country: 🇭🇰HK
   delay: 843
-  name: 11|新加坡 - 新加坡 - Greywolf Networks ...
+  name: 10|新加坡 - 新加坡 - Greywolf Networks ...
   password: asd123456
   port: 8388
   server: 103.36.91.32
   type: ss
 - delay: 1196
-  name: 11|新加坡 - 新加坡 - Leaseweb Singapore...
+  name: 10|新加坡 - 新加坡 - Leaseweb Singapore...
   password: 1nLWx0UVnJ
   port: 52302
   server: 164.152.167.94
@@ -24,7 +24,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🏁ZZ
   delay: 2332
-  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 1
+  name: 10|新加坡 - 新加坡 - Melbikomas UAB - 1
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -35,7 +35,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   delay: 773
-  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 2
+  name: 10|新加坡 - 新加坡 - Melbikomas UAB - 2
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -45,7 +45,7 @@ proxies:
   server: 5.44.249.43
   type: ss
 - delay: 1770
-  name: 11|新加坡 - 新加坡 - OneAsiaHost - 4
+  name: 10|新加坡 - 新加坡 - OneAsiaHost - 4
   password: '!!str 1'
   port: 8081
   server: 116.251.217.47
@@ -53,7 +53,7 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4qNZU0MX7rSuaAjRJf1jUHoXw609MC0WdYefYZbCn32A==
 - delay: 1861
-  name: 11|新加坡 - 新加坡 - OneAsiaHost - 5
+  name: 10|新加坡 - 新加坡 - OneAsiaHost - 5
   password: '!!str 1'
   port: 8081
   server: 116.251.216.100
@@ -61,7 +61,7 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee4zBkj5HuXc6CqVmkVlVeU1oXw609MC0WdYefYZbCn32A==
 - delay: 1118
-  name: 11|新加坡 - 新加坡 - OVH SAS - 6
+  name: 10|新加坡 - 新加坡 - OVH SAS - 6
   password: '!!str 1'
   port: 8081
   server: 15.235.145.238
@@ -69,54 +69,36 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee78oO9i51EMIiYWOHMS6l9YoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 2283
-  server: 160.16.116.227
+  port: 2173
+  server: 36.156.102.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 160.16.116.227
+  port: 5321
+  server: 36.156.102.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: node4.rtxconfigz.com
-  servername: node4.rtxconfigz.com
-  skip-cert-verify: false
+  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 5.44.249.43
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  ws-opts:
-    headers:
-      Host: node4.rtxconfigz.com
-    path: /@Malinda6104
-- name: 15|SG_speednode_0018
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
-- name: 15|SG_speednode_0020
+  type: ss
+- name: 14|SG_speednode_0020
   password: installshield
   port: 8443
   server: 38.180.106.124
