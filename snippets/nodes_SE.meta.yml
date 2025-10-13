@@ -1,33 +1,32 @@
 proxies:
-- delay: 1090
-  name: 10|丹麦 - Hørsholm - ASERGO Scandin...
-  password: '!!str 1'
-  port: 8081
-  server: 82.103.131.250
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee7xi30Xve5f4yiv3Kc1CJ0joXw609MC0WdYefYZbCn32A==
-- delay: 860
-  name: 10|卢森堡 - Schieren - SERVERS-COM-L...
-  password: '!!str 1'
-  port: 8081
-  server: 23.109.136.54
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee447eeU9_UEYUBeW0Kjr_SboXw609MC0WdYefYZbCn32A==
-- delay: 855
-  name: '10|卢森堡 - Schieren - SERVERS-COM-L... #1'
-  password: '!!str 1'
-  port: 8081
-  server: 23.109.137.14
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee45-nQNtJxdAkFyj57OPMlIoXw609MC0WdYefYZbCn32A==
-- delay: 1122
-  name: '10|卢森堡 - Schieren - SERVERS-COM-L... #2'
-  password: '!!str 1'
-  port: 8081
-  server: 23.109.136.154
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kbs_dcDgzv2JTPbAQdbfee63Mg036djDMyfWhQhWM40ToXw609MC0WdYefYZbCn32A==
+- country: 🇮🇷IR
+  delay: 2174
+  name: 10|瑞典 - Steninge - Cloudflare, In...
+  network: ws
+  port: 8443
+  server: 31.56.227.82
+  servername: fei.634676.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      Host: fei.634676.xyz
+    path: /?ed=2560
+- delay: 1466
+  name: '10|瑞典 - Steninge - Cloudflare, In... #1'
+  network: ws
+  port: 8443
+  server: 31.56.196.64
+  servername: fei.634676.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: fei.634676.xyz
+    max-early-data: 2560
+    path: /

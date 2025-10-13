@@ -1,91 +1,87 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  delay: 805
-  name: 10|哈萨克斯坦 - 阿拉木圖 - PQ HOSTING PLUS...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.159.250.190
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 927
-  name: '10|美国 - 东洛杉矶 - Cloudflare, Inc. -... #1'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: koma-yt.pages.dev
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    max-early-data: 2560
-    path: /tro8sFW1S91B6sZrM1
-- cipher: chacha20-ietf-poly1305
-  delay: 1064
+  country: 🇺🇸US
+  delay: 579
   name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1746
+  name: 10|美国 - 盐湖城 - Bage Cloud LLC - 10
+  port: 35500
+  server: 148.135.184.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 869b6722-799d-4d3b-b930-bebd42fd1e28
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  delay: 1032
+  country: 🇸🇪SE
+  delay: 463
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - HostPapa - 3
-  network: ws
-  port: 2095
-  server: 104.19.48.236
-  servername: 100-147-248-105.s2.cn-db.top
+  name: 10|美国 - 盐湖城 - Bage Cloud LLC - 2
+  network: tcp
+  port: 35500
+  server: 148.135.184.84
   skip-cert-verify: true
   type: vmess
-  uuid: a1a607e6-a04c-3db6-a36f-c2a4312e2fe1
-  ws-opts:
-    headers:
-      HOST: 100-147-248-105.s2.cn-db.top
-    path: /dabai.in104.24.253.15
+  uuid: 93096e76-6c82-408a-beb8-7327b88b4e42
 - alterId: 0
   cipher: auto
-  country: 🇰🇷KR
-  delay: 1918
+  delay: 458
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 50001
-  server: 221.164.142.10
-  servername: aa.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
+  name: 10|美国 - 盐湖城 - Bage Cloud LLC - 3
+  port: 35500
+  server: 148.135.184.84
   type: vmess
-  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-  ws-opts:
-    headers:
-      HOST: aa.nbee.pp.ua
-    path: /qq
-- client-fingerprint: chrome
-  delay: 861
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #67'
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
+  udp: true
+  uuid: 744847f4-8549-4bab-a8e4-6b410d271c16
+- alterId: 0
+  cipher: auto
+  country: 🇸🇪SE
+  delay: 1645
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 盐湖城 - Bage Cloud LLC - 9
+  network: tcp
+  port: 35500
+  server: 148.135.184.84
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4de15ee9-5248-416a-ad22-dfce1b710119
+- country: 🇨🇳CN
+  delay: 1660
+  name: 10|美国 - 芝加哥 - HIVELOCITY, Inc. - ...
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 36.156.102.84
+  skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1743
+  h2-opts: {}
+  http-opts: {}
+  name: 10|荷兰 - Meppel - PQ HOSTING PLUS ...
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  servername: ocbc.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
+      HOST: ocbc.com
+    path: /oooo
 - client-fingerprint: chrome
   name: 12,13|美国|@ripaojiedian
   network: tcp
@@ -104,20 +100,6 @@ proxies:
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- client-fingerprint: chrome
-  name: 12,14|SG_speednode_0018
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - name: 13|美国3|@ripaojiedian
   network: ws
   password: wb6368

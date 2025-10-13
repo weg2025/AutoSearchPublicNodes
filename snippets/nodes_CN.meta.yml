@@ -1,19 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 121
-  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
-  port: 30302
-  server: 39.107.155.11
+  delay: 593
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 106.14.75.114
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 139
+  delay: 719
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 529
   h2-opts: {}
   http-opts: {}
   name: '10|中国 - 北京 - Hangzhou Alibaba Adv... #1'
@@ -23,83 +37,74 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
-  delay: 534
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 广州市 - China Mobile commun...
-  network: tcp
-  port: 50002
-  server: 120.210.205.59
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  delay: 686
+  name: '10|中国 - 北京 - Hangzhou Alibaba Adv... #2'
+  password: 6hVowjcc82p6Nu9UvOXhhF
+  port: 8443
+  server: 39.104.68.204
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇨🇳 CN
-  delay: 530
+  country: 🇨🇳CN
+  delay: 920
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
   port: 20521
   server: 119.29.98.43
+  skip-cert-verify: true
   type: vmess
   uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-  ws-opts: {}
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  delay: 215
+  delay: 609
   h2-opts: {}
   http-opts: {}
   name: '10|中国 - 广州市 - Shenzhen Tencent Co... #1'
   network: ws
-  port: 56532
-  server: 119.29.98.43
-  type: vmess
-  uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 221
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #2'
-  network: ws
-  port: 11399
-  server: 119.29.98.43
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 427
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #3'
-  network: ws
   port: 48536
   server: 119.29.98.43
-  skip-cert-verify: true
   type: vmess
   uuid: 057caba1-2237-41e6-a54d-ec03509898a5
   ws-opts:
     path: /arki?ed=2048
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 580
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 杭州 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 120.26.137.112
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 161
+  delay: 555
+  h2-opts: {}
+  http-opts: {}
   name: 10|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  network: tcp
   port: 50002
   server: 139.129.20.6
   skip-cert-verify: true
-  tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|CN_speednode_0003
+  password: 80c9752a41
+  port: 20443
+  server: nat-hk-37465.strongpipe.cloud
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dd247fc262
