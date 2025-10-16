@@ -1,93 +1,52 @@
 proxies:
-- country: 🇫🇷FR
-  delay: 1384
-  name: 11|法国 - 奧奈叢林 - Cloudflare, Inc. -...
-  network: ws
-  port: 2053
-  server: 141.94.205.161
-  servername: fei.634676.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
-  ws-opts:
-    headers:
-      Host: fei.634676.xyz
-    path: /?ed=2560
 - cipher: aes-256-cfb
   country: 🇫🇷FR
-  delay: 940
+  delay: 1117
   name: 11|法国 - 巴黎 - Amazon Technologies ...
   password: amazonskr05
   port: 443
-  server: 13.38.44.116
+  server: 52.47.120.33
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  delay: 1106
+  name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
+  password: amazonskr05
+  port: 443
+  server: 13.38.71.74
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  delay: 1215
+  name: '11|法国 - 巴黎 - Amazon Technologies ... #2'
+  password: amazonskr05
+  port: 443
+  server: 13.36.170.248
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  delay: 1040
+  name: '11|法国 - 巴黎 - Amazon Technologies ... #3'
+  password: amazonskr05
+  port: 443
+  server: 13.36.168.18
   type: ss
 - country: 🇫🇷FR
-  delay: 727
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
+  delay: 1365
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 4
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.39.8.223
+  server: 15.188.177.243
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 1872
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #2'
+  delay: 2115
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 5
   password: telegram-id-directvpn
   port: 22223
-  server: 52.47.214.14
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 2902
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #3'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.214.14
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 2154
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #4'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.39.8.223
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 770
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #5'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.175.182
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 754
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 8
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.188.39
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 978
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 9
-  password: telegram-id-directvpn
-  port: 22223
-  server: 35.181.188.39
+  server: 15.188.177.243
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
@@ -96,9 +55,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1594
+  delay: 1750
   down: '100'
-  name: 11|法国 - 巴黎 - Online S.A.S. - 10
+  name: 11|法国 - 巴黎 - Online S.A.S. - 7
   obfs: ''
   port: 15010
   protocol: ''
@@ -107,3 +66,19 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '100'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  country: 🇫🇷FR
+  delay: 2364
+  down: '55'
+  name: 11|法国 - 巴黎 - Online S.A.S. - 8
+  port: 35511
+  protocol: udp
+  server: 62.210.127.217
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '11'
