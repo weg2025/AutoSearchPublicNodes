@@ -19,14 +19,12 @@ proxies:
       HOST: v32.emoyes.top
     path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   country: 🇸🇬SG
   delay: 957
-  name: 10,12|🇸🇬 新加坡6|@ripaojiedian
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
   password: X2UQXuTGxwxE1ZMaTQwtxS
   port: 60523
   server: 174.138.29.1
-  tfo: false
   type: ss
 - cipher: chacha20-ietf
   country: 🇸🇬 SG
@@ -55,7 +53,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5041
-  server: 153.121.56.122
+  server: 153.121.41.97
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -64,7 +62,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5321
-  server: 153.121.56.122
+  server: 160.16.131.243
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -104,3 +102,17 @@ proxies:
   server: 5.44.249.42
   tfo: false
   type: ss
+- name: 14|SG_speednode_0058
+  network: ws
+  port: 443
+  server: 141.11.43.124
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
