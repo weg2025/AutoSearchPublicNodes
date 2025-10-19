@@ -32,25 +32,37 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 45939
+  server: 103.224.80.118
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
 - client-fingerprint: chrome
   name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
-  server: 58.152.30.92
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 12,13,14|CN_speednode_0004
-  network: tcp
-  password: BxceQaOe
-  port: 4556
-  server: 36.151.195.112
+  server: 203.198.122.28
   skip-cert-verify: true
+  sni: fe2.update.microsoft.com
   type: trojan
-  udp: true
-- name: 14|HK_speednode_0013
+- alterId: 0
+  cipher: auto
+  name: 13|香港3|@ripaojiedian
+  network: tcp
+  port: '45939'
+  server: 103.224.80.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
+- name: 14|HK_speednode_0007
   network: ws
   port: 443
   server: 202.85.53.74
@@ -64,24 +76,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560
-- name: 14|HK_speednode_0014
+- name: 14|HK_speednode_0009
   network: ws
   port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- name: 14|HK_speednode_0015
-  network: ws
-  port: 35951
-  server: 36.50.90.241
+  server: 47.76.218.163
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true

@@ -1,52 +1,54 @@
 proxies:
 - country: 🇫🇷FR
-  delay: 1275
-  name: 10|法国 - 巴黎 - Amazon Technologies ...
+  delay: 1456
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 1
   password: telegram-id-directvpn
   port: 22223
-  server: 52.47.82.233
+  server: 15.188.172.113
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 1280
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #1'
+  delay: 1361
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 2
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.172.113
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1327
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 3
   password: telegram-id-directvpn
   port: 22223
-  server: 15.237.223.64
+  server: 51.45.17.91
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  delay: 590
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #2'
-  password: amazonskr05
-  port: 443
-  server: 15.237.118.240
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 467
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #3'
-  password: amazonskr05
-  port: 443
-  server: 15.237.208.55
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1108
-  down: '100'
-  name: 10|法国 - 巴黎 - Online S.A.S. - 5
-  obfs: ''
-  port: 15010
-  protocol: ''
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'
+- delay: 1738
+  name: 10|法国 - 格拉沃利讷 - OVH SAS - 9
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.240.51
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kab_aaS-2t_NPmNJvpiS9M7xsnp5o63PElOVpFduiCmYA==
+- delay: 2276
+  name: 10|法国 - 瓦特勒洛 - OVH SAS - 7
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.100.204
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KY7WKFM1g5UXXUMeb7EWv1Ixsnp5o63PElOVpFduiCmYA==
+- delay: 1594
+  name: 10|法国 - 瓦特勒洛 - OVH SAS - 8
+  password: '!!str 1'
+  port: 8081
+  server: 79.137.101.250
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbjRjZmwwn7f284Z79GvXPSxsnp5o63PElOVpFduiCmYA==

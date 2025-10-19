@@ -1,5 +1,29 @@
 proxies:
-- name: 14|RU_speednode_0046
+- delay: 995
+  name: 10|俄罗斯 - 莫斯科 - M247 Europe SRL - ...
+  password: '!!str 1'
+  port: 8081
+  server: 146.70.52.54
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYgZ5p0vE5DNXw3RZgqDcatoXw609MC0WdYefYZbCn32A==
+- delay: 2195
+  name: 10|白俄罗斯 - 明斯克市 - Support Chain LL...
+  password: '!!str 1'
+  port: 8081
+  server: 178.172.217.13
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KY8veB25KRbnSh5xr0-jKBmoXw609MC0WdYefYZbCn32A==
+- delay: 1210
+  name: '10|白俄罗斯 - 明斯克市 - Support Chain LL... #1'
+  password: '!!str 1'
+  port: 8081
+  server: 178.172.217.19
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbxB03VX1oeQoemWTFQWj1goXw609MC0WdYefYZbCn32A==
+- name: 14|RU_speednode_0025
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -12,50 +36,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0047
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /freecodes@节点狂魔/?ed=2560
-- name: 14|RU_speednode_0048
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
-- name: 14|RU_speednode_0049
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 14|RU_speednode_0050
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 14|RU_speednode_0026
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -69,21 +51,49 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0052
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 175d
-  server: 45.144.30.60
-  servername: hls-svod.itunes.apple.com
+- name: 14|RU_speednode_0027
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 46788ea0-fdf1-4694-90a0-dec94fc471c3
-- name: 14|RU_speednode_0053
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- name: 14|RU_speednode_0028
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 14|RU_speednode_0029
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /freecodes@节点狂魔/?ed=2560
+- name: 14|RU_speednode_0030
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -97,49 +107,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0054
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 175d
-  server: 45.144.30.36
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 46788ea0-fdf1-4694-90a0-dec94fc471c3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|RU_speednode_0055
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 175d
-  server: ru01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 46788ea0-fdf1-4694-90a0-dec94fc471c3
-- name: 14|RU_speednode_0056
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /
-- name: 14|RU_speednode_0057
+- name: 14|RU_speednode_0031
   network: ws
   port: 2096
   server: 188.42.145.253

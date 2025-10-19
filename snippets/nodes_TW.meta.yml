@@ -1,13 +1,5 @@
 proxies:
-- name: 14|TW_speednode_0091
-  password: 890c928b-9ceb-4048-aff2-944461463ee8
-  port: 25502
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- name: 14|TW_speednode_0092
+- name: 14|TW_speednode_0032
   network: ws
   port: 443
   server: 167.179.27.92
@@ -21,3 +13,17 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 14|TW_speednode_0033
+  network: ws
+  port: 443
+  server: 167.179.27.92
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560

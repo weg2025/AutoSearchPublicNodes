@@ -1,61 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  delay: 516
-  name: 10|美国 - Ashburn - Amazon.com, Inc...
-  password: amazonskr05
-  port: 443
-  server: 54.242.126.43
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  delay: 822
-  name: '10|美国 - Ashburn - Amazon.com, Inc... #1'
-  password: amazonskr05
-  port: 443
-  server: 54.84.99.165
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 523
-  name: '10|美国 - Ashburn - Amazon.com, Inc... #2'
-  password: amazonskr05
-  port: 443
-  server: 54.90.199.180
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 478
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇰🇷KR
-  delay: 1466
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 50001
-  server: 221.164.142.10
-  servername: aa.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-  ws-opts:
-    headers:
-      HOST: aa.nbee.pp.ua
-    path: /qq
 - cipher: aes-128-gcm
-  delay: 773
+  delay: 1304
   name: 10|美国 - 聖荷西 - Eons Data Communica...
   password: 7af26eae-63c7-43c8-b335-e3528f790459
-  port: 613
-  server: stancsus-alpha.ilayernet.xyz
+  port: 595
+  server: standcnus-two.ilayernet.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  delay: 680
+  name: '10|美国 - 聖荷西 - Eons Data Communica... #1'
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 597
+  server: standcnus-two.ilayernet.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  delay: 1837
+  name: '10|美国 - 聖荷西 - Eons Data Communica... #2'
+  password: 7af26eae-63c7-43c8-b335-e3528f790459
+  port: 594
+  server: standcnus-two.ilayernet.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -63,7 +28,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
@@ -72,20 +37,7 @@ proxies:
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 153.121.41.97
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 14|US_speednode_0100
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: false
-  sni: azadnet-f03.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: azadnet-f03.pages.dev
-    path: /?ed=2560

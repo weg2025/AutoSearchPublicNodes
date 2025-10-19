@@ -1,9 +1,39 @@
 proxies:
 - cipher: rc4-md5
-  delay: 542
+  country: 🇨🇦CA
+  delay: 589
   name: 10|加拿大 - 多伦多 - DigitalOcean, LLC ...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 137.184.174.93
+  server: 138.197.141.58
   type: ss
+- delay: 1055
+  name: 10|加拿大 - 蒙特利尔 - GloboTech Communi...
+  password: '!!str 1'
+  port: 8081
+  server: 67.43.236.226
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Ka-NpL_YP5_RN03zAXgYBlKxsnp5o63PElOVpFduiCmYA==
+- delay: 2788
+  name: 10|加拿大 - 蒙特利尔 - OVH SAS - 3
+  password: '!!str 1'
+  port: 8081
+  server: 148.113.221.152
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kaza7ydmrs0aKBPLhYgW8Qzxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CA_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: 18otPJIOnisNtfhP_PxpdJgPYqFbkYQAM-pecy90xwk
+    short-id: 5ec229f9
+  server: 81.19.140.131
+  servername: vk.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
