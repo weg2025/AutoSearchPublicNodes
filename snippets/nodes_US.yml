@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
   delay: 1304
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
+  name: 9|美国 - 聖荷西 - Eons Data Communica...
   password: 7af26eae-63c7-43c8-b335-e3528f790459
   port: 595
   server: standcnus-two.ilayernet.xyz
@@ -9,7 +9,7 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   delay: 680
-  name: '10|美国 - 聖荷西 - Eons Data Communica... #1'
+  name: '9|美国 - 聖荷西 - Eons Data Communica... #1'
   password: 7af26eae-63c7-43c8-b335-e3528f790459
   port: 597
   server: standcnus-two.ilayernet.xyz
@@ -17,27 +17,26 @@ proxies:
   udp: true
 - cipher: aes-128-gcm
   delay: 1837
-  name: '10|美国 - 聖荷西 - Eons Data Communica... #2'
+  name: '9|美国 - 聖荷西 - Eons Data Communica... #2'
   password: 7af26eae-63c7-43c8-b335-e3528f790459
   port: 594
   server: standcnus-two.ilayernet.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.132.158
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 160.16.132.158
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 11,12|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 26876
+  server: 36.156.102.115
   skip-cert-verify: true
-  sni: www.baidu.com
   type: trojan

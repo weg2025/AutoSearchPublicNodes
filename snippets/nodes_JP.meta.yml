@@ -1,6 +1,6 @@
 proxies:
 - delay: 1443
-  name: 10|日本 - 东京 - Host Universal Pty L...
+  name: 9|日本 - 东京 - Host Universal Pty L...
   password: '!!str 1'
   port: 8081
   server: 103.108.230.52
@@ -8,7 +8,7 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KZAGFDMyKhGRTi56fG0wSx-oXw609MC0WdYefYZbCn32A==
 - delay: 1444
-  name: '10|日本 - 东京 - Host Universal Pty L... #1'
+  name: '9|日本 - 东京 - Host Universal Pty L... #1'
   password: '!!str 1'
   port: 8081
   server: 103.108.230.31
@@ -16,20 +16,28 @@ proxies:
   type: http
   username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaqrTCw5uAPu21Fkjq-41Z1oXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 12,13|日本2|@ripaojiedian
+  name: 11,12|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 811
+  server: 36.151.251.18
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 1331
-  server: 160.16.240.91
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|日本3|@ripaojiedian
+  name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.240.91
+  port: 3161
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
