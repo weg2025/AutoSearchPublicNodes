@@ -1,60 +1,31 @@
 proxies:
-- name: 9|🇩🇪@FreakConfig
-  password: 30c075af-9555-4671-b70e-43e3cfb2e707
-  port: 7009
-  server: d.eans.top
-  skip-cert-verify: true
-  sni: d.eans.top
-  tls: false
-  type: hysteria2
-- name: '9|DE-telegram-@ISVvpn   : کا '
+- name: '10|DE-telegram-@ISVvpn   : کا '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 1833
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.177.201.129
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 2990
+  down: 1000
+  name: 11|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 1
+  port: 37519
+  ports: 10000-20000
+  protocol: udp
+  server: 109.104.153.91
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  sni: apple.com
+  type: hysteria
+  up: 1000
+- name: 15|DE_speednode_0004
+  port: 11366
+  server: 141.11.164.233
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-- country: 🇩🇪DE
-  delay: 1510
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.177.201.129
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- delay: 2380
-  name: 10|德国 - 杜塞尔多夫 - MYLOC - 3
-  password: '!!str 1'
-  port: 8081
-  server: 5.104.107.251
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kb0grGC-ArUnjDfSynVvVv5oXw609MC0WdYefYZbCn32A==
-- delay: 824
-  name: 10|沙特阿拉伯 - 利雅德 - M247 Europe SRL ...
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.167.70
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KbYN2gOvZv32CY-6W3F_yFvoXw609MC0WdYefYZbCn32A==
-- delay: 2064
-  name: 10|西班牙 - 马德里 - M247 Europe SRL - ...
-  password: '!!str 1'
-  port: 8081
-  server: 45.152.183.146
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KahX4Z3OF3skO29TbtXkuwxoXw609MC0WdYefYZbCn32A==
+  uuid: dce1e7b5-60ab-4446-bb95-97e1234df5d6

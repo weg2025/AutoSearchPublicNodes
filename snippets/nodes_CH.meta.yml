@@ -1,25 +1,15 @@
 proxies:
-- delay: 2080
-  name: 10|危地马拉 - Guatemala City - SONDAT...
-  password: '!!str 1'
-  port: 8081
-  server: 170.80.111.119
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Ka8npV3N_xUL-1Lkwob01_qoXw609MC0WdYefYZbCn32A==
-- delay: 1371
-  name: 10|瑞士 - 呂姆朗 - Private Layer INC -...
-  password: '!!str 1'
-  port: 8081
-  server: 179.43.172.58
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYRH3GcRTpkrhA4XUsV-cffoXw609MC0WdYefYZbCn32A==
-- delay: 2880
-  name: 10|瑞士 - 苏黎世 - M247 Europe SRL - 2
-  password: '!!str 1'
-  port: 8081
-  server: 185.183.104.146
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYGlGr3rxf6ValEoOL0q4IyoXw609MC0WdYefYZbCn32A==
+- name: 15|CH_speednode_0001
+  network: ws
+  port: 2096
+  server: IP.mirzabox.info
+  servername: IBIS.zuLAir.site.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0eaef00e-ffc4-46bd-8f32-07baefd73f70
+  ws-opts:
+    headers:
+      Host: IBIS.zuLAir.site.
+    path: /

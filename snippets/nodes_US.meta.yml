@@ -1,13 +1,5 @@
 proxies:
-- name: '9|Channel id: @vpnserverrr🇺🇸'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9| @AblNet7 🇺🇸 机场推荐
+- name: 10| @AblNet7 🇺🇸 机场推荐
   password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
   port: 63979
   server: 113.192.61.19
@@ -15,50 +7,66 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- delay: 2310
-  name: 10|美国 - 华盛顿特区 - GTHost - 11
-  password: '!!str 1'
-  port: 8081
-  server: 23.154.136.106
+- name: 10|🔐 @AblNet7 🇺🇸 机场推荐
+  password: c232f411-96b5-4b07-b2f7-66a434725ffb
+  port: 23891
+  server: 108.165.213.197
+  skip-cert-verify: true
+  sni: fus01.mistea.top
   tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYKkSp7o7NHL3qQyNmx4DGkxsnp5o63PElOVpFduiCmYA==
-- delay: 2001
-  name: 10|美国 - 圣克拉拉 - GTHost - 10
-  password: '!!str 1'
-  port: 8081
-  server: 169.197.142.119
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kb-xLa_Id3ckGeFZbBfZ3zaxsnp5o63PElOVpFduiCmYA==
-- delay: 2387
-  name: 10,14|HK_speednode_0011
+  type: hysteria2
+- delay: 1930
+  name: 11|美国 - 东洛杉矶 - Cloudflare, Inc. -...
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 21297
+  server: 183.100.113.37
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
-- delay: 2181
-  name: 10|美国 - 洛杉矶 - Hostdime Com. CO - ...
-  password: '!!str 1'
-  port: 8081
-  server: 138.121.203.146
+    max-early-data: 2560
+    path: /X@节点狂魔/
+- alterId: 2
+  cipher: auto
+  delay: 2921
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: false
   tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KaSp4dbsAwfT6DLC8IP_yyeoXw609MC0WdYefYZbCn32A==
-- delay: 1720
-  name: 10|美国 - 紐華克 - Cloudflare, Inc. - ...
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v29.heduian.link
+    path: /oooo
+- cipher: chacha20-ietf-poly1305
+  delay: 408
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+- cipher: aes-256-gcm
+  delay: 807
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  port: 5003
+  server: cgroup.node5.s.nodelist-airport.com
+  type: ss
+  udp: true
+- delay: 2315
+  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
   network: ws
   port: 50000
-  server: 210.99.119.3
+  server: 211.57.90.42
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -69,12 +77,12 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     max-early-data: 2560
-    path: /x @节点狂魔 /
-- delay: 2306
-  name: '10|美国 - 紐華克 - Cloudflare, Inc. - ... #1'
+    path: /X@节点狂魔/
+- delay: 1179
+  name: '11|美国 - 紐華克 - Cloudflare, Inc. - ... #1'
   network: ws
-  port: 12236
-  server: 220.118.109.204
+  port: 19413
+  server: 121.165.101.69
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -85,156 +93,68 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     max-early-data: 2560
-    path: /telegram @freecodes /
-- delay: 1328
-  name: '10|美国 - 紐華克 - Cloudflare, Inc. - ... #2'
-  network: ws
-  port: 50002
-  server: 121.145.253.124
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: gaosir.unfeeling.sbs
-    max-early-data: 2560
-    path: /telegram @freecodes /
-- client-fingerprint: chrome
-  delay: 1212
-  name: '10|美国 - 紐華克 - Cloudflare, Inc. - ... #3'
-  network: ws
-  port: 443
-  server: 131.186.38.123
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: gaosir.unfeeling.sbs
-    max-early-data: 2560
-    path: /Telegram🇨🇳@WangCai2/
-- delay: 1964
-  name: 10,14|KR_speednode_0022
+    path: /Telegram@freecodes/
+- delay: 2152
+  name: '11|美国 - 紐華克 - Cloudflare, Inc. - ... #2'
   network: ws
   port: 50001
-  server: 118.41.28.45
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes
-- delay: 2294
-  name: '10|美国 - 紐華克 - Cloudflare, Inc. - ... #5'
-  network: ws
-  port: 60001
-  server: 119.65.139.101
+  server: 118.91.78.76
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
   udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /x@节点狂魔
-- delay: 1155
-  name: 10|美国 - 聖荷西 - Cloudflare, Inc. - ...
+    max-early-data: 2560
+    path: /Telegram@节点狂魔/
+- delay: 1483
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
-  port: 2096
-  server: 194.152.44.253
-  servername: vless.muzheng.top
-  tls: true
-  type: vless
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
   udp: true
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
   ws-opts:
     headers:
-      Host: vless.muzheng.top
-    path: /Telegram @freecodes /?ed=2560
-- cipher: aes-128-gcm
-  delay: 1304
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
-  password: 7af26eae-63c7-43c8-b335-e3528f790459
-  port: 595
-  server: standcnus-two.ilayernet.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 680
-  name: '10|美国 - 聖荷西 - Eons Data Communica... #1'
-  password: 7af26eae-63c7-43c8-b335-e3528f790459
-  port: 597
-  server: standcnus-two.ilayernet.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 1837
-  name: '10|美国 - 聖荷西 - Eons Data Communica... #2'
-  password: 7af26eae-63c7-43c8-b335-e3528f790459
-  port: 594
-  server: standcnus-two.ilayernet.xyz
-  type: ss
-  udp: true
-- delay: 926
-  name: 10|美国 - 迈阿密 - M247 Europe SRL - 9
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.228.82
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6Kaj0DD0Zr-976Nbui_V7aRxxsnp5o63PElOVpFduiCmYA==
-- delay: 2040
-  name: 10|美国 - 達拉斯 - GTHost - 8
-  password: '!!str 1'
-  port: 8081
-  server: 167.17.66.82
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kc5WWNQzm4MbB4vBhSpk6KYWohjOaRdSwA-Wh9H2o9Iixsnp5o63PElOVpFduiCmYA==
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.68.250
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.68.250
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13,14|CN_speednode_0008
+  name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26876
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 47083
+  name: 13|🇺🇸 美国4|@ripaojiedian
+  port: 47084
   server: 124.236.46.114
   skip-cert-verify: false
   tfo: false
@@ -243,29 +163,15 @@ proxies:
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
 - alterId: 0
   cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 14|美国4|@ripaojiedian
   network: tcp
-  port: '47083'
+  port: '47084'
   server: 124.236.46.114
   servername: ''
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: 14|US_speednode_0038
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔security=tls
-- name: 14|US_speednode_0039
+- name: 15|US_speednode_0029
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -279,3 +185,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /x @节点狂魔
+- name: 15|US_speednode_0030
+  network: ws
+  port: 2096
+  server: 195.13.45.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔security=tls
+- name: 15|US_speednode_0031
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1b6364ef-0345-4920-8454-b70792537465
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
