@@ -1,16 +1,33 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   : کا '
+- name: '10|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- delay: 828
+  name: 11|德国 - Frankfurt - GTHost - 2
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.52
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kVqRZuLoQFvWlLKSt4sVvxMa1rhRX8FO1_BWfRIiq6ldxsnp5o63PElOVpFduiCmYA==
+- delay: 1049
+  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
+  password: c28626c9-b566-4d30-95cd-fffda0140503
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 2990
+  delay: 2339
   down: 1000
   name: 11|荷兰 - 阿姆斯特丹 - ONEPROVIDER - 1
   port: 37519
@@ -21,11 +38,3 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 1000
-- name: 15|DE_speednode_0004
-  port: 11366
-  server: 141.11.164.233
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dce1e7b5-60ab-4446-bb95-97e1234df5d6

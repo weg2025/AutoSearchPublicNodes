@@ -1,5 +1,5 @@
 proxies:
-- name: '10|🇬🇧 - GB - @freeOnlineVPN #1'
+- name: 10|🇧 - GB - @freeOnlineVPN
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|🇬🇧 - GB - @freeOnlineVPN #3'
+- name: '10|🇬🇧 - GB - @freeOnlineVPN #2'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
   password: YwuvGJk36B
@@ -18,11 +18,54 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
+- delay: 1061
+  name: 11|英国 - Harlesden - G-Core Labs S...
+  password: 86539c18-bf4e-4ae6-a970-528c6eacea7c
+  port: 44100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1865
+  name: 11|英国 - Poplar - Clouvider Limite...
+  password: '!!str 1'
+  port: 8081
+  server: 185.145.201.31
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kVqRZuLoQFvWlLKSt4sVvxN7J2DAS-ih7zdbZAoCCOFbxsnp5o63PElOVpFduiCmYA==
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1846
+  h2-opts: {}
+  http-opts: {}
+  name: 11|英国 - Slough - DigitalOcean, LL...
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /oooo
 - cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  delay: 835
-  name: 11|英国 - 伦敦 - Global Connectivity ...
-  password: c40641c1f89e7acb
-  port: 57456
-  server: uk.vpnsparta.pro
+  delay: 699
+  name: 11|英国 - 伦敦 - Datacamp Limited - 1
+  password: W4ULRoPY8DvUhnbfKnjSWD
+  port: 20199
+  server: 206.206.125.53
   type: ss
+  udp: true
+- delay: 912
+  name: 11|英国 - 诺丁汉 - Skymarket - 4
+  password: '!!str 1'
+  port: 8081
+  server: 212.84.160.58
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kVqRZuLoQFvWlLKSt4sVvxMEUPkTi814BOCsBMJ0hGtdoXw609MC0WdYefYZbCn32A==

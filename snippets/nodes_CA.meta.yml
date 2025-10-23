@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  delay: 1844
+  disable-sni: false
+  name: 11|加拿大 - 多伦多 - Oracle Corporation...
+  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  port: 52434
+  reduce-rtt: false
+  request-timeout: 0
+  server: 40.233.77.57
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  version: 5

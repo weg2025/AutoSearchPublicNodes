@@ -1,19 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 329
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|新加坡 - 新加坡 - Shenzhen Tencent C...
-  network: http
-  port: 25687
-  server: 43.134.68.44
-  tls: false
-  type: vmess
+- delay: 797
+  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
+  password: 86539c18-bf4e-4ae6-a970-528c6eacea7c
+  port: 31101
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg02.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-  uuid: 54419f17-8e86-4c98-adb0-6957cec88315
+- delay: 2007
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
+  password: 5d0d1bf1-f5f1-4e92-b883-2c085d7cd86e
+  port: 31100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|新加坡|@ripaojiedian
   network: tcp
@@ -36,25 +39,26 @@ proxies:
   name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2088
+  port: 36698
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-- name: 15|SG_speednode_0025
-  network: ws
-  port: 443
-  server: 141.11.43.124
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔
-- name: 15|SG_speednode_0026
+- client-fingerprint: chrome
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  password: 82e0ff78-c281-4806-99ee-24c1d9912b4c
+  port: 33001
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  sni: lazy.rsqpq.cn
+  type: trojan
+- name: 14|新加坡4|@ripaojiedian
+  network: tcp
+  password: 82e0ff78-c281-4806-99ee-24c1d9912b4c
+  port: 33001
+  server: lazy.rsqpq.cn
+  skip-cert-verify: true
+  type: trojan
+- name: 15|SG_speednode_0014
   network: ws
   port: 443
   server: 185.114.78.230
@@ -68,3 +72,17 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: 15|SG_speednode_0015
+  network: ws
+  port: 443
+  server: 185.114.78.230
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
