@@ -1,10 +1,19 @@
 proxies:
-- delay: 1049
-  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
-  password: c28626c9-b566-4d30-95cd-fffda0140503
-  port: 25100
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: de01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇩🇪DE
+  delay: 737
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: ws
+  port: 443
+  server: 116.203.89.88
+  servername: googleb.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6f41bfca-38b6-4a90-8309-75c3587b7056
+  ws-opts:
+    headers:
+      HOST: googleb.net
+    path: /linkws

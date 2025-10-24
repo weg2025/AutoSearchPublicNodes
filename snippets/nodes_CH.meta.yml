@@ -1,29 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CH_speednode_0001
-  port: 8443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: auto.quattro-tech.ru
-  servername: auto.quattro-tech.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c44b52f-361e-45c5-bd12-dc72f28397ce
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CH_speednode_0002
-  port: 8443
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  server: 83.228.208.219
-  servername: auto.quattro-tech.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c44b52f-361e-45c5-bd12-dc72f28397ce
+- delay: 2763
+  name: 11|危地马拉 - Guatemala City - SONDAT...
+  password: '!!str 1'
+  port: 8081
+  server: 170.80.111.119
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9ka-Gp5qBWDcQMmL6KAZBiqFQLDPI_mwkYFhKyljAS80ooXw609MC0WdYefYZbCn32A==
+- delay: 1031
+  name: 11|瑞士 - 苏黎世 - M247 Europe SRL - 1
+  password: '!!str 1'
+  port: 8081
+  server: 185.183.104.146
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9ka-Gp5qBWDcQMmL6KAZBiqFmzlHBjkhXYfyJeviPqZZOoXw609MC0WdYefYZbCn32A==

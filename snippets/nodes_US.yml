@@ -1,15 +1,13 @@
 proxies:
-- country: 🇺🇸 US
-  delay: 1203
-  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
-  password: OAj6Zba9QLK9HxrV
-  port: 31443
-  server: us1.petal.news
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- delay: 2466
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+- cipher: chacha20-ietf-poly1305
+  delay: 406
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+- delay: 928
+  name: 11,15|US_speednode_0031
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -21,7 +19,7 @@ proxies:
   ws-opts:
     headers:
       Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs?ed=2560
+    path: /trGPZDfetEwuO25SAs
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
