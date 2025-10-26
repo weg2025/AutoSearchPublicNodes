@@ -1,13 +1,101 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  delay: 406
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  country: 🇺🇸US
+  delay: 995
+  name: 10|美国 - Cedar Knolls - Akamai Tec...
+  password: ruvYDi4Bm363wacUoEjOz9
+  port: 58433
+  server: 104.237.150.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2131
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
-- delay: 928
-  name: 11,15|US_speednode_0028
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2709
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - Cloudflare, Inc. - ...
+  network: ws
+  port: 30000
+  server: 185.148.14.230
+  servername: us.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      HOST: us.nbee.pp.ua
+    path: /aa
+- country: 🇨🇳CN
+  delay: 999
+  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
+  password: 7789b504-24e9-4ff0-8cff-03a5c9005f1d
+  port: 21864
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 1066
+  name: '10|美国 - 西雅圖 - Zhejiang Aiyun Netw... #1'
+  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
+  port: 21865
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 12,13|美国|@ripaojiedian
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2381
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 26373
+  server: 36.150.215.241
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 12|🇺🇸 美国4|@ripaojiedian
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21864
+  server: 36.103.168.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 13|美国4|@ripaojiedian
+  network: tcp
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21864
+  server: 36.103.168.7
+  skip-cert-verify: true
+  type: trojan
+- name: 14|US_speednode_0042
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -20,29 +108,3 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs
-- client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|美国2|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
-  server: 160.16.89.176
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 26876
-  server: 36.151.251.23
-  skip-cert-verify: true
-  type: trojan

@@ -1,24 +1,60 @@
 proxies:
-- delay: 931
-  name: 11|韩国 - 首尔特别市 - M247 Europe SRL -...
-  password: '!!str 1'
-  port: 8081
-  server: 79.110.55.34
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9ka-Gp5qBWDcQMmL6KAZBiqFHZvvOj-oLfogBVwxBOlBMoXw609MC0WdYefYZbCn32A==
-- delay: 2074
-  name: 11|韩国 - 首尔特别市 - Psychz Networks -...
-  password: '!!str 1'
-  port: 8081
-  server: 140.174.179.129
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9ka-Gp5qBWDcQMmL6KAZBiqGRS6ARgKhxdEs4KEndA0Q-oXw609MC0WdYefYZbCn32A==
-- name: 15|KR_speednode_0012
+- country: 🇨🇳CN
+  delay: 1336
+  name: 10|韩国 - 仁川广域市 - G-Core Labs S.A. ...
+  password: 5978419a-a183-419e-a88e-9185f1e974f1
+  port: 21871
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- name: 14|KR_speednode_0017
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 14|KR_speednode_0018
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
+- name: 14|KR_speednode_0019
+  network: ws
+  port: 50003
+  server: 175.211.35.161
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 14|KR_speednode_0020
   network: ws
   port: 50001
-  server: 118.40.126.7
+  server: 118.91.78.76
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
@@ -28,22 +64,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 15|KR_speednode_0013
-  network: ws
-  port: 27443
-  server: 211.229.77.184
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 15|KR_speednode_0014
+    path: /Telegram@节点狂魔/?ed=2560
+- name: 14|KR_speednode_0021
   network: ws
   port: 443
   server: 147.75.225.105

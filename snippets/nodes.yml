@@ -1,275 +1,419 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 336
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 上海 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 106.14.75.114
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  delay: 439
-  name: 11|中国 - 佛山市 - China Mobile - 5
+  country: 🇨🇳CN
+  delay: 1158
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 佛山市 - China Mobile - 5
+  network: tcp
   port: 59003
   server: 183.236.51.36
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 128
-  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
+  delay: 294
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 北京 - Hangzhou Alibaba Adv...
+  network: tcp
   port: 30302
   server: 39.107.155.11
   skip-cert-verify: true
-  tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  delay: 330
-  name: '11|中国 - 北京 - Hangzhou Alibaba Adv... #1'
-  port: 50002
-  server: 39.100.81.215
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 364
-  name: 11|中国 - 合肥 - China Unicom CHINA16...
-  port: 50007
-  server: 112.132.215.34
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 662
+  delay: 225
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 广州市 - Shenzhen Tencent Co...
+  name: 10|中国 - 广州市 - Shenzhen Tencent Co...
+  network: ws
+  port: 48536
+  server: 119.29.98.43
+  type: vmess
+  uuid: 057caba1-2237-41e6-a54d-ec03509898a5
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1596
+  h2-opts: {}
+  http-opts: {}
+  name: '10|中国 - 广州市 - Shenzhen Tencent Co... #1'
   network: ws
   port: 56532
   server: 119.29.98.43
-  skip-cert-verify: true
   type: vmess
   uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
   ws-opts:
     path: /arki?ed=2048
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇨🇳CN
-  delay: 401
+  country: 🇭🇰HK
+  delay: 860
   h2-opts: {}
   http-opts: {}
-  name: '11|中国 - 广州市 - Shenzhen Tencent Co... #1'
+  name: 10|中国 - 香港 - Hong Kong Telecommun...
   network: ws
-  port: 11399
-  server: 119.29.98.43
+  port: 80
+  server: c251f6b5-sv2sg0-swjbgr-1kcpe.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
   ws-opts:
-    path: /arki?ed=2048
-- alterId: 64
-  cipher: auto
-  delay: 188
-  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 120.26.137.112
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
-  delay: 179
-  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
-  port: 50002
-  server: 139.129.20.6
-  skip-cert-verify: true
-  tls: false
+  delay: 880
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|中国 - 香港 - HongKong Virtual Int...
+  network: http
+  port: 10086
+  server: 103.243.26.209
   type: vmess
+  uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+- country: 🇨🇳CN
+  delay: 734
+  name: 10|中国 - 香港 - Hytron Network Servi...
+  password: 5978419a-a183-419e-a88e-9185f1e974f1
+  port: 21862
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- country: 🇨🇳CN
+  delay: 1132
+  name: '10|中国 - 香港 - Hytron Network Servi... #1'
+  password: 7789b504-24e9-4ff0-8cff-03a5c9005f1d
+  port: 21862
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 1118
+  name: '10|中国 - 香港 - Hytron Network Servi... #2'
+  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
+  port: 21891
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 1007
+  name: '10|中国 - 香港 - Hytron Network Servi... #3'
+  password: 7ae21af3-5c58-4656-872a-ca9c7607af07
+  port: 21866
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 1702
+  name: '10|中国 - 香港 - Hytron Network Servi... #4'
+  password: 5978419a-a183-419e-a88e-9185f1e974f1
+  port: 21866
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 722
-  name: 11|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
-  password: tunnel-fbrof
-  port: 8444
-  server: tr-1.stunnel.cc
+  country: 🇬🇧GB
+  delay: 1607
+  name: 10|加拿大 - 蒙特利尔 - BrainStorm Networ...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.154.204.7
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 457
-  name: 11|德国 - 法兰克福 - Global Connectivit...
-  password: A7tAaeQqcsxuDfiFyQmP5u
-  port: 35291
-  server: 80.66.72.11
-  type: ss
+- country: 🇩🇪DE
+  delay: 1134
+  name: 10|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.126.78.233
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1112
+  name: '10|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.126.78.233
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1134
+  name: '10|德国 - Frankfurt am Main - Amazo... #2'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.77.10.254
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 677
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 法兰克福 - YottaSrc - 5
+  network: tcp
+  port: 51409
+  server: 155.254.35.214
+  skip-cert-verify: true
+  type: vmess
+  uuid: 703a1b6c-a01e-45f8-9040-c29cbb0235e1
 - alterId: 0
   cipher: auto
   country: 🇩🇪DE
-  delay: 737
+  delay: 773
   h2-opts: {}
   http-opts: {}
-  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
-  network: ws
-  port: 443
-  server: 116.203.89.88
-  servername: googleb.net
+  name: 10|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: tcp
+  port: 40000
+  server: 167.235.143.230
   skip-cert-verify: true
   type: vmess
-  uuid: 6f41bfca-38b6-4a90-8309-75c3587b7056
-  ws-opts:
-    headers:
-      HOST: googleb.net
-    path: /linkws
-- cipher: aes-256-cfb
-  delay: 646
-  name: 11|摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 924
-  name: 11|摩洛哥 - Fes - BrainStorm Network...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 188.214.157.58
-  type: ss
-- alterId: 2
-  cipher: auto
-  delay: 898
-  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  network: ws
-  port: 30804
-  server: v4.heduian.link
+  uuid: 2806fc58-3e6e-48c5-b643-08214ef58593
+- country: 🇨🇳CN
+  delay: 810
+  name: 10|新加坡 - 新加坡 - PT Herza Digital I...
+  password: 5978419a-a183-419e-a88e-9185f1e974f1
+  port: 21877
+  server: baigou1.kkieo555.cn
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- cipher: aes-256-gcm
-  delay: 1731
-  name: 11|澳大利亚 - 悉尼 - Amazon.com, Inc. -...
-  password: dada0801
-  port: 80
-  server: 54.252.154.208
-  type: ss
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 1540
+  name: '10|新加坡 - 新加坡 - PT Herza Digital I... #1'
+  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
+  port: 21877
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 1539
+  name: 10|日本 - 东京 - Skyspark Hosting LLC...
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 19056
+  server: jp02.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 855
+  name: '10|日本 - 东京 - Skyspark Hosting LLC... #1'
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 19053
+  server: jp02.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 1473
+  name: '10|日本 - 东京 - Skyspark Hosting LLC... #2'
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 19001
+  server: jp02.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 1330
+  name: '10|日本 - 东京 - Skyspark Hosting LLC... #3'
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 18045
+  server: jp01.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 1687
+  name: '10|日本 - 东京 - Skyspark Hosting LLC... #4'
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 18025
+  server: jp01.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  sni: TG.WangCai2
+  type: trojan
+  udp: true
+- country: 🇮🇷IR
+  delay: 795
+  name: '10|日本 - 东京 - Skyspark Hosting LLC... #5'
+  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+  port: 18013
+  server: jp01.weyaf9sdoh2h.space
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇨🇳CN
+  delay: 779
+  name: 10|日本 - 大阪市 - SAKURA Internet Inc...
+  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
+  port: 21867
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 2183
+  name: 10|法国 - 巴黎 - Amazon Technologies ...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.236.216.210
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 406
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  country: 🇺🇸US
+  delay: 995
+  name: 10|美国 - Cedar Knolls - Akamai Tec...
+  password: ruvYDi4Bm363wacUoEjOz9
+  port: 58433
+  server: 104.237.150.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2131
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
-- delay: 928
-  name: 11,15|US_speednode_0028
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2709
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - Cloudflare, Inc. - ...
   network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
+  port: 30000
+  server: 185.148.14.230
+  servername: us.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
   ws-opts:
     headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
-- cipher: chacha20-ietf-poly1305
-  delay: 1419
-  name: 11|越南 - Bo - VNPT Corp - 5
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1313
-  name: 11|越南 - Hải Dương - FASTLY - 1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.76
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1446
-  name: 11|越南 - Hải Dương - FASTLY - 10
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.156
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 740
-  name: 11|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 755
-  name: 11|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.129
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 676
-  name: 11|越南 - Hải Dương - FASTLY - 3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.238
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1952
-  name: 11|越南 - Hải Dương - FASTLY - 4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.211
-  type: ss
+      HOST: us.nbee.pp.ua
+    path: /aa
+- country: 🇨🇳CN
+  delay: 999
+  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
+  password: 7789b504-24e9-4ff0-8cff-03a5c9005f1d
+  port: 21864
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  delay: 720
-  name: 11|越南 - Hải Dương - FASTLY - 6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.190
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 697
-  name: 11|越南 - Hải Dương - FASTLY - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.69
-  type: ss
+- country: 🇨🇳CN
+  delay: 1066
+  name: '10|美国 - 西雅圖 - Zhejiang Aiyun Netw... #1'
+  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
+  port: 21865
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 681
-  name: 11|越南 - Hải Dương - FASTLY - 8
+  delay: 1051
+  name: 10|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.212
+  server: 103.186.154.141
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 1795
-  name: 11|越南 - Hải Dương - FASTLY - 9
+  delay: 838
+  name: 10|越南 - Hải Dương - FASTLY - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.152
+  server: 103.186.154.209
   type: ss
 - cipher: aes-256-cfb
-  name: 13|tg频道:@ripaojiedian
+  country: 🏁ZZ
+  delay: 2218
+  name: 10,12|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.247
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1139
+  name: 10|越南 - Hải Dương - FASTLY - 4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.9
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1119
+  name: 10|越南 - Hải Dương - FASTLY - 5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.236
+  type: ss
+- country: 🇨🇳CN
+  delay: 1336
+  name: 10|韩国 - 仁川广域市 - G-Core Labs S.A. ...
+  password: 5978419a-a183-419e-a88e-9185f1e974f1
+  port: 21871
+  server: baigou1.kkieo555.cn
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.170.77.155
@@ -277,7 +421,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 13,14|香港|@ripaojiedian
+  name: 12,13|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -292,7 +436,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: aes-256-gcm
-  name: 13|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
@@ -308,113 +452,162 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰 香港3|@ripaojiedian
-  port: 14994
-  server: 103.224.80.100
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  port: 59516
+  server: 43.247.134.213
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 40731c98-9514-4e75-b78e-58311d214095
-- name: 13,14|香港4|@ripaojiedian
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
-  server: 58.152.110.83
+  server: 58.152.53.136
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4451
-  server: 36.151.251.23
+  port: 443
+  server: 58.152.46.98
   skip-cert-verify: true
   type: trojan
-- name: 13,14|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 811
-  server: 36.151.251.35
-  skip-cert-verify: true
-  type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 1331
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 3161
-  server: 160.16.116.227
+- name: 12|🇭🇰 香港6|@ripaojiedian
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21862
+  server: 36.103.168.7
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13,14|日本4|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
-  password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-  port: 15013
-  server: 37.202.200.19
-  skip-cert-verify: false
-  sni: jp02.weyaf9sdoh2h.space
+  password: BxceQaOe
+  port: 1924
+  server: 36.150.215.241
+  skip-cert-verify: true
   type: trojan
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 4452
+  server: 153.121.41.97
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 3161
+  server: 160.16.106.144
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5321
-  server: 160.16.116.227
+  server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 5041
-  server: 160.16.116.227
+  server: 160.16.106.144
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13,14|CN_speednode_0001
   network: tcp
   password: BxceQaOe
   port: 24392
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
-- name: 13,14|美国|@ripaojiedian
+  udp: true
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.116.227
+  server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.89.176
+  server: 160.16.106.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26876
-  server: 36.151.251.23
+  port: 26373
+  server: 36.150.215.241
   skip-cert-verify: true
+  type: trojan
+- name: 12|🇺🇸 美国4|@ripaojiedian
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21864
+  server: 36.103.168.7
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|香港3|@ripaojiedian
+  name: 13|香港3|@ripaojiedian
   network: tcp
-  port: '14994'
-  server: 103.224.80.100
+  port: '59516'
+  server: 43.247.134.213
   servername: ''
   tls: false
   type: vmess
-  uuid: 40731c98-9514-4e75-b78e-58311d214095
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+- name: 13|香港6|@ripaojiedian
+  network: tcp
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21862
+  server: 36.103.168.7
+  skip-cert-verify: true
+  type: trojan
+- name: 13|美国4|@ripaojiedian
+  network: tcp
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21864
+  server: 36.103.168.7
+  skip-cert-verify: true
+  type: trojan
+- name: 14|CN_speednode_0002
+  password: BxceQaOe
+  port: 4451
+  server: 36.151.251.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 14|HK_speednode_0012
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 443
+  server: 58.152.110.83
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0042
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
