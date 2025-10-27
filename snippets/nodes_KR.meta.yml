@@ -1,43 +1,21 @@
 proxies:
-- country: 🇨🇳CN
-  delay: 1336
-  name: 10|韩国 - 仁川广域市 - G-Core Labs S.A. ...
-  password: 5978419a-a183-419e-a88e-9185f1e974f1
-  port: 21871
-  server: baigou1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- name: 14|KR_speednode_0017
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 14|KR_speednode_0018
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
-- name: 14|KR_speednode_0019
+- delay: 1673
+  name: 11|韩国 - Dong-gu - Hostcenter - 2
+  password: '!!str 1'
+  port: 8081
+  server: 61.255.174.11
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kWJIm83Df76QWVdaew1w0yyN2w7mXoszwaz_wGVCxncJoXw609MC0WdYefYZbCn32A==
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  delay: 427
+  name: 11|韩国 - 光明市 - SK Broadband Co Ltd...
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- name: 15|KR_speednode_0014
   network: ws
   port: 50003
   server: 175.211.35.161
@@ -51,12 +29,12 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560
-- name: 14|KR_speednode_0020
+- name: 15|KR_speednode_0015
   network: ws
-  port: 50001
-  server: 118.91.78.76
+  port: 12312
+  server: 211.48.77.114
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -64,8 +42,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram@节点狂魔/?ed=2560
-- name: 14|KR_speednode_0021
+    path: /x @节点狂魔
+- name: 15|KR_speednode_0016
   network: ws
   port: 443
   server: 147.75.225.105

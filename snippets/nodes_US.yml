@@ -1,16 +1,25 @@
 proxies:
+- alterId: 0
+  cipher: none
+  client-fingerprint: firefox
+  delay: 2484
+  name: 11|美国 - 哈里肯 - Nodexeus Technologo...
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  servername: assurance-launches-hartford-elvis.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: dad58782-ffd5-48bd-994c-7b82555c1384
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: assurance-launches-hartford-elvis.trycloudflare.com
+    max-early-data: 2560
+    path: /vmess-argo
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 995
-  name: 10|美国 - Cedar Knolls - Akamai Tec...
-  password: ruvYDi4Bm363wacUoEjOz9
-  port: 58433
-  server: 104.237.150.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2131
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  delay: 964
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
@@ -18,93 +27,70 @@ proxies:
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
-  delay: 2709
+  delay: 1450
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - Cloudflare, Inc. - ...
+  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
   network: ws
-  port: 30000
-  server: 185.148.14.230
-  servername: us.nbee.pp.ua
+  port: 443
+  server: wto.org
+  servername: floral-vol-lexington-liverpool.trycloudflare.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
   ws-opts:
     headers:
-      HOST: us.nbee.pp.ua
-    path: /aa
-- country: 🇨🇳CN
-  delay: 999
-  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
-  password: 7789b504-24e9-4ff0-8cff-03a5c9005f1d
-  port: 21864
-  server: baigou1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
+      HOST: floral-vol-lexington-liverpool.trycloudflare.com
+    path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm?ed=2048
+- cipher: aes-256-gcm
+  delay: 404
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 2
+  password: H1aKzW9QlF
+  port: 19134
+  server: 150.241.199.95
+  type: ss
+- delay: 1027
+  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
+  password: a2b1c563-86b4-4d37-acc4-aee84e8f6071
+  port: 24100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: us01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- country: 🇨🇳CN
-  delay: 1066
-  name: '10|美国 - 西雅圖 - Zhejiang Aiyun Netw... #1'
-  password: 86ef06e2-b675-4623-b5eb-cc06dbc39580
-  port: 21865
-  server: baigou1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
+- delay: 889
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
+  password: a2b1c563-86b4-4d37-acc4-aee84e8f6071
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: us01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.106.144
+  server: 160.16.131.243
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.106.144
+  server: 160.16.131.243
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26373
+  port: 27409
   server: 36.150.215.241
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
-  port: 21864
-  server: 36.103.168.7
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 13|美国4|@ripaojiedian
-  network: tcp
-  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
-  port: 21864
-  server: 36.103.168.7
-  skip-cert-verify: true
-  type: trojan
-- name: 14|US_speednode_0042
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
