@@ -1,42 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 337
-  name: 11|中国 - 上海 - Hangzhou Alibaba Adv...
-  port: 50002
-  server: 106.14.75.114
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  delay: 364
-  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
-  port: 30302
-  server: 39.107.155.11
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 315
+  delay: 319
   h2-opts: {}
   http-opts: {}
-  name: '11|中国 - 北京 - Hangzhou Alibaba Adv... #1'
+  name: 10|中国 - 佛山市 - China Mobile - 2
   network: tcp
-  port: 50002
-  server: 39.100.81.215
+  port: 59003
+  server: 183.236.51.36
+  servername: trojan.burgerip.co.uk
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 581
-  name: 11|中国 - 广州市 - Shenzhen Tencent Co...
+  delay: 334
+  name: 10|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
   port: 56532
   server: 119.29.98.43
@@ -45,55 +25,7 @@ proxies:
   uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
   ws-opts:
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 225
-  name: '11|中国 - 广州市 - Shenzhen Tencent Co... #1'
-  network: ws
-  port: 48536
-  server: 119.29.98.43
-  tls: false
-  type: vmess
-  uuid: 057caba1-2237-41e6-a54d-ec03509898a5
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  delay: 439
-  name: '11|中国 - 广州市 - Shenzhen Tencent Co... #2'
-  network: ws
-  port: 20521
-  server: 119.29.98.43
-  tls: false
-  type: vmess
-  uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳 CN
-  delay: 1241
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
-  network: tcp
-  port: 50002
-  server: 120.26.137.112
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  delay: 339
-  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
-  port: 50002
-  server: 139.129.20.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 15|CN_speednode_0001
+- name: 14|CN_speednode_0001
   password: BxceQaOe
   port: 4451
   server: 36.151.251.23

@@ -1,51 +1,49 @@
 proxies:
-- delay: 679
-  name: 11|新加坡 - 新加坡 - Aceville Pte.ltd -...
-  password: b8bdabb5-ddd2-4b89-a13c-6a7d1e9024b0
-  port: 33005
-  server: lazy.rsqpq.cn
+- country: 🇹🇼TW
+  delay: 1000
+  name: 10|新加坡 - 新加坡 - Akile LTD - 4
+  password: 3723668d-7d91-4b0f-9d08-c57ee49da92f
+  port: 23301
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  sni: lazy.rsqpq.cn
+  sni: cdnfire.xiaomispeed.com
   type: trojan
   udp: true
-- delay: 1287
-  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
-  password: 90557ecb-8107-4067-99dc-981b893f3c0e
-  port: 31201
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: aes-256-gcm
+  delay: 2504
+  name: 10|新加坡 - 新加坡 - Amazon Technologie...
+  password: 532527e2-e185-4ec3-9c51-715bc3a89815
+  port: 10060
+  server: node1.mangging.com
+  type: ss
   udp: true
-- delay: 2811
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
-  password: a2b1c563-86b4-4d37-acc4-aee84e8f6071
-  port: 31200
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: false
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: aes-256-gcm
+  delay: 2183
+  name: '10|新加坡 - 新加坡 - Amazon Technologie... #1'
+  password: 4ac15a98-6a9b-4aa3-95fd-5a9df7d8e957
+  port: 10060
+  server: node1.mangging.com
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 5321
-  server: 160.16.131.243
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 5041
-  server: 160.16.131.243
+- alterId: 2
+  cipher: auto
+  delay: 1290
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  network: ws
+  port: 30839
+  server: v39.heduian.link
   skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - client-fingerprint: chrome
-  name: 13,14,15|CN_speednode_0002
+  delay: 924
+  name: 10,12,13,14|CN_speednode_0002
   network: tcp
   password: BxceQaOe
   port: 24392
@@ -53,3 +51,40 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  delay: 651
+  name: 10,12|🇸🇬 新加坡4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26470
+  server: 113.99.143.139
+  tfo: false
+  type: ss
+- delay: 1272
+  name: 10|新加坡 - 新加坡 - The Constant Compa...
+  password: 332c99d2ebae435b9b3970a75ae902d2
+  port: 443
+  server: 149.28.151.140
+  skip-cert-verify: true
+  sni: www.gpt123.one
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 2283
+  server: 160.16.204.136
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 5041
+  server: 160.16.124.55
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
