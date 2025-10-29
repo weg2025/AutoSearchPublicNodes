@@ -1,11 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 773
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 上海 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 106.14.75.114
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 319
+  delay: 210
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 佛山市 - China Mobile - 2
+  name: 11|中国 - 佛山市 - China Mobile - 6
   network: tcp
   port: 59003
   server: 183.236.51.36
@@ -13,22 +25,82 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 159
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 39.100.81.215
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 145
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 北京 - Hangzhou Alibaba Adv... #1'
+  network: tcp
+  port: 30302
+  server: 39.107.155.11
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 334
-  name: 10|中国 - 广州市 - Shenzhen Tencent Co...
+  delay: 1446
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 广州市 - Shenzhen Tencent Co...
   network: ws
-  port: 56532
+  port: 11399
   server: 119.29.98.43
-  tls: false
   type: vmess
-  uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
+  uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
   ws-opts:
     path: /arki?ed=2048
-- name: 14|CN_speednode_0001
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳 CN
+  delay: 198
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
+  network: tcp
+  port: 50002
+  server: 120.26.137.112
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  delay: 159
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  network: tcp
+  port: 50002
+  server: 139.129.20.6
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 15|CN_speednode_0001
   password: BxceQaOe
   port: 4451
   server: 36.151.251.23
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0002
+  password: BxceQaOe
+  port: 24392
+  server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
   udp: true

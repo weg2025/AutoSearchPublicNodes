@@ -1,35 +1,129 @@
 proxies:
-- country: 🇨🇳CN
-  delay: 781
-  name: 10|美国 - 克利夫頓 - DigitalOcean, LLC ...
-  password: BxceQaOe
-  port: 26373
-  server: 36.150.215.241
+- alterId: 0
+  cipher: auto
+  delay: 1200
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - El Dorado Springs - Inter...
+  network: ws
+  port: 20522
+  server: 38.34.24.196
+  type: vmess
+  uuid: f65ae5d8-f779-4ab2-8ba3-e4d46d34ef9d
+  ws-opts:
+    path: /telegram_@sswia
+- alterId: 0
+  cipher: auto
+  delay: 173
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 帕萨迪纳 - Cogent Communicati...
+  network: ws
+  port: 60931
+  server: 154.12.19.175
+  type: vmess
+  uuid: d3c6bb28-18f6-43ea-8112-15e2d372d512
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  delay: 1264
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  network: none
+  port: 50038
+  server: 44.232.99.217
+  type: vmess
+  uuid: 1458449f-a406-4b38-cca7-b7d44a50022f
+- alterId: 0
+  cipher: auto
+  delay: 675
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #1'
+  network: ws
+  port: 20522
+  server: 44.232.99.217
+  type: vmess
+  uuid: 3a10ebfc-36b6-4e2e-a2f0-c3d1324c2736
+  ws-opts:
+    path: /telegram_@sswia
+- alterId: 0
+  cipher: auto
+  delay: 1517
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #2'
+  network: ws
+  port: 80
+  server: 44.232.99.217
+  type: vmess
+  uuid: 4e596cf4-5fb1-4138-ea05-badfba564d54
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 603
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #3'
+  network: none
+  port: 50037
+  server: 44.232.99.217
+  type: vmess
+  uuid: 33e68b5d-6e64-4916-b3f1-84c2d174fa0a
+- alterId: 0
+  cipher: auto
+  delay: 2890
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Apple Network, LLC ...
+  network: ws
+  port: 443
+  server: xcf056-1.facai2024.com
+  servername: xcf056-1.facai2024.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇹🇼TW
-  delay: 1174
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
-  password: 3723668d-7d91-4b0f-9d08-c57ee49da92f
-  port: 25502
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- country: 🇨🇳CN
-  delay: 1167
-  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
-  password: 96b7e5f8-e59d-4b1c-8cae-554aef2ecf51
-  port: 21865
-  server: baigou1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: ead690c8-ba41-43be-bceb-bcbf714ceb11
+  ws-opts:
+    path: /ead690c8
+- alterId: 0
+  cipher: auto
+  delay: 597
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 西雅圖 - GTHost - 2
+  network: none
+  port: 19365
+  server: 2.59.62.63
+  type: vmess
+  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
+- alterId: 0
+  cipher: auto
+  delay: 1510
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 里士满 - Alibaba Cloud LLC -...
+  network: none
+  port: 37267
+  server: 47.253.185.243
+  type: vmess
+  uuid: 4948cb85-668a-420e-d109-5d4b3aabe54c
+- alterId: 0
+  cipher: auto
+  delay: 613
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 里士满 - Alibaba Cloud LLC -... #1'
+  network: none
+  port: 23755
+  server: 47.253.185.243
+  type: vmess
+  uuid: b6d7a60b-b1e9-4513-8aec-d0b886ae4c37
 - client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 13,14|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
@@ -38,19 +132,19 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
   server: 160.16.236.32
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27409
-  server: 36.150.215.241
+  server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
