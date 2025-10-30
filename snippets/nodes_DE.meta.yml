@@ -1,12 +1,4 @@
 proxies:
-- name: '9|Channel id: @ShadowProxy66🇩🇪'
-  password: eb86def3-d6ff-4582-9ecd-3cf61812640e
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma2.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
-  tls: false
-  type: hysteria2
 - name: '10|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
@@ -14,13 +6,44 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- country: 🇺🇸US
-  delay: 2799
+- country: 🇩🇪DE
+  delay: 1419
   name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.177.195.85
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.79.254.11
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: 🇩🇪DE
+  delay: 1013
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.67.21.75
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1009
+  name: '11|德国 - Frankfurt am Main - Amazo... #2'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.67.21.75
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 1563
+  name: 11|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan

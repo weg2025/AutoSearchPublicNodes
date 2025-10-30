@@ -1,107 +1,61 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 804
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 2
-  network: none
-  port: 27555
-  server: 66.42.63.36
-  type: vmess
-  uuid: 852b7a0d-7817-4473-9473-546080ce951e
-- alterId: 0
-  cipher: auto
-  delay: 1753
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 3
-  network: none
-  port: 30183
-  server: 66.42.63.36
-  type: vmess
-  uuid: e10bd225-b2e3-4e23-9732-e7da9cd6b995
-- alterId: 0
-  cipher: auto
-  delay: 829
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 4
-  network: none
-  port: 17514
-  server: 66.42.63.36
-  type: vmess
-  uuid: d05fd51a-936b-42f6-892f-9c62c49728b6
-- alterId: 0
-  cipher: auto
-  delay: 834
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 5
-  network: none
-  port: 23601
-  server: 66.42.63.36
-  type: vmess
-  uuid: 996ce5de-4dd5-4ac6-bff7-765a5e506b59
-- alterId: 0
-  cipher: auto
-  delay: 802
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 6
-  network: none
-  port: 57540
-  server: 66.42.63.36
-  type: vmess
-  uuid: 8155e379-745b-409b-9cfe-74c4aee4c078
-- alterId: 0
-  cipher: auto
-  delay: 817
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 7
-  network: none
-  port: 24345
-  server: 66.42.63.36
-  type: vmess
-  uuid: ebda7038-f913-42d2-8e4c-5855b64f6a1a
-- alterId: 0
-  cipher: auto
-  delay: 1861
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - SGP VULTR - 8
-  network: none
-  port: 30993
-  server: 66.42.63.36
-  type: vmess
-  uuid: d34dc85d-89c0-4bef-e428-aee76a9adacf
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  delay: 1082
-  name: 11,13|🇸🇬 新加坡4|@ripaojiedian
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 26470
-  server: 113.99.143.139
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1504
+  name: 11|新加坡 - 新加坡 - Akamai Technologie...
+  password: txB1WwXla4QBSMpo2jGRqW
+  port: 60155
+  server: 172.237.88.77
   type: ss
+- cipher: aes-128-gcm
+  delay: 172
+  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
+  password: 1d8e4861b251c8c4ce78
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45918
+  server: 103.219.103.33
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  delay: 160
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: 103.219.103.33
+  type: ss
+  udp: true
+- delay: 571
+  name: 11|新加坡 - 新加坡 - PT Herza Digital I...
+  password: 95b6b5c5-3f9c-41d4-a39c-ac6ae1aff2e0
+  port: 21877
+  server: 36.103.168.7
+  skip-cert-verify: true
+  sni: douyin.com
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
-  server: 160.16.138.24
-  skip-cert-verify: true
-  sni: www.baidu.com
+  server: 221.128.195.8
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 5041
-  server: 160.16.138.24
-  skip-cert-verify: true
+  port: 5321
+  server: 153.121.39.240
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
@@ -112,6 +66,14 @@ proxies:
   server: 36.150.215.197
   skip-cert-verify: true
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26470
+  server: 113.99.143.139
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

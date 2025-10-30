@@ -1,30 +1,13 @@
 proxies:
-- name: 10| - GB - @freeOnlineVPN
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '10|🇬🇧 - GB - @freeOnlineVPN #3'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2
-- name: '10|🇬🇧 - GB - @freeOnlineVPN #4'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: 'kotlet.arshiacomplus.dpdns.org@V2rayNGVPN '
-  tls: false
-  type: hysteria2
+- cipher: aes-128-gcm
+  delay: 1519
+  name: 11|英国 - 伦敦 - AH CLOUD LTD - 1
+  password: b252e75cc98799d5b2d1
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45570
+  server: 103.219.103.33
+  type: ss
+  udp: true
