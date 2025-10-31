@@ -1,81 +1,39 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  country: 🇸🇬SG
-  delay: 746
-  h2-opts: {}
-  http-opts: {}
-  name: 11|韩国 - Anyang-si - Rackip Consul...
-  network: ws
+- cipher: aes-256-cfb
+  country: 🇰🇷 KR
+  delay: 1249
+  name: 10|韩国 - 光明市 - SK Broadband Co Ltd...
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇰🇷 KR
+  delay: 445
+  name: '10|韩国 - 光明市 - SK Broadband Co Ltd... #1'
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|KR_speednode_0002
   port: 443
-  server: 202.79.160.179
-  servername: www.27458729.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.27458729.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  country: 🇸🇬SG
-  delay: 1011
-  h2-opts: {}
-  http-opts: {}
-  name: '11|韩国 - Anyang-si - Rackip Consul... #1'
-  network: ws
-  port: 443
-  server: 202.79.160.175
-  servername: www.27458729.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.27458729.xyz
-    path: /path/191019072927
-- name: 15|KR_speednode_0014
-  network: ws
-  port: 50003
-  server: 175.211.35.161
-  servername: gaosir.unfeeling.sbs
+  reality-opts:
+    public-key: yh4yX6_pM_VzpAx-tYb33PCzHYE6vC9w7Ov1FwNUjR8
+  server: 3.36.62.128
+  servername: www.ebay.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: 15|KR_speednode_0015
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
+  uuid: ead2118c-8b60-4805-b264-bb794c8600d0
+- name: 14|KR_speednode_0003
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
-- name: 15|KR_speednode_0016
-  network: ws
-  port: 443
-  server: 147.75.225.105
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
+  username: test

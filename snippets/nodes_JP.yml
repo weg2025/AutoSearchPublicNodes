@@ -1,96 +1,27 @@
 proxies:
-- cipher: aes-128-gcm
-  delay: 272
-  name: 11|日本 - Koto-ku - G-Core Labs - 7
-  password: 97998add7bf4fea885ef
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45912
-  server: 103.219.103.33
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 209
-  name: 11|日本 - 东京 - Private Customer - 1
-  password: 722a54414ae6ee706ac9
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45572
-  server: 103.219.103.33
-  type: ss
-  udp: true
-- delay: 429
-  name: 11|日本 - 东京 - SAKURA Internet Inc....
-  password: 7f222ec1-e7d0-4a39-988f-12bde70a0e1a
-  port: 21868
-  server: 36.103.168.7
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- delay: 1023
-  name: '11|日本 - 东京 - SAKURA Internet Inc.... #1'
-  password: 95b6b5c5-3f9c-41d4-a39c-ac6ae1aff2e0
-  port: 21867
-  server: 36.103.169.250
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- delay: 784
-  name: '11|日本 - 东京 - SAKURA Internet Inc.... #2'
-  password: 9dbea8ef-9157-494d-91ca-af2d0c253af5
-  port: 21869
-  server: 36.103.168.7
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- delay: 936
-  name: 11|日本 - 大阪市 - SAKURA Internet Inc...
-  password: 95b6b5c5-3f9c-41d4-a39c-ac6ae1aff2e0
-  port: 21869
-  server: 36.103.169.250
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
-- delay: 552
-  name: '11|日本 - 大阪市 - SAKURA Internet Inc... #1'
-  password: 7f222ec1-e7d0-4a39-988f-12bde70a0e1a
-  port: 21869
-  server: 36.103.169.250
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
-  name: 13,14|日本|@ripaojiedian
+  name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 401
+  port: 487
   server: 36.150.215.236
   skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本2|@ripaojiedian
+  name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 1332
-  server: 221.128.195.8
+  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|日本3|@ripaojiedian
+  name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
-  port: 4452
-  server: 160.16.63.16
-  skip-cert-verify: true
+  port: 3161
+  server: 160.16.214.6
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

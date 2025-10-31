@@ -1,170 +1,116 @@
 proxies:
-- name: 10| @AblNet7 🇺🇸 机场推荐
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- cipher: aes-128-gcm
-  delay: 412
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
-  password: 3938bfae997974860251
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45938
-  server: 103.219.103.33
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  delay: 1434
+  name: 10|美国 - Ashburn - Amazon.com, Inc...
+  password: dada0801
+  port: 80
+  server: 34.235.122.208
   type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 573
-  name: '11|美国 - 圣克拉拉 - DigitalOcean, LLC ... #1'
-  password: 8bf642be1622a09558bb
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45935
-  server: 103.219.103.32
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  delay: 1478
+  name: '10|美国 - Ashburn - Amazon.com, Inc... #1'
+  password: dada0801
+  port: 80
+  server: 54.90.226.121
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 672
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  delay: 1306
+  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: firefox
-  delay: 1263
-  name: 11|美国 - 圣路易斯 - Contabo Inc. - 3
+  country: 🇺🇸US
+  delay: 2201
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - Cloudflare, Inc. - ...
   network: ws
   port: 443
-  server: cdns.doon.eu.org
-  servername: proportion-recovery-motels-jones.trycloudflare.com
+  server: wto.org
+  servername: floral-vol-lexington-liverpool.trycloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 270eac45-11c4-426d-af58-52e2043ceb51
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: proportion-recovery-motels-jones.trycloudflare.com
-    max-early-data: 2560
-    path: /vmess-argo
-- cipher: chacha20-ietf-poly1305
-  delay: 1085
-  name: 11|美国 - 好萊塢 - Newserverlife LLC -...
-  password: 05ff48fd41178ed790ec
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45588
-  server: 103.219.103.32
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 1609
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
-  network: ws
-  port: 2053
-  server: siris.090227.xyz
-  servername: la1.pavo.eu.org
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bc5e171b-fe66-47af-a600-b972104fe995
+  uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
   ws-opts:
     headers:
-      Host: la1.pavo.eu.org
-    path: /la1vmess
-- country: 🇰🇷KR
-  delay: 558
-  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 50001
-  server: 27.117.52.110
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram🇨🇳@WangCai2/?ed=2560
+      HOST: floral-vol-lexington-liverpool.trycloudflare.com
+    path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm?ed=2048
+- delay: 562
+  name: 10|美国 - 洛杉矶 - Cogent Communicatio...
+  password: 7RmEtd
+  port: 23916
+  server: 38.244.54.62
+  type: http
+  username: kZXMC3Z1
 - client-fingerprint: chrome
-  name: 13,14|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2467
-  server: 160.16.236.32
+  server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国2|@ripaojiedian
+  name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
-  server: 160.16.236.32
+  server: 160.16.107.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 13198
-  server: 36.150.215.236
+  port: 43567
+  server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
-- name: 15|US_speednode_0035
-  network: ws
-  port: 2096
-  server: 104.19.50.238
-  servername: gaosir.unfeeling.sbs
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0006
+  port: 25599
+  reality-opts:
+    public-key: SsbeZ_JdMe3r2IqTESBWRSUMrcm3PdpFzlab5xrKUlU
+  server: 172.238.22.96
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegramU0001F1E8U0001F1F3@wangcai2/?ed=2560
-- name: 15|US_speednode_0036
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
+  uuid: ff06f97b-09f6-4b8b-8a12-7d2f51b28a75
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: usa84.freednet.org
+  servername: www.utexas.edu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
-- name: 15|US_speednode_0037
-  network: ws
-  port: 2096
-  server: 195.13.45.253
-  servername: gaosir.unfeeling.sbs
+  uuid: f2f5905b-e814-4a9f-beae-8b1353f25a06
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0009
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: usa102.unlockspace.org
+  servername: www.utexas.edu
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔security=tls
+  uuid: 5c9f0284-a8da-40f0-9bca-da9a98049fb0
