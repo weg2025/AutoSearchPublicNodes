@@ -1,71 +1,43 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   : کا '
+- name: '10|DE-telegram-@ISVvpn   :  '
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 672
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.75.116.251
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1293
+  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 25100
+  server: n002.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- country: 🇩🇪DE
-  delay: 684
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.75.116.251
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1427
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #1'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- name: 15|DE_speednode_0009
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.78.19.159
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1358
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #2'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0010
-  port: 6666
-  reality-opts:
-    public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-    short-id: b525ecd2fc
-  server: 188.68.53.100
-  servername: Tgju.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: 15|DE_speednode_0011
-  port: 17287
-  server: 79.132.136.80
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0ce5451d-d771-4c7d-887e-1e51aef6fd2b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|DE_speednode_0012
-  port: 444
-  reality-opts:
-    public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-    short-id: 82b9ca5d8d39ba72
-  server: 151.236.15.72
-  servername: opensuse.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
+- cipher: chacha20-ietf
+  delay: 1516
+  name: 11|西班牙 - 马德里 - Aire Networks Del ...
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8628
+  server: cn17.closeai.one
+  type: ss

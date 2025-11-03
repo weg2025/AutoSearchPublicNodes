@@ -1,54 +1,439 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  delay: 1434
-  name: 11|美国 - Ashburn - Amazon.com, Inc...
-  password: dada0801
-  port: 80
-  server: 34.235.122.208
+- name: 9,10|🇺🇲@FreakConfig
+  password: c232f411-96b5-4b07-b2f7-66a434725ffb
+  port: 23891
+  server: 108.165.213.197
+  skip-cert-verify: true
+  sni: fus01.mistea.top
+  tls: false
+  type: hysteria2
+- name: '9|Channel id: @ShadowProxy66🇺🇸 #1'
+  password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+  port: 41951
+  server: 192.3.60.176
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  delay: 964
+  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
+  password: a0ad8f90-eec6-4dfa-9b8a-2b6827d7892c
+  port: 32009
+  server: slur.izenny.com
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  delay: 1478
-  name: '11|美国 - Ashburn - Amazon.com, Inc... #1'
-  password: dada0801
-  port: 80
-  server: 54.90.226.121
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 748
+  name: '11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR... #1'
+  password: 99e1b20e-fc9e-4864-9607-24450e0a59e0
+  port: 32009
+  server: slur.izenny.com
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 626
+  name: 11|美国 - 丹佛 - WAP.AC LTD - 13
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 32893
+  server: xc.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 353
+  name: 11|美国 - 丹佛 - WAP.AC LTD - 14
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 22041
+  server: wa.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 572
+  name: 11|美国 - 丹佛 - WAP.AC LTD - 15
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 45823
+  server: 01.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 432
+  name: 11|美国 - 丹佛 - WAP.AC LTD - 7
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 37699
+  server: 02.xunyunnode.sbs
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 579
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|美国 - 圣克拉拉 - HostPapa - 2
+  network: http
+  port: 32301
+  server: 104.168.94.41
+  type: vmess
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 1306
+  delay: 1539
   name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2201
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cloudflare, Inc. - ...
-  network: ws
+- cipher: chacha20-ietf
+  delay: 595
+  name: 11|美国 - 洛杉矶 - Akari Networks Limi...
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8501
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 566
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #1'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8502
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 570
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #2'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8503
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 605
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #3'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8507
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 573
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #4'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8509
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 585
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #5'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8510
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 565
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #6'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8514
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 689
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #7'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8515
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 569
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #8'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8516
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 584
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #9'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8517
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 582
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #10'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8518
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 664
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #11'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8519
+  server: cn18.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 560
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #12'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8520
+  server: cn18.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 582
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #13'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8521
+  server: cn18.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 561
+  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #14'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8522
+  server: cn18.closeai.one
+  type: ss
+- delay: 2199
+  grpc-opts:
+    grpc-service-name: GunService
+  name: 11|美国 - 洛杉矶 - The Constant Compan...
+  network: grpc
+  password: 9b6419f8-8120-442e-a48c-6bf52aef0abf
   port: 443
-  server: wto.org
-  servername: floral-vol-lexington-liverpool.trycloudflare.com
+  server: gy3.hdcloud.link
+  skip-cert-verify: false
+  sni: gy3.hdcloud.link
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 699
+  name: 11|美国 - 盐湖城 - PoloCloud Computing...
+  password: 06b9263f-e2ad-4718-bde7-92ce7194f6e4
+  port: 47831
+  server: jry.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 593
+  name: '11|美国 - 盐湖城 - PoloCloud Computing... #1'
+  password: a0ad8f90-eec6-4dfa-9b8a-2b6827d7892c
+  port: 40063
+  server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  delay: 710
+  name: 11|美国 - 聖荷西 -  - 17
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8803
+  server: cn00.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 575
+  name: 11|美国 - 聖荷西 -  - 21
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8504
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 586
+  name: 11|美国 - 聖荷西 -  - 22
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8505
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 586
+  name: 11|美国 - 聖荷西 -  - 23
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8506
+  server: cn15.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 562
+  name: 11|美国 - 聖荷西 -  - 25
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8508
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 575
+  name: 11|美国 - 聖荷西 -  - 28
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8511
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 728
+  name: 11|美国 - 聖荷西 -  - 29
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8512
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 583
+  name: 11|美国 - 聖荷西 -  - 30
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8513
+  server: cn16.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 1536
+  name: 11|美国 - 聖荷西 -  - 40
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 2000
+  server: osus03.mynode.me
+  type: ss
+- delay: 877
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  password: d4e34ba7-b2dc-4db1-8abb-c8a451cd270d
+  port: 25502
+  server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
-  ws-opts:
-    headers:
-      HOST: floral-vol-lexington-liverpool.trycloudflare.com
-    path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm?ed=2048
-- delay: 562
-  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
-  password: 7RmEtd
-  port: 23916
-  server: 38.244.54.62
-  type: http
-  username: kZXMC3Z1
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- delay: 1007
+  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
+  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  port: 24100
+  server: n002.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1061
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 24100
+  server: n002.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 2021
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #2'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 780
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #3'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 24100
+  server: n002.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 2498
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #4'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 720
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #5'
+  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
@@ -75,59 +460,75 @@ proxies:
   server: 36.151.251.47
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15|US_speednode_0056
+  network: ws
   port: 443
-  reality-opts:
-    public-key: WWg8Ccc6a3aGGgSRe4tOYrIotlussqEKlhAk3A1PsW4
-    short-id: 913f32684b4776f9
-  server: cent1de.maga171717.sbs
-  servername: snicent1de.maga171717.sbs
+  server: 172.66.44.183
+  servername: a-4km.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 706fae5e-3fc6-41a4-8eb7-3b3df7bad72b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0030
-  port: 443
-  reality-opts:
-    public-key: LnHe8OE64vocdz6Xk_d6iuEfj-HmimAkLPk1TeTGpxs
-    short-id: f5320ae817
-  server: netherlands85.clearorbitllc.com
-  servername: netherlands85.clearorbitllc.com
+  uuid: c3975f60-60d4-4f14-9780-070ce18c1dda
+  ws-opts:
+    headers:
+      Host: a-4km.pages.dev
+    path: /doa9bvfjd83ix3v9?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0057
+  network: ws
+  port: 8443
+  server: www.speedtest.net
+  servername: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 935c3575-4b93-4c03-8399-62b2d0efe0d2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0032
-  port: 443
-  reality-opts:
-    public-key: oV1AkWgsWXKrDF1KLj1-qdzn87iamZq754qI_CoDrgs
-    short-id: 6724d5c47a
-  server: france18.clearorbitllc.com
-  servername: france18.clearorbitllc.com
+  uuid: b1addf1e-6c1d-4410-bfa5-cf26328319d9
+  ws-opts:
+    headers:
+      Host: 0HvsNO270bvRxG6EKbY8uMsQn-6941Fa.paGeS.dEV
+    path: /CmxkS1704Zcx8p3M?ed=2560
+- client-fingerprint: random
+  name: 15|US_speednode_0058
+  network: ws
+  port: 8443
+  server: www.visa.com.sg
+  servername: azadnet-2f7.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f6ab4c87-990f-49a2-9a86-ddd8b012cb1c
-- name: 15|US_speednode_0033
-  port: 4655
-  server: 38.99.95.76
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: azadnet-2f7.pages.dev
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15|US_speednode_0059
+  network: ws
+  port: 443
+  server: aliakb3435.pages.dev
+  servername: aliakb3435.pages.dev
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 18a056b9-6591-45b4-bace-52667b18f8c1
+  uuid: 97c4550f-8ecc-42fa-ae66-3b550c986cd2
+  ws-opts:
+    headers:
+      Host: aliakb3435.pages.dev
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0034
+  name: 15|US_speednode_0060
   port: 443
   reality-opts:
     public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
@@ -139,47 +540,47 @@ proxies:
   type: vless
   udp: true
   uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  name: 15|US_speednode_0035
+- name: 15|US_speednode_0061
   network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
+  port: 443
+  server: 69.84.182.18
+  servername: cdn-node-oss-63.paofu.de
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  uuid: a25ff90c-964c-485a-b72a-858864a27dc0
   ws-opts:
     headers:
-      Host: om1.omidsuccess.uk
-    path: /containers/de
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0036
-  port: 36678
-  reality-opts:
-    public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
-    short-id: 5d20
-  server: 192.210.183.136
-  servername: swdist.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
-- client-fingerprint: chrome
-  name: 15|US_speednode_0037
+      Host: cdn-node-oss-63.paofu.de
+    path: /profile/sharenode
+- client-fingerprint: random
+  name: 15|US_speednode_0062
+  network: ws
   port: 443
-  reality-opts:
-    public-key: d4nrz5jZn6OcMGmRr4H-2v6hKexlwe4hKaDMgMqSV3A
-    short-id: cc196f6d752c02d2
-  server: nl.vip-get.ru
-  servername: www.yahoo.com
-  skip-cert-verify: false
+  server: freev2.cloudflare.182682.xyz
+  servername: do-sgp1.862400.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: c110a9d5-9f71-4b06-8c42-4456b5ea9d1a
+  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
+  ws-opts:
+    headers:
+      Host: do-sgp1.862400.xyz
+    path: /announcement
+- client-fingerprint: random
+  name: 15|US_speednode_0063
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: do-lon1.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bda91ce0-d0d7-4d6a-a6e2-10860f655cf5
+  ws-opts:
+    headers:
+      Host: do-lon1.862400.xyz
+    path: /announcement

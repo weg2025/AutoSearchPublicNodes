@@ -1,6 +1,173 @@
 proxies:
+- cipher: chacha20-ietf
+  delay: 217
+  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8203
+  server: cn06.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 217
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #1'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8204
+  server: cn06.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 217
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #2'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8205
+  server: cn06.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 386
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #3'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8206
+  server: cn07.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 385
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #4'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8207
+  server: cn07.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 386
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #5'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8208
+  server: cn07.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 627
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #6'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8209
+  server: cn08.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 678
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #7'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8211
+  server: cn08.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 279
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #8'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8212
+  server: cn08.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 548
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #9'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8213
+  server: cn08.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 374
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #10'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8214
+  server: cn09.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 359
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #11'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8215
+  server: cn09.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 676
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #12'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8216
+  server: cn09.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 730
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #13'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8217
+  server: cn09.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 518
+  name: '11|新加坡 - 新加坡 - Akari Networks Lim... #14'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8218
+  server: cn09.closeai.one
+  type: ss
 - client-fingerprint: chrome
-  name: 13,14|新加坡|@ripaojiedian
+  country: 🇨🇳CN
+  delay: 804
+  name: 11,13,14,15|CN_speednode_0004
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
@@ -8,20 +175,130 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 5048
-  server: 160.16.107.37
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  udp: true
+- cipher: chacha20-ietf
+  delay: 217
+  name: 11|新加坡 - 新加坡 - G-Core Labs S.A - ...
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8201
+  server: cn06.closeai.one
+  type: ss
+- cipher: chacha20-ietf
+  delay: 217
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A - ... #1'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8202
+  server: cn06.closeai.one
+  type: ss
+- delay: 2757
+  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
   type: trojan
+  udp: true
+- delay: 1860
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
+  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 795
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #2'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 31201
+  server: n002.xunxunmimisbs.sbs
+  sni: sg02.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 912
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #3'
+  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  port: 31201
+  server: n001.xunxunmimisbs.sbs
+  sni: sg02.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1009
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #4'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 31201
+  server: n002.xunxunmimisbs.sbs
+  sni: sg02.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1966
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #5'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 31200
+  server: n001.xunxunmimisbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1650
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #6'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 444
+  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #7'
+  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  port: 31200
+  server: n001.xunxunmimisbs.sbs
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 710
+  name: 11|新加坡 - 新加坡 - WAP.AC LTD - 11
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 50764
+  server: wa.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1567
+  name: 11|新加坡 - 新加坡 - WAP.AC LTD - 12
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 18416
+  server: xc.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 327
+  name: 11|新加坡 - 新加坡 - WAP.AC LTD - 4
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 10463
+  server: 02.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 308
+  name: 11|新加坡 - 新加坡 - WAP.AC LTD - 9
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 14195
+  server: 01.xunyunnode.sbs
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 51825
-  server: 36.150.215.197
+  port: 24392
+  server: 36.150.215.236
   skip-cert-verify: true
   type: trojan

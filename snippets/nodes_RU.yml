@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf
+  delay: 863
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8613
+  server: cn17.closeai.one
+  type: ss

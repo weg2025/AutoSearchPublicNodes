@@ -1,29 +1,36 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 672
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.75.116.251
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1293
+  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 25100
+  server: n002.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- country: 🇩🇪DE
-  delay: 684
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.75.116.251
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1427
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #1'
+  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- name: 15|DE_speednode_0009
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.78.19.159
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+- delay: 1358
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #2'
+  password: b307fa22-7a37-4b25-8244-220466e60041
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  delay: 1516
+  name: 11|西班牙 - 马德里 - Aire Networks Del ...
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8628
+  server: cn17.closeai.one
+  type: ss

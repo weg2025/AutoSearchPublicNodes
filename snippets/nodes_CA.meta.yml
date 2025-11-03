@@ -1,1 +1,65 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  delay: 1286
+  name: 11|加拿大 - 蒙特利尔 - OVH Hosting - 1
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 57990
+  server: 02.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2030
+  name: 11|加拿大 - 蒙特利尔 - OVH Hosting - 2
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 44306
+  server: 01.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2674
+  name: 11|加拿大 - 蒙特利尔 - OVH Hosting - 3
+  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
+  port: 50737
+  server: wa.xunyunnode.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  delay: 590
+  name: 11|加拿大 - 蒙特利尔 - OVH SAS - 4
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 8612
+  server: cn17.closeai.one
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|CA_speednode_0001
+  port: 42557
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    short-id: f430927d
+  server: 40.233.118.103
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+- client-fingerprint: chrome
+  name: 15|CA_speednode_0002
+  network: ws
+  port: 2087
+  server: axe.soyet2j.ir
+  servername: latte.gejeh683bm.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cf3c711-58e1-4abb-a628-3b48bdba8052
+  ws-opts:
+    headers:
+      Host: latte.gejeh683bm.ir
+    path: /index.html?ed=2560
