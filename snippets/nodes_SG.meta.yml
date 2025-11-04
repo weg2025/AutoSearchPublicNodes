@@ -164,15 +164,13 @@ proxies:
   port: 8218
   server: cn09.closeai.one
   type: ss
-- client-fingerprint: chrome
-  country: 🇨🇳CN
+- country: 🇨🇳CN
   delay: 804
-  name: 11,13,14,15|CN_speednode_0004
-  network: tcp
+  name: 11|新加坡 - 新加坡 - CTG Server Limited...
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
   server: 117.172.176.24
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
@@ -295,10 +293,19 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
+  name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 2283
+  server: 117.172.176.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
   name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 24392
-  server: 36.150.215.236
+  server: 36.150.215.239
   skip-cert-verify: true
   type: trojan

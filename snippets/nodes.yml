@@ -417,23 +417,20 @@ proxies:
   server: oshk02.mynode.me
   type: ss
 - delay: 2058
-  name: 11,13,14|香港3|@ripaojiedian
-  network: tcp
+  name: 11|中国 - 香港 - Hong Kong Telecommun...
   password: bca467b8c15211d189008a93c7519d3b
   port: 443
   server: 58.152.53.42
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - delay: 2106
-  name: 11,13,14,15|HK_speednode_0009
+  name: 11,13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
   type: trojan
-  udp: true
 - delay: 530
   name: 11|中国 - 香港 - Ipxo LLC - 18
   password: d4e34ba7-b2dc-4db1-8abb-c8a451cd270d
@@ -992,12 +989,11 @@ proxies:
   type: ss
 - country: 🇨🇳CN
   delay: 804
-  name: 11,13,14,15|CN_speednode_0004
-  network: tcp
+  name: 11|新加坡 - 新加坡 - CTG Server Limited...
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
   server: 117.172.176.24
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
@@ -2315,11 +2311,10 @@ proxies:
 - cipher: aes-256-cfb
   country: 🏁ZZ
   delay: 1633
-  name: 11,13|🇻🇳 越南|@ripaojiedian
+  name: 11|越南 - Hải Dương - FASTLY - 27
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.142
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
@@ -2699,6 +2694,14 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- name: 13,14|香港3|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 443
+  server: 58.152.53.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -2719,23 +2722,40 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8112
-  server: 36.150.215.197
+  port: 1924
+  server: 36.150.215.239
   skip-cert-verify: true
   type: trojan
-- name: 13,14,15|CN_speednode_0003
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 1332
+  password: e4e262d453466988575c397a30562337
+  port: 316
+  server: 160.16.151.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 4452
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
-- name: 13,14|日本3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  port: 53115
+  server: 45.94.68.117
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 316
+  password: e4e262d453466988575c397a30562337
+  port: 2283
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
@@ -2744,21 +2764,21 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 24392
-  server: 36.150.215.236
+  server: 36.150.215.239
   skip-cert-verify: true
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
+  password: e4e262d453466988575c397a30562337
+  port: 4553
   server: 117.172.176.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2381
+  password: e4e262d453466988575c397a30562337
+  port: 3777
   server: 117.172.176.24
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -2767,7 +2787,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 53743
-  server: 36.151.251.47
+  server: 36.150.215.239
   skip-cert-verify: true
   type: trojan
 - alterId: 0
@@ -2780,24 +2800,13 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- name: 15|CN_speednode_0005
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: false
-  sni: dingding-doc.com
-  type: trojan
-  udp: true
-- name: 15|JP_speednode_0020
-  network: ws
-  password: trojan
-  port: 443
-  server: 103.116.7.1
-  skip-cert-verify: false
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|韩国|@ripaojiedian
+  network: tcp
+  port: '53115'
+  server: 45.94.68.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
