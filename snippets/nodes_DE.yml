@@ -1,36 +1,63 @@
 proxies:
-- delay: 1293
+- country: 🇩🇪DE
+  delay: 678
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.77.188.51
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 948
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.77.188.51
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 728
+  name: '11|德国 - Frankfurt am Main - Amazo... #2'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.180.126.249
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 1417
   name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
-  password: b307fa22-7a37-4b25-8244-220466e60041
+  password: 6497bead-8a01-441d-9530-f9e30bda9c38
   port: 25100
   server: n002.xunxunmimisbs.sbs
   sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- delay: 1427
+- delay: 1239
   name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #1'
-  password: 3e97c17a-a010-4b35-912d-151144cb9b76
+  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
   port: 25100
   server: n001.xunxunmimisbs.sbs
   sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- delay: 1358
+- delay: 963
   name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #2'
-  password: b307fa22-7a37-4b25-8244-220466e60041
+  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
+  port: 25100
+  server: n002.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 955
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #3'
+  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
   port: 25100
   server: n001.xunxunmimisbs.sbs
   sni: de01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  delay: 1516
-  name: 11|西班牙 - 马德里 - Aire Networks Del ...
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8628
-  server: cn17.closeai.one
-  type: ss

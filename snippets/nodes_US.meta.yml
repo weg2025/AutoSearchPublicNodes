@@ -22,422 +22,81 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 964
-  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
-  password: a0ad8f90-eec6-4dfa-9b8a-2b6827d7892c
-  port: 32009
-  server: slur.izenny.com
-  type: ss
+- auth: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
+  delay: 1608
+  down: 100
+  name: 11|美国 - 拉斯维加斯 - FranTech Solution...
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
+  port: 33079
+  server: 212.192.13.86
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 748
-  name: '11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR... #1'
-  password: 99e1b20e-fc9e-4864-9607-24450e0a59e0
-  port: 32009
-  server: slur.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 626
-  name: 11|美国 - 丹佛 - WAP.AC LTD - 13
-  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
-  port: 32893
-  server: xc.xunyunnode.sbs
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 353
-  name: 11|美国 - 丹佛 - WAP.AC LTD - 14
-  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
-  port: 22041
-  server: wa.xunyunnode.sbs
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 572
-  name: 11|美国 - 丹佛 - WAP.AC LTD - 15
-  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
-  port: 45823
-  server: 01.xunyunnode.sbs
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 432
-  name: 11|美国 - 丹佛 - WAP.AC LTD - 7
-  password: 32911461-6aaf-4d93-8dc4-39be8efb1052
-  port: 37699
-  server: 02.xunyunnode.sbs
-  type: ss
-  udp: true
+  up: 100
 - alterId: 0
   cipher: auto
-  delay: 579
+  country: 🇨🇳CN
+  delay: 358
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|美国 - 圣克拉拉 - HostPapa - 2
-  network: http
-  port: 32301
-  server: 104.168.94.41
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - DataCamp Limited - ...
+  network: tcp
+  port: 30000
+  server: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
+  servername: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
+  skip-cert-verify: true
   type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+  uuid: 6f6377e9-4fbd-4ec5-a6e3-813b776826c8
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1539
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
-- cipher: chacha20-ietf
-  delay: 595
-  name: 11|美国 - 洛杉矶 - Akari Networks Limi...
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8501
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 566
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #1'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8502
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 570
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #2'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8503
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 605
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #3'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8507
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 573
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #4'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8509
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 585
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #5'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8510
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 565
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #6'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8514
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 689
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #7'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8515
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 569
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #8'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8516
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 584
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #9'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8517
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 582
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #10'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8518
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 664
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #11'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8519
-  server: cn18.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 560
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #12'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8520
-  server: cn18.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 582
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #13'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8521
-  server: cn18.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 561
-  name: '11|美国 - 洛杉矶 - Akari Networks Limi... #14'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8522
-  server: cn18.closeai.one
-  type: ss
-- delay: 2199
-  grpc-opts:
-    grpc-service-name: GunService
-  name: 11|美国 - 洛杉矶 - The Constant Compan...
-  network: grpc
-  password: 9b6419f8-8120-442e-a48c-6bf52aef0abf
-  port: 443
-  server: gy3.hdcloud.link
-  skip-cert-verify: false
-  sni: gy3.hdcloud.link
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 699
+  delay: 712
   name: 11|美国 - 盐湖城 - PoloCloud Computing...
-  password: 06b9263f-e2ad-4718-bde7-92ce7194f6e4
+  password: 6d13bc12-05c8-46c7-8ba0-2f0d30ca2768
   port: 47831
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 593
+  delay: 727
   name: '11|美国 - 盐湖城 - PoloCloud Computing... #1'
-  password: a0ad8f90-eec6-4dfa-9b8a-2b6827d7892c
-  port: 40063
-  server: slur.izenny.com
+  password: 631e1886-b126-4eee-a71f-9a2a9ae7accf
+  port: 47831
+  server: jry.izenny.com
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  delay: 710
-  name: 11|美国 - 聖荷西 -  - 17
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8803
-  server: cn00.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 575
-  name: 11|美国 - 聖荷西 -  - 21
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8504
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 586
-  name: 11|美国 - 聖荷西 -  - 22
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8505
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 586
-  name: 11|美国 - 聖荷西 -  - 23
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8506
-  server: cn15.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 562
-  name: 11|美国 - 聖荷西 -  - 25
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8508
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 575
-  name: 11|美国 - 聖荷西 -  - 28
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8511
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 728
-  name: 11|美国 - 聖荷西 -  - 29
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8512
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 583
-  name: 11|美国 - 聖荷西 -  - 30
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8513
-  server: cn16.closeai.one
-  type: ss
-- cipher: chacha20-ietf
-  delay: 1536
-  name: 11|美国 - 聖荷西 -  - 40
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 2000
-  server: osus03.mynode.me
-  type: ss
-- delay: 877
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: d4e34ba7-b2dc-4db1-8abb-c8a451cd270d
-  port: 25502
-  server: cdnfire.xiaomispeed.com
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1988
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
+  network: ws
+  port: 443
+  server: 219.76.13.166
+  servername: aa.nbee.pp.ua
   skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-  udp: true
-- delay: 1007
+  tls: true
+  type: vmess
+  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+  ws-opts:
+    headers:
+      HOST: aa.nbee.pp.ua
+    path: /qq
+- delay: 1401
   name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
-  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
+  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
   port: 24100
-  server: n002.xunxunmimisbs.sbs
+  server: n001.xunxunmimisbs.sbs
   sni: us01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- delay: 1061
+- delay: 973
   name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
-  password: b307fa22-7a37-4b25-8244-220466e60041
+  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
   port: 24100
   server: n002.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2021
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #2'
-  password: 3e97c17a-a010-4b35-912d-151144cb9b76
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 780
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #3'
-  password: 3e97c17a-a010-4b35-912d-151144cb9b76
-  port: 24100
-  server: n002.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2498
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #4'
-  password: b307fa22-7a37-4b25-8244-220466e60041
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 720
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #5'
-  password: 96e5121f-be21-4f28-82ab-ab27b173f56b
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
   sni: us01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
@@ -446,7 +105,7 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
-  server: 117.172.176.24
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -455,7 +114,7 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 3777
-  server: 117.172.176.24
+  server: 160.16.231.103
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -463,76 +122,22 @@ proxies:
   name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53743
-  server: 36.150.215.239
+  port: 9269
+  server: 36.150.215.245
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0045
-  port: 55558
-  reality-opts:
-    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
-    short-id: b2defcc6
-  server: 192.238.204.48
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
-- client-fingerprint: random
-  name: 15|US_speednode_0091
-  network: ws
-  port: 15614
-  server: 38.102.235.136
-  servername: snippet.danfeng.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0100
-  port: 993
-  reality-opts:
-    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-  server: 45.159.23.10
-  servername: speed.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0101
+  name: 15|US_speednode_0019
   port: 443
   reality-opts:
-    public-key: ehRbIcN9HhqjhReY1pjqIBGqHCbdY26Kq70_w7k4jgY
-  server: 193.31.127.10
-  servername: speed.cloudflare.com
+    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
+    short-id: c7f3cc
+  server: usa32.clearorbitllc.com
+  servername: usa32.clearorbitllc.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- name: 15|US_speednode_0102
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: cdn-node-oss-63.paofu.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a25ff90c-964c-485a-b72a-858864a27dc0
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-63.paofu.de
-    path: /profile/sharenode
+  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c

@@ -1,55 +1,44 @@
 proxies:
-- delay: 1059
+- delay: 485
   name: 11|韩国 - 仁川广域市 - G-Core Labs S.A. ...
-  password: b307fa22-7a37-4b25-8244-220466e60041
+  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
   port: 22100
   server: n001.xunxunmimisbs.sbs
   sni: kr01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- delay: 589
+- delay: 550
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #1'
-  password: 3e97c17a-a010-4b35-912d-151144cb9b76
-  port: 22100
-  server: n001.xunxunmimisbs.sbs
-  sni: kr01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 451
-  name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #2'
-  password: b307fa22-7a37-4b25-8244-220466e60041
+  password: 6497bead-8a01-441d-9530-f9e30bda9c38
   port: 22100
   server: n002.xunxunmimisbs.sbs
   sni: kr01.xxxxyyyysbs.sbs
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  delay: 1823
+- delay: 697
+  name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #2'
+  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
+  port: 22100
+  server: n002.xunxunmimisbs.sbs
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 488
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #3'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 31832-qOf3ahM8.download.microsoft.com
-    mode: http
-  port: 8602
-  server: cn17.closeai.one
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1573
-  name: 11|韩国 - 春川市 - Oracle Corporation ...
-  password: 99e1b20e-fc9e-4864-9607-24450e0a59e0
-  port: 43295
-  server: slur.izenny.com
-  type: ss
+  password: 6497bead-8a01-441d-9530-f9e30bda9c38
+  port: 22100
+  server: n001.xunxunmimisbs.sbs
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 634
-  name: '11|韩国 - 春川市 - Oracle Corporation ... #1'
-  password: a0ad8f90-eec6-4dfa-9b8a-2b6827d7892c
-  port: 43295
-  server: slur.izenny.com
+- cipher: aes-256-gcm
+  country: 🇦🇺AU
+  delay: 935
+  name: 11|韩国 - 首尔特别市 - Baxet Group Inc. ...
+  password: 63d7c17506d1f48b
+  port: 10912
+  server: 203.32.26.157
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -71,7 +60,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- name: 15|KR_speednode_0024
+- name: 15|KR_speednode_0004
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
