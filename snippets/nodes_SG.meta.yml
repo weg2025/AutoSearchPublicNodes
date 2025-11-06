@@ -1,86 +1,42 @@
 proxies:
-- delay: 1052
-  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
+- client-fingerprint: chrome
+  country: 🇨🇳CN
+  delay: 2149
+  name: 11,13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9713
+  server: 36.150.215.137
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- delay: 930
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31201
-  server: n002.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 480
+  name: 11|新加坡 - 新加坡 - Prime Security Cor...
+  password: 554c010ce4
+  port: 13759
+  server: sgp13.fjk.wtf
+  type: ss
   udp: true
-- delay: 738
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #2'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 375
+  name: '11|新加坡 - 新加坡 - Prime Security Cor... #1'
+  password: 554c010ce4
+  port: 13759
+  server: sgp11.fjk.wtf
+  type: ss
   udp: true
-- delay: 632
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #3'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 541
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #4'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1833
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #5'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1448
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #6'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1147
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #7'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31201
-  server: n002.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 749
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #8'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31200
-  server: n001.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2830
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #9'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31200
-  server: n001.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 497
+  name: '11|新加坡 - 新加坡 - Prime Security Cor... #2'
+  password: 554c010ce4
+  port: 13759
+  server: sgp10.fjk.wtf
+  type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 13,14|新加坡2|@ripaojiedian
+  name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
@@ -89,11 +45,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: 13,14|新加坡3|@ripaojiedian
+  name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: BxceQaOe
-  port: 9713
-  server: 36.150.215.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  password: e4e262d453466988575c397a30562337
+  port: 2173
+  server: 117.172.176.23
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan

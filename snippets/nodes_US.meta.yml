@@ -22,84 +22,28 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- auth: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
-  delay: 1608
-  down: 100
-  name: 11|美国 - 拉斯维加斯 - FranTech Solution...
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
-  port: 33079
-  server: 212.192.13.86
+- country: 🇨🇳CN
+  delay: 1396
+  name: 11|美国 - Douglasville - DigitalOce...
+  password: BxceQaOe
+  port: 9269
+  server: 36.150.215.245
   skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 358
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - DataCamp Limited - ...
-  network: tcp
-  port: 30000
-  server: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
-  servername: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6f6377e9-4fbd-4ec5-a6e3-813b776826c8
-- cipher: chacha20-ietf-poly1305
-  delay: 712
-  name: 11|美国 - 盐湖城 - PoloCloud Computing...
-  password: 6d13bc12-05c8-46c7-8ba0-2f0d30ca2768
-  port: 47831
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 727
-  name: '11|美国 - 盐湖城 - PoloCloud Computing... #1'
-  password: 631e1886-b126-4eee-a71f-9a2a9ae7accf
-  port: 47831
-  server: jry.izenny.com
-  type: ss
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  delay: 1988
+  country: 🇺🇸US
+  delay: 802
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 219.76.13.166
-  servername: aa.nbee.pp.ua
+  name: 11|美国 - 西雅圖 - GTHost - 1
+  network: none
+  port: 19365
+  server: 2.59.62.63
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-  ws-opts:
-    headers:
-      HOST: aa.nbee.pp.ua
-    path: /qq
-- delay: 1401
-  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 973
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 24100
-  server: n002.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
+  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
@@ -127,17 +71,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
-    short-id: c7f3cc
-  server: usa32.clearorbitllc.com
-  servername: usa32.clearorbitllc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 15|US_speednode_0036
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560

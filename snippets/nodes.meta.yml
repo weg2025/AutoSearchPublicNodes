@@ -1,5 +1,5 @@
 proxies:
-- name: '9,10|🇳🇱 - NL - @freeOnlineVPN #4'
+- name: '9,10|🇳🇱 - NL - @freeOnlineVPN #5'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -369,7 +369,7 @@ proxies:
   sni: net2025.afsharidempire.uk
   tls: false
   type: hysteria2
-- name: 10|All--@V2rayAlpha--8
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #3'
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -676,7 +676,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱 - NL - @freeOnlineVPN #10'
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #11'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -686,7 +686,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #5'
+- name: '10|🇳🇱 - NL - @freeOnlineVPN #12'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -898,10 +898,10 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 120
+  delay: 125
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - 佛山市 - China Mobile - 3
+  name: 11|中国 - 佛山市 - China Mobile - 2
   network: tcp
   port: 59003
   server: 183.236.51.36
@@ -909,51 +909,76 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 152
+  delay: 308
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 北京 - Hangzhou Alibaba Adv...
   network: tcp
-  port: 50002
-  server: 39.100.81.215
+  port: 30302
+  server: 39.107.155.11
   skip-cert-verify: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  delay: 357
-  name: 11|中国 - 台湾 - Akile LTD - 7
-  password: 631e1886-b126-4eee-a71f-9a2a9ae7accf
-  port: 27689
-  server: jry.izenny.com
+- cipher: rc4-md5
+  delay: 483
+  name: 11|中国 - 台湾 - Chunghwa Telecom Co....
+  password: 554c010ce4
+  port: 13759
+  server: twgame07.fjk.wtf
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇳CN
-  delay: 203
-  name: 11|中国 - 广州市 - CHINANET Guangdong ...
-  password: '123'
-  port: 6100
-  server: 14.18.106.88
+- cipher: rc4-md5
+  delay: 486
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #1'
+  password: 554c010ce4
+  port: 13759
+  server: twgame04.fjk.wtf
   type: ss
-- alterId: 0
+  udp: true
+- cipher: rc4-md5
+  delay: 491
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #2'
+  password: 554c010ce4
+  port: 13759
+  server: twgame02.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 381
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #3'
+  password: 554c010ce4
+  port: 13759
+  server: tw06.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 249
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #4'
+  password: 554c010ce4
+  port: 13759
+  server: tw13.fjk.wtf
+  type: ss
+  udp: true
+- alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 176
+  delay: 187
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
-  network: raw
+  network: tcp
   port: 50002
   server: 120.26.137.112
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  delay: 178
+  country: 🇨🇳CN
+  delay: 159
   h2-opts: {}
   http-opts: {}
   name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
@@ -962,823 +987,408 @@ proxies:
   server: 139.129.20.6
   skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  delay: 1675
+  country: 🇭🇰HK
+  delay: 2124
   name: 11|中国 - 香港 - Amazon Technologies ...
   password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 11689
-  server: ss.010.node-for-bigairport.win
+  port: 11688
+  server: ss.020.node-for-bigairport.win
+  type: ss
+- cipher: rc4-md5
+  delay: 377
+  name: 11|中国 - 香港 - PCCW IMS Ltd (PCCW B...
+  password: 554c010ce4
+  port: 13759
+  server: qat04.ctg.wtf
   type: ss
   udp: true
-- delay: 628
-  name: 11|中国 - 香港 - G-Core Labs S.A. - 1...
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 21201
-  server: n001.xunxunmimisbs.sbs
-  sni: hk02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 420
-  name: 11|中国 - 香港 - G-Core Labs S.A. - 8
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 21200
-  server: n002.xunxunmimisbs.sbs
-  sni: hk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 495
-  name: 11|中国 - 香港 - G-Core Labs S.A. - 9
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 21201
-  server: n002.xunxunmimisbs.sbs
-  sni: hk02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 791
-  name: 11|中国 - 香港 - WAP.AC LTD - 11
-  password: 403c8b4f-05cc-4609-9ad5-a46cf84327b1
-  port: 23201
-  server: future.chenyi.pw
+- cipher: rc4-md5
+  delay: 375
+  name: '11|中国 - 香港 - PCCW IMS Ltd (PCCW B... #1'
+  password: 554c010ce4
+  port: 13759
+  server: bgp03.fjk.wtf
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 761
+- cipher: rc4-md5
+  delay: 489
+  name: '11|中国 - 香港 - PCCW IMS Ltd (PCCW B... #2'
+  password: 554c010ce4
+  port: 13759
+  server: bgp04.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 385
+  name: 11|中国 - 香港 - Velcom - 13
+  password: 554c010ce4
+  port: 13759
+  server: sghk13.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1312
+  name: 11|中国 - 香港 - Velcom - 17
+  password: 554c010ce4
+  port: 13759
+  server: sg18.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 462
+  name: 11|中国 - 香港 - Velcom - 18
+  password: 554c010ce4
+  port: 13759
+  server: hk02.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 456
+  name: 11|中国 - 香港 - Velcom - 19
+  password: 554c010ce4
+  port: 13759
+  server: sg05.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 247
+  name: 11|中国 - 香港 - Velcom - 7
+  password: 554c010ce4
+  port: 13759
+  server: sg04.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 484
+  name: 11|中国 - 香港 - Velcom - 8
+  password: 554c010ce4
+  port: 13759
+  server: sg24.fjk.wtf
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 963
   name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
-  password: d989ff3d46a63f63
-  port: 10081
-  server: 185.22.154.86
-  type: ss
-- cipher: aes-256-gcm
-  delay: 758
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 2
-  password: c5fcdf7829112cb4
-  port: 10081
-  server: 185.22.154.251
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 614
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 3
-  password: f34579d0148b2581
-  port: 10081
-  server: 185.22.154.19
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 630
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 4
-  password: 9ca2803c16de72cd
-  port: 10081
-  server: 45.135.135.89
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 1765
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 5
-  password: 4194ce5b1f36f660
-  port: 10810
-  server: 45.129.2.145
-  type: ss
-- delay: 1266
-  name: 11|印度 - 新孟買 - G-Core Labs S.A. - ...
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 27100
-  server: n002.xunxunmimisbs.sbs
-  sni: in01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1438
-  name: '11|印度 - 新孟買 - G-Core Labs S.A. - ... #1'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 27100
-  server: n002.xunxunmimisbs.sbs
-  sni: in01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 670
-  name: '11|印度 - 新孟買 - G-Core Labs S.A. - ... #2'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 27100
-  server: n001.xunxunmimisbs.sbs
-  sni: in01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 918
-  name: '11|印度 - 新孟買 - G-Core Labs S.A. - ... #3'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 27100
-  server: n001.xunxunmimisbs.sbs
-  sni: in01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 678
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.77.188.51
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 948
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.77.188.51
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 728
-  name: '11|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.180.126.249
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  delay: 2442
-  name: 11|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
-  port: 443
-  server: ip.sb
-  servername: 81715dc4.se-8ea.pages.dev
-  tls: true
-  type: vless
-  uuid: 6fd62709-54d9-43aa-bf9e-00776a0a25d3
+  port: 80
+  server: ru1.nodea6a6.skynode.me
+  tls: false
+  type: vmess
+  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 81715dc4.se-8ea.pages.dev
+      Host: node-59-175-206-86.speedtest.cn
     max-early-data: 2560
-    path: /x0nlkw0wqjljeqwv/mti5lje1ms4ymdquote=
+    path: /download
+- alpn:
+  - h3
+  delay: 1001
+  disable-sni: false
+  name: 11|加拿大 - 多伦多 - Oracle Corporation...
+  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  port: 52434
+  reduce-rtt: false
+  request-timeout: 0
+  server: 40.233.77.57
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  version: 5
+- cipher: rc4-md5
+  delay: 457
+  name: 11|印度 - 德里 - Datacamp Limited - 1
+  password: 554c010ce4
+  port: 13759
+  server: in06.fjk.wtf
+  type: ss
+  udp: true
+- delay: 1134
+  name: 11|印度尼西亚 - 雅加达 - Akamai Technolog...
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  port: 32233
+  server: c10279b2-t5bb40-t6tn6w-jjv2.id.oshuawei.com
+  skip-cert-verify: true
+  sni: c10279b2-t5bb40-t6tn6w-jjv2.id.oshuawei.com
+  tls: true
+  type: http
+  username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
 - cipher: chacha20-ietf-poly1305
-  delay: 440
-  name: 11|德国 - 法兰克福 - Global Connectivit...
-  password: pPMNzFdvbgWRPXaFKZmsFW
-  port: 35291
-  server: 80.66.72.11
+  country: 🇨🇿CZ
+  delay: 1624
+  name: 11|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
+  password: tunnel-fbrof
+  port: 8444
+  server: tr-1.stunnel.cc
   type: ss
-  udp: true
-- delay: 1417
-  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 25100
-  server: n002.xunxunmimisbs.sbs
-  sni: de01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1239
-  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #1'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 25100
-  server: n001.xunxunmimisbs.sbs
-  sni: de01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 963
-  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #2'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 25100
-  server: n002.xunxunmimisbs.sbs
-  sni: de01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 955
-  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #3'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 25100
-  server: n001.xunxunmimisbs.sbs
-  sni: de01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1052
-  name: 11|新加坡 - 新加坡 - G-Core Labs S.A. -...
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 930
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #1'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31201
-  server: n002.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 738
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #2'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 632
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #3'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 541
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #4'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1833
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #5'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31200
-  server: n002.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1448
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #6'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31201
-  server: n001.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1147
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #7'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31201
-  server: n002.xunxunmimisbs.sbs
-  sni: sg02.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 749
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #8'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 31200
-  server: n001.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2830
-  name: '11|新加坡 - 新加坡 - G-Core Labs S.A. -... #9'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 31200
-  server: n001.xunxunmimisbs.sbs
-  sni: sg01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇹🇷TR
-  delay: 1114
-  name: 11|日本 - 东京 - Baxet Group Inc. - 1
-  password: A+C8I1KUCPUdwzMk
-  port: 8388
-  server: 185.141.219.30
-  type: ss
-- delay: 2319
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 2
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 41300
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 318
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 3
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 41300
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1220
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 4
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 41300
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 1710
-  name: 11|法国 - 巴黎 - Amazon Technologies ...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.97.169
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 2333
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
+- country: 🇺🇸US
+  delay: 778
+  name: 11|德国 - Frankfurt am Main - Amazo...
   password: telegram-id-directvpn
   port: 22223
-  server: 13.36.97.169
+  server: 63.176.78.5
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 748
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
+- country: 🇩🇪DE
+  delay: 689
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
   password: telegram-id-privatevpns
   port: 22222
-  server: 51.45.27.83
+  server: 63.176.193.125
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- delay: 976
-  name: 11|法国 - 巴黎 - G-Core Labs S.A. - 4
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 26100
-  server: n001.xunxunmimisbs.sbs
-  sni: fr01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1308
-  name: 11|法国 - 巴黎 - G-Core Labs S.A. - 5
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 26100
-  server: n002.xunxunmimisbs.sbs
-  sni: fr01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 677
-  name: 11|泰国 - Nonthaburi - Siamdata Com...
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 28300
-  server: n001.xunxunmimisbs.sbs
-  sni: tai01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1203
-  name: '11|泰国 - Nonthaburi - Siamdata Com... #1'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 28300
-  server: n002.xunxunmimisbs.sbs
-  sni: tai01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- auth: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
-  delay: 1608
-  down: 100
-  name: 11|美国 - 拉斯维加斯 - FranTech Solution...
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: e4976d8d-4501-42ad-b6ce-2b0fe16ad19f
-  port: 33079
-  server: 212.192.13.86
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 358
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - DataCamp Limited - ...
-  network: tcp
-  port: 30000
-  server: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
-  servername: ed633b0b-2733-4146-a121-103ef615e84b.dbf34cdb-8620-4ce9-975e-206a0593b502.smartprivatelink.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6f6377e9-4fbd-4ec5-a6e3-813b776826c8
-- cipher: chacha20-ietf-poly1305
-  delay: 712
-  name: 11|美国 - 盐湖城 - PoloCloud Computing...
-  password: 6d13bc12-05c8-46c7-8ba0-2f0d30ca2768
-  port: 47831
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 727
-  name: '11|美国 - 盐湖城 - PoloCloud Computing... #1'
-  password: 631e1886-b126-4eee-a71f-9a2a9ae7accf
-  port: 47831
-  server: jry.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1988
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 219.76.13.166
-  servername: aa.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-  ws-opts:
-    headers:
-      HOST: aa.nbee.pp.ua
-    path: /qq
-- delay: 1401
-  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 973
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 24100
-  server: n002.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 958
-  name: 11|英国 - Harlesden - G-Core Labs S...
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 23100
-  server: n002.xunxunmimisbs.sbs
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 970
-  name: '11|英国 - Harlesden - G-Core Labs S... #1'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 23100
-  server: n001.xunxunmimisbs.sbs
-  sni: uk01.xxxxyyyysbs.sbs
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - cipher: rc4-md5
-  country: 🇬🇧GB
-  delay: 523
-  name: 11|英国 - 倫敦金融城 - M247 Europe SRL -...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
+  delay: 575
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 4
+  password: 554c010ce4
+  port: 13759
+  server: ge02.htz.wtf
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 2470
-  name: 11|荷兰 - 阿姆斯特丹 - Baxet Group Inc. ...
-  password: 631e1886-b126-4eee-a71f-9a2a9ae7accf
-  port: 57884
-  server: jry.izenny.com
+  country: 🇷🇺RU
+  delay: 1692
+  name: 11|德国 - 法兰克福 - Global Connectivit...
+  password: UpvYdhs8bc37DeJC3noLMh
+  port: 7048
+  server: h110vpnde.outlinekeys.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 652
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|新加坡 - 新加坡 - Alibaba (US) Techn...
+  network: http
+  port: 22525
+  server: 47.245.106.193
+  type: vmess
+  uuid: cabe905a-28ea-4e7e-c34d-2fa38604001f
+- country: 🇨🇳CN
+  delay: 2149
+  name: 11,13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9713
+  server: 36.150.215.137
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  delay: 480
+  name: 11|新加坡 - 新加坡 - Prime Security Cor...
+  password: 554c010ce4
+  port: 13759
+  server: sgp13.fjk.wtf
   type: ss
   udp: true
-- delay: 1106
-  name: 11|越南 - Cầu Giấy - Vietnam Posts ...
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 28200
-  server: n002.xunxunmimisbs.sbs
-  sni: vn01.xxxxyyyysbs.sbs
+- cipher: rc4-md5
+  delay: 375
+  name: '11|新加坡 - 新加坡 - Prime Security Cor... #1'
+  password: 554c010ce4
+  port: 13759
+  server: sgp11.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 497
+  name: '11|新加坡 - 新加坡 - Prime Security Cor... #2'
+  password: 554c010ce4
+  port: 13759
+  server: sgp10.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 243
+  name: 11|日本 - 东京 - Prime Security Corp ...
+  password: 554c010ce4
+  port: 13759
+  server: jpaz08.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 240
+  name: '11|日本 - 东京 - Prime Security Corp ... #1'
+  password: 554c010ce4
+  port: 13759
+  server: jp15.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 475
+  name: '11|日本 - 东京 - Prime Security Corp ... #2'
+  password: 554c010ce4
+  port: 13759
+  server: jpaz02.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 376
+  name: '11|日本 - 东京 - Prime Security Corp ... #3'
+  password: 554c010ce4
+  port: 13759
+  server: jpid01.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 573
+  name: '11|日本 - 东京 - Prime Security Corp ... #4'
+  password: 554c010ce4
+  port: 13759
+  server: jpaz06.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 460
+  name: '11|日本 - 东京 - Prime Security Corp ... #5'
+  password: 554c010ce4
+  port: 13759
+  server: jpid04.fjk.wtf
+  type: ss
+  udp: true
+- country: 🇨🇳CN
+  delay: 1396
+  name: 11|美国 - Douglasville - DigitalOce...
+  password: BxceQaOe
+  port: 9269
+  server: 36.150.215.245
+  skip-cert-verify: true
   type: trojan
   udp: true
-- delay: 688
-  name: '11|越南 - Cầu Giấy - Vietnam Posts ... #1'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 28200
-  server: n001.xunxunmimisbs.sbs
-  sni: vn01.xxxxyyyysbs.sbs
-  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 802
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 西雅圖 - GTHost - 1
+  network: none
+  port: 19365
+  server: 2.59.62.63
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
+- cipher: rc4-md5
+  delay: 376
+  name: 11|英国 - Erith - OVH SAS - 1
+  password: 554c010ce4
+  port: 13759
+  server: ir02.fjk.wtf
+  type: ss
   udp: true
-- delay: 1678
-  name: '11|越南 - Cầu Giấy - Vietnam Posts ... #2'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 28200
-  server: n002.xunxunmimisbs.sbs
-  sni: vn01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 455
+  name: 11|英国 - Erith - OVH SAS - 2
+  password: 554c010ce4
+  port: 13759
+  server: uk03.fjk.wtf
+  type: ss
   udp: true
-- delay: 649
-  name: '11|越南 - Cầu Giấy - Vietnam Posts ... #3'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 28200
-  server: n001.xunxunmimisbs.sbs
-  sni: vn01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 765
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|越南 - Hai BàTrưng - TOTHOST - 5
+  network: http
+  port: 23806
+  server: 103.197.185.149
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
 - cipher: aes-256-cfb
-  delay: 634
+  country: 🏁ZZ
+  delay: 699
   name: 11|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.125
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 640
-  name: 11|越南 - Hải Dương - FASTLY - 10
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1639
-  name: 11|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
+  server: 103.186.155.218
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 651
-  name: 11|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.222
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2418
-  name: 11|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 679
-  name: 11|越南 - Hải Dương - FASTLY - 14
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.169
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 639
-  name: 11|越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.46
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 631
-  name: 11|越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.242
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1650
-  name: 11|越南 - Hải Dương - FASTLY - 17
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.55
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 694
-  name: 11|越南 - Hải Dương - FASTLY - 18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1679
-  name: 11|越南 - Hải Dương - FASTLY - 19
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.26
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 702
+  delay: 736
   name: 11|越南 - Hải Dương - FASTLY - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.9
+  server: 103.186.155.80
   type: ss
 - cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 707
-  name: 11|越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 651
-  name: 11|越南 - Hải Dương - FASTLY - 21
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 691
-  name: 11|越南 - Hải Dương - FASTLY - 22
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2609
-  name: 11|越南 - Hải Dương - FASTLY - 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.239
-  type: ss
-- cipher: aes-256-cfb
-  delay: 680
-  name: 11|越南 - Hải Dương - FASTLY - 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 639
-  name: 11|越南 - Hải Dương - FASTLY - 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.145
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 656
-  name: 11|越南 - Hải Dương - FASTLY - 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 638
-  name: 11|越南 - Hải Dương - FASTLY - 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.230
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 667
-  name: 11|越南 - Hải Dương - FASTLY - 28
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.176
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 643
-  name: 11|越南 - Hải Dương - FASTLY - 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.211
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 642
+  delay: 1799
   name: 11|越南 - Hải Dương - FASTLY - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.205
+  server: 103.186.154.67
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 654
+  delay: 789
   name: 11|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.122
+  server: 103.186.155.150
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 684
-  name: 11|越南 - Hải Dương - FASTLY - 5
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.140
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1324
-  name: 11|越南 - Hải Dương - FASTLY - 6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.102
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1050
-  name: 11|越南 - Hải Dương - FASTLY - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 737
-  name: 11|越南 - Hải Dương - FASTLY - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 675
-  name: 11|越南 - Hải Dương - FASTLY - 9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.118
-  type: ss
-- delay: 2236
-  name: 11|阿拉伯联合酋长国 - 迪拜 - G-Core Labs S....
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 28100
-  server: n002.xunxunmimisbs.sbs
-  sni: db01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2233
-  name: '11|阿拉伯联合酋长国 - 迪拜 - G-Core Labs S.... #1'
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 28100
-  server: n001.xunxunmimisbs.sbs
-  sni: db01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 2993
-  name: '11|阿拉伯联合酋长国 - 迪拜 - G-Core Labs S.... #2'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 28100
-  server: n001.xunxunmimisbs.sbs
-  sni: db01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 485
+- cipher: rc4-md5
+  delay: 249
   name: 11|韩国 - 仁川广域市 - G-Core Labs S.A. ...
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 22100
-  server: n001.xunxunmimisbs.sbs
-  sni: kr01.xxxxyyyysbs.sbs
-  type: trojan
+  password: 554c010ce4
+  port: 13759
+  server: kraz01.fjk.wtf
+  type: ss
   udp: true
-- delay: 550
+- cipher: rc4-md5
+  delay: 489
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #1'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 22100
-  server: n002.xunxunmimisbs.sbs
-  sni: kr01.xxxxyyyysbs.sbs
-  type: trojan
+  password: 554c010ce4
+  port: 13759
+  server: krgame06.fjk.wtf
+  type: ss
   udp: true
-- delay: 697
+- cipher: rc4-md5
+  delay: 462
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #2'
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 22100
-  server: n002.xunxunmimisbs.sbs
-  sni: kr01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 488
-  name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #3'
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 22100
-  server: n001.xunxunmimisbs.sbs
-  sni: kr01.xxxxyyyysbs.sbs
-  type: trojan
+  password: 554c010ce4
+  port: 13759
+  server: krgame03.fjk.wtf
+  type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇦🇺AU
-  delay: 935
+  country: 🇹🇷TR
+  delay: 2768
   name: 11|韩国 - 首尔特别市 - Baxet Group Inc. ...
   password: 63d7c17506d1f48b
   port: 10912
   server: 203.32.26.157
   type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1099
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|韩国 - 首尔特别市 - Oracle Corporatio...
+  network: http
+  port: 80
+  server: 152.70.92.69
+  type: vmess
+  udp: true
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1854,14 +1464,14 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5156
-  server: 36.150.215.137
+  port: 4041
+  server: 36.150.215.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: e4e262d453466988575c397a30562337
+  password: 1b57001bd214304027025a740b6cf1ac
   port: 316
   server: 117.172.176.23
   skip-cert-verify: false
@@ -1877,15 +1487,25 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|🇰🇷 韩国|@ripaojiedian
-  port: 53115
-  server: 45.94.68.117
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  port: 3304
+  server: 61.224.65.235
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- name: 13,14|新加坡2|@ripaojiedian
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
+- alterId: 0
+  cipher: auto
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  port: 80
+  server: 152.70.92.69
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
@@ -1893,13 +1513,13 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: BxceQaOe
-  port: 9713
-  server: 36.150.215.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  password: e4e262d453466988575c397a30562337
+  port: 2173
+  server: 117.172.176.23
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
@@ -1927,6 +1547,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 13|🇻🇳 越南|@ripaojiedian
+  port: 23806
+  server: 103.197.185.149
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
+- alterId: 0
+  cipher: auto
   name: 14|香港6|@ripaojiedian
   network: tcp
   port: '11819'
@@ -1937,24 +1567,265 @@ proxies:
   uuid: de32752c-0661-467e-82d3-35bc740a787f
 - alterId: 0
   cipher: auto
-  name: 14|韩国|@ripaojiedian
+  name: 14|日本4|@ripaojiedian
   network: tcp
-  port: '53115'
-  server: 45.94.68.117
+  port: '3304'
+  server: 61.224.65.235
   servername: ''
   tls: false
   type: vmess
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- name: 15|KR_speednode_0004
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
+- alterId: 0
+  cipher: auto
+  name: 14|韩国|@ripaojiedian
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: 14|越南|@ripaojiedian
+  network: tcp
+  port: '23806'
+  server: 103.197.185.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
+- flow: xtls-rprx-vision
+  name: 15|CA_speednode_0001
+  port: 40106
+  reality-opts:
+    public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
+    short-id: f44fd3dd
+  server: 132.145.99.18
+  servername: apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: 15|TW_speednode_0009
+  uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+- name: 15|CN_speednode_0002
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 41300
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: true
+  sni: jp01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0005
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 31200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0008
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 21201
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: hk02.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0009
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0010
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 31200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0011
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 27100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: in01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0012
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0013
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0014
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0015
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 22100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0016
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0017
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 28200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0018
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0020
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 22100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0022
+  password: a7bb66bd-973c-424e-90ef-3f2841b2c44f
+  port: 28200
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: vn01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0023
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 31200
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: sg01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0024
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 26100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: fr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0025
+  password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+  port: 26100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: fr01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0026
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 23100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0027
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 27100
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: in01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0028
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 28300
+  server: n002.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: tai01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0029
+  password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+  port: 23100
+  server: n001.xunxunmimisbs.sbs
+  skip-cert-verify: false
+  sni: uk01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 15|LB_speednode_0031
+  port: 443
+  reality-opts:
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
+  server: 77.110.119.225
+  servername: st.ozone.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0032
+  port: 30866
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1922fd72-8ebf-44f8-86ea-a032be1d26d7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0033
+  port: 30865
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d43bc5b9-21f8-42a7-adf8-8db943de75eb
+- name: 15|TW_speednode_0034
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -1962,17 +1833,16 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0019
-  port: 443
-  reality-opts:
-    public-key: 9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns
-    short-id: c7f3cc
-  server: usa32.clearorbitllc.com
-  servername: usa32.clearorbitllc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 15|US_speednode_0036
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560

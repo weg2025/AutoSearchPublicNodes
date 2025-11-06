@@ -1,52 +1,65 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇹🇷TR
-  delay: 1114
-  name: 11|日本 - 东京 - Baxet Group Inc. - 1
-  password: A+C8I1KUCPUdwzMk
-  port: 8388
-  server: 185.141.219.30
+- cipher: rc4-md5
+  delay: 243
+  name: 11|日本 - 东京 - Prime Security Corp ...
+  password: 554c010ce4
+  port: 13759
+  server: jpaz08.fjk.wtf
   type: ss
-- delay: 2319
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 2
-  password: a4397f7a-f47f-49bc-b6b2-ac2fa2175f4d
-  port: 41300
-  server: n002.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
   udp: true
-- delay: 318
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 3
-  password: 3bd682f1-64f2-4f49-9263-805c0d1c7909
-  port: 41300
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 240
+  name: '11|日本 - 东京 - Prime Security Corp ... #1'
+  password: 554c010ce4
+  port: 13759
+  server: jp15.fjk.wtf
+  type: ss
   udp: true
-- delay: 1220
-  name: 11|日本 - 东京 - G-Core Labs S.A. - 4
-  password: 6497bead-8a01-441d-9530-f9e30bda9c38
-  port: 41300
-  server: n001.xunxunmimisbs.sbs
-  skip-cert-verify: true
-  sni: jp01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: rc4-md5
+  delay: 475
+  name: '11|日本 - 东京 - Prime Security Corp ... #2'
+  password: 554c010ce4
+  port: 13759
+  server: jpaz02.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 376
+  name: '11|日本 - 东京 - Prime Security Corp ... #3'
+  password: 554c010ce4
+  port: 13759
+  server: jpid01.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 573
+  name: '11|日本 - 东京 - Prime Security Corp ... #4'
+  password: 554c010ce4
+  port: 13759
+  server: jpaz06.fjk.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 460
+  name: '11|日本 - 东京 - Prime Security Corp ... #5'
+  password: 554c010ce4
+  port: 13759
+  server: jpid04.fjk.wtf
+  type: ss
   udp: true
 - client-fingerprint: chrome
   name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5156
-  server: 36.150.215.137
+  port: 4041
+  server: 36.150.215.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: e4e262d453466988575c397a30562337
+  password: 1b57001bd214304027025a740b6cf1ac
   port: 316
   server: 117.172.176.23
   skip-cert-verify: false
@@ -61,3 +74,24 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  port: 3304
+  server: 61.224.65.235
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
+- alterId: 0
+  cipher: auto
+  name: 14|日本4|@ripaojiedian
+  network: tcp
+  port: '3304'
+  server: 61.224.65.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c

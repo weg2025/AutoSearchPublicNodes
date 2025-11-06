@@ -1,41 +1,45 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 761
+- alterId: 0
+  cipher: auto
+  delay: 963
   name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
-  password: d989ff3d46a63f63
-  port: 10081
-  server: 185.22.154.86
-  type: ss
-- cipher: aes-256-gcm
-  delay: 758
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 2
-  password: c5fcdf7829112cb4
-  port: 10081
-  server: 185.22.154.251
-  type: ss
+  network: ws
+  port: 80
+  server: ru1.nodea6a6.skynode.me
+  tls: false
+  type: vmess
+  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: node-59-175-206-86.speedtest.cn
+    max-early-data: 2560
+    path: /download
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0032
+  port: 30866
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 614
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 3
-  password: f34579d0148b2581
-  port: 10081
-  server: 185.22.154.19
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 630
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 4
-  password: 9ca2803c16de72cd
-  port: 10081
-  server: 45.135.135.89
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 1765
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 5
-  password: 4194ce5b1f36f660
-  port: 10810
-  server: 45.129.2.145
-  type: ss
+  uuid: 1922fd72-8ebf-44f8-86ea-a032be1d26d7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|RU_speednode_0033
+  port: 30865
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d43bc5b9-21f8-42a7-adf8-8db943de75eb
