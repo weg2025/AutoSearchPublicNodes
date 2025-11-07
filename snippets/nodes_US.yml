@@ -1,30 +1,104 @@
 proxies:
-- country: 🇨🇳CN
-  delay: 1396
-  name: 11|美国 - Douglasville - DigitalOce...
-  password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇰DK
+  delay: 480
+  name: 11|丹麦 - 哥本哈根 - PQ HOSTING PLUS S....
+  password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
+  port: 443
+  server: 95.164.10.228
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1235
+  name: 11|美国 - Dublin - Amazon.com, Inc....
+  password: amazonskr05
+  port: 443
+  server: 3.129.21.37
+  type: ss
   udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1544
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #1'
+  password: amazonskr05
+  port: 443
+  server: 13.59.110.241
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 802
+  country: 🇨🇳CN
+  delay: 2842
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 西雅圖 - GTHost - 1
-  network: none
-  port: 19365
-  server: 2.59.62.63
+  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
+  network: tcp
+  port: 55487
+  server: ddss.steven1.top
   skip-cert-verify: true
   type: vmess
-  uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
+  uuid: 8591d70d-4b3f-4d20-e27a-87f8ecfebefb
+- alterId: 0
+  cipher: auto
+  delay: 2834
+  name: 11|美国 - 洛杉矶 - ReliableSite.Net LL...
+  port: 49125
+  server: game.us03.bilibilicloud01.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+- cipher: chacha20-ietf-poly1305
+  delay: 548
+  name: 11|美国 - 盐湖城 - PoloCloud Computing...
+  password: a2f09947-d9de-4302-bc13-764920f33e22
+  port: 40063
+  server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 829
+  name: 11|美国 - 紐約 - BrainStorm Network, ...
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 712
+  name: 11|美国 - 绍姆堡 - NetInformatik Inc -...
+  password: dc9ea653-becc-44f1-95f9-16773a0519e9
+  port: 30075
+  server: mg03.gnzzrk001.top
+  type: ss
+  udp: true
+- delay: 1757
+  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
+  password: ada65271-e83d-401e-8508-fae0280ff447
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1551
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
+  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
+  port: 24100
+  server: n001.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 999
+  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #2'
+  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
+  port: 24100
+  server: n002.xunxunmimisbs.sbs
+  sni: us01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: e4e262d453466988575c397a30562337
+  password: 1b57001bd214304027025a740b6cf1ac
   port: 4553
   server: 117.172.176.23
   skip-cert-verify: false
@@ -48,16 +122,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0036
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560

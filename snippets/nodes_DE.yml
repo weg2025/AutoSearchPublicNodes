@@ -1,37 +1,61 @@
 proxies:
-- cipher: rc4-md5
-  delay: 457
-  name: 11|印度 - 德里 - Datacamp Limited - 1
-  password: 554c010ce4
-  port: 13759
-  server: in06.fjk.wtf
-  type: ss
-  udp: true
-- country: 🇺🇸US
-  delay: 778
+- country: 🇩🇪DE
+  delay: 722
   name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.176.78.5
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.78.16.94
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇩🇪DE
-  delay: 689
+  delay: 2554
   name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.176.193.125
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.78.16.94
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 575
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 4
-  password: 554c010ce4
-  port: 13759
-  server: ge02.htz.wtf
-  type: ss
+- delay: 1226
+  name: 11|德国 - 达姆施塔特 - G-Core Labs S.A. ...
+  password: ada65271-e83d-401e-8508-fae0280ff447
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
+- delay: 1235
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #1'
+  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 1463
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #2'
+  password: 10e11114-efa1-4978-8a39-dafae19a4b49
+  port: 25100
+  server: n002.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- delay: 2562
+  name: '11|德国 - 达姆施塔特 - G-Core Labs S.A. ... #3'
+  password: 10e11114-efa1-4978-8a39-dafae19a4b49
+  port: 25100
+  server: n001.xunxunmimisbs.sbs
+  sni: de01.xxxxyyyysbs.sbs
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇲🇩MD
+  delay: 565
+  name: 11|西班牙 - 马德里 - WorkTitans B.V. - ...
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss

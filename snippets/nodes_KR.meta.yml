@@ -1,51 +1,52 @@
 proxies:
-- cipher: rc4-md5
-  delay: 249
+- delay: 484
   name: 11|韩国 - 仁川广域市 - G-Core Labs S.A. ...
-  password: 554c010ce4
-  port: 13759
-  server: kraz01.fjk.wtf
-  type: ss
+  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
+  port: 22100
+  server: n001.xunxunmimisbs.sbs
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 489
+- delay: 1107
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #1'
-  password: 554c010ce4
-  port: 13759
-  server: krgame06.fjk.wtf
-  type: ss
+  password: ada65271-e83d-401e-8508-fae0280ff447
+  port: 22100
+  server: n002.xunxunmimisbs.sbs
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 462
+- delay: 1655
   name: '11|韩国 - 仁川广域市 - G-Core Labs S.A. ... #2'
-  password: 554c010ce4
-  port: 13759
-  server: krgame03.fjk.wtf
-  type: ss
+  password: ada65271-e83d-401e-8508-fae0280ff447
+  port: 22100
+  server: n001.xunxunmimisbs.sbs
+  sni: kr01.xxxxyyyysbs.sbs
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  country: 🇹🇷TR
-  delay: 2768
-  name: 11|韩国 - 首尔特别市 - Baxet Group Inc. ...
-  password: 63d7c17506d1f48b
-  port: 10912
-  server: 203.32.26.157
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  delay: 997
+  name: 11|韩国 - 光明市 - SK Broadband Co Ltd...
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
   type: ss
-- alterId: 0
-  cipher: auto
-  delay: 1099
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|韩国 - 首尔特别市 - Oracle Corporatio...
-  network: http
-  port: 80
-  server: 152.70.92.69
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- cipher: aes-256-cfb
+  country: 🇰🇷 KR
+  delay: 575
+  name: '11|韩国 - 光明市 - SK Broadband Co Ltd... #1'
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  delay: 1313
+  name: 11|韩国 - 羅州市 - SK Broadband Co Ltd...
+  password: qwerREWQ@@
+  port: 37008
+  server: 221.139.79.57
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
