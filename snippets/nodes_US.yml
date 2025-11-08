@@ -1,106 +1,180 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: 🇩🇰DK
-  delay: 480
+  delay: 1908
   name: 11|丹麦 - 哥本哈根 - PQ HOSTING PLUS S....
   password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
   port: 443
   server: 95.164.10.228
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  delay: 1235
+  delay: 538
   name: 11|美国 - Dublin - Amazon.com, Inc....
   password: amazonskr05
   port: 443
-  server: 3.129.21.37
+  server: 3.141.46.88
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1544
+  delay: 648
   name: '11|美国 - Dublin - Amazon.com, Inc.... #1'
   password: amazonskr05
   port: 443
-  server: 13.59.110.241
+  server: 18.224.33.22
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1383
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #2'
+  password: amazonskr05
+  port: 443
+  server: 3.147.64.175
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 627
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.218.15.201
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 2686
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #4'
+  password: amazonskr05
+  port: 443
+  server: 3.137.215.129
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 2842
+  country: 🇺🇸US
+  delay: 1942
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
-  network: tcp
-  port: 55487
-  server: ddss.steven1.top
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  network: ws
+  port: 443
+  server: xg1a8.waimaohots.com
+  servername: xg1a8.waimaohots.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 8591d70d-4b3f-4d20-e27a-87f8ecfebefb
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      HOST: xg1a8.waimaohots.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  delay: 2834
-  name: 11|美国 - 洛杉矶 - ReliableSite.Net LL...
-  port: 49125
-  server: game.us03.bilibilicloud01.net
+  country: 🇺🇸US
+  delay: 1736
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 圣克拉拉 - DigitalOcean, LLC ... #1'
+  network: ws
+  port: 443
+  server: xg1c1.waimaohots.com
+  servername: xg1c1.waimaohots.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-- cipher: chacha20-ietf-poly1305
-  delay: 548
-  name: 11|美国 - 盐湖城 - PoloCloud Computing...
-  password: a2f09947-d9de-4302-bc13-764920f33e22
-  port: 40063
-  server: slur.izenny.com
-  type: ss
-  udp: true
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      HOST: xg1c1.waimaohots.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1920
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 圣克拉拉 - DigitalOcean, LLC ... #2'
+  network: ws
+  port: 443
+  server: xg1b3.waimaohots.com
+  servername: xg1b3.waimaohots.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      HOST: xg1b3.waimaohots.com
+    path: /api/v1/graphql
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 829
-  name: 11|美国 - 紐約 - BrainStorm Network, ...
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  delay: 697
+  name: 11|美国 - 洛杉矶 - BrainStorm Network,...
+  password: UAMVtHm54uahd6SiN5WcD16rsPSdabPG
   port: 443
-  server: 23.95.75.146
+  server: 23.95.72.81
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 712
-  name: 11|美国 - 绍姆堡 - NetInformatik Inc -...
-  password: dc9ea653-becc-44f1-95f9-16773a0519e9
-  port: 30075
-  server: mg03.gnzzrk001.top
-  type: ss
-  udp: true
-- delay: 1757
-  name: 11|美国 - 芝加哥 - G-Core Labs S.A. - ...
-  password: ada65271-e83d-401e-8508-fae0280ff447
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 1551
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #1'
-  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-  port: 24100
-  server: n001.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
-- delay: 999
-  name: '11|美国 - 芝加哥 - G-Core Labs S.A. - ... #2'
-  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-  port: 24100
-  server: n002.xunxunmimisbs.sbs
-  sni: us01.xxxxyyyysbs.sbs
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 973
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Sharktech - 4
+  network: ws
+  port: 443
+  server: cg1c07.waimaojd.com
+  servername: cg1c07.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba
+  ws-opts:
+    headers:
+      HOST: cg1c07.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 973
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Sharktech - 7
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  servername: cg1c01.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba
+  ws-opts:
+    headers:
+      HOST: cg1c01.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1265
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 芝加哥 - Sharktech - 3
+  network: ws
+  port: 443
+  server: cg1c03.waimaojd.com
+  servername: cg1c03.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba
+  ws-opts:
+    headers:
+      HOST: cg1c03.waimaojd.com
+    path: /api/v1/graphql
 - client-fingerprint: chrome
   name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 4553
-  server: 117.172.176.23
+  port: 373
+  server: 117.172.176.22
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -108,8 +182,8 @@ proxies:
   name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 3777
-  server: 160.16.231.103
+  port: 50974
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -117,8 +191,8 @@ proxies:
   name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
+  port: 25891
+  server: 36.151.251.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

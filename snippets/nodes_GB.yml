@@ -1,25 +1,68 @@
 proxies:
-- delay: 1537
-  name: 11|英国 - Harlesden - G-Core Labs S...
-  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-  port: 23100
-  server: n001.xunxunmimisbs.sbs
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 1652
+  h2-opts: {}
+  http-opts: {}
+  name: 11|英国 - Slough - DigitalOcean, LL...
+  network: ws
+  port: 443
+  server: xg1b6.waimaohots.com
+  servername: xg1b6.waimaohots.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      HOST: xg1b6.waimaohots.com
+    path: /api/v1/graphql
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  delay: 612
+  name: 11|英国 - 伦敦 - Amazon Technologies ...
+  password: amazonskr05
+  port: 443
+  server: 35.178.40.2
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1338
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #1'
+  password: amazonskr05
+  port: 443
+  server: 18.171.250.2
+  type: ss
   udp: true
-- delay: 2014
-  name: '11|英国 - Harlesden - G-Core Labs S... #1'
-  password: 10e11114-efa1-4978-8a39-dafae19a4b49
-  port: 23100
-  server: n001.xunxunmimisbs.sbs
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: aes-256-cfb
+  delay: 626
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #2'
+  password: amazonskr05
+  port: 443
+  server: 18.175.224.25
+  type: ss
   udp: true
-- delay: 2008
-  name: '11|英国 - Harlesden - G-Core Labs S... #2'
-  password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-  port: 23100
-  server: n002.xunxunmimisbs.sbs
-  sni: uk01.xxxxyyyysbs.sbs
-  type: trojan
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  delay: 574
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #3'
+  password: amazonskr05
+  port: 443
+  server: 3.8.49.30
+  type: ss
+- cipher: aes-256-cfb
+  delay: 495
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #4'
+  password: amazonskr05
+  port: 443
+  server: 18.170.33.219
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 495
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #5'
+  password: amazonskr05
+  port: 443
+  server: 13.40.87.204
+  type: ss
   udp: true
