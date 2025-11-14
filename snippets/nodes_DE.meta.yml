@@ -26,3 +26,46 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 587
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: amazonskr05
+  port: 443
+  server: 3.79.57.79
+  type: ss
+- delay: 1345
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
+  network: ws
+  port: 80
+  server: 51.195.92.49
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
+  ws-opts:
+    headers:
+      Host: lunavow5d444ef.global.ssl.fastly.net
+    path: /
+- delay: 2466
+  name: 11,15|SE_speednode_0046
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
+  port: 443
+  server: 77.221.141.207
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+- name: 15|DE_speednode_0010
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.178.207.130
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true

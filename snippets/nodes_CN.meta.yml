@@ -1,23 +1,21 @@
 proxies:
 - alterId: 64
   cipher: auto
-  country: 🇨🇳CN
-  delay: 114
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 佛山市 - China Mobile - 1
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  delay: 173
+  delay: 177
   name: 11|中国 - 杭州 - Hangzhou Alibaba Adv...
   port: 50002
   server: 120.26.137.112
   tls: false
   type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  delay: 795
+  name: 11|中国 - 青岛市 - Hangzhou Alibaba Ad...
+  port: 50002
+  server: 139.129.20.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
