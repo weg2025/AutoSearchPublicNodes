@@ -16,56 +16,57 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #3'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: dir.cybsecguru.com
-  skip-cert-verify: true
-  sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇩🇪DE
-  delay: 587
+- country: 🇩🇪DE
+  delay: 672
   name: 11|德国 - Frankfurt am Main - Amazo...
-  password: amazonskr05
-  port: 443
-  server: 3.79.57.79
-  type: ss
-- delay: 1345
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
-  network: ws
-  port: 80
-  server: 51.195.92.49
-  tls: false
-  type: vless
-  udp: true
-  uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
-  ws-opts:
-    headers:
-      Host: lunavow5d444ef.global.ssl.fastly.net
-    path: /
-- delay: 2466
-  name: 11,15|SE_speednode_0046
-  network: ws
-  password: edeff73d-065d-4b0a-b848-aad9d3380223
-  port: 443
-  server: 77.221.141.207
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
-- name: 15|DE_speednode_0010
   password: telegram-id-directvpn
   port: 22223
-  server: 63.178.207.130
+  server: 18.158.20.161
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: 🇩🇪DE
+  delay: 1363
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.158.20.161
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇲🇩MD
+  delay: 540
+  name: 11|西班牙 - 马德里 - WorkTitans B.V. - ...
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+- client-fingerprint: firefox
+  name: 15|DE_speednode_0002
+  port: 9107
+  reality-opts:
+    public-key: Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI
+    short-id: e8ef8df79e4a6343
+  server: 195.254.165.152
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 774727ed-1e56-41bd-b55f-28549e21bcc8
+- client-fingerprint: chrome
+  name: 15|DE_speednode_0004
+  port: 29973
+  reality-opts:
+    public-key: QqNYhBZPJmHBGFF_4WsxNPcH8xve-4gma9--drcflHQ
+    short-id: cd6229f31e7180e6
+  server: 185.161.251.24
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1493ccd-d1a4-4087-9041-1b3500224003

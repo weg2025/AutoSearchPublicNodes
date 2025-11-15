@@ -1,62 +1,51 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 1068
-  name: 11|美国 - 昆西 - Microsoft Corporatio...
-  network: ws
-  port: 443
-  server: west_a.gaogroup.bid
-  servername: west_a.gaogroup.bid
+- country: 🇭🇰HK
+  delay: 1570
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  password: BxceQaOe
+  port: 4094
+  server: 116.49.237.130
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
-  ws-opts:
-    headers:
-      Host: west_a.gaogroup.bid
-    path: /ctzxvws
-- cipher: aes-256-cfb
-  delay: 972
-  name: 11|美国 - 洛杉矶 - Dedicated.com - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 534
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  port: 27232
+  server: cgroup.node5.s2.nodelist-airport.com
   type: ss
-- alterId: 2
-  cipher: auto
-  delay: 1869
-  name: 11|荷兰 - Meppel - PQ HOSTING PLUS ...
-  network: ws
-  port: 30830
-  server: v30.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
-  port: 4211
-  server: 160.16.107.37
+  port: 2890
+  server: 160.16.229.223
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
-  port: 4054
-  server: 117.172.176.25
+  port: 4211
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4094
-  server: 116.49.237.130
+  port: 4569
+  server: us.wyau.cn
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0020
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.34.73
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
