@@ -31,29 +31,267 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  delay: 524
+  name: 11|美国 - Ashburn - Amazon.com, Inc...
+  password: amazonskr05
+  port: 443
+  server: 35.175.177.15
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 623
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #1'
+  password: amazonskr05
+  port: 443
+  server: 54.89.168.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 590
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #2'
+  password: amazonskr05
+  port: 443
+  server: 54.152.188.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 522
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #3'
+  password: amazonskr05
+  port: 443
+  server: 54.166.228.133
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1394
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #4'
+  password: amazonskr05
+  port: 443
+  server: 54.226.15.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 647
+  name: 11|美国 - Ashburn - BellSouth.net I...
+  password: amazonskr05
+  port: 443
+  server: 98.80.123.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 541
+  name: 11|美国 - Dublin - Amazon.com, Inc....
+  password: amazonskr05
+  port: 443
+  server: 3.149.250.176
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 525
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #1'
+  password: amazonskr05
+  port: 443
+  server: 13.59.143.28
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 554
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #2'
+  password: amazonskr05
+  port: 443
+  server: 3.144.27.33
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 539
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.226.164.197
+  type: ss
+  udp: true
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  delay: 2345
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: www.bing.com
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #4'
+  network: grpc
+  port: 32252
+  server: 3.143.235.221
+  servername: 3.143.235.221
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 619
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 709
+  country: 🇨🇳CN
+  delay: 786
   h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 154.38.116.8
-  servername: hk.nbee.pp.ua
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|美国 - 堪薩斯城 - Nocix, LLC - 34
+  network: http
+  port: 2011
+  server: 16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest
+  servername: tms.dingtalk.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      HOST: hk.nbee.pp.ua
-    path: /aa
+  uuid: f0eed2b8-afac-4ebf-8035-24aaddbe8f20
+- delay: 1813
+  name: 11,15|US_speednode_0014
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- delay: 1784
+  name: '11|美国 - 奥勒姆 - Ace Data Centers II... #1'
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.245
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+- cipher: aes-256-gcm
+  delay: 453
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: dada0801
+  port: 80
+  server: 44.251.113.170
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 435
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #1'
+  password: dada0801
+  port: 80
+  server: 52.33.246.24
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1178
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #2'
+  password: dada0801
+  port: 80
+  server: 54.201.37.162
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 408
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 414
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 13
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.27
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 434
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 14
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 1775
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 420
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 16
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 520
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 17
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 526
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.98
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 926
-  name: 11|美国 - 聖荷西 -  - 1
+  delay: 948
+  name: 11|美国 - 聖荷西 -  - 10
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 23.247.137.73
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 696
+  name: 11|美国 - 聖荷西 -  - 11
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -64,8 +302,43 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 1439
+  delay: 1746
   name: 11|美国 - 聖荷西 -  - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 23.247.137.68
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇭 BH
+  delay: 970
+  name: 11|美国 - 聖荷西 -  - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.167
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇭 BH
+  delay: 948
+  name: 11|美国 - 聖荷西 -  - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1231
+  name: 11|美国 - 聖荷西 -  - 5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -76,8 +349,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 474
-  name: 11|美国 - 聖荷西 -  - 3
+  delay: 950
+  name: 11|美国 - 聖荷西 -  - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1738
+  name: 11|美国 - 聖荷西 -  - 7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -88,8 +372,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 469
-  name: 11|美国 - 聖荷西 -  - 4
+  delay: 1743
+  name: 11|美国 - 聖荷西 -  - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.74
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1745
+  name: 11|美国 - 聖荷西 -  - 9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -98,11 +393,57 @@ proxies:
   port: 2377
   server: 23.247.137.76
   type: ss
+- delay: 2011
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- alterId: 2
+  cipher: auto
+  delay: 1349
+  name: 11|美国 - 阿什本 - HostPapa - 35
+  network: ws
+  port: 30804
+  server: v4.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  delay: 2190
+  name: 11|荷兰 - Meppel - PQ HOSTING PLUS ...
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 4210
-  server: 160.16.70.180
+  port: 2890
+  server: 52.196.180.54
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -110,15 +451,23 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 4211
-  server: 160.16.70.180
+  server: 160.16.117.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 116.49.237.130
+  port: 2773
+  server: 18.162.123.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0013
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true

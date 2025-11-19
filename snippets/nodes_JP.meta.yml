@@ -1,9 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸 US
+  delay: 506
+  name: 11|日本 - 东京 - Akamai Technologies,...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 172.237.11.141
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇺 AU
+  delay: 181
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 43.207.207.206
+  type: ss
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4492
-  server: 160.16.85.138
+  port: 5156
+  server: 153.121.65.212
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -11,34 +35,15 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 1334
-  server: 160.16.240.91
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 3093
-  server: 160.16.150.76
+  port: 3169
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  port: 15003
-  server: 178.157.57.166
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
-- alterId: 0
-  cipher: auto
-  name: 14|日本4|@ripaojiedian
-  network: tcp
-  port: '15003'
-  server: 178.157.57.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e

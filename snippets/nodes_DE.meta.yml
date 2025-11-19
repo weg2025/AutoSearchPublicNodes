@@ -1,12 +1,12 @@
 proxies:
-- name: '10|DE-telegram-@ISVvpn   : کا 🇺'
+- name: '10|DE-telegram-@ISVvpn   : یا 🇺'
   password: 70197404-7b40-45e4-bb9c-8bc8995012ae
   port: 24568
   server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #2'
+- name: '10|🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -16,7 +16,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|🇪 - DE - @freeOnlineVPN #3'
+- name: 10|🇩🇪 - DE - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -26,7 +26,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '10|🇱 - NL - @freeOnlineVPN #2'
+- name: '10|🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -36,37 +36,99 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- country: 🇺🇸US
-  delay: 1048
+- auth: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb
+  delay: 1952
+  name: 11|德国 - Falkenstein - Hetzner Onl...
+  obfs: salamander
+  obfs-password: 9b905566-a177-4b98-8fae-e6777a4f9b9a
+  password: e7be6bfd-6ac8-470e-bc83-f4cbc3f7bfcb
+  port: 20434
+  server: de3.bot-hosting.net
+  skip-cert-verify: true
+  sni: example.com
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  delay: 424
   name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.180.120.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  password: amazonskr05
+  port: 443
+  server: 54.93.101.215
+  type: ss
   udp: true
-- country: 🇺🇸US
-  delay: 2719
+- cipher: aes-256-cfb
+  delay: 1234
   name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.180.120.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  password: amazonskr05
+  port: 443
+  server: 54.93.211.165
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|DE_speednode_0005
-  port: 22155
-  reality-opts:
-    public-key: DWplnF7h0HInlj88rSKUTwBti6hH_yFhxEtX3TKZn08
-    short-id: 9ec128
-  server: facelessvoid.fonixapp.org
-  servername: steampowered.com
-  skip-cert-verify: false
-  tls: true
+- cipher: aes-256-cfb
+  delay: 637
+  name: '11|德国 - Frankfurt am Main - Amazo... #2'
+  password: amazonskr05
+  port: 443
+  server: 3.65.219.59
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 769
+  name: '11|德国 - Frankfurt am Main - Amazo... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.184.12.56
+  type: ss
+- cipher: aes-256-cfb
+  delay: 573
+  name: '11|德国 - Frankfurt am Main - Amazo... #4'
+  password: amazonskr05
+  port: 443
+  server: 3.72.36.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 476
+  name: '11|德国 - Frankfurt am Main - Amazo... #5'
+  password: amazonskr05
+  port: 443
+  server: 63.177.227.124
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1477
+  name: '11|德国 - Frankfurt am Main - Amazo... #6'
+  password: amazonskr05
+  port: 443
+  server: 63.178.2.18
+  type: ss
+  udp: true
+- delay: 779
+  http-opts:
+    headers:
+      Host:
+      - varzesh3.ir
+    method: GET
+    path:
+    - /
+  name: 11|德国 - Frankfurt Am Main - Hetzn...
+  network: http
+  port: 33801
+  server: m32a.vip784.com
+  tls: false
   type: vless
   udp: true
-  uuid: 1d83ca4e-9708-4338-b177-403aa258488b
+  uuid: e148ba9b-7f4b-40d8-adc4-e1a2b8d2c0c1
+- auth: fc9a2bb4-1327-4dc7-a477-4b21f2378586
+  delay: 2955
+  name: 11|德国 - 莱比锡 - Cloudflare, Inc. - ...
+  obfs: salamander
+  obfs-password: 9b905566-a177-4b98-8fae-e6777a4f9b9a
+  password: fc9a2bb4-1327-4dc7-a477-4b21f2378586
+  port: 20434
+  server: de3.bot-hosting.net
+  skip-cert-verify: true
+  sni: example.com
+  type: hysteria2
+  udp: true

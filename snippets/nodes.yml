@@ -1,110 +1,1123 @@
 proxies:
-- cipher: aes-256-gcm
+- alterId: 64
+  cipher: auto
   country: 🇨🇳CN
-  delay: 437
+  delay: 130
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 佛山市 - China Mobile - 1
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 441
+  name: 11|中国 - 台湾 - Chunghwa Telecom Co....
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 453
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 59.125.62.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 354
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #2'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 61.216.165.234
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 351
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #3'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 59.125.62.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 353
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #4'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1024
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #5'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 59.125.75.117
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 259
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #6'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 59.125.75.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 315
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #7'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.72.214.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 311
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #8'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 59.125.75.111
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1151
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #9'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.72.214.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 363
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #10'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 211.75.210.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 269
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #11'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.72.214.20
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 276
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #12'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 16a89ef:154955
+    mode: tls
+  port: 2377
+  server: 118.163.200.40
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 462
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #13'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 317
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #14'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.72.214.21
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 509
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #15'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 552
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #16'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 125.227.86.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 2558
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #17'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 125.227.86.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1361
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #18'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 61.216.165.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 561
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #19'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 125.227.86.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 724
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #20'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.72.214.64
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 593
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #21'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 211.75.210.24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 510
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #22'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 125.227.86.44
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 506
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #23'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1552
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #24'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 210.61.187.240
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 510
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #25'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 60.249.39.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 212
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #26'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 118.163.200.39
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 517
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #27'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 211.75.210.20
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 550
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #28'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 210.61.187.237
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1479
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #29'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 211.75.210.21
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 766
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #30'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.39.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 555
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #31'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.39.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 358
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #32'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.35.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 519
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #33'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)4fa101a:48723
+    mode: tls
+  port: 2377
+  server: 60.249.35.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 196
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #34'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 60.249.14.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳 TW
+  delay: 324
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #35'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e221b75:110505
+    mode: tls
+  port: 2377
+  server: 60.249.35.3
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 381
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #36'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 211.75.210.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 342
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #37'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 210.61.187.236
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1389
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #38'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 118.163.200.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 613
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #39'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 60.249.39.203
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 2408
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #40'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 210.61.187.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 442
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #41'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 61.216.165.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 357
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #42'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)9d3f6ec:160648
+    mode: tls
+  port: 2377
+  server: 59.125.62.188
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1258
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #43'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 210.61.187.238
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 1023
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #44'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 61.216.165.30
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 474
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #45'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 61.216.165.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 365
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #46'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 59.125.62.190
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼 TW
+  delay: 452
+  name: '11|中国 - 台湾 - Chunghwa Telecom Co.... #47'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 59.125.62.189
+  type: ss
+- cipher: aes-256-gcm
+  delay: 267
   name: 11|中国 - 广州市 - CHINANET Guangdong ...
   password: '123'
   port: 6100
   server: 14.18.106.88
   type: ss
 - cipher: chacha20-ietf
-  country: 🇭🇰HK
-  delay: 225
-  name: 11|中国 - 香港 - Dalian Yichuan Indus...
+  delay: 577
+  name: 11,13|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.182.79
+  server: 103.149.183.191
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 802
-  h2-opts: {}
-  http-opts: {}
-  name: 11|乌克兰 - Kyiv - Green Floid LLC -...
-  network: tcp
-  port: 45229
-  server: 216.227.168.157
-  skip-cert-verify: true
-  type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇿CZ
-  delay: 1009
-  name: 11|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
-  password: tunnel-fbrof
-  port: 8444
-  server: tr-1.stunnel.cc
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  delay: 131
+  name: '11|中国 - 香港 - Dalian Yichuan Indus... #1'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 1336
-  name: 11|巴西 - 圣保罗 - WorkTitans B.V. - 1
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
+  delay: 576
+  name: 11|伊拉克 - 巴格达 - TIGRIS - 1
+  password: yprgZbB7xDL4PSvE4wJU4m
+  port: 53672
+  server: 81.90.29.126
   type: ss
-- country: 🇺🇸US
-  delay: 1048
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.180.120.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 2719
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.180.120.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- cipher: rc4-md5
+  delay: 589
+  name: 11|加拿大 - 多伦多 - DigitalOcean, LLC ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
   udp: true
 - cipher: aes-256-cfb
-  country: 🇷🇺RU
-  delay: 763
+  delay: 424
+  name: 11|德国 - Frankfurt am Main - Amazo...
+  password: amazonskr05
+  port: 443
+  server: 54.93.101.215
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1234
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: amazonskr05
+  port: 443
+  server: 54.93.211.165
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 637
+  name: '11|德国 - Frankfurt am Main - Amazo... #2'
+  password: amazonskr05
+  port: 443
+  server: 3.65.219.59
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 769
+  name: '11|德国 - Frankfurt am Main - Amazo... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.184.12.56
+  type: ss
+- cipher: aes-256-cfb
+  delay: 573
+  name: '11|德国 - Frankfurt am Main - Amazo... #4'
+  password: amazonskr05
+  port: 443
+  server: 3.72.36.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 476
+  name: '11|德国 - Frankfurt am Main - Amazo... #5'
+  password: amazonskr05
+  port: 443
+  server: 63.177.227.124
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1477
+  name: '11|德国 - Frankfurt am Main - Amazo... #6'
+  password: amazonskr05
+  port: 443
+  server: 63.178.2.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1407
   name: 11|摩尔多瓦 - 基希讷乌 - ''IT FRUIT'' S.R...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬 SG
+  delay: 1461
+  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 18.141.181.229
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸 US
+  delay: 506
+  name: 11|日本 - 东京 - Akamai Technologies,...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 172.237.11.141
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇺 AU
+  delay: 181
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 43.207.207.206
+  type: ss
 - country: 🇫🇷FR
-  delay: 732
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.188.0.98
+  delay: 1045
+  name: 11|法国 - 巴黎 - Amazon Technologies ...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.72.124
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: 🇫🇷FR
+  delay: 705
+  name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.72.124
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 520
+  name: 11|法国 - 巴黎 - Online S.A.S. - 1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.119.77
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 666
+  name: 11|波兰 - 华沙 - WorkTitans B.V. - 1
+  password: 6Ts2ZDTQAf3hkFoB8AFufDwsGrlF4e2t
+  port: 443
+  server: 45.15.126.19
+  type: ss
+- cipher: aes-256-cfb
+  delay: 627
+  name: 11|爱尔兰 - 都柏林 - Amazon Technologie...
+  password: amazonskr05
+  port: 443
+  server: 34.244.124.7
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 631
+  name: '11|爱尔兰 - 都柏林 - Amazon Technologie... #1'
+  password: amazonskr05
+  port: 443
+  server: 34.250.119.200
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 603
+  name: '11|爱尔兰 - 都柏林 - Amazon Technologie... #2'
+  password: amazonskr05
+  port: 443
+  server: 34.252.192.234
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 627
+  name: '11|爱尔兰 - 都柏林 - Amazon Technologie... #3'
+  password: amazonskr05
+  port: 443
+  server: 3.252.208.74
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 632
+  name: 11|爱尔兰 - 都柏林 - Amazon.com, Inc. -...
+  password: amazonskr05
+  port: 443
+  server: 54.194.181.111
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 595
+  name: '11|爱尔兰 - 都柏林 - Amazon.com, Inc. -... #1'
+  password: amazonskr05
+  port: 443
+  server: 52.214.70.136
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 595
+  name: '11|爱尔兰 - 都柏林 - Amazon.com, Inc. -... #2'
+  password: amazonskr05
+  port: 443
+  server: 54.74.5.14
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1782
+  name: '11|爱尔兰 - 都柏林 - Amazon.com, Inc. -... #3'
+  password: amazonskr05
+  port: 443
+  server: 54.247.223.103
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇮🇪IE
+  delay: 921
+  name: '11|爱尔兰 - 都柏林 - Amazon.com, Inc. -... #4'
+  password: amazonskr05
+  port: 443
+  server: 52.214.157.164
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇮🇪IE
+  delay: 631
+  name: '11|爱尔兰 - 都柏林 - Amazon.com, Inc. -... #5'
+  password: amazonskr05
+  port: 443
+  server: 52.208.43.67
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇮🇪IE
+  delay: 486
+  name: 11|爱尔兰 - 都柏林 - BellSouth.net Inc....
+  password: amazonskr05
+  port: 443
+  server: 108.129.129.112
+  type: ss
+- cipher: aes-256-cfb
+  delay: 630
+  name: '11|爱尔兰 - 都柏林 - BellSouth.net Inc.... #1'
+  password: amazonskr05
+  port: 443
+  server: 108.129.194.126
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 629
+  name: '11|爱尔兰 - 都柏林 - BellSouth.net Inc.... #2'
+  password: amazonskr05
+  port: 443
+  server: 108.129.85.82
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 628
+  name: '11|爱尔兰 - 都柏林 - BellSouth.net Inc.... #3'
+  password: amazonskr05
+  port: 443
+  server: 108.129.75.126
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 524
+  name: 11|美国 - Ashburn - Amazon.com, Inc...
+  password: amazonskr05
+  port: 443
+  server: 35.175.177.15
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 623
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #1'
+  password: amazonskr05
+  port: 443
+  server: 54.89.168.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 590
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #2'
+  password: amazonskr05
+  port: 443
+  server: 54.152.188.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 522
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #3'
+  password: amazonskr05
+  port: 443
+  server: 54.166.228.133
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1394
+  name: '11|美国 - Ashburn - Amazon.com, Inc... #4'
+  password: amazonskr05
+  port: 443
+  server: 54.226.15.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 647
+  name: 11|美国 - Ashburn - BellSouth.net I...
+  password: amazonskr05
+  port: 443
+  server: 98.80.123.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 541
+  name: 11|美国 - Dublin - Amazon.com, Inc....
+  password: amazonskr05
+  port: 443
+  server: 3.149.250.176
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 525
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #1'
+  password: amazonskr05
+  port: 443
+  server: 13.59.143.28
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 554
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #2'
+  password: amazonskr05
+  port: 443
+  server: 3.144.27.33
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 539
+  name: '11|美国 - Dublin - Amazon.com, Inc.... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.226.164.197
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 619
+  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 709
+  country: 🇨🇳CN
+  delay: 786
   h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 紐華克 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 154.38.116.8
-  servername: hk.nbee.pp.ua
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|美国 - 堪薩斯城 - Nocix, LLC - 34
+  network: http
+  port: 2011
+  server: 16fa98c4-73b9-ff8a-097f-7171894609db.connection.rest
+  servername: tms.dingtalk.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      HOST: hk.nbee.pp.ua
-    path: /aa
+  uuid: f0eed2b8-afac-4ebf-8035-24aaddbe8f20
+- delay: 1813
+  name: 11,15|US_speednode_0014
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- delay: 1784
+  name: '11|美国 - 奥勒姆 - Ace Data Centers II... #1'
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.245
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+- cipher: aes-256-gcm
+  delay: 453
+  name: 11|美国 - 波特蘭 - Amazon.com, Inc. - ...
+  password: dada0801
+  port: 80
+  server: 44.251.113.170
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 435
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #1'
+  password: dada0801
+  port: 80
+  server: 52.33.246.24
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1178
+  name: '11|美国 - 波特蘭 - Amazon.com, Inc. - ... #2'
+  password: dada0801
+  port: 80
+  server: 54.201.37.162
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 408
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 414
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 13
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.27
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 434
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 14
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 1775
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 420
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 16
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.101
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 520
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 17
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇹 LT
+  delay: 526
+  name: 11|美国 - 洛杉矶 - Melbikomas UAB - 18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 95.174.71.98
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 926
-  name: 11|美国 - 聖荷西 -  - 1
+  delay: 948
+  name: 11|美国 - 聖荷西 -  - 10
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 23.247.137.73
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 696
+  name: 11|美国 - 聖荷西 -  - 11
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -115,8 +1128,43 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 1439
+  delay: 1746
   name: 11|美国 - 聖荷西 -  - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 23.247.137.68
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇭 BH
+  delay: 970
+  name: 11|美国 - 聖荷西 -  - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.167
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇭 BH
+  delay: 948
+  name: 11|美国 - 聖荷西 -  - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1231
+  name: 11|美国 - 聖荷西 -  - 5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -127,8 +1175,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 474
-  name: 11|美国 - 聖荷西 -  - 3
+  delay: 950
+  name: 11|美国 - 聖荷西 -  - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1738
+  name: 11|美国 - 聖荷西 -  - 7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -139,8 +1198,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇧🇭 BH
-  delay: 469
-  name: 11|美国 - 聖荷西 -  - 4
+  delay: 1743
+  name: 11|美国 - 聖荷西 -  - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)26af988:57468
+    mode: tls
+  port: 2377
+  server: 23.247.137.74
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1745
+  name: 11|美国 - 聖荷西 -  - 9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -149,238 +1219,183 @@ proxies:
   port: 2377
   server: 23.247.137.76
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 507
-  name: 11|荷兰 - 哈勒姆 - Online S.A.S. - 1
-  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
+- delay: 2011
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    max-early-data: 2560
+    path: /tro8sFW1S91B6sZrM1
+- alterId: 2
+  cipher: auto
+  delay: 1349
+  name: 11|美国 - 阿什本 - HostPapa - 35
+  network: ws
+  port: 30804
+  server: v4.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- cipher: aes-256-cfb
+  delay: 633
+  name: 11|英国 - 伦敦 - Amazon Technologies ...
+  password: amazonskr05
   port: 443
-  server: 51.158.204.165
+  server: 18.171.164.50
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  country: 🇵🇹PT
-  delay: 1236
-  name: 11|葡萄牙 - 里斯本 - BrainStorm Network...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  delay: 1484
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #1'
+  password: amazonskr05
+  port: 443
+  server: 18.170.216.150
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  delay: 661
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #2'
+  password: amazonskr05
+  port: 443
+  server: 18.132.203.113
   type: ss
 - cipher: aes-256-cfb
+  delay: 679
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #3'
+  password: amazonskr05
+  port: 443
+  server: 18.175.147.212
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 672
+  name: '11|英国 - 伦敦 - Amazon Technologies ... #4'
+  password: amazonskr05
+  port: 443
+  server: 35.178.57.175
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  delay: 785
+  name: 11|英国 - 考文垂 - Nexeon Technologies...
+  port: 30836
+  server: v36.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  delay: 2190
+  name: 11|荷兰 - Meppel - PQ HOSTING PLUS ...
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 666
+  delay: 2596
   name: 11|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.139
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1799
-  name: 11|越南 - Hải Dương - FASTLY - 10
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.224
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 866
-  name: 11|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.105
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 515
-  name: 11|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.194
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 492
-  name: 11|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 533
-  name: 11|越南 - Hải Dương - FASTLY - 14
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.67
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 519
-  name: 11|越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.237
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1274
-  name: 11|越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.148
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 311
-  name: 11|越南 - Hải Dương - FASTLY - 17
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.243
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 289
-  name: 11|越南 - Hải Dương - FASTLY - 18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.196
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 292
-  name: 11|越南 - Hải Dương - FASTLY - 19
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.184
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 673
-  name: 11|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.78
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 468
-  name: 11|越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.204
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 463
-  name: 11|越南 - Hải Dương - FASTLY - 21
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.49
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 528
-  name: 11,13|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.225
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 482
-  name: 11|越南 - Hải Dương - FASTLY - 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.16
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 267
-  name: 11|越南 - Hải Dương - FASTLY - 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 1154
-  name: 11|越南 - Hải Dương - FASTLY - 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.193
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 975
-  name: 11|越南 - Hải Dương - FASTLY - 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.198
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2120
-  name: 11|越南 - Hải Dương - FASTLY - 3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.154
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 673
-  name: 11|越南 - Hải Dương - FASTLY - 4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.43
+  server: 103.186.154.158
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
   delay: 661
+  name: 11|越南 - Hải Dương - FASTLY - 2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.232
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  delay: 1455
+  name: 11|越南 - Hải Dương - FASTLY - 3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.65
+  type: ss
+- cipher: aes-256-cfb
+  delay: 825
+  name: 11|越南 - Hải Dương - FASTLY - 4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.34
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1379
   name: 11|越南 - Hải Dương - FASTLY - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.249
+  server: 103.186.154.25
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  delay: 699
+  delay: 1461
   name: 11|越南 - Hải Dương - FASTLY - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.53
+  server: 103.186.154.206
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 848
-  name: 11|越南 - Hải Dương - FASTLY - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
+- cipher: aes-256-gcm
+  delay: 316
+  name: 11|韩国 - 首尔特别市 - Amazon Technologi...
+  password: dada0801
+  port: 80
+  server: 13.209.14.105
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 2671
-  name: 11|越南 - Hải Dương - FASTLY - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.237
+  udp: true
+- cipher: aes-256-gcm
+  delay: 316
+  name: '11|韩国 - 首尔特别市 - Amazon Technologi... #1'
+  password: dada0801
+  port: 80
+  server: 54.180.202.139
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  delay: 609
-  name: 11|越南 - Hải Dương - FASTLY - 9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.43
+  udp: true
+- cipher: aes-256-gcm
+  delay: 548
+  name: 11|韩国 - 首尔特别市 - Amazon.com, Inc. ...
+  password: dada0801
+  port: 80
+  server: 43.201.70.24
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  delay: 2807
-  name: 11|韩国 - 首尔特别市 - Kaopu Cloud HK Li...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
+  udp: true
+- cipher: aes-256-gcm
+  delay: 549
+  name: '11|韩国 - 首尔特别市 - Amazon.com, Inc. ... #1'
+  password: dada0801
+  port: 80
+  server: 43.203.199.246
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -420,7 +1435,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 443
-  server: 203.198.122.135
+  server: 58.152.110.206
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -440,11 +1455,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13|🇹🇼 台湾|@ripaojiedian
+  port: 11223
+  server: 8.138.145.90
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4492
-  server: 160.16.85.138
+  port: 5156
+  server: 153.121.65.212
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -452,32 +1476,23 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 1334
-  server: 160.16.240.91
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 3093
-  server: 160.16.150.76
+  port: 3169
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  port: 15003
-  server: 178.157.57.166
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 5553
-  server: 160.16.240.91
+  port: 2760
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -485,14 +1500,14 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 127
-  server: 160.16.116.227
+  server: 153.121.73.102
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
+  port: 3127
   server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
@@ -500,8 +1515,8 @@ proxies:
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 4210
-  server: 160.16.70.180
+  port: 2890
+  server: 52.196.180.54
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -509,25 +1524,49 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 4211
-  server: 160.16.70.180
+  server: 160.16.117.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 116.49.237.130
+  port: 2773
+  server: 18.162.123.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 14|日本4|@ripaojiedian
+  name: 14|台湾|@ripaojiedian
   network: tcp
-  port: '15003'
-  server: 178.157.57.166
+  port: '11223'
+  server: 8.138.145.90
   servername: ''
   tls: false
   type: vmess
-  uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
+- name: 15|CH_speednode_0001
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|IL_speednode_0006
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 45.144.172.243
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: 15|US_speednode_0013
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
