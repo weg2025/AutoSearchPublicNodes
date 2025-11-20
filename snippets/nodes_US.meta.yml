@@ -15,14 +15,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #3'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 443
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
 - name: '10|All--@IRAN_V2RAY1🇺🇸 #4'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
@@ -153,14 +145,13 @@ proxies:
   type: vmess
   uuid: f0eed2b8-afac-4ebf-8035-24aaddbe8f20
 - delay: 1813
-  name: 11,15|US_speednode_0014
+  name: 11|美国 - 奥勒姆 - Ace Data Centers II...
   password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
   port: 443
   server: 96.126.190.132
   skip-cert-verify: true
   sni: www.bilibili.com
   type: trojan
-  udp: true
 - delay: 1784
   name: '11|美国 - 奥勒姆 - Ace Data Centers II... #1'
   password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
@@ -443,15 +434,15 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 2890
-  server: 52.196.180.54
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 4211
-  server: 160.16.117.182
+  port: 2053
+  server: 160.16.130.66
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -463,11 +454,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0013
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇺🇸 美国4|@ripaojiedian
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 23344
+  server: 103.219.103.217
+  type: ss
+- name: 15|US_speednode_0029
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: e1f6bc5b-cbc2-49bb-8f26-1bf8bb85d18a
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- name: 15|US_speednode_0030
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e1f6bc5b-cbc2-49bb-8f26-1bf8bb85d18a
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
