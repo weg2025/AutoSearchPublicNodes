@@ -1,57 +1,45 @@
 proxies:
 - country: 🇫🇷FR
-  delay: 1045
-  name: 11|法国 - 巴黎 - Amazon Technologies ...
+  delay: 1355
+  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.36.72.124
+  server: 51.44.100.34
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 705
-  name: '11|法国 - 巴黎 - Amazon Technologies ... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.36.72.124
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- auth: 3ec84788-0386-490b-9527-2a9ce0e07776
-  delay: 2380
-  name: 11|法国 - 巴黎 - Geniusweer SAS - 5
-  obfs: salamander
-  obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8
-  password: 3ec84788-0386-490b-9527-2a9ce0e07776
-  port: 28132
-  server: node.waifly.com
-  skip-cert-verify: true
-  sni: example.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  delay: 520
-  name: 11|法国 - 巴黎 - Online S.A.S. - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.119.77
-  type: ss
   udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  delay: 1568
-  down: '100'
-  name: 11|法国 - 巴黎 - Online S.A.S. - 6
+  auth_str: dongtaiwang.com
+  delay: 1121
+  down: 100
+  name: 11|法国 - 巴黎 - Online S.A.S. - 2
   port: 15010
+  protocol: udp
   server: 195.154.200.40
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  up: '100'
-- name: 15|FR_speednode_0011
+  udp: true
+  up: 100
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 2504
+  down: 55
+  name: 11|法国 - 巴黎 - Online S.A.S. - 3
+  port: 35511
+  protocol: udp
+  server: 62.210.10.186
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11
+- name: 15|FR_speednode_0017
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
   port: 443
