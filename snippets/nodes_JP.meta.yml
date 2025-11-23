@@ -28,8 +28,8 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 160.16.233.76
+  port: 5156
+  server: 153.121.51.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -37,7 +37,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 3169
-  server: 160.16.124.55
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -45,13 +45,21 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 1331
-  server: 160.16.136.130
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: cb794089-728d-4171-9b69-846abb413309
-  port: 39693
-  server: 118.253.180.20
-  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|JP_speednode_0036
+  port: 443
+  reality-opts:
+    public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
+    short-id: 73d3fec4
+  server: 188.253.21.106
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9936ae5c-91cd-4c8a-80e9-5118a209a7e4

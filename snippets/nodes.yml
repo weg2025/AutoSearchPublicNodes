@@ -503,7 +503,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 443
-  server: 58.152.18.98
+  server: 58.152.110.92
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -523,17 +523,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾|@ripaojiedian
-  password: cb794089-728d-4171-9b69-846abb413309
-  port: 39695
-  server: 118.253.180.20
+- cipher: aes-256-gcm
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 188.116.22.96
   type: ss
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 160.16.233.76
+  port: 5156
+  server: 153.121.51.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -541,7 +541,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 3169
-  server: 160.16.124.55
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -549,29 +549,29 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 1331
-  server: 160.16.136.130
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: cb794089-728d-4171-9b69-846abb413309
-  port: 39693
-  server: 118.253.180.20
+- cipher: aes-256-gcm
+  name: 13|🇰🇷 韩国|@ripaojiedian
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
   type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 2760
-  server: 160.16.223.205
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 5552
-  server: 160.16.136.130
+  port: 127
+  server: 18.177.138.138
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -587,7 +587,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 2890
-  server: 160.16.196.59
+  server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -595,7 +595,7 @@ proxies:
   network: tcp
   password: dd2f25b4c70689de8bc0f7fa9d6591cb
   port: 702
-  server: 160.16.124.55
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -616,7 +616,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|BE_speednode_0001
+- name: 15|BE_speednode_0002
   network: ws
   password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
   port: 443
@@ -629,11 +629,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: 15|CH_speednode_0008
+- name: 15|BE_speednode_0003
   network: ws
-  password: 1a758d17-149a-47f3-9336-d1cc33232cc9
+  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
   port: 443
-  server: 91.103.253.193
+  server: 34.22.190.30
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -641,29 +641,8 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/91.103.253.193=443
-- name: 15|CZ_speednode_0011
-  network: ws
-  password: f583143c-2cbe-47f5-804d-27efa55442a1
-  port: 443
-  server: 81.91.214.162
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
-- name: 15|DE_speednode_0012
-  password: Fn9TZuYXiFYhsyp65T
-  port: 443
-  server: os-2.rise-fuji.com
-  skip-cert-verify: true
-  sni: os-2.rise-fuji.com
-  type: trojan
-  udp: true
-- name: 15|DK_speednode_0013
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
+- name: 15|DK_speednode_0009
   network: ws
   password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
   port: 443
@@ -676,7 +655,20 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: 15|EE_speednode_0014
+- name: 15|DK_speednode_0010
+  network: ws
+  password: e9249478-ea4e-432f-a918-e84c1ce143c6
+  port: 443
+  server: 89.28.236.243
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
+- name: 15|EE_speednode_0011
   network: ws
   password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
   port: 443
@@ -689,6 +681,22 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+- name: 15|FR_speednode_0013
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.169.16
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 15|FR_speednode_0014
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.169.16
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: 15|FR_speednode_0017
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
@@ -702,19 +710,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- name: 15|HK_speednode_0021
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 15|IT_speednode_0023
+- name: 15|FR_speednode_0018
   network: ws
-  password: 2302eb2b-9401-4176-a4da-b41d4cd55756
+  password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
   port: 8443
-  server: 185.247.184.186
+  server: 158.178.206.197
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -722,8 +722,29 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/185.247.184.186=8443
-- name: 15|NL_speednode_0097
+    path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
+- name: 15|GB_speednode_0020
+  network: ws
+  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
+  port: 443
+  server: 109.169.76.23
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
+- name: 15|HK_speednode_0024
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.241
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 15|NL_speednode_0038
   network: ws
   password: ee339912-0c35-4fac-8d85-180b65bcd49c
   port: 443
@@ -736,11 +757,24 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
-- name: 15|PL_speednode_0098
+- name: 15|NL_speednode_0039
   network: ws
-  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+- name: 15|RU_speednode_0044
+  network: ws
+  password: d78d48df-b788-4a95-9e9f-77c9b2f69822
   port: 8443
-  server: 217.30.10.31
+  server: 193.233.114.58
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -748,17 +782,4 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
-- name: 15|PT_speednode_0099
-  network: ws
-  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
-  port: 81
-  server: 45.159.251.8
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+    path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
