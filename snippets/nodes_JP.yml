@@ -1,51 +1,28 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 586
-  name: 11|日本 - 东京 - Eons Data Communicat...
-  obfs: plain
-  obfs-param: 0f2a3502.ikea.com
-  password: hrkycyiepu
-  port: 10017
-  protocol: auth_aes128_sha1
-  protocol-param: 502:DzrH8M
-  server: 36.150.27.99
-  tfo: true
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 406
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 東京都 - Shenzhen Tencent Co...
+- country: 🇯🇵JP
+  delay: 1104
+  name: 11,13,14|日本3|@ripaojiedian
   network: tcp
-  port: 6600
-  server: 43.163.203.24
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4945cf85-a9aa-433f-b845-4c06eda84e0a
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 3093
+  server: 160.16.144.208
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5156
-  server: 153.121.51.147
+  port: 2145
+  server: 153.121.67.215
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  password: 2cf6d686799e6fa95316394064f26c0a
   port: 3169
-  server: 160.16.81.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 1331
-  server: 160.16.81.84
+  server: 160.16.57.238
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
