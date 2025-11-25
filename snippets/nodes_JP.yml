@@ -1,12 +1,11 @@
 proxies:
 - country: 🇯🇵JP
   delay: 1104
-  name: 11,13,14|日本3|@ripaojiedian
-  network: tcp
+  name: 11|日本 - 横滨市 - InfoSphere - 1
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 3093
   server: 160.16.144.208
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
   udp: true
@@ -14,7 +13,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2145
-  server: 153.121.67.215
+  server: 160.16.212.152
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -22,7 +21,15 @@ proxies:
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 3169
-  server: 160.16.57.238
+  server: 160.16.131.243
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 3093
+  server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
