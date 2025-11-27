@@ -1,4 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 591
+  h2-opts: {}
+  http-opts: {}
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
+  network: tcp
+  port: 49934
+  server: 45.136.244.201
+  skip-cert-verify: true
+  type: vmess
+  uuid: 90afa47d-341a-497d-ae25-1d81258804d5
 - name: 15|RU_speednode_0030
   password: Qzy7tgpRhu
   port: 443
@@ -35,6 +47,34 @@ proxies:
   type: vless
   udp: true
   uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
+- name: 15|RU_speednode_0033
+  network: ws
+  port: 2053
+  server: 194.35.119.135
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: 15|RU_speednode_0034
+  network: ws
+  port: 2053
+  server: 194.35.119.49
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
 - alpn:
   - h2
   - http/1.1
