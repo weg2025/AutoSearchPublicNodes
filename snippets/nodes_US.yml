@@ -1,100 +1,39 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 1080
-  name: 11,13|🇺🇸 美国4|@ripaojiedian
-  password: amazonskr05
+  delay: 2759
+  name: 11|美国 - 亚特兰大 - BlueVPS OU - 1
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
-  server: 107.23.148.46
+  server: 146.19.49.251
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 435
-  disable-sni: true
-  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
+  country: 🇨🇳CN
+  delay: 1148
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 3
   network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: ''
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
   skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- delay: 2399
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tro8sFW1S91B6sZrM1
-- delay: 1612
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: ba7858bc-897f-4c8f-b5ce-9e0228c6d661
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- delay: 1975
-  name: 11|美国 - 費利蒙 - Akamai Technologies...
-  password: fg20mtCFHy
-  port: 5743
-  server: ufbji.zippydeal.xyz
-  skip-cert-verify: true
-  sni: ufbji.zippydeal.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 1958
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 費利蒙 - System In Place - 3
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2280
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 費利蒙 - System In Place - 4
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9631096d-3032-4942-9446-bdf12665682b
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
+  delay: 2052
+  name: 11|美国 - 紐約 - BrainStorm Network, ...
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 4054
-  server: 160.16.70.180
+  server: 153.121.76.9
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -102,15 +41,15 @@ proxies:
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 2890
-  server: 160.16.117.182
+  server: 153.121.76.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 18.183.209.234
+  port: 2173
+  server: 57.180.57.41
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
