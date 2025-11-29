@@ -1,5 +1,6 @@
 proxies:
-- name: 15|RU_speednode_0030
+- delay: 822
+  name: 11,15|RU_speednode_0030
   password: Qzy7tgpRhu
   port: 443
   server: 37.18.14.33
@@ -7,6 +8,43 @@ proxies:
   sni: m.vk.com
   type: trojan
   udp: true
+- auth: b9b23931-fcce-408e-909d-0bfe16569215
+  delay: 1349
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 4
+  obfs: salamander
+  obfs-password: MTAzM2E2MWQzNjhlMDhkZA==
+  password: b9b23931-fcce-408e-909d-0bfe16569215
+  port: 31200
+  ports: 31200-31450
+  server: xbly.jgpyjc.top
+  skip-cert-verify: false
+  sni: xbly.jgpyjc.top
+  type: hysteria2
+  udp: true
+- delay: 2749
+  name: 11|俄罗斯 - 莫斯科 - M247 Europe SRL - ...
+  password: '!!str 1'
+  port: 8081
+  server: 146.70.52.62
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjCujeRZTuYUcczWd19Em4WXoXw609MC0WdYefYZbCn32A==
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 922
+  name: 11|俄罗斯 - 莫斯科 - VDSINA - 2
+  password: 0jc6Rocp1Zqmqf3BUpXmyCCR8AAYmU-a
+  port: 1234
+  server: 195.2.70.128
+  type: ss
+- delay: 1330
+  name: 11|白俄罗斯 - 明斯克市 - Support Chain LL...
+  password: '!!str 1'
+  port: 8081
+  server: 178.172.217.19
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjAkWVdATzcBeOXvE4uFRY04oXw609MC0WdYefYZbCn32A==
 - name: 15|RU_speednode_0031
   network: ws
   port: 2053

@@ -1,20 +1,4 @@
 proxies:
-- name: 9|🇺🇸b@oneclickvpnkeys
-  password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
-  port: 443
-  server: 208.87.242.77
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸c@oneclickvpnkeys
-  password: 312d3555-d7a3-4674-869a-0e5b7ee03a35
-  port: 443
-  server: 208.87.242.97
-  skip-cert-verify: true
-  sni: www.apple.com
-  tls: false
-  type: hysteria2
 - name: 10|All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -55,41 +39,107 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2759
-  name: 11|美国 - 亚特兰大 - BlueVPS OU - 1
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- alterId: 2
+- delay: 1946
+  name: 11|美国 - 圣克拉拉 - GTHost - 11
+  password: '!!str 1'
+  port: 8081
+  server: 169.197.142.119
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjCR4luPeU0-BScJDrLadMzbxsnp5o63PElOVpFduiCmYA==
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1148
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 3
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
+  delay: 1251
+  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- delay: 972
+  name: 11|美国 - 洛杉矶 - DMIT Cloud Services...
+  password: RFxCa3A4zwRXcICDlYxpZR8qSS3lEN93CSYFyA3TaDIyS2aXD2leS6we5yZEOn03qcNYD
+  port: 28331
+  server: fondly.appagent.net
+  sni: fondly.appagent.net
+  type: trojan
+- delay: 1410
+  name: 11|美国 - 洛杉矶 - Hostdime Com. CO - ...
+  password: '!!str 1'
+  port: 8081
+  server: 138.121.203.146
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjA7PF_neRg0JAo0MqjEIX9noXw609MC0WdYefYZbCn32A==
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2052
+  country: 🇬🇧GB
+  delay: 1550
+  name: 11|美国 - 洛杉矶 - M247 Europe SRL - 3
+  password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
+  port: 443
+  server: 185.193.48.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 874
   name: 11|美国 - 紐約 - BrainStorm Network, ...
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
   type: ss
+  udp: true
+- delay: 2267
+  name: 11|美国 - 紐約 - Enzu Inc - 7
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.44.194
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjBxDHB51pe5CKfbo_2ZGNgOoXw609MC0WdYefYZbCn32A==
+- delay: 2650
+  name: 11|美国 - 迈阿密 - GTHost - 9
+  password: '!!str 1'
+  port: 8081
+  server: 162.251.62.66
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjCywyT0h0im1O-4zBJOrnz4xsnp5o63PElOVpFduiCmYA==
+- delay: 1374
+  name: 11|美国 - 迈阿密 - M247 Europe SRL - 8
+  password: '!!str 1'
+  port: 8081
+  server: 146.70.228.82
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjBInFaP-LcdhuV85B3GNeSAxsnp5o63PElOVpFduiCmYA==
+- delay: 2788
+  name: 11|美国 - 達拉斯 - GTHost - 10
+  password: '!!str 1'
+  port: 8081
+  server: 38.68.134.126
+  tls: false
+  type: http
+  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjDBZL3Ub_XKqMUz8ZfpLmLdxsnp5o63PElOVpFduiCmYA==
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1867
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 阿什本 - HostPapa - 5
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
-  port: 4054
-  server: 153.121.76.9
+  port: 2890
+  server: 160.16.204.136
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -97,7 +147,7 @@ proxies:
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 2890
-  server: 153.121.76.9
+  server: 160.16.89.176
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -105,7 +155,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2173
-  server: 57.180.57.41
+  server: 43.198.99.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

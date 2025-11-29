@@ -1,39 +1,57 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2759
-  name: 11|美国 - 亚特兰大 - BlueVPS OU - 1
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1148
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 水牛城 - HostPapa - 3
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
+  delay: 1251
+  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- delay: 972
+  name: 11|美国 - 洛杉矶 - DMIT Cloud Services...
+  password: RFxCa3A4zwRXcICDlYxpZR8qSS3lEN93CSYFyA3TaDIyS2aXD2leS6we5yZEOn03qcNYD
+  port: 28331
+  server: fondly.appagent.net
+  sni: fondly.appagent.net
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2052
+  country: 🇬🇧GB
+  delay: 1550
+  name: 11|美国 - 洛杉矶 - M247 Europe SRL - 3
+  password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
+  port: 443
+  server: 185.193.48.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 874
   name: 11|美国 - 紐約 - BrainStorm Network, ...
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
   type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1867
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 阿什本 - HostPapa - 5
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
-  port: 4054
-  server: 153.121.76.9
+  port: 2890
+  server: 160.16.204.136
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -41,7 +59,7 @@ proxies:
   network: tcp
   password: 2cf6d686799e6fa95316394064f26c0a
   port: 2890
-  server: 153.121.76.9
+  server: 160.16.89.176
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -49,7 +67,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2173
-  server: 57.180.57.41
+  server: 43.198.99.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
