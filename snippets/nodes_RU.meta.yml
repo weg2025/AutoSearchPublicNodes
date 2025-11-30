@@ -1,51 +1,5 @@
 proxies:
-- delay: 822
-  name: 11,15|RU_speednode_0030
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- auth: b9b23931-fcce-408e-909d-0bfe16569215
-  delay: 1349
-  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 4
-  obfs: salamander
-  obfs-password: MTAzM2E2MWQzNjhlMDhkZA==
-  password: b9b23931-fcce-408e-909d-0bfe16569215
-  port: 31200
-  ports: 31200-31450
-  server: xbly.jgpyjc.top
-  skip-cert-verify: false
-  sni: xbly.jgpyjc.top
-  type: hysteria2
-  udp: true
-- delay: 2749
-  name: 11|俄罗斯 - 莫斯科 - M247 Europe SRL - ...
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.52.62
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjCujeRZTuYUcczWd19Em4WXoXw609MC0WdYefYZbCn32A==
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 922
-  name: 11|俄罗斯 - 莫斯科 - VDSINA - 2
-  password: 0jc6Rocp1Zqmqf3BUpXmyCCR8AAYmU-a
-  port: 1234
-  server: 195.2.70.128
-  type: ss
-- delay: 1330
-  name: 11|白俄罗斯 - 明斯克市 - Support Chain LL...
-  password: '!!str 1'
-  port: 8081
-  server: 178.172.217.19
-  tls: false
-  type: http
-  username: afY491o7YfK00koaXQD9kb0j_HvKciJZGwlKQSL3GjAkWVdATzcBeOXvE4uFRY04oXw609MC0WdYefYZbCn32A==
-- name: 15|RU_speednode_0031
+- name: 15|RU_speednode_0012
   network: ws
   port: 2053
   server: 80.90.187.190
@@ -61,61 +15,15 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|RU_speednode_0032
+  name: 15|RU_speednode_0013
   port: 443
   reality-opts:
-    public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
-    short-id: 83e9f5b24040c5f7
-  server: at.monkeyisland.xyz
-  servername: at.monkeyisland.xyz
+    public-key: xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34
+    short-id: ab1cd2
+  server: russia.whitenet.online
+  servername: vk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
-- name: 15|RU_speednode_0033
-  network: ws
-  port: 2053
-  server: 194.35.119.135
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: 15|RU_speednode_0034
-  network: ws
-  port: 2053
-  server: 194.35.119.49
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 15|RU_speednode_0035
-  network: ws
-  port: 8443
-  server: zcreat.ethervpn.fun
-  servername: zcreat.ethervpn.fun
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a47595a8-1add-401a-8189-e6799f8d8628
-  ws-opts:
-    headers:
-      Host: zcreat.ethervpn.fun
-    path: /websocketpl?ed=2047
+  uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b
