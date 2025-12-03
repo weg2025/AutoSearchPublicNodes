@@ -1,293 +1,48 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇭🇰HK
-  delay: 1185
-  name: 11|日本 - Shibuya City - Akile LTD ...
-  password: 8bd43408-d561-4bf7-b5fb-152acaa8fe34
-  port: 10014
-  server: 154.83.92.111
-  type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1754
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon Technologies ...
-  network: tcp
-  port: 28783
-  server: 3evbn-g01.jp07-sh-vm0.entry.fr0528.art
-  servername: 3evbn-g01.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 868
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon Technologies ... #1'
-  network: tcp
-  port: 21581
-  server: s2on0-g01.jp03-j7-vm0.entry.fr0528.art
-  servername: s2on0-g01.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 697
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon Technologies ... #2'
-  network: tcp
-  port: 21584
-  server: e3ji8-g04.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c18c4112-fb51-3167-bb76-515d7a2b512d
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1152
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com - 19
-  network: tcp
-  port: 11777
-  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
-  servername: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1267
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com - 5
-  network: tcp
-  port: 11777
-  server: j4pkb-g05.jp02-e3-vm0.entry.fr0528.art
-  servername: j4pkb-g05.jp02-e3-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 923
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 1...
-  network: tcp
-  port: 28787
-  server: 5fn1x-g05.jp07-sh-vm0.entry.fr0528.art
-  servername: 5fn1x-g05.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 308
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #1'
-  network: tcp
-  port: 28786
-  server: u0x1a-g04.jp07-sh-vm0.entry.fr0528.art
-  servername: u0x1a-g04.jp07-sh-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: c18c4112-fb51-3167-bb76-515d7a2b512d
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 296
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #2'
-  network: tcp
-  port: 444
-  server: njdkv-g01.jp04-1d-vm0.entry.fr0528.art
-  servername: njdkv-g01.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1755
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #3'
-  network: tcp
-  port: 46484
-  server: blidt-g03.jp05-h6-vm0.entry.fr0528.art
-  servername: blidt-g03.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 339cf625-ef70-3be4-8965-5a1e3f384d9f
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 420
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #4'
-  network: tcp
-  port: 446
-  server: i5loy-g03.jp04-1d-vm0.entry.fr0528.art
-  servername: i5loy-g03.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5c44094f-43bb-301c-9878-37fd5e87d358
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1756
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #5'
-  network: tcp
-  port: 46486
-  server: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
-  servername: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 305
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #6'
-  network: tcp
-  port: 447
-  server: kaeog-g04.jp04-1d-vm0.entry.fr0528.art
-  servername: kaeog-g04.jp04-1d-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: c18c4112-fb51-3167-bb76-515d7a2b512d
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2303
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - Amazon.com, Inc. - 1... #7'
-  network: tcp
-  port: 28783
-  server: vznsd-g01.jp06-jz-vm0.entry.fr0528.art
-  servername: vznsd-g01.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 763e08a1-c289-3a41-aa80-e63a56bc1447
-- alterId: 1
-  cipher: auto
-  delay: 301
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 2
-  port: 28787
-  server: bupq7-g05.jp07-sh-vm0.entry.fr0528.art
-  type: vmess
-  udp: true
-  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1286
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 4
-  network: tcp
-  port: 46485
-  server: 8xp6r-g04.jp05-h6-vm0.entry.fr0528.art
-  servername: 8xp6r-g04.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: c18c4112-fb51-3167-bb76-515d7a2b512d
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 689
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 6
-  network: tcp
-  port: 21585
-  server: kk5wh-g05.jp01-nn-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 313
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 8
-  network: tcp
-  port: 46486
-  server: rdxja-g05.jp05-h6-vm0.entry.fr0528.art
-  servername: rdxja-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
-- cipher: aes-128-gcm
-  delay: 599
-  name: 11|日本 - 东京 - MoeChuang Network Li...
-  password: 4ef80768-21a6-4ba2-bec7-96e8a99d2cb4
-  port: 47671
-  server: ueuuowos2.nianjiushiwodewenti.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 376
-  name: '11|日本 - 东京 - MoeChuang Network Li... #1'
-  password: 4ef80768-21a6-4ba2-bec7-96e8a99d2cb4
-  port: 38269
-  server: ueuuowos2.nianjiushiwodewenti.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 353
-  name: '11|日本 - 东京 - MoeChuang Network Li... #2'
-  password: 4ef80768-21a6-4ba2-bec7-96e8a99d2cb4
-  port: 36955
-  server: ueuuowos2.nianjiushiwodewenti.com
-  type: ss
+- delay: 1733
+  mport: 40400-42450
+  name: 11|日本 - 东京 - BreezeHost - 1
+  obfs: salamander
+  obfs-password: MWM0NDYzYmVjY2Q2YWFlNA==
+  password: 78e8d15f-6e0e-43be-8d8e-6bcad8c9d740
+  port: 40400
+  ports: 40400-42450
+  server: sfdhgseffswqefw.jgpyjc.top
+  skip-cert-verify: false
+  sni: sfdhgseffswqefw.jgpyjc.top
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  delay: 419
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Shenzhen Tencent Com...
-  network: none
-  port: 18818
-  server: 43.165.180.102
+  delay: 1764
+  name: 11|日本 - 东京 - FDCservers.net - 2
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
   type: vmess
-  uuid: 6ce04d2f-feb4-4620-e108-489a343a8107
+  udp: true
+  uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+  ws-opts:
+    headers:
+      Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
+    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 5156
-  server: 52.195.176.26
+  server: 13.115.187.38
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 3169
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 3093
@@ -295,21 +50,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 160.16.138.24
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: e2322f9:87491
-    mode: tls
-  port: 2377
-  server: 172.237.6.53
-  type: ss
