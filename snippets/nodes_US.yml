@@ -1,109 +1,30 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 576
-  name: 11|美国 - Ashburn - Amazon.com - 5
-  password: amazonskr05
-  port: 443
-  server: 100.25.219.192
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 1607
+  country: 🇭🇰HK
+  delay: 1837
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|美国 - 圣克拉拉 - HostPapa - 3
-  network: http
-  port: 32301
-  server: 104.168.94.41
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - DMIT Cloud Services...
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2233
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
+  country: 🇬🇧GB
+  delay: 416
+  name: 11|美国 - 洛杉矶 - M247 Europe SRL - 1
+  password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
   port: 443
-  server: pupas-shirting-unsung.freesocks.work
+  server: 185.193.48.157
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 630
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Cogent Communicatio...
-  network: none
-  port: 53487
-  server: 38.84.201.21
-  skip-cert-verify: true
-  type: vmess
-  uuid: c3c1ec05-df2c-4975-9b42-e9b007564eb1
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2309
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 費利蒙 - System In Place - 4
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2442
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 費利蒙 - System In Place - 6
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2634
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 費利蒙 - System In Place - 7
-  network: ws
-  port: 37934
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c50f9480-2e1d-40db-9458-630e79636663
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 160.16.124.55
+  server: 16.163.0.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -111,18 +32,37 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
-  server: 160.16.63.16
+  server: 160.16.57.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2569
-  server: 43.206.254.28
+  port: 1221
+  server: 43.207.204.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸 美国4|@ripaojiedian
+  port: 11133
+  server: 198.181.34.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '11133'
+  server: 198.181.34.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
 - name: 15|US_speednode_0023
   network: ws
   password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
