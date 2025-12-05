@@ -1,56 +1,19 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 1009
+- country: 🇺🇸US
+  delay: 1052
   name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 54.93.127.236
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1378
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
   password: telegram-id-privatevpns
   port: 22222
-  server: 54.93.127.236
+  server: 63.180.93.12
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇩🇪DE
-  delay: 1703
-  name: '11|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.123.51.236
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1567
-  h2-opts: {}
-  http-opts: {}
-  name: 11|西班牙 - 马德里 - The Constant Compa...
-  network: none
-  port: 27092
-  server: 208.76.223.218
-  skip-cert-verify: true
-  type: vmess
-  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
-- alterId: 0
-  cipher: auto
-  country: 🇪🇸 ES
-  delay: 2209
-  h2-opts: {}
-  http-opts: {}
-  name: '11|西班牙 - 马德里 - The Constant Compa... #1'
-  network: none
-  port: 40433
-  server: 208.76.223.218
-  type: vmess
-  uuid: d8fd8955-78db-49ba-d86f-3e4729f6ac4d
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇬BG
+  delay: 1350
+  name: 11|德国 - 克里夫特尔 - Albanian Hosting ...
+  password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
+  port: 443
+  server: 87.121.162.249
+  type: ss

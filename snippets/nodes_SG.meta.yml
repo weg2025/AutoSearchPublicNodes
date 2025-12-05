@@ -2,8 +2,8 @@ proxies:
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 3145
-  server: 160.16.144.208
+  port: 127
+  server: 160.16.131.243
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -11,15 +11,30 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 1596
-  server: 160.16.150.76
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 13.113.1.5
+  port: 2673
+  server: 43.198.90.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: random
+  name: 15|SG_speednode_0006
+  network: ws
+  port: 443
+  server: 20.247.137.183
+  servername: ak.suoni.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+  ws-opts:
+    headers:
+      Host: ak.suoni.nyc.mn
+    path: /proxyip=sjc.o00o.ooo
