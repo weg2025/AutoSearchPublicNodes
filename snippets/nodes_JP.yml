@@ -1,8 +1,20 @@
 proxies:
+- alterId: 1
+  cipher: auto
+  delay: 1341
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  network: tcp
+  port: 28787
+  server: 5vpif-g05.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: b0e1254b-6ac6-3d12-bd6e-bd719eaab486
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26378
+  port: 4012
   server: jp.baidu.com
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
@@ -10,8 +22,8 @@ proxies:
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 160.16.70.180
+  port: 3169
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -19,7 +31,17 @@ proxies:
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 3093
-  server: 160.16.130.66
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: a4ebd80:164401
+    mode: tls
+  port: 2377
+  server: 172.237.6.53
+  type: ss
