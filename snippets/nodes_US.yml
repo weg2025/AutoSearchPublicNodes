@@ -1,33 +1,38 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 418
-  name: 11|美国 - 洛杉矶 - Dedicated.com - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 153.121.39.240
+- alterId: 0
+  cipher: auto
+  delay: 505
+  name: 11,13|🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.116.227
+  port: 4054
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.163.210.14
+  port: 1866
+  server: 43.198.204.4
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

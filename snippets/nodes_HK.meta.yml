@@ -22,7 +22,7 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 13,14|香港3|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 443
@@ -35,6 +35,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
