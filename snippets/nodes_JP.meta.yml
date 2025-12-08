@@ -1,25 +1,63 @@
 proxies:
+- name: '9|未命名 #3'
+  password: 16461a78-363c-457a-92f9-83b0a68edc37
+  port: 2056
+  server: zp1.eyucdn.xyz
+  skip-cert-verify: true
+  sni: zp1.eyujichang.xyz
+  tls: false
+  type: hysteria2
+- name: '9|JP #1'
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '9|JP #2'
+  password: 97f8e11a-683a-493d-839a-3340a7bc63fb
+  port: 37771
+  server: dg1.xiaohuolongjc.top
+  sni: dg1.xiaohuolongjc.top
+  tls: false
+  type: hysteria2
+- name: '9|JP #3'
+  password: qq4Wc9UakExypzw4Jd00fWqrDTY
+  port: 22712
+  server: 8.209.223.212
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|JP #4'
+  password: yD0mxkCA18WgPD1uVGd3Eu1dc
+  port: 27789
+  server: 47.245.0.72
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5156
-  server: 54.65.86.145
+  port: 4012
+  server: 52.68.48.114
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
+  password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 1331
-  server: 153.121.45.139
+  server: 13.231.156.35
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 153.121.38.213
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+  port: 3093
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -28,7 +66,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)b5a99e1:21612
+    host: ed92259:137548
     mode: tls
   port: 2377
   server: 172.237.6.53
