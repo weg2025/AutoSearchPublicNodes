@@ -87,19 +87,52 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  delay: 2312
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  network: none
+  port: 20297
+  server: 210.87.110.16
+  type: vmess
+  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+- client-fingerprint: chrome
+  delay: 393
+  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 2
+  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
+  port: 17713
+  server: 183.236.97.18
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  tfo: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 402
+  name: 11|新加坡 - 新加坡 - Melbikomas UAB - 3
+  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
+  port: 17712
+  server: 183.236.97.18
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  tfo: true
+  type: trojan
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2760
-  server: 202.181.103.246
+  port: 3145
+  server: 54.178.25.255
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 507
-  server: 160.16.233.76
+  port: 3145
+  server: 160.16.153.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -107,7 +140,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 804
-  server: 3.112.225.115
+  server: 95.40.109.5
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

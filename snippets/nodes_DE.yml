@@ -1,20 +1,48 @@
 proxies:
 - country: 🇺🇸US
-  delay: 1039
+  delay: 662
   name: 11|德国 - Frankfurt am Main - Amazo...
   password: telegram-id-directvpn
   port: 22223
-  server: 63.181.59.61
+  server: 63.180.131.159
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 1189
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.181.59.61
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 1786
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - Frankfurt Am Main - Hetzn...
+  network: tcp
+  port: 7443
+  server: a.confignor.site
   skip-cert-verify: true
+  type: vmess
+  uuid: c04d7698-20f9-4a39-bdf3-930028bd7921
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 1768
+  h2-opts: {}
+  http-opts: {}
+  name: '11|德国 - Frankfurt Am Main - Hetzn... #1'
+  network: tcp
+  port: 7443
+  server: a.confignor.site
+  skip-cert-verify: true
+  type: vmess
+  uuid: 71cd794b-5f8b-4173-b592-8e46bce063ab
+- client-fingerprint: chrome
+  delay: 749
+  name: 11|西班牙 - 马德里 - Ginernet S.L. - 1
+  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
+  port: 17730
+  server: 183.236.97.18
+  skip-cert-verify: true
+  sni: data.52daishu.life
+  tfo: true
   type: trojan
   udp: true
