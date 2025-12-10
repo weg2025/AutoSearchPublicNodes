@@ -15,6 +15,14 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+- name: 9|🇺🇸h@oneclickvpnkeys
+  password: dongtaiwang.com
+  port: 22222
+  server: 208.87.243.187
+  skip-cert-verify: true
+  sni: sberbank.ru
+  tls: false
+  type: hysteria2
 - name: 9|US
   password: peEduuHzbExjK7UQHzazXwqgA
   port: 27704
@@ -63,76 +71,38 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 1073
-  name: 11|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 917
-  name: 11|美国 - 拉斯维加斯 - FranTech Solution...
-  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
-  port: 17742
-  server: 183.236.97.18
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  tfo: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  delay: 2308
-  name: '11|美国 - 拉斯维加斯 - FranTech Solution... #1'
-  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
-  port: 17743
-  server: 183.236.97.18
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  tfo: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  delay: 924
-  name: '11|美国 - 拉斯维加斯 - FranTech Solution... #2'
-  password: 70d53b4f-def3-48fd-8906-ae489ddf1ffe
-  port: 17741
-  server: 183.236.97.18
-  skip-cert-verify: true
-  sni: data.52daishu.life
-  tfo: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  delay: 1144
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Apple Network, LLC ...
-  network: ws
-  port: 443
-  server: 45.150.52.40
-  servername: xsj011-3.facai2024.com
+  delay: 404
+  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: c31777a1-2ee6-4864-db4c-a79fcbc8188b
-  ws-opts:
-    path: /c31777a1
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 963
+  name: 11|美国 - 洛杉矶 - Namecheap, Inc. - 2
+  password: ppgtoOHdm7cszGunBWBTqQ
+  port: 14936
+  server: 209.74.86.194
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.106.144
+  port: 2890
+  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.89.176
+  port: 2890
+  server: 202.181.103.235
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -140,16 +110,10 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 54.95.80.83
+  server: 13.231.220.185
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  password: 68zES9hWLbwmu4r8
-  port: 18605
-  server: 107.182.189.99
-  type: ss
 - client-fingerprint: chrome
   name: 15|US_speednode_0036
   network: ws

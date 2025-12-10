@@ -1,11 +1,17 @@
 proxies:
-- country: 🇷🇺RU
-  delay: 1515
-  name: 11|俄罗斯 - 喀山 - LLC BAXET - 1
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 46.29.161.237
-  skip-cert-verify: true
-  sni: 46.29.161.237
-  type: trojan
-  udp: true
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 952
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 1
+  password: 7ae4e68cf77f6089
+  port: 1012
+  server: 45.140.169.26
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 606
+  name: 11|俄罗斯 - 莫斯科 - LLC Baxet - 2
+  password: f34579d0148b2581
+  port: 1281
+  server: 185.22.154.19
+  type: ss
