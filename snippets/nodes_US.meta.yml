@@ -63,19 +63,57 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  delay: 2577
-  name: 11|美国 - Ashburn - Amazon Technolo...
-  password: amazonskr05
-  port: 443
-  server: 3.93.196.82
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 372
+  name: 11|美国 - 洛杉矶 - High Family Technol...
+  network: none
+  port: 44329
+  server: 156.233.232.192
+  tls: false
+  type: vmess
+  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 295
+  name: '11|美国 - 洛杉矶 - High Family Technol... #1'
+  network: none
+  port: 44329
+  server: 156.233.232.177
+  tls: false
+  type: vmess
+  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  delay: 2054
+  name: 11|美国 - Laurelton - Interserver, ...
+  password: d2fkgzsdu5sturjs8f19
+  port: 17277
+  server: 205.209.109.194
   type: ss
-  udp: true
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  delay: 1946
+  name: 11,13|🇺🇸 美国4|@ripaojiedian
+  password: t6d26id0pjzdo3x5wtlf
+  port: 10878
+  server: 69.164.240.83
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  delay: 2051
+  name: '11|美国 - Secaucus - Interserver, I... #1'
+  password: 3px0wmx0e81145g568ga
+  port: 10880
+  server: 69.164.240.86
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.57.238
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -83,107 +121,89 @@ proxies:
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.204.136
+  server: 160.16.136.130
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 43.199.188.28
+  port: 2173
+  server: 16.163.143.132
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇺🇸 美国4|@ripaojiedian
+  name: 13|🇺🇸 美国5|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: e7b7ab7:102816
+    host: feb7fa9:154948
     mode: tls
   port: 2377
-  server: 95.174.71.98
+  server: 88.210.36.107
   type: ss
-- name: 15|US_speednode_0009
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15|US_speednode_0020
   network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: snippets.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: snippets.pusytroller.cf
-    path: /
-- name: 15|US_speednode_0010
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: snippets.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: snippets.pusytroller.cf
-    path: /
-- name: 15|US_speednode_0011
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.108
-  skip-cert-verify: false
-  sni: cdn-node-oss-61.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-61.anycdn.de
-    path: /profile/us1
-- name: 15|US_speednode_0012
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.18
-  skip-cert-verify: false
-  sni: cdn-node-oss-62.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-62.anycdn.de
-    path: /profile/us2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0013
-  port: 16823
-  reality-opts:
-    public-key: E_shv34FH2gd70EMyMqogqpq-nY7tFHFLs7hJnUjpGU
-  server: 45.41.204.122
-  servername: www.iij.ad.jp
+  port: 2087
+  server: www.speedtest.net
+  servername: dl4.hajalwi.ir.
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ccd725e6-38fb-4a37-be0b-830533c4242f
-- client-fingerprint: chrome
-  name: 15|US_speednode_0014
+  uuid: bc6f95a3-a6e5-4a7a-afa5-1f3533e3329e
+  ws-opts:
+    headers:
+      Host: dl4.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15|US_speednode_0021
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  servername: dl4.hajalwi.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1444d72-6b3c-4b4b-9525-2ea5ef08bc21
+  ws-opts:
+    headers:
+      Host: dl4.hajalwi.ir.
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+- name: 15|US_speednode_0022
   network: ws
   port: 443
-  server: 69.84.182.13
-  servername: jp1-jp1.aiopen.sbs
+  server: www.speedtest.net
+  servername: havij.mrconfigur.site
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
   ws-opts:
     headers:
-      Host: jp1-jp1.aiopen.sbs
-    path: /kbjc/jp1
+      Host: havij.mrconfigur.site
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0023
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 45.15.127.139
+  servername: github.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: edb3d24d-1a55-42f7-8752-6ae216f18cf4
