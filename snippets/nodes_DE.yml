@@ -1,9 +1,19 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 1571
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
-  password: lejSRyqa033OEPmEQsvRsl
-  port: 46114
-  server: 194.59.183.134
-  type: ss
+- country: 🇩🇪DE
+  delay: 2350
+  name: 10|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.199.26.199
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 2006
+  name: 10|德国 - 薩爾茨吉特 - WIIT AG - 3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 89.163.140.136
+  type: ss

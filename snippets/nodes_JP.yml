@@ -1,25 +1,33 @@
 proxies:
-- name: 13,14|日本|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 1926
+  name: 10|日本 - 东京 - BrainStorm Network, ...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 103.106.228.247
+  type: ss
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3760
-  server: 18.179.13.93
+  server: 52.192.101.12
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3093
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 160.16.117.182
+  server: 160.16.229.223
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 3169
+  server: 18.183.221.194
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
