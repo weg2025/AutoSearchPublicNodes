@@ -1,17 +1,25 @@
 proxies:
-- name: 8|UK
-  password: 3C8h8X6kimbOX68joVe3kTERw
-  port: 7197
-  server: 206.189.20.193
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '8|UK #1'
-  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
-  port: 10820
-  server: 158.41.110.234
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
+- cipher: aes-128-gcm
+  country: 🇬🇧GB
+  delay: 1757
+  name: 11|英国 - Stretford - M247 Europe S...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: aes-128-gcm
+  delay: 1943
+  name: '11|英国 - Stretford - M247 Europe S... #1'
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 2513
+  name: 11|英国 - 倫敦金融城 - M247 Europe SRL -...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true

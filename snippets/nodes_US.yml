@@ -1,51 +1,85 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1634
+  name: 11,13|🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- delay: 2438
+  grpc-opts:
+    grpc-service-name: GunService
+  name: 11|美国 - 洛杉矶 - The Constant Compan...
+  network: grpc
+  password: 2cce737c-9c6d-4667-bb3d-aea668a0c10b
+  port: 443
+  server: gy3.hdcloud.link
+  sni: gy3.hdcloud.link
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  delay: 2743
-  name: 10|美国 - 圣克拉拉 - prgmr.com, Inc. - ...
-  password: p78naCf2EfOlRSLTX0wFVx
+  client-fingerprint: chrome
+  delay: 1858
+  name: 11|美国 - 紐約 - WorkTitans B.V. - 3
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
   port: 443
-  server: pupas-shirting-unsung.freesocks.work
+  server: 95.164.116.33
   type: ss
-  udp: true
-- country: 🇺🇸US
-  delay: 2479
-  name: 10|美国 - 洛杉矶 - AT&T Enterprises, L...
-  password: hSA6YXe15O
-  port: 443
-  server: 104.11.86.252
-  skip-cert-verify: true
-  sni: Telegram🇨🇳 @WangCai2
+- delay: 1250
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2685
-  name: 10,12|🇺🇸 美国4|@ripaojiedian 3
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 173.234.29.2
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1
+- cipher: aes-128-gcm
+  delay: 2262
+  name: 11|美国 - 達拉斯 - Datacamp Limited - ...
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.106.144
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 4054
-  server: 160.16.214.6
+  server: 160.16.223.205
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 968
-  server: 18.163.49.31
+  port: 1221
+  server: 54.46.49.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

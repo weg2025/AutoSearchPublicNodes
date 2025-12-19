@@ -1,33 +1,62 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: rc4-md5
   country: 🇯🇵JP
-  delay: 1926
-  name: 10|日本 - 东京 - BrainStorm Network, ...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 103.106.228.247
+  delay: 1256
+  name: 11,13|🇯🇵 日本5|@ripaojiedian
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 172.105.199.111
   type: ss
-- name: 12,13|日本|@ripaojiedian
+- country: 🇯🇵JP
+  delay: 798
+  name: 11|日本 - 大阪市 - The Constant Compan...
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 64.176.41.116
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  type: trojan
+  udp: true
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3760
-  server: 52.192.101.12
+  port: 4012
+  server: 54.199.251.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 160.16.229.223
+  server: 43.206.213.82
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 18.183.221.194
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  port: 59515
+  server: 183.236.97.42
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
+- alterId: 0
+  cipher: auto
+  name: 14|日本4|@ripaojiedian
+  network: tcp
+  port: '59515'
+  server: 183.236.97.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
