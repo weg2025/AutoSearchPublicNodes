@@ -1,25 +1,295 @@
 proxies:
-- name: 13,14|新加坡|@ripaojiedian
+- delay: 983
+  name: 10|新加坡 - 新加坡 - Akile LTD - 8
+  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
+  port: 33301
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 446
+  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: stall.saass.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
+- delay: 1164
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
+  network: ws
+  port: 8443
+  server: www.udacity.com
+  servername: yyds.x-aniu----hk.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: yyds.x-aniu----hk.netlib.re
+    path: /
+- delay: 837
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
+  network: ws
+  port: 2087
+  server: 172.64.147.231
+  servername: yyds.x-aniu----hk.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: yyds.x-aniu----hk.netlib.re
+    path: /
+- delay: 844
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
+  network: ws
+  port: 2087
+  server: 172.64.49.11
+  servername: yyds.x-aniu----hk.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: yyds.x-aniu----hk.netlib.re
+    path: /
+- delay: 669
+  encryption: none
+  fast-open: false
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: stall.saass.ccwu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
+- delay: 582
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2083
+  server: cf.090227.xyz
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 664
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 572
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #7'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2096
+  server: mfa.gov.ua
+  skip-cert-verify: true
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- client-fingerprint: randomized
+  delay: 981
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #8'
+  network: ws
+  port: 443
+  server: nrtcfdns.zone.id
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  delay: 431
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #9'
+  network: ws
+  port: 2087
+  server: 162.159.4.135
+  servername: qqq-3t8.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: qqq-3t8.pages.dev
+    path: /
+- cipher: rc4-md5
+  delay: 1090
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
+- client-fingerprint: random
+  delay: 813
+  name: '10|新加坡 - 新加坡 - DigitalOcean, LLC ... #1'
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: do-sgp1.064288.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 27930641-a054-427e-a142-b7c85358bf36
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: do-sgp1.064288.xyz
+    max-early-data: 2048
+    path: /announcement
+- delay: 1079
+  name: 10|新加坡 - 新加坡 - Oracle Corporation...
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10828
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 1113
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #1'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10833
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 926
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #2'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10827
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 888
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #3'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10831
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 955
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #4'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10834
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 1008
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #5'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10829
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 996
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #6'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10832
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 202.181.103.235
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 1507
-  server: 202.181.103.235
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 2760
+  server: 160.16.236.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 3.112.190.129
+  port: 381
+  server: 95.40.79.48
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 14|SG_speednode_0016
+  network: ws
+  port: 8443
+  server: 92.243.74.4
+  servername: stall.saass.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
+- name: 14|SG_speednode_0017
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: stall.saass.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6943fe4d-0a5e-0543-d402-0e5cf7fe7af0
+  ws-opts:
+    headers:
+      Host: stall.saass.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo

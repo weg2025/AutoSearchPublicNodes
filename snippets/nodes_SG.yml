@@ -1,25 +1,146 @@
 proxies:
-- name: 13,14|新加坡|@ripaojiedian
+- delay: 983
+  name: 10|新加坡 - 新加坡 - Akile LTD - 8
+  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
+  port: 33301
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 582
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2083
+  server: cf.090227.xyz
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 664
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 572
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #7'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2096
+  server: mfa.gov.ua
+  skip-cert-verify: true
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- cipher: rc4-md5
+  delay: 1090
+  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
+- delay: 1079
+  name: 10|新加坡 - 新加坡 - Oracle Corporation...
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10828
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 1113
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #1'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10833
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 926
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #2'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10827
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 888
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #3'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10831
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 955
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #4'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10834
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 1008
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #5'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10829
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- delay: 996
+  name: '10|新加坡 - 新加坡 - Oracle Corporation... #6'
+  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
+  port: 10832
+  server: ppg-sg.kunlun05dns.com
+  skip-cert-verify: true
+  sni: openssl.nodesni.com
+  type: trojan
+  udp: true
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 202.181.103.235
+  server: 160.16.81.84
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 1507
-  server: 202.181.103.235
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 2760
+  server: 160.16.236.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 3.112.190.129
+  port: 381
+  server: 95.40.79.48
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
