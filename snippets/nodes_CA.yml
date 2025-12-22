@@ -1,7 +1,43 @@
 proxies:
+- cipher: aes-256-cfb
+  delay: 1254
+  name: 10|加拿大 - 多伦多 - Amazon.com, Inc. -...
+  password: amazonskr05
+  port: 443
+  server: 15.157.66.237
+  type: ss
+  udp: true
+- delay: 2454
+  name: 10,14|RU_speednode_0026
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 2495
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  delay: 788
+  delay: 795
   name: 10|加拿大 - 多伦多 - Tangram Canada Inc...
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443

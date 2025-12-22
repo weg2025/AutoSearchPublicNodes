@@ -1,456 +1,67 @@
 proxies:
-- cipher: chacha20-ietf
-  delay: 1067
-  name: 10|中国 - 香港 - Dalian Yichuan Indus...
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
+- cipher: aes-256-cfb
+  delay: 1314
+  name: 10,12|🇭🇰 香港2|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 216.250.97.82
   type: ss
-  udp: true
-- cipher: chacha20-ietf
-  delay: 180
-  name: 10,12|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.191
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  delay: 195
-  name: '10|中国 - 香港 - Dalian Yichuan Indus... #2'
-  password: asd123456
-  port: 8388
-  server: 103.149.182.86
-  type: ss
-- delay: 974
-  name: 10|中国 - 香港 - GTT Americas - 15
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10821
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 954
-  name: 10|中国 - 香港 - GTT Americas - 18
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10822
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 712
-  name: 10|中国 - 香港 - GTT Americas - 25
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10819
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 707
-  name: 10|中国 - 香港 - GTT Americas - 26
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10820
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 732
-  name: 10|中国 - 香港 - GTT Americas - 27
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10823
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 735
-  name: 10|中国 - 香港 - GTT Americas - 28
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10824
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 700
-  name: 10|中国 - 香港 - GTT Americas - 29
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10825
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 872
-  name: 10|中国 - 香港 - GTT Americas - 30
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10826
-  server: ppg-us.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1612
-  fast-open: false
-  name: 10|中国 - 香港 - Hong Kong Telecommun...
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2653
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #1'
-  network: ws
-  port: 80
-  server: bdf118f2-t6r5s0-t7hmka-1plv4.hkt.gotochinatown.net
-  servername: bdf118f2-t6r5s0-t7hmka-1plv4.hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: bdf118f2-t6r5s0-t7hmka-1plv4.hkt.gotochinatown.net
-    path: /
-- delay: 843
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #2'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10809
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1187
-  fast-open: false
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #3'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1745
-  fast-open: false
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #4'
-  network: ws
-  port: 80
-  server: 6272a04d-t70f40-t7eqjm-m0b9.hkt.gotochinatown.net
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1153
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #5'
-  network: ws
-  port: 80
-  server: 11874343-t70f40-t7udc0-1pqhp.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1152
-  fast-open: false
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #6'
-  network: ws
-  port: 80
-  server: 70898894-t70f40-t7do2j-1swry.hkt.gotochinatown.net
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1716
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #7'
-  network: ws
-  port: 80
-  server: b3d681a4-t55r40-t5s93b-1swry.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1621
-  h2-opts: {}
-  http-opts: {}
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #8'
-  network: ws
-  port: 80
-  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1660
-  fast-open: false
-  name: '10|中国 - 香港 - Hong Kong Telecommun... #9'
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- delay: 1712
-  name: 10|中国 - 香港 - Ipxo LLC - 14
-  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- delay: 813
-  name: 10|中国 - 香港 - PCCW IMS Limited - 2...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10810
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 706
-  name: 10|中国 - 香港 - Vertex Connectivity ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10805
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 677
-  name: '10|中国 - 香港 - Vertex Connectivity ... #1'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10803
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 700
-  name: '10|中国 - 香港 - Vertex Connectivity ... #2'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10804
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 718
-  name: '10|中国 - 香港 - Vertex Connectivity ... #3'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10801
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 510
-  name: '10|中国 - 香港 - Vertex Connectivity ... #4'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10802
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 597
-  name: '10|中国 - 香港 - Vertex Connectivity ... #5'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10806
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 986
-  name: '10|中国 - 香港 - Vertex Connectivity ... #6'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10808
-  server: ppg-hk.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 1807
-  name: 10|乌克兰 - Kyiv - Baxet Group Inc. ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10845
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1383
-  name: 10|乌克兰 - Kyiv - IT HOSTLINE LTD -...
-  password: ZDY1N
-  port: 8388
-  server: 138.124.73.64
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇭CH
-  delay: 1046
-  name: '10|乌克兰 - Kyiv - IT HOSTLINE LTD -... #1'
-  password: ZDY1N
-  port: 8388
-  server: de1.opensocks.site
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1373
-  name: 10|以色列 - 佩塔提克瓦 - WorkTitans B.V. ...
-  password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
+- cipher: aes-256-cfb
+  delay: 1254
+  name: 10|加拿大 - 多伦多 - Amazon.com, Inc. -...
+  password: amazonskr05
   port: 443
-  server: 89.221.225.15
+  server: 15.157.66.237
   type: ss
-- delay: 2468
-  name: 10|俄罗斯 - 莫斯科 - LLC Baxet - 1
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10844
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
+  udp: true
+- delay: 2454
+  name: 10,14|RU_speednode_0026
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 2495
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 788
+  delay: 795
   name: 10|加拿大 - 多伦多 - Tangram Canada Inc...
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
   server: 193.203.203.66
   type: ss
   udp: true
-- delay: 1603
-  name: 10|印度 - 班加羅爾 - DigitalOcean, LLC ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10840
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 2237
-  name: 10|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10846
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
 - country: 🇩🇪DE
-  delay: 851
+  delay: 1240
   name: 10|德国 - Frankfurt am Main - Amazo...
   password: telegram-id-privatevpns
   port: 22222
-  server: 52.57.198.242
+  server: 18.185.153.96
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇩🇪DE
-  delay: 872
-  name: '10|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.57.198.242
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1103
-  name: '10|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.157.218.248
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1270
-  name: '10|德国 - Frankfurt am Main - Amazo... #3'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.157.218.248
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- delay: 1325
-  name: '10|德国 - 德赖艾希 - Cloudflare, Inc. -... #2'
+- delay: 2035
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
   password: 5a2c16f9
   port: 443
@@ -463,48 +74,32 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- delay: 1862
-  name: '10|德国 - 法兰克福 - DigitalOcean, LLC ... #1'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10839
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 2201
-  name: 10|意大利 - 巴勒莫市 - Baxet Group Inc. ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10849
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 983
-  name: 10|新加坡 - 新加坡 - Akile LTD - 8
-  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
-  port: 33301
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- delay: 582
-  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
+- delay: 850
+  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 2083
   server: cf.090227.xyz
+  skip-cert-verify: true
   sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
     path: /proxyip=210.61.97.241:81
-- delay: 664
-  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+- delay: 879
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2053
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: cm3-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /proxyip=210.61.97.241:81
+- delay: 683
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 2087
@@ -514,11 +109,9 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
     path: /proxyip=210.61.97.241:81
-- delay: 572
-  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #7'
+- delay: 1339
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 2096
@@ -531,363 +124,8 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=210.61.97.241:81
-- cipher: rc4-md5
-  delay: 1090
-  name: 10|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.4
-  type: ss
-  udp: true
-- delay: 1079
-  name: 10|新加坡 - 新加坡 - Oracle Corporation...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10828
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 1113
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #1'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10833
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 926
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #2'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10827
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 888
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #3'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10831
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 955
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #4'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10834
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 1008
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #5'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10829
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 996
-  name: '10|新加坡 - 新加坡 - Oracle Corporation... #6'
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10832
-  server: ppg-sg.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 371
-  h2-opts: {}
-  http-opts: {}
-  name: 10,13|日本4|@ripaojiedian
-  network: tcp
-  port: '20022'
-  server: 46.3.47.250
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
-- delay: 1534
-  name: 10|日本 - 东京 - Akile LTD - 4
-  password: a5049baa-eadf-4523-bcac-33139e4a99ea
-  port: 34411
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  delay: 2045
-  name: 10|日本 - 大阪市 - Akamai Technologies...
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 797
-  name: 10|日本 - 成田市 - Cloudflare, Inc. - ...
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: ct.877774.xyz
-  skip-cert-verify: false
-  sni: cm3-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=210.61.97.241:81
-- delay: 1950
-  name: 10|法国 - 巴黎 - Ace Data Centers II ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10838
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 710
-  name: 10|法国 - 巴黎 - Amazon Technologies ...
-  password: amazonskr05
-  port: 443
-  server: 35.180.57.2
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1742
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #1'
-  password: amazonskr05
-  port: 443
-  server: 15.236.142.160
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 849
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #2'
-  password: amazonskr05
-  port: 443
-  server: 35.180.54.60
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1489
-  name: '10|法国 - 巴黎 - Amazon Technologies ... #3'
-  password: amazonskr05
-  port: 443
-  server: 13.38.24.62
-  type: ss
-  udp: true
-- country: 🇫🇷FR
-  delay: 1253
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 4
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.17.177
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 1419
-  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 5
-  password: telegram-id-directvpn
-  port: 22223
-  server: 35.181.17.177
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- delay: 487
-  name: 10|波兰 - 华沙 - Private Customer - 1
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10814
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 641
-  name: 10|波兰 - 华沙 - Private Customer - 3
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10812
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 441
-  name: 10|波兰 - 华沙 - Private Customer - 4
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10816
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 514
-  name: 10|波兰 - 华沙 - Private Customer - 5
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10811
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 514
-  name: 10|波兰 - 华沙 - Private Customer - 6
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10813
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 510
-  name: 10|波兰 - 华沙 - Private Customer - 7
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10815
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 396
-  name: 10|波兰 - 华沙 - Private Customer - 8
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10817
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- delay: 571
-  name: 10|波兰 - 华沙 - Private Customer - 9
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10818
-  server: ppg-jp.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2152
-  name: 10|波多黎各 - 圣胡安 - BrainStorm Networ...
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.47.255.22
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇵🇷PR
-  delay: 1490
-  name: '10|波多黎各 - 圣胡安 - BrainStorm Networ... #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.47.255.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1109
-  name: '10|波多黎各 - 圣胡安 - BrainStorm Networ... #2'
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.47.255.22
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 869
-  name: 10|立陶宛 - 维尔纽斯 - WorkTitans B.V. -...
-  password: l668XHPejoSNNuD66BYzyehaCpZexiF7
-  port: 443
-  server: 45.12.136.170
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 1747
-  name: 10|美国 - Ashburn - Oracle Corporat...
-  network: ws
-  port: 443
-  server: us24-3.998998.best
-  servername: www3.gaiuohr.cloud-ip.cc
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 96dc2a16-ee29-493f-8a10-b73bcdd4fc5f
-  ws-opts:
-    headers:
-      Host: www3.gaiuohr.cloud-ip.cc
-    path: /rioutghewiuorrh9823r
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 857
-  name: 10|美国 - Secaucus - Baykov Ilya Se...
-  password: N2NkO
-  port: 1443
-  server: us1.opensocks.site
-  type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1754
-  fast-open: false
-  name: 10|美国 - 水牛城 - HostPapa - 1
-  port: 30824
-  server: v24.hdacd.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 995
-  fast-open: false
-  name: 10,12|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  delay: 1685
-  name: 10|美国 - 洛杉矶 - HostPapa - 14
-  network: ws
-  port: 443
-  server: 107.174.82.102.sslip.io
-  servername: 107.174.82.102.sslip.io
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bb824a22-b7ce-427b-9ed6-1adf0751da02
-  ws-opts:
-    headers:
-      Host: 107.174.82.102.sslip.io
-    path: /Ov7HrgwlEcRugowKV
-- cipher: chacha20-ietf-poly1305
-  delay: 862
-  name: 10|美国 - 紐約 - WorkTitans B.V. - 3
-  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
-  port: 443
-  server: 95.164.116.33
-  type: ss
-- delay: 1838
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+- delay: 1676
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 443
@@ -900,360 +138,210 @@ proxies:
     headers:
       Host: cm3-bpg.filegear-sg.me
     path: /proxyip=210.61.97.241:81
-- delay: 1773
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
-  password: 17d3bf89-d2f0-4827-bcd0-c199fe54cd2a
-  port: 35501
-  server: green2.cdntencentmusic.com
+- delay: 1584
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.090227.xyz
   skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
+  sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1595
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 阿什本 - HostPapa - 5
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 1061
+  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #2'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.877774.xyz
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 1713
-  name: 10|英国 - Slough - DigitalOcean, LL...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10850
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
+  sni: cm3-bpg.filegear-sg.me
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  delay: 692
-  name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 1
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
+  ws-opts:
+    headers:
+      Host: cm3-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 832
+  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #3'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.205
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- cipher: aes-256-cfb
+  delay: 712
+  name: 10|法国 - 巴黎 - Amazon Technologies ...
+  password: amazonskr05
+  port: 443
+  server: 15.237.246.157
   type: ss
+- cipher: aes-256-cfb
+  delay: 816
+  name: '10|法国 - 巴黎 - Amazon Technologies ... #1'
+  password: amazonskr05
+  port: 443
+  server: 35.180.172.53
+  type: ss
+  udp: true
+- country: 🇺🇸US
+  delay: 2263
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.44.121.184
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2159
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 3
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.44.146.211
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2154
+  name: 10|法国 - 巴黎 - Amazon.com, Inc. - 4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.146.211
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 2600
+  name: 10|美国 - 聖荷西 - Cloudflare, Inc. - ...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 1515
+  name: 10|荷兰 - 阿姆斯特丹 - Cloudflare, Inc. ...
+  network: ws
+  password: POORIARED
+  port: 443
+  server: 172.67.134.185
+  skip-cert-verify: true
+  sni: reDfRee8.REDFree8.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: reDfRee8.REDFree8.ir
+    path: /eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed
 - cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  delay: 1849
+  delay: 784
   name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  delay: 1127
-  name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 3
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 908
-  name: 10|荷兰 - 阿姆斯特丹 - Greenhost BV - 4
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
-  server: 45.87.175.178
+  server: 151.242.251.131
   type: ss
-  udp: true
-- delay: 2532
-  name: 10|西班牙 - 马德里 - Baxet Group Inc. -...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10847
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2361
+  name: 10|荷兰 - 阿姆斯特丹 - Serverion LLC - 1
+  password: 2DGq3jvVRg5n3CcxmysGK2kmrgJeSNof12A76cZvVxqPpetyC1XEciCFufq5xKvRWGGnKVembpThuUSQhbZ7GMsZY4UVxEBw
+  port: 44884
+  server: 208.67.106.73
+  type: ss
 - cipher: aes-256-cfb
-  delay: 1416
-  name: 10|越南 - Hải Dương - FASTLY - 1
+  country: 🇻🇳VN
+  delay: 800
+  name: 10,12|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.42
+  server: 103.186.155.145
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 795
+  delay: 1738
   name: 10|越南 - Hải Dương - FASTLY - 10
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.150
+  server: 103.186.154.215
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1731
-  name: 10|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.111
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 797
-  name: 10|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.148
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1119
-  name: 10|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 778
-  name: 10|越南 - Hải Dương - FASTLY - 14
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.3
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 798
-  name: 10|越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.24
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 789
-  name: 10|越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 915
-  name: 10|越南 - Hải Dương - FASTLY - 17
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2734
-  name: 10|越南 - Hải Dương - FASTLY - 18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.242
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2375
-  name: 10|越南 - Hải Dương - FASTLY - 19
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.5
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 731
+  delay: 1359
   name: 10|越南 - Hải Dương - FASTLY - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.73
+  server: 103.186.155.101
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1020
-  name: 10|越南 - Hải Dương - FASTLY - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 816
-  name: 10|越南 - Hải Dương - FASTLY - 21
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 742
-  name: 10|越南 - Hải Dương - FASTLY - 22
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 699
-  name: 10|越南 - Hải Dương - FASTLY - 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 742
-  name: 10|越南 - Hải Dương - FASTLY - 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.149
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 732
-  name: 10|越南 - Hải Dương - FASTLY - 25
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 946
-  name: 10|越南 - Hải Dương - FASTLY - 26
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 768
-  name: 10|越南 - Hải Dương - FASTLY - 27
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1193
-  name: 10|越南 - Hải Dương - FASTLY - 28
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1143
-  name: 10|越南 - Hải Dương - FASTLY - 29
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 758
+  delay: 800
   name: 10|越南 - Hải Dương - FASTLY - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.9
+  server: 103.186.154.182
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1523
-  name: 10|越南 - Hải Dương - FASTLY - 30
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1047
-  name: 10|越南 - Hải Dương - FASTLY - 31
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.176
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 839
-  name: 10|越南 - Hải Dương - FASTLY - 32
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.177
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 756
+  delay: 1393
   name: 10|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.77
+  server: 103.186.155.41
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1257
+  delay: 1237
   name: 10|越南 - Hải Dương - FASTLY - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.175
+  server: 103.186.154.243
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1262
+  country: 🏁ZZ
+  delay: 1880
   name: 10|越南 - Hải Dương - FASTLY - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.204
+  server: 103.186.154.61
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1012
+  delay: 2251
   name: 10|越南 - Hải Dương - FASTLY - 7
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.219
+  server: 103.186.154.223
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 763
+  delay: 1544
   name: 10|越南 - Hải Dương - FASTLY - 8
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.205
+  server: 103.186.154.13
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 724
+  delay: 2308
   name: 10|越南 - Hải Dương - FASTLY - 9
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.221
+  server: 103.186.154.58
   type: ss
-  udp: true
-- delay: 1650
-  name: 10|阿拉伯联合酋长国 - 富吉拉 - Melbikomas UA...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10841
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2450
-  name: 10|阿拉伯联合酋长国 - 迪拜 - M247 Europe SR...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 103.57.251.240
-  type: ss
-  udp: true
-- delay: 758
-  name: 10|韩国 - 春川市 - Oracle Corporation ...
-  password: f6c6c896-05d5-49cd-9fba-042cb91f63ee
-  port: 10836
-  server: ppg-other.kunlun05dns.com
-  skip-cert-verify: true
-  sni: openssl.nodesni.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -1269,29 +357,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 12,13|香港2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- name: 12,13|香港3|@ripaojiedian
+- name: 12,13,14|HK_speednode_0016
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
-  server: 58.152.110.192
+  server: 58.152.110.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -1311,8 +385,8 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 54.248.35.48
+  port: 2762
+  server: 3.112.233.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -1320,7 +394,7 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3169
-  server: 13.114.27.223
+  server: 3.112.16.3
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1328,24 +402,15 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 153.121.67.215
+  server: 160.16.242.183
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本4|@ripaojiedian
-  port: 20022
-  server: 46.3.47.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.81.84
+  server: 153.121.39.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -1353,42 +418,51 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.236.32
+  server: 160.16.63.16
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 381
-  server: 95.40.79.48
+  port: 804
+  server: 57.180.15.254
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 160.16.151.196
+  port: 2890
+  server: 160.16.63.16
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 160.16.81.84
+  port: 4054
+  server: 153.121.39.240
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 3.112.30.103
+  port: 1221
+  server: 43.206.210.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
@@ -1409,16 +483,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|RU_speednode_0012
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /

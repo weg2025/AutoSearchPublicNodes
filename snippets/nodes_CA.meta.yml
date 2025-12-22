@@ -1,10 +1,60 @@
 proxies:
-- client-fingerprint: randomized
-  delay: 1767
-  name: 10|加拿大 - 多伦多 - Cloudflare, Inc. -...
+- cipher: aes-256-cfb
+  delay: 1254
+  name: 10|加拿大 - 多伦多 - Amazon.com, Inc. -...
+  password: amazonskr05
+  port: 443
+  server: 15.157.66.237
+  type: ss
+  udp: true
+- delay: 2454
+  name: 10,14|RU_speednode_0026
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 2495
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  delay: 2318
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #2'
+  network: ws
+  port: 2053
+  server: convera.com
+  servername: saasorg.saaas.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6944a493-8d5c-3d04-a5d8-1a37061a17f7
+  ws-opts:
+    headers:
+      Host: saasorg.saaas.ccwu.cc
+    path: /proxyip=sjc.o00o.ooo
+- delay: 1249
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #3'
   network: ws
   port: 443
-  server: cdn.204910.best
+  server: 104.19.49.192
   servername: snippets.kkii.eu.org
   tls: true
   type: vless
@@ -14,9 +64,23 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
+- client-fingerprint: randomized
+  delay: 821
+  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #4'
+  network: ws
+  port: 443
+  server: nrtcfdns.zone.id
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  delay: 788
+  delay: 795
   name: 10|加拿大 - 多伦多 - Tangram Canada Inc...
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
