@@ -1,14 +1,42 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 1254
-  name: 10|加拿大 - 多伦多 - Amazon.com, Inc. -...
-  password: amazonskr05
-  port: 443
-  server: 15.157.66.237
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇱IL
+  delay: 919
+  name: 11|以色列 - 特拉维夫 - O.M.C. COMPUTERS ...
+  password: 4lUEC91c1d8oeClzDbYpXA
+  port: 8618
+  server: 212.80.206.94
   type: ss
+- delay: 1134
+  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+  network: ws
+  password: trojan
+  port: 8444
+  server: 43.250.54.105
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
   udp: true
-- delay: 2454
-  name: 10,14|RU_speednode_0026
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
+- delay: 1082
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #2'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 1516
+  name: 11,15|RU_speednode_0026
   network: ws
   password: 5a2c16f9
   port: 443
@@ -21,8 +49,8 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- delay: 2495
-  name: '10|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+- delay: 1602
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #8'
   network: ws
   password: 5a2c16f9
   port: 443
@@ -35,12 +63,94 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
+- delay: 1709
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #9'
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: cmcc.877774.xyz
+  skip-cert-verify: true
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- delay: 1426
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #10'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- delay: 1107
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #11'
+  network: ws
+  password: trojan
+  port: 40001
+  server: 128.241.251.81
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
+- delay: 1085
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #12'
+  network: ws
+  password: trojan
+  port: 1234
+  server: 117.50.80.157
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
+- delay: 1058
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #13'
+  network: ws
+  password: trojan
+  port: 5432
+  server: 104.168.87.155
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  delay: 795
-  name: 10|加拿大 - 多伦多 - Tangram Canada Inc...
+  delay: 1063
+  name: 11|加拿大 - 多伦多 - Tangram Canada Inc...
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
   server: 193.203.203.66
   type: ss
   udp: true
+- delay: 1649
+  name: 11|加拿大 - 密西沙加 - Cloudflare, Inc. ...
+  network: ws
+  password: trojan
+  port: 5901
+  server: 192.227.153.124
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560

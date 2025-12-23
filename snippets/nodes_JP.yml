@@ -1,20 +1,41 @@
 proxies:
-- delay: 1061
-  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #2'
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 443
-  server: ct.877774.xyz
+- delay: 1841
+  name: 11|日本 - 东京 - Akile LTD - 3
+  password: a213e1a5-3c5a-40f2-b70e-98ffa63ffc8e
+  port: 34411
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  sni: cm3-bpg.filegear-sg.me
+  sni: green2.cdntencentmusic.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: cm3-bpg.filegear-sg.me
-    path: /proxyip=210.61.97.241:81
-- delay: 832
-  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #3'
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 743
+  name: 11|日本 - 东京 - Awesomecloud Limited...
+  network: none
+  port: 44222
+  server: 103.160.100.86
+  tls: false
+  type: vmess
+  uuid: f703b128-2d32-4cdb-9608-f33c2d58abcc
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2609
+  h2-opts: {}
+  http-opts: {}
+  name: 11,14|日本4|@ripaojiedian
+  network: tcp
+  port: '30806'
+  server: v6.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- delay: 470
+  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
   network: ws
   password: 5a2c16f9
   port: 443
@@ -27,27 +48,50 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 12,13|日本|@ripaojiedian
+- delay: 1083
+  name: '11|日本 - 成田市 - Cloudflare, Inc. - ... #1'
+  network: ws
+  password: trojan
+  port: 60001
+  server: 202.182.96.235
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2762
-  server: 3.112.233.197
+  server: 18.177.141.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3169
-  server: 3.112.16.3
+  server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 160.16.242.183
+  server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
