@@ -1,15 +1,15 @@
 proxies:
-- delay: 1517
-  name: 11|瑞士 - 温特图尔 - Cloudflare, Inc. -...
-  network: ws
-  password: trojan
-  port: 8444
-  server: 104.244.79.140
-  skip-cert-verify: true
-  sni: fofang.pages.dev
-  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|CH_speednode_0002
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: 2e40144ddc07e8e1
+  server: ch3.tunnely.ru
+  servername: ch3.tunnely.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /?ed=2560
+  uuid: c42e4667-ca09-4769-b544-89a8da730daf

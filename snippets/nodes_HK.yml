@@ -12,17 +12,17 @@ proxies:
   cipher: auto
   name: 13,14|香港2|@ripaojiedian
   network: ws
-  port: '16632'
-  server: 111.47.247.196
-  servername: ''
+  port: '443'
+  server: 154.38.116.8
+  servername: hk.nbee.pp.ua
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
   ws-opts:
     headers:
-      Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com
-    path: /
+      Host: hk.nbee.pp.ua
+    path: /aa
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
@@ -57,11 +57,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|HK_speednode_0016
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 443
-  server: 58.152.110.104
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true

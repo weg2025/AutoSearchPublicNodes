@@ -1,15 +1,16 @@
 proxies:
-- country: 🇹🇼TW
-  delay: 2679
-  name: 11|新加坡 - 新加坡 - Akile LTD - 1
-  password: 3846a29b-57d5-40f2-8acd-13855aa025cd
-  port: 33301
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- delay: 792
+- alterId: 0
+  cipher: auto
+  delay: 2506
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  network: none
+  port: 35488
+  server: 185.36.192.228
+  type: vmess
+  uuid: fb5a4283-dbfb-458b-8619-c4a53739f781
+- delay: 678
   name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
@@ -23,37 +24,25 @@ proxies:
     headers:
       Host: cm2-bpg.filegear-sg.me
     path: /proxyip=210.61.97.241:81
-- delay: 1014
+- client-fingerprint: chrome
+  delay: 551
   name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
   network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2096
-  server: mfa.gov.ua
-  skip-cert-verify: true
-  sni: cm2-bpg.filegear-sg.me
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: cf.zhetengsha.eu.org
+  skip-cert-verify: false
+  sni: _acme-challenge.2go.cloudns.be
   type: trojan
-  udp: true
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cm2-bpg.filegear-sg.me
-    path: /proxyip=210.61.97.241:81
-- delay: 505
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
-  network: ws
-  password: trojan
-  port: 25000
-  server: 46.3.193.83
-  skip-cert-verify: true
-  sni: fofang.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /?ed=2560
+      Host: _acme-challenge.2go.cloudns.be
+    max-early-data: 2560
+    path: /
 - client-fingerprint: randomized
-  delay: 671
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
+  delay: 856
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
   network: ws
   port: 443
   server: nrtcfdns.zone.id
@@ -66,8 +55,8 @@ proxies:
       Host: snippets.kkii.eu.org
     path: /
 - client-fingerprint: chrome
-  delay: 1451
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
+  delay: 2100
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
   network: ws
   port: 2087
   server: 172.64.49.11
@@ -82,8 +71,8 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 572
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
+  delay: 828
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
   network: ws
   port: 2087
   server: 162.159.4.135
@@ -99,7 +88,7 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.116.227
+  server: 202.181.103.246
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -107,15 +96,15 @@ proxies:
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.57.238
+  server: 160.16.136.130
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 804
-  server: 57.180.28.48
+  port: 1691
+  server: 3.112.42.86
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
