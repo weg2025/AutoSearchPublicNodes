@@ -2,7 +2,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇷🇺RU
   delay: 970
-  name: 11|美国 - Secaucus - Baykov Ilya Se...
+  name: 10|美国 - Secaucus - Baykov Ilya Se...
   password: YjkxY
   port: 8388
   server: us1.opensocks.site
@@ -11,7 +11,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 2663
-  name: 11|美国 - 水牛城 - HostPapa - 9
+  name: 10|美国 - 水牛城 - HostPapa - 9
   network: ws
   port: 80
   server: XXXccFrt.922922.ShOP
@@ -28,7 +28,7 @@ proxies:
   client-fingerprint: ''
   delay: 653
   fast-open: false
-  name: 11,13|🇺🇸 美国4|@ripaojiedian
+  name: 10,12|🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
@@ -39,13 +39,13 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   delay: 869
-  name: 11|美国 - 紐約 - WorkTitans B.V. - 2
+  name: 10|美国 - 紐約 - WorkTitans B.V. - 2
   password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
   port: 443
   server: 95.164.116.33
   type: ss
 - delay: 1128
-  name: 11,15|RU_speednode_0020
+  name: 10,14|RU_speednode_0020
   network: ws
   password: 5a2c16f9
   port: 443
@@ -59,7 +59,7 @@ proxies:
       Host: snippets.kkii.eu.org
     path: /
 - delay: 1199
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
+  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
   network: ws
   password: 5a2c16f9
   port: 443
@@ -73,7 +73,7 @@ proxies:
       Host: snippets.kkii.eu.org
     path: /
 - delay: 1608
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  name: 10|美国 - 聖荷西 - Eons Data Communica...
   password: cdcfb9da-11a7-441d-a4c5-46afc0646f5b
   port: 35501
   server: green2.cdntencentmusic.com
@@ -84,7 +84,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 1425
-  name: 11|美国 - 達拉斯 - HostPapa - 5
+  name: 10|美国 - 達拉斯 - HostPapa - 5
   port: 30808
   server: v8.hdacd.com
   skip-cert-verify: true
@@ -99,30 +99,30 @@ proxies:
   delay: 2512
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 阿什本 - HostPapa - 3
+  name: 10|美国 - 阿什本 - HostPapa - 3
   network: tcp
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 4054
-  server: 160.16.131.243
+  server: 160.16.89.176
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 4054
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -132,7 +132,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|美国4|@ripaojiedian
+  name: 13|美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -140,16 +140,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|US_speednode_0028
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /

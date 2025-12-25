@@ -5,7 +5,7 @@ proxies:
   client-fingerprint: chrome
   delay: 2143
   down: 55 Mbps
-  name: 11|法国 - 巴黎 - Online S.A.S. - 2
+  name: 10|法国 - 巴黎 - Online S.A.S. - 2
   port: 26691
   protocol: udp
   server: 62.210.196.68
@@ -15,7 +15,7 @@ proxies:
   up: 11 Mbps
 - client-fingerprint: chrome
   delay: 2046
-  name: 11,15|FR_speednode_0005
+  name: 10|法国 - 巴黎 - WorkTitans B.V. - 3
   network: ws
   port: 443
   server: 94.131.118.18
@@ -34,25 +34,10 @@ proxies:
   client-fingerprint: ''
   delay: 1684
   fast-open: false
-  name: 11|法国 - 斯特拉斯堡 - velia.net Interne...
+  name: 10|法国 - 斯特拉斯堡 - velia.net Interne...
   port: 30835
   server: v35.hdacd.com
   tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|FR_speednode_0004
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 185.231.205.152
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b74e019-81b0-4c77-9f41-2f3aaf04132d
-  ws-opts:
-    headers:
-      Host: ads.x5.ru
-    path: /uefsanws

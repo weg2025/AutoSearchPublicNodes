@@ -5,7 +5,7 @@ proxies:
   delay: 2255
   h2-opts: {}
   http-opts: {}
-  name: 11|日本 - 东京 - Alibaba Cloud LLC - ...
+  name: 10|日本 - 东京 - Alibaba Cloud LLC - ...
   network: ws
   port: 443
   server: n1753598448.74qxv.top
@@ -24,7 +24,7 @@ proxies:
   delay: 2607
   h2-opts: {}
   http-opts: {}
-  name: '11|日本 - 东京 - Alibaba Cloud LLC - ... #1'
+  name: '10|日本 - 东京 - Alibaba Cloud LLC - ... #1'
   network: ws
   port: 443
   server: n1753598446.wpg27.xyz
@@ -39,7 +39,7 @@ proxies:
     path: /
 - client-fingerprint: randomized
   delay: 599
-  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
+  name: 10|日本 - 成田市 - Cloudflare, Inc. - ...
   network: ws
   port: 443
   server: 108.162.198.185
@@ -53,7 +53,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   delay: 968
-  name: '11|日本 - 成田市 - Cloudflare, Inc. - ... #1'
+  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #1'
   network: ws
   port: 443
   server: 172.64.53.226
@@ -65,7 +65,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3760
@@ -73,33 +73,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3093
-  server: 160.16.87.174
+  port: 3169
+  server: 153.121.53.187
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 13.231.130.241
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|JP_speednode_0011
-  port: 443
+  name: 14|JP_speednode_0013
+  port: 34384
   reality-opts:
-    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
-    short-id: e33013f4
-  server: 188.253.16.31
-  servername: yahoo.com
+    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
+  server: 138.2.37.59
+  servername: icloud.cdn-apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a8c099ce-04d8-43d2-8100-34e72f7beba4
+  uuid: 8cd0d0b7-43f3-476e-bb0f-b45e5bba7ffc

@@ -4,14 +4,14 @@ proxies:
   delay: 2506
   h2-opts: {}
   http-opts: {}
-  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  name: 10|新加坡 - 新加坡 - Akari Networks Lim...
   network: none
   port: 35488
   server: 185.36.192.228
   type: vmess
   uuid: fb5a4283-dbfb-458b-8619-c4a53739f781
 - delay: 678
-  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
   password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
   port: 2087
@@ -26,7 +26,7 @@ proxies:
     path: /proxyip=210.61.97.241:81
 - client-fingerprint: chrome
   delay: 551
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
   network: ws
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
@@ -42,7 +42,7 @@ proxies:
     path: /
 - client-fingerprint: randomized
   delay: 856
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
   network: ws
   port: 443
   server: nrtcfdns.zone.id
@@ -56,7 +56,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   delay: 2100
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
   network: ws
   port: 2087
   server: 172.64.49.11
@@ -72,7 +72,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   delay: 828
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
   network: ws
   port: 2087
   server: 162.159.4.135
@@ -84,23 +84,23 @@ proxies:
     headers:
       Host: qqq-3t8.pages.dev
     path: /
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 202.181.103.246
+  server: 160.16.132.158
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.136.130
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1691
@@ -108,3 +108,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 14|SG_speednode_0021
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: qqq-3t8.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: qqq-3t8.pages.dev
+    path: /
