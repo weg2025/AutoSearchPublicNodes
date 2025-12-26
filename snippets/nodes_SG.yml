@@ -1,66 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 2506
-  h2-opts: {}
-  http-opts: {}
-  name: 10|新加坡 - 新加坡 - Akari Networks Lim...
-  network: none
-  port: 35488
-  server: 185.36.192.228
-  type: vmess
-  uuid: fb5a4283-dbfb-458b-8619-c4a53739f781
-- delay: 678
-  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
-  port: 2087
-  server: cf.877774.xyz
-  skip-cert-verify: true
-  sni: cm2-bpg.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cm2-bpg.filegear-sg.me
-    path: /proxyip=210.61.97.241:81
-- client-fingerprint: chrome
-  delay: 551
-  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: cf.zhetengsha.eu.org
-  skip-cert-verify: false
-  sni: _acme-challenge.2go.cloudns.be
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: _acme-challenge.2go.cloudns.be
-    max-early-data: 2560
-    path: /
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.132.158
+  server: 160.16.106.144
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 2760
-  server: 160.16.138.24
+  server: 160.16.227.93
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 3.112.42.86
+  port: 3579
+  server: 18.166.223.179
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

@@ -1,10 +1,28 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 1615
-  name: 10|德国 - Frankfurt am Main - Amazo...
+- country: 🇺🇸US
+  delay: 2209
+  name: 11|德国 - Frankfurt am Main - Amazo...
   password: telegram-id-privatevpns
   port: 22222
-  server: 54.93.101.6
+  server: 63.176.238.123
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2064
+  name: '11|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.207.11
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2778
+  name: '11|德国 - Frankfurt am Main - Amazo... #2'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.181.207.11
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan

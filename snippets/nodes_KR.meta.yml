@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- delay: 1708
+  name: 11|韩国 - Yeongdong-gun - Cloudflar...
+  network: ws
+  password: trojan
+  port: 10250
+  server: 110.12.52.95
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560
+- delay: 1729
+  name: '11|韩国 - Yeongdong-gun - Cloudflar... #1'
+  network: ws
+  password: trojan
+  port: 25010
+  server: 61.79.126.130
+  skip-cert-verify: true
+  sni: fofang.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /?ed=2560

@@ -1,97 +1,39 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: 🇯🇵JP
-  delay: 2255
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - 东京 - Alibaba Cloud LLC - ...
-  network: ws
-  port: 443
-  server: n1753598448.74qxv.top
-  servername: n1753598448.74qxv.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
-  ws-opts:
-    headers:
-      HOST: n1753598448.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 2607
-  h2-opts: {}
-  http-opts: {}
-  name: '10|日本 - 东京 - Alibaba Cloud LLC - ... #1'
-  network: ws
-  port: 443
-  server: n1753598446.wpg27.xyz
-  servername: n1753598446.wpg27.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
-  ws-opts:
-    headers:
-      HOST: n1753598446.wpg27.xyz
-    path: /
-- client-fingerprint: randomized
-  delay: 599
-  name: 10|日本 - 成田市 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 108.162.198.185
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  delay: 968
-  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #1'
-  network: ws
-  port: 443
-  server: 172.64.53.226
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 12,13|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3760
-  server: 54.65.145.17
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3169
-  server: 153.121.53.187
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|日本3|@ripaojiedian
+  delay: 1012
+  name: 11|日本 - 东京 - BrainStorm Network, ...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 103.106.228.247
+  type: ss
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 3093
-  server: 160.16.117.182
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11945
+  server: 13.158.131.92
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 3169
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|JP_speednode_0013
+  name: 15|JP_speednode_0013
   port: 34384
   reality-opts:
     public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA

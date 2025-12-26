@@ -1,5 +1,5 @@
 proxies:
-- name: 9|All-@V2rayAlpha--46
+- name: 10|All-@V2rayAlpha--46
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
   server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
@@ -7,7 +7,7 @@ proxies:
   sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
   tls: false
   type: hysteria2
-- name: '9|All--@IRAN_V2RAY1🇺🇸 #1'
+- name: '10|All--@IRAN_V2RAY1🇺🇸 #1'
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 443
   server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
@@ -15,7 +15,7 @@ proxies:
   sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
   tls: false
   type: hysteria2
-- name: '9|All--@IRAN_V2RAY1🇺🇸 #2'
+- name: '10|All--@IRAN_V2RAY1🇺🇸 #2'
   password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
   port: 63979
   server: 113.192.61.19
@@ -23,7 +23,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 9|All-@V2ray_Alpha--7
+- name: 10|@TapsiVpn • JOIN 🇺🇸  @TapsiVpn...
+  password: dc4b63d4-5010-4b92-b0e8-adfa4c3292c4
+  port: 21738
+  server: us.xn--9kqy68chx3a.shop
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|All-@V2ray_Alpha--7
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 443
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -31,7 +38,7 @@ proxies:
   sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- name: '9|All--@IRAN_V2RAY1🇺🇸 #4'
+- name: '10|All--@IRAN_V2RAY1🇺🇸 #4'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
@@ -39,178 +46,93 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 970
-  name: 10|美国 - Secaucus - Baykov Ilya Se...
-  password: YjkxY
-  port: 8388
-  server: us1.opensocks.site
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  delay: 2663
-  name: 10|美国 - 水牛城 - HostPapa - 9
-  network: ws
-  port: 80
-  server: XXXccFrt.922922.ShOP
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  ws-opts:
-    headers:
-      Host: XXXccFrt.922922.ShOP
-    path: /RkUUbqhA9GJZBROjL3Q5vTymr
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 653
-  fast-open: false
-  name: 10,12|🇺🇸 美国4|@ripaojiedian
+  delay: 2452
+  name: 11,13|🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  delay: 869
-  name: 10|美国 - 紐約 - WorkTitans B.V. - 2
-  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  delay: 796
+  name: 11|美国 - 紐約 - Datacamp Limited - 2
+  password: shadowsocks
   port: 443
-  server: 95.164.116.33
+  server: 37.19.198.236
   type: ss
-- client-fingerprint: chrome
-  delay: 2193
-  name: 10|美国 - 聖荷西 - Cloudflare, Inc. - ...
+- country: 🏁ZZ
+  delay: 1041
+  fingerprint: chrome
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
-  port: 443
-  server: 104.19.173.145
-  servername: jp-99k.pages.dev
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: jp-99k.pages.dev
-    path: /
-- client-fingerprint: chrome
-  delay: 2343
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
-  network: ws
-  port: 443
-  server: shops.myshopify.com
-  servername: saasorg.saaas.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 694899b7-3e90-f695-efde-abe17d0bb1da
-  ws-opts:
-    headers:
-      Host: saasorg.saaas.ccwu.cc
-    path: /proxyip=sjc.o00o.ooo
-- delay: 1128
-  name: 10,14|RU_speednode_0020
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 1199
-  name: '10|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
+  port: 2086
+  server: 141.101.120.143
+  servername: vless.hubp.de
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
+  type: vless
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 1608
-  name: 10|美国 - 聖荷西 - Eons Data Communica...
-  password: cdcfb9da-11a7-441d-a4c5-46afc0646f5b
-  port: 35501
+      Host: vless.hubp.de
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- country: 🏁ZZ
+  delay: 2467
+  fingerprint: chrome
+  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
+  network: ws
+  port: 80
+  server: 104.19.113.54
+  servername: vless.hubp.de
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vless.hubp.de
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+- delay: 2856
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  password: 15b641c6-9abf-456b-8441-8662f5ab99c7
+  port: 35502
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  delay: 1425
-  name: 10|美国 - 達拉斯 - HostPapa - 5
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: auto
-  client-fingerprint: chrome
-  delay: 1615
-  name: 10|美国 - 長灘 - AT&T Enterprises, LL...
-  network: none
-  port: 54661
-  server: 99.88.80.195
-  tls: false
-  type: vless
-  uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇭🇰HK
-  delay: 2512
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 阿什本 - HostPapa - 3
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 4054
-  server: 160.16.89.176
+  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 160.16.132.158
+  port: 2890
+  server: 18.166.223.179
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 13.115.1.198
+  port: 1221
+  server: 95.40.81.42
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 14|美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -220,7 +142,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0022
+  name: 15|US_speednode_0022
   port: 443
   reality-opts:
     public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
@@ -231,7 +153,7 @@ proxies:
   type: vless
   udp: true
   uuid: c42e4667-ca09-4769-b544-89a8da730daf
-- name: 14|US_speednode_0023
+- name: 15|US_speednode_0023
   network: ws
   port: 443
   server: 144.31.5.179
@@ -240,7 +162,7 @@ proxies:
   type: vless
   udp: true
   uuid: 98cb33a8-d6f7-41f0-8796-e4b471d65df8
-- name: 14|US_speednode_0024
+- name: 15|US_speednode_0024
   network: ws
   port: 2053
   server: oralb.com
