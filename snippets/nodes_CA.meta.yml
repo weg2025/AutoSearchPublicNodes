@@ -1,113 +1,17 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 808
-  fingerprint: chrome
-  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+- client-fingerprint: chrome
+  delay: 2578
+  name: 11,15|US_speednode_0008
   network: ws
-  port: 80
-  server: 77.37.33.169
-  servername: vless.hubp.de
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vless.hubp.de
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-- country: 🏁ZZ
-  delay: 788
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: fangbinxingnmsl.pusytroller.cf
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
-- country: 🏁ZZ
-  delay: 2686
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #2'
-  network: ws
-  port: 2095
-  server: 104.16.142.237
-  servername: fangbinxingnmsl.pusytroller.cf
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
-- country: 🏁ZZ
-  delay: 1732
-  fingerprint: chrome
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #3'
-  network: ws
-  port: 80
-  server: 104.19.81.75
-  servername: vless.hubp.de
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vless.hubp.de
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-- delay: 2462
-  name: 11,15|RU_speednode_0020
-  network: ws
-  password: 5a2c16f9
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: 104.17.202.10
+  servername: snippets.kkii.eu.org
   skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- delay: 1193
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #5'
-  network: ws
-  password: trojan
-  port: 40001
-  server: 128.241.251.81
-  skip-cert-verify: true
-  sni: fofang.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /?ed=2560
-- delay: 1711
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #6'
-  network: ws
-  password: trojan
-  port: 1234
-  server: 117.50.80.157
-  skip-cert-verify: true
-  sni: fofang.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇦CA
-  delay: 1906
-  name: 11|加拿大 - 多伦多 - Tangram Canada Inc...
-  password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
-  port: 443
-  server: 193.203.203.66
-  type: ss
