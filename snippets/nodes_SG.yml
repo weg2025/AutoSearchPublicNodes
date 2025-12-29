@@ -1,85 +1,33 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 2217
-  disable-sni: true
-  name: 11|新加坡 - 新加坡 - Akamai Technologie...
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 2473
-  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.24.131
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 2601
-  name: 11|新加坡 - 新加坡 - M1 LIMITED - 1
-  password: '!!str 03241'
-  port: 8899
-  server: sgmob222.asuscomm.com
+- cipher: aes-256-gcm
+  delay: 1203
+  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 11688
+  server: ss.037.node-for-bigairport.win
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇸🇬SG
-  delay: 1125
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - Microsoft Corporat...
-  network: ws
-  port: 443
-  server: oksl.cfapps.ap21.hana.ondemand.com
-  servername: oksl.cfapps.ap21.hana.ondemand.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: cb94c83d-50cf-4a68-ba03-c6ed757df1f2
-  ws-opts:
-    headers:
-      HOST: oksl.cfapps.ap21.hana.ondemand.com
-    path: /laoluo
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 2760
-  server: 202.181.103.235
-  skip-cert-verify: true
+  port: 3901
+  server: 13.115.111.129
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 2760
-  server: 160.16.82.24
+  port: 3901
+  server: 160.16.153.13
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 95.40.19.252
+  port: 3127
+  server: 13.115.111.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇸🇬 新加坡4|@ripaojiedian
-  password: '!!str 1697'
-  port: 8899
-  server: sgmob222.asuscomm.com
-  type: ss

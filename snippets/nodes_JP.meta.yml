@@ -1,31 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  delay: 1357
-  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 172.64.229.205
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11945
-  server: 3.112.5.63
+  port: 2762
+  server: 18.182.16.254
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3169
-  server: 160.16.229.223
+  port: 3093
+  server: 13.231.208.147
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -33,7 +19,30 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3093
-  server: 160.16.72.33
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 13|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  password: 12345678-1234-1234-1234-123456789123
+  port: 50383
+  server: 45.8.113.22
+  skip-cert-verify: false
+  sni: support.zoom.us.joss.gvpn2.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.joss.gvpn2.web.id
+    path: /Free-VPN-CF-Geo-Project/JP
+- name: 14|日本4|@ripaojiedian
+  network: ws
+  password: 12345678-1234-1234-1234-123456789123
+  port: 50383
+  server: 45.8.113.22
+  sni: support.zoom.us.joss.gvpn2.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.joss.gvpn2.web.id
+    path: '%2FFree-VPN-CF-Geo-Project%2FJP'
