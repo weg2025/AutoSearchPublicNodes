@@ -1,188 +1,186 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  delay: 1279
-  name: 11|中国 - 台湾 - Kaopu Cloud HK Limit...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 38.54.107.101
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇭🇰HK
-  delay: 887
-  name: 11|中国 - 香港 - Amazon Technologies ...
-  password: 176c983f-6a7f-4a96-9865-891a6c48ec86
-  port: 50000
-  server: a001.standard-nodes-chickenfarms.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 751
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|中国 - 香港 - Alibaba (US) Technol...
+  network: http
+  port: 43307
+  server: 8.210.248.133
+  type: vmess
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
+- alterId: 0
+  cipher: auto
+  delay: 749
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /若想节点嘎嘎好用需先沐浴焚香然后给qq群938399693的群主磕800个响头(ಡωಡ)
+  name: '11|中国 - 香港 - Alibaba (US) Technol... #1'
+  network: http
+  port: 49496
+  server: 8.218.238.254
+  type: vmess
+  uuid: cb4b3605-dfcd-4100-a9a8-76df4821ee2e
+- alterId: 0
+  cipher: auto
+  delay: 2937
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - Alibaba (US) Technol... #2'
+  network: none
+  port: 43425
+  server: 8.210.248.133
+  type: vmess
+  uuid: aa10afb0-f913-4343-9c69-bc797fcba2db
+- alterId: 0
+  cipher: auto
+  delay: 751
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|中国 - 香港 - Alibaba.com LLC - 2
+  network: http
+  port: 45189
+  server: 47.242.73.27
+  type: vmess
+  uuid: f15e8eb0-beac-495c-e5b9-7d9b280a4d8f
+- country: 🇺🇸US
+  delay: 2660
+  name: 11|中国 - 香港 - Cogent Communication...
+  password: HQk9wst3vK
+  port: 52251
+  server: ip.dudeuni.com
+  skip-cert-verify: true
+  sni: ip.dudeuni.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf
   country: 🇭🇰HK
-  delay: 1212
+  delay: 550
   name: 11|中国 - 香港 - Dalian Yichuan Indus...
   password: asd123456
   port: 8388
-  server: 103.149.183.191
+  server: 103.149.182.38
   type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  delay: 382
-  name: 11,13|🇭🇰 香港2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.86
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  delay: 851
-  name: 11|中国 - 香港 - Dodo K.K. - 4
-  password: 0c2c2621-f645-408f-8fa5-e57d5bc27b6e
-  port: 28680
-  server: jp9.trumpyun.pro
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1005
-  name: 11|德国 - 法兰克福 - Play2go Internatio...
-  password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ
-  port: 2050
-  server: de1-nv.jugploer.icu
-  type: ss
-- cipher: aes-256-gcm
-  delay: 1203
-  name: 11|新加坡 - 新加坡 - Amazon.com, Inc. -...
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 11688
-  server: ss.037.node-for-bigairport.win
-  type: ss
+- delay: 2370
+  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 2434
+  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- country: 🇫🇷FR
+  delay: 1393
+  name: 11|法国 - 巴黎 - Amazon Technologies ...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.154.136
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 655
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - NetLab Global - 1
+  network: none
+  port: 19724
+  server: 154.44.14.244
+  type: vmess
+  uuid: c393d530-034b-4df7-a90d-fb4cbc553a99
 - cipher: aes-256-cfb
-  delay: 1694
+  country: 🇻🇳VN
+  delay: 1516
   name: 11|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.142
+  server: 103.186.154.244
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1851
+  country: 🇻🇳VN
+  delay: 2366
   name: 11,13|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.232
+  server: 103.186.154.182
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1579
-  name: 11|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2555
-  name: 11|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1805
-  name: 11|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.223
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1902
-  name: 11|越南 - Hải Dương - FASTLY - 14
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1326
-  name: 11|越南 - Hải Dương - FASTLY - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2851
-  name: 11|越南 - Hải Dương - FASTLY - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.177
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2346
-  name: 11|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.69
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2266
+  country: 🏁 ZZ
+  delay: 1289
   name: 11|越南 - Hải Dương - FASTLY - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.206
+  server: 103.186.155.25
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 2633
+  country: 🇻🇳VN
+  delay: 1478
   name: 11|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.15
+  server: 103.186.155.140
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1647
-  name: 11|越南 - Hải Dương - FASTLY - 5
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2122
+  country: 🇻🇳VN
+  delay: 2344
   name: 11|越南 - Hải Dương - FASTLY - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.5
+  server: 103.186.154.223
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1327
+  country: 🇻🇳VN
+  delay: 2008
   name: 11|越南 - Hải Dương - FASTLY - 7
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.153
+  server: 103.186.154.215
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1771
-  name: 11|越南 - Hải Dương - FASTLY - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.83
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2297
-  name: 11|越南 - Hải Dương - FASTLY - 9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.124
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1099
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|越南 - 河內市 - SPT - 5
+  network: http
+  port: 20003
+  server: 166.88.141.75
+  type: vmess
+  uuid: 54dfd347-68bd-4bc6-f887-f35c7bdbfa64
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -198,11 +196,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  port: 43307
+  server: 8.210.248.133
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 443
-  server: 58.152.18.226
+  server: 58.152.18.48
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -225,8 +232,8 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 18.182.16.254
+  port: 4012
+  server: 54.248.22.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -234,7 +241,7 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3093
-  server: 13.231.208.147
+  server: 18.177.146.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -242,27 +249,21 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3093
-  server: 153.121.51.29
+  server: 153.121.67.215
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: 12345678-1234-1234-1234-123456789123
-  port: 50383
-  server: 45.8.113.22
-  skip-cert-verify: false
-  sni: support.zoom.us.joss.gvpn2.web.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.gvpn2.web.id
-    path: /Free-VPN-CF-Geo-Project/JP
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: 53db9c44-94a1-4976-8682-5d1c3642058d
+  port: 10007
+  server: 14.17.71.67
+  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3901
-  server: 13.115.111.129
+  server: 160.16.233.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -270,15 +271,15 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3901
-  server: 160.16.153.13
+  server: 160.16.144.208
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 13.115.111.129
+  port: 804
+  server: 13.231.60.99
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -286,7 +287,7 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.150.76
+  server: 160.16.233.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -294,15 +295,15 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.68.250
+  server: 160.16.212.152
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 18.183.82.133
+  port: 2173
+  server: 54.46.50.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -315,6 +316,12 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇲🇾 马来西亚|@ripaojiedian
+  password: 53db9c44-94a1-4976-8682-5d1c3642058d
+  port: 10006
+  server: 14.17.71.67
+  type: ss
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -325,17 +332,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|日本4|@ripaojiedian
-  network: ws
-  password: 12345678-1234-1234-1234-123456789123
-  port: 50383
-  server: 45.8.113.22
-  sni: support.zoom.us.joss.gvpn2.web.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.gvpn2.web.id
-    path: '%2FFree-VPN-CF-Geo-Project%2FJP'
+- alterId: 0
+  cipher: auto
+  name: 14|香港2|@ripaojiedian
+  network: tcp
+  port: '43307'
+  server: 8.210.248.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
 - alterId: 0
   cipher: auto
   name: 14|美国4|@ripaojiedian
@@ -346,18 +352,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 15|HK_speednode_0002
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 15|US_speednode_0009
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
