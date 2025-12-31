@@ -1,11 +1,25 @@
 proxies:
-- delay: 2370
-  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+- delay: 710
+  name: 11,15|US_speednode_0059
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 104.19.220.22
-  skip-cert-verify: true
+  server: 172.64.229.33
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 1335
+  name: 11,15|US_speednode_0044
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.246.188
+  skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
   udp: true

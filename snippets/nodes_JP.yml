@@ -1,31 +1,81 @@
 proxies:
+- delay: 629
+  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.10
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 491
+  name: 11,15|US_speednode_0063
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 486
+  name: 11,15|US_speednode_0064
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.6
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 479
+  name: 11,15|US_speednode_0057
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 54.248.22.131
+  port: 2762
+  server: 52.194.193.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3093
-  server: 18.177.146.37
+  port: 4006
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 3093
-  server: 153.121.67.215
+  port: 1933
+  server: 160.16.150.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: 53db9c44-94a1-4976-8682-5d1c3642058d
-  port: 10007
-  server: 14.17.71.67
-  type: ss

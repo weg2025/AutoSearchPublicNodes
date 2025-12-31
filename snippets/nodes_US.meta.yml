@@ -23,15 +23,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--7
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 443
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '10|All--@IRAN_V2RAY1🇺🇸 #4'
+- name: '10|All--@IRAN_V2RAY1🇺🇸 #3'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
@@ -39,22 +31,25 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  delay: 655
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - NetLab Global - 1
-  network: none
-  port: 19724
-  server: 154.44.14.244
-  type: vmess
-  uuid: c393d530-034b-4df7-a90d-fb4cbc553a99
+- delay: 2221
+  name: 11,15|US_speednode_0045
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.233.76
+  server: 160.16.107.37
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -62,34 +57,176 @@ proxies:
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.212.152
+  server: 153.121.44.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 54.46.50.55
+  port: 1112
+  server: 18.167.99.12
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.97
+- name: 15|US_speednode_0042
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0043
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0048
+  port: 443
+  reality-opts:
+    public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+    short-id: d77c4204
+  server: us1.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0051
+  port: 443
+  reality-opts:
+    public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
+    short-id: 9613864900a8f12d
+  server: us2.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0054
+  port: 443
+  reality-opts:
+    public-key: deEvuAAA_iJigkbck4yU_UmE8d491Dqt5V49y3n3DRw
+    short-id: 0c69e956b6
+  server: us12.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0055
+  port: 443
+  reality-opts:
+    public-key: hlWe8scaGpy5T-NUM9TdgY6LOJWlKDw3uldtar0Yfls
+    short-id: 33f51b9c
+  server: us10.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- name: 15|US_speednode_0056
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0058
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0060
+  port: 443
+  reality-opts:
+    public-key: WC40e9QWe66kR6Zb1qkk9OeJBDQivKzqBczp9natHjk
+    short-id: 8b0b8e33a9ae3e
+  server: us11.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+- name: 15|US_speednode_0061
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0062
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|US_speednode_0066
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
