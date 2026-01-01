@@ -1,23 +1,59 @@
 proxies:
-- delay: 2221
-  name: 11,15|US_speednode_0045
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  delay: 825
+  name: 11|美国 - 堪薩斯城 - Nocix - 1
+  obfs: http_post
+  obfs-param: c590af9d5235.apple.com
+  password: SoftCloud
+  port: 11040
+  protocol: auth_aes128_md5
+  protocol-param: 5235:861119
+  server: relay.4.5qxpdfwcnkh0su.9ss.com.tw
+  type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 1966
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
   network: ws
-  password: 5a2c16f9
   port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  server: w12.luoli.de
+  servername: w12.luoli.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
+      HOST: w12.luoli.de
+    path: /v2ws
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2212
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 西雅圖 - Spartan Host LLC - ...
+  network: ws
+  port: 443
+  server: w10.luoli.de
+  servername: w10.luoli.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  ws-opts:
+    headers:
+      HOST: w10.luoli.de
+    path: /v2ws
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 160.16.107.37
+  server: 54.238.137.20
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -32,99 +68,8 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.167.99.12
+  port: 2173
+  server: 43.207.71.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0042
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0043
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.167.134
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0056
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.162.3
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0058
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0061
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.55.205
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0062
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.2
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 15|US_speednode_0066
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /

@@ -1,81 +1,87 @@
 proxies:
-- delay: 629
-  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
+- alterId: 0
+  cipher: auto
+  country: 🇯🇵JP
+  delay: 1226
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Alibaba Cloud LLC - ...
   network: ws
-  password: 5a2c16f9
   port: 443
-  server: 172.64.229.10
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      HOST: n1753598446.wpg27.xyz
     path: /
-- delay: 491
-  name: 11,15|US_speednode_0063
-  network: ws
-  password: 5a2c16f9
+- client-fingerprint: chrome
+  delay: 1686
+  down: 500 Mbps
+  mtu: 1350
+  name: 11|日本 - 东京 - Amazon Technologies ...
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A8069A5B-E992-44E8-917E-7246CFD19F61
   port: 443
-  server: 172.64.229.65
+  server: jp3.dexlos.com
   skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
+  sni: jp3.dexlos.com
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 486
-  name: 11,15|US_speednode_0064
-  network: ws
-  password: 5a2c16f9
+  up: 40 Mbps
+- client-fingerprint: chrome
+  delay: 1687
+  down: 500 Mbps
+  mtu: 1350
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 2
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A8069A5B-E992-44E8-917E-7246CFD19F61
   port: 443
-  server: 172.64.229.6
+  server: jp2.dexlos.com
   skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
+  sni: jp2.dexlos.com
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 479
-  name: 11,15|US_speednode_0057
-  network: ws
-  password: 5a2c16f9
+  up: 40 Mbps
+- client-fingerprint: chrome
+  delay: 1686
+  down: 500 Mbps
+  mtu: 1350
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 4
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A8069A5B-E992-44E8-917E-7246CFD19F61
   port: 443
-  server: 172.64.229.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
+  server: jp5.dexlos.com
+  skip-cert-verify: false
+  sni: jp5.dexlos.com
+  type: hysteria2
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
+  up: 40 Mbps
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
+  port: 4012
   server: 52.194.193.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 4006
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1933
-  server: 160.16.150.76
+  server: 54.238.137.20
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
+  port: 33116
+  server: 120.232.217.4
+  type: ss

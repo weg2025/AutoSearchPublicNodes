@@ -1,9 +1,39 @@
 proxies:
+- client-fingerprint: chrome
+  delay: 1678
+  down: 500 Mbps
+  mtu: 1350
+  name: 11|新加坡 - 新加坡 - Amazon Technologie...
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A8069A5B-E992-44E8-917E-7246CFD19F61
+  port: 443
+  server: sg4.dexlos.com
+  skip-cert-verify: false
+  sni: sg4.dexlos.com
+  type: hysteria2
+  udp: true
+  up: 40 Mbps
+- client-fingerprint: chrome
+  delay: 1677
+  down: 500 Mbps
+  mtu: 1350
+  name: '11|新加坡 - 新加坡 - Amazon Technologie... #1'
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: A8069A5B-E992-44E8-917E-7246CFD19F61
+  port: 443
+  server: sg5.dexlos.com
+  skip-cert-verify: false
+  sni: sg5.dexlos.com
+  type: hysteria2
+  udp: true
+  up: 40 Mbps
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3901
-  server: 160.16.107.37
+  server: 54.238.137.20
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -18,8 +48,14 @@ proxies:
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 54.238.137.20
+  port: 2673
+  server: 43.207.71.183
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
+  port: 33118
+  server: 120.232.217.4
+  type: ss
