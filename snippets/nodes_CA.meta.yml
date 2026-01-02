@@ -1,1 +1,46 @@
-proxies: []
+proxies:
+- delay: 1619
+  name: 11|加拿大 - 多伦多 - Amazon.com - 1
+  password: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+  port: 443
+  server: gy3.hdcloud.link
+  sni: gy3.hdcloud.link
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2555
+  name: 11|加拿大 - 多伦多 - Amazon.com - 2
+  password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
+  port: 443
+  server: 16.52.164.13
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 2819
+  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 15|CA_speednode_0002
+  network: ws
+  port: 8080
+  server: 198.50.119.86
+  servername: telewebion.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e2be0db4-4110-42eb-bca1-ba8df0897319
+  ws-opts:
+    headers:
+      Host: telewebion.com
+    path: /39427/Nextlife

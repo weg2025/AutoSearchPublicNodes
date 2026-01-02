@@ -1,160 +1,130 @@
 proxies:
-- delay: 1540
-  fast-open: false
-  name: 11|中国 - Anlong - Baxet Group Inc....
-  password: iI99U4nlEKwwvAHI
-  port: 42303
-  server: test123.skycon808.com
-  sni: hk19d.casacam.net
-  tfo: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇸🇬SG
-  delay: 1708
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 香港 - Alibaba (US) Technol...
-  network: ws
-  port: 443
-  server: n1761214902.wpg27.xyz
-  servername: n1761214902.wpg27.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 469e9a38-b64e-46c3-9793-234158942d3b
-  ws-opts:
-    headers:
-      HOST: n1761214902.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 869
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: '11|中国 - 香港 - Alibaba (US) Technol... #1'
-  network: http
-  port: 46524
-  server: 8.218.238.254
-  type: vmess
-  uuid: 5d564055-2b42-406b-9183-28cc63d8914a
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1700
-  h2-opts: {}
-  http-opts: {}
-  name: 11|中国 - 香港 - Alibaba Cloud LLC - ...
-  network: ws
-  port: 443
-  server: n1761214919.mv7wh.tech
-  servername: n1761214919.mv7wh.tech
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c592f040-faff-47dc-a464-9bccf2dd4e7b
-  ws-opts:
-    headers:
-      HOST: n1761214919.mv7wh.tech
-    path: /
 - cipher: chacha20-ietf
-  country: 🇭🇰HK
-  delay: 609
+  country: 🇭🇰 HK
+  delay: 2401
   name: 11|中国 - 香港 - Dalian Yichuan Indus...
   password: asd123456
   port: 8388
-  server: 103.149.182.38
+  server: 103.149.182.191
   type: ss
-- delay: 1477
-  name: 11,13,14|香港5|@ripaojiedian
+- delay: 1146
+  name: 11,13,14|香港3|@ripaojiedian
   network: tcp
-  password: BxceQaOe
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 58.152.18.147
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1226
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Alibaba Cloud LLC - ...
-  network: ws
-  port: 443
-  server: n1753598446.wpg27.xyz
-  servername: n1753598446.wpg27.xyz
+- delay: 1739
+  name: 11|中国 - 香港 - Ipxo LLC - 1
+  password: d0ef8c56-712c-4d95-bb21-11369165d684
+  port: 31101
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 762
+  name: 11|中国 - 香港 - Ipxo LLC - 3
+  password: a2e929d1-f684-40df-a4e5-15c3361e8668
+  port: 31103
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 1619
+  name: 11|加拿大 - 多伦多 - Amazon.com - 1
+  password: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+  port: 443
+  server: gy3.hdcloud.link
+  sni: gy3.hdcloud.link
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2555
+  name: 11|加拿大 - 多伦多 - Amazon.com - 2
+  password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
+  port: 443
+  server: 16.52.164.13
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 2819
+  name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: n1753598446.wpg27.xyz
+      Host: snippets.kkii.eu.org
     path: /
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 1358
-  name: 11|智利 - 圣地亚哥 - Kaopu Cloud HK Lim...
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇬BG
+  delay: 1266
+  name: 11|德国 - Frankfurt Am Main - Bayko...
+  password: VlMkRBnhzJ6coREaUurPV4G+CiwwwQRiHJf3j2SNQp6bYKIeVZMgYRkCPVJKnUA=
+  port: 443
+  server: de1.bitrixcdn.pro
   type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  delay: 825
-  name: 11|美国 - 堪薩斯城 - Nocix - 1
-  obfs: http_post
-  obfs-param: c590af9d5235.apple.com
-  password: SoftCloud
-  port: 11040
-  protocol: auth_aes128_md5
-  protocol-param: 5235:861119
-  server: relay.4.5qxpdfwcnkh0su.9ss.com.tw
-  type: ssr
 - alterId: 0
   cipher: auto
-  country: 🇯🇵JP
-  delay: 1966
+  country: 🇮🇷IR
+  delay: 1718
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
-  network: ws
-  port: 443
-  server: w12.luoli.de
-  servername: w12.luoli.de
+  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: tcp
+  port: 20363
+  server: x.mr-pinkman.blue
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  uuid: bfde09c0-e351-4d0e-8e92-00c2bcb77693
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇹IT
+  delay: 1302
+  name: 11|意大利 - 佛罗伦萨 - BrainStorm Networ...
+  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  port: 443
+  server: 176.126.83.121
+  type: ss
+- cipher: rc4-md5
+  country: 🇸🇬SG
+  delay: 1353
+  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
+  type: ss
+- delay: 1670
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: w12.luoli.de
-    path: /v2ws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2212
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 西雅圖 - Spartan Host LLC - ...
-  network: ws
-  port: 443
-  server: w10.luoli.de
-  servername: w10.luoli.de
+      Host: snippets.kkii.eu.org
+    path: //
+- delay: 1350
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  password: 23874568-c305-4c6f-bcf9-8d3800c50ba5
+  port: 35502
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      HOST: w10.luoli.de
-    path: /v2ws
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -170,23 +140,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  port: 46524
-  server: 8.218.238.254
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5d564055-2b42-406b-9183-28cc63d8914a
-- name: 13,14|香港3|@ripaojiedian
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 443
-  server: 58.152.18.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -195,39 +148,43 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 13|🇹🇼 台湾|@ripaojiedian
-  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
-  port: 33113
-  server: 59.38.114.209
-  type: ss
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4012
-  server: 52.194.193.12
+  port: 3194
+  server: 54.238.144.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 13,14|日本2|@ripaojiedian
+  network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 1933
+  server: 52.198.241.226
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 1933
-  server: 54.238.137.20
+  port: 4006
+  server: 52.198.241.226
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 13|🇯🇵 日本4|@ripaojiedian
-  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
-  port: 33116
-  server: 120.232.217.4
-  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3901
-  server: 54.238.137.20
+  server: 52.198.241.226
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -242,22 +199,16 @@ proxies:
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.207.71.183
+  port: 804
+  server: 52.198.241.226
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 13|🇸🇬 新加坡4|@ripaojiedian
-  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
-  port: 33118
-  server: 120.232.217.4
-  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 1281
-  server: 54.238.137.20
+  server: 52.198.241.226
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -272,8 +223,8 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 43.207.71.183
+  port: 1221
+  server: 3.113.31.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -287,13 +238,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 14|香港2|@ripaojiedian
-  network: tcp
-  port: '46524'
-  server: 8.218.238.254
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d564055-2b42-406b-9183-28cc63d8914a
+- name: 15|US_speednode_0018
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /

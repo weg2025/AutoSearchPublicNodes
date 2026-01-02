@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇬BG
+  delay: 1266
+  name: 11|德国 - Frankfurt Am Main - Bayko...
+  password: VlMkRBnhzJ6coREaUurPV4G+CiwwwQRiHJf3j2SNQp6bYKIeVZMgYRkCPVJKnUA=
+  port: 443
+  server: de1.bitrixcdn.pro
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 1718
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
+  network: tcp
+  port: 20363
+  server: x.mr-pinkman.blue
+  skip-cert-verify: true
+  type: vmess
+  uuid: bfde09c0-e351-4d0e-8e92-00c2bcb77693

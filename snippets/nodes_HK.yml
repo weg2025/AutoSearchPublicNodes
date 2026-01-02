@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 1358
-  name: 11|智利 - 圣地亚哥 - Kaopu Cloud HK Lim...
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
-  type: ss
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -16,28 +8,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  port: 46524
-  server: 8.218.238.254
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5d564055-2b42-406b-9183-28cc63d8914a
-- name: 13,14|香港3|@ripaojiedian
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 443
-  server: 58.152.18.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13,14|香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,13 +34,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 14|香港2|@ripaojiedian
-  network: tcp
-  port: '46524'
-  server: 8.218.238.254
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d564055-2b42-406b-9183-28cc63d8914a
