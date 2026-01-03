@@ -31,115 +31,123 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  delay: 2645
-  down: 500 Mbps
-  mtu: 1350
-  name: 11|美国 - 洛杉矶 - ZMTO Technologies O...
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A8069A5B-E992-44E8-917E-7246CFD19F61
-  port: 443
-  server: us2.dexlos.com
-  skip-cert-verify: false
-  sni: us2.dexlos.com
-  type: hysteria2
+- alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1253
+  fast-open: false
+  name: 11|美国 - 阿什本 - HostPapa - 9
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  delay: 632
+  name: 11|美国 - 達拉斯 - NTT DATA - 1
+  password: qwerREWQ@@
+  port: 37186
+  server: 140.174.52.97
+  type: ss
   udp: true
-  up: 40 Mbps
-- client-fingerprint: chrome
-  delay: 2195
-  down: 500 Mbps
-  mtu: 1350
-  name: '11|美国 - 洛杉矶 - ZMTO Technologies O... #1'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A8069A5B-E992-44E8-917E-7246CFD19F61
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 407
+  name: 11|美国 - 洛杉矶 - M247 Europe SRL - 2
+  password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
   port: 443
-  server: us4.dexlos.com
-  skip-cert-verify: false
-  sni: us4.dexlos.com
-  type: hysteria2
-  udp: true
-  up: 40 Mbps
-- client-fingerprint: chrome
-  delay: 1823
-  down: 500 Mbps
-  mtu: 1350
-  name: '11|美国 - 洛杉矶 - ZMTO Technologies O... #2'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A8069A5B-E992-44E8-917E-7246CFD19F61
-  port: 443
-  server: us5.dexlos.com
-  skip-cert-verify: false
-  sni: us5.dexlos.com
-  type: hysteria2
-  udp: true
-  up: 40 Mbps
-- client-fingerprint: chrome
-  delay: 2650
-  down: 500 Mbps
-  mtu: 1350
-  name: '11|美国 - 洛杉矶 - ZMTO Technologies O... #3'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A8069A5B-E992-44E8-917E-7246CFD19F61
-  port: 443
-  server: us6.dexlos.com
-  skip-cert-verify: false
-  sni: us6.dexlos.com
-  type: hysteria2
-  udp: true
-  up: 40 Mbps
-- client-fingerprint: chrome
-  delay: 2654
-  down: 500 Mbps
-  mtu: 1350
-  name: '11|美国 - 洛杉矶 - ZMTO Technologies O... #4'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: A8069A5B-E992-44E8-917E-7246CFD19F61
-  port: 443
-  server: us8.dexlos.com
-  skip-cert-verify: false
-  sni: us8.dexlos.com
-  type: hysteria2
-  udp: true
-  up: 40 Mbps
-- delay: 1670
-  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
+  server: 185.193.48.157
+  type: ss
+- country: 🇹🇼TW
+  delay: 1891
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  password: 9e596d5b-d786-4be2-8038-e9f9cd0bbd77
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: //
-- delay: 1350
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: 23874568-c305-4c6f-bcf9-8d3800c50ba5
+- delay: 1490
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #1'
+  password: 9ddb4f5a-4d2f-4bb9-9fe1-7210296cb146
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 1605
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #2'
+  password: b4b63464-50fe-4e8c-930f-a12d53e94c25
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 1604
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #3'
+  password: 72ea07aa-a0e8-4d62-8387-0902bfc11cba
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 1317
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #4'
+  password: 72ea07aa-a0e8-4d62-8387-0902bfc11cba
   port: 35502
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
   udp: true
+- delay: 1315
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #5'
+  password: a0c5cb9c-2753-4e79-94b3-e23fc159d370
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- delay: 1314
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #6'
+  password: b25f289d-67a8-43a5-ba2b-014f7367cd16
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2074
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 水牛城 - HostPapa - 11
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 52.198.241.226
+  server: 54.199.47.127
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
   server: 153.121.44.99
   skip-cert-verify: false
@@ -148,21 +156,47 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 3.113.31.15
+  port: 1112
+  server: 18.181.195.198
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0018
+- name: 15|US_speednode_0019
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  sni: nodes.830901.xyz
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: epge.muarua.filegear-sg.me
     path: /
+- name: 15|US_speednode_0020
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
+- name: 15|US_speednode_0021
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
