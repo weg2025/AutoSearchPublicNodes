@@ -1,22 +1,97 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 1484
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - Akamai Technologie...
-  network: tcp
-  port: 30812
-  server: 202.85.53.179
+- name: 9|新加坡
+  password: 16461a78-363c-457a-92f9-83b0a68edc37
+  port: 2056
+  server: sg3.eyucdn.xyz
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  sni: sg3.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- name: 9|SG
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 47.129.217.4
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #1'
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 47.129.224.62
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #2'
+  password: 5OiuCsPmULZ0lJwts89fegLJE
+  port: 17193
+  server: 47.129.100.149
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #3'
+  password: 5OiuCsPmULZ0lJwts89fegLJE
+  port: 17193
+  server: 52.221.210.182
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 9|新加坡1
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '9|新加坡 #1'
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2060
+  server: xjp2.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '9|SG #5'
+  password: KYIFgW1don6L8TaDBJHynafxZ0
+  port: 4763
+  server: 47.237.23.83
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #6'
+  password: XON4wZ0sXe1YaqFY2FeM7uZY4
+  port: 15221
+  server: 122.248.205.111
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #7'
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '9|SG #8'
+  password: fWydUhyG3woKe4a0kcKKKdx78
+  port: 6467
+  server: 8.219.232.60
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 52.198.241.226
+  server: 13.231.188.173
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -31,22 +106,8 @@ proxies:
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 54.249.149.192
+  port: 804
+  server: 18.163.28.248
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 15|SG_speednode_0018
-  network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.morisi.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.morisi.ggff.net
-    path: /@Marisa_kristi

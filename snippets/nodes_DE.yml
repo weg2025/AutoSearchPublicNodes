@@ -1,17 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇦UA
-  delay: 2762
-  name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
-  password: RFK38Cg7APneSB5cWDcpbm
+- name: 15|DE_speednode_0003
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
   port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇦UA
-  delay: 1370
-  name: '11|荷兰 - 阿姆斯特丹 - Matteo Martelloni... #1'
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
+  server: 193.23.197.183
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 15|DE_speednode_0004
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 8443
+  server: 178.250.187.3
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
