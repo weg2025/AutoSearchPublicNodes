@@ -1,54 +1,21 @@
 proxies:
-- country: 🇺🇸US
-  delay: 2828
-  name: 11|美国 - 達拉斯 - Dedicated.com - 3
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2325
-  name: 11|美国 - 達拉斯 - NTT DATA - 2
-  password: qwerREWQ@@
-  port: 37186
-  server: 140.174.52.97
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 1037
-  name: 11|美国 - 鳳凰城 - GSL Networks Pty LT...
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-  udp: true
-- name: 13,14|美国|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 13.231.188.173
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
-  network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 1281
-  server: 153.121.44.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 13.231.188.173
+  port: 1112
+  server: 18.177.146.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0015
+- name: 14|US_speednode_0015
   network: ws
   password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
   port: 443
@@ -61,7 +28,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: 15|US_speednode_0016
+- name: 14|US_speednode_0016
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -74,7 +41,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 15|US_speednode_0017
+- name: 14|US_speednode_0017
   network: ws
   password: 5a2c16f9
   port: 2096
