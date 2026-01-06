@@ -1,23 +1,55 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  delay: 1708
+  name: 11|埃及 - 开罗 - Kaopu Cloud HK Limit...
+  password: 0cdde695873565ee
+  port: 11205
+  server: 38.54.59.38
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2081
+  name: '11|埃及 - 开罗 - Kaopu Cloud HK Limit... #1'
+  password: 0cdde695873565ee
+  port: 11204
+  server: 38.54.59.38
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1158
+  name: 11|巴西 - Sao Paulo - Kaopu Cloud H...
+  password: 6f3fdf1a9ce11652
+  port: 11201
+  server: 154.90.60.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1433
+  name: 11|柬埔寨 - 金边 - Kaopu Cloud HK Limi...
+  password: 3b72ad57035835c7
+  port: 49693
+  server: 38.54.93.66
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13,14|HK_speednode_0007
-  network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 443
-  server: 58.152.110.104
+- alterId: 2
+  cipher: auto
+  name: 13|🇭🇰 香港2|@ripaojiedian
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 12,13|香港4|@ripaojiedian
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -25,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
@@ -35,7 +67,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

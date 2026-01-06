@@ -1,1 +1,86 @@
-proxies: []
+proxies:
+- delay: 2473
+  name: 11|英国 - 豪恩斯洛 - Cloudflare, Inc. -...
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 8443
+  server: 57.128.181.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 1302
+  name: '11|英国 - 豪恩斯洛 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 8443
+  server: 57.129.137.94
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 1641
+  name: '11|英国 - 豪恩斯洛 - Cloudflare, Inc. -... #2'
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 8443
+  server: 57.129.137.94
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 1537
+  name: '11|英国 - 豪恩斯洛 - Cloudflare, Inc. -... #3'
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: 82.145.63.59
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 2305
+  name: '11|英国 - 豪恩斯洛 - Cloudflare, Inc. -... #4'
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: 130.185.144.78
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  delay: 1359
+  name: 11|英国 - 伦敦 - OVH SAS - 1
+  password: 7a63df1a001759bf
+  port: 11201
+  server: 51.89.118.58
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2320
+  name: 11|英国 - Erith - OVH SAS - 2
+  password: e5c3f903e81d5d4e
+  port: 10013
+  server: 57.128.190.194
+  type: ss

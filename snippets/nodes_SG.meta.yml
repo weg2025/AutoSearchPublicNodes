@@ -1,5 +1,5 @@
 proxies:
-- name: 8|新加坡
+- name: 9|新加坡
   password: 16461a78-363c-457a-92f9-83b0a68edc37
   port: 2056
   server: sg3.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8|SG
+- name: 9|SG
   password: 3hszBhqVsUhqOOFWJlev6k6Tkc
   port: 22509
   server: 47.129.217.4
@@ -15,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #1'
+- name: '9|SG #1'
   password: 3hszBhqVsUhqOOFWJlev6k6Tkc
   port: 22509
   server: 47.129.224.62
@@ -23,7 +23,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #2'
+- name: '9|SG #2'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
   server: 47.129.100.149
@@ -31,7 +31,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #3'
+- name: '9|SG #3'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
   server: 52.221.210.182
@@ -39,7 +39,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 8|新加坡1
+- name: 9|新加坡1
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2055
   server: xjp1.mangshe.xyz
@@ -47,7 +47,7 @@ proxies:
   sni: xjp1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '8|新加坡 #1'
+- name: '9|新加坡 #1'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2060
   server: xjp2.mangshe.xyz
@@ -55,7 +55,7 @@ proxies:
   sni: xjp2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '8|SG #5'
+- name: '9|SG #5'
   password: KYIFgW1don6L8TaDBJHynafxZ0
   port: 4763
   server: 47.237.23.83
@@ -63,7 +63,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #6'
+- name: '9|SG #6'
   password: XON4wZ0sXe1YaqFY2FeM7uZY4
   port: 15221
   server: 122.248.205.111
@@ -71,7 +71,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #7'
+- name: '9|SG #7'
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -79,7 +79,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '8|SG #8'
+- name: '9|SG #8'
   password: fWydUhyG3woKe4a0kcKKKdx78
   port: 6467
   server: 8.219.232.60
@@ -87,19 +87,251 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 12,13|新加坡2|@ripaojiedian
+- delay: 417
+  name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    path: //
+- delay: 433
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.146.194
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 436
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.144.169
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 430
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.146.113
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 435
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.144.235
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 493
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #5'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.145.67
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 900
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: vip3.kaixincloud.top
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 996
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #7'
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 2096
+  server: vip3.kaixincloud.top
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 679
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #8'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.146.249
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 948
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #9'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.147.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 695
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #10'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.147.71
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 674
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #11'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.144.144
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 626
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #12'
+  network: ws
+  port: 443
+  server: nrtcfdns.zone.id
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- delay: 438
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #13'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.144.16
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- delay: 619
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #14'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.146.217
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- client-fingerprint: chrome
+  delay: 687
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #15'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: snippets.kkii.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /fp=chrome
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 202.181.103.246
+  server: 160.16.196.59
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 3901
+  server: 160.16.63.16
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1196
-  server: 43.199.187.111
+  port: 804
+  server: 95.40.73.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
