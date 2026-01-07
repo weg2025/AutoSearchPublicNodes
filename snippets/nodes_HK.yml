@@ -1,34 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  delay: 1708
-  name: 11|埃及 - 开罗 - Kaopu Cloud HK Limit...
-  password: 0cdde695873565ee
-  port: 11205
-  server: 38.54.59.38
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2081
-  name: '11|埃及 - 开罗 - Kaopu Cloud HK Limit... #1'
-  password: 0cdde695873565ee
-  port: 11204
-  server: 38.54.59.38
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1158
-  name: 11|巴西 - Sao Paulo - Kaopu Cloud H...
-  password: 6f3fdf1a9ce11652
+  delay: 826
+  name: 11|墨西哥 - 墨西哥城 - Kaopu Cloud HK Li...
+  password: 651df5dc8fd08d0c
   port: 11201
-  server: 154.90.60.117
+  server: 38.60.224.37
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1433
-  name: 11|柬埔寨 - 金边 - Kaopu Cloud HK Limi...
-  password: 3b72ad57035835c7
-  port: 49693
-  server: 38.54.93.66
+  delay: 1469
+  name: 11|希腊 - 雅典 - Kaopu Cloud HK Limit...
+  password: 4df2be7c6eef0ed6
+  port: 11203
+  server: 38.54.29.130
   type: ss
   udp: true
 - alterId: 2
@@ -49,6 +33,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 13,14|香港3|@ripaojiedian
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 443
+  server: 58.152.110.104
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -71,6 +63,16 @@ proxies:
   network: tcp
   port: '30807'
   server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 14|香港2|@ripaojiedian
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
   servername: ''
   tls: false
   type: vmess

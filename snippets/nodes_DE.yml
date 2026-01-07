@@ -1,166 +1,56 @@
 proxies:
-- delay: 1893
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #1'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 193.23.197.183
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-- delay: 1225
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #2'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2053
-  server: 82.117.245.125
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1610
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #3'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 8443
-  server: 85.209.132.85
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1976
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #4'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 64.188.70.20
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1817
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #5'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2053
-  server: 162.19.254.180
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1518
-  name: '11|德国 - 德赖艾希 - Cloudflare, Inc. -... #6'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 556
-  server: 194.107.126.20
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1886
-  name: 11|德国 - 杜塞尔多夫 - Cloudflare, Inc. ...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 8443
-  server: 143.20.213.100
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- cipher: aes-256-gcm
-  country: 🇩🇪DE
-  delay: 1518
-  name: 11|德国 - 杜塞尔多夫 - myLoc managed IT ...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1123
+  name: 11|德国 - 卡尔斯鲁厄 - Contabo GmbH - 4
+  password: 75782921a8e70802
+  port: 18550
+  server: 195.7.6.160
   type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1903
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
+  password: 333c4cae01f8bacf
+  port: 11201
+  server: 135.125.247.29
+  type: ss
+  udp: true
 - alterId: 0
-  cipher: chacha20-poly1305
-  delay: 1060
-  disable-sni: true
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 4
+  cipher: auto
+  client-fingerprint: ''
+  delay: 1049
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 5
   network: ws
-  port: 8080
-  server: zula.ir
-  servername: ''
-  skip-cert-verify: true
+  port: 12898
+  server: gtm1.ktmwan.net
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
   ws-opts:
     headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+      Host: baidu.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 728
+  delay: 731
   name: 11|德国 - 兰河畔林堡 - OVH SAS - 6
-  password: bb33fe67a330b3ea
+  password: cbbcbfd5330475d1
   port: 11201
-  server: 141.95.101.9
+  server: 141.95.106.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇩🇪DE
-  delay: 2725
-  name: 11|德国 - 纽伦堡 - Hetzner Online GmbH...
-  password: PuOFSnaWjl88bMhVDEfNfs
-  port: 443
-  server: 23.88.107.190
+  country: 🇫🇷FR
+  delay: 1358
+  name: 11|德国 - 萨尔布吕肯 - OVH SAS - 3
+  password: c0fb2805ee931691
+  port: 11201
+  server: 54.37.77.214
   type: ss
-- name: 15|DE_speednode_0003
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 443
-  server: 193.23.197.183
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|DE_speednode_0004
-  network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 8443
-  server: 178.250.187.3
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 1619
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss

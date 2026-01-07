@@ -63,482 +63,208 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2300
-  name: 11|美国 - 奥克顿 - OVH SAS - 4
-  password: a7f8d870c0ca04bc
-  port: 11201
-  server: 147.135.78.88
-  type: ss
-- client-fingerprint: chrome
-  delay: 1139
-  name: 11|美国 - 達拉斯 - HostPapa - 35
+- client-fingerprint: randomized
+  delay: 1546
+  name: 11|美国 - 东洛杉矶 - Cloudflare, Inc. -...
   network: ws
-  port: 8443
-  server: vip1.kaixincloud.top
-  servername: rncf.wwxgxn.cfd
+  port: 2095
+  server: www.epicgames.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  delay: 2311
+  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #1'
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1388
+  name: 11|美国 - 洛杉矶 - Akile LTD - 3
+  network: tcp
+  port: 23916
+  server: vm1.as7akp.cn
+  type: vmess
+  udp: true
+  uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+- cipher: chacha20-ietf-poly1305
+  delay: 2468
+  name: 11|美国 - 洛杉矶 - Akile LTD - 7
+  password: 177446dd-9d98-472a-a656-0375facea6e8
+  port: 17319
+  server: jpus.fastcokeasdasd.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2236
+  name: 11|美国 - 洛杉矶 - Bage Cloud LLC - 6
+  password: 177446dd-9d98-472a-a656-0375facea6e8
+  port: 37725
+  server: jpus.fastcokeasdasd.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2503
+  name: 11|美国 - 洛杉矶 - Bage Cloud LLC - 9
+  network: tcp
+  port: 20067
+  server: jpus.fastcokeasdasd.com
+  type: vmess
+  udp: true
+  uuid: 177446dd-9d98-472a-a656-0375facea6e8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ''
+  delay: 2695
+  name: 11|美国 - 洛杉矶 - FDCservers.net - 1
+  network: ws
+  port: 12885
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 388
+  name: 11|美国 - 洛杉矶 - Jinx Co., Limited -...
+  network: tcp
+  port: 12672
+  server: hk.fastcokeasdasd.com
+  type: vmess
+  udp: true
+  uuid: 177446dd-9d98-472a-a656-0375facea6e8
+- client-fingerprint: chrome
+  delay: 1148
+  name: 11|美国 - 洛杉矶 - ReliableSite.Net LL...
+  password: 2ce44386-e96c-445b-bab9-c48d1772628e
+  port: 6002
+  server: tj-us-1.aikunapp.com
   skip-cert-verify: true
+  sni: tMKSyTuu8Me9Y5lx.cn
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 462
+  name: 11|美国 - 圣克拉拉 - FDCservers.net - 1...
+  network: ws
+  port: 443
+  server: cdncdn.aikunapp.com
+  servername: r-7P6kgEN7z8GfuevY.jisu-tong.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 572a0d47-567c-4085-a2de-69cc41365a27
+  uuid: 2ce44386-e96c-445b-bab9-c48d1772628e
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: rncf.wwxgxn.cfd
-    max-early-data: 2560
-    path: /sayuri
-- delay: 1708
-  name: 11|美国 - 东洛杉矶 - Cloudflare, Inc. -...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 154.44.0.210
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 2392
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #1'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 12525
-  server: 74.48.4.205
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1701
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #2'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 104.224.181.22
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1429
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #3'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 14828
-  server: 65.49.195.163
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1239
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #4'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 21626
-  server: 23.105.199.91
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1218
-  name: '11|美国 - 东洛杉矶 - Cloudflare, Inc. -... #5'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 45.32.79.55
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  delay: 1028
-  disable-sni: false
-  name: 11|美国 - 凤凰城 - Oracle Corporation ...
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 56507
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-4.nezhasu.com
-  sni: phoenix-4.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-  version: 5
-- delay: 2208
-  name: 11|美国 - 肯特 - Cloudflare, Inc. - 3...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2087
-  server: 104.196.250.34
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 2774
-  name: 11|美国 - 迈阿密 - Cloudflare, Inc. - ...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 10010
-  server: 64.44.177.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1346
-  name: 11|美国 - 紐約 - Cloudflare, Inc. - 1...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2053
-  server: 199.119.137.77
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram@V2rayAlpha
+      Host: sg-cs.jisu-tong.com
+    max-early-data: 4096
+    path: /3022/index
 - cipher: chacha20-ietf-poly1305
-  delay: 829
-  name: 11|美国 - 圣路易斯 - Contabo Inc. - 1
-  password: 98f7aedd8adda6fe
-  port: 45995
-  server: 207.244.226.239
+  delay: 873
+  name: 11|美国 - 圣路易斯 - Contabo Inc. - 2
+  password: 90e3f0733aa4fe2b
+  port: 29551
+  server: 212.56.42.207
   type: ss
   udp: true
-- client-fingerprint: chrome
-  delay: 2554
+- client-fingerprint: randomized
+  delay: 1277
   name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
   network: ws
-  port: 443
-  server: 104.17.69.244
-  servername: snippets.kkii.eu.org
-  tls: true
+  port: 2095
+  server: cloudflare-dns.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
     path: /
-- delay: 1645
+- client-fingerprint: randomized
+  delay: 2081
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
   network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  port: 2095
+  server: www.fbi.gov
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 2249
+      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  delay: 2908
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.17.237.219
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  port: 2095
+  server: support.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
     path: /
-- delay: 1921
+- client-fingerprint: chrome
+  delay: 1914
   name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
   network: ws
-  password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 2765
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #4'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: v3.dabache.top
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 2357
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #5'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 166.62.106.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1328
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #6'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 141.193.213.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1640
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #7'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: v2.dabache.top
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 2232
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #8'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: v3.dabache.top
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 1723
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #9'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 160.153.136.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- delay: 2627
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #10'
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 45.149.12.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- client-fingerprint: chrome
-  delay: 1674
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #11'
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: snippets.kkii.eu.org
-  skip-cert-verify: true
+  port: 2053
+  server: one.dash.cloudflare.com
+  servername: news2.f1w.de5.net
   tls: true
   type: vless
   udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  delay: 1139
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #12'
-  network: ws
-  port: 2096
-  server: v2.dabache.top
-  servername: snippets.kkii.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳+@WangCai2
-- delay: 2848
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #13'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- client-fingerprint: chrome
-  delay: 1257
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #14'
-  network: ws
-  port: 443
-  server: cdn.204910.best
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 1233
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #15'
-  network: ws
-  port: 443
-  server: 104.19.49.192
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 1426
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #16'
-  network: ws
-  port: 443
-  server: 198.41.208.234
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- delay: 1804
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: 458398b0-f3b0-4cf5-b8a5-34805f995e24
-  port: 35502
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
+      Host: news2.f1w.de5.net
+    path: /proxyip=sjc.o00o.ooo
 - cipher: chacha20-ietf-poly1305
-  delay: 676
-  name: 11|美国 - 西雅圖 - Casablanca INT frac...
-  password: ef33c53f6e9e3c1b
-  port: 10026
-  server: 85.239.232.127
+  delay: 1936
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  password: 177446dd-9d98-472a-a656-0375facea6e8
+  port: 40793
+  server: jpus.fastcokeasdasd.com
   type: ss
   udp: true
-- delay: 2233
-  name: 11|美国 - Cheektowaga - Cloudflare,...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: 23.95.189.91
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- country: 🇺🇸US
-  delay: 2024
-  name: 11|美国 - San Jose - Oracle Corpora...
-  password: 6f05c238-122f-42ba-8de9-8285236287f8
-  port: 8886
-  server: 159.54.165.141
-  skip-cert-verify: true
-  sni: 159.54.165.141
-  type: trojan
-  udp: true
-- delay: 1940
-  name: 11|美国 - Secaucus - Massivegrid LT...
-  network: ws
-  port: 443
-  server: a76-4179-8a78-c8b78b3c00cb.664.qzz.io
-  servername: a76-4179-8a78-c8b78b3c00cb.664.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-  ws-opts:
-    headers:
-      Host: a76-4179-8a78-c8b78b3c00cb.664.qzz.io
-    path: /a0XhDU2Cxr9noOhn
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.196.59
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -546,54 +272,43 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.63.16
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 16.163.98.169
+  port: 3127
+  server: 43.199.160.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0015
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0026
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 45.15.127.139
+  servername: github.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ff03e357-b531-4f30-9f47-ba9b57dd384f
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0027
   port: 443
-  server: 64.181.227.82
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  server: japan.geodema.network
+  servername: japan.geodema.network
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 15|US_speednode_0016
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 15|US_speednode_0017
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 135.84.73.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
+  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
