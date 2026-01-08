@@ -1,107 +1,61 @@
 proxies:
-- name: 9|DE
-  password: 7JnRmdeMP4gsvp0nXjYofBNvsdk
-  port: 7414
-  server: 3.75.180.49
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9,10|🔸@IRAN_V2RAY1💘 #5'
-  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-  port: 2056
-  server: de.eyucdn.xyz
-  skip-cert-verify: true
-  sni: de.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: '10|🇩🇪 - DE - @freeOnlineVPN #4'
+- auth: 840fb7fa-6b60-402f-89d6-e20a464c1b60
+  client-fingerprint: chrome
+  delay: 1793
+  down: 2
+  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 3
   obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: api.kermanshahi.org
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 840fb7fa-6b60-402f-89d6-e20a464c1b60
+  port: 8443
+  server: 185.181.10.175
+  skip-cert-verify: true
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1123
-  name: 11|德国 - 卡尔斯鲁厄 - Contabo GmbH - 4
-  password: 75782921a8e70802
-  port: 18550
-  server: 195.7.6.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1903
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
-  password: 333c4cae01f8bacf
-  port: 11201
-  server: 135.125.247.29
-  type: ss
   udp: true
+  up: 2
+- auth: 5a9e798a-d5df-4e9c-8c5c-857e132d822d
+  client-fingerprint: chrome
+  delay: 2317
+  down: 2
+  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 4
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 5a9e798a-d5df-4e9c-8c5c-857e132d822d
+  port: 8443
+  server: 185.181.10.175
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
 - alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1049
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 5
+  cipher: chacha20-poly1305
+  client-fingerprint: chrome
+  delay: 1857
+  disable-sni: true
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
   network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
+  port: 8080
+  server: zula.ir
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 731
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 6
-  password: cbbcbfd5330475d1
-  port: 11201
-  server: 141.95.106.215
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 1225
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 8
-  password: 2ce44386-e96c-445b-bab9-c48d1772628e
-  port: 6002
-  server: 51.75.77.164
-  skip-cert-verify: true
-  sni: swcdn.apple.com
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 1358
-  name: 11|德国 - 萨尔布吕肯 - OVH SAS - 3
-  password: c0fb2805ee931691
-  port: 11201
-  server: 54.37.77.214
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 1619
-  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 5.188.181.201
-  type: ss
-- client-fingerprint: chrome
-  name: 15|DE_speednode_0002
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn
+- name: 15|DE_speednode_0004
   network: ws
-  port: 20531
-  server: 82.115.31.209
-  servername: miku.mikuru.ip-ddns.com
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /?ed=2048

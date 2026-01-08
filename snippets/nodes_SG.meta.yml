@@ -1,201 +1,11 @@
 proxies:
-- name: 9|新加坡
-  password: 16461a78-363c-457a-92f9-83b0a68edc37
-  port: 2056
-  server: sg3.eyucdn.xyz
-  skip-cert-verify: true
-  sni: sg3.eyucdn.xyz
-  tls: false
-  type: hysteria2
-- name: 9|SG
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 47.129.217.4
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #1'
-  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-  port: 22509
-  server: 47.129.224.62
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #2'
-  password: 5OiuCsPmULZ0lJwts89fegLJE
-  port: 17193
-  server: 47.129.100.149
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #3'
-  password: 5OiuCsPmULZ0lJwts89fegLJE
-  port: 17193
-  server: 52.221.210.182
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 9|新加坡1
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2055
-  server: xjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '9|新加坡 #1'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2060
-  server: xjp2.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '9|SG #5'
-  password: KYIFgW1don6L8TaDBJHynafxZ0
-  port: 4763
-  server: 47.237.23.83
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #6'
-  password: XON4wZ0sXe1YaqFY2FeM7uZY4
-  port: 15221
-  server: 122.248.205.111
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #7'
-  password: e7965e64-e001-4e8c-8273-39c61ff4a094
-  port: 30000
-  server: sg3.oomz.ru
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|SG #8'
-  password: fWydUhyG3woKe4a0kcKKKdx78
-  port: 6467
-  server: 8.219.232.60
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  delay: 444
-  name: 11|新加坡 - 新加坡 - Amazon Technologie...
-  password: 2ce44386-e96c-445b-bab9-c48d1772628e
-  port: 6002
-  server: aws-1.aikunapp.com
-  skip-cert-verify: true
-  sni: bootcdn.xuexi.cn
-  type: anytls
-  udp: true
-- cipher: aes-128-gcm
-  delay: 725
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 4
-  password: 177446dd-9d98-472a-a656-0375facea6e8
-  port: 43461
-  server: sgp.fastcokeasdasd.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 976
-  name: 11|新加坡 - 新加坡 - Bage Cloud LLC - 6
-  password: 177446dd-9d98-472a-a656-0375facea6e8
-  port: 29631
-  server: sgp.fastcokeasdasd.com
-  type: ss
-  udp: true
-- client-fingerprint: randomized
-  delay: 660
+- delay: 1381
   name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: randomized
-  delay: 830
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
-  network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: randomized
-  delay: 826
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: randomized
-  delay: 842
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #3'
-  network: ws
-  port: 2095
-  server: openai.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- delay: 635
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #4'
-  network: ws
-  port: 443
-  server: cucc.cloudflare.seeck.cn
-  servername: new7370.h2333.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75bc2f7a-0e6c-46ad-8639-283deaa701c3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: new7370.h2333.ggff.net
-    max-early-data: 2560
-    path: /
-- delay: 605
-  name: 11,15|SG_speednode_0024
   network: ws
   password: 97e79a62-f686-4b91-87a7-be39c9e57658
   port: 443
   server: 34.143.159.175
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: page.anjue39.qzz.io
   type: trojan
   udp: true
@@ -203,87 +13,79 @@ proxies:
     headers:
       Host: page.anjue39.qzz.io
     path: /
-- client-fingerprint: randomized
-  delay: 809
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #6'
+- client-fingerprint: chrome
+  delay: 1391
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
   network: ws
-  port: 2095
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 443
+  server: store.ubi.com
+  servername: hhgy7370.2288888.xyz
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
+      Host: hhgy7370.2288888.xyz
+    max-early-data: 2560
     path: /
-- alterId: 0
-  cipher: auto
-  delay: 365
-  name: 11|新加坡 - 新加坡 - Eons Data Communic...
-  network: tcp
-  port: 10420
-  server: sgp.fastcokeasdasd.com
-  type: vmess
-  udp: true
-  uuid: 177446dd-9d98-472a-a656-0375facea6e8
-- alterId: 0
-  cipher: auto
-  delay: 378
-  name: '11|新加坡 - 新加坡 - Eons Data Communic... #1'
-  network: tcp
-  port: 12167
-  server: sgp.fastcokeasdasd.com
-  type: vmess
-  udp: true
-  uuid: 177446dd-9d98-472a-a656-0375facea6e8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1547
-  name: 11|新加坡 - 新加坡 - FDCservers.net - 1
+- client-fingerprint: chrome
+  delay: 1515
+  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
   network: ws
-  port: 12901
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
+  port: 443
+  server: cdns.doon.eu.org
+  servername: n151.h2333.ggff.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: baidu.com
+      Host: n151.h2333.ggff.net
+    max-early-data: 2560
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇴NO
+  delay: 2319
+  name: 11|新加坡 - 新加坡 - Contabo GmbH - 1
+  password: 65e716e3d3ec1fc0
+  port: 24914
+  server: 84.247.147.61
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 845
+  delay: 2274
   name: 11|新加坡 - 新加坡 - Oracle Corporation...
-  port: 19229
-  server: 103.181.165.238
+  port: 19230
+  server: jy-sg.kunlun07dns.com
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: 60097cf8-fe03-3a17-b1f3-a86f140ce54e
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 1218
+  delay: 2512
   name: '11|新加坡 - 新加坡 - Oracle Corporation... #1'
-  port: 19232
-  server: 103.181.165.238
+  port: 19231
+  server: jy-sg.kunlun07dns.com
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: 60097cf8-fe03-3a17-b1f3-a86f140ce54e
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.116.227
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -291,43 +93,85 @@ proxies:
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 3901
-  server: 160.16.144.208
+  server: 160.16.138.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2673
-  server: 43.199.160.78
+  port: 381
+  server: 95.40.79.104
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 15|SG_speednode_0022
+- name: 15|SG_speednode_0048
   network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: ww1.allxniu.qzz.io
-  skip-cert-verify: false
+  port: 433
+  server: 8.222.81.32
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
   ws-opts:
     headers:
-      Host: ww1.allxniu.qzz.io
-    path: /?ed=2560
-- name: 15|SG_speednode_0023
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 15|SG_speednode_0049
   network: ws
   port: 443
-  server: 34.143.159.175
-  servername: tw.aniusnippets.qzz.io
-  skip-cert-verify: false
+  server: 8.219.1.88
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
   ws-opts:
     headers:
-      Host: tw.aniusnippets.qzz.io
-    path: /?ed=2560
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 15|SG_speednode_0050
+  network: ws
+  port: 8888
+  server: 47.130.35.116
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /
+- name: 15|SG_speednode_0051
+  network: ws
+  port: 2053
+  server: 178.128.59.95
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 15|SG_speednode_0052
+  network: ws
+  port: 443
+  server: 159.223.68.162
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /

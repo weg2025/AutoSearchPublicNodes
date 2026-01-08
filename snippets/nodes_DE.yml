@@ -1,56 +1,19 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1123
-  name: 11|德国 - 卡尔斯鲁厄 - Contabo GmbH - 4
-  password: 75782921a8e70802
-  port: 18550
-  server: 195.7.6.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1903
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
-  password: 333c4cae01f8bacf
-  port: 11201
-  server: 135.125.247.29
-  type: ss
-  udp: true
 - alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 1049
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 5
+  cipher: chacha20-poly1305
+  client-fingerprint: chrome
+  delay: 1857
+  disable-sni: true
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
   network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
+  port: 8080
+  server: zula.ir
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 731
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 6
-  password: cbbcbfd5330475d1
-  port: 11201
-  server: 141.95.106.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 1358
-  name: 11|德国 - 萨尔布吕肯 - OVH SAS - 3
-  password: c0fb2805ee931691
-  port: 11201
-  server: 54.37.77.214
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 1619
-  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 5.188.181.201
-  type: ss
+      Host: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn

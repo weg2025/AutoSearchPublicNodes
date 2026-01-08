@@ -1,34 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  delay: 826
-  name: 11|墨西哥 - 墨西哥城 - Kaopu Cloud HK Li...
-  password: 651df5dc8fd08d0c
+  country: 🇺🇸US
+  delay: 2861
+  name: 11|柬埔寨 - 金边 - Kaopu Cloud HK Limi...
+  password: 80bcc0874d39c391
   port: 11201
-  server: 38.60.224.37
+  server: 38.54.93.205
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1469
-  name: 11|希腊 - 雅典 - Kaopu Cloud HK Limit...
-  password: 4df2be7c6eef0ed6
-  port: 11203
-  server: 38.54.29.130
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  port: 30809
-  server: v9.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -53,7 +36,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.236
+  server: 58.152.18.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -67,13 +50,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 14|香港2|@ripaojiedian
   network: tcp
-  port: '30809'
-  server: v9.hdacd.com
+  port: '19226'
+  server: jy-hk.kunlun07dns.com
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e

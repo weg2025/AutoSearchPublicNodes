@@ -1,81 +1,17 @@
 proxies:
-- name: 9|香港
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: xg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: xg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 9|HK
-  password: 84123645-b62d-4a3b-bd74-d58ea4023c65
-  port: 44507
-  server: hk2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hk2.jueduibupao.top
-  tls: false
-  type: hysteria2
-- name: '9|HK #1'
-  password: L60nS04NhsoMpN2DDGbnMqLP8DY
-  port: 11243
-  server: 47.76.83.25
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '9|HK #2'
-  password: NjEkAYYNqFKUbrksyW1COBtdpU
-  port: 2428
-  server: 47.239.220.214
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰 HK
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: 9|🇭🇰香港
-  password: de8854c7-fa17-4266-ae18-50a9732a0c4e
-  port: 3001
-  server: hk1.1010991.xyz
-  skip-cert-verify: true
-  sni: hk1.1010991.xyz
-  tls: false
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  delay: 826
-  name: 11|墨西哥 - 墨西哥城 - Kaopu Cloud HK Li...
-  password: 651df5dc8fd08d0c
+  country: 🇺🇸US
+  delay: 2861
+  name: 11|柬埔寨 - 金边 - Kaopu Cloud HK Limi...
+  password: 80bcc0874d39c391
   port: 11201
-  server: 38.60.224.37
+  server: 38.54.93.205
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1469
-  name: 11|希腊 - 雅典 - Kaopu Cloud HK Limit...
-  password: 4df2be7c6eef0ed6
-  port: 11203
-  server: 38.54.29.130
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  port: 30809
-  server: v9.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -100,7 +36,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.25.236
+  server: 58.152.18.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -114,13 +50,69 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 14|香港2|@ripaojiedian
   network: tcp
-  port: '30809'
-  server: v9.hdacd.com
+  port: '19226'
+  server: jy-hk.kunlun07dns.com
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
+- name: 15|HK_speednode_0008
+  network: ws
+  port: 443
+  server: 47.57.182.141
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 15|HK_speednode_0009
+  network: ws
+  port: 20082
+  server: 102.134.55.53
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 15|HK_speednode_0010
+  network: ws
+  port: 443
+  server: 83.229.123.17
+  servername: gyhh2333.2288888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.2288888.xyz
+    path: /
+- name: 15|HK_speednode_0011
+  network: ws
+  port: 443
+  server: 103.234.53.238
+  servername: gyhh2333.h2333.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
+  ws-opts:
+    headers:
+      Host: gyhh2333.h2333.ggff.net
+    path: /

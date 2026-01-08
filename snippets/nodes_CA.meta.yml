@@ -1,76 +1,52 @@
 proxies:
-- client-fingerprint: randomized
-  delay: 877
+- client-fingerprint: random
+  delay: 1709
   name: 11|加拿大 - 多伦多 - Cloudflare, Inc. -...
   network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: chrome
-  delay: 1517
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
-  network: ws
-  port: 2053
-  server: china.embassy.gov.au
-  servername: news2.f1w.de5.net
+  port: 2087
+  server: 188.114.97.138
+  servername: go-79m.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 201fe852-e608-4936-b066-d9bb56b0e943
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: news2.f1w.de5.net
-    path: /proxyip=sjc.o00o.ooo
-- client-fingerprint: randomized
-  delay: 2222
+      Host: go-79m.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1811
+  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #1'
+  network: ws
+  port: 443
+  server: www.ntu.edu.sg
+  servername: hhgy7370.2288888.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: hhgy7370.2288888.xyz
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 975
   name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #2'
   network: ws
-  port: 2095
-  server: www.temu.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 443
+  server: 47.79.94.192
+  servername: n151.h2333.ggff.net
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: randomized
-  delay: 1579
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #3'
-  network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
-    path: /
-- client-fingerprint: randomized
-  delay: 1927
-  name: '11|加拿大 - 多伦多 - Cloudflare, Inc. -... #4'
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnm-fangbinxing-wcnm.workers.dev
+      Host: n151.h2333.ggff.net
+    max-early-data: 2560
     path: /

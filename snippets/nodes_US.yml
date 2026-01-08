@@ -1,102 +1,73 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 1388
-  name: 11|美国 - 洛杉矶 - Akile LTD - 3
-  network: tcp
-  port: 23916
-  server: vm1.as7akp.cn
-  type: vmess
-  udp: true
-  uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
-- cipher: chacha20-ietf-poly1305
-  delay: 2468
-  name: 11|美国 - 洛杉矶 - Akile LTD - 7
-  password: 177446dd-9d98-472a-a656-0375facea6e8
-  port: 17319
-  server: jpus.fastcokeasdasd.com
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 2261
+  name: 11|美国 - 阿什本 - Psychz Networks - 3
+  password: qwerREWQ@@
+  port: 38750
+  server: 140.174.186.5
+  tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2236
-  name: 11|美国 - 洛杉矶 - Bage Cloud LLC - 6
-  password: 177446dd-9d98-472a-a656-0375facea6e8
-  port: 37725
-  server: jpus.fastcokeasdasd.com
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 924
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 4
+  password: qwerREWQ@@
+  port: 39246
+  server: 108.181.14.35
+  tfo: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  delay: 2503
-  name: 11|美国 - 洛杉矶 - Bage Cloud LLC - 9
-  network: tcp
-  port: 20067
-  server: jpus.fastcokeasdasd.com
-  type: vmess
-  udp: true
-  uuid: 177446dd-9d98-472a-a656-0375facea6e8
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  delay: 2695
-  name: 11|美国 - 洛杉矶 - FDCservers.net - 1
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 81a5821c-b354-4c29-a4b3-3c9747cc674f
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 388
-  name: 11|美国 - 洛杉矶 - Jinx Co., Limited -...
-  network: tcp
-  port: 12672
-  server: hk.fastcokeasdasd.com
-  type: vmess
-  udp: true
-  uuid: 177446dd-9d98-472a-a656-0375facea6e8
-- cipher: chacha20-ietf-poly1305
-  delay: 873
-  name: 11|美国 - 圣路易斯 - Contabo Inc. - 2
-  password: 90e3f0733aa4fe2b
-  port: 29551
-  server: 212.56.42.207
+- cipher: rc4-md5
+  delay: 715
+  name: 11|美国 - 聖荷西 - Meteverse Limited. ...
+  password: f433ac2b27fd694f
+  port: 26524
+  server: 174.35.123.165
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1936
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
-  password: 177446dd-9d98-472a-a656-0375facea6e8
-  port: 40793
-  server: jpus.fastcokeasdasd.com
+  country: 🇺🇦UA
+  delay: 2419
+  name: 11|亚美尼亚 - Yerevan - G-Core Labs S...
+  password: e716d7bbae4bdd14
+  port: 18793
+  server: 85.90.207.104
   type: ss
-  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.144.208
-  skip-cert-verify: false
+  server: 160.16.68.250
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 381f2e86233720eacda26d50e9aa26da
   port: 1281
-  server: 160.16.116.227
+  server: 160.16.138.24
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 43.199.160.78
+  port: 1112
+  server: 18.162.123.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0080
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ts888.yumige.dpdns.org
+    path: /http://45.32.19.198:30005
