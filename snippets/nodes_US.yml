@@ -1,73 +1,33 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 2261
-  name: 11|美国 - 阿什本 - Psychz Networks - 3
-  password: qwerREWQ@@
-  port: 38750
-  server: 140.174.186.5
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 924
-  name: 11|美国 - 洛杉矶 - Psychz Networks - 4
-  password: qwerREWQ@@
-  port: 39246
-  server: 108.181.14.35
-  tfo: true
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 715
-  name: 11|美国 - 聖荷西 - Meteverse Limited. ...
-  password: f433ac2b27fd694f
-  port: 26524
-  server: 174.35.123.165
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇦UA
-  delay: 2419
-  name: 11|亚美尼亚 - Yerevan - G-Core Labs S...
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
+  delay: 997
+  name: 11|美国 - 奧蘭治堡 - Contabo Inc. - 1
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
   type: ss
+  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
+  password: 61d8077bfb174e171b8283f155a555ad
   port: 1281
-  server: 160.16.68.250
-  skip-cert-verify: true
+  server: 160.16.87.174
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
+  password: 61d8077bfb174e171b8283f155a555ad
   port: 1281
-  server: 160.16.138.24
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 18.162.123.56
+  port: 4569
+  server: 43.198.110.101
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0080
-  network: ws
-  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
-  port: 2096
-  server: www.shopify.com
-  skip-cert-verify: true
-  sni: ts888.yumige.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ts888.yumige.dpdns.org
-    path: /http://45.32.19.198:30005

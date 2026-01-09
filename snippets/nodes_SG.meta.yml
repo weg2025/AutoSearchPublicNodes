@@ -1,128 +1,76 @@
 proxies:
-- delay: 1381
+- client-fingerprint: randomized
+  delay: 1231
   name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: true
-  sni: page.anjue39.qzz.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
-- client-fingerprint: chrome
-  delay: 1391
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
-  network: ws
-  port: 443
-  server: store.ubi.com
-  servername: hhgy7370.2288888.xyz
-  tls: true
+  port: 2095
+  server: www.wto.org
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vless
-  udp: true
-  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: hhgy7370.2288888.xyz
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1515
-  name: '11|新加坡 - 新加坡 - Cloudflare, Inc. -... #2'
-  network: ws
-  port: 443
-  server: cdns.doon.eu.org
-  servername: n151.h2333.ggff.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: f5837d40-b8ce-45ea-8b1a-dfda963cee9b
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: n151.h2333.ggff.net
-    max-early-data: 2560
+      Host: cnmfangbinxing-nmsl.cnm-fangbinxing-nmsl.workers.dev
     path: /
 - cipher: chacha20-ietf-poly1305
-  country: 🇳🇴NO
-  delay: 2319
-  name: 11|新加坡 - 新加坡 - Contabo GmbH - 1
-  password: 65e716e3d3ec1fc0
-  port: 24914
-  server: 84.247.147.61
+  country: 🇭🇰HK
+  delay: 1485
+  name: 11,13|🇸🇬 新加坡4|@ripaojiedian
+  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
+  port: 18017
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
   type: ss
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h2
+  - http/1.1
   client-fingerprint: chrome
-  delay: 2274
-  name: 11|新加坡 - 新加坡 - Oracle Corporation...
-  port: 19230
-  server: jy-sg.kunlun07dns.com
+  delay: 2425
+  name: 11|新加坡 - 新加坡 - Tempest Hosting, L...
+  password: c43ad036-c91f-4b42-91dc-72120bc51112
+  port: 12002
+  server: sg.lyhycloud.org
   skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
+  sni: www.bing.com
+  type: anytls
   udp: true
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 2512
-  name: '11|新加坡 - 新加坡 - Oracle Corporation... #1'
-  port: 19231
-  server: jy-sg.kunlun07dns.com
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  delay: 863
+  name: '11|新加坡 - 新加坡 - Tempest Hosting, L... #1'
+  password: c43ad036-c91f-4b42-91dc-72120bc51112
+  port: 35601
+  server: gw.liangyuandianwan.com
+  type: ss
   udp: true
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
+  password: 61d8077bfb174e171b8283f155a555ad
   port: 3901
-  server: 160.16.68.250
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 3901
-  server: 160.16.138.24
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 3076
+  server: 160.16.72.33
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 381
-  server: 95.40.79.104
+  port: 3127
+  server: 54.250.46.5
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 15|SG_speednode_0048
-  network: ws
-  port: 433
-  server: 8.222.81.32
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
-- name: 15|SG_speednode_0049
+- name: 15|SG_speednode_0012
   network: ws
   port: 443
-  server: 8.219.1.88
+  server: 8.223.63.150
   servername: gyhh2333.2288888.xyz
   skip-cert-verify: true
   tls: true
@@ -132,46 +80,4 @@ proxies:
   ws-opts:
     headers:
       Host: gyhh2333.2288888.xyz
-    path: /
-- name: 15|SG_speednode_0050
-  network: ws
-  port: 8888
-  server: 47.130.35.116
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
-- name: 15|SG_speednode_0051
-  network: ws
-  port: 2053
-  server: 178.128.59.95
-  servername: gyhh2333.2288888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.2288888.xyz
-    path: /
-- name: 15|SG_speednode_0052
-  network: ws
-  port: 443
-  server: 159.223.68.162
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
     path: /

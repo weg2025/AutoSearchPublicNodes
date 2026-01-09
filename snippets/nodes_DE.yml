@@ -1,19 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: chacha20-poly1305
-  client-fingerprint: chrome
-  delay: 1857
-  disable-sni: true
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 2
-  network: ws
-  port: 8080
-  server: zula.ir
-  servername: ''
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 2016
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
+  password: 1wCx73jegQqB0vxKdWONJH
+  port: 21318
+  server: 194.59.183.1
+  type: ss
+- name: 15|DE_speednode_0002
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.66.94.128
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 15|DE_speednode_0003
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.66.94.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
