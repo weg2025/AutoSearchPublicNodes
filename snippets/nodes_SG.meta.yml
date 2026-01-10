@@ -1,83 +1,42 @@
 proxies:
-- client-fingerprint: randomized
-  delay: 1231
+- client-fingerprint: chrome
+  delay: 398
   name: 11|新加坡 - 新加坡 - Cloudflare, Inc. -...
   network: ws
-  port: 2095
-  server: www.wto.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  tls: true
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cnmfangbinxing-nmsl.cnm-fangbinxing-nmsl.workers.dev
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇭🇰HK
-  delay: 1485
-  name: 11,13|🇸🇬 新加坡4|@ripaojiedian
-  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-  port: 18017
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 2425
-  name: 11|新加坡 - 新加坡 - Tempest Hosting, L...
-  password: c43ad036-c91f-4b42-91dc-72120bc51112
-  port: 12002
-  server: sg.lyhycloud.org
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 863
-  name: '11|新加坡 - 新加坡 - Tempest Hosting, L... #1'
-  password: c43ad036-c91f-4b42-91dc-72120bc51112
-  port: 35601
-  server: gw.liangyuandianwan.com
-  type: ss
-  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 3901
-  server: 160.16.87.174
+  port: 544
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 3076
-  server: 160.16.72.33
+  port: 544
+  server: 160.16.150.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3127
-  server: 54.250.46.5
+  port: 3579
+  server: 3.112.254.143
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 15|SG_speednode_0012
-  network: ws
-  port: 443
-  server: 8.223.63.150
-  servername: gyhh2333.2288888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.2288888.xyz
-    path: /

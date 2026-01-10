@@ -1,17 +1,33 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 997
-  name: 11|美国 - 奧蘭治堡 - Contabo Inc. - 1
-  password: 5d8680180abdb564
-  port: 45234
-  server: 154.53.34.27
+- cipher: aes-128-gcm
+  delay: 796
+  name: 11|美国 - 紐約 - Datacamp Limited - 1
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇲AM
+  delay: 1913
+  name: 11|亚美尼亚 - Yerevan - G-Core Labs S...
+  password: e716d7bbae4bdd14
+  port: 18792
+  server: 85.90.207.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇲AM
+  delay: 1746
+  name: '11|亚美尼亚 - Yerevan - G-Core Labs S... #1'
+  password: e716d7bbae4bdd14
+  port: 18791
+  server: 85.90.207.104
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
-  port: 1281
-  server: 160.16.87.174
+  port: 5076
+  server: 160.16.57.238
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -27,7 +43,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 43.198.110.101
+  server: 43.199.60.168
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
