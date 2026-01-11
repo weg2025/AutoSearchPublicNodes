@@ -1,13 +1,40 @@
 proxies:
-- auth: xtGIM7iEx9
-  delay: 2166
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  obfs: salamander
-  obfs-password: KLSADFIU43#$
-  password: xtGIM7iEx9
-  port: 8443
-  server: 91.107.190.166
+- client-fingerprint: chrome
+  delay: 2026
+  name: 10|德国 - 埃斯滕费尔德 - Florian Kolb - 2
+  network: ws
+  port: 443
+  server: 5.10.214.5
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
   skip-cert-verify: true
-  sni: dash.cloudflare.com
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
+- client-fingerprint: chrome
+  delay: 2846
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
+  network: ws
+  port: 2053
+  server: singapore.com
+  servername: ss1.f1w.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: ss1.f1w.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- cipher: aes-256-cfb
+  delay: 1815
+  name: 10|挪威 - 桑德尔福德 - TERRAHOST - 1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
+  type: ss
   udp: true

@@ -1,51 +1,18 @@
 proxies:
-- auth: 274691f9-e6c0-46ff-82f2-3a9062872a04
-  delay: 1504
-  name: 11|韩国 - 春川市 - Oracle Corporation ...
-  obfs: salamander
-  obfs-password: MKsqfibVxwhZ3pCf
-  password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-  port: 42574
-  ports: 40000-50000
-  server: kr1.miyazono-kaori.com
-  skip-cert-verify: false
-  sni: kr1.miyazono-kaori.com
-  type: hysteria2
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 1414
-  name: 11,13|🇰🇷 韩国|@ripaojiedian
+  delay: 2566
+  name: 10,12|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 28860
-  server: 168.126.234.233
+  port: 51978
+  server: 168.126.234.247
   tfo: true
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 1355
-  name: 11|韩国 - Gwacheon - SK Broadband C...
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 1380
-  name: '11|韩国 - Gwacheon - SK Broadband C... #1'
-  password: qwerREWQ@@
-  port: 45833
-  server: 221.139.79.20
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 2112
-  name: '11|韩国 - Gwacheon - SK Broadband C... #2'
+  delay: 524
+  name: 10|韩国 - Gwacheon - SK Broadband C...
   password: qwerREWQ@@
   port: 41240
   server: 221.139.79.41
@@ -54,26 +21,11 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 1980
-  name: 11|韩国 - Songpa-gu - SK Broadband ...
+  delay: 678
+  name: 10|韩国 - Jungnang-gu - SK Broadban...
   password: qwerREWQ@@
-  port: 39502
-  server: 218.38.103.150
+  port: 4483
+  server: 218.234.149.9
   tfo: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0011
-  network: ws
-  port: 15546
-  server: 1.236.186.119
-  servername: mot.makuyo.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.makuyo.dpdns.org
-    path: /@Marisa_kristi
