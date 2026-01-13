@@ -1,40 +1,35 @@
 proxies:
-- auth: 95870471-35e7-4d46-869d-2f8e571df70a
-  delay: 1597
-  down: 2
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 1
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 95870471-35e7-4d46-869d-2f8e571df70a
-  port: 8443
-  server: 185.181.10.175
+- name: 9|DE
+  password: a084933d-0b41-4571-ae0c-7163b8c71ed1
+  port: 2056
+  server: de.eyucdn.xyz
   skip-cert-verify: true
+  sni: de.eyucdn.xyz
+  tls: false
   type: hysteria2
-  udp: true
-  up: 2
-- auth: 16d717f7-2e86-4011-ad8b-e1e9c044ecd3
-  delay: 2307
-  down: 2
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 2
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 16d717f7-2e86-4011-ad8b-e1e9c044ecd3
-  port: 8443
-  server: 185.181.10.175
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1742
+  h2-opts: {}
+  http-opts: {}
+  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
+  network: ws
+  port: 8080
+  server: zula.ir
+  servername: nasnet-511952424.mcitel.co
   skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 2
-- auth: 02110901-8929-4024-8744-38eb25ba0cc2
-  delay: 2768
-  down: 100
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 3
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 02110901-8929-4024-8744-38eb25ba0cc2
-  port: 8443
-  server: 185.181.10.175
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      HOST: nasnet-511952424.mcitel.co
+    path: /nasnet/cdn?ed=2560
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  delay: 1662
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 5.188.181.201
+  type: ss

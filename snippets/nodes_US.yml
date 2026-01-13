@@ -1,32 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 876
-  name: 11|美国 - 洛杉矶 - Dedicated.com - 1
-  password: dIyqSVd6ghgAD0nDhQ1Qq8
-  port: 443
-  server: 216.105.168.18
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1841
-  name: 11|美国 - 沃尔纳特 - NTT DATA - 2
-  password: qwerREWQ@@
-  port: 37186
-  server: 140.174.52.97
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1404
-  name: 11|亚美尼亚 - Yerevan - G-Core Labs S...
-  password: 6c325435b2176c2d
-  port: 18790
-  server: 85.90.207.104
+  country: 🇷🇺RU
+  delay: 2809
+  name: 11|美国 - Secaucus - WorkTitans B.V...
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
   type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
-  server: 160.16.81.84
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -41,8 +26,8 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.125.94
+  port: 2173
+  server: 18.163.194.227
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

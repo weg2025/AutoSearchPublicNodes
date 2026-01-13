@@ -1,112 +1,25 @@
 proxies:
-- client-fingerprint: chrome
-  delay: 1518
-  name: 11|美国 - 东洛杉矶 - Cloudflare, Inc. -...
-  network: ws
-  port: 443
-  server: 104.21.227.134
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 876
-  name: 11|美国 - 洛杉矶 - Dedicated.com - 1
-  password: dIyqSVd6ghgAD0nDhQ1Qq8
-  port: 443
-  server: 216.105.168.18
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  delay: 2941
-  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
-  network: ws
-  port: 443
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- alpn:
-  - h3
-  client-fingerprint: random
-  delay: 1147
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #1'
-  network: ws
-  port: 443
-  server: 37.0.6.46
-  servername: snippet.danfeng.frii.site
-  tls: true
-  type: vless
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.frii.site
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2505
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #2'
-  network: ws
-  port: 2053
-  server: one.dash.cloudflare.com
-  servername: freesni.zjde5.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: freesni.zjde5.de5.net
-    path: /proxyip=sjc.o00o.ooo
-- client-fingerprint: chrome
-  delay: 1882
-  name: '11|美国 - 聖荷西 - Cloudflare, Inc. - ... #3'
-  network: ws
-  port: 2053
-  server: cfxr.eu.org
-  servername: freesni.zjde5.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: freesni.zjde5.de5.net
-    path: /proxyip=sjc.o00o.ooo
+- name: 9|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
-  delay: 1841
-  name: 11|美国 - 沃尔纳特 - NTT DATA - 2
-  password: qwerREWQ@@
-  port: 37186
-  server: 140.174.52.97
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1404
-  name: 11|亚美尼亚 - Yerevan - G-Core Labs S...
-  password: 6c325435b2176c2d
-  port: 18790
-  server: 85.90.207.104
+  country: 🇷🇺RU
+  delay: 2809
+  name: 11|美国 - Secaucus - WorkTitans B.V...
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
   type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
-  server: 160.16.81.84
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -121,78 +34,66 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.125.94
+  port: 2173
+  server: 18.163.194.227
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0012
-  port: 443
-  reality-opts:
-    public-key: _TIQSjojgpdSBoSVXuQjFSqIdPeXjQIQkM5cFSv6Gnc
-    short-id: 9613864900a8f12d
-  server: us2.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0013
-  port: 443
-  reality-opts:
-    public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
-    short-id: d77c4204
-  server: us1.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0014
-  port: 33873
-  reality-opts:
-    public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
-    short-id: de550428
-  server: 139.144.199.41
-  servername: www.nokia.com
+  name: 15|US_speednode_0012
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
-- client-fingerprint: ios
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 15|US_speednode_0013
+  network: ws
+  port: 443
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0014
+  network: ws
+  port: 443
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 15|US_speednode_0015
   port: 443
   reality-opts:
-    public-key: deEvuAAA_iJigkbck4yU_UmE8d491Dqt5V49y3n3DRw
-    short-id: 0c69e956b6
-  server: us12.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: 1ed136481e0ede74
+  server: 142.91.106.176
+  servername: japan.geodema.network
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: WC40e9QWe66kR6Zb1qkk9OeJBDQivKzqBczp9natHjk
-    short-id: 8b0b8e33a9ae3e
-  server: us11.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+  uuid: a11ab9c5-4155-430b-9efc-7a7122531382
