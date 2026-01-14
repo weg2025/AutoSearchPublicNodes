@@ -1,21 +1,43 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  delay: 2809
-  name: 11|美国 - Secaucus - WorkTitans B.V...
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 194.116.173.21
+- cipher: chacha20-ietf-poly1305
+  delay: 2124
+  name: 10|美国 - 奥克顿 - OVH SAS - 3
+  password: a7f8d870c0ca04bc
+  port: 11201
+  server: 147.135.78.88
   type: ss
-- name: 13,14|美国|@ripaojiedian
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2841
+  name: 10|美国 - 奧蘭治堡 - Contabo Inc - 2
+  password: e9983c0bf58bc749
+  port: 26409
+  server: 154.53.38.145
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1889
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - HostPapa - 1
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
-  server: 160.16.124.55
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
   port: 5076
@@ -23,11 +45,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 18.163.194.227
+  port: 1112
+  server: 13.113.239.128
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

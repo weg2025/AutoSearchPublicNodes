@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,29 +7,69 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1742
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
-  network: ws
-  port: 8080
-  server: zula.ir
-  servername: nasnet-511952424.mcitel.co
+- auth: 70fd646c-fabd-4a2e-be96-af8c645bc3de
+  delay: 1687
+  down: 100
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 1...
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 70fd646c-fabd-4a2e-be96-af8c645bc3de
+  port: 8443
+  server: 83.229.86.174
   skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 56840fb2-d426-4e29-bd21-b23c8b648cdc
+  delay: 2583
+  down: 2
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 2
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 56840fb2-d426-4e29-bd21-b23c8b648cdc
+  port: 8443
+  server: 83.229.86.174
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
+- auth: 18b38f26-b1ec-478e-af3c-07d4cad5565e
+  delay: 1981
+  down: 2
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 3
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 18b38f26-b1ec-478e-af3c-07d4cad5565e
+  port: 8443
+  server: 83.229.86.174
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
+- auth: 34aaf4bc-327b-4d2c-9693-722461a054fb
+  delay: 1248
+  down: 100
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 4
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 34aaf4bc-327b-4d2c-9693-722461a054fb
+  port: 8443
+  server: 83.229.86.174
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- name: 14|DE_speednode_0004
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      HOST: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn?ed=2560
-- cipher: aes-256-cfb
-  country: 🇪🇸ES
-  delay: 1662
-  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
-  password: VcFuyXvND2yQWSFY
-  port: 9054
-  server: 5.188.181.201
-  type: ss
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /?ed=2048

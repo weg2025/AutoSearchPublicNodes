@@ -1,5 +1,5 @@
 proxies:
-- name: 9|SG
+- name: 8|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,40 +7,66 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 13,14|新加坡|@ripaojiedian
-  network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 3901
-  server: 153.121.65.107
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 544
-  server: 160.16.124.55
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 381
-  server: 16.163.104.139
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|SG_speednode_0010
-  port: 25863
-  reality-opts:
-    public-key: LLou1BsPSrrNXOJOb7-YZ159F_MAdrTSmP8loWG6GhE
-  server: 146.190.89.69
-  servername: aws.amazon.com
-  skip-cert-verify: false
+  delay: 374
+  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1100
+  name: '10|新加坡 - 新加坡 - Cloudflare, Inc. -... #1'
+  network: ws
+  port: 443
+  server: vip3.kaixincloud.top
+  servername: cornsilk.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 58f206da-752d-4750-a2ac-b72d0cab8032
+  uuid: d15305f0-ad4f-4424-88d5-53e0b593fbe4
+  ws-opts:
+    headers:
+      Host: cornsilk.qzz.io
+    path: /134.195.137.107:22473
+- cipher: aes-128-gcm
+  country: 🇨🇳CN
+  delay: 1529
+  name: 10,12|🇸🇬 新加坡4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 25819
+  server: 223.95.183.132
+  type: ss
+- name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 3076
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 544
+  server: 160.16.106.99
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 1196
+  server: 18.163.206.7
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
