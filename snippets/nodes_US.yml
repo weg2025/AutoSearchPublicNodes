@@ -1,55 +1,102 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 2124
-  name: 10|美国 - 奥克顿 - OVH SAS - 3
-  password: a7f8d870c0ca04bc
-  port: 11201
-  server: 147.135.78.88
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2841
-  name: 10|美国 - 奧蘭治堡 - Contabo Inc - 2
-  password: e9983c0bf58bc749
-  port: 26409
-  server: 154.53.38.145
-  type: ss
-  udp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1889
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 達拉斯 - HostPapa - 1
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
+  delay: 1576
+  name: 11|美国 - 洛杉矶 - Akile LTD - 4
+  port: 47084
+  server: tunnel1.qqa678.com
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|美国|@ripaojiedian
+  udp: true
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- cipher: aes-128-gcm
+  delay: 2854
+  name: 11|美国 - 洛杉矶 - HostPapa - 9
+  password: beddd73b-ed90-4e76-8a30-492384220878
+  port: 23382
+  server: 8.138.92.143
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1465
+  name: 11|美国 - 圣路易斯 - Contabo Inc. - 1
+  password: 98f7aedd8adda6fe
+  port: 45995
+  server: 207.244.226.239
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 1670
+  name: 11|美国 - 圣路易斯 - Contabo Inc. - 2
+  password: 90e3f0733aa4fe2b
+  port: 29551
+  server: 212.56.42.207
+  type: ss
+- client-fingerprint: chrome
+  delay: 2124
+  name: 11|美国 - 聖荷西 - Eons Data Communica...
   network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 84afd818-e363-479a-ba59-9d7e802fb2aa
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 1601
+  name: '11|美国 - 聖荷西 - Eons Data Communica... #1'
+  network: tcp
+  password: 115eff94-b83e-4853-b11e-34a59e47eebc
+  port: 35502
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 904
+  name: 11|美国 - Secaucus - WorkTitans B.V...
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
+- name: 13,14|美国|@ripaojiedian
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
   port: 5076
   server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
+  password: 4843e94d205f3893f588255a591abe94
   port: 5076
   server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 13.113.239.128
+  port: 2173
+  server: 13.192.183.185
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0041
+  network: ws
+  password: k52nemqqdx9e
+  port: 8443
+  server: 172.64.145.38
+  skip-cert-verify: true
+  sni: 8end0fr.zjde5.de5.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 8end0fr.zjde5.de5.net
+    path: /?ed=2560
