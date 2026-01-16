@@ -1,13 +1,41 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 1966
-  name: 11|英国 - 伦敦 - Contabo Asia Private...
-  password: ac81d5eb1ee96e1e
-  port: 10010
-  server: 46.250.253.50
-  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1038
+  name: 11|英国 - 倫敦金融城 - xTom GmbH - 2
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 6032
+  server: pro-fw-uk1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: pro-fw-uk1.fishchipsexpress.com
+  type: trojan
   udp: true
-- name: 15|GB_speednode_0011
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1023
+  name: 11|英国 - 倫敦金融城 - xTom GmbH - 3
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 465
+  server: pro-uk1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: pro-uk1.fishchipsexpress.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2296
+  name: 11|英国 - 朴次茅斯 - Cogent Communicati...
+  password: 2602101eff2c9250
+  port: 26138
+  server: 149.102.144.110
+  type: ss
+- name: 15|GB_speednode_0007
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -21,7 +49,20 @@ proxies:
     headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 15|GB_speednode_0010
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|GB_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
+  server: 38.60.196.27
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
+- name: 15|GB_speednode_0009
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -35,27 +76,13 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 15|GB_speednode_0012
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: KhAmeneI.DPdNs.OrG
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - client-fingerprint: firefox
-  name: 15|GB_speednode_0015
+  name: 15|GB_speednode_0011
   port: 587
   reality-opts:
     public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
     short-id: 916e8258c4a01b02
-  server: england.torprospeed.ir
+  server: turkiye.torprospeed.ir
   servername: excoino.com
   skip-cert-verify: false
   tls: true

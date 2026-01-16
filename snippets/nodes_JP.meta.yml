@@ -6,73 +6,99 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  delay: 506
+  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 512
+  name: '11|日本 - 成田市 - Cloudflare, Inc. - ... #1'
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 421
-  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
-  network: ws
-  port: 80
-  server: 151.101.3.8
+  delay: 1279
+  name: 11|日本 - 东京 - Akile LTD - 5
+  network: tcp
+  port: 49303
+  server: cees.owwoedu.com
   tls: false
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-- cipher: aes-128-gcm
-  delay: 1477
-  name: 11,13|🇯🇵 日本4|@ripaojiedian
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 26334
-  server: 223.95.183.132
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2039
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Awesomecloud Limited...
-  network: none
-  port: 53046
-  server: 103.160.100.140
-  skip-cert-verify: true
   type: vmess
-  uuid: d0bfd418-0575-49a8-de55-38dd7fa72b6f
+  udp: true
+  uuid: 5aa4437b-e03c-453e-a81f-0a3516eec742
 - cipher: aes-128-gcm
-  delay: 2544
+  delay: 2167
   name: 11|日本 - 东京 - BrainStorm Network, ...
   password: b637f2e47b7827b308ebf399008075d2
   port: 53596
   server: 223.95.183.132
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 582
+  name: 11|日本 - 東京都 - Virtual Hosting - 2
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 465
+  server: pro-jp2.crabyakiniku.com
+  skip-cert-verify: true
+  sni: pro-jp2.crabyakiniku.com
+  type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 43.206.227.6
+  server: 13.115.245.96
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 4006
-  server: 160.16.72.205
+  port: 1933
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 1933
-  server: 160.16.72.205
+  port: 4006
+  server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26334
+  server: 223.95.183.132
+  type: ss

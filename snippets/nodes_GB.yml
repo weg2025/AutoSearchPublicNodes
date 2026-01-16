@@ -1,9 +1,37 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 1966
-  name: 11|英国 - 伦敦 - Contabo Asia Private...
-  password: ac81d5eb1ee96e1e
-  port: 10010
-  server: 46.250.253.50
-  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1038
+  name: 11|英国 - 倫敦金融城 - xTom GmbH - 2
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 6032
+  server: pro-fw-uk1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: pro-fw-uk1.fishchipsexpress.com
+  type: trojan
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1023
+  name: 11|英国 - 倫敦金融城 - xTom GmbH - 3
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 465
+  server: pro-uk1.fishchipsexpress.com
+  skip-cert-verify: true
+  sni: pro-uk1.fishchipsexpress.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2296
+  name: 11|英国 - 朴次茅斯 - Cogent Communicati...
+  password: 2602101eff2c9250
+  port: 26138
+  server: 149.102.144.110
+  type: ss

@@ -1,26 +1,45 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇨🇳CN
-  delay: 916
-  name: 11|新加坡 - 新加坡 - Akile LTD - 1
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 39398
-  server: 223.95.183.132
-  type: ss
-- cipher: aes-128-gcm
-  delay: 1028
-  name: 11|新加坡 - 新加坡 - Shenzhen Tencent C...
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 45295
-  server: 223.95.183.132
+- cipher: aes-256-gcm
+  delay: 1198
+  name: 11|新加坡 - 新加坡 - Baxet Group Inc. -...
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
   skip-cert-verify: false
   type: ss
   udp: false
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1159
+  name: 11|新加坡 - 新加坡 - xTom Pty Ltd - 1
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 6031
+  server: pro-fw-sg1.dimsumyumcha.com
+  skip-cert-verify: true
+  sni: pro-fw-sg1.dimsumyumcha.com
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  delay: 1266
+  name: 11|新加坡 - 新加坡 - xTom Pty Ltd - 2
+  network: tcp
+  password: 8jJVmFbM7qKnR3bSXX
+  port: 465
+  server: pro-sg1.dimsumyumcha.com
+  skip-cert-verify: true
+  sni: pro-sg1.dimsumyumcha.com
+  type: trojan
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3901
-  server: 160.16.124.17
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -28,18 +47,19 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 544
-  server: 160.16.132.38
+  server: 160.16.130.21
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 13,14,15|US_speednode_0036
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 43.199.73.206
+  port: 3579
+  server: 54.46.50.46
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: 13|🇸🇬 新加坡4|@ripaojiedian
   password: b637f2e47b7827b308ebf399008075d2
