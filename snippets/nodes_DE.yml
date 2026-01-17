@@ -1,46 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1568
-  h2-opts: {}
-  http-opts: {}
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
-  network: ws
-  port: 8080
-  server: zula.ir
-  servername: nasnet-511952424.mcitel.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      HOST: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 1471
-  name: 11|德国 - Frankfurt Am Main - xTom ...
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 5221
-  server: pro-fw-de1.eisbeinhock.com
-  skip-cert-verify: true
-  sni: pro-fw-de1.eisbeinhock.com
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 911
-  name: '11|德国 - Frankfurt Am Main - xTom ... #1'
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 465
-  server: pro-de1.eisbeinhock.com
-  skip-cert-verify: true
-  sni: pro-de1.eisbeinhock.com
-  type: trojan
+- cipher: aes-256-cfb
+  delay: 1272
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  delay: 985
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 2
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss

@@ -1,86 +1,45 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 1039
-  name: 11|美国 - 聖荷西 - xTom - 1
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 6021
-  server: pro-fw-us1.barbecuepie.com
-  skip-cert-verify: true
-  sni: pro-fw-us1.barbecuepie.com
-  type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 1040
-  name: 11|美国 - 聖荷西 - xTom - 2
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 6022
-  server: pro-fw-us2.barbecuepie.com
-  skip-cert-verify: true
-  sni: pro-fw-us2.barbecuepie.com
-  type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 929
-  name: 11|美国 - 聖荷西 - xTom - 3
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 465
-  server: pro-us1.barbecuepie.com
-  skip-cert-verify: true
-  sni: pro-us1.barbecuepie.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  delay: 1275
+  name: 11|美国 - 奧蘭治堡 - Contabo Inc - 1
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
+  type: ss
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 923
-  name: 11|美国 - 聖荷西 - xTom - 4
-  network: tcp
-  password: 8jJVmFbM7qKnR3bSXX
-  port: 465
-  server: pro-us2.barbecuepie.com
-  skip-cert-verify: true
-  sni: pro-us2.barbecuepie.com
-  type: trojan
+- cipher: aes-128-gcm
+  delay: 1087
+  name: 11|美国 - 洛杉矶 - WAP.AC LTD - 8
+  password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47
+  plugin: obfs
+  plugin-opts:
+    host: 9962b9147f2651d984febb6ba061f477.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  delay: 1480
-  name: 11|美国 - 西雅圖 - Zhejiang Aiyun Netw...
-  network: tcp
-  password: a5b56a8c-93d1-4c74-a882-7bc0c983c096
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  delay: 1869
+  name: 11|美国 - 希尔斯伯勒 - OVH SAS - 2
+  password: f96d6b42e30595dc
+  port: 11201
+  server: 15.204.28.84
+  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 2090
-  name: 11|美国 - 芝加哥 - Zhejiang Aiyun Netw...
-  network: tcp
-  port: 49312
-  server: cees.owwoedu.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fb3b9b15-9149-4fef-8812-3630601c40ed
+- cipher: rc4-md5
+  country: 🇺🇸US
+  delay: 2140
+  name: 11|美国 - 芝加哥 - Datacamp Limited - ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.105.192
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -88,28 +47,15 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.85.33
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.199.172.151
+  port: 4569
+  server: 18.162.188.208
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0047
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
