@@ -1,5 +1,5 @@
 proxies:
-- name: 9|JP
+- name: 8|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
@@ -8,7 +8,7 @@ proxies:
   type: hysteria2
 - cipher: aes-256-gcm
   delay: 2234
-  name: 11|日本 - 东京 - Baxet Group Inc. - 1
+  name: 10|日本 - 东京 - Baxet Group Inc. - 1
   password: vEY+Etsv/KTEM3vq
   port: 8388
   server: 167.17.179.87
@@ -17,32 +17,46 @@ proxies:
 - cipher: aes-256-gcm
   country: 🇨🇦CA
   delay: 1288
-  name: 11|日本 - 东京 - Baxet Group Inc. - 2
+  name: 10,12|🇯🇵 日本4|@ripaojiedian
   password: 0690659746980c46
   port: 20291
   server: 167.17.179.197
   type: ss
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2053
-  server: 52.195.185.240
+  port: 2595
+  server: 43.206.194.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 1933
-  server: 160.16.87.174
+  port: 3423
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 160.16.87.174
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0018
+  port: 443
+  reality-opts:
+    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
+    short-id: e33013f4
+  server: 188.253.16.31
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43135731-165e-4064-872e-7e9447fbebfb

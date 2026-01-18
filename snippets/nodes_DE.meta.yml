@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -10,7 +10,7 @@ proxies:
 - auth: 8fcf53f6-7087-4825-8b44-1e22c51bd299
   delay: 1452
   down: 100
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 2
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 2
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: 8fcf53f6-7087-4825-8b44-1e22c51bd299
@@ -23,7 +23,7 @@ proxies:
 - auth: 5470f09a-8c99-4aff-9646-dc2339ac70e1
   delay: 1262
   down: 100
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 3
+  name: 10|德国 - 巴特基辛根 - Georg Kroeber - 3
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: 5470f09a-8c99-4aff-9646-dc2339ac70e1
@@ -35,29 +35,43 @@ proxies:
   up: 100
 - cipher: aes-256-cfb
   delay: 1272
-  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  name: 10|西班牙 - 马德里 - Melbikomas UAB - 1
   password: dU3DSNS8wYPXzEKw
   port: 9029
   server: 5.188.181.201
   type: ss
 - cipher: aes-256-cfb
   delay: 985
-  name: 11|西班牙 - 马德里 - Melbikomas UAB - 2
+  name: 10|西班牙 - 马德里 - Melbikomas UAB - 2
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 5.188.181.201
   type: ss
-- name: 15|DE_speednode_0003
-  network: ws
-  port: 20531
-  server: 82.115.31.209
-  servername: miku.mikuru.ip-ddns.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0004
+  port: 443
+  reality-opts:
+    public-key: THd83pRAiz68QKKNCzCdj3hvVq9Wy7NIFeIk1WjRJ1c
+    short-id: 15cdd4ff88310cf0
+  server: 196.240.57.74
+  servername: desrv.fasti.win
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 7005f499-036f-4570-a2a1-29761cfbbd9e
+- name: 14|DE_speednode_0005
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
     headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /?ed=2048
