@@ -1,62 +1,111 @@
 proxies:
-- name: 8|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  delay: 2234
-  name: 10|日本 - 东京 - Baxet Group Inc. - 1
-  password: vEY+Etsv/KTEM3vq
-  port: 8388
-  server: 167.17.179.87
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇦CA
-  delay: 1288
-  name: 10,12|🇯🇵 日本4|@ripaojiedian
-  password: 0690659746980c46
-  port: 20291
-  server: 167.17.179.197
-  type: ss
-- name: 12,13|日本|@ripaojiedian
+- client-fingerprint: chrome
+  delay: 430
+  encryption: none
+  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 536
+  encryption: none
+  name: '11|日本 - 成田市 - Cloudflare, Inc. - ... #1'
+  network: ws
+  port: 443
+  server: 162.159.45.232
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 532
+  encryption: none
+  name: '11|日本 - 成田市 - Cloudflare, Inc. - ... #2'
+  network: ws
+  port: 2096
+  server: 172.64.229.220
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2631
+  name: 11|日本 - 东京 - Komi LLC - 4
+  network: tcp
+  password: 65762559-4288-4b42-b7ea-edf80342415d
+  port: 37473
+  server: 123001.wdy88.com
+  skip-cert-verify: true
+  sni: v1.kwaicdn.com
+  type: trojan
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2595
-  server: 43.206.194.122
+  port: 26378
+  server: 13.114.104.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 3423
-  server: 160.16.70.180
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 153.121.51.29
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|JP_speednode_0018
-  port: 443
-  reality-opts:
-    public-key: KX1PfrASrflF1Ra1TcjujnOAK-4sPiEVDSfAPS1DAl8
-    short-id: e33013f4
-  server: 188.253.16.31
-  servername: yahoo.com
+  name: 15|JP_speednode_0017
+  network: ws
+  port: 10086
+  server: 103.232.213.136
+  servername: zybs.worker.ddns-ip.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 43135731-165e-4064-872e-7e9447fbebfb
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi

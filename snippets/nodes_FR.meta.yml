@@ -1,21 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 1410
-  name: 10|法国 - 巴黎 - Amazon Technologies ...
-  password: amazonskr05
-  port: 443
-  server: 13.38.30.95
-  type: ss
-- cipher: aes-128-gcm
-  delay: 2441
-  name: 10|法国 - 巴黎 - OVH SAS - 3
-  password: be1c6eab-3d70-4cf0-ae9a-b3175c7dfb47
-  plugin: obfs
-  plugin-opts:
-    host: 9962b9147f2651d984febb6ba061f477.baidu.com
-    mode: http
-  port: 36611
-  server: gd.bjnet2.com
-  type: ss
+- country: 🇫🇷FR
+  delay: 1515
+  name: 11|法国 - 巴黎 - Amazon Technologies ...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.169.109
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
