@@ -6,6 +6,14 @@ proxies:
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
+- cipher: rc4-md5
+  country: 🇺🇸US
+  delay: 1319
+  name: 11|阿拉伯联合酋长国 - 迪拜 - Kaopu Cloud HK...
+  password: b13c4c021cec2c0b
+  port: 11201
+  server: 154.90.55.15
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|🇭🇰 香港|@ripaojiedian
@@ -19,23 +27,23 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 443
-  server: 58.152.18.247
+  server: 58.152.18.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 54.95.183.161
+  port: 443
+  server: 218.250.156.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 54.238.101.170
+  port: 4650
+  server: 18.166.15.25
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -49,18 +57,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|HK_speednode_0013
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 15|HK_speednode_0014
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.124
-  skip-cert-verify: true
-  type: trojan
-  udp: true

@@ -7,77 +7,32 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- auth: 003b6a3f-4bff-46f7-a515-73c734a24dd7
-  delay: 1511
-  down: 2
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 1
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 003b6a3f-4bff-46f7-a515-73c734a24dd7
-  port: 8443
-  server: 85.209.53.178
-  skip-cert-verify: true
-  type: hysteria2
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  delay: 1598
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1222
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 2
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|DE_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
+  server: 185.94.29.250
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  up: 2
-- auth: 6940dd69-25c5-46b8-822a-63944e2cbd6f
-  delay: 2307
-  down: 2
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 2
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 6940dd69-25c5-46b8-822a-63944e2cbd6f
-  port: 8443
-  server: 85.209.53.178
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 2
-- auth: 30e50044-1bb7-4f5a-8110-2c1127653ce5
-  delay: 1955
-  down: 100
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 3
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 30e50044-1bb7-4f5a-8110-2c1127653ce5
-  port: 8443
-  server: 85.209.53.178
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 3b796665-a343-4226-8908-b025fd95fc4f
-  delay: 1338
-  down: 100
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 4
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 3b796665-a343-4226-8908-b025fd95fc4f
-  port: 8443
-  server: 85.209.53.178
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 772bf9bf-7808-4933-a9c1-1b9f4f41c1e2
-  delay: 2048
-  down: 2
-  name: 11|德国 - 巴特基辛根 - Georg Kroeber - 5
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 772bf9bf-7808-4933-a9c1-1b9f4f41c1e2
-  port: 8443
-  server: 85.209.53.178
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 2
-- delay: 2815
-  name: 11|德国 - 纽伦堡 - netcup GmbH - 6
-  password: 047590b8-37ea-4702-b1fa-d80f184dabe9
-  port: 10002
-  server: 152.53.191.55
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
