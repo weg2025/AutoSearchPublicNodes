@@ -1,19 +1,44 @@
 proxies:
-- name: 14|美国|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 1504
+  name: 11|美国 - 圣路易斯 - Contabo Inc. - 2
+  password: 90e3f0733aa4fe2b
+  port: 29551
+  server: 212.56.42.207
+  type: ss
+- cipher: rc4-md5
+  delay: 1693
+  name: 11|美国 - 聖荷西 - Meteverse Limited. ...
+  password: f433ac2b27fd694f
+  port: 26524
+  server: 174.35.123.165
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 2518
+  name: 11|美国 - Ashburn - Amazon.com, Inc...
+  password: amazonskr05
+  port: 443
+  server: 18.212.222.123
+  type: ss
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.89.176
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
   server: 160.16.81.84
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 14|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2173
@@ -21,29 +46,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0037
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
-- name: 15|US_speednode_0039
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
