@@ -45,16 +45,16 @@ proxies:
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2053
-  server: 54.238.172.125
+  port: 2762
+  server: 13.114.168.40
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 2053
-  server: 54.238.172.125
+  port: 4006
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -62,7 +62,22 @@ proxies:
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
-  server: 160.16.89.176
+  server: 160.16.105.192
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0030
+  network: ws
+  port: 34606
+  server: 45.143.235.209
+  servername: ccffllyy.1412.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
+  ws-opts:
+    headers:
+      Host: ccffllyy.1412.me
+    path: /?ed=2048
