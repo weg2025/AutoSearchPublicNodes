@@ -1,6 +1,34 @@
 proxies:
+- cipher: aes-256-cfb
+  delay: 783
+  name: 10|法国 - 巴黎 - Online S.A.S. - 1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.119.77
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 2616
+  http-opts: {}
+  name: 10|法国 - 斯特拉斯堡 - velia.net Interne...
+  network: tcp
+  port: 30835
+  server: 202.85.53.205
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- delay: 2129
+  name: 10|法国 - Lauterbourg - Contabo Gmb...
+  port: 1080
+  server: 185.194.217.97
+  skip-cert-verify: true
+  type: socks5
+  udp: true
 - client-fingerprint: random
-  name: 15|FR_speednode_0018
+  name: 14|FR_speednode_0018
   port: 50511
   reality-opts:
     public-key: Mz0OqGiU1O1s9cYbJ94zcpdmUskGBAt-r1DKKKEDwFA
