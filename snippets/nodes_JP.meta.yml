@@ -1,5 +1,5 @@
 proxies:
-- name: 8|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
@@ -7,16 +7,15 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  delay: 2607
-  encryption: none
-  name: 10|日本 - 成田市 - Cloudflare, Inc. - ...
+  delay: 986
+  name: 11|日本 - 成田市 - Cloudflare, Inc. - ...
   network: ws
   port: 443
-  server: 162.159.45.232
+  server: 162.159.44.142
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
@@ -24,71 +23,63 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 397
-  encryption: none
-  name: '10|日本 - 成田市 - Cloudflare, Inc. - ... #1'
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /x-aniu/
-- alterId: 64
+- alterId: 0
   cipher: auto
-  delay: 1261
-  name: 10|日本 - Chiyoda City - CTG Server...
-  port: 59952
-  server: 103.181.165.145
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  delay: 751
+  name: 11|日本 - 东京 - Akile LTD - 1
+  network: tcp
+  port: 47083
+  server: tunnel2.qqa678.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 12,13|日本|@ripaojiedian
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1917
+  name: 11,14|日本4|@ripaojiedian
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 18.176.57.17
+  port: 3760
+  server: 54.250.244.16
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 3423
-  server: 160.16.132.38
+  port: 1933
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 4006
-  server: 160.16.132.38
+  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 14|JP_speednode_0030
-  network: ws
-  port: 34606
-  server: 45.143.235.209
-  servername: ccffllyy.1412.me
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵 日本4|@ripaojiedian
+  port: 47083
+  server: tunnel1.qqa678.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76636b35-e926-4b10-8336-c0d0c48a42b8
-  ws-opts:
-    headers:
-      Host: ccffllyy.1412.me
-    path: /?ed=2048
+  tls: false
+  type: vmess
+  uuid: 0e497122-8ee0-44fe-b7be-6c5de6cf938b
