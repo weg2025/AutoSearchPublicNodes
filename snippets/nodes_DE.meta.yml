@@ -7,16 +7,14 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  delay: 2161
-  http-opts:
+- http-opts:
     headers:
       Host:
       - www.speedtest.net
     method: GET
     path:
     - /
-  name: 11,15|DE_speednode_0008
+  name: 15|DE_speednode_0008
   network: http
   port: 443
   server: 152.53.33.43
@@ -26,25 +24,6 @@ proxies:
   type: vless
   udp: true
   uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 2201
-  name: 11|德国 - Frankfurt Am Main - Hetzn...
-  network: ws
-  port: 443
-  server: hell1.tawana.lookanet.codes
-  servername: Emergency.electrov2ray.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb7e22f-5196-45f5-cfc4-969b3e41f554
-  ws-opts:
-    headers:
-      Host: Emergency.electrov2ray.store
-    path: /
 - alpn:
   - h3
   - h2
