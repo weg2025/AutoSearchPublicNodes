@@ -2,38 +2,21 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
   delay: 1758
-  name: 11|英国 - City of London - Microsof...
+  name: 11,13|🇬🇧 英国|@ripaojiedian
   password: kaQH3hGdcP80XEDI
   port: 443
   server: admin.c2.havij.co
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0012
-  port: 443
-  reality-opts:
-    public-key: HerZfkes2tFtduXTu7Ybx2aBjxVm_xoiDU4E-kMWpxw
-  server: 8.208.27.141
-  servername: static.cloud.coveo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- name: 15|GB_speednode_0010
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 31687
+  server: 185.245.83.41
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
   udp: true
-  uuid: a5e872dd-8d1d-4d89-83ac-ac1e13d38912
-- http-opts:
+  ws-opts:
     headers:
-      Host:
-      - excoino.com
-    method: GET
-    path:
-    - /
-  name: 15|GB_speednode_0013
-  network: http
-  port: 42536
-  server: uk.aparat-movies-download.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: bfcb732f-87ab-4879-bcb7-357c4129acb3
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
