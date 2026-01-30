@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,36 +7,29 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  delay: 2414
-  name: 11|德国 - 兰河畔林堡 - OVH SAS - 1
+- client-fingerprint: chrome
+  delay: 2929
+  name: 10|德国 - 德赖艾希 - Cloudflare, Inc. -...
   network: ws
-  port: 8080
-  server: 172.67.204.84
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nasnet-511952424.mcitel.co
-    path: /nasnet/cdn
-- http-opts:
-    headers:
-      Host:
-      - www.speedtest.net
-    method: GET
-    path:
-    - /
-  name: 15|DE_speednode_0007
-  network: http
-  port: 443
-  server: 152.53.33.43
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: false
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.gfw.nn.kg
+  tls: true
   type: vless
   udp: true
-  uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.gfw.nn.kg
+    max-early-data: 2560
+    path: /danfeng
+- country: 🇩🇪DE
+  delay: 1885
+  name: 10|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.28.25.58
+  skip-cert-verify: true
+  type: trojan
+  udp: true
