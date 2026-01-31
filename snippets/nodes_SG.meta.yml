@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 9|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,44 +7,65 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  delay: 1170
-  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  port: 443
-  server: 104.18.33.181
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /
-- name: 12,13|新加坡|@ripaojiedian
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1614
+  h2-opts: {}
+  http-opts: {}
+  name: 11,14|新加坡4|@ripaojiedian
+  network: tcp
+  port: '30845'
+  server: v45.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 638
+  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 14120
+  server: g9ffk1q2.gura.lol
+  type: ss
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
-  server: 153.121.38.213
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 544
-  server: 160.16.138.24
+  port: 3076
+  server: 153.121.65.107
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1691
-  server: 43.199.207.224
+  server: 95.40.115.216
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|SG_speednode_0021
+  port: 443
+  reality-opts:
+    public-key: iOmM3Jbv9gtQd5XLbPDioqVmyxKehF5rHaRnji46V0k
+    short-id: 29192a87641c
+  server: sg2.miyazono-kaori.com
+  servername: floenergy.sg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99

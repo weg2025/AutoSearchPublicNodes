@@ -1,192 +1,964 @@
 proxies:
-- country: 🇩🇪DE
-  delay: 1885
-  name: 10|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.28.25.58
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 965
+  name: 11|波兰 - 华沙 - G-Core Labs S.A. - 1
+  password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA
+  port: 41348
+  server: 89.223.93.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 591
+  name: 11|德国 - 法兰克福 - Global Connectivit...
+  password: FBVL3DEfpEg2CW79sqCFGF
+  port: 7048
+  server: 62.133.60.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 1372
+  name: '11|德国 - 法兰克福 - Global Connectivit... #1'
+  password: axf4OyJ0_AC6VvDlB-Qz8Q
+  port: 1080
+  server: 62.133.60.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇩🇪 DE
+  delay: 2138
+  http-opts: {}
+  name: 11|德国 - 法兰克福 - Oracle Corporation...
+  network: ws
+  port: 443
+  server: frankfurt02.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
+  ws-path: /
+- cipher: aes-256-cfb
+  country: 🇭🇰 HK
+  delay: 926
+  name: 11|哥伦比亚 - 波哥大 - Kaopu Cloud HK Li...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇦CA
+  delay: 732
+  name: 11|加拿大 - Beauharnois - OVH SAS - ...
+  password: 8d90009fa5023cfa
+  port: 11201
+  server: 148.113.143.102
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 2491
+  name: 11,13|🇯🇵 日本4|@ripaojiedian
+  port: 47083
+  server: tunnel1.qqa678.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 668
+  name: 11|日本 - 东京 - Alice Networks LTD -...
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 39539
+  server: g9ffk1q2.gura.lol
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 642
+  name: '11|日本 - 东京 - Alice Networks LTD -... #1'
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 32598
+  server: g9ffk1q2.gura.lol
+  type: ss
+- country: 🇮🇷 IR
+  delay: 815
+  name: 11|日本 - 东京 - Skyspark Hosting LLC...
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 684
+  name: 11|日本 - Narashino Shi - Internet ...
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 32595
+  server: g9ffk1q2.gura.lol
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 1518
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1614
+  h2-opts: {}
+  http-opts: {}
+  name: 11,14|新加坡4|@ripaojiedian
+  network: tcp
+  port: '30845'
+  server: v45.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 638
+  name: 11|新加坡 - 新加坡 - Akari Networks Lim...
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 14120
+  server: g9ffk1q2.gura.lol
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 506
+  name: 11|越南 - Hải Dương - FASTLY - 1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1112
+  name: 11|越南 - Hải Dương - FASTLY - 10
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.71
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1545
+  name: 11|越南 - Hải Dương - FASTLY - 11
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.204
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 2752
+  name: 11|越南 - Hải Dương - FASTLY - 12
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.212
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 523
+  name: 11|越南 - Hải Dương - FASTLY - 13
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.139
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1051
+  name: 11|越南 - Hải Dương - FASTLY - 14
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.45
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 496
+  name: 11|越南 - Hải Dương - FASTLY - 15
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 2109
+  name: 11|越南 - Hải Dương - FASTLY - 16
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1517
+  name: 11|越南 - Hải Dương - FASTLY - 17
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.230
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1557
+  name: 11|越南 - Hải Dương - FASTLY - 18
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.221
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 495
+  name: 11|越南 - Hải Dương - FASTLY - 2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.207
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 496
+  name: 11|越南 - Hải Dương - FASTLY - 3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.240
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1118
+  name: 11|越南 - Hải Dương - FASTLY - 4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.154
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 522
+  name: 11|越南 - Hải Dương - FASTLY - 5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.182
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 514
+  name: 11|越南 - Hải Dương - FASTLY - 6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1164
+  name: 11|越南 - Hải Dương - FASTLY - 7
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.109
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 569
+  name: 11|越南 - Hải Dương - FASTLY - 8
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 537
+  name: 11|越南 - Hải Dương - FASTLY - 9
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.244
+  type: ss
 - alterId: 0
   cipher: auto
-  delay: 1488
-  name: 10|美国 - 洛杉矶 - Datacamp Limited - ...
-  port: 180
-  server: 82.198.246.97
+  delay: 1240
+  name: 11|中国 - 广州市 - China Mobile - 23
+  port: 59003
+  server: 183.236.51.36
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  delay: 1038
-  name: 10|越南 - Hải Dương - FASTLY - 1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.193
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- delay: 330
+  name: 11|中国 - 台湾 - Akile LTD - 8
+  password: 10fa52b0-b447-49cc-8334-d73589b6917f
+  port: 22231
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2891
-  name: 10|越南 - Hải Dương - FASTLY - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.140
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 587
+  name: 11|中国 - 香港 - Alice Networks LTD -...
+  password: 266f4c29-f6b3-4c98-b36b-19312c2f1736
+  port: 45174
+  server: g9ffk1q2.gura.lol
   type: ss
-- cipher: aes-256-cfb
-  delay: 1200
-  name: 10|越南 - Hải Dương - FASTLY - 3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1978
-  name: 10|越南 - Hải Dương - FASTLY - 4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.132
-  type: ss
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 2205
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|中国 - 香港 - Alibaba (US) Technol...
-  network: http
-  port: 43307
-  server: 8.210.248.133
-  type: vmess
-  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
-- alterId: 0
-  cipher: auto
-  delay: 2466
+  delay: 1416
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 香港 - Alibaba.com LLC - 2
-  network: none
-  port: 52190
-  server: 47.242.192.233
+  name: 11|中国 - 香港 - PCCW IMS Limited - 1
+  network: ws
+  port: 80
+  server: 4a37f18c-t9ops0-tipjoa-1slop.hkt.gotochinatown.net
   type: vmess
-  uuid: 98689724-deb2-4a3d-b83b-602221995baf
-- alterId: 0
+  udp: true
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
   cipher: auto
-  delay: 2060
+  country: 🇭🇰HK
+  delay: 1819
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|中国 - 香港 - Alibaba.com LLC - 3
-  network: http
-  port: 34659
-  server: 47.242.192.233
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 1...
+  network: ws
+  port: 80
+  server: 2240720f-t70f40-t95ncr-1slop.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
   type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1914
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #1'
+  network: ws
+  port: 80
+  server: 50db9a43-t8v340-tbe46y-1la7v.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1157
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #2'
+  network: ws
+  port: 80
+  server: 2a9cc89a-t70f40-t7hjku-1rgxu.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 894
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #3'
+  network: ws
+  port: 80
+  server: 7c31dbe6-t9mv40-tipjoa-1slop.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1589
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #4'
+  network: ws
+  port: 80
+  server: f5514da0-t70f40-tc9wl2-py5w.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1694
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #5'
+  network: ws
+  port: 80
+  server: 53218d67-t9mv40-taksay-1tcuf.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 830
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #6'
+  network: ws
+  port: 80
+  server: f528d5d0-t4jj40-t5zlva-1mqag.hkt.gotochinatown.net
+  servername: f528d5d0-t4jj40-t5zlva-1mqag.hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: f528d5d0-t4jj40-t5zlva-1mqag.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2127
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #7'
+  network: ws
+  port: 80
+  server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2002
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #8'
+  network: ws
+  port: 80
+  server: 30a3bbd2-t8lts0-tbe46y-1la7v.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 561
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 1... #9'
+  network: ws
+  port: 80
+  server: 24a3f1e7-t8ysg0-ta00rd-1o8ak.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 477
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 2
+  network: ws
+  port: 80
+  server: a9f49859-t8pj40-tbe46y-1la7v.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1592
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 2...
+  network: ws
+  port: 80
+  server: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2186
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #1'
+  network: ws
+  port: 80
+  server: af16aa6b-t8wxs0-tcdlur-1qwom.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2004
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #2'
+  network: ws
+  port: 80
+  server: 3550c067-t9mv40-trftb1-1psmw.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2171
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #3'
+  network: ws
+  port: 80
+  server: 3d0c52fb-t70f40-t7v83h-1kcpe.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 494
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #4'
+  network: ws
+  port: 80
+  server: e41077bf-t70f40-t7bo2t-1psmw.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2915
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #5'
+  network: ws
+  port: 80
+  server: f88be12b-t8lts0-t9jrlv-1atkp.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2959
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #6'
+  network: ws
+  port: 80
+  server: d2f78cba-t8nog0-tbe46y-1la7v.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 667
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 2... #7'
+  network: ws
+  port: 80
+  server: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 359
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 3
+  network: ws
+  port: 80
+  server: 011b0339-t8ysg0-tc9wl2-py5w.hkt.gotochinatown.net
+  type: vmess
+  udp: true
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 670
+  name: 11|中国 - 香港 - PCCW IMS Limited - 3...
+  network: ws
+  port: 80
+  server: 8eebce18-t9ops0-thvc3p-1o4kv.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 684
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #1'
+  network: ws
+  port: 80
+  server: 38d53567-t8lts0-t9lc3n-z93q.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 674
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #2'
+  network: ws
+  port: 80
+  server: 73e58f9d-t9ops0-tc9wl2-py5w.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 679
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #3'
+  network: ws
+  port: 80
+  server: d0cdc1f2-t94cg0-tc9wl2-py5w.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 671
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #4'
+  network: ws
+  port: 80
+  server: 073aaff0-t8rds0-tcdlur-1qwom.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 679
+  h2-opts: {}
+  http-opts: {}
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #5'
+  network: ws
+  port: 80
+  server: 3f637c17-t94cg0-tcuz7t-1ta58.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 668
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #6'
+  network: ws
+  port: 80
+  server: 16b420c1-t9ops0-taksay-1tcuf.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 683
+  name: '11|中国 - 香港 - PCCW IMS Limited - 3... #7'
+  network: ws
+  port: 80
+  server: 353eaf79-t9ops0-ta00rd-1o8ak.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 1526
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 4
+  network: ws
+  port: 80
+  server: f32429b1-t9sf40-ta00rd-1o8ak.hkt.gotochinatown.net
+  type: vmess
+  udp: true
+  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 1292
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 5
+  network: ws
+  port: 80
+  server: 638087a6-t9sf40-ta7ccz-1j0a4.hkt.gotochinatown.net
+  type: vmess
+  udp: true
+  uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 1014
+  name: 11|中国 - 香港 - PCCW IMS Limited - 6
+  network: ws
+  port: 80
+  server: 9629ed93-t9ops0-ta7ccz-1j0a4.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  delay: 1326
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 7
+  network: ws
+  port: 80
+  server: 16f7c89b-t9sf40-tb4whp-zn8y.hkt.gotochinatown.net
+  type: vmess
+  udp: true
+  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 883
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - PCCW IMS Limited - 9
+  network: ws
+  port: 80
+  server: c6094d2e-t70f40-t7kytf-1mqag.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 13|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港2|@ripaojiedian
-  port: 34659
-  server: 47.242.192.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-- name: 12,13|香港3|@ripaojiedian
+- name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
   server: 58.152.110.210
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 43.207.157.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 12,13|香港5|@ripaojiedian
+- name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 54.249.137.88
+  server: 54.178.100.75
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12,13|日本|@ripaojiedian
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 54.249.137.88
+  port: 3760
+  server: 54.178.100.75
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 1933
-  server: 57.180.246.207
+  port: 3423
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 4006
-  server: 43.207.157.137
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
+  port: 3423
   server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 544
-  server: 160.16.138.24
+  port: 3076
+  server: 153.121.65.107
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1691
-  server: 43.199.207.224
+  server: 95.40.115.216
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 491
@@ -194,7 +966,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 491
@@ -202,17 +974,41 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1112
-  server: 52.195.175.115
+  port: 2173
+  server: 95.40.115.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 13|香港|@ripaojiedian
+  name: 13,14|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|🇸🇬 新加坡4|@ripaojiedian
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 14|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -222,11 +1018,26 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 13|香港2|@ripaojiedian
+  name: 14|日本4|@ripaojiedian
   network: tcp
-  port: '34659'
-  server: 47.242.192.233
+  port: '47083'
+  server: tunnel1.qqa678.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- name: 15|CN_speednode_0003
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 15|CN_speednode_0004
+  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
+  port: 43533
+  server: faq1.lieerr222.cn
+  skip-cert-verify: true
+  sni: faq1.lieerr222.cn
+  type: trojan
+  udp: true
