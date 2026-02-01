@@ -1,9 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇦CA
-  delay: 732
-  name: 11|加拿大 - Beauharnois - OVH SAS - ...
-  password: 8d90009fa5023cfa
-  port: 11201
-  server: 148.113.143.102
-  type: ss
+- country: 🇨🇦CA
+  delay: 2027
+  name: 11|加拿大 - 多伦多 - Oracle Corporation...
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
+  type: trojan
+  udp: true

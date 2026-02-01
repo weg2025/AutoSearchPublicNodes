@@ -1,9 +1,136 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 869
+  name: 11|美国 - 阿什本 - Psychz Networks - 2
+  password: qwerREWQ@@
+  port: 41632
+  server: 140.174.186.5
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2490
+  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 1411
+  name: 11|美国 - 洛杉矶 - Psychz Networks - 1
+  password: qwerREWQ@@
+  port: 30723
+  server: 108.181.14.35
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1830
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - Sharktech - 4
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  delay: 994
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  network: ws
+  port: 443
+  server: cg1c14.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 886
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 圣克拉拉 - DigitalOcean, LLC ... #1'
+  network: ws
+  port: 443
+  server: 157.230.153.13
+  servername: cg1c11.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d0563aa0-8fdd-481e-bf8a-ae3923c540b5
+  ws-opts:
+    headers:
+      HOST: cg1c11.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1329
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 西雅圖 - Spartan Host Ltd - ...
+  network: ws
+  port: 443
+  server: w10.luoli.de
+  servername: w10.luoli.de
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  ws-opts:
+    headers:
+      HOST: w10.luoli.de
+    path: /v2ws
+- country: 🇬🇧GB
+  delay: 1146
+  name: 11|美国 - 西雅圖 - Zhejiang Aiyun Netw...
+  password: 355bb83d-ccc1-41c7-a23f-226c3eaceae9
+  port: 41275
+  server: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1785
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - Acton - Sharktech - 5
+  network: ws
+  port: 443
+  server: cg1c07.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    path: /api/v1/graphql
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 43.207.157.137
+  port: 5076
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -11,7 +138,7 @@ proxies:
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 491
-  server: 57.180.246.207
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -19,7 +146,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2173
-  server: 95.40.115.216
+  server: 43.198.83.39
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
