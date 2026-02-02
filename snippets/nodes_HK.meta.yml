@@ -1,51 +1,21 @@
 proxies:
-- name: 9| HK
+- name: 8| HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 2013
-  name: 11|阿曼 - 马斯喀特 - Kaopu Cloud HK Lim...
-  password: 2272de48c53e0a57
-  port: 11201
-  server: 154.205.147.237
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1554
-  h2-opts: {}
-  http-opts: {}
-  name: 11|马来西亚 - 吉隆坡 - Kaopu Cloud HK Li...
-  network: tcp
-  port: 2052
-  server: ml0724.ysds168.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 718
-  name: 11|智利 - 圣地亚哥 - Kaopu Cloud HK Lim...
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 13|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13,14|香港3|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 443
@@ -53,25 +23,25 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2266
-  server: 43.198.83.39
+  port: 2826
+  server: 43.199.77.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13,14|香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1867
-  server: 43.207.103.252
+  server: 13.230.22.2
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 14|香港|@ripaojiedian
+  name: 13|香港|@ripaojiedian
   network: tcp
   port: '30807'
   server: v10.hdacd.com

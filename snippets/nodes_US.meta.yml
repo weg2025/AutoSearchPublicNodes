@@ -1,5 +1,5 @@
 proxies:
-- name: 9|美国2
+- name: 8|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -9,250 +9,137 @@ proxies:
   type: hysteria2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  delay: 869
-  name: 11|美国 - 阿什本 - Psychz Networks - 2
+  delay: 1552
+  name: 10|美国 - 阿什本 - Psychz Networks - 3
   password: qwerREWQ@@
   port: 41632
   server: 140.174.186.5
   tfo: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  delay: 2490
-  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
-  port: 180
-  server: 82.198.246.97
+- delay: 2533
+  name: 10,14|US_speednode_0013
+  port: 1080
+  server: 174.138.61.184
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 1411
-  name: 11|美国 - 洛杉矶 - Psychz Networks - 1
-  password: qwerREWQ@@
-  port: 30723
-  server: 108.181.14.35
-  tfo: true
-  type: ss
+  type: socks5
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 1830
+  delay: 1074
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 洛杉矶 - Sharktech - 4
+  name: 10|美国 - 洛杉矶 - Sharktech - 2
   network: ws
   port: 443
-  server: cg1c01.waimaojd.com
-  skip-cert-verify: true
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
   tls: true
   type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
   ws-opts:
+    headers:
+      Host: cg1c02.waimaojd.com
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  delay: 994
+  delay: 2583
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  name: 10|美国 - 圣克拉拉 - DigitalOcean, LLC ...
   network: ws
   port: 443
-  server: cg1c14.waimaojd.com
-  skip-cert-verify: true
+  server: cg1c10.waimaojd.com
+  servername: cg1c10.waimaojd.com
   tls: true
   type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
   ws-opts:
     headers:
-      Host: cg1c14.waimaojd.com
+      Host: cg1c10.waimaojd.com
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
-  delay: 886
+  delay: 427
   h2-opts: {}
-  http-opts: {}
-  name: '11|美国 - 圣克拉拉 - DigitalOcean, LLC ... #1'
-  network: ws
-  port: 443
-  server: 157.230.153.13
-  servername: cg1c11.waimaojd.com
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|美国 - 圣克拉拉 - HostPapa - 4
+  network: http
+  port: 32301
+  server: 104.168.94.41
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: d0563aa0-8fdd-481e-bf8a-ae3923c540b5
-  ws-opts:
-    headers:
-      HOST: cg1c11.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1329
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 西雅圖 - Spartan Host Ltd - ...
-  network: ws
-  port: 443
-  server: w10.luoli.de
-  servername: w10.luoli.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      HOST: w10.luoli.de
-    path: /v2ws
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - country: 🇬🇧GB
-  delay: 1146
-  name: 11|美国 - 西雅圖 - Zhejiang Aiyun Netw...
-  password: 355bb83d-ccc1-41c7-a23f-226c3eaceae9
+  delay: 2193
+  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
+  password: 88c03e37-4c72-4536-be0c-1f171c4627fa
   port: 41275
   server: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
+  sni: douyin.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1785
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - Acton - Sharktech - 5
-  network: ws
-  port: 443
-  server: cg1c07.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    path: /api/v1/graphql
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 160.16.72.205
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
   port: 491
-  server: 160.16.72.205
+  server: 113.230.22.2
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 5076
+  server: 46.51.237.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 43.198.83.39
+  port: 1221
+  server: 43.199.77.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0022
-  port: 443
-  reality-opts:
-    public-key: 1vMO86Bpz3FJNbtRPaGVOee9ZdEcXGY6WcQblDLpqWA
-    short-id: d46670db1e
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: HU0XwQRJ0oZh88krUesOhRt6HRdT4pmX2HDunaOS4To
-    short-id: bb76de71
-  server: hk6.miyazono-kaori.com
-  servername: www.maxims.com.hk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbf28ef0-3981-4ac6-ab33-95e599afdd99
 - client-fingerprint: chrome
-  name: 15|US_speednode_0024
+  name: 14|US_speednode_0012
   port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
+  server: 144.31.1.125
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 14|US_speednode_0014
+  port: 443
+  server: plcdn11.suio.me
+  servername: plcdn11.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: 14|US_speednode_0015
+  network: ws
+  port: 2053
+  server: 50.62.195.9
+  servername: vw.badomzamini.uk
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: fdf3bd07-b310-487e-ada8-538e19e835f5
-- client-fingerprint: chrome
-  name: 15|US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba21b656-2355-44b5-829d-639cbc0e92b7
-- name: 15|US_speednode_0026
-  port: 1080
-  server: 174.138.61.184
-  type: socks5
-  udp: true
-- client-fingerprint: chrome
-  name: 15|US_speednode_0027
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 174711b1-013d-4ec6-9f69-485ff008d50f
-- client-fingerprint: chrome
-  name: 15|US_speednode_0028
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10155e8d-e052-4b50-b8b6-2ae2d418b311
-- client-fingerprint: chrome
-  name: 15|US_speednode_0029
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 136.175.178.165
-  servername: navi.bankrate.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e12e60f8-f955-4b46-905d-fd99692e19d7
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      Host: vw.badomzamini.uk
+    path: /latest?ed=2560
