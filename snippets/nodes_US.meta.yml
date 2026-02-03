@@ -1,5 +1,5 @@
 proxies:
-- name: 8|美国2
+- name: 9|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -10,7 +10,7 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   delay: 1552
-  name: 10|美国 - 阿什本 - Psychz Networks - 3
+  name: 11|美国 - 阿什本 - Psychz Networks - 3
   password: qwerREWQ@@
   port: 41632
   server: 140.174.186.5
@@ -18,7 +18,7 @@ proxies:
   type: ss
   udp: true
 - delay: 2533
-  name: 10,14|US_speednode_0013
+  name: 11|美国 - 克利夫頓 - DigitalOcean, LLC ...
   port: 1080
   server: 174.138.61.184
   skip-cert-verify: true
@@ -29,7 +29,7 @@ proxies:
   delay: 1074
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - Sharktech - 2
+  name: 11|美国 - 洛杉矶 - Sharktech - 2
   network: ws
   port: 443
   server: cg1c02.waimaojd.com
@@ -47,7 +47,7 @@ proxies:
   delay: 2583
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
   network: ws
   port: 443
   server: cg1c10.waimaojd.com
@@ -69,7 +69,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 10|美国 - 圣克拉拉 - HostPapa - 4
+  name: 11|美国 - 圣克拉拉 - HostPapa - 4
   network: http
   port: 32301
   server: 104.168.94.41
@@ -78,7 +78,7 @@ proxies:
   uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - country: 🇬🇧GB
   delay: 2193
-  name: 10|美国 - 西雅圖 - Zhejiang Aiyun Netw...
+  name: 11|美国 - 西雅圖 - Zhejiang Aiyun Netw...
   password: 88c03e37-4c72-4536-be0c-1f171c4627fa
   port: 41275
   server: xiaozhu1.kkieo555.cn
@@ -86,60 +86,117 @@ proxies:
   sni: douyin.com
   type: trojan
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 491
-  server: 113.230.22.2
+  port: 443
+  server: 38.180.137.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 5076
-  server: 46.51.237.24
+  port: 443
+  server: 38.180.193.194
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 1221
-  server: 43.199.77.22
+  server: 3.112.197.3
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 14|US_speednode_0012
-  port: 443
-  server: 144.31.1.125
-  servername: plcdn11.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: 14|US_speednode_0014
-  port: 443
-  server: plcdn11.suio.me
-  servername: plcdn11.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: 14|US_speednode_0015
+- client-fingerprint: randomized
+  name: 15|US_speednode_0036
   network: ws
-  port: 2053
-  server: 50.62.195.9
-  servername: vw.badomzamini.uk
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0038
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0039
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0040
+  network: ws
+  port: 443
+  server: afrcloud4.c01.kr
+  servername: afrcloud4.c01.kr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  uuid: 2275e858-8aff-44fe-b816-d85c2ab372e5
   ws-opts:
     headers:
-      Host: vw.badomzamini.uk
-    path: /latest?ed=2560
+      Host: afrcloud4.c01.kr
+    path: /47.254.255.125=443
+- client-fingerprint: chrome
+  name: 15|US_speednode_0041
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: randomized
+  name: 15|US_speednode_0042
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+    path: /

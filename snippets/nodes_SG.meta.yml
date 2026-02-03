@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 9|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -9,7 +9,7 @@ proxies:
   type: hysteria2
 - country: 🇨🇳CN
   delay: 2883
-  name: 10|新加坡 - 新加坡 - Akile LTD - 2
+  name: 11|新加坡 - 新加坡 - Akile LTD - 2
   password: a69cad04-a100-4bbf-9928-f9b82f015adf
   port: 41277
   server: xiaozhu1.kkieo555.cn
@@ -17,41 +17,40 @@ proxies:
   sni: douyin.com
   type: trojan
   udp: true
-- name: 12,13|新加坡|@ripaojiedian
+- name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3076
-  server: 160.16.106.99
+  port: 443
+  server: 152.42.254.150
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: c1d83c0c7d57cead4379ba14a82df69b
-  port: 3901
-  server: 160.16.106.99
+  port: 443
+  server: 178.128.114.70
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1691
-  server: 13.113.82.107
+  port: 1196
+  server: 57.181.26.149
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 14|SG_speednode_0011
-  network: ws
-  port: 2053
-  server: 206.238.237.207
-  servername: vw.badomzamini.uk
+- client-fingerprint: chrome
+  name: 15|SG_speednode_0035
+  port: 443
+  reality-opts:
+    public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
+    short-id: 6ba85179e30d4fc2
+  server: 8.222.196.37
+  servername: get.adobe.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
-  ws-opts:
-    headers:
-      Host: vw.badomzamini.uk
-    path: /latest?ed=2560
+  uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
