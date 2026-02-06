@@ -1,87 +1,34 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 2375
-  h2-opts: {}
-  http-opts: {}
-  name: 11|英国 - Slough - DigitalOcean, LL...
-  network: ws
-  port: 443
-  server: cg1c12.waimaojd.com
-  servername: cg1c12.waimaojd.com
-  tls: true
-  type: vmess
+- country: 🇬🇧GB
+  delay: 2332
+  name: 11|英国 - 考文垂 - Bage Cloud LLC - 1
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+- country: 🇬🇧GB
+  delay: 995
+  name: 11|英国 - 考文垂 - Bage Cloud LLC - 2
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38844
+  server: uk1.stablenode.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 15|GB_speednode_0007
+  network: ws
+  port: 2096
+  server: 25.26.27.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: cg1c12.waimaojd.com
-    path: /api/v1/graphql
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
-  server: mskhost.outlinekeys.net
-  servername: mskhost.outlinekeys.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 59edf6dc-b1f7-4017-8107-aae4f61a173c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
-    short-id: 8bcfe256cf216fd8
-  server: 185.21.14.199
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: QxhDed0WtuJv9Gv5ilv4QdvaLDnCXJs_Q40O0DdBF20
-    short-id: 7f76d724ba84
-  server: g4vpnx.online
-  servername: g4vpnx.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac37b554-11df-4cc9-bdf4-e551fc43ce39
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0017
-  port: 443
-  reality-opts:
-    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
-    short-id: 8bcfe256cf216fd8
-  server: 91.84.112.93
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a44e0875-210f-4941-9062-89b6361a14c6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0018
-  port: 443
-  reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
-  server: 77.239.124.88
-  servername: mskhost.outlinekeys.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce7f5e28-d72d-4006-8d70-f428a4721910
+      Host: sni.jpmj.dev
+    path: /?ed=2560

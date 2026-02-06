@@ -1,121 +1,380 @@
 proxies:
-- name: 9|美国2
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 1552
-  name: 11|美国 - 阿什本 - Psychz Networks - 3
-  password: qwerREWQ@@
-  port: 41632
-  server: 140.174.186.5
-  tfo: true
-  type: ss
-  udp: true
-- delay: 2533
-  name: 11|美国 - 克利夫頓 - DigitalOcean, LLC ...
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 1074
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - Sharktech - 2
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 2583
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
-  network: ws
-  port: 443
-  server: cg1c10.waimaojd.com
-  servername: cg1c10.waimaojd.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  delay: 427
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 11|美国 - 圣克拉拉 - HostPapa - 4
-  network: http
-  port: 32301
-  server: 104.168.94.41
+  delay: 633
+  name: 11|美国 - 奧蘭治堡 - Contabo Inc - 1
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
+  type: ss
+- country: 🇪🇸ES
+  delay: 2260
+  name: 11|美国 - 費利蒙 - CGI GLOBAL LIMITED ...
+  password: a2f34326-dc35-45c9-8391-53606ee23b0c
+  port: 38822
+  server: us9.stablep.top
   skip-cert-verify: true
-  type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-- country: 🇬🇧GB
-  delay: 2193
-  name: 11|美国 - 西雅圖 - Zhejiang Aiyun Netw...
-  password: 88c03e37-4c72-4536-be0c-1f171c4627fa
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
   type: trojan
   udp: true
+- country: 🇪🇸ES
+  delay: 2360
+  name: '11|美国 - 費利蒙 - CGI GLOBAL LIMITED ... #1'
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38822
+  server: us9.stablep.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 2308
+  name: '11|美国 - 費利蒙 - CGI GLOBAL LIMITED ... #2'
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38813
+  server: us9.stablep.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 1964
+  name: '11|美国 - 費利蒙 - CGI GLOBAL LIMITED ... #3'
+  password: 8bb14fbc-db35-41d9-9c46-a99590511f69
+  port: 38821
+  server: us9.stablep.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 2598
+  name: '11|美国 - 費利蒙 - CGI GLOBAL LIMITED ... #4'
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38821
+  server: us9.stablep.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 1981
+  name: '11|美国 - 費利蒙 - CGI GLOBAL LIMITED ... #5'
+  password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+  port: 38813
+  server: us9.stablep.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2418
+  name: 11|美国 - 紐約 - Massivegrid LTD - 10
+  network: ws
+  port: 80
+  server: bbnnhju.un2027.indevs.in
+  servername: bbnnhju.un2027.indevs.in
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: bbnnhju.un2027.indevs.in
+    path: /HISLfofvqzd3a3izxYyZXOF
+- alterId: 0
+  cipher: auto
+  delay: 2755
+  name: 11|美国 - 紐約 - Massivegrid LTD - 11
+  network: ws
+  port: 80
+  server: cvfgt.00890604.xyz
+  servername: cvfgt.00890604.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: cvfgt.00890604.xyz
+    path: /HISLfofvqzd3a3izxYyZXOF
+- alterId: 0
+  cipher: auto
+  delay: 2636
+  name: 11|美国 - 紐約 - Massivegrid LTD - 12
+  network: ws
+  port: 80
+  server: kkkiuy.00890604.xyz
+  servername: kkkiuy.00890604.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: kkkiuy.00890604.xyz
+    path: /HISLfofvqzd3a3izxYyZXOF
+- alterId: 0
+  cipher: auto
+  delay: 2425
+  name: 11|美国 - 紐約 - Massivegrid LTD - 13
+  network: ws
+  port: 80
+  server: vvbnh.00890604.xyz
+  servername: vvbnh.00890604.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: vvbnh.00890604.xyz
+    path: /HISLfofvqzd3a3izxYyZXOF
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1444
+  name: 11|美国 - 紐約 - Massivegrid LTD - 20
+  network: ws
+  port: 80
+  server: vvddvbg.00890604.xyz
+  servername: vvddvbg.00890604.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: vvddvbg.00890604.xyz
+    path: /HISLfofvqzd3a3izxYyZXOF
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1417
+  name: 11|美国 - 紐約 - Massivegrid LTD - 21
+  network: ws
+  port: 80
+  server: mmmkuy.un2026.indevs.in
+  servername: mmmkuy.un2026.indevs.in
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 827beb2a-f97a-4b23-b733-adef30c98e17
+  ws-opts:
+    headers:
+      Host: mmmkuy.un2026.indevs.in
+    path: /HISLfofvqzd3a3izxYyZXOF
+- client-fingerprint: chrome
+  delay: 1401
+  name: 11|美国 - 聖荷西 - Cloudflare, Inc. - ...
+  network: ws
+  port: 2096
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  delay: 1593
+  name: 11,15|US_speednode_0047
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: DiprOX.pages.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  ws-opts:
+    headers:
+      Host: DiprOX.pages.DEV
+    path: /assets
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1473
+  name: 11|美国 - 水牛城 - HostPapa - 19
+  network: ws
+  port: 80
+  server: ggbnhy.191262.xyz
+  servername: GgbNHY.191262.xyZ
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: gGBnhY.191262.xYz
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- alterId: 0
+  cipher: auto
+  delay: 1396
+  name: 11|美国 - 水牛城 - HostPapa - 9
+  network: ws
+  port: 80
+  server: bbgtr.7777198.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: BBGTR.7777198.XYZ
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- cipher: aes-256-cfb
+  delay: 1169
+  name: 11|美国 - Ashburn - Amazon.com, Inc...
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 2906
+  name: 11|美国 - Secaucus - Massivegrid LT...
+  network: ws
+  port: 80
+  server: nnnmjk.www890604.dpdns.org
+  servername: nnnmjk.www890604.dpdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: nnnmjk.www890604.dpdns.org
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1749
+  name: '11|美国 - Secaucus - Massivegrid LT... #1'
+  network: ws
+  port: 80
+  server: nnnmjkiu.www890604.dpdns.org
+  servername: nnnmjkiu.www890604.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: nnnmjkiu.www890604.dpdns.org
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 2756
+  name: '11|美国 - Secaucus - Massivegrid LT... #2'
+  network: ws
+  port: 80
+  server: gggbnh.www890604.dpdns.org
+  servername: gggbnh.www890604.dpdns.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: gggbnh.www890604.dpdns.org
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.190.13
+  port: 1276
+  server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 443
-  server: 38.180.107.76
+  port: 2760
+  server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4569
-  server: 52.194.248.81
+  port: 3159
+  server: 18.181.177.51
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0012
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a36da633-3867-4855-9450-00083e071829
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0013
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f890f843-9271-4178-9d5f-1adceb3bbe74
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0014
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2e63060-bcc6-483c-8378-df86abeb8473
+- client-fingerprint: chrome
+  name: 15|US_speednode_0015
+  network: ws
+  port: 443
+  server: 104.17.76.224
+  servername: 5465765525.ccfly.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2048
 - client-fingerprint: randomized
-  name: 15|US_speednode_0036
+  name: 15|US_speednode_0016
   network: ws
   port: 2095
-  server: cf.090227.xyz
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  server: www.fbi.gov
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
@@ -123,14 +382,293 @@ proxies:
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
     path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0017
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b0fa37d-67f1-48e0-bc70-f548d6cfc397
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0018
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28fa5dc0-403b-4a02-a820-0b28900adfd9
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0019
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ebacb1d-b0cd-413c-8d57-6e8c5e14dbcd
+- client-fingerprint: randomized
+  name: 15|US_speednode_0020
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+    path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0021
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a340a206-1ebb-423e-abbe-fc9b47cdcb72
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0022
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b69db1be-6244-4497-be31-ef357da12a35
+- client-fingerprint: randomized
+  name: 15|US_speednode_0023
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0024
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68433f39-1453-432e-8860-435b9e254aa7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0025
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38d8a785-290c-4e0a-b8b2-1c2cc9713e4e
+- client-fingerprint: chrome
+  name: 15|US_speednode_0026
+  network: ws
+  port: 2053
+  server: go2.lenovo.com
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0027
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0028
+  network: ws
+  port: 2053
+  server: 104.17.71.206
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0029
+  network: ws
+  port: 16005
+  server: 142.171.220.62
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0030
+  network: ws
+  port: 443
+  server: 108.162.198.154
+  servername: DiprOX.pages.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  ws-opts:
+    headers:
+      Host: DiprOX.pages.DEV
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0031
+  network: ws
+  port: 2096
+  server: 45.40.148.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0033
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0034
+  network: ws
+  port: 443
+  server: 108.162.198.154
+  servername: DiprOX.pages.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  ws-opts:
+    headers:
+      Host: diprox.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0035
+  network: ws
+  port: 443
+  server: 108.162.198.154
+  servername: DiprOX.pages.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  ws-opts:
+    headers:
+      Host: diprox.pages.dev
+    path: /Tel-@V2rayAlpha
+- client-fingerprint: chrome
+  name: 15|US_speednode_0036
+  network: ws
+  port: 2053
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
+- name: 15|US_speednode_0037
+  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: 9f763192-ta3j40-tsw0xs-19ord.de.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
 - client-fingerprint: randomized
   name: 15|US_speednode_0038
   network: ws
   port: 2095
-  server: cdnjs.com
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
@@ -138,14 +676,14 @@ proxies:
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
     path: /
 - client-fingerprint: randomized
   name: 15|US_speednode_0039
   network: ws
   port: 2095
-  server: developers.cloudflare.com
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  server: docs.cloudflare.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
@@ -153,28 +691,154 @@ proxies:
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
     path: /
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 15|US_speednode_0040
-  network: ws
-  port: 443
-  server: afrcloud4.c01.kr
-  servername: afrcloud4.c01.kr
+  port: 10000
+  reality-opts:
+    public-key: xaL947o_X586spUQ-Q956KA7RnEeSAjeONwbAnonGTE
+  server: 1002.kingfisher.top
+  servername: www.python.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 2275e858-8aff-44fe-b816-d85c2ab372e5
-  ws-opts:
-    headers:
-      Host: afrcloud4.c01.kr
-    path: /47.254.255.125=443
+  uuid: 41774b9b-d291-4275-8642-075e2e3246d8
 - client-fingerprint: chrome
   name: 15|US_speednode_0041
   network: ws
   port: 2053
-  server: 104.26.12.27
+  server: 104.17.73.206
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0042
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 15|US_speednode_0043
+  network: ws
+  port: 443
+  server: v1.dabache.top
+  servername: DiprOX.pages.DEV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d89d6641-3b1a-4f51-a194-9c9109fd21b6
+  ws-opts:
+    headers:
+      Host: DiprOX.pages.DEV
+    path: /assets
+- name: 15|US_speednode_0044
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4447
+  server: 4-n67hzkyu.mix.dexiansheng.com
+  tls: true
+  type: http
+  udp: true
+  username: walless
+- client-fingerprint: chrome
+  name: 15|US_speednode_0045
+  network: ws
+  port: 2096
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0046
+  network: ws
+  port: 2053
+  server: 104.17.71.206
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 15|US_speednode_0048
+  network: ws
+  port: 443
+  server: 207.246.97.82
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0049
+  network: ws
+  port: 2096
+  server: 45.40.149.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0050
+  network: ws
+  port: 2053
+  server: 104.17.73.206
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 15|US_speednode_0051
+  network: ws
+  port: 2053
+  server: one.dash.cloudflare.com
   servername: snippet.danfeng21.ndjp.net
   skip-cert-verify: false
   tls: true
@@ -185,18 +849,32 @@ proxies:
     headers:
       Host: snippet.danfeng21.ndjp.net
     path: /danfeng
-- client-fingerprint: randomized
-  name: 15|US_speednode_0042
+- client-fingerprint: chrome
+  name: 15|US_speednode_0052
   network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  port: 2053
+  server: china.embassy.gov.au
+  servername: snippet.danfeng.gleeze.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     headers:
-      Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
-    path: /
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng
+- name: 15|US_speednode_0053
+  network: ws
+  port: 443
+  server: 147.75.237.72
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
