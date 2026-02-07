@@ -201,7 +201,7 @@ proxies:
     path: /GgigazFGDLgFWDItkD5XgXAL
 - cipher: aes-256-cfb
   delay: 1169
-  name: 11|美国 - Ashburn - Amazon.com, Inc...
+  name: 11,13|🇺🇸 美国4|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.217.198.211
@@ -263,15 +263,15 @@ proxies:
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 1276
-  server: 160.16.231.103
+  port: 2760
+  server: 43.249.193.101
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 5fb072e0ddd631cf66cf752b09210480
-  port: 2760
+  port: 1276
   server: 160.16.231.103
   skip-cert-verify: false
   sni: www.nintendogames.net
@@ -279,8 +279,21 @@ proxies:
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3159
-  server: 18.181.177.51
+  port: 2569
+  server: 52.68.254.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0079
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
