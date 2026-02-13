@@ -26,16 +26,8 @@ proxies:
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2826
-  server: 43.199.205.175
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 13,14|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 13.231.159.122
+  port: 1820
+  server: 43.207.171.246
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -49,3 +41,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 15|HK_speednode_0002
+  port: 1314
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: 4b070735
+  server: 42.2.28.64
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d607a577-978c-487a-a2ad-788e4129162a

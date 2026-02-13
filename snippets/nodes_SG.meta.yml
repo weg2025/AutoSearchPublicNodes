@@ -7,6 +7,26 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- delay: 1170
+  name: 11,13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3901
+  server: 153.121.39.240
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- delay: 1236
+  name: 11,13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 95.40.55.141
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -15,28 +35,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
-  network: tcp
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 3901
-  server: 160.16.144.208
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1196
-  server: 95.40.77.248
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0037
-  port: 44519
-  server: 43.173.125.15
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6b05ea27-051b-450b-965b-f6c5da11a1f0
