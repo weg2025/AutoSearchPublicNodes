@@ -1,5 +1,5 @@
 proxies:
-- name: 9|SG
+- name: 8|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: hysteria2
 - delay: 1170
-  name: 11,13,14|新加坡2|@ripaojiedian
+  name: 10,12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3901
@@ -18,8 +18,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 1236
-  name: 11,13,14|新加坡3|@ripaojiedian
-  network: tcp
+  name: '10|新加坡 - 新加坡 - M247 Europe SRL - ... #1'
   password: BxceQaOe
   port: 3579
   server: 95.40.55.141
@@ -27,11 +26,19 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 13,14|新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3901
-  server: 43.207.73.82
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3127
+  server: 43.207.67.101
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
