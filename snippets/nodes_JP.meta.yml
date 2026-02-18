@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   delay: 185
-  name: 11|日本 - 东京 - Amazon Technologies ...
+  name: 10|日本 - 东京 - Amazon Technologies ...
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 8989
   server: 18.179.36.198
   type: ss
   udp: true
 - delay: 302
-  name: '11|日本 - 东京 - Amazon Technologies ... #1'
+  name: '10|日本 - 东京 - Amazon Technologies ... #1'
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
   server: 18.179.36.198
@@ -18,7 +18,7 @@ proxies:
   udp: true
 - client-fingerprint: ios
   delay: 891
-  name: 11|日本 - 东京 - GSL Networks Pty LTD...
+  name: 10|日本 - 东京 - GSL Networks Pty LTD...
   network: ws
   port: 443
   server: unamecf.xn--ghqu5fm27b67w.com
@@ -32,7 +32,7 @@ proxies:
     path: /pq/jp5
 - client-fingerprint: ios
   delay: 1211
-  name: '11|日本 - 东京 - GSL Networks Pty LTD... #1'
+  name: '10|日本 - 东京 - GSL Networks Pty LTD... #1'
   network: ws
   port: 443
   server: 104.18.125.69
@@ -45,7 +45,7 @@ proxies:
       Host: ujp5.xn--ghqu5fm27b67w.com
     path: /pq/jp5
 - delay: 1102
-  name: 11|日本 - 东京 - NTT PC Communication...
+  name: 10|日本 - 东京 - NTT PC Communication...
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 3423
   server: 160.16.144.208
@@ -54,7 +54,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 1101
-  name: 11|日本 - 横滨市 - InfoSphere - 1
+  name: 10|日本 - 横滨市 - InfoSphere - 1
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   port: 400
   server: 160.16.57.238
@@ -63,7 +63,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 1288
-  name: 11|日本 - 横滨市 - InfoSphere - 3
+  name: 10|日本 - 横滨市 - InfoSphere - 3
   password: BxceQaOe
   port: 2595
   server: 13.113.192.229
@@ -71,33 +71,33 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 2595
-  server: 43.206.226.70
+  server: 13.158.130.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 193
-  server: 160.16.85.33
+  port: 3423
+  server: 18.181.199.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 400
-  server: 160.16.231.103
+  port: 3423
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 15|JP_speednode_0004
+  name: 14|JP_speednode_0004
   port: 48816
   reality-opts:
     public-key: fk4uHkIWXJ5MbcsFASbAhKlC5gV9m-XovXftmIDSuxo
