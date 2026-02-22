@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -8,8 +8,40 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  delay: 517
+  name: 10|德国 - Falkenstein - Hetzner Onl...
+  network: tcp
+  port: 41457
+  server: 46.224.13.54
+  tls: false
+  type: vless
+  udp: true
+  uuid: b370ee6c-986b-4a59-b4ef-7974c6c20f6f
+- delay: 2155
+  name: 10|德国 - Frankfurt Am Main - HZ Ho...
+  network: ws
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: free-de-2.undef.network
+    path: '%2Ff2fc2a1f'
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 673
+  name: 10|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|DE_speednode_0001
+  name: 14|DE_speednode_0001
   port: 443
   reality-opts:
     public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA

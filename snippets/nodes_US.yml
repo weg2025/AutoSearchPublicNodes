@@ -1,119 +1,37 @@
 proxies:
-- delay: 1203
-  name: 11|美国 - 洛杉矶 - HIVELOCITY, Inc. - ...
-  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
-  port: 2890
-  server: 57.180.14.50
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 1691
-  name: 11|美国 - 紐約 - Massivegrid LTD - 8
-  network: ws
-  port: 80
-  server: nju.bb4.indevs.in
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  ws-opts:
-    headers:
-      Host: nju.bb4.indevs.in
-    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-- alterId: 0
-  cipher: auto
-  delay: 1481
-  name: 11|美国 - 紐約 - Massivegrid LTD - 9
-  network: ws
-  port: 80
-  server: bnmj.wc6.ccwu.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  ws-opts:
-    headers:
-      Host: bnmj.wc6.ccwu.cc
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1336
+  country: 🇨🇳CN
+  delay: 1875
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 圣路易斯 - Contabo Inc. - 4
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- client-fingerprint: chrome
-  delay: 1972
-  name: 11|美国 - 聖荷西 - Eons Data Communica...
+  name: 10|美国 - 华盛顿特区 - HostPapa - 3
   network: tcp
-  password: bd42df14-0524-4d86-ac9f-592a93951684
-  port: 35501
-  server: green2.cdntencentmusic.com
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
   skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  delay: 589
-  name: 11|美国 - 聖荷西 - Meteverse Limited. ...
-  password: f433ac2b27fd694f
-  port: 26524
-  server: 174.35.123.165
-  type: ss
-- delay: 1287
-  name: 11|美国 - 芝加哥 - HIVELOCITY, Inc. - ...
-  password: BxceQaOe
-  port: 3159
-  server: 43.207.89.113
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 685
-  name: 11|美国 - Piscataway - The Constant...
-  password: hbhO0xomsJzhO24F
-  port: 443
-  server: 64.176.215.70
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇳🇱NL
-  delay: 2586
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - San Jose - Oracle Corpora...
-  network: ws
-  port: 443
-  server: 160.153.137.199
-  servername: ous3.dean52.top
-  skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      HOST: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- name: 13,14|美国|@ripaojiedian
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- country: 🇮🇷IR
+  delay: 2297
+  name: 10|美国 - 聖荷西 - Radishcloud Technol...
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🏁 ZZ
+  delay: 903
+  name: 10|美国 - Somers - Fourplex Telecom...
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -121,7 +39,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
@@ -129,7 +47,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 9718
