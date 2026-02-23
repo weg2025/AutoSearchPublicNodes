@@ -1,23 +1,9 @@
 proxies:
-- delay: 2155
-  name: 10|德国 - Frankfurt Am Main - HZ Ho...
-  network: ws
-  password: pYIoKUPGpWeTYXEx3HjR7s97B
+- cipher: chacha20-ietf-poly1305
+  delay: 2092
+  name: 9|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: RFK38Cg7APneSB5cWDcpbm
   port: 443
-  server: free-de-2.undef.network
-  skip-cert-verify: true
-  sni: free-de-2.undef.network
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: free-de-2.undef.network
-    path: '%2Ff2fc2a1f'
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 673
-  name: 10|西班牙 - 马德里 - Melbikomas UAB - 1
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 5.188.181.201
+  server: switcher-nick-croquet.freesocks.work
   type: ss
+  udp: true

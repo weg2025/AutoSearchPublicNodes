@@ -1,57 +1,44 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1875
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 华盛顿特区 - HostPapa - 3
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
+  delay: 1910
+  name: 9|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇮🇷IR
-  delay: 2297
-  name: 10|美国 - 聖荷西 - Radishcloud Technol...
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43642
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.usq1.cat.bilibili.com
-  type: trojan
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  country: 🏁 ZZ
-  delay: 903
-  name: 10|美国 - Somers - Fourplex Telecom...
+  delay: 2281
+  name: 9|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-- name: 12,13|美国|@ripaojiedian
+  udp: true
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 4920
-  server: 13.114.30.172
+  port: 1281
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
-  server: 52.192.209.59
+  server: 52.192.108.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 16.163.143.47
+  port: 23287
+  server: 43.199.42.6
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

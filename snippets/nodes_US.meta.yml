@@ -1,106 +1,72 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1875
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 华盛顿特区 - HostPapa - 3
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
+  delay: 1910
+  name: 9|美国 - 洛杉矶 - Datacamp Limited - ...
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇮🇷IR
-  delay: 2297
-  name: 10|美国 - 聖荷西 - Radishcloud Technol...
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43642
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.usq1.cat.bilibili.com
-  type: trojan
   udp: true
-- delay: 2058
-  name: 10|美国 - 西雅圖 - Spartan Host Ltd - ...
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 4f31f69b-tax5s0-tcdmjc-1gevg.se.oshuawei.com
-  sni: 4f31f69b-tax5s0-tcdmjc-1gevg.se.oshuawei.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  country: 🏁 ZZ
-  delay: 903
-  name: 10|美国 - Somers - Fourplex Telecom...
+  delay: 2281
+  name: 9|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-- name: 12,13|美国|@ripaojiedian
+  udp: true
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
-  port: 4920
-  server: 13.114.30.172
+  port: 1281
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
-  server: 52.192.209.59
+  server: 52.192.108.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9718
-  server: 16.163.143.47
+  port: 23287
+  server: 43.199.42.6
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0013
-  port: 443
-  reality-opts:
-    public-key: VFG2L-3i30fQZg3wd0DF6dEGdaT27S-PKpuYu7Hp8xU
-    short-id: fd26d49a
-  server: 203.10.96.138
-  servername: cdn-dynmedia-1.microsoft.com
+- name: 13|US_speednode_0015
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: c6977f74-e620-4748-a2d3-4351a588c659
-- client-fingerprint: chrome
-  name: 14|US_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: iv8v94q9qxkMw5WSUc0obloyLVFNTsfyy9Y3FaGlj1k
-    short-id: efd29b2d25
-  server: 64.188.64.59
-  servername: yandex.ru
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: /
+- name: 13|US_speednode_0016
+  network: ws
+  port: 80
+  server: 104.20.1.252
+  servername: bright-organizationauhuddhesz.sportland.company.
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 12cb9911-a48d-4147-85cc-68dd678e94c6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0015
-  port: 443
-  reality-opts:
-    public-key: C7H4Nh55F4B8iHaVHWY6VK562RI6p_t8H7lrX_O8SnQ
-  server: pl2.jugsenkeys4pays.su
-  servername: pl2.jugsenkeys4pays.su
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b183589d-5e32-4141-a39a-6cb747964c67
+  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
+  ws-opts:
+    headers:
+      Host: bright-organizationauhuddhesz.sportland.company.
+    path: /

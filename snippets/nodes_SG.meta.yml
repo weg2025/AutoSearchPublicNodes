@@ -1,5 +1,5 @@
 proxies:
-- name: 8|SG
+- name: 7|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -7,33 +7,12 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 473
-  name: 10|新加坡 - 新加坡 - Cloudflare, Inc. -...
-  network: ws
-  port: 443
-  server: 198.41.211.211
-  servername: sa.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: a8ea783c-dc54-4b17-96e4-144d1af2cb75
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sa.anjue39.qzz.io
-    max-early-data: 2048
-    path: /
 - alterId: 0
   cipher: auto
   country: 🇬🇧 GB
-  delay: 1533
+  delay: 2707
   http-opts: {}
-  name: 10|新加坡 - 新加坡 - Global Communicati...
+  name: 9|新加坡 - 新加坡 - Global Communicati...
   network: none
   port: 17310
   server: 82.21.80.224
@@ -42,134 +21,23 @@ proxies:
   type: vmess
   uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1048
-  h2-opts: {}
-  http-opts: {}
-  name: 10|新加坡 - 新加坡 - Leaseweb Singapore...
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 768d4f16-ae54-4655-aca7-92809b043ed7
-  ws-opts:
-    headers:
-      HOST: sgdaobk.1buigujj.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1133
-  h2-opts: {}
-  http-opts: {}
-  name: '10|新加坡 - 新加坡 - Leaseweb Singapore... #1'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 681d0e53-ca10-4840-87b1-fadd43e71a77
-  ws-opts:
-    headers:
-      HOST: sgdaobk.1buigujj.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1135
-  h2-opts: {}
-  http-opts: {}
-  name: '10|新加坡 - 新加坡 - Leaseweb Singapore... #2'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f105ea9d-7f28-4c39-a827-d86058ca3204
-  ws-opts:
-    headers:
-      HOST: sgdaobk.1buigujj.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1142
-  h2-opts: {}
-  http-opts: {}
-  name: '10|新加坡 - 新加坡 - Leaseweb Singapore... #3'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: af546574-0d6c-49f7-8b9b-c7463315ad6c
-  ws-opts:
-    headers:
-      HOST: sgdaobk.1buigujj.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 2285
-  name: '10|新加坡 - 新加坡 - Leaseweb Singapore... #4'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3f60257b-9151-4018-838d-26249fda23d9
-  ws-opts:
-    headers:
-      Host: sgdaobk.1buigujj.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 2144
-  name: '10|新加坡 - 新加坡 - Leaseweb Singapore... #5'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: sgdaobk.1buigujj.ggff.net
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0332fe0c-c33e-4d00-b30f-a18b4ff303f3
-  ws-opts:
-    headers:
-      Host: sgdaobk.1buigujj.ggff.net
-    path: /
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 3419
-  server: 52.192.209.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 3901
-  server: 43.206.236.80
+  server: 52.193.253.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|新加坡2|@ripaojiedian
+  network: tcp
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 3901
+  server: 3.113.29.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 381
@@ -177,3 +45,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 13|SG_speednode_0013
+  port: 443
+  reality-opts:
+    public-key: C1ZoKW-5BWP4D6hQwpF4X-5TMI2HkevyJMo-FletEQs
+    short-id: a196aa52
+  server: 83.147.252.165
+  servername: sun6-20.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95e3a7e6-ff2b-4554-b107-8ff4c58b7981
