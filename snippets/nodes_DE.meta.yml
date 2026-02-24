@@ -1,5 +1,5 @@
 proxies:
-- name: 7|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,11 +7,33 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 2092
-  name: 9|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
+- country: 🇩🇪DE
+  delay: 649
+  name: 10|德国 - Frankfurt am Main - Amazo...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.6.7
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 652
+  name: '10|德国 - Frankfurt am Main - Amazo... #1'
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.196.6.7
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 653
+  name: '10|德国 - Frankfurt am Main - Amazo... #2'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.181.24.193
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
