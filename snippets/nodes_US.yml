@@ -1,52 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   delay: 1744
-  name: 10|美国 - Somers - Fourplex Telecom...
+  name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 4920
-  server: 54.150.231.83
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: 64a59181551b5773e390bd717a7b7c06
+  password: 262f1d150049457ac1d6e66b020fa980
   port: 1281
-  server: 54.238.209.205
+  server: 160.16.68.250
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
+  network: tcp
+  password: 262f1d150049457ac1d6e66b020fa980
+  port: 4920
+  server: 13.231.123.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 43.198.227.190
+  port: 45285
+  server: 16.162.118.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 9028
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: tcp
-  port: '9028'
-  server: select-us.ddnskunlun.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
