@@ -1,26 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 773
-  http-opts:
-    headers:
-      Host:
-      - fast.com
-    method: GET
-    path:
-    - /
-  name: 11|英国 - 伦敦 - Global Connectivity ...
-  network: http
-  port: 2086
-  server: 87.120.219.124
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  delay: 2015
+  name: 11|英国 - City of London - Microsof...
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: 20.108.41.100
+  type: ss
   udp: true
-  uuid: e6a866ca-1756-44ed-9866-a9949f2bad38
 - client-fingerprint: chrome
-  name: 15|GB_speednode_0011
+  name: 15|GB_speednode_0007
   port: 443
   reality-opts:
     public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w

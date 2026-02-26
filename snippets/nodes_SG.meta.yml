@@ -7,19 +7,27 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- cipher: rc4-md5
+  delay: 2283
+  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3901
-  server: 57.181.39.159
+  port: 3419
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3419
-  server: 160.16.85.33
+  port: 3901
+  server: 35.77.90.248
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -27,7 +35,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 52951
-  server: 43.198.17.4
+  server: 16.163.102.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

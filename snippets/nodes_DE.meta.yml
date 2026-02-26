@@ -7,47 +7,19 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 649
-  name: 11|德国 - Frankfurt am Main - Amazo...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.196.6.7
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 652
-  name: '11|德国 - Frankfurt am Main - Amazo... #1'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.196.6.7
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 653
-  name: '11|德国 - Frankfurt am Main - Amazo... #2'
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.181.24.193
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 15|DE_speednode_0005
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  country: 🏁 ZZ
+  delay: 1836
+  name: 11|荷兰 - 阿姆斯特丹 - Matteo Martelloni...
+  password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
-  server: 185.219.84.221
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 2713
+  name: 11|西班牙 - 马德里 - Melbikomas UAB - 1
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 5.188.181.201
+  type: ss
