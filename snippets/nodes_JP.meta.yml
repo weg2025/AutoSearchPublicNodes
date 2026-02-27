@@ -1,127 +1,83 @@
 proxies:
-- name: 9|JP
+- name: 8|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- delay: 2395
+  name: 10|日本 - 东京 - Akamai Technologies ...
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 3235
+  server: 132cefce-tb71c0-tb7mup-4550.h2tkydc2.cdnbytescm.com
+  sni: 132cefce-tb71c0-tb7mup-4550.h2tkydc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
+- delay: 2677
+  name: '10|日本 - 东京 - Akamai Technologies ... #1'
+  password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+  port: 3235
+  server: 5be89482-tb6f40-tgp57k-ddgs.h2tkydc2.cdnbytescm.com
+  sni: 5be89482-tb6f40-tgp57k-ddgs.h2tkydc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+- delay: 1534
+  name: 10|日本 - 东京 - Akamai Technologies,...
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 3236
+  server: ab633bab-tb6f40-tb5234-64gc.h2tkydc1.cdnbytescm.com
+  sni: ab633bab-tb6f40-tb5234-64gc.h2tkydc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: d720a490-d56b-11ef-a1cb-f23c9313b177
+- delay: 1417
+  name: 10|日本 - 东京 - Artruby Pte. Ltd. - ...
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 3443
+  server: 80373261-tb71c0-tcjtj6-d70y.tkydc3.cdnbytescm.com
+  sni: 80373261-tb71c0-tcjtj6-d70y.tkydc3.cdnbytescm.com
+  tls: true
+  type: http
+  username: 537d7098-fdbe-11ef-8ebc-f23c93141fad
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 2352
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - NewMedia Express Pte...
+  client-fingerprint: chrome
+  delay: 1027
+  name: 10|日本 - Koto-ku - Leaseweb Japan ...
   network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp006.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
+  port: 42797
+  server: qwbtbw1.v2yunv2.com
+  tls: false
   type: vmess
-  uuid: ee7c100b-6b9a-4a0b-8deb-3e8ccd6ae430
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
   ws-opts:
     headers:
-      HOST: jp006.japansb3.ggff.net
+      Host: baidu.com
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2354
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - NewMedia Express Pte... #1'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp006.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aed57657-2478-4894-9129-2a57e83ce4dc
-  ws-opts:
-    headers:
-      HOST: jp006.japansb3.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1718
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - NewMedia Express Pte... #2'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp006.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12a1fc13-8e01-4791-a592-9930376820ae
-  ws-opts:
-    headers:
-      HOST: jp006.japansb3.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1720
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - NewMedia Express Pte... #3'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp006.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 367c4849-3d82-4496-839c-db16f3168165
-  ws-opts:
-    headers:
-      HOST: jp006.japansb3.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1713
-  h2-opts: {}
-  http-opts: {}
-  name: '11|日本 - 东京 - NewMedia Express Pte... #4'
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp006.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f196e999-8da5-4c0f-9160-56840104edac
-  ws-opts:
-    headers:
-      HOST: jp006.japansb3.ggff.net
-    path: /
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26378
-  server: 13.231.58.134
+  port: 2762
+  server: 52.194.205.115
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
-  server: 160.16.231.103
+  server: 153.121.70.134
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 54.250.241.85
+  server: 153.121.38.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

@@ -1,9 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 2015
-  name: 11|英国 - City of London - Microsof...
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: 20.108.41.100
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1047
+  name: 10|英国 - Slough - DigitalOcean, LL...
+  network: ws
+  port: 15000
+  server: qwbtbw1.v2yunv2.com
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /

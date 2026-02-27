@@ -1,77 +1,65 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 2795
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 华盛顿特区 - HostPapa - 3
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 3037
-  name: 11|美国 - 洛杉矶 - Datacamp Limited - ...
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  delay: 797
+  name: 10|美国 - 洛杉矶 - Multacom Corporatio...
+  network: ws
+  port: 11123
+  server: qwbtbw1.v2yunv2.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: qwbtbw1.v2yunv2.com
+    path: /
+- country: 🇮🇷IR
+  delay: 889
+  name: 10|美国 - 聖荷西 - Radishcloud Technol...
+  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
+  port: 43642
+  server: 5.34.222.4
+  skip-cert-verify: true
+  sni: iepl.usq1.cat.bilibili.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 931
+  name: 10|美国 - Secaucus - WorkTitans B.V...
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  delay: 1239
-  name: 11|美国 - Somers - Fourplex Telecom...
+  country: 🏁 ZZ
+  delay: 1242
+  name: 10|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-  udp: true
-- name: 13,14|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 153.121.65.107
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 153.121.65.107
+  port: 4920
+  server: 160.16.124.17
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 43.198.101.173
+  port: 38780
+  server: 54.46.4.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸 美国4|@ripaojiedian
-  port: 9027
-  server: select-us.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 14|美国4|@ripaojiedian
-  network: tcp
-  port: '9027'
-  server: select-us.ddnskunlun.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07

@@ -1,33 +1,55 @@
 proxies:
-- cipher: rc4-md5
-  delay: 2283
-  name: 11|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.4
-  type: ss
-  udp: true
-- name: 13,14|新加坡|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 457
+  name: 10|新加坡 - 新加坡 - Komi LLC - 5
+  network: ws
+  port: 16717
+  server: qwbtbw1.v2yunv2.com
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 745
+  name: 10|新加坡 - 新加坡 - ServerPoint.com - ...
+  network: ws
+  port: 32405
+  server: qwbtbw1.v2yunv2.com
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
-  server: 153.121.65.107
+  server: 160.16.150.76
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3901
-  server: 35.77.90.248
+  port: 3419
+  server: 52.193.121.51
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 52951
-  server: 16.163.102.116
+  port: 41973
+  server: 43.198.13.210
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
