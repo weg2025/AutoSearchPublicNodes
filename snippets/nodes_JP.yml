@@ -1,40 +1,39 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  client-fingerprint: chrome
-  delay: 1027
-  name: 10|日本 - Koto-ku - Leaseweb Japan ...
-  network: ws
-  port: 42797
-  server: qwbtbw1.v2yunv2.com
-  tls: false
+  country: 🇯🇵JP
+  delay: 1788
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
+  network: tcp
+  port: 46486
+  server: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
+  servername: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: true
   type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 12,13|日本|@ripaojiedian
+  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 52.194.205.115
+  port: 2595
+  server: 52.199.90.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
-  server: 153.121.70.134
+  server: 3.112.20.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 153.121.38.213
+  server: 3.112.20.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

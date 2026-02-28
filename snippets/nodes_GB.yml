@@ -1,16 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1047
-  name: 10|英国 - Slough - DigitalOcean, LL...
-  network: ws
-  port: 15000
-  server: qwbtbw1.v2yunv2.com
-  tls: false
-  type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+- country: 🇭🇰HK
+  delay: 1177
+  name: 11|英国 - 伦敦 - Bedge Co Limited - 1
+  password: pingUserForApp189
+  port: 443
+  server: 154.203.183.119
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1996
+  name: 11|英国 - Erith - OVH SAS - 2
+  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
+  port: 8443
+  server: 51.195.203.247
+  type: ss
+  udp: true

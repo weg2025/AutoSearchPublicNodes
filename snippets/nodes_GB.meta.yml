@@ -1,21 +1,33 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1047
-  name: 10|英国 - Slough - DigitalOcean, LL...
-  network: ws
-  port: 15000
-  server: qwbtbw1.v2yunv2.com
+- name: 10|🇬🇧 T.Me/V2RayyNGvpn 🇬🇧
+  obfs: salamander
+  obfs-password: V2RayyNGvpn$KroukyGod
+  password: qLLWHkBP8O
+  port: 443
+  server: 212.74.39.26
+  skip-cert-verify: true
+  sni: www.refersion.com
   tls: false
-  type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  type: hysteria2
+- country: 🇭🇰HK
+  delay: 1177
+  name: 11|英国 - 伦敦 - Bedge Co Limited - 1
+  password: pingUserForApp189
+  port: 443
+  server: 154.203.183.119
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1996
+  name: 11|英国 - Erith - OVH SAS - 2
+  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
+  port: 8443
+  server: 51.195.203.247
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 14|GB_speednode_0007
+  name: 15|GB_speednode_0006
   port: 443
   reality-opts:
     public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
@@ -27,3 +39,17 @@ proxies:
   type: vless
   udp: true
   uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 15|GB_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
+    short-id: ecd1c97d
+  server: 195.20.17.182
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897

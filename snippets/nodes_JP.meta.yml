@@ -1,83 +1,46 @@
 proxies:
-- name: 8|JP
+- name: 9|JP
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
   server: jp7.dexlos.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- delay: 2395
-  name: 10|日本 - 东京 - Akamai Technologies ...
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 3235
-  server: 132cefce-tb71c0-tb7mup-4550.h2tkydc2.cdnbytescm.com
-  sni: 132cefce-tb71c0-tb7mup-4550.h2tkydc2.cdnbytescm.com
-  tls: true
-  type: http
-  username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- delay: 2677
-  name: '10|日本 - 东京 - Akamai Technologies ... #1'
-  password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-  port: 3235
-  server: 5be89482-tb6f40-tgp57k-ddgs.h2tkydc2.cdnbytescm.com
-  sni: 5be89482-tb6f40-tgp57k-ddgs.h2tkydc2.cdnbytescm.com
-  tls: true
-  type: http
-  username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-- delay: 1534
-  name: 10|日本 - 东京 - Akamai Technologies,...
-  password: d720a490-d56b-11ef-a1cb-f23c9313b177
-  port: 3236
-  server: ab633bab-tb6f40-tb5234-64gc.h2tkydc1.cdnbytescm.com
-  sni: ab633bab-tb6f40-tb5234-64gc.h2tkydc1.cdnbytescm.com
-  tls: true
-  type: http
-  username: d720a490-d56b-11ef-a1cb-f23c9313b177
-- delay: 1417
-  name: 10|日本 - 东京 - Artruby Pte. Ltd. - ...
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 3443
-  server: 80373261-tb71c0-tcjtj6-d70y.tkydc3.cdnbytescm.com
-  sni: 80373261-tb71c0-tcjtj6-d70y.tkydc3.cdnbytescm.com
-  tls: true
-  type: http
-  username: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-- alterId: 0
+- alterId: 1
   cipher: auto
-  client-fingerprint: chrome
-  delay: 1027
-  name: 10|日本 - Koto-ku - Leaseweb Japan ...
-  network: ws
-  port: 42797
-  server: qwbtbw1.v2yunv2.com
-  tls: false
+  country: 🇯🇵JP
+  delay: 1788
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
+  network: tcp
+  port: 46486
+  server: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
+  servername: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
+  skip-cert-verify: true
   type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 12,13|日本|@ripaojiedian
+  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2762
-  server: 52.194.205.115
+  port: 2595
+  server: 52.199.90.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 400
-  server: 153.121.70.134
+  server: 3.112.20.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3423
-  server: 153.121.38.213
+  server: 3.112.20.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

@@ -1,65 +1,49 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 797
-  name: 10|美国 - 洛杉矶 - Multacom Corporatio...
-  network: ws
-  port: 11123
-  server: qwbtbw1.v2yunv2.com
-  tls: false
-  type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: qwbtbw1.v2yunv2.com
-    path: /
-- country: 🇮🇷IR
-  delay: 889
-  name: 10|美国 - 聖荷西 - Radishcloud Technol...
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43642
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.usq1.cat.bilibili.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  delay: 931
-  name: 10|美国 - Secaucus - WorkTitans B.V...
-  password: gYCYXfkUQEs2TaJQ
-  port: 9038
-  server: 194.116.173.21
+  country: 🇺🇸US
+  delay: 1858
+  name: 11|美国 - Dublin - Amazon.com, Inc....
+  password: amazonskr05
+  port: 443
+  server: 13.59.128.99
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🏁 ZZ
-  delay: 1242
-  name: 10|美国 - Somers - Fourplex Telecom...
+  country: 🇺🇸US
+  delay: 1148
+  name: 11|美国 - Secaucus - DigitalOcean, ...
+  password: ZhUBrP-pufLdo7S_ThWWQ9K6SCxyjX3r
+  port: 1080
+  server: 162.243.41.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1791
+  name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 160.16.130.21
+  port: 1281
+  server: 52.195.185.238
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 160.16.124.17
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38780
-  server: 54.46.4.240
+  port: 45285
+  server: 18.162.51.53
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
