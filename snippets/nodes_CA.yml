@@ -1,15 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 825
-  h2-opts: {}
-  http-opts: {}
+  delay: 1413
   name: 11|荷兰 - Urk - Tangram Canada Inc....
-  network: tcp
   port: 64013
   server: pub.ap20251212.com
   servername: pub.ap20251212.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大|@ripaojiedian
+  port: 11985
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大|@ripaojiedian
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07

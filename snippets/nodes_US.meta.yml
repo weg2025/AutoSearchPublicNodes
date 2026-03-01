@@ -1,105 +1,61 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1858
-  name: 11|美国 - Dublin - Amazon.com, Inc....
-  password: amazonskr05
-  port: 443
-  server: 13.59.128.99
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1148
-  name: 11|美国 - Secaucus - DigitalOcean, ...
-  password: ZhUBrP-pufLdo7S_ThWWQ9K6SCxyjX3r
-  port: 1080
-  server: 162.243.41.199
+  delay: 1487
+  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18244
+  server: ldu.izenny.com
   type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2124
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 华盛顿特区 - HostPapa - 2
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1791
+  delay: 1275
   name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
+  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.185.238
+  port: 4920
+  server: 175.41.195.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 160.16.72.33
+  port: 1281
+  server: 52.195.233.42
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45285
-  server: 18.162.51.53
+  port: 45947
+  server: 18.162.142.234
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0024
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 143.20.236.51
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  name: 15|US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-    short-id: 2f2a
-  server: 66.179.82.126
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-- client-fingerprint: chrome
-  name: 15|US_speednode_0026
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- name: 15|US_speednode_0027
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+  name: 15|US_speednode_0014
   port: 443
   reality-opts:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
@@ -113,15 +69,14 @@ proxies:
   uuid: e43dd231-7c75-4606-80ec-50fbb8335ce7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 23335
+  name: 15|US_speednode_0015
+  port: 30001
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 144.31.130.59
-  servername: icloud.com
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: 165.154.235.194
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  uuid: be70763e-ab0a-4f8d-87aa-b8ae86495cca

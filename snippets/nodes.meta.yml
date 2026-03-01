@@ -78,7 +78,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '9,10| Telegram: @wiki_tajrobe'
+- name: '9,10|@V2rayNG3 #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -104,12 +104,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|🍪4@oneclickvpnkeys
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  tls: false
-  type: hysteria2
 - name: 10|🩵+@Azarakhsh_Proxy+🩷
   obfs: salamander
   obfs-password: KevinZakarian
@@ -120,12 +114,22 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: 10|All_7--@V2rayAlpha
+- name: 10| - NL - @FreeOnlineVPN
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 35000
   server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 10|13@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: yapc-1.adamhayward.co.uk
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
@@ -164,17 +168,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '10| - DE - @FreeOnlineVPN #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: '10|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -195,6 +188,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '10|کانال تلگرام : Free_VPN_CH@ #3'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org@freenettir
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: '10|کانال تلگرام : Free_VPN_CH@ #1'
@@ -207,16 +210,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|کانال تلگرام : Free_VPN_CH@ #3'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org@freenettir
-  tls: false
-  type: hysteria2
 - name: '10|@V2rayNG3 #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -227,279 +220,219 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '10|@Golestan_VPN - '
-  password: germany_hysteria2_fastlane_5devbouui
-  port: 443
-  server: 150.241.79.106
-  skip-cert-verify: true
-  sni: de2.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 10|@irmeliy
-  password: germany_hysteria2_fastlane_wxue2k6d6
-  port: 443
-  server: 150.241.79.106
-  skip-cert-verify: true
-  sni: de2.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 10|🇬🇧 T.Me/V2RayyNGvpn 🇬🇧
-  obfs: salamander
-  obfs-password: V2RayyNGvpn$KroukyGod
-  password: qLLWHkBP8O
-  port: 443
-  server: 212.74.39.26
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- delay: 2227
-  name: 11|巴林 - 麦纳麦 - Amazon.com, Inc. - ...
-  password: M7v%w11Se*
-  port: 443
-  server: blaab.wsone.icu
-  skip-cert-verify: true
-  sni: blaab.wsone.icu
-  type: trojan
-- country: 🇺🇸US
-  delay: 1637
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.224.7.21
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🇱🇧LB
+  delay: 672
+  name: 11|奥地利 - 維也納 - Aeza International...
+  password: 071J2n0EGL4DCXVfpicD2l
+  port: 19521
+  server: 77.110.116.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1487
+  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18244
+  server: ldu.izenny.com
+  type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇭CH
+  delay: 766
+  name: 11|芬兰 - 赫尔辛基 - Aeza International...
+  password: ckUfz3Z_bzNeNU2srnjP48UH-y9wQw9k
+  port: 8080
+  server: 138.124.118.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇪SE
+  delay: 1910
+  name: 11|荷兰 - 阿姆斯特丹 - 365.partners INC ...
+  password: lPUORlzWO34p128hso3Abd
+  port: 14130
+  server: 195.93.253.240
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 825
-  h2-opts: {}
-  http-opts: {}
+  delay: 1413
   name: 11|荷兰 - Urk - Tangram Canada Inc....
-  network: tcp
   port: 64013
   server: pub.ap20251212.com
   servername: pub.ap20251212.com
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1858
-  name: 11|美国 - Dublin - Amazon.com, Inc....
-  password: amazonskr05
-  port: 443
-  server: 13.59.128.99
-  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2124
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 华盛顿特区 - HostPapa - 2
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- delay: 691
+  name: 11|美国 - 洛杉矶 - FSC NETWORK LTD - 3
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  skip-cert-verify: true
+  tls: false
+  type: http
+  udp: true
+  username: fQ67Dpe5dU
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1148
-  name: 11|美国 - Secaucus - DigitalOcean, ...
-  password: ZhUBrP-pufLdo7S_ThWWQ9K6SCxyjX3r
-  port: 1080
-  server: 162.243.41.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1791
+  delay: 1275
   name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇯🇵JP
-  delay: 1788
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
-  network: tcp
-  port: 46486
-  server: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
-  servername: f6av0-g05.jp05-h6-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  type: vmess
-  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
-- country: 🇨🇿CZ
-  delay: 1686
-  name: 11|土耳其 - 伊斯坦布尔 - Baxet Group Inc....
-  password: tunnel-ljlcf
-  port: 8441
-  server: tr-1.stunnel.cc
-  skip-cert-verify: true
-  sni: creativecommons.org
-  type: trojan
   udp: true
-- country: 🇸🇬SG
-  delay: 1940
-  name: 11|新加坡 - 新加坡 - Aceville Pte.ltd -...
-  password: aZsk43TyWBpjt@A
+- cipher: chacha20-ietf-poly1305
+  country: 🇿🇦ZA
+  delay: 1448
+  name: 11|日本 - 东京 - Akile LTD - 1
+  password: '114514'
   port: 443
-  server: vpn.qinfen180.cn
-  skip-cert-verify: true
-  sni: vpn.qinfen180.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1479
-  h2-opts: {}
-  http-opts: {}
-  name: 11|新加坡 - 新加坡 - Alibaba.com LLC - ...
-  network: tcp
-  port: 443
-  server: 47.84.126.255
-  skip-cert-verify: true
-  type: vmess
-  uuid: 32285564-1664-485c-f4db-daa776321a52
-- cipher: aes-256-gcm
-  country: 🇸🇬SG
-  delay: 633
-  name: 11|新加坡 - 新加坡 - Amazon Technologie...
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 16689
-  server: ss.038.node-for-bigairport.win
+  server: jp2.qylx.uno
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 1144
+  delay: 915
+  name: 11|土耳其 - 伊斯坦布尔 - Fiba Cloud Opera...
+  password: AVLbEUEtBD59FsRqcNyEib
+  port: 60299
+  server: 203.202.232.78
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1300
   name: 11|以色列 - 耶路撒冷 - Oracle Corporatio...
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   port: 18140
   server: ldu.izenny.com
   type: ss
-- country: 🇭🇰HK
-  delay: 1177
-  name: 11|英国 - 伦敦 - Bedge Co Limited - 1
-  password: pingUserForApp189
-  port: 443
-  server: 154.203.183.119
-  skip-cert-verify: true
-  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  delay: 1996
-  name: 11|英国 - Erith - OVH SAS - 2
-  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
-  port: 8443
-  server: 51.195.203.247
+- cipher: chacha20-ietf-poly1305
+  delay: 1299
+  name: 11|英国 - City of London - Microsof...
+  password: 1kVr0KATIJI7mwOF
+  port: 443
+  server: admin.c1.havij.co
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1048
+  country: 🏁 ZZ
+  delay: 1537
   name: 11|越南 - Hải Dương - FASTLY - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.215
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1357
-  name: 11|越南 - Hải Dương - FASTLY - 10
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.189
+  server: 103.186.154.216
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1091
-  name: 11|越南 - Hải Dương - FASTLY - 11
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.20
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1114
-  name: 11|越南 - Hải Dương - FASTLY - 12
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1081
-  name: 11|越南 - Hải Dương - FASTLY - 13
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.165
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1142
-  name: 11|越南 - Hải Dương - FASTLY - 14
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.32
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2072
+  delay: 1717
   name: 11|越南 - Hải Dương - FASTLY - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.105
+  server: 103.186.154.229
   type: ss
 - cipher: aes-256-cfb
-  delay: 999
+  country: 🏁 ZZ
+  delay: 1312
   name: 11|越南 - Hải Dương - FASTLY - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.126
+  server: 103.186.154.228
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1023
+  delay: 1002
   name: 11|越南 - Hải Dương - FASTLY - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.9
+  server: 103.186.155.236
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1026
+  country: 🏁 ZZ
+  delay: 1396
   name: 11|越南 - Hải Dương - FASTLY - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.62
+  server: 103.186.155.107
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1221
+  delay: 1031
   name: 11|越南 - Hải Dương - FASTLY - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.34
+  server: 103.186.154.80
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1139
-  name: 11|越南 - Hải Dương - FASTLY - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.58
+- cipher: chacha20-ietf-poly1305
+  delay: 473
+  name: 11|中国 - 台湾 - Pittqiao Network Inf...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 25612
+  server: ldu.izenny.com
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 1160
-  name: 11|越南 - Hải Dương - FASTLY - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.221
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2092
-  name: 11|越南 - Hải Dương - FASTLY - 9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.40
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  delay: 2221
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - cognetcloud INC - 1
+  network: none
+  port: 35760
+  server: 149.88.95.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  delay: 2225
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - cognetcloud INC - 2
+  network: tcp
+  port: 40741
+  server: 149.88.95.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  delay: 2219
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - cognetcloud INC - 3
+  network: tcp
+  port: 18937
+  server: 149.88.95.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+  ws-path: /
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  delay: 392
+  name: 11|中国 - 香港 - Strong Worth Holding...
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
   type: ss
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
@@ -519,31 +452,31 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 2255
-  server: 3.113.29.187
+  port: 331
+  server: 13.231.56.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 388
-  server: 43.207.103.90
+  port: 1359
+  server: 52.199.90.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2399
-  server: 43.207.103.90
+  port: 504
+  server: 18.162.142.234
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2595
+  port: 32536
   server: 52.199.90.129
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
@@ -551,16 +484,16 @@ proxies:
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 400
-  server: 3.112.20.105
+  port: 34818
+  server: 57.180.8.230
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3423
-  server: 3.112.20.105
+  port: 2001
+  server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -568,50 +501,59 @@ proxies:
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
-  server: 202.181.103.246
+  server: 52.199.130.72
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3419
-  server: 3.112.20.105
+  port: 3901
+  server: 52.69.221.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15363
-  server: 18.166.236.73
+  port: 41973
+  server: 16.162.105.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.185.238
+  port: 4920
+  server: 175.41.195.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 4920
-  server: 160.16.72.33
+  port: 1281
+  server: 52.195.233.42
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45285
-  server: 18.162.51.53
+  port: 45947
+  server: 18.162.142.234
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大|@ripaojiedian
+  port: 11985
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -622,6 +564,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大|@ripaojiedian
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - name: 15|AT_speednode_0001
   port: 61809
   reality-opts:
@@ -634,273 +586,83 @@ proxies:
   type: vless
   udp: true
   uuid: 899251ca-be66-4d21-84d8-bd7fbf10150b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|BG_speednode_0002
-  port: 443
+- name: 15|BG_speednode_0002
+  port: 55057
   reality-opts:
-    public-key: juH5xrivuMuDd3Qp_P-CTHfvnQIVetUgDe7XwpJvLkE
-    short-id: a56b26c2
-  server: 178.239.122.108
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- flow: xtls-rprx-vision
-  name: 15|FR_speednode_0004
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: 185.171.202.58
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- name: 15|FR_speednode_0005
-  port: 61873
-  reality-opts:
-    public-key: wEU32qHhiQq-FDYUvuEl7_HAM6r5nDh6M4F8WGnEhjE
-    short-id: 34d8e80d8fa40501
-  server: 45.95.233.85
+    public-key: uSzNQq_GJZGbq4SHtEsqBY93C2acsM-K-QACZC-J6Eo
+    short-id: aa5f8562357295ff
+  server: 87.120.219.99
   servername: yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 8b8f4dfb-cd48-4dab-bb75-b304971176cd
-- name: 15|GB_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: kWxGUQ6QtaU-SCCt8Ht-POUPS6Ue6w-KyHjxb1AYQ1w
-    short-id: 2e0f
-  server: 217.154.38.156
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a8391ef-383c-4321-ac25-89b50973ab73
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: 2HWC3TKZmYDORsrGqTTOITNFBp6ANhwgERK6lPcVbic
-    short-id: ecd1c97d
-  server: 195.20.17.182
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-- name: 15|GR_speednode_0009
-  port: 443
-  reality-opts:
-    public-key: 2Z2meC9rRAMD3k52ne8dh8PdfRNpOs5T9yObPyFkXyQ
-    short-id: f9fe
-  server: 185.234.57.216
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b824f264-8cc3-4669-9f60-47b51ed1aa11
-- name: 15|IQ_speednode_0011
-  port: 56864
-  reality-opts:
-    public-key: AIt19ZFk_JxCvW7OOwUn4mhE_1alZJlNj-xnQOpPZCI
-    short-id: 2e3c82922ef98049
-  server: 93.94.51.19
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
+  uuid: 5d837e94-967d-43a8-8e36-440ddfa4fd15
 - flow: xtls-rprx-vision
-  name: 15|LT_speednode_0012
-  port: 23335
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 7.cdnconn.com
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-- flow: xtls-rprx-vision
-  name: 15|NL_speednode_0013
+  name: 15|LB_speednode_0009
   port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 86e999a2cdc2
-  server: nl04-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+  server: node12.telegavpn.org
+  servername: node12.telegavpn.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-- flow: xtls-rprx-vision
-  name: 15|NL_speednode_0014
-  port: 443
+  uuid: 026eedbc-e0bb-444e-9751-addacc4a71e5
+- name: 15|NL_speednode_0010
+  port: 8443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 86e999a2cdc2
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+    short-id: 3ca620a7ed5f3196
+  server: 37.218.247.35
+  servername: sun6-21.userapi.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+  uuid: f4fec1b0-a67e-4967-b9ea-0bd832b57a4d
 - flow: xtls-rprx-vision
-  name: 15|RU_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
-    short-id: cfdbaa7f996dd0e9
-  server: 37.139.34.237
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|RU_speednode_0017
-  port: 6443
-  reality-opts:
-    public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
-    short-id: 9dfefbaf7319b348
-  server: 5.188.143.115
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0018
-  port: 443
-  reality-opts:
-    public-key: LCxSn-zcFxBKKztCytR-Wzjt3VwezZs2jN6FtZPQ3n0
-  server: 51.250.103.29
-  servername: ads.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b5fdaeb-518d-4411-b668-eaf4cb757ff2
-- flow: xtls-rprx-vision
-  name: 15|RU_speednode_0019
+  name: 15|RU_speednode_0011
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: 4b523a98e1bbd15b
-  server: 51.250.95.176
+    short-id: 17f0f0e38f01af5a
+  server: 51.250.4.119
   servername: api-maps.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 72adc5b8-146a-4bfe-921b-5c9e1df016e0
-- name: 15|RU_speednode_0020
-  port: 64527
-  reality-opts:
-    public-key: wAKyTOUr89tJU2pVUVrwt0dAsxmNfRHXhPQ3IvyGshc
-    short-id: 56abcac460c7c6ca
-  server: 212.192.14.250
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3203210-2e42-468a-ad7d-5da9b9a1bac4
-- name: 15|SI_speednode_0021
-  port: 58198
-  reality-opts:
-    public-key: zVumFklIWzpvzrtnlkGG4YRqBbV-diGCouiiSeEwnEE
-    short-id: 2c8a6793b9de7014
-  server: 109.172.55.220
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d5d52c15-f963-42b8-971b-613fc9c5e7e3
-- name: 15|TW_speednode_0022
-  network: ws
-  port: 10443
-  server: 114.34.106.124
-  servername: 63.hhhhh.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
-  ws-opts:
-    headers:
-      Host: 63.hhhhh.eu.org
-    path: /114.34.106.124:10443
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0024
-  port: 443
+  name: 15|RU_speednode_0012
+  port: 18122
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 143.20.236.51
-  servername: yahoo.com
+    public-key: b8y-G1s0KMtKBVZR9b70nVrFvYma0FyDGV-ACq5qxyk
+    short-id: 78e225
+  server: 84.201.171.134
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 15|US_speednode_0025
-  port: 443
-  reality-opts:
-    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
-    short-id: 2f2a
-  server: 66.179.82.126
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
-- name: 15|US_speednode_0026
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- name: 15|US_speednode_0027
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  uuid: 79cd8514-aea9-41b9-b950-db5aa8937497
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0028
+  name: 15|TR_speednode_0013
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: 77.92.145.192
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0014
   port: 443
   reality-opts:
     public-key: 3ik9ws7ATJ5dKDY2Fofv9y7_vpFYsTqgOJRxiQKwA3A
@@ -913,15 +675,14 @@ proxies:
   udp: true
   uuid: e43dd231-7c75-4606-80ec-50fbb8335ce7
 - flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 23335
+  name: 15|US_speednode_0015
+  port: 30001
   reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 144.31.130.59
-  servername: icloud.com
+    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
+  server: 165.154.235.194
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  uuid: be70763e-ab0a-4f8d-87aa-b8ae86495cca
