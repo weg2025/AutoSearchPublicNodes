@@ -1,19 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 1487
-  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 18244
-  server: ldu.izenny.com
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
-  delay: 2124
+  delay: 1852
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 华盛顿特区 - HostPapa - 2
+  name: 11|美国 - 华盛顿特区 - HostPapa - 6
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -21,35 +13,96 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺 RU
+  delay: 1234
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - IT7 Networks Inc - ...
+  network: tcp
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 382
+  h2-opts: {}
+  http-opts: {}
+  name: '11|美国 - 洛杉矶 - IT7 Networks Inc - ... #1'
+  network: tcp
+  port: 31350
+  server: 93.179.99.4
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+- alterId: 0
+  cipher: auto
+  delay: 2745
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 圣克拉拉 - DigitalOcean, LLC ...
+  network: ws
+  port: 443
+  server: cg1c11.waimaojd.com
+  servername: cg1c11.waimaojd.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
+  ws-opts:
+    headers:
+      Host: cg1c11.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 674
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|美国 - 圣克拉拉 - HostPapa - 3
+  network: http
+  port: 32301
+  server: 104.168.94.41
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
 - cipher: chacha20-ietf-poly1305
-  delay: 1275
+  country: 🏁 ZZ
+  delay: 697
   name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
-  udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 4920
-  server: 175.41.195.26
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 1281
-  server: 52.195.233.42
+  port: 4920
+  server: 54.65.39.157
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 18.162.142.234
+  port: 14636
+  server: 18.166.31.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

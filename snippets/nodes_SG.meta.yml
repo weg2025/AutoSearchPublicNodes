@@ -7,27 +7,49 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 1717
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - Global Communicati...
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+  ws-path: /
+- cipher: aes-128-gcm
+  country: 🇮🇹 IT
+  delay: 1682
+  name: 11|新加坡 - 新加坡 - WAP.AC LLC - 1
+  password: 05d926a5-0b6e-4b00-8b8a-fe65d29943d3
+  port: 8469
+  server: 185.151.146.135
+  type: ss
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
   port: 3419
-  server: 52.199.130.72
+  server: 54.65.39.157
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: 262f1d150049457ac1d6e66b020fa980
-  port: 3901
-  server: 52.69.221.238
+  port: 3419
+  server: 52.196.93.35
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41973
-  server: 16.162.105.4
+  port: 29666
+  server: 43.198.151.38
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
