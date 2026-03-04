@@ -1,14 +1,47 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇮🇷IR
-  delay: 2636
-  name: 11|美国 - 達拉斯 - WorkTitans B.V. - 2
-  password: 2f0c7e37-2534-48dc-9615-d85ae800c41f
-  port: 12052
-  server: tt.good2026.com
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 1063
+  name: 11|冰岛 - 凯夫拉维克国际机场 - STARK INDUSTR...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18244
+  server: ldu.izenny.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  delay: 1872
+  country: 🇷🇴 RO
+  delay: 474
+  name: 11|美国 - 洛杉矶 - M247 Europe SRL - 1
+  password: zwBLM6bBE5YxvwvnKgxAq3ErXpqMYv20
+  port: 443
+  server: 185.193.48.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 1638
+  name: 11|美国 - 盐湖城 - PoloCloud Computing...
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 46197
+  server: ldu.izenny.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 517
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 11|美国 - Ashburn - Oracle Corporat...
+  network: http
+  port: 443
+  server: 132.145.154.72
+  servername: a.189.cn
+  skip-cert-verify: true
+  type: vmess
+  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+- cipher: chacha20-ietf-poly1305
+  delay: 518
   name: 11|美国 - Somers - Fourplex Telecom...
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
@@ -18,26 +51,29 @@ proxies:
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4920
-  server: 52.68.27.2
+  port: 4019
+  server: 54.178.70.68
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4920
-  server: 13.115.210.7
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 18.162.42.52
+  port: 4864
+  server: 18.166.249.43
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: true
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
