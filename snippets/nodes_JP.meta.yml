@@ -1,55 +1,46 @@
 proxies:
-- name: 9|JP
-  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-  port: 13778
-  server: jp7.dexlos.com
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alterId: 1
-  cipher: auto
-  delay: 183
-  h2-opts: {}
-  http-opts: {}
-  name: 11|日本 - 东京 - Amazon.com, Inc. - 1
-  network: tcp
-  port: 28787
-  server: smgzgd4-g05.jp07-sh-vm0.entry.fr0528.art
-  type: vmess
-  udp: true
-  uuid: f151b844-c067-3520-a654-791bf073b1a0
 - cipher: aes-256-gcm
-  country: 🇨🇦CA
-  delay: 1734
-  name: 11|日本 - 东京 - Baxet Group Inc. - 2
+  delay: 722
+  name: 11|日本 - 东京 - Baxet Group Inc. - 1
   password: 0690659746980c46
   port: 60129
   server: 167.17.179.197
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 703
+  h2-opts: {}
+  http-opts: {}
+  name: 11|日本 - 东京 - ISIF OU - 2
+  network: tcp
+  port: 8443
+  server: 31.58.223.134
+  skip-cert-verify: true
+  type: vmess
+  uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 52.195.2.120
+  port: 21508
+  server: 52.195.220.53
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  tfo: true
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
-  server: 57.180.36.84
+  server: 13.230.112.99
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 34818
-  server: 13.115.155.105
+  server: 18.181.193.208
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan

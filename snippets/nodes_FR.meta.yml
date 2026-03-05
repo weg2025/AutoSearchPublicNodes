@@ -1,10 +1,23 @@
 proxies:
 - country: 🇫🇷FR
-  delay: 2925
-  name: 11|法国 - 巴黎 - Amazon.com, Inc. - 1
+  delay: 1020
+  name: 11|法国 - 巴黎 - Amazon Technologies ...
   password: telegram-id-privatevpns
   port: 22222
-  server: 15.188.31.240
+  server: 13.39.100.172
   skip-cert-verify: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|FR_speednode_0006
+  port: 443
+  reality-opts:
+    public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo
+  server: test.spectrum.vu
+  servername: test.spectrum.vu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bc7d558-1943-44de-bd82-56920bc9383e
