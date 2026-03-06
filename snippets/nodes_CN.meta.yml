@@ -1,43 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CN_speednode_0002
-  port: 25642
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: 693b25e06841ac7f
-  server: cdn.jp2.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
+- delay: 1497
+  name: 11|中国 - Sha Tin - 2
+  password: <password>
+  port: 8443
+  server: 3d60a50f-ta1og0-tkp3tl-1s09x.hkt.cdnhuawei.com
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 6a62060e-3f1f-4254-8faa-2c2f4f0fa28b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CN_speednode_0003
-  port: 30398
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: 693b25e06841ac7f
-  server: cdn.hk8.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a62060e-3f1f-4254-8faa-2c2f4f0fa28b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|CN_speednode_0004
-  port: 41191
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: 693b25e06841ac7f
-  server: cdn.tw4.cocoduck.org
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a62060e-3f1f-4254-8faa-2c2f4f0fa28b
+  username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 1175
+  name: 11|中国 - Taipei - 1
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 25612
+  server: ldu.izenny.com
+  type: ss

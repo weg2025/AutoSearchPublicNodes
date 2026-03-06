@@ -1,51 +1,41 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  delay: 535
-  name: 11|美国 - 阿什本 - Psychz Networks - 2
-  password: qwerREWQ@@
-  port: 41632
-  server: 140.174.186.5
-  tfo: true
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 2996
-  name: 11|美国 - 盐湖城 - PoloCloud Computing...
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 2973
-  name: 11|美国 - Somers - Fourplex Telecom...
-  password: hbGrpfvNrJsUmKmPbR3iY2
+  country: 🇺🇸US
+  delay: 636
+  name: 11|美国 - Washington - 1
+  password: E2DnpxLTj4IEeLMQ
   port: 443
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 104.211.63.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 611
+  name: 11|美国 - Washington - 2
+  password: 2RGrp6ZndpeLnsck
+  port: 443
+  server: 104.211.63.232
   type: ss
   udp: true
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 3057
-  server: 18.181.193.208
+  port: 4019
+  server: 13.114.100.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 4920
-  server: 13.230.112.99
+  port: 4019
+  server: 54.250.6.236
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50446
-  server: 54.250.253.77
+  port: 28680
+  server: 54.199.30.7
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
