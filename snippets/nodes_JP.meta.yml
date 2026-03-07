@@ -2,32 +2,46 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
   delay: 1953
-  name: 11|日本 - Tokyo - 1
+  name: 10|日本 - Tokyo - 1
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   port: 59906
   server: ldu.izenny.com
   type: ss
-- name: 13,14|日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 13.192.170.234
+  port: 4945
+  server: 57.180.10.241
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 13,14|日本2|@ripaojiedian
-  network: tcp
-  password: f7dbed8b1ca85124e793ba6c0bcfd0db
-  port: 34818
-  server: 54.250.6.236
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 13,14|日本3|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 4937
-  server: 13.114.100.13
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 12,13|日本3|@ripaojiedian
+  network: tcp
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 34818
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 14|JP_speednode_0020
+  network: ws
+  port: 443
+  server: 188.253.26.128
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
