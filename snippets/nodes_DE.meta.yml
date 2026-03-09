@@ -1,5 +1,5 @@
 proxies:
-- name: 9|DE
+- name: 8|DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '9,10|کانال تلگرام : Free_VPN_CH@'
+- name: '8,9|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,16 +17,31 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 15|DE_speednode_0002
-  port: 2280
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0004
+  port: 443
   reality-opts:
-    public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
-    short-id: faf804ddc2e49f6c
-  server: 192.76.160.216
-  servername: tgju.org
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 5.254.85.151
+  servername: germany.scroogethebest.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- name: 14|DE_speednode_0005
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
