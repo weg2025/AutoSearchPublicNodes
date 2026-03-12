@@ -1,121 +1,338 @@
 proxies:
-- country: 🇺🇸US
-  delay: 722
-  name: 11|法国 - Paris - 1
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.98.27
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🏁 ZZ
-  delay: 1539
-  name: 11|荷兰 - Amsterdam - 1
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇫🇷FR
-  delay: 2856
+  delay: 1119
   h2-opts: {}
   http-opts: {}
-  name: 11|荷兰 - Amsterdam - 2
+  name: 11|法国 - Lauterbourg - 1
   network: tcp
-  port: 50521
-  server: 141.11.21.219
+  port: 64092
+  server: pub.ap20260228.com
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1360
+  h2-opts: {}
+  http-opts: {}
+  name: 11|韩国 - Gangseo-gu - 1
+  network: tcp
+  port: 64097
+  server: pub.ap20260228.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+- cipher: chacha20-ietf-poly1305
+  delay: 417
+  name: 11|韩国 - Incheon - 2
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 8989
+  server: 52.79.249.144
+  type: ss
+  udp: true
+- delay: 542
+  name: 11|韩国 - Incheon - 3
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6688
+  server: 52.79.249.144
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 655
+  h2-opts: {}
+  http-opts: {}
+  name: 11|加拿大 - Toronto - 1
+  network: tcp
+  port: 64013
+  server: pub.ap20260228.com
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+- cipher: chacha20-ietf-poly1305
+  delay: 576
+  name: 11|美国 - Boardman - 2
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 8989
+  server: 35.88.181.149
+  type: ss
+  udp: true
+- delay: 801
+  name: 11|美国 - Boardman - 3
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6688
+  server: 35.88.181.149
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇹🇼 TW
+  delay: 741
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - Chicago - 1
+  network: tcp
+  port: 64014
+  server: pub.ap20260228.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+  ws-path: /
+- cipher: aes-256-gcm
+  delay: 2591
+  name: 11|日本 - Tokyo - 1
+  password: g4JtpkuxkwRH4jhj
+  port: 19822
+  server: iepl.huli168.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2203
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - Singapore - 1
+  network: tcp
+  port: 64021
+  server: pub.ap20260228.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 1204
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 1
+  network: ws
+  port: 443
+  server: 18.143.76.130
+  servername: mn1ray.jagoanvip.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7b4c6795-3be5-4a4e-b234-07a46f580c45
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1049
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 2
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 792
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 3
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1649
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 4
+  network: ws
+  port: 443
+  server: 47.57.182.141
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 2844
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 5
+  network: ws
+  port: 443
+  server: 8.223.63.189
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2861
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 6
+  network: ws
+  port: 443
+  server: 38.55.193.199
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2862
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 7
+  network: ws
+  port: 443
+  server: 47.130.9.238
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2856
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 8
+  network: ws
+  port: 443
+  server: 38.55.194.87
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2868
+  h2-opts: {}
+  http-opts: {}
+  name: 11|印度尼西亚 - Jakarta - 9
+  network: ws
+  port: 443
+  server: 149.104.30.17
+  servername: mn1ray.jagoanvip.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  ws-opts:
+    headers:
+      HOST: mn1ray.jagoanvip.xyz
+    path: /vvip
 - cipher: aes-256-cfb
-  delay: 1885
-  name: 11|葡萄牙 - Lisbon - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 791
-  name: 11|越南 - Hải Dương - 5
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.121
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 894
+  country: 🏁 ZZ
+  delay: 1640
   name: 11|越南 - Hanoi - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.234
+  server: 103.186.155.60
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 822
+  country: 🏁 ZZ
+  delay: 941
   name: 11|越南 - Hanoi - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.220
+  server: 103.186.154.185
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 827
+  country: 🏁 ZZ
+  delay: 2358
   name: 11|越南 - Hanoi - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.42
+  server: 103.186.155.53
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  delay: 1809
+  country: 🏁 ZZ
+  delay: 2549
   name: 11|越南 - Hanoi - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.50
+  server: 103.186.155.136
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1835
-  name: 11|越南 - Hanoi - 6
+  delay: 1341
+  name: 11|越南 - Hanoi - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.233
+  server: 103.186.155.204
   type: ss
-- cipher: aes-256-cfb
-  delay: 1815
-  name: 11|越南 - Hanoi - 7
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.21
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1967
-  name: 11|越南 - Hanoi - 8
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.178
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 870
-  name: 11|越南 - Hanoi - 9
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.200
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1153
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - Chang-hua - 1
+  network: tcp
+  port: 64018
+  server: pub.ap20260228.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
   server: 63.180.254.10
+  tfo: false
   type: ss
 - alterId: 2
   cipher: auto
@@ -123,6 +340,7 @@ proxies:
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -130,89 +348,109 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 921
-  server: 175.41.228.177
+  server: 54.178.24.255
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 388
-  server: 13.230.215.64
+  port: 5823
+  server: 95.40.5.151
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 18.163.80.240
+  port: 443
+  server: 58.152.25.253
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
   type: trojan
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3022
-  server: 52.68.96.91
+  server: 54.178.24.255
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tfo: false
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 2001
-  server: 160.16.214.104
+  port: 34818
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
-  server: 160.16.214.104
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
-  server: 160.16.214.104
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4674
-  server: 160.16.214.104
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 52951
-  server: 16.162.45.163
+  port: 29666
+  server: 54.238.164.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tfo: false
+  type: trojan
+- name: 13,14|美国|@ripaojiedian
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 3057
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 3057
-  server: 160.16.214.104
+  port: 4920
+  server: 13.231.7.33
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5390
-  server: 18.163.80.240
+  port: 23287
+  server: 18.163.182.91
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
   type: trojan
 - alterId: 2
   cipher: auto
@@ -224,32 +462,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 15|HK_speednode_0015
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
+- name: 15|CN_speednode_0005
+  password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+  port: 35902
+  server: sg03.stimaysmhy8.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 15|KR_speednode_0031
-  network: ws
-  password: trojan
-  port: 11001
-  server: 121.131.136.208
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- name: 15|SC_speednode_0052
-  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-  port: 443
-  server: 8443.golden-cards.me
-  skip-cert-verify: true
-  sni: 8443.golden-cards.me
+  sni: jsygouer.weixin-baidu-qq.com
   type: trojan
   udp: true

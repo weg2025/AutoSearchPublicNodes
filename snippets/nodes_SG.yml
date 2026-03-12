@@ -1,25 +1,41 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2203
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - Singapore - 1
+  network: tcp
+  port: 64021
+  server: pub.ap20260228.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
-  server: 160.16.214.104
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4674
-  server: 160.16.214.104
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 52951
-  server: 16.162.45.163
+  port: 29666
+  server: 54.238.164.64
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tfo: false
   type: trojan

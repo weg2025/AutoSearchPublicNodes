@@ -1,14 +1,31 @@
 proxies:
-- name: 15|KR_speednode_0031
-  network: ws
-  password: trojan
-  port: 11001
-  server: 121.131.136.208
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1360
+  h2-opts: {}
+  http-opts: {}
+  name: 11|韩国 - Gangseo-gu - 1
+  network: tcp
+  port: 64097
+  server: pub.ap20260228.com
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  type: vmess
+  uuid: a739e782-1682-38a5-9153-aad09d779ae9
+- cipher: chacha20-ietf-poly1305
+  delay: 417
+  name: 11|韩国 - Incheon - 2
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 8989
+  server: 52.79.249.144
+  type: ss
+  udp: true
+- delay: 542
+  name: 11|韩国 - Incheon - 3
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6688
+  server: 52.79.249.144
+  skip-cert-verify: true
+  sni: baidu.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
