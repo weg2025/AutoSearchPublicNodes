@@ -1,18 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 1153
+  country: 🇨🇳CN
+  delay: 983
   h2-opts: {}
   http-opts: {}
-  name: 11|中国 - Chang-hua - 1
-  network: tcp
-  port: 64018
-  server: pub.ap20260228.com
+  name: 10|中国 - 深圳 - 12
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  servername: tms.dingtalk.com
   skip-cert-verify: true
   type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- name: 15|CN_speednode_0005
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      HOST: tms.dingtalk.com
+    path: /
+- name: 14|CN_speednode_0005
   password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
   port: 35902
   server: sg03.stimaysmhy8.com

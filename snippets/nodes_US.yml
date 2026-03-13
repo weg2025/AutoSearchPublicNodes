@@ -1,59 +1,76 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 576
-  name: 11|美国 - Boardman - 2
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 8989
-  server: 35.88.181.149
-  type: ss
-  udp: true
-- delay: 801
-  name: 11|美国 - Boardman - 3
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6688
-  server: 35.88.181.149
-  skip-cert-verify: true
-  sni: baidu.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇹🇼 TW
-  delay: 741
+  country: 🇫🇷FR
+  delay: 1009
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - Chicago - 1
-  network: tcp
-  port: 64014
-  server: pub.ap20260228.com
+  name: 10|美国 - 洛杉矶 - 1
+  network: ws
+  port: 16648
+  server: m.cnmjin.net
+  servername: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
   skip-cert-verify: true
   type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-  ws-path: /
-- name: 13,14|美国|@ripaojiedian
-  network: tcp
-  password: f389ed926e512e15f382dc3804029474
-  port: 3057
-  server: 153.121.45.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tfo: false
-  type: trojan
-- name: 13,14|美国2|@ripaojiedian
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      HOST: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2483
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 2
+  network: ws
+  port: 16648
+  server: planb.mojcn.com
+  servername: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      HOST: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  delay: 619
+  name: 10|美国 - Secaucus - 3
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 194.116.173.21
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1792
+  name: 10|美国 - Somers - 4
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4920
-  server: 13.231.7.33
+  server: 54.238.23.69
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
-- name: 13,14|美国3|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 4920
+  server: 54.248.177.86
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23287
-  server: 18.163.182.91
+  port: 5390
+  server: 16.163.105.149
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tfo: false
   type: trojan

@@ -1,5 +1,5 @@
 proxies:
-- name: 9|SG
+- name: 8|SG
   password: e7965e64-e001-4e8c-8273-39c61ff4a094
   port: 30000
   server: sg3.oomz.ru
@@ -9,45 +9,91 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 2203
+  country: 🇫🇷FR
+  delay: 1163
   h2-opts: {}
   http-opts: {}
-  name: 11|新加坡 - Singapore - 1
-  network: tcp
-  port: 64021
-  server: pub.ap20260228.com
+  name: 10|新加坡 - 新加坡 - 1
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  servername: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
   skip-cert-verify: true
   type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- name: 13,14|新加坡|@ripaojiedian
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      HOST: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 438
+  h2-opts: {}
+  http-opts: {}
+  name: 10|新加坡 - 新加坡 - 2
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  servername: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      HOST: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1139
+  h2-opts: {}
+  http-opts: {}
+  name: 10|新加坡 - 新加坡 - 3
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  servername: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a2e68fdf-3339-41e9-aaab-9bb97f07479c
+  ws-opts:
+    headers:
+      HOST: b7a3672ec50a345fff716208019ba38f.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬SG
+  delay: 467
+  name: 10|新加坡 - 新加坡 - 4
+  password: 2bbfd4e8992849df8df5772a39fc79c9
+  port: 442
+  server: 8.219.102.91
+  type: ss
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: f7dbed8b1ca85124e793ba6c0bcfd0db
   port: 3419
-  server: 153.121.45.139
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
-- name: 13,14|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4674
-  server: 153.121.45.139
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
-  tfo: false
   type: trojan
-- name: 13,14|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 54.238.164.64
+  port: 52951
+  server: 13.231.110.103
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  tfo: false
   type: trojan
-- name: 15|SG_speednode_0022
+- name: 14|SG_speednode_0022
   network: ws
   port: 8443
   server: 43.160.248.66
