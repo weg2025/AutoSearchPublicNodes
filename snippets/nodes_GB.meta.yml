@@ -1,16 +1,20 @@
 proxies:
-- country: 🇨🇳CN
-  delay: 1928
-  name: 10|英国 - 伦敦 - 1
-  password: 4b18c59f-b249-4d78-95bc-fc560a41aab7
-  port: 20012
-  server: u0-ukl1p.cy2511.world
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2164
+  h2-opts: {}
+  http-opts: {}
+  name: 11|英国 - 伦敦 - 1
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  servername: v36.hdacd.com
   skip-cert-verify: true
-  sni: bing.com
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 14|GB_speednode_0006
+  name: 15|GB_speednode_0006
   port: 443
   reality-opts:
     public-key: qrnqrRbyJ3KLRDdvO0Ed2ewMvTn1i5XWyF07q_4eunk

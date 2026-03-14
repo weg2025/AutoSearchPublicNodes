@@ -1,23 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 983
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 深圳 - 12
-  network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
-  servername: tms.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
-    path: /
-- name: 14|CN_speednode_0005
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇺AU
+  delay: 2126
+  name: 11|中国 - 臺北市 - 1
+  password: jR5Wg32XzEgCXk4MPCgvd1G1Ts8WHBLsXMUaqMa5DUXMuqMmdZgCbMipXDhoAmj73qA9oY85zXK35L5m631Tn7in2p3KLbWF
+  port: 56594
+  server: 46.249.109.128
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇺AU
+  delay: 2845
+  name: 11|中国 - 臺北市 - 2
+  password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
+  port: 56594
+  server: download.riferoser.icu
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦🇺AU
+  delay: 2844
+  name: 11|中国 - 臺北市 - 3
+  password: q2jToxsx4vTevqrFiLGuwRx96SXM3C96id1MWpnSECHq3MaTWnEV76aN5PYEigRfqf7rxAcuAMWUzYNxrYRG6QhMcYw5QnqL
+  port: 56594
+  server: download.riferoser.icu
+  type: ss
+- name: 15|CN_speednode_0005
   password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
   port: 35902
   server: sg03.stimaysmhy8.com
