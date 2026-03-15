@@ -1,22 +1,8 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1568
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 华盛顿特区 - 2
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  delay: 845
-  name: 11|美国 - 洛杉矶 - 3
+  delay: 1713
+  name: 11|美国 - 洛杉矶 - 1
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -24,41 +10,92 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
-  delay: 1415
+  country: 🇺🇸US
+  delay: 1116
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 圣克拉拉 - 1
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
+  name: 11|美国 - 紐約 - 3
+  network: ws
+  port: 80
+  server: 172.67.157.61
+  servername: m9o0.1xq.indevs.in
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      HOST: m9o0.1xq.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- cipher: chacha20-ietf-poly1305
+  country: 🏁 ZZ
+  delay: 1530
+  name: 11|美国 - Somers - 2
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4019
-  server: 52.68.61.114
+  server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4920
-  server: 18.181.152.121
+  port: 4019
+  server: 160.16.130.21
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45947
-  server: 95.40.28.8
+  port: 50446
+  server: 95.40.46.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 15|US_speednode_0042
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /
+- name: 15|US_speednode_0043
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- name: 15|US_speednode_0044
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560

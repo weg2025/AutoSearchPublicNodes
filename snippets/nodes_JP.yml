@@ -1,9 +1,25 @@
 proxies:
+- cipher: aes-256-gcm
+  delay: 1853
+  name: 11|日本 - 东京 - 1
+  password: g4JtpkuxkwRH4jhj
+  port: 19822
+  server: iepl.huli168.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2101
+  name: 11|日本 - 东京 - 2
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 8989
+  server: 52.194.245.178
+  type: ss
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 52.196.224.76
+  port: 21508
+  server: 54.238.7.116
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -11,15 +27,15 @@ proxies:
   network: tcp
   password: f389ed926e512e15f382dc3804029474
   port: 4937
-  server: 52.68.61.114
+  server: 3.112.213.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: f389ed926e512e15f382dc3804029474
-  port: 4937
-  server: 160.16.132.38
+  port: 34818
+  server: 57.181.29.108
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
