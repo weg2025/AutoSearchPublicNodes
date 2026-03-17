@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- country: 🇩🇪DE
+  delay: 2571
+  name: 9|德国 - Frankfurt am Main - 1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.194.236.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1669
+  name: 9|德国 - Frankfurt am Main - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.194.236.215
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  delay: 611
+  name: 9|西班牙 - 马德里 - 1
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  delay: 653
+  name: 9|西班牙 - 马德里 - 2
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
