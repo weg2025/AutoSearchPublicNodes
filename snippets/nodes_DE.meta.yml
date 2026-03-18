@@ -1,5 +1,5 @@
 proxies:
-- name: '7,8|کانال تلگرام : Free_VPN_CH@'
+- name: '8,9|کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -9,41 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 2571
-  name: 9|德国 - Frankfurt am Main - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.194.236.215
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1669
-  name: 9|德国 - Frankfurt am Main - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 18.194.236.215
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸ES
-  delay: 611
-  name: 9|西班牙 - 马德里 - 1
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 5.188.181.201
-  type: ss
-- cipher: aes-256-cfb
-  delay: 653
-  name: 9|西班牙 - 马德里 - 2
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 5.188.181.201
-  type: ss
-- name: 13|DE_speednode_0012
+- name: 14|DE_speednode_0004
   network: ws
   port: 8005
   server: 45.145.42.170
@@ -57,3 +23,17 @@ proxies:
     headers:
       Host: sub.mot.ip-ddns.com
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0005
+  port: 443
+  reality-opts:
+    public-key: EdEtwDL3a_V9midkIqik19C3xo7VvefseGkDM5jBWGM
+    short-id: ba34cbf836e99bf6
+  server: 89.185.85.107
+  servername: cdnv-img.perekrestok.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 658786e5-f302-48e2-b321-f4dc6da2a398

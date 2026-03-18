@@ -1,84 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  delay: 1138
+  country: 🇨🇳CN
+  delay: 2173
   h2-opts: {}
   http-opts: {}
-  name: 9|美国 - 洛杉矶 - 2
-  port: 9027
-  server: select-us.ddnskunlun.com
+  name: 10|美国 - 洛杉矶 - 2
+  network: ws
+  port: 16648
+  server: m.cnmjin.net
+  servername: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com
   skip-cert-verify: true
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: fcad95ed-9d9c-4621-9b1a-21fd5dde3f83
+  ws-opts:
+    headers:
+      HOST: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 807
-  name: 9|美国 - Somers - 1
+  delay: 1897
+  name: 10|美国 - Somers - 1
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
   udp: true
-- name: 11,12|美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3057
-  server: 160.16.72.33
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 160.16.70.180
+  port: 4920
+  server: 13.231.19.155
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8401
-  server: 16.163.155.36
+  port: 37223
+  server: 43.207.164.92
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|US_speednode_0042
+- name: 14|US_speednode_0021
   network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
+      Host: jflsjlaf.pages.dev
     path: /
-- name: 13|US_speednode_0043
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
-- name: 13|US_speednode_0044
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560
