@@ -1,64 +1,95 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
   country: 🇨🇳CN
-  delay: 2173
+  delay: 1435
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
-  network: ws
-  port: 16648
-  server: m.cnmjin.net
-  servername: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com
+  name: 11|美国 - 华盛顿特区 - 2
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: fcad95ed-9d9c-4621-9b1a-21fd5dde3f83
-  ws-opts:
-    headers:
-      HOST: ac9761292953f408ccdba1b1b4953c3c.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  delay: 1897
-  name: 10|美国 - Somers - 1
+  country: 🇷🇺 RU
+  delay: 2578
+  name: 11|美国 - 洛杉矶 - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 407
+  name: 11|美国 - 洛杉矶 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 431
+  name: 11|美国 - 洛杉矶 - 5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 449
+  name: 11|美国 - 洛杉矶 - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1365
+  name: 11|美国 - Somers - 1
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3057
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
-  server: 13.231.19.155
+  server: 54.199.166.248
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4019
+  server: 160.16.214.104
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 37223
-  server: 43.207.164.92
+  port: 8401
+  server: 95.40.3.110
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14|US_speednode_0021
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
