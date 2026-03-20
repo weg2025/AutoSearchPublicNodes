@@ -1,9 +1,38 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2583
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - 1
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  servername: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      HOST: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2131
+  name: 11|新加坡 - 新加坡 - 2
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4674
-  server: 160.16.72.205
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -11,15 +40,15 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
-  server: 160.16.214.104
+  server: 54.248.3.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 57.180.246.216
+  port: 52951
+  server: 16.162.120.15
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

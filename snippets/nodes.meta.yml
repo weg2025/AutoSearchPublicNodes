@@ -1,48 +1,10 @@
 proxies:
-- name: 9|@Trick_mobil
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #1'
-  password: 5046SHWqk6
-  port: 844
-  server: 91.132.51.160
-  tls: false
-  type: hysteria2
 - name: 9|hy
   password: 5046SHWqk6
   port: 844
   server: 91.132.51.160
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #3'
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: 206.71.158.23
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #4'
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: 🔒
-  tls: false
-  type: hysteria2
-- name: '9|@Trick_mobil #5'
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: 🔒
   tls: false
   type: hysteria2
 - name: '9,10|کانال تلگرام : Free_VPN_CH@'
@@ -137,369 +99,470 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- country: 🇦🇺AU
-  delay: 1901
-  name: 11|澳大利亚 - 悉尼 - 1
-  password: IL37892054
-  port: 443
-  server: engaged-ram.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇭🇺HU
-  delay: 1570
-  name: 11|波兰 - 华沙 - 1
-  password: IL37892054
-  port: 443
-  server: fluent-stingray.crayfish192.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇭🇺HU
-  delay: 2749
-  name: 11|波兰 - 华沙 - 2
-  password: IL37892054
-  port: 443
-  server: outgoing-ladybird.rooster465.autos
-  skip-cert-verify: true
-  sni: outgoing-ladybird.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1724
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 2230
+  name: 11|俄罗斯 - 莫斯科 - 1
+  password: c5fcdf7829112cb4
+  port: 50128
+  server: 45.140.169.225
+  type: ss
+- country: 🇫🇷FR
+  delay: 2247
   name: 11|法国 - 巴黎 - 1
   password: telegram-id-directvpn
   port: 22223
-  server: 15.224.60.191
+  server: 15.236.16.104
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1996
+  name: 11|法国 - 巴黎 - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.236.3.3
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇷🇴RO
-  delay: 1474
-  name: 11,15|LU_speednode_0006
-  password: IL37892054
-  port: 443
-  server: apt-magpie.rooster465.autos
-  skip-cert-verify: false
-  sni: apt-magpie.rooster465.autos
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇦 UA
-  delay: 2235
-  name: 11|荷兰 - 阿姆斯特丹 - 2
+  delay: 2185
+  name: 11|荷兰 - 阿姆斯特丹 - 1
   password: wwzVn2ZnHfqYa6l8EWh3eY
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
-  delay: 1435
+  delay: 2022
   h2-opts: {}
   http-opts: {}
-  name: 11|美国 - 华盛顿特区 - 2
+  name: 11|美国 - 水牛城 - 1
   network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
+  port: 30824
+  server: v24.hdacd.com
+  servername: v24.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  delay: 2578
-  name: 11|美国 - 洛杉矶 - 3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  delay: 407
-  name: 11|美国 - 洛杉矶 - 4
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  delay: 431
-  name: 11|美国 - 洛杉矶 - 5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.109
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  delay: 449
-  name: 11|美国 - 洛杉矶 - 6
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.108
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1365
-  name: 11|美国 - Somers - 1
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  delay: 2247
-  name: 11|葡萄牙 - 里斯本 - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  delay: 2617
-  name: 11|日本 - Chiyoda City - 1
-  port: 51556
-  server: 103.181.164.145
+  delay: 975
+  name: 11|日本 - 东京 - 1
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 1612
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2256
+  name: 11|日本 - 东京 - 2
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1798
+  h2-opts: {}
+  http-opts: {}
   name: 11|西班牙 - 马德里 - 1
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 5.188.181.201
-  type: ss
+  network: tcp
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 2583
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - 1
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  servername: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      HOST: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2131
+  name: 11|新加坡 - 新加坡 - 2
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  delay: 1625
+  name: 11|印度 - 班加羅爾 - 1
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2434
+  name: 11|印度 - 班加羅爾 - 2
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 560
+  delay: 2034
   name: 11|越南 - Hải Dương - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.190
+  server: 103.186.154.236
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 560
+  delay: 698
   name: 11|越南 - Hải Dương - 10
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.159
+  server: 103.186.155.53
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 872
+  delay: 720
   name: 11|越南 - Hải Dương - 11
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.230
+  server: 103.186.154.14
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2880
+  delay: 698
   name: 11|越南 - Hải Dương - 12
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.64
+  server: 103.186.154.178
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1542
+  delay: 507
   name: 11|越南 - Hải Dương - 13
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.193
+  server: 103.186.154.185
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1539
+  delay: 806
   name: 11|越南 - Hải Dương - 14
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.220
+  server: 103.186.154.46
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 914
+  delay: 1533
   name: 11|越南 - Hải Dương - 15
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.72
+  server: 103.186.155.226
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 539
+  delay: 1337
   name: 11|越南 - Hải Dương - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.251
+  server: 103.186.154.211
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1598
+  delay: 2438
   name: 11|越南 - Hải Dương - 17
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.52
+  server: 103.186.155.233
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2865
+  delay: 1331
   name: 11|越南 - Hải Dương - 18
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.69
+  server: 103.186.154.45
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2859
+  delay: 637
   name: 11|越南 - Hải Dương - 19
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.78
+  server: 103.186.155.62
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 529
+  delay: 649
   name: 11|越南 - Hải Dương - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.21
+  server: 103.186.155.66
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1563
+  delay: 2725
   name: 11|越南 - Hải Dương - 20
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.121
+  server: 103.186.154.182
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 869
+  delay: 638
   name: 11|越南 - Hải Dương - 21
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.157
+  server: 103.186.155.45
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1352
+  delay: 548
   name: 11|越南 - Hải Dương - 22
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.154
+  server: 103.186.154.26
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2256
+  delay: 1053
   name: 11|越南 - Hải Dương - 23
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.50
+  server: 103.186.154.227
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 595
+  delay: 2563
   name: 11|越南 - Hải Dương - 24
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.58
+  server: 103.186.155.2
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1049
+  delay: 1091
+  name: 11|越南 - Hải Dương - 25
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.204
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 1081
+  name: 11|越南 - Hải Dương - 26
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.235
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  delay: 2215
   name: 11|越南 - Hải Dương - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.237
+  server: 103.186.155.71
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 616
+  delay: 758
   name: 11|越南 - Hải Dương - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.206
+  server: 103.186.154.187
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1747
+  delay: 1809
   name: 11|越南 - Hải Dương - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.42
+  server: 103.186.155.119
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 2430
+  delay: 749
   name: 11|越南 - Hải Dương - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.16
+  server: 103.186.155.203
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1190
+  delay: 752
   name: 11|越南 - Hải Dương - 7
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.234
+  server: 103.186.154.192
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 1060
+  delay: 772
   name: 11|越南 - Hải Dương - 8
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.188
+  server: 103.186.154.40
   type: ss
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  delay: 587
+  delay: 809
   name: 11|越南 - Hải Dương - 9
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.156
+  server: 103.186.155.30
   type: ss
-- delay: 1707
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1806
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 台湾 - 4
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  servername: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      HOST: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 581
+  h2-opts: {}
+  http-opts: {}
   name: 11|中国 - 香港 - 1
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.123
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  servername: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- country: 🇭🇰 HK
-  delay: 2832
+  type: vmess
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      HOST: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2426
   name: 11|中国 - 香港 - 2
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1289
+  name: 11|中国 - 香港 - 3
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
+  ws-opts:
+    headers:
+      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1623
+  name: 11|中国 - 香港 - 5
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1822
+  h2-opts: {}
+  http-opts: {}
+  name: 11|中国 - 香港 - 6
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  servername: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+  ws-opts:
+    headers:
+      HOST: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: 13|tg频道:@ripaojiedian
   password: amazonskr05
@@ -527,40 +590,46 @@ proxies:
 - name: 13,14|香港3|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 921
-  server: 54.168.247.232
+  port: 6196
+  server: 43.207.174.89
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8044
-  server: 54.199.102.78
+  port: 51885
+  server: 16.162.120.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 13,14|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6313
-  server: 18.181.212.23
+  port: 8044
+  server: 43.199.230.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-128-gcm
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  password: d72781da-3ea8-4d7f-9bca-c04ed410443b
+  port: 50000
+  server: 106.75.162.7
+  type: ss
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 54.168.247.232
+  port: 16919
+  server: 57.180.252.251
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4937
-  server: 57.180.246.216
+  port: 34818
+  server: 54.248.3.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -568,7 +637,7 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
-  server: 13.230.3.199
+  server: 57.180.17.175
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -576,7 +645,7 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4674
-  server: 160.16.72.205
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -584,15 +653,15 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 3419
-  server: 160.16.214.104
+  server: 54.248.3.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29666
-  server: 57.180.246.216
+  port: 52951
+  server: 16.162.120.15
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -600,32 +669,26 @@ proxies:
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 4920
-  server: 54.199.166.248
+  server: 52.195.215.60
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 160.16.214.104
+  port: 4920
+  server: 57.180.252.251
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 8401
-  server: 95.40.3.110
+  port: 14919
+  server: 54.95.208.150
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾|@ripaojiedian
-  password: dd9e4541-9be2-4c3f-9c49-7dde77c3480b
-  port: 38239
-  server: stream-cdn-asia-06.silver-line.digital
-  type: ss
 - alterId: 2
   cipher: auto
   name: 14|香港|@ripaojiedian
@@ -646,18 +709,146 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: 15|GB_speednode_0004
+- alpn:
+  - http/1.1
+  name: 15|AE_speednode_0001
+  network: ws
+  port: 8443
+  server: 31.58.50.225
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- name: 15|AU_speednode_0002
   password: IL37892054
   port: 443
-  server: upright-rhino.rooster465.autos
+  server: engaged-ram.rooster465.autos
   skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
   type: trojan
   udp: true
-- name: 15|US_speednode_0011
+- name: 15|CN_speednode_0004
+  network: ws
+  port: 1234
+  server: 223.72.61.78
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gleeze.com
+    path: /danfeng?ed=2560
+- name: 15|CZ_speednode_0017
   network: ws
   port: 443
-  server: 172.64.52.210
+  server: 194.87.245.253
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|HK_speednode_0021
+  network: ws
+  port: 3389
+  server: 203.168.131.110
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- flow: xtls-rprx-vision
+  name: 15|IR_speednode_0022
+  port: 8443
+  reality-opts:
+    public-key: p6rBxt_9BHHS3ODfWh3gE3nnzsbVqidNUisM5rRk-n0
+    short-id: c10b9c49979ca3ad
+  server: whitelist2.124515.xyz
+  servername: whitelist2.124515.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a55a1cb4-cdb3-43db-9095-a8321ca1e9ad
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|KR_speednode_0023
+  network: ws
+  port: 15018
+  server: 61.79.126.130
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- name: 15|KR_speednode_0024
+  network: ws
+  password: trojan
+  port: 11000
+  server: 220.92.22.170
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|KR_speednode_0025
+  network: ws
+  port: 12345
+  server: 121.174.43.148
+  servername: snippet.chinat.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinat.eu.cc
+    path: /danfeng
+- name: 15|PL_speednode_0026
+  password: IL37892054
+  port: 443
+  server: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  sni: outgoing-ladybird.rooster465.autos
+  type: trojan
+  udp: true
+- name: 15|RU_speednode_0027
+  network: ws
+  port: 443
+  server: 193.9.49.65
   servername: r.icy.de5.net
   skip-cert-verify: false
   tls: true
@@ -668,3 +859,523 @@ proxies:
     headers:
       Host: r.icy.de5.net
     path: /?ed=2560
+- name: 15|US_speednode_0028
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0029
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0030
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0031
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0032
+  network: ws
+  port: 443
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0033
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0034
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 15|US_speednode_0035
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0036
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0037
+  network: ws
+  port: 443
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0038
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0039
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0040
+  network: ws
+  port: 443
+  server: 172.64.156.0
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0041
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0042
+  network: ws
+  port: 2095
+  server: docs.cloudflare.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0043
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0044
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0045
+  network: ws
+  port: 2095
+  server: blog.cloudflare.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0046
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0047
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0048
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0049
+  network: ws
+  port: 2095
+  server: openai.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0050
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0051
+  network: ws
+  port: 2095
+  server: www.wto.org
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- name: 15|US_speednode_0052
+  network: ws
+  port: 2053
+  server: convera.com
+  servername: mzees9mh.danfeng.gv.uy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mzees9mh.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0053
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- name: 15|US_speednode_0054
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: randomized
+  name: 15|US_speednode_0055
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0056
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 15|US_speednode_0057
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  servername: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnm-fangbinxing.workers.dev
+    path: /
+- name: 15|US_speednode_0058
+  network: ws
+  port: 443
+  server: alist.sm.uy
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: 15|US_speednode_0059
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 144.31.129.195
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bea7a5db-bb02-4bcd-bece-62832eb1bc94
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0060
+  port: 443
+  server: pl202.mechvpn.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 729764b1-149c-49f2-b170-322544df7b5b
+- name: 15|US_speednode_0061
+  network: ws
+  port: 2053
+  server: 104.19.73.126
+  servername: d2wiyfbwnyf.danfeng.gv.uy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: d2wiyfbwnyf.danfeng.gv.uy
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0062
+  network: ws
+  port: 2053
+  server: convera.com
+  servername: mzees9mh.danfeng.gv.uy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mzees9mh.danfeng.gv.uy
+    path: /danfeng
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 15|US_speednode_0063
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: b86bf7fa.mfree.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69bb253b-a6fe-ed44-1ebd-cd148ac58a53
+  ws-opts:
+    headers:
+      Host: b86bf7fa.mfree.ccwu.cc
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433

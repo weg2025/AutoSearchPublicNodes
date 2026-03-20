@@ -1,9 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 1612
+- alterId: 0
+  cipher: auto
+  delay: 1798
+  h2-opts: {}
+  http-opts: {}
   name: 11|西班牙 - 马德里 - 1
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 5.188.181.201
-  type: ss
+  network: tcp
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
