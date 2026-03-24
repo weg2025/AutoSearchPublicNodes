@@ -1,43 +1,46 @@
 proxies:
-- country: 🇬🇧GB
-  delay: 1277
-  name: 10,14|SG_speednode_0034
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 433
+  h2-opts: {}
+  http-opts: {}
+  name: 11|新加坡 - 新加坡 - 1
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 13,14|新加坡|@ripaojiedian
+  network: tcp
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  port: 1524
+  server: 54.199.36.40
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|新加坡2|@ripaojiedian
+  network: tcp
+  password: 6d29eb2f74293cb01a19b32cf08ad2e9
+  port: 1524
+  server: 160.16.124.17
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29666
+  server: 13.192.204.27
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 15|SG_speednode_0034
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 185.151.146.40
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇬🇧GB
-  delay: 1276
-  name: 10|新加坡 - 新加坡 - 2
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 185.151.146.64
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4674
-  server: 13.115.247.248
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4674
-  server: 160.16.132.38
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 25343
-  server: 95.40.26.104
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan

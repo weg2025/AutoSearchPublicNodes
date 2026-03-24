@@ -1,20 +1,27 @@
 proxies:
+- country: 🇺🇸US
+  delay: 673
+  name: 11|德国 - Frankfurt am Main - 1
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.102.254.79
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 687
+  name: 11|德国 - Frankfurt am Main - 2
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.102.254.79
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  delay: 992
-  name: 10|西班牙 - 马德里 - 1
-  password: VcFuyXvND2yQWSFY
-  port: 9054
+  country: 🇪🇸ES
+  delay: 707
+  name: 11|西班牙 - 马德里 - 1
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
   server: 5.188.181.201
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 1563
-  name: 10|西班牙 - 马德里 - 2
-  port: 22324
-  server: 85.90.217.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
