@@ -1,24 +1,40 @@
 proxies:
-- country: 🇫🇷FR
-  delay: 672
+- delay: 1607
+  name: 11|法国 - 巴黎 - 1
+  password: WF42809561
+  port: 443
+  server: still-mastodon.rooster465.autos
+  sni: still-mastodon.rooster465.autos
+  type: trojan
+- delay: 1798
   name: 11|法国 - 巴黎 - 2
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.33.201
+  password: WF42809561
+  port: 443
+  server: sterling-dinosaur.rooster465.autos
+  sni: sterling-dinosaur.rooster465.autos
+  type: trojan
+- delay: 1842
+  name: 11|法国 - 巴黎 - 3
+  password: WF42809561
+  port: 443
+  server: prompt-duckling.rooster465.autos
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+- country: 🇫🇷FR
+  delay: 2305
+  name: 11|法国 - 巴黎 - 4
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.47.165.179
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳 CN
-  delay: 954
-  h2-opts: {}
-  http-opts: {}
-  name: 11|法国 - 斯特拉斯堡 - 1
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
+- country: 🇫🇷FR
+  delay: 657
+  name: 11|法国 - 巴黎 - 5
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.165.179
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  type: trojan
+  udp: true
