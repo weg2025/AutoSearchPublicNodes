@@ -1,51 +1,20 @@
 proxies:
-- delay: 616
+- alterId: 0
+  cipher: auto
+  delay: 1099
   name: 11|新加坡 - 新加坡 - 1
-  password: WF42809561
-  port: 443
-  server: settling-humpback.rooster465.autos
-  sni: settling-humpback.rooster465.autos
-  type: trojan
-- delay: 550
-  name: 11|新加坡 - 新加坡 - 2
-  password: WF42809561
-  port: 443
-  server: allowed-moose.rooster465.autos
-  sni: allowed-moose.rooster465.autos
-  type: trojan
-- delay: 535
-  name: 11|新加坡 - 新加坡 - 3
-  password: WF42809561
-  port: 443
-  server: modest-bat.rooster465.autos
-  sni: modest-bat.rooster465.autos
-  type: trojan
-- delay: 536
-  name: 11|新加坡 - 新加坡 - 4
-  password: WF42809561
-  port: 443
-  server: easy-barnacle.rooster465.autos
-  sni: easy-barnacle.rooster465.autos
-  type: trojan
-- delay: 534
-  name: 11|新加坡 - 新加坡 - 5
-  password: WF42809561
-  port: 443
-  server: gorgeous-mole.crayfish192.xyz
-  sni: gorgeous-mole.crayfish192.xyz
-  type: trojan
-- delay: 525
-  name: 11|新加坡 - 新加坡 - 6
-  password: WF42809561
-  port: 443
-  server: musical-ant.rooster465.autos
-  sni: musical-ant.rooster465.autos
-  type: trojan
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 1524
-  server: 160.16.70.180
+  port: 4674
+  server: 52.195.4.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -53,15 +22,15 @@ proxies:
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
   port: 1524
-  server: 18.183.109.144
+  server: 52.192.225.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 12070
-  server: 16.162.188.92
+  port: 22045
+  server: 95.40.2.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
