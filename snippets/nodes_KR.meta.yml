@@ -1,4 +1,42 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇰🇷KR
+  delay: 1916
+  h2-opts: {}
+  http-opts: {}
+  name: 11|韩国 - 春川市 - 1
+  network: ws
+  port: 443
+  server: chuncheon02.zgjok.com
+  servername: chuncheon02.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
+  ws-opts:
+    headers:
+      HOST: chuncheon02.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇰🇷KR
+  delay: 512
+  h2-opts: {}
+  http-opts: {}
+  name: 11|韩国 - 春川市 - 2
+  network: ws
+  port: 443
+  server: chuncheon03.zgjok.com
+  servername: chuncheon03.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+  ws-opts:
+    headers:
+      HOST: chuncheon03.zgjok.com
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 15|KR_speednode_0016

@@ -1,20 +1,45 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 1881
-  http-opts: {}
-  name: 11|美国 - 圣路易斯 - 2
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
+- country: 🇺🇸US
+  delay: 656
+  name: 11|美国 - 洛杉矶 - 1
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n2.chateditimage.com
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  sni: n2.chateditimage.com
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 666
+  name: 11|美国 - 洛杉矶 - 2
+  password: 4123ae62-0999-4984-8ead-091630e594a9
+  port: 443
+  server: n1.chateditimage.com
+  skip-cert-verify: true
+  sni: n1.chateditimage.com
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  delay: 489
+  name: 11|美国 - 洛杉矶 - 4
+  password: 4123ae62-0999-4984-8ead-091630e594a9
+  port: 443
+  server: n2.chateditimage.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  delay: 574
+  name: 11|美国 - 洛杉矶 - 5
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n1.chateditimage.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  delay: 2038
+  delay: 1872
   h2-opts: {}
   http-opts:
     headers:
@@ -23,7 +48,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 11|美国 - 希尔斯伯勒 - 1
+  name: 11|美国 - 希尔斯伯勒 - 3
   network: http
   port: 443
   server: 15.204.50.250
@@ -33,24 +58,24 @@ proxies:
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 3057
-  server: 13.230.200.237
+  port: 4019
+  server: 54.168.70.136
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4019
-  server: 52.192.225.14
+  port: 3057
+  server: 54.168.242.122
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 18.166.177.165
+  port: 37223
+  server: 95.40.26.214
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
