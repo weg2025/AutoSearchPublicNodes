@@ -1,45 +1,92 @@
 proxies:
-- country: 🇺🇸US
-  delay: 656
-  name: 11|美国 - 洛杉矶 - 1
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  port: 443
-  server: n2.chateditimage.com
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1304
+  http-opts: {}
+  name: 11|美国 - 北伯根 - 3
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
-  sni: n2.chateditimage.com
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 666
-  name: 11|美国 - 洛杉矶 - 2
-  password: 4123ae62-0999-4984-8ead-091630e594a9
-  port: 443
-  server: n1.chateditimage.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 2093
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 华盛顿特区 - 6
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
-  sni: n1.chateditimage.com
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  delay: 489
-  name: 11|美国 - 洛杉矶 - 4
-  password: 4123ae62-0999-4984-8ead-091630e594a9
-  port: 443
-  server: n2.chateditimage.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  delay: 574
-  name: 11|美国 - 洛杉矶 - 5
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  port: 443
-  server: n1.chateditimage.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 0
   cipher: auto
-  delay: 1872
+  delay: 543
+  name: 11|美国 - 洛杉矶 - 1
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 392
+  name: 11|美国 - 洛杉矶 - 7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺 RU
+  delay: 410
+  name: 11|美国 - 洛杉矶 - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+- delay: 1717
+  name: 11|美国 - 沙加緬度 - 4
+  password: e4895ea3-7b4a-3f46-ba5a-44ac4a691635
+  port: 56251
+  server: fbxt0765gh0pielsss.ftisthebest.com
+  skip-cert-verify: true
+  sni: fbxt0765gh0pielsss.ftisthebest.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1114
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 圣路易斯 - 5
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  delay: 1806
   h2-opts: {}
   http-opts:
     headers:
@@ -48,13 +95,21 @@ proxies:
     method: GET
     path:
     - /
-  name: 11|美国 - 希尔斯伯勒 - 3
+  name: 11|美国 - 希尔斯伯勒 - 2
   network: http
   port: 443
   server: 15.204.50.250
   type: vmess
   udp: true
   uuid: 64c58857-f224-4011-aaf3-5f7915a526b6
+- cipher: aes-128-gcm
+  country: 🏁ZZ
+  delay: 800
+  name: 11|美国 - Ashburn - 9
+  password: fbce6f23-39e0-44b6-bbd4-2b4a15ee783c
+  port: 20002
+  server: th9384tj.50888.dpdns.org
+  type: ss
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 6d29eb2f74293cb01a19b32cf08ad2e9
