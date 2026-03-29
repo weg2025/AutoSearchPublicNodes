@@ -1,46 +1,17 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 2523
-  h2-opts: {}
-  http-opts: {}
-  name: 11|英国 - 伦敦 - 1
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  servername: v36.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  country: 🇧🇪BE
-  delay: 923
-  h2-opts: {}
+  delay: 846
   http-opts:
     method: GET
     path:
     - /
-  name: 11|英国 - Bexley - 2
+  name: 11|英国 - Bexley - 1
   network: http
   port: 443
   server: 57.129.130.23
-  servername: 57.129.130.23
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 34faa20a-7597-444c-81a3-a92042e3cd95
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 15|GB_speednode_0009
-  port: 2443
-  reality-opts:
-    public-key: 498LE1B8NFnfagrOnGGmuh80KqgKXMKiHbgcpxRqBB0
-    short-id: 2d989d13dba1
-  server: 152.67.158.177
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  uuid: 34faa20a-7597-444c-81a3-a92042e3cd95

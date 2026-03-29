@@ -1,42 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 659
-  http-opts: {}
-  name: 11|韩国 - 春川市 - 1
-  network: ws
-  port: 443
-  server: chuncheon03.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇰🇷KR
-  delay: 1085
-  h2-opts: {}
-  http-opts: {}
-  name: 11|韩国 - 春川市 - 2
-  network: ws
-  port: 443
-  server: chuncheon02.zgjok.com
-  servername: chuncheon02.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
-  ws-opts:
-    headers:
-      HOST: chuncheon02.zgjok.com
-    path: /
-- name: 15|KR_speednode_0021
+- delay: 1461
+  name: 11|韩国 - Yeongdong-gun - 1
   network: ws
   password: trojan
-  port: 20000
-  server: 211.110.32.47
+  port: 10003
+  server: 221.146.116.77
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -44,17 +12,4 @@ proxies:
   ws-opts:
     headers:
       Host: jflsjlaf.pages.dev
-    path: /
-- name: 15|KR_speednode_0026
-  network: ws
-  password: trojan
-  port: 11434
-  server: 118.35.208.37
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
+    path: '%2F'
