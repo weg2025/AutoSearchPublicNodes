@@ -1,5 +1,5 @@
 proxies:
-- delay: 691
+- delay: 1524
   name: 11,15|KR_speednode_0010
   password: test.+
   port: 30446
@@ -9,27 +9,13 @@ proxies:
   type: http
   udp: true
   username: test
-- delay: 1882
+- delay: 2472
   name: 11,15|KR_speednode_0009
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   type: socks5
   udp: true
-- delay: 1461
-  name: 11|韩国 - Yeongdong-gun - 1
-  network: ws
-  password: trojan
-  port: 10003
-  server: 221.146.116.77
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: '%2F'
 - client-fingerprint: chrome
   name: 15|KR_speednode_0011
   network: ws
