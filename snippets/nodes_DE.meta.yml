@@ -1,18 +1,24 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 864
-  name: 11|西班牙 - 马德里 - 1
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 5.188.181.201
-  type: ss
-- name: 15|DE_speednode_0006
+- name: 15|DE_speednode_0004
   network: ws
   port: 4001
   server: 185.94.29.156
   servername: sub.mot.ip-ddns.com
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 15|DE_speednode_0005
+  network: ws
+  port: 4002
+  server: 37.114.50.157
+  servername: sub.mot.ip-ddns.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
