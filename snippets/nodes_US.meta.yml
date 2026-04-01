@@ -1,65 +1,68 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 947
-  name: 11|美国 - 旧金山 - 1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 134.195.101.115
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 940
-  name: 11|美国 - 旧金山 - 2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 134.195.101.125
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  delay: 585
-  h2-opts: {}
-  http-opts: {}
-  name: 11|美国 - 洛杉矶 - 3
-  network: tcp
+  delay: 1429
+  name: 11|美国 - 洛杉矶 - 1
   port: 180
   server: 82.198.246.46
+  skip-cert-verify: true
+  tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 914
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - 2
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
 - name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.132.38
+  port: 29370
+  server: 52.195.170.179
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3700
-  server: 52.192.219.241
+  port: 29370
+  server: 13.231.153.129
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 18.167.134.238
+  port: 38692
+  server: 95.40.68.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|US_speednode_0020
+- name: 15|US_speednode_0034
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0035
   network: ws
   port: 443
   server: 192.0.63.56
@@ -73,7 +76,35 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 15|US_speednode_0021
+- name: 15|US_speednode_0036
+  network: ws
+  port: 443
+  server: 192.0.54.225
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0037
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0038
   network: ws
   port: 443
   server: 192.0.63.134
@@ -87,7 +118,7 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng?ed=2560
-- name: 15|US_speednode_0022
+- name: 15|US_speednode_0039
   network: ws
   port: 443
   server: 192.0.54.188
@@ -100,8 +131,50 @@ proxies:
   ws-opts:
     headers:
       Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0040
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 15|US_speednode_0023
+- name: 15|US_speednode_0041
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0042
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng
+- name: 15|US_speednode_0043
   network: ws
   port: 443
   server: 192.0.54.131
@@ -115,24 +188,10 @@ proxies:
     headers:
       Host: snippet.danfeng.kozow.com
     path: /danfeng
-- name: 15|US_speednode_0024
+- name: 15|US_speednode_0044
   network: ws
   port: 443
-  server: 192.0.63.56
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng
-- name: 15|US_speednode_0025
-  network: ws
-  port: 443
-  server: 192.0.63.134
+  server: 192.0.54.188
   servername: snippet.danfeng.kozow.com
   skip-cert-verify: false
   tls: true
@@ -145,7 +204,7 @@ proxies:
     path: /danfeng
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 15|US_speednode_0027
+  name: 15|US_speednode_0046
   port: 10121
   reality-opts:
     public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
@@ -157,34 +216,33 @@ proxies:
   type: vless
   udp: true
   uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- name: 15|US_speednode_0028
-  network: ws
-  password: trojan
-  port: 7071
-  server: 154.17.234.78
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 15|US_speednode_0029
-  port: 43229
+- client-fingerprint: random
+  name: 15|US_speednode_0047
+  port: 443
   reality-opts:
-    public-key: JzUmS6a7nFt54YhvIe-KE31-W8WWJxcgQJt_q_-HbSQ
-    short-id: e0a48d60
-  server: 216.236.26.19
-  servername: apple.com
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.81.39.100
+  servername: api.digital-help-prd.autodesk.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bb7d8763-4afa-465f-b066-35786781ced2
-- name: 15|US_speednode_0030
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 15|US_speednode_0048
+  network: ws
+  port: 443
+  server: 192.0.54.216
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- name: 15|US_speednode_0049
   network: ws
   port: 443
   server: 192.0.63.49
@@ -198,7 +256,7 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 15|US_speednode_0031
+- name: 15|US_speednode_0050
   network: ws
   port: 443
   server: 192.0.63.115
@@ -212,10 +270,10 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
-- name: 15|US_speednode_0032
+- name: 15|US_speednode_0051
   network: ws
   port: 443
-  server: 166.117.33.104
+  server: 192.0.63.216
   servername: snippet.danfeng.theworkpc.com
   skip-cert-verify: false
   tls: true
@@ -226,3 +284,126 @@ proxies:
     headers:
       Host: snippet.danfeng.theworkpc.com
     path: /danfeng?ed=2560
+- name: 15|US_speednode_0052
+  network: ws
+  port: 443
+  server: 192.0.63.76
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng?ed=2560
+- name: 15|US_speednode_0053
+  network: ws
+  port: 443
+  server: 192.0.63.216
+  servername: snippet.danfeng.theworkpc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: /danfeng
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0055
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: f1071c148a5aefc4
+  server: braskivo.ru
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0056
+  port: 443
+  reality-opts:
+    public-key: x8Uvr-IcUd8isTk2Av0QK5EmBTjxxbPHyoinm--FBFo
+  server: de02.kubservice.icu
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 542e9145-0ba4-4a0a-868a-0adce45a79ce
+- name: 15|US_speednode_0057
+  port: 443
+  server: kinopl20.dramatorg.net
+  servername: kinopl20.dramatorg.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f25eb463-e242-4fa9-b174-c305af3ab95e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0058
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: f1071c148a5aefc4
+  server: 194.36.39.144
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 15|US_speednode_0059
+  port: 8443
+  reality-opts:
+    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
+    short-id: f1071c148a5aefc4
+  server: 194.36.39.78
+  servername: rbc.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee740b72-87f6-45e4-a680-85d8d1cc3df1
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|US_speednode_0060
+  network: ws
+  port: 443
+  server: 192.0.63.161
+  servername: snippet.chinav.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- name: 15|US_speednode_0061
+  network: ws
+  port: 443
+  server: 192.0.63.18
+  servername: snippet.danfeng.loc.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.loc.cc
+    path: /danfeng
