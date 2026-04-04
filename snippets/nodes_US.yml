@@ -1,50 +1,114 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1134
+  http-opts: {}
+  name: 11|美国 - 北伯根 - 5
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 898
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 達拉斯 - 3
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 973
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 华盛顿特区 - 7
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 0
   cipher: auto
-  delay: 1429
-  name: 10|美国 - 洛杉矶 - 1
+  country: 🇬🇧 GB
+  delay: 407
+  h2-opts: {}
+  http-opts: {}
+  name: 11|美国 - 洛杉矶 - 1
+  network: tcp
   port: 180
   server: 82.198.246.46
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  delay: 409
+  name: 11|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- delay: 1254
+  name: 11|美国 - 沙加緬度 - 4
+  password: e4895ea3-7b4a-3f46-ba5a-44ac4a691635
+  port: 56251
+  server: fbxt0765gh0pielsss.ftisthebest.com
+  skip-cert-verify: true
+  sni: fbxt0765gh0pielsss.ftisthebest.com
+  type: trojan
+  udp: true
+- alterId: 2
   cipher: auto
-  country: 🇬🇧 GB
-  delay: 914
+  country: 🇨🇳 CN
+  delay: 1015
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
+  name: 11|美国 - 圣路易斯 - 6
   network: tcp
-  port: 180
-  server: 82.198.246.250
+  port: 30846
+  server: v46.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
-- name: 12,13|美国|@ripaojiedian
+- name: 13,14|美国|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3057
-  server: 3.113.31.8
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 13,14|美国2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.106.99
+  port: 4019
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 13,14|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.198.248.119
+  port: 23255
+  server: 13.114.26.172
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

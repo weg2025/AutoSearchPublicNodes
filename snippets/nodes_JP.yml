@@ -1,43 +1,38 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇹🇼TW
-  delay: 1527
-  h2-opts: {}
+  country: 🏁 ZZ
+  delay: 826
   http-opts: {}
-  name: 10|日本 - 东京 - 1
-  network: ws
-  port: 80
-  server: abm96f00fby3.jkhkgj.xyz
-  servername: tms.dingtalk.com
+  name: 11|日本 - 大阪市 - 1
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
-    path: /market/jp1
-- name: 12,13|日本|@ripaojiedian
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 43.207.66.138
+  port: 3122
+  server: 54.238.193.143
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 2001
-  server: 160.16.106.99
+  server: 54.168.216.209
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 13,14|日本3|@ripaojiedian
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4937
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
