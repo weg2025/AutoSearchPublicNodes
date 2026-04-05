@@ -1,20 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 695
+  country: 🇮🇷IR
+  delay: 1398
+  h2-opts: {}
+  http-opts: {}
   name: 11|新加坡 - 新加坡 - 1
+  network: tcp
   port: 30812
-  server: v12.hdacd.com
+  server: 151.242.180.91
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 13,14|新加坡|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 160.16.72.205
+  server: 13.231.220.56
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -29,8 +31,8 @@ proxies:
 - name: 13,14|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 28033
-  server: 18.162.169.141
+  port: 30726
+  server: 18.166.30.251
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

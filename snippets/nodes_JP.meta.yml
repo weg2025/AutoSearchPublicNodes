@@ -1,38 +1,37 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 826
-  http-opts: {}
-  name: 11|日本 - 大阪市 - 1
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 171
+  name: 11|日本 - 东京 - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 13.230.201.208
+  type: ss
+  udp: true
 - name: 13,14|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3122
-  server: 54.238.193.143
+  port: 4746
+  server: 54.178.47.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 13,14|日本2|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 2001
-  server: 54.168.216.209
+  port: 4380
+  server: 13.231.220.56
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 13,14|日本3|@ripaojiedian
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.72.205
+  port: 34818
+  server: 13.231.220.56
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
