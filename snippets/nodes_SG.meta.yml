@@ -1,39 +1,47 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇮🇷IR
-  delay: 752
-  h2-opts: {}
-  http-opts: {}
-  name: 10|新加坡 - 新加坡 - 1
-  network: tcp
+  delay: 2778
+  name: 9|新加坡 - 新加坡 - 1
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  delay: 2403
+  name: 9|新加坡 - 新加坡 - 2
   port: 30812
   server: 151.242.180.91
-  servername: 2001:bc8:32d7:302::10
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12,13|新加坡|@ripaojiedian
+- name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
   port: 4674
-  server: 18.183.79.22
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
+- name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: 187dda4498be9ac4f28db939d5940185
-  port: 4674
-  server: 54.249.79.149
+  port: 29370
+  server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|新加坡3|@ripaojiedian
+- name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 12070
-  server: 43.199.209.208
+  port: 28033
+  server: 18.162.112.212
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
