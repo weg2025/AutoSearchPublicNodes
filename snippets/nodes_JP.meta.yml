@@ -1,49 +1,53 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 688
+  http-opts: {}
+  name: 10|日本 - 东京 - 2
+  network: ws
+  port: 443
+  server: tokyo01.zgjok.com
+  servername: tokyo01.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+  ws-headers:
+    HOST: tokyo01.zgjok.com
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 601
-  name: 10|日本 - 东京 - 1
-  password: a5da870c-37df-4012-8c6f-f978217aa7c4
-  port: 13215
-  server: v1.jpus.internal.jpus-db.api.bk-jpus.node.s1.jpus-master.fastcokeasdasd.com
+  delay: 893
+  name: 10|日本 - Akiruno - 1
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-jp5-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 178.239.124.195
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1877
-  name: 10|日本 - 东京 - 3
-  password: a5da870c-37df-4012-8c6f-f978217aa7c4
-  port: 43292
-  server: v1.jpus.internal.jpus-db.api.bk-jpus.node.s1.jpus-master.fastcokeasdasd.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 277
-  name: 10|日本 - 東京都 - 2
-  password: b421832d-9964-4519-b4b3-e52a7be8b31b
-  port: 35603
-  server: gw.lydwan.com
-  type: ss
-  udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 43.199.78.183
+  port: 3022
+  server: 52.194.222.108
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 2001
-  server: 18.183.171.241
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 4380
-  server: 18.183.171.241
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

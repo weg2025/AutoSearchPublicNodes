@@ -1,11 +1,39 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 533
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|美国 - 達拉斯 - 10
+  network: http
+  port: 52914
+  server: 66.181.36.174
+  type: vmess
+  uuid: 8ae1c2f0-3127-49ac-acad-def55b04c231
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1108
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - 14
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   country: 🇭🇰 HK
-  delay: 1889
+  delay: 1081
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 华盛顿特区 - 9
+  name: 10|美国 - 华盛顿特区 - 11
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -13,62 +41,46 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 656
+  name: 10|美国 - 旧金山 - 13
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ee:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.d3.gladns.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 661
+  name: 10|美国 - 旧金山 - 5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ch:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.d5.gladns.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 929
+  name: 10|美国 - 旧金山 - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ch:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.f1.gladns.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  delay: 1052
+  delay: 1452
   name: 10|美国 - 洛杉矶 - 1
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  delay: 500
-  name: 10|美国 - 洛杉矶 - 2
-  password: b421832d-9964-4519-b4b3-e52a7be8b31b
-  port: 35604
-  server: gw.lydwan.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 596
-  name: 10|美国 - 洛杉矶 - 4
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa3-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.95.121.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1470
-  name: 10|美国 - 洛杉矶 - 5
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 68.168.20.112
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 437
-  name: 10|美国 - 洛杉矶 - 6
-  port: 180
-  server: 82.198.246.46
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  delay: 1389
-  name: 10|美国 - 洛杉矶 - 7
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
@@ -78,109 +90,105 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 2683
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|美国 - 圣克拉拉 - 10
-  network: http
-  port: 32301
-  server: 104.168.94.41
+  delay: 582
+  name: 10|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.46
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  delay: 498
+  name: 10|美国 - 洛杉矶 - 3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 732
+  name: 10|美国 - 洛杉矶 - 4
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 670
+  name: 10|美国 - 聖荷西 - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.io:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.da.gladns.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 649
+  name: 10|美国 - 聖荷西 - 7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.ge:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.u7.gladns.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 1457
+  name: 10|美国 - 聖荷西 - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 6154ff9.default.microsoft.de:135146
+    mode: tls
+  port: 2377
+  server: 6154ff9.e7.gladns.net
+  type: ss
 - alterId: 2
   cipher: auto
-  country: 🏁 ZZ
-  delay: 1778
+  country: 🇮🇷 IR
+  delay: 1591
   http-opts: {}
-  name: 10|美国 - 圣路易斯 - 8
+  name: 10|美国 - 水牛城 - 9
   network: tcp
-  port: 30846
-  server: v46.hdacd.com
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 378
-  name: 10|美国 - 芝加哥 - 3
-  password: b421832d-9964-4519-b4b3-e52a7be8b31b
-  port: 35601
-  server: gw.lydwan.com
-  type: ss
-  udp: true
 - name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
+  password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
-  server: 18.183.171.241
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 4019
-  server: 13.193.221.106
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 3057
+  server: 13.231.134.78
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 18.181.175.112
+  port: 23255
+  server: 16.162.122.123
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14|US_speednode_0031
-  network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-- name: 14|US_speednode_0032
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: a2cb60c5-t9zts0-td95qh-1isea.sj.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- name: 14|US_speednode_0033
-  network: ws
-  password: trojan
-  port: 50000
-  server: 38.60.89.136
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 14|US_speednode_0034
-  port: 443
-  reality-opts:
-    public-key: H6i2nA8Pm4b5Wb9UxP3GOQ_1WAEdlqUg5WDCBDdxtFo
-  server: 107.197.181.148
-  servername: www.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c72576-8e0a-4249-ab37-0c89ce6a8e93

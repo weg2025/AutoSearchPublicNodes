@@ -1,39 +1,17 @@
 proxies:
-- name: 8|🇩🇪 - DE - @FreeOnlineVPN
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|DE_speednode_0005
-  port: 443
-  reality-opts:
-    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
-    short-id: 0c1553316a645758
-  server: 45.77.66.142
-  servername: www.zalando.de
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 623
+  name: 10|西班牙 - 马德里 - 1
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  delay: 610
+  name: 10|西班牙 - 马德里 - 2
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 5.188.181.201
+  type: ss
   udp: true
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-- name: 14|DE_speednode_0006
-  network: ws
-  port: 8443
-  server: 89.58.40.177
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
