@@ -1,214 +1,39 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 552
-  name: 10|美国 - 埃尔塞贡多 - 1
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 23.177.40.226
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 472
-  name: 10|美国 - 埃尔塞贡多 - 3
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 45.8.112.156
-  type: ss
 - alterId: 0
   cipher: auto
-  delay: 2228
+  delay: 504
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: 10|美国 - 達拉斯 - 7
+  name: 10|美国 - 達拉斯 - 3
+  network: http
+  port: 57961
+  server: 66.181.36.174
+  type: vmess
+  uuid: 891c3de4-69e8-4f60-a127-49b61af882a0
+- alterId: 0
+  cipher: auto
+  delay: 487
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|美国 - 達拉斯 - 6
   network: http
   port: 52914
   server: 66.181.36.174
   type: vmess
   uuid: 8ae1c2f0-3127-49ac-acad-def55b04c231
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 1277
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 华盛顿特区 - 8
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 996
-  name: 10|美国 - 旧金山 - 4
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ch:135146
-    mode: tls
-  port: 2377
-  server: 6154ff9.f1.gladns.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 2980
-  name: 10|美国 - 旧金山 - 5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ch:135146
-    mode: tls
-  port: 2377
-  server: 6154ff9.d5.gladns.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇯🇵JP
-  delay: 926
-  name: 10|美国 - 旧金山 - 9
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 6154ff9.default.microsoft.ee:135146
-    mode: tls
-  port: 2377
-  server: 6154ff9.d3.gladns.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2060
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 10
-  network: ws
-  port: 443
-  server: xg1a4.waimaofuwujd.cc
-  servername: xg1a4.waimaofuwujd.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
-  ws-opts:
-    headers:
-      HOST: xg1a4.waimaofuwujd.cc
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1742
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 11
-  network: ws
-  port: 443
-  server: xg1b1.waimaofuwujd.cc
-  servername: xg1b1.waimaofuwujd.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1a87fc81-6846-4246-add3-00a38baa8c0f
-  ws-opts:
-    headers:
-      HOST: xg1b1.waimaofuwujd.cc
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 1431
-  name: 10|美国 - 洛杉矶 - 12
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
-  delay: 503
-  name: 10|美国 - 洛杉矶 - 13
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-hkg1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 103.102.4.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 354
-  name: 10|美国 - 洛杉矶 - 14
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa3-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.95.121.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1443
-  name: 10|美国 - 洛杉矶 - 2
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usc2-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 68.168.20.112
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 502
-  name: 10|美国 - 洛杉矶 - 6
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-usa1-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 154.17.238.59
-  type: ss
-- name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.114.50.40
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 54.199.47.118
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 44386
-  server: 16.162.191.83
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 14|US_speednode_0023
+- delay: 761
+  name: 10,14|US_speednode_0014
   network: ws
   password: trojan
-  port: 8025
-  server: 54.46.72.234
-  skip-cert-verify: true
+  port: 54321
+  server: 154.12.53.125
+  skip-cert-verify: false
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -216,3 +41,167 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
+- alterId: 0
+  cipher: auto
+  delay: 445
+  name: 10|美国 - 洛杉矶 - 1
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸 US
+  delay: 1316
+  name: 10|美国 - 洛杉矶 - 2
+  password: somebody
+  plugin: obfs
+  plugin-opts:
+    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
+    mode: http
+  port: 30011
+  server: 38.244.47.161
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 2283
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 7
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  delay: 1290
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Elk Grove Village - 4
+  network: none
+  port: 10329
+  server: 192.210.236.15
+  type: vmess
+  uuid: 66c59c4f-e97a-4604-8791-e5b113055128
+- alterId: 0
+  cipher: auto
+  delay: 572
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|美国 - Elk Grove Village - 5
+  network: http
+  port: 55540
+  server: 192.210.236.15
+  type: vmess
+  uuid: 924d08c8-5ff8-4bc1-b2a6-426985ac7b6f
+- name: 12,13|美国|@ripaojiedian
+  network: tcp
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 3057
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4019
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 49534
+  server: 16.163.106.216
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 14|US_speednode_0012
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d2241b25w3zftf.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d2241b25w3zftf.cloudfront.net
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 14|US_speednode_0013
+  network: ws
+  port: 25557
+  server: 69.63.208.141
+  servername: snippet.gfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.qzz.io
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 14|US_speednode_0015
+  network: ws
+  port: 443
+  server: 74.120.174.180
+  servername: q40ivxuck.danfeng.qzz.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: q40ivxuck.danfeng.qzz.io
+    path: /danfeng
+- name: 14|US_speednode_0021
+  network: ws
+  port: 8443
+  server: 162.159.45.202
+  servername: zoro.jakesolo.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dcda262b-0d36-4032-edd9-da4fd2d53711
+  ws-opts:
+    headers:
+      Host: zoro.jakesolo.eu.org
+    path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0022
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: d82fb387
+  server: 144.31.122.171
+  servername: chat.deepseek.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
