@@ -1,60 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 504
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|美国 - 達拉斯 - 3
-  network: http
-  port: 57961
-  server: 66.181.36.174
-  type: vmess
-  uuid: 891c3de4-69e8-4f60-a127-49b61af882a0
-- alterId: 0
-  cipher: auto
-  delay: 487
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|美国 - 達拉斯 - 6
-  network: http
-  port: 52914
-  server: 66.181.36.174
-  type: vmess
-  uuid: 8ae1c2f0-3127-49ac-acad-def55b04c231
-- delay: 761
-  name: 10,14|US_speednode_0014
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 445
+  delay: 438
   name: 10|美国 - 洛杉矶 - 1
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.46
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸 US
-  delay: 1316
+  delay: 783
   name: 10|美国 - 洛杉矶 - 2
   password: somebody
   plugin: obfs
@@ -64,50 +21,26 @@ proxies:
   port: 30011
   server: 38.244.47.161
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 2283
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 水牛城 - 7
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  delay: 1290
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - Elk Grove Village - 4
-  network: none
-  port: 10329
-  server: 192.210.236.15
-  type: vmess
-  uuid: 66c59c4f-e97a-4604-8791-e5b113055128
-- alterId: 0
-  cipher: auto
-  delay: 572
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|美国 - Elk Grove Village - 5
-  network: http
-  port: 55540
-  server: 192.210.236.15
-  type: vmess
-  uuid: 924d08c8-5ff8-4bc1-b2a6-426985ac7b6f
+  udp: true
+- country: 🇦🇹AT
+  delay: 1164
+  name: 10|美国 - 聖荷西 - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 8.6.112.0
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 160.16.132.38
+  port: 4019
+  server: 13.115.246.132
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -123,15 +56,45 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 49534
-  server: 16.163.106.216
+  server: 43.199.41.136
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: randomized
+  name: 14|US_speednode_0016
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0017
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 14|US_speednode_0012
+  name: 14|US_speednode_0018
   network: ws
   port: 443
   server: 18.245.54.3
@@ -145,63 +108,130 @@ proxies:
     headers:
       Host: d2241b25w3zftf.cloudfront.net
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 14|US_speednode_0013
+- client-fingerprint: randomized
+  name: 14|US_speednode_0019
   network: ws
-  port: 25557
-  server: 69.63.208.141
-  servername: snippet.gfw.qzz.io
+  port: 2095
+  server: itarmy.com.ua
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 14|US_speednode_0015
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0020
   network: ws
-  port: 443
-  server: 74.120.174.180
-  servername: q40ivxuck.danfeng.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- name: 14|US_speednode_0021
-  network: ws
-  port: 8443
-  server: 162.159.45.202
-  servername: zoro.jakesolo.eu.org
+  port: 2095
+  server: docs.cloudflare.com
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: dcda262b-0d36-4032-edd9-da4fd2d53711
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: zoro.jakesolo.eu.org
-    path: /ws
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0021
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0022
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
+- client-fingerprint: randomized
+  name: 14|US_speednode_0024
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0022
-  port: 7443
+  name: 14|US_speednode_0028
+  port: 443
   reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: d82fb387
-  server: 144.31.122.171
-  servername: chat.deepseek.com
+    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+    short-id: c6118398
+  server: 144.31.127.61
+  servername: gateway.icloud.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 248d1886-8ae0-4079-a281-4d21bdb74ba4
+  uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
+- client-fingerprint: chrome
+  name: 14|US_speednode_0029
+  port: 443
+  reality-opts:
+    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+    short-id: 11e2
+  server: 216.57.105.74
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0030
+  port: 443
+  server: sqt.gtimg.cn.e791.com
+  servername: cdn.download.7602.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f10367b9-5b67-40fa-a4aa-675eee3e0530
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0031
+  port: 443
+  reality-opts:
+    public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
+    short-id: aac4df9d05a5ba8f
+  server: 129.153.71.226
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112

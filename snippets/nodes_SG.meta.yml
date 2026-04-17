@@ -1,25 +1,45 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  delay: 1733
+- country: 🇪🇸ES
+  delay: 859
   name: 10|新加坡 - 新加坡 - 1
-  password: b235696d-7873-4b15-9b22-7dae3a0b6747
-  port: 45507
-  server: sgp02.network-cdn-gw-yd.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🏁 ZZ
-  delay: 773
+  password: 8b95cc43-3ae5-4920-bef9-da3a072c4b34
+  port: 443
+  server: sg1.8989111.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 888
   name: 10|新加坡 - 新加坡 - 2
-  password: b235696d-7873-4b15-9b22-7dae3a0b6747
-  port: 45509
-  server: sgp4.network-cdn-gw-yd.net
-  type: ss
+  password: 2d2d2b0c-033f-4810-ab2e-a95120ece063
+  port: 443
+  server: sg1.8989111.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 860
+  name: 10|新加坡 - 新加坡 - 3
+  password: 346e1f50-1f8b-448f-babc-22830503be9e
+  port: 443
+  server: sg1.8989111.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇪🇸ES
+  delay: 1733
+  name: 10|新加坡 - 新加坡 - 4
+  password: 77eaa8d5-a4a5-4b77-9359-59e064476a70
+  port: 443
+  server: sg1.8989111.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 13.115.246.132
+  server: 13.231.60.220
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -27,24 +47,23 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
-  server: 160.16.132.38
+  server: 54.249.109.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 43.199.31.240
+  port: 28033
+  server: 18.166.154.14
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 14|SG_speednode_0011
+- name: 14|SG_speednode_0015
   network: ws
-  port: 443
-  server: 43.168.16.112
-  servername: q40ivxuck.danfeng.qzz.io
+  port: 45137
+  server: 146.235.18.248
+  servername: snippet.danfeng.rr.kg
   skip-cert-verify: false
   tls: true
   type: vless
@@ -52,5 +71,5 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
+      Host: snippet.danfeng.rr.kg
     path: /danfeng

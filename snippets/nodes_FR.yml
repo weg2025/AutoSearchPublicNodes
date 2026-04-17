@@ -1,10 +1,19 @@
 proxies:
-- country: 🇺🇸US
-  delay: 727
+- country: 🇫🇷FR
+  delay: 726
   name: 10|法国 - 巴黎 - 1
   password: telegram-id-privatevpns
   port: 22222
-  server: 51.44.56.66
+  server: 13.38.163.166
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1731
+  name: 10|法国 - 巴黎 - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.38.163.166
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
