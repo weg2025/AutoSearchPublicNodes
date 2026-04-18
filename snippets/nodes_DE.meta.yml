@@ -1,29 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|DE_speednode_0003
-  port: 443
-  reality-opts:
-    public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-    short-id: 66ed2fdd
-  server: 130.162.220.137
-  servername: www.lamer.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|DE_speednode_0004
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: d82fb387
-  server: 92.119.166.90
-  servername: chat.deepseek.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72eb4de8-5eca-420d-8876-173ef58d82e8
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 1679
+  name: 10|西班牙 - 马德里 - 1
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 907
+  name: 10|西班牙 - 马德里 - 2
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 5.188.181.201
+  type: ss

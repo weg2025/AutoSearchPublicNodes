@@ -1,28 +1,36 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 505
-  name: 10|日本 - Akiruno - 1
-  password: somebody
-  plugin: obfs
-  plugin-opts:
-    host: 20xteamxa9-jp5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 178.239.124.195
+- cipher: aes-256-gcm
+  delay: 1768
+  name: 10|日本 - 东京 - 1
+  password: 99394cfebe6c0906
+  port: 30312
+  server: 185.141.219.158
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 603
+  name: 10|日本 - Chiyoda City - 2
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3357
-  server: 57.180.60.151
+  port: 1783
+  server: 57.180.27.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4380
-  server: 54.249.109.55
+  port: 4937
+  server: 160.16.85.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -30,7 +38,7 @@ proxies:
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4380
-  server: 160.16.85.33
+  server: 54.249.109.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

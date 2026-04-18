@@ -1,18 +1,36 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 438
-  name: 10|美国 - 洛杉矶 - 1
-  port: 180
-  server: 82.198.246.46
+  country: 🏁 ZZ
+  delay: 1793
+  http-opts: {}
+  name: 10|美国 - 华盛顿特区 - 6
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 783
-  name: 10|美国 - 洛杉矶 - 2
+  country: 🇺🇸US
+  delay: 537
+  name: 10|美国 - 克利夫頓 - 3
+  password: elTuo73FsQwO90EbLo96Ve
+  port: 49726
+  server: 45.55.40.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸 US
+  delay: 566
+  name: 10|美国 - 克利夫頓 - 7
+  password: SUSbr2eLCXmbc64xOHhgEt
+  port: 41195
+  server: 167.172.249.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1047
+  name: 10|美国 - 洛杉矶 - 1
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -22,9 +40,33 @@ proxies:
   server: 38.244.47.161
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  delay: 1081
+  name: 10|美国 - 洛杉矶 - 4
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 414
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 5
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - country: 🇦🇹AT
-  delay: 1164
-  name: 10|美国 - 聖荷西 - 3
+  delay: 1963
+  name: 10|美国 - 聖荷西 - 8
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -36,60 +78,38 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
+- cipher: aes-256-gcm
+  delay: 561
+  name: 10|美国 - Ashburn - 2
+  password: dada1203
+  port: 80
+  server: 54.91.94.173
+  type: ss
+  udp: true
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
-  server: 13.115.246.132
+  server: 54.249.109.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 160.16.132.38
+  port: 3057
+  server: 13.115.246.132
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 43.199.41.136
+  port: 14919
+  server: 16.162.217.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: randomized
-  name: 14|US_speednode_0016
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0017
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
 - alpn:
   - h2
   - http/1.1
@@ -108,84 +128,9 @@ proxies:
     headers:
       Host: d2241b25w3zftf.cloudfront.net
     path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0019
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0020
-  network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0021
-  network: ws
-  port: 2095
-  server: cdnjs.com
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0022
-  network: ws
-  port: 2095
-  server: www.temu.com
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 14|US_speednode_0024
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-nmsl.workers.dev
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0028
+  name: 14|US_speednode_0020
   port: 443
   reality-opts:
     public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
@@ -197,8 +142,22 @@ proxies:
   type: vless
   udp: true
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
+- name: 14|US_speednode_0021
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d23iuljn5k9z1j.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d23iuljn5k9z1j.cloudfront.net
+    path: /
 - client-fingerprint: chrome
-  name: 14|US_speednode_0029
+  name: 14|US_speednode_0022
   port: 443
   reality-opts:
     public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
@@ -210,28 +169,3 @@ proxies:
   type: vless
   udp: true
   uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0030
-  port: 443
-  server: sqt.gtimg.cn.e791.com
-  servername: cdn.download.7602.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f10367b9-5b67-40fa-a4aa-675eee3e0530
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 14|US_speednode_0031
-  port: 443
-  reality-opts:
-    public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
-    short-id: aac4df9d05a5ba8f
-  server: 129.153.71.226
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
