@@ -1,36 +1,39 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  country: 🇮🇷 IR
+  delay: 554
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 大阪市 - 2
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - cipher: aes-256-gcm
-  delay: 1768
+  delay: 780
   name: 10|日本 - 东京 - 1
-  password: 99394cfebe6c0906
-  port: 30312
-  server: 185.141.219.158
+  password: A8m8DQDM9i7o
+  port: 8388
+  server: 185.141.219.123
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  delay: 603
-  name: 10|日本 - Chiyoda City - 2
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 57.180.27.122
+  port: 1951
+  server: 13.112.73.166
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 160.16.85.33
+  port: 34818
+  server: 54.249.109.55
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
