@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   delay: 1433
-  name: 10|美国 - 埃尔塞贡多 - 1
+  name: 9|美国 - 埃尔塞贡多 - 1
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -12,7 +12,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   delay: 1093
-  name: 10|美国 - 洛杉矶 - 2
+  name: 9|美国 - 洛杉矶 - 2
   password: somebody
   plugin: obfs
   plugin-opts:
@@ -28,7 +28,7 @@ proxies:
   delay: 406
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
+  name: 9|美国 - 洛杉矶 - 3
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -38,7 +38,7 @@ proxies:
   ws-path: /
 - country: 🇦🇹AT
   delay: 1384
-  name: 10|美国 - 聖荷西 - 4
+  name: 9|美国 - 聖荷西 - 4
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -50,7 +50,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
@@ -58,7 +58,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 3057
@@ -66,11 +66,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 54.46.52.234
+  port: 49534
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -78,7 +78,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 14|US_speednode_0018
+  name: 13|US_speednode_0018
   network: ws
   port: 443
   server: 18.245.54.3
@@ -94,7 +94,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0020
+  name: 13|US_speednode_0020
   port: 443
   reality-opts:
     public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
@@ -106,7 +106,7 @@ proxies:
   type: vless
   udp: true
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
-- name: 14|US_speednode_0021
+- name: 13|US_speednode_0021
   network: ws
   port: 443
   server: 18.245.54.3
@@ -121,7 +121,7 @@ proxies:
       Host: d23iuljn5k9z1j.cloudfront.net
     path: /
 - client-fingerprint: chrome
-  name: 14|US_speednode_0022
+  name: 13|US_speednode_0022
   port: 443
   reality-opts:
     public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
