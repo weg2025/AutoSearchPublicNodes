@@ -1,47 +1,124 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇮🇷 IR
-  delay: 554
-  h2-opts: {}
-  http-opts: {}
-  name: 9|日本 - 大阪市 - 2
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- cipher: aes-256-gcm
-  delay: 780
-  name: 9|日本 - 东京 - 1
-  password: A8m8DQDM9i7o
-  port: 8388
-  server: 185.141.219.123
+- cipher: chacha20-ietf-poly1305
+  delay: 268
+  name: 10|日本 - 东京 - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.io:164892
+    mode: tls
+  port: 2377
+  server: 403880e.j6.gladns.com
   type: ss
   udp: true
-- name: 11,12|日本|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  delay: 1414
+  name: 10|日本 - 东京 - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.nintendo.eu:164892
+    mode: tls
+  port: 2377
+  server: 403880e.r8.gladns.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 188
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|日本 - 東京都 - 3
+  network: http
+  port: 59588
+  server: 103.127.243.58
+  type: vmess
+  uuid: c327643a-709c-47fe-bfcf-389624ff9cc0
+- alterId: 0
+  cipher: auto
+  delay: 1483
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 東京都 - 4
+  network: ws
+  port: 10443
+  server: a.shanliang332.top
+  servername: a.shanliang332.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be51d5e5-e6f6-49db-e968-06758aba319a
+  ws-opts:
+    path: /abc
+- alterId: 0
+  cipher: auto
+  delay: 474
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|日本 - 東京都 - 5
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  type: vmess
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  delay: 210
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|日本 - 東京都 - 6
+  network: http
+  port: 53229
+  server: 103.127.243.54
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- alterId: 0
+  cipher: auto
+  delay: 1190
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - a.shanliang332.top
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|日本 - 東京都 - 7
+  network: http
+  port: 59588
+  server: a.shanliang332.top
+  type: vmess
+  uuid: c327643a-709c-47fe-bfcf-389624ff9cc0
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1783
-  server: 13.192.183.245
+  port: 1951
+  server: 18.177.137.225
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 34818
-  server: 54.249.109.55
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 9201
+  server: 3.112.12.32
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4380
-  server: 54.249.109.55
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 9201
+  server: 18.183.89.184
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

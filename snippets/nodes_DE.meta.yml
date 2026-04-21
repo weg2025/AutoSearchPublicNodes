@@ -1,25 +1,49 @@
 proxies:
+- country: 🇩🇪DE
+  delay: 660
+  name: 10|德国 - Frankfurt am Main - 1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.64.145.4
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   country: 🇪🇸 ES
-  delay: 653
-  name: 9|西班牙 - 马德里 - 1
-  password: VcFuyXvND2yQWSFY
-  port: 9054
+  delay: 621
+  name: 10|西班牙 - 马德里 - 1
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
   server: 5.188.181.201
   type: ss
 - cipher: aes-256-cfb
-  country: 🇪🇸ES
-  delay: 631
-  name: 9|西班牙 - 马德里 - 2
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  delay: 644
+  name: 10|西班牙 - 马德里 - 2
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
   server: 5.188.181.201
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 643
-  name: 9|西班牙 - 马德里 - 3
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
+  delay: 644
+  name: 10|西班牙 - 马德里 - 3
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
   server: 5.188.181.201
   type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0001
+  port: 443
+  reality-opts:
+    public-key: Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c
+    short-id: 0c1553316a645758
+  server: 45.77.66.142
+  servername: www.zalando.de
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8

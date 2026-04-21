@@ -1,34 +1,60 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 476
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - 9
+  network: none
+  port: 811
+  server: 107.174.224.186
+  type: vmess
+  uuid: 5a311ad5-cda4-4860-9395-f83a72db96e6
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  delay: 880
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 华盛顿特区 - 19
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 1433
-  name: 9|美国 - 埃尔塞贡多 - 1
-  password: somebody
+  delay: 494
+  name: 10|美国 - 旧金山 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 20xteamxa9-usa5-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 45.8.112.156
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 403880e.q8.gladns.com
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1093
-  name: 9|美国 - 洛杉矶 - 2
-  password: somebody
+  delay: 1239
+  name: 10|美国 - 旧金山 - 5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 20xteamxa9-diy02-a7xr.update.microsoft.com
-    mode: http
-  port: 30011
-  server: 38.244.47.161
+    host: 403880e.default.microsoft.lu:164892
+    mode: tls
+  port: 2377
+  server: 403880e.h4.gladns.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
   country: 🇬🇧 GB
-  delay: 406
+  delay: 407
   h2-opts: {}
   http-opts: {}
-  name: 9|美国 - 洛杉矶 - 3
+  name: 10|美国 - 洛杉矶 - 1
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -36,65 +62,222 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-path: /
-- country: 🇦🇹AT
-  delay: 1384
-  name: 9|美国 - 聖荷西 - 4
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+- alterId: 0
+  cipher: auto
+  delay: 451
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|美国 - 洛杉矶 - 10
+  network: http
+  port: 58225
+  server: 38.175.219.66
+  type: vmess
+  uuid: 5c02ddb5-e78b-4cc0-af58-5cfc745b638e
+- alterId: 0
+  cipher: auto
+  delay: 472
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 10|美国 - 洛杉矶 - 11
+  network: http
+  port: 52080
+  server: 38.75.220.13
+  type: vmess
+  uuid: 67280672-2fa8-4f4e-b7e9-9bd0b7704c4c
+- alterId: 0
+  cipher: auto
+  delay: 452
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 12
+  network: none
+  port: 29433
+  server: 38.49.45.33
+  type: vmess
+  uuid: 6503aa00-a9d0-4605-de91-d87386265d6c
+- alterId: 0
+  cipher: auto
+  delay: 480
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 13
+  network: none
+  port: 54242
+  server: 38.75.220.13
+  type: vmess
+  uuid: 159de044-e00b-4b48-f644-d70197da73d4
+- alterId: 0
+  cipher: auto
+  delay: 457
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 14
+  network: none
+  port: 49782
+  server: 154.9.225.151
+  type: vmess
+  uuid: 05cd1e25-717c-4660-f0f6-3500b3be0929
+- alterId: 0
+  cipher: auto
+  delay: 466
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 15
+  network: none
+  port: 35902
+  server: 38.175.219.66
+  type: vmess
+  uuid: 4167a503-aa2a-4ddd-fbc0-247d2d2aba0b
+- alterId: 0
+  cipher: auto
+  delay: 475
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 16
+  network: none
+  port: 27535
+  server: 38.75.220.13
+  type: vmess
+  uuid: fdb0fe69-ec80-442d-8a75-b3207cb69fdb
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 831
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 17
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇦CA
+  delay: 428
+  name: 10|美国 - 洛杉矶 - 18
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 411
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 2
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 409
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 20
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 408
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 3
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  delay: 734
+  name: 10|美国 - 洛杉矶 - 7
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: 11,12|美国|@ripaojiedian
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 432
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 8
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 54.249.109.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 11,12|美国2|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  delay: 1044
+  name: 10|美国 - Elk Grove Village - 6
+  password: QTmLViU4VEmuwbOxUw4IXd
+  port: 59556
+  server: 107.172.250.161
+  type: ss
+  udp: true
+- name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: 868ecdaf6aed618ec98cf78585672b2b
+  password: 1774240c00db2b77d5a99f6540c47b69
   port: 3057
-  server: 13.115.246.132
+  server: 18.166.177.72
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
+  password: 1774240c00db2b77d5a99f6540c47b69
+  port: 4019
+  server: 160.16.72.205
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49534
-  server: 18.183.182.241
+  port: 23255
+  server: 18.166.177.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0018
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0022
   port: 443
-  server: 18.245.54.3
-  servername: d2241b25w3zftf.cloudfront.net
+  reality-opts:
+    public-key: tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0
+    short-id: f27d8b541b5f48bf
+  server: nld.pink-world.ru
+  servername: nld.pink-world.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  ws-opts:
-    headers:
-      Host: d2241b25w3zftf.cloudfront.net
-    path: /
+  uuid: c5bbdac7-6ff5-4762-87bf-870f55a03581
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|US_speednode_0020
+  name: 14|US_speednode_0024
   port: 443
   reality-opts:
     public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
@@ -106,30 +289,73 @@ proxies:
   type: vless
   udp: true
   uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
-- name: 13|US_speednode_0021
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 14|US_speednode_0025
   network: ws
   port: 443
-  server: 18.245.54.3
-  servername: d23iuljn5k9z1j.cloudfront.net
+  server: 165.140.241.29
+  servername: snzeys.edge-node-a1.fgfw.qzz.io
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: d23iuljn5k9z1j.cloudfront.net
-    path: /
+      Host: snzeys.edge-node-a1.fgfw.qzz.io
+    path: /danfeng?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0022
-  port: 443
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0026
+  port: 4454
   reality-opts:
-    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-    short-id: 11e2
-  server: 216.57.105.74
-  servername: yahoo.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 72.56.35.163
+  servername: files.moscownews24.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0027
+  port: 4495
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 72.56.35.203
+  servername: files.moscownews24.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0028
+  port: 443
+  reality-opts:
+    public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
+    short-id: aa69f619e4414362
+  server: st-2.globalcache.onnstreaming.ru
+  servername: st-2.globalcache.onnstreaming.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0029
+  port: 4510
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 72.56.39.76
+  servername: files.moscownews24.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb99f4f0-181d-4117-be22-df9856fbbc06
