@@ -1,139 +1,88 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 2107
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 北伯根 - 9
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  delay: 1835
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 华盛顿特区 - 7
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+- cipher: aes-128-gcm
+  delay: 720
+  name: 10|美国 - 鳳凰城 - 6
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  delay: 817
-  h2-opts: {}
-  http-opts: {}
+  delay: 445
   name: 10|美国 - 洛杉矶 - 1
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  delay: 1013
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  delay: 2073
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
-  network: tcp
   port: 180
   server: 82.198.246.233
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  delay: 1797
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 4
-  network: tcp
+  delay: 429
+  name: 10|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  delay: 422
+  name: 10|美国 - 洛杉矶 - 3
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  delay: 821
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 5
-  network: tcp
+  delay: 1022
+  name: 10|美国 - 洛杉矶 - 4
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  country: 🇬🇧 GB
-  delay: 404
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 6
-  network: tcp
+  delay: 1702
+  name: 10|美国 - 洛杉矶 - 5
   port: 180
-  server: 82.198.246.46
+  server: 82.198.246.9
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
-- cipher: aes-256-gcm
-  delay: 532
-  name: 10|美国 - Ashburn - 8
-  password: dada1203
-  port: 80
-  server: 34.226.210.163
-  type: ss
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 160.16.124.17
+  server: 13.231.43.53
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4019
-  server: 95.40.58.97
+  port: 3057
+  server: 43.199.32.10
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17871
-  server: 54.46.121.89
+  port: 14919
+  server: 52.195.168.226
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

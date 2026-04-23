@@ -1,12 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  delay: 436
+  name: 10|德国 - 兰河畔林堡 - 1
+  password: 85d3d8ccba287d3e
+  port: 20939
+  server: 135.125.245.131
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 1792
+  country: 🇪🇸ES
+  delay: 650
   name: 10|西班牙 - 马德里 - 1
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
+  password: KnJGad3FqTvjqbaX
+  port: 9014
   server: 5.188.181.201
   type: ss
+- cipher: aes-256-cfb
+  delay: 776
+  name: 10|西班牙 - 马德里 - 2
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 5.188.181.201
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|DE_speednode_0001
