@@ -1,25 +1,88 @@
 proxies:
+- cipher: aes-256-cfb
+  delay: 540
+  name: 10|德国 - 布劳巴赫 - 3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 89.163.140.136
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  delay: 436
+  delay: 598
   name: 10|德国 - 兰河畔林堡 - 1
-  password: 85d3d8ccba287d3e
-  port: 20939
-  server: 135.125.245.131
+  password: 9ab642148dabe978
+  port: 41237
+  server: 135.125.219.2
   type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 487
+  name: 10|德国 - 兰河畔林堡 - 2
+  password: a10bd25b21995e56
+  port: 40266
+  server: 135.125.219.2
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 707
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|德国 - 陶努斯山麓巴德索登 - 4
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- name: 14|DE_speednode_0059
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 193.23.218.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸ES
-  delay: 650
-  name: 10|西班牙 - 马德里 - 1
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 5.188.181.201
-  type: ss
-- cipher: aes-256-cfb
-  delay: 776
-  name: 10|西班牙 - 马德里 - 2
-  password: dU3DSNS8wYPXzEKw
-  port: 9029
-  server: 5.188.181.201
-  type: ss
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|DE_speednode_0063
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 87.251.88.215
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|DE_speednode_0064
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 185.65.202.222
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|DE_speednode_0065
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560

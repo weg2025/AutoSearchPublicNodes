@@ -1,17 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 519
-  name: 10|法国 - 格拉沃利讷 - 1
-  password: 4b4763efefa95114
-  port: 10018
-  server: 135.125.10.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 508
-  name: 10|法国 - 格拉沃利讷 - 2
-  password: d5b878cbb46f3e33
-  port: 11202
-  server: 51.178.114.83
-  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 759
+  http-opts: {}
+  name: 10|法国 - 斯特拉斯堡 - 1
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
