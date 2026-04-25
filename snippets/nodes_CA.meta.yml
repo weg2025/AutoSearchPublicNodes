@@ -1,11 +1,23 @@
 proxies:
 - cipher: aes-256-cfb
-  delay: 522
+  delay: 1280
   name: 10|加拿大 - 多伦多 - 1
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 79.127.200.162
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 684
+  h2-opts: {}
+  http-opts: {}
+  name: 10|加拿大 - 多伦多 - 2
+  port: 11985
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - name: 14|CA_speednode_0010
   network: ws
   port: 2053

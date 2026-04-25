@@ -1,24 +1,36 @@
 proxies:
 - alterId: 2
   cipher: auto
-  country: 🇬🇧GB
-  delay: 668
-  h2-opts: {}
+  country: 🏁 ZZ
+  delay: 990
   http-opts: {}
-  name: 10|美国 - 達拉斯 - 9
+  name: 10|美国 - 北伯根 - 6
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1704
+  http-opts: {}
+  name: 10|美国 - 達拉斯 - 12
   network: tcp
   port: 30808
   server: v8.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 2
   cipher: auto
-  country: 🇭🇰 HK
-  delay: 2008
-  h2-opts: {}
+  country: 🇺🇸 US
+  delay: 2209
   http-opts: {}
-  name: 10|美国 - 华盛顿特区 - 10
+  name: 10|美国 - 华盛顿特区 - 11
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -26,28 +38,57 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 506
+  name: 10|美国 - 旧金山 - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 403880e.q8.gladns.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 1270
+  name: 10|美国 - 克利夫頓 - 2
+  password: 5vldsNMbQ8B4cKDK0sROwj
+  port: 20683
+  server: 142.93.183.235
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇬🇧GB
-  delay: 597
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 1
-  network: tcp
+  delay: 748
+  name: 10|美国 - 洛杉矶 - 10
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.9
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  delay: 2838
+  name: 10|美国 - 洛杉矶 - 3
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧 GB
-  delay: 597
+  delay: 1708
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
+  name: 10|美国 - 洛杉矶 - 4
   network: tcp
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.37
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -55,10 +96,9 @@ proxies:
 - alterId: 0
   cipher: auto
   country: 🇬🇧 GB
-  delay: 597
-  h2-opts: {}
+  delay: 1378
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
+  name: 10|美国 - 洛杉矶 - 5
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -66,92 +106,80 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  delay: 597
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 4
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  delay: 642
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 5
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1366
-  h2-opts: {}
-  http-opts: {}
+- delay: 1367
   name: 10|美国 - 洛杉矶 - 7
-  network: ws
-  port: 80
-  server: skk.moe
-  servername: accklsj.bufu.us.ci
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 47106
+  server: d1.catcat321.com
   skip-cert-verify: true
-  type: vmess
-  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-  ws-opts:
-    headers:
-      HOST: accklsj.bufu.us.ci
-    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+  sni: r.US3.cat.bilibili.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  country: 🇬🇧 GB
-  delay: 1753
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 8
-  network: tcp
+  delay: 1594
+  name: 10|美国 - 洛杉矶 - 9
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.214
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
-- cipher: aes-128-gcm
-  country: 🇺🇦 UA
-  delay: 584
-  name: 10|美国 - 紐約 - 6
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
+- country: 🇧🇩BD
+  delay: 1321
+  name: 10|美国 - 聖荷西 - 14
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 45330
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: r.US5.cat.bilibili.com
+  type: trojan
+  udp: true
+- delay: 2443
+  name: 10|美国 - 聖荷西 - 8
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 41929
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  delay: 2493
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Secaucus - 13
+  network: tcp
+  port: 2053
+  server: node-us.connectsuite.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b91e960-f8f7-41aa-ac67-f5c7b6b72e74
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
   port: 4019
-  server: 52.193.48.211
+  server: 13.231.195.214
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 3057
-  server: 18.182.55.2
+  port: 4019
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 23255
-  server: 18.166.61.147
+  port: 14919
+  server: 3.112.254.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

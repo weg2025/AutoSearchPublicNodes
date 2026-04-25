@@ -1,16 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 1088
+  country: 🇰🇷KR
+  delay: 2791
   h2-opts: {}
   http-opts: {}
-  name: 10|韩国 - 首尔特别市 - 1
+  name: 10|韩国 - 首尔特别市 - 2
   network: ws
   port: 80
   server: kr02.a0a.xyz
+  servername: kr02.a0a.xyz
+  skip-cert-verify: true
   type: vmess
   uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   ws-opts:
     headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
+      HOST: kr02.a0a.xyz
+    path: '%2Fcctv13.m3u8'
+- country: 🇧🇩BD
+  delay: 2377
+  name: 10|韩国 - Goyang-si - 1
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 44782
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: r.KR1.cat.bilibili.com
+  type: trojan
+  udp: true

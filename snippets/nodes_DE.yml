@@ -1,39 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 540
-  name: 10|德国 - 布劳巴赫 - 3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 89.163.140.136
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 598
-  name: 10|德国 - 兰河畔林堡 - 1
-  password: 9ab642148dabe978
-  port: 41237
-  server: 135.125.219.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 487
-  name: 10|德国 - 兰河畔林堡 - 2
-  password: a10bd25b21995e56
-  port: 40266
-  server: 135.125.219.2
-  type: ss
 - alterId: 0
   cipher: auto
-  delay: 707
+  delay: 1249
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /
-  name: 10|德国 - 陶努斯山麓巴德索登 - 4
+  name: 10|德国 - 陶努斯山麓巴德索登 - 1
   network: http
-  port: 17662
+  port: 80
   server: 77.90.11.178
   type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  delay: 594
+  name: 10|西班牙 - 马德里 - 1
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
 - name: 14|DE_speednode_0059
   network: ws
   password: '!!str 1234567890'
