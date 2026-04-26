@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
-  delay: 1440
-  name: 10|日本 - 成田市 - 2
+  delay: 1522
+  name: 9|日本 - 成田市 - 2
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -10,13 +10,13 @@ proxies:
     mux: false
     path: /?enc\=aes-128-gcm
     tls: true
-  port: 8443
-  server: 216.23.85.219
+  port: 2083
+  server: 54.199.22.197
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1683
-  name: 10|日本 - 东京 - 1
+  delay: 1909
+  name: 9|日本 - 东京 - 1
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -29,9 +29,9 @@ proxies:
 - alterId: 2
   cipher: auto
   country: 🏁 ZZ
-  delay: 584
+  delay: 619
   http-opts: {}
-  name: 10|日本 - 东京 - 7
+  name: 9|日本 - 东京 - 5
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -41,41 +41,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  delay: 205
+  delay: 2129
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: 10|日本 - 東京都 - 3
-  network: http
-  port: 54291
-  server: 103.127.243.66
-  type: vmess
-  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- alterId: 0
-  cipher: auto
-  delay: 2593
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|日本 - 東京都 - 4
-  network: http
-  port: 53224
-  server: 103.127.243.49
-  type: vmess
-  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-- alterId: 0
-  cipher: auto
-  delay: 1259
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|日本 - 東京都 - 6
+  name: 9|日本 - 東京都 - 3
   network: http
   port: 56738
   server: 103.127.243.59
@@ -83,43 +55,55 @@ proxies:
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
   cipher: auto
-  country: 🇯🇵JP
-  delay: 1500
+  delay: 2030
   h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - Osaka - 5
-  network: ws
-  port: 80
-  server: jp01.a0a.xyz
-  servername: jp01.a0a.xyz
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 9|日本 - 東京都 - 4
+  network: http
+  port: 53224
+  server: 103.127.243.49
+  type: vmess
+  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
+- alterId: 0
+  cipher: auto
+  country: 🇹🇼TW
+  delay: 262
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 9|日本 - 東京都 - 6
+  network: http
+  port: 55386
+  server: 103.127.243.60
   skip-cert-verify: true
   type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      HOST: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- name: 12,13|日本|@ripaojiedian
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3022
-  server: 13.231.195.214
+  port: 3122
+  server: 18.183.73.62
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12,13|日本2|@ripaojiedian
+- name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 13.231.195.214
+  port: 2001
+  server: 18.183.73.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|日本3|@ripaojiedian
+- name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
-  port: 4380
-  server: 160.16.132.38
+  port: 9201
+  server: 18.183.73.62
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
