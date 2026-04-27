@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
-  delay: 1959
-  name: 9|韩国 - 安山市 - 1
+  delay: 422
+  name: 10|韩国 - 安山市 - 1
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
@@ -10,10 +10,10 @@ proxies:
 - alterId: 0
   cipher: auto
   country: 🇰🇷KR
-  delay: 1199
+  delay: 1120
   h2-opts: {}
   http-opts: {}
-  name: 9|韩国 - 首尔特别市 - 2
+  name: 10|韩国 - 首尔特别市 - 2
   network: ws
   port: 80
   server: kr02.a0a.xyz
@@ -25,3 +25,141 @@ proxies:
     headers:
       HOST: kr02.a0a.xyz
     path: '%2Fcctv13.m3u8'
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 259
+  name: 10|韩国 - 首尔特别市 - 3
+  password: a9d727cd-330b-4edd-8911-7c224df6afd5
+  port: 15755
+  server: 43.164.133.182
+  type: ss
+- name: 14|KR_speednode_0074
+  network: ws
+  password: '!!str 1234567890'
+  port: 25448
+  server: 118.41.26.148
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0075
+  network: ws
+  password: '!!str 1234567890'
+  port: 11965
+  server: 14.45.224.171
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0076
+  network: ws
+  password: '!!str 1234567890'
+  port: 30303
+  server: 220.76.161.128
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0077
+  network: ws
+  password: '!!str 1234567890'
+  port: 19530
+  server: 222.116.195.135
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0078
+  network: ws
+  password: '!!str 1234567890'
+  port: 10035
+  server: 175.197.105.20
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0079
+  network: ws
+  password: '!!str 1234567890'
+  port: 30017
+  server: 220.122.102.26
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0080
+  network: ws
+  password: '!!str 1234567890'
+  port: 13486
+  server: 220.122.15.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0081
+  network: ws
+  password: '!!str 1234567890'
+  port: 50001
+  server: 220.127.68.28
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0082
+  network: ws
+  password: '!!str 1234567890'
+  port: 23424
+  server: 220.125.240.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: 14|KR_speednode_0083
+  network: ws
+  password: '!!str 1234567890'
+  port: 28017
+  server: 49.142.200.31
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560

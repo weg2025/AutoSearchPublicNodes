@@ -1,5 +1,21 @@
 proxies:
-- name: 13|RU_speednode_0118
+- cipher: aes-256-gcm
+  delay: 1594
+  name: 10|俄罗斯 - 莫斯科 - 2
+  password: 9ca2803c16de72cd
+  port: 40412
+  server: 46.17.40.197
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇨🇿CZ
+  delay: 568
+  name: 10|俄罗斯 - 圣彼得堡 - 1
+  password: 3150466568eda87b
+  port: 40210
+  server: 195.58.49.26
+  type: ss
+- name: 14|RU_speednode_0087
   network: ws
   password: '!!str 1234567890'
   port: 2053
@@ -12,3 +28,16 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
+- name: 14|RU_speednode_0088
+  network: ws
+  password: '!!str 1234567890'
+  port: 2053
+  server: 89.169.9.177
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /

@@ -1,47 +1,63 @@
 proxies:
-- cipher: aes-256-gcm
-  delay: 761
-  name: 9|新加坡 - 新加坡 - 1
-  password: 7GaQIM4q84sLnhqQJ8mLqb0KbdDmBWxKPaXa59tFXtg
-  port: 8388
-  server: 165.22.111.31
+- cipher: aes-128-gcm
+  delay: 1108
+  name: 10|新加坡 - 新加坡 - 1
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 8.222.244.182
   type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 425
-  h2-opts: {}
-  http-opts: {}
-  name: 9|新加坡 - 新加坡 - 2
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
+- country: 🇸🇬SG
+  delay: 1258
+  name: 10|新加坡 - 新加坡 - 2
+  password: d30ab83dbde4480082048fb315bedebd
+  port: 443
+  server: 149.28.151.140
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- name: 11,12|新加坡|@ripaojiedian
+  type: trojan
+  udp: true
+- delay: 2889
+  name: 10|新加坡 - 新加坡 - 4
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.209.190
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 3057
   server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 32876
   server: 160.16.132.38
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 30726
-  server: 43.198.80.162
+  port: 25675
+  server: 52.194.223.24
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

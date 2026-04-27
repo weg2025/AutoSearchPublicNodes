@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
-  delay: 1522
-  name: 9|日本 - 成田市 - 2
+  delay: 913
+  name: 10|日本 - 成田市 - 1
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -10,28 +10,32 @@ proxies:
     mux: false
     path: /?enc\=aes-128-gcm
     tls: true
-  port: 2083
-  server: 54.199.22.197
+  port: 443
+  server: 207.65.189.9
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  delay: 1909
-  name: 9|日本 - 东京 - 1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.io:164892
-    mode: tls
-  port: 2377
-  server: 403880e.j6.gladns.com
+  country: 🇨🇳CN
+  delay: 790
+  name: 10|日本 - 东京 - 3
+  password: a9d727cd-330b-4edd-8911-7c224df6afd5
+  port: 19557
+  server: 43.165.183.249
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  delay: 400
+  name: 10|日本 - 东京 - 4
+  password: a9d727cd-330b-4edd-8911-7c224df6afd5
+  port: 15795
+  server: 43.165.170.86
+  type: ss
 - alterId: 2
   cipher: auto
   country: 🏁 ZZ
-  delay: 619
+  delay: 584
   http-opts: {}
-  name: 9|日本 - 东京 - 5
+  name: 10|日本 - 东京 - 5
   network: tcp
   port: 30806
   server: v6.hdacd.com
@@ -41,13 +45,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  delay: 2129
+  delay: 162
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: 9|日本 - 東京都 - 3
+  name: 10|日本 - 東京都 - 2
   network: http
   port: 56738
   server: 103.127.243.59
@@ -55,55 +59,71 @@ proxies:
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
   cipher: auto
-  delay: 2030
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 9|日本 - 東京都 - 4
-  network: http
-  port: 53224
-  server: 103.127.243.49
-  type: vmess
-  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-- alterId: 0
-  cipher: auto
   country: 🇹🇼TW
-  delay: 262
+  delay: 419
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: 9|日本 - 東京都 - 6
+  name: 10|日本 - 東京都 - 6
   network: http
-  port: 55386
-  server: 103.127.243.60
+  port: 53229
+  server: 103.127.243.54
   skip-cert-verify: true
   type: vmess
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 11,12|日本|@ripaojiedian
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- alterId: 0
+  cipher: auto
+  delay: 2099
+  name: 10|日本 - Chiyoda City - 8
+  port: 51556
+  server: 103.181.164.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1094
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - Shinagawa - 7
+  network: ws
+  port: 443
+  server: cfn.cdn.moe233.org
+  servername: d232fuc3xd1vzm.cloudfront.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 36989e03-b3b9-4e85-8a96-6d02de7c4f3a
+  ws-opts:
+    headers:
+      HOST: d232fuc3xd1vzm.cloudfront.net
+    path: /riolu/4
+- name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3122
-  server: 18.183.73.62
+  port: 3357
+  server: 18.181.191.24
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 2001
-  server: 18.183.73.62
+  server: 52.197.216.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 1774240c00db2b77d5a99f6540c47b69
+  password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 9201
-  server: 18.183.73.62
+  server: 43.198.79.128
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
