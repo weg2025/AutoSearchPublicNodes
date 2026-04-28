@@ -1,20 +1,36 @@
 proxies:
 - cipher: aes-256-gcm
-  delay: 1594
+  country: 🇷🇺 RU
+  delay: 630
   name: 10|俄罗斯 - 莫斯科 - 2
-  password: 9ca2803c16de72cd
+  password: c5fcdf7829112cb4
   port: 40412
-  server: 46.17.40.197
+  server: 45.140.169.225
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 689
+  name: 10|俄罗斯 - 莫斯科 - 3
+  password: f34579d0148b2581
+  port: 60290
+  server: 46.17.40.12
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 996
+  name: 10|俄罗斯 - 莫斯科 - 4
+  password: LwB3KAdWCQgWnZDak2XmKPHMMwZpAzWP
+  port: 8080
+  server: 130.49.189.40
+  type: ss
+- cipher: aes-256-gcm
+  delay: 534
+  name: 10|俄罗斯 - 圣彼得堡 - 1
+  password: 1a87017d0bf57f34
+  port: 40120
+  server: 194.87.68.6
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  delay: 568
-  name: 10|俄罗斯 - 圣彼得堡 - 1
-  password: 3150466568eda87b
-  port: 40210
-  server: 195.58.49.26
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|RU_speednode_0086

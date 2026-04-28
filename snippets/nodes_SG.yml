@@ -1,7 +1,19 @@
 proxies:
-- cipher: aes-128-gcm
-  delay: 1108
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 749
+  h2-opts: {}
+  http-opts: {}
   name: 10|新加坡 - 新加坡 - 1
+  port: 47034
+  server: 47.79.236.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6f2879e2-7595-4fc2-ca7e-3c163dbe0d4b
+- cipher: aes-128-gcm
+  delay: 1134
+  name: 10|新加坡 - 新加坡 - 2
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -14,29 +26,51 @@ proxies:
   port: 443
   server: 8.222.244.182
   type: ss
-- country: 🇸🇬SG
-  delay: 1258
-  name: 10|新加坡 - 新加坡 - 2
-  password: d30ab83dbde4480082048fb315bedebd
+- cipher: aes-128-gcm
+  delay: 1177
+  name: 10|新加坡 - 新加坡 - 3
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
   port: 443
-  server: 149.28.151.140
-  skip-cert-verify: true
-  type: trojan
+  server: freeyx.cloudflare88.eu.org
+  type: ss
   udp: true
-- delay: 2889
+- cipher: aes-128-gcm
+  delay: 790
   name: 10|新加坡 - 新加坡 - 4
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
   port: 443
-  server: 178.128.209.190
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  server: 34.143.159.175
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-128-gcm
+  delay: 852
+  name: 10|新加坡 - 新加坡 - 5
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 443
+  server: cdn.31514926.xyz
+  type: ss
+  udp: true
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -56,8 +90,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 52.194.223.24
+  port: 4203
+  server: 95.40.28.234
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
