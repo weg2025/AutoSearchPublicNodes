@@ -44,8 +44,8 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1951
-  server: 54.249.198.171
+  port: 16919
+  server: 18.183.180.142
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -53,15 +53,30 @@ proxies:
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
   port: 4380
-  server: 52.197.180.134
+  server: 18.162.50.11
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 4380
-  server: 57.180.240.230
+  port: 9201
+  server: 3.112.1.63
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: random
+  name: 14|JP_speednode_0010
+  network: ws
+  port: 443
+  server: 45.32.17.67
+  servername: subsources.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+    path: /?ed=2560
