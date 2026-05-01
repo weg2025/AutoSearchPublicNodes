@@ -1,47 +1,37 @@
 proxies:
-- cipher: aes-128-gcm
-  delay: 1274
-  name: 10|德国 - 德赖艾希 - 1
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
+- delay: 1120
+  name: 10|德国 - 德赖艾希 - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: jp.111000.cc.cd
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  delay: 471
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|德国 - 陶努斯山麓巴德索登 - 4
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- country: 🇩🇪DE
-  delay: 697
-  name: 10|德国 - Frankfurt am Main - 3
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.75.35.234
+  server: 89.167.100.106
   skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  delay: 612
-  name: 10|西班牙 - 马德里 - 1
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 5.188.181.201
-  type: ss
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1128
+  name: 10|德国 - 德赖艾希 - 4
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 65.109.186.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2343
+  name: 10|印度 - 德里 - 1
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
+  type: trojan

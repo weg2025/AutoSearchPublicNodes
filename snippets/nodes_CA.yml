@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- cipher: rc4-md5
+  delay: 540
+  name: 10|加拿大 - 多伦多 - 2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 1970
+  name: 10|加拿大 - 蒙特利尔 - 1
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.154.204.7
+  type: ss
+  udp: true

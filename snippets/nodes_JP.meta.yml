@@ -1,51 +1,118 @@
 proxies:
-- cipher: aes-128-gcm
-  delay: 465
-  name: 10|日本 - 成田市 - 1
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 8443
-  server: 31.57.172.176
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  delay: 454
+- delay: 374
   name: 10|日本 - 成田市 - 2
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: 207.65.189.9
-  type: ss
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 140.235.37.69
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇧🇪BE
-  delay: 2081
-  name: 10|日本 - 东京 - 3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.io:164892
-    mode: tls
-  port: 2377
-  server: 403880e.j6.gladns.com
-  type: ss
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 818
+  name: 10|日本 - 成田市 - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 54321
+  server: 64.81.114.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1128
+  name: 10|日本 - 成田市 - 4
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 47293
+  server: 154.36.156.141
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 528
+  name: 10|日本 - 成田市 - 6
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 53538
+  server: 154.36.154.231
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1285
+  name: 10|日本 - 成田市 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14345
+  server: 64.81.113.90
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 374
+  name: 10|日本 - 成田市 - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 108.162.198.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  delay: 1177
+  name: 10|日本 - 东京 - 1
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- delay: 810
+  name: 10|日本 - Ōkubo-naka - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 126.220.82.161
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 18.183.75.181
+  port: 9412
+  server: 18.163.116.37
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
