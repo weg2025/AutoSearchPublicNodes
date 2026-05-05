@@ -1,17 +1,15 @@
 proxies:
-- cipher: rc4-md5
-  delay: 540
-  name: 10|加拿大 - 多伦多 - 2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1970
-  name: 10|加拿大 - 蒙特利尔 - 1
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.154.204.7
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 729
+  h2-opts: {}
+  http-opts: {}
+  name: 10|加拿大 - 多伦多 - 1
+  network: tcp
+  port: 11985
+  server: board-02.ddnskunlun.com
+  servername: board-02.ddnskunlun.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484

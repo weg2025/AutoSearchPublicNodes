@@ -1,15 +1,78 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|GB_speednode_0008
+- delay: 1270
+  name: 10|英国 - 豪恩斯洛 - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  reality-opts:
-    public-key: I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0
-    short-id: fe28038a
-  server: gr-1.illusion-proxy.ru
-  servername: gr-1.illusion-proxy.ru
+  server: 38.180.175.143
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1684
+  h2-opts: {}
+  http-opts: {}
+  name: 10|英国 - 伦敦 - 1
+  network: ws
+  port: 443
+  server: cg1c12.waimaojd.com
+  servername: cg1c12.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      HOST: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1145
+  h2-opts: {}
+  http-opts: {}
+  name: 10|英国 - Slough - 2
+  network: tcp
+  port: 11956
+  server: board-03.ddnskunlun.com
+  servername: board-03.ddnskunlun.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+- client-fingerprint: firefox
+  name: 14|GB_speednode_0009
+  network: ws
+  port: 2083
+  server: 161.35.37.231
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bf263367-bb63-4663-b4a1-34946107a72e
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: 14|GB_speednode_0010
+  network: ws
+  port: 443
+  server: 178.62.111.180
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560

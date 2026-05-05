@@ -1,10 +1,10 @@
 proxies:
-- delay: 2806
+- delay: 1065
   name: 10|瑞典 - Steninge - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 92.118.233.25
+  server: 185.188.181.55
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -13,12 +13,12 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1189
+- delay: 922
   name: 10|瑞典 - Steninge - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.221.163.129
+  port: 8443
+  server: 45.153.187.209
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -27,17 +27,31 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|SE_speednode_0012
-  port: 52000
-  reality-opts:
-    public-key: QxNM7Wad1AT-erPr2JpacYeluAAASMT5yHU_ANpWD1Q
-    short-id: 9bcf6f2c
-  server: 159.194.213.95
-  servername: ozon.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- delay: 1657
+  name: 10|瑞典 - Steninge - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.102.136.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1690
+  name: 10|瑞典 - Steninge - 4
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.81.113.186
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2

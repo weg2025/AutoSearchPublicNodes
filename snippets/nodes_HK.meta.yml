@@ -11,16 +11,16 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 2008
-  server: 54.250.182.223
+  port: 53018
+  server: 18.163.28.173
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5383
-  server: 43.199.41.19
+  port: 63131
+  server: 13.231.158.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -34,3 +34,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: edge
+  name: 14|HK_speednode_0011
+  network: ws
+  port: 443
+  server: rhciuib.synccut.de
+  servername: rhciuib.synccut.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf5a8e10-758c-4564-87a4-a2eeecbd5ed4
+  ws-opts:
+    headers:
+      Host: rhciuib.synccut.de
+    path: /video_clip
+- client-fingerprint: firefox
+  name: 14|HK_speednode_0012
+  network: ws
+  port: 10100
+  server: 103.224.172.99
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
