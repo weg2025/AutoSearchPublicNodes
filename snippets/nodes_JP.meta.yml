@@ -1,20 +1,6 @@
 proxies:
-- delay: 671
+- delay: 392
   name: 10|日本 - 成田市 - 3
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 54321
-  server: 64.81.114.61
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 838
-  name: 10|日本 - 成田市 - 4
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -27,19 +13,99 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
+- delay: 887
+  name: 10|日本 - 成田市 - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 216.23.84.220
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1518
+  name: 10|日本 - 成田市 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 41607
+  server: 45.159.48.37
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 903
+  name: 10|日本 - 成田市 - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 140.235.37.69
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1831
+  name: 10|日本 - 成田市 - 9
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 161.248.254.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1446
+  grpc-opts:
+    grpc-service-name: violet
+  name: 10|日本 - 東京都 - 6
+  network: grpc
+  password: 1a4f02de-4a6d-4d4b-8cc7-ed3b5d34c959
+  port: 25055
+  server: jplic.osaip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 64
   cipher: auto
-  delay: 513
-  name: 10|日本 - 大阪市 - 1
-  port: 30806
-  server: v6.hdacd.com
+  country: 🏁ZZ
+  delay: 2711
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - Chiyoda City - 1
+  network: tcp
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  delay: 1504
+  name: 10|日本 - Chiyoda City - 2
+  port: 51556
+  server: 103.181.164.145
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 1436
-  name: 10|日本 - Ōkubo-naka - 5
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- delay: 2095
+  name: 10|日本 - Ōkubo-naka - 4
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -52,49 +118,38 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1702
-  name: 10|日本 - Shibuya City - 2
-  password: strong-secret-pass-777
-  port: 4443
-  server: 45.12.134.57
-  skip-cert-verify: true
-  type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6463
-  server: bb.bejkn.cn
+  port: 4099
+  server: 54.248.66.236
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 11541
-  server: 18.179.108.192
+  port: 8066
+  server: 54.46.50.228
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 8066
-  server: 18.162.168.19
+  port: 11541
+  server: 13.231.106.216
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: firefox
-  name: 14|JP_speednode_0013
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0014
   port: 443
-  server: 8.216.6.167
-  servername: py7k82mu.api-node-02.gfw.hidns.co
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: /danfeng?ed=2560
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5

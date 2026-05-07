@@ -1,1 +1,54 @@
-proxies: []
+proxies:
+- country: 🇫🇷FR
+  delay: 821
+  name: 10|法国 - 巴黎 - 1
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.36.216.227
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1114
+  name: 10|法国 - 巴黎 - 2
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.216.227
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1476
+  name: 10|法国 - 巴黎 - 3
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.224.9.226
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 760
+  name: 10|法国 - 巴黎 - 4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.224.9.226
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1980
+  http-opts: {}
+  name: 10|法国 - 斯特拉斯堡 - 5
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
