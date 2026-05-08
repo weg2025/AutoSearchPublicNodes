@@ -1,13 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇩🇪DE
-  delay: 577
+- delay: 1681
+  name: 10|俄罗斯 - 多莫傑多沃 - 2
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 144.31.184.200
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 1640
   name: 10|俄罗斯 - 莫斯科 - 1
-  password: LH1LTOhYU2uc5GG2WGvSVA
-  port: 8388
-  server: 85.239.36.167
+  password: c5fcdf7829112cb4
+  port: 60129
+  server: 45.140.169.216
   type: ss
-- name: 14|RU_speednode_0023
+- name: 14|RU_speednode_0014
   network: ws
   port: 443
   server: 45.139.77.52
@@ -21,3 +35,17 @@ proxies:
     headers:
       Host: sni.111000.v6.army
     path: /
+- name: 14|RU_speednode_0015
+  network: ws
+  port: 443
+  server: 185.171.83.147
+  servername: sni.111000.v6.army
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560

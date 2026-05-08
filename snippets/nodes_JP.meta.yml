@@ -1,6 +1,6 @@
 proxies:
-- delay: 392
-  name: 10|日本 - 成田市 - 3
+- delay: 550
+  name: 10|日本 - 成田市 - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -13,8 +13,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 887
-  name: 10|日本 - 成田市 - 5
+- delay: 382
+  name: 10|日本 - 成田市 - 10
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.207.197.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1728
+  name: 10|日本 - 成田市 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -27,8 +41,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1518
-  name: 10|日本 - 成田市 - 7
+- delay: 729
+  name: 10|日本 - 成田市 - 3
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 41607
@@ -41,8 +55,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 903
-  name: 10|日本 - 成田市 - 8
+- delay: 1166
+  name: 10|日本 - 成田市 - 4
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -55,8 +69,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1831
-  name: 10|日本 - 成田市 - 9
+- delay: 1006
+  name: 10|日本 - 成田市 - 5
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -69,43 +83,24 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1446
-  grpc-opts:
-    grpc-service-name: violet
-  name: 10|日本 - 東京都 - 6
-  network: grpc
-  password: 1a4f02de-4a6d-4d4b-8cc7-ed3b5d34c959
-  port: 25055
-  server: jplic.osaip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2711
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - Chiyoda City - 1
-  network: tcp
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 1504
-  name: 10|日本 - Chiyoda City - 2
-  port: 51556
-  server: 103.181.164.145
+  delay: 626
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 10|日本 - 東京都 - 7
+  network: http
+  port: 54291
+  server: 103.127.243.66
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- delay: 2095
-  name: 10|日本 - Ōkubo-naka - 4
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
+- delay: 952
+  name: 10|日本 - Ōkubo-naka - 6
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -118,38 +113,55 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- delay: 850
+  name: 10|日本 - Ōkubo-naka - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2007
+  name: 10|日本 - Ōkubo-naka - 9
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 64.176.38.23
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 54.248.66.236
+  port: 2140
+  server: 54.46.123.251
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 8066
-  server: 54.46.50.228
+  port: 11541
+  server: 52.197.26.190
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 11541
-  server: 13.231.106.216
+  port: 24184
+  server: 54.65.211.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|JP_speednode_0014
-  port: 443
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
