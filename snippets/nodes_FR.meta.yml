@@ -1,10 +1,10 @@
 proxies:
-- delay: 964
-  name: 10|法国 - 奧奈叢林 - 3
+- delay: 1815
+  name: 10|法国 - 奧奈叢林 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 213.32.20.252
+  port: 443
+  server: 138.124.81.204
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -12,24 +12,18 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- country: 🇫🇷FR
-  delay: 696
-  name: 10|法国 - 巴黎 - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.129.227
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 717
+  h2-opts: {}
+  http-opts: {}
+  name: 10|法国 - 斯特拉斯堡 - 1
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  servername: v35.hdacd.com
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 972
-  name: 10|法国 - 巴黎 - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.47.129.227
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
