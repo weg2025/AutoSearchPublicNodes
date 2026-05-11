@@ -1,6 +1,14 @@
 proxies:
-- delay: 1316
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 518
   name: 10|新加坡 - 新加坡 - 1
+  password: dada1203
+  port: 80
+  server: 47.128.72.35
+  type: ss
+- delay: 1281
+  name: 10|新加坡 - 新加坡 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -13,8 +21,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1566
-  name: 10|新加坡 - 新加坡 - 2
+- delay: 1781
+  name: 10|新加坡 - 新加坡 - 3
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -30,52 +38,38 @@ proxies:
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 1180
-  server: 43.206.223.143
+  port: 4840
+  server: 95.40.118.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 667
-  server: 13.113.153.204
+  port: 3842
+  server: 3.112.206.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 42750
-  server: 35.78.121.124
+  port: 5159
+  server: 43.206.119.178
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 14|SG_speednode_0016
+- name: 14|SG_speednode_0049
   network: ws
-  port: 443
-  server: 43.106.102.56
-  servername: gogo9.kmj.qzz.io
+  port: 36089
+  server: 83.147.254.4
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: gogo9.kmj.qzz.io
-    path: /
-- name: 14|SG_speednode_0017
-  network: ws
-  port: 443
-  server: 139.180.216.166
-  servername: gogo4.kmj.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo4.kmj.qzz.io
-    path: /
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi

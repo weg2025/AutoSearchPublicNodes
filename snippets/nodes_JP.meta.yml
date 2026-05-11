@@ -1,57 +1,36 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  delay: 597
+  name: 10|日本 - 大阪市 - 1
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  delay: 2981
-  name: 10|日本 - 东京 - 1
+  delay: 2564
+  name: 10|日本 - 东京 - 2
   password: amazonskr05
   port: 443
   server: 3.112.29.249
   type: ss
 - cipher: aes-256-cfb
   country: 🇯🇵JP
-  delay: 393
-  name: 10|日本 - 东京 - 2
-  password: amazonskr05
-  port: 443
-  server: 3.113.11.118
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 2211
+  delay: 303
   name: 10|日本 - 东京 - 3
-  password: amazonskr05
-  port: 443
-  server: 52.199.62.19
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 729
-  name: 10|日本 - 东京 - 4
-  password: amazonskr05
-  port: 443
-  server: 54.95.184.62
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 1890
-  name: 10|日本 - 东京 - 5
   password: amazonskr05
   port: 443
   server: 3.112.175.20
   type: ss
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 2409
-  name: 10|日本 - 东京 - 6
-  password: amazonskr05
-  port: 443
-  server: 13.231.5.85
-  type: ss
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 54.64.30.114
+  port: 443
+  server: 116.80.61.236
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -59,15 +38,43 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 8066
-  server: 54.46.109.238
+  server: 54.46.127.252
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 24184
-  server: 18.167.37.32
+  port: 11541
+  server: 3.112.206.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 14|JP_speednode_0029
+  network: ws
+  port: 31772
+  server: 8.211.174.145
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- name: 14|JP_speednode_0030
+  network: ws
+  port: 21219
+  server: 193.32.151.49
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
