@@ -1,19 +1,19 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  delay: 1228
+  country: 🇹🇼TW
+  delay: 903
+  h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 北伯根 - 12
+  name: 10|多哥 - 洛美 - 1
   network: tcp
-  port: 30804
-  server: v4.hdacd.com
+  port: 18307
+  server: t.tizi001.com
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- delay: 2074
-  name: 10|美国 - 东洛杉矶 - 14
+  uuid: 9e51eb62-797c-42fa-a6af-e993a99e6ece
+- delay: 839
+  name: 10|美国 - 东洛杉矶 - 18
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -26,35 +26,39 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 707
-  name: 10|美国 - 科林斯堡 - 4
-  password: '!!str 666'
-  port: 666
-  server: 162.141.136.12
-  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 425
+  name: 10|美国 - 洛杉矶 - 1
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 1400
+  delay: 1242
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 1
+  name: 10|美国 - 洛杉矶 - 13
   network: ws
-  port: 80
-  server: skk.moe
-  servername: accklsj.bufu.us.ci
+  port: 443
+  server: cf.scpnb.top
+  servername: partition-shepherd-vic-behalf.trycloudflare.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
   ws-opts:
     headers:
-      HOST: accklsj.bufu.us.ci
-    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+      HOST: partition-shepherd-vic-behalf.trycloudflare.com
+    path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm
 - cipher: chacha20-ietf-poly1305
-  delay: 410
-  name: 10|美国 - 洛杉矶 - 21
+  delay: 402
+  name: 10|美国 - 洛杉矶 - 17
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -66,22 +70,56 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 1392
+  delay: 441
+  name: 10|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  delay: 413
+  name: 10|美国 - 洛杉矶 - 3
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1296
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|美国 - 圣克拉拉 - 11
-  network: http
-  port: 32301
-  server: 104.168.94.41
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 4
+  network: ws
+  port: 80
+  server: skk.moe
+  servername: accklsj.bufu.us.ci
   skip-cert-verify: true
   type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-- delay: 2188
-  name: 10|美国 - 聖荷西 - 15
+  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  ws-opts:
+    headers:
+      HOST: accklsj.bufu.us.ci
+    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+- country: 🇧🇩BD
+  delay: 1485
+  name: 10|美国 - 洛杉矶 - 5
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 47106
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: r.US3.cat.bilibili.com
+  type: trojan
+  udp: true
+- delay: 807
+  name: 10|美国 - 聖荷西 - 19
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -94,8 +132,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr+|+免费机场TG@proxyshareCN+|+
-- delay: 818
-  name: 10|美国 - 聖荷西 - 16
+- delay: 811
+  name: 10|美国 - 聖荷西 - 20
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -108,8 +146,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1522
-  name: 10|美国 - 聖荷西 - 17
+- delay: 2021
+  name: 10|美国 - 聖荷西 - 21
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -122,22 +160,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 811
-  name: 10|美国 - 聖荷西 - 18
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 165.22.130.178
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 2225
-  name: 10|美国 - 聖荷西 - 19
+- delay: 936
+  name: 10|美国 - 聖荷西 - 22
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -150,8 +174,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1195
-  name: 10|美国 - 聖荷西 - 22
+- delay: 800
+  name: 10|美国 - 聖荷西 - 23
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -164,80 +188,101 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 503
-  name: 10|美国 - Dublin - 10
-  password: amazonskr05
-  port: 443
-  server: 3.148.208.186
-  type: ss
+- country: 🇧🇩BD
+  delay: 2394
+  name: 10|美国 - 聖荷西 - 6
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 45330
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: r.US5.cat.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1220
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 14
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 807
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 16
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - cipher: aes-256-cfb
   country: 🇺🇸US
   delay: 505
-  name: 10|美国 - Dublin - 13
-  password: amazonskr05
-  port: 443
-  server: 3.145.151.197
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1237
-  name: 10|美国 - Dublin - 2
-  password: amazonskr05
-  port: 443
-  server: 3.133.140.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1235
-  name: 10|美国 - Dublin - 3
-  password: amazonskr05
-  port: 443
-  server: 3.148.102.225
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 2138
-  name: 10|美国 - Dublin - 5
-  password: amazonskr05
-  port: 443
-  server: 3.137.174.85
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 596
-  name: 10|美国 - Dublin - 6
+  name: 10|美国 - Dublin - 10
   password: amazonskr05
   port: 443
   server: 13.59.38.191
   type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  delay: 575
+  delay: 512
+  name: 10|美国 - Dublin - 11
+  password: amazonskr05
+  port: 443
+  server: 3.145.151.197
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 512
+  name: 10|美国 - Dublin - 12
+  password: amazonskr05
+  port: 443
+  server: 3.133.140.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 2204
+  name: 10|美国 - Dublin - 15
+  password: amazonskr05
+  port: 443
+  server: 3.148.102.225
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1519
   name: 10|美国 - Dublin - 7
-  password: amazonskr05
-  port: 443
-  server: 3.144.92.216
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 579
-  name: 10|美国 - Dublin - 8
-  password: amazonskr05
-  port: 443
-  server: 3.144.123.157
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 1528
-  name: 10|美国 - Dublin - 9
   password: amazonskr05
   port: 443
   server: 3.142.119.79
   type: ss
-- delay: 1055
-  name: 10|美国 - Reynoldsburg - 20
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 520
+  name: 10|美国 - Dublin - 8
+  password: amazonskr05
+  port: 443
+  server: 3.137.174.85
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1508
+  name: 10|美国 - Dublin - 9
+  password: amazonskr05
+  port: 443
+  server: 3.144.92.216
+  type: ss
+- delay: 2088
+  name: 10|美国 - Reynoldsburg - 24
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -253,24 +298,24 @@ proxies:
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 52249
-  server: 3.112.206.12
+  port: 6604
+  server: 95.40.11.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 6604
-  server: 54.249.141.77
+  port: 52249
+  server: 13.231.222.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.198.240.167
+  port: 38692
+  server: 54.46.15.57
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

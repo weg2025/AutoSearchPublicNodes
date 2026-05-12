@@ -1,20 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 613
-  name: 10|韩国 - 安山市 - 1
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-  udp: true
-- delay: 769
-  name: 10,14|KR_speednode_0034
-  port: 1090
-  server: 121.169.46.116
+- country: 🇧🇩BD
+  delay: 1223
+  name: 10|韩国 - Paju - 1
+  password: 3ffee9f4-256b-40c7-b9b5-321dcd3ba588
+  port: 44782
+  server: d1.catcat321.com
   skip-cert-verify: true
-  type: socks5
+  sni: r.KR1.cat.bilibili.com
+  type: trojan
   udp: true
-  username: T2clM0QlM0Q6
 - client-fingerprint: chrome
   name: 14|KR_speednode_0031
   network: ws
@@ -44,3 +38,9 @@ proxies:
     headers:
       Host: sas0dpjv2rmyx842.makuyo.dpdns.org
     path: /@Marisa_kristi
+- name: 14|KR_speednode_0034
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
