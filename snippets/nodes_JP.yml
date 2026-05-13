@@ -1,38 +1,43 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇹🇼TW
-  delay: 1016
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - Koto-ku - 1
-  network: tcp
-  port: 32117
-  server: t.tizi001.com
+  delay: 1033
+  name: 10|日本 - 大阪市 - 1
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 9e51eb62-797c-42fa-a6af-e993a99e6ece
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- delay: 2174
+  name: 10|日本 - Shibuya City - 2
+  password: strong-secret-pass-777
+  port: 4443
+  server: 45.12.134.57
+  skip-cert-verify: true
+  type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 116.80.61.236
+  port: 4633
+  server: 54.65.160.192
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 18.167.12.175
+  port: 24184
+  server: 35.75.5.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 8066
-  server: 95.40.11.168
+  port: 11541
+  server: 95.40.68.153
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
