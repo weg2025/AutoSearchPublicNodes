@@ -1,21 +1,34 @@
 proxies:
 - country: 🇫🇷FR
-  delay: 725
+  delay: 1535
   name: 10|法国 - 巴黎 - 1
   password: telegram-id-directvpn
   port: 22223
-  server: 13.37.117.168
+  server: 15.188.28.43
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - country: 🇫🇷FR
-  delay: 723
+  delay: 1276
   name: 10|法国 - 巴黎 - 2
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.117.168
+  password: telegram-id-directvpn
+  port: 22223
+  server: 35.180.235.87
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 14|FR_speednode_0008
+  port: 55269
+  reality-opts:
+    public-key: i1e3hqslC-n7XGp72HmDKU7ZuRk72pHbzujbNaYF-0s
+    short-id: 8f
+  server: 141.11.197.127
+  servername: vk.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 231e88bb-3a39-4f26-848e-908f83070283

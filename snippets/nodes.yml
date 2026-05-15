@@ -1,23 +1,34 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 809
-  name: 10|巴西 - 圣保罗 - 1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.54.57.90
-  type: ss
-  udp: true
-- country: 🇺🇸US
-  delay: 1355
-  name: 10|巴西 - 圣保罗 - 2
-  password: strong-secret-pass-777
-  port: 4443
-  server: 45.82.245.37
+- delay: 2255
+  name: 10|波兰 - 普魯斯科夫 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.85.245.152
   skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
-- delay: 1204
-  name: 10|德国 - 德赖艾希 - 4
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1872
+  name: 10|丹麦 - 哥本哈根 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.37.96.247
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2342
+  name: 10|德国 - 德赖艾希 - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -30,12 +41,48 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- delay: 1258
-  name: 10|德国 - 德赖艾希 - 5
+- cipher: chacha20-ietf-poly1305
+  country: 🇲🇽MX
+  delay: 987
+  name: 10|俄罗斯 - 莫斯科 - 1
+  password: xRcTwyRIRCZZbrSaJZbh3u
+  port: 8443
+  server: 185.76.241.112
+  type: ss
+- country: 🇫🇷FR
+  delay: 1535
+  name: 10|法国 - 巴黎 - 1
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.188.28.43
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1276
+  name: 10|法国 - 巴黎 - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 35.180.235.87
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1869
+  name: 10|韩国 - 安山市 - 1
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+  udp: true
+- delay: 671
+  name: 10|韩国 - Yeongdong-gun - 5
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 51.195.47.23
+  port: 7778
+  server: 146.56.113.221
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -44,89 +91,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- delay: 1360
-  name: 10|德国 - 德赖艾希 - 6
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.254.168
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf
-  country: 🇬🇧GB
-  delay: 882
-  name: 10|德国 - 法兰克福 - 1
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: ssr2.762988.xyz
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇪GE
-  delay: 607
-  name: 10|德国 - 法兰克福 - 2
-  password: w3JDLilehmBXnpPZp8Mcrj
-  port: 443
-  server: fcisisfckhfcakhfcch.outline.name
-  type: ss
-- delay: 1931
-  name: 10|德国 - 纽伦堡 - 3
-  network: ws
-  password: mSzFVhUczD
-  port: 443
-  server: 104.20.5.134
-  skip-cert-verify: true
-  sni: abest.api-tel.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: abest.api-tel.xyz
-    path: /
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 596
-  name: 10|俄罗斯 - 莫斯科 - 1
-  password: c5fcdf7829112cb4
-  port: 30112
-  server: 45.140.169.216
-  type: ss
-- country: 🇫🇷FR
-  delay: 725
-  name: 10|法国 - 巴黎 - 1
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.37.117.168
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 723
-  name: 10|法国 - 巴黎 - 2
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.117.168
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  delay: 457
-  name: 10|韩国 - 安山市 - 1
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-  udp: true
-- delay: 1027
+- delay: 1067
   name: 10|荷兰 - 阿姆斯特丹 - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -140,7 +105,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- delay: 1986
+- delay: 1069
   name: 10|荷兰 - 阿姆斯特丹 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -154,7 +119,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1195
+- delay: 2424
   name: 10|荷兰 - 阿姆斯特丹 - 3
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -168,31 +133,96 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 2499
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 奥勒姆 - 1
+- delay: 1479
+  name: 10|荷兰 - 阿姆斯特丹 - 4
   network: ws
-  port: 443
-  server: free-v7-09.elbrusway.online
-  servername: free-v7-09.elbrusway.online
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.66.160.10
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b4bc8fcd-739e-4525-8bed-20d10e850988
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      HOST: free-v7-09.elbrusway.online
-    path: /vmess-balkar
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1105
+  name: 10|荷兰 - 阿姆斯特丹 - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.164
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1274
+  name: 10|荷兰 - 阿姆斯特丹 - 6
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 212.34.153.206
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 1386
+  name: 10|荷兰 - 阿姆斯特丹 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 151.245.136.43
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 1312
+  name: 10|荷兰 - 阿姆斯特丹 - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.220.204.92
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 1106
+  name: 10|加拿大 - 列治文 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 23.173.104.206
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - alterId: 2
   cipher: auto
   country: 🏁 ZZ
-  delay: 761
+  delay: 1769
   http-opts: {}
-  name: 10|美国 - 達拉斯 - 4
+  name: 10|美国 - 達拉斯 - 3
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -200,9 +230,93 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-path: /
+- delay: 1913
+  name: 10|美国 - 东洛杉矶 - 13
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.93.187.184
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1884
+  name: 10|美国 - 东洛杉矶 - 14
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 84.32.44.218
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1034
+  name: 10|美国 - 东洛杉矶 - 34
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.245.93.26
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 759
+  name: 10|美国 - 东洛杉矶 - 35
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 154.17.8.126
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 1097
+  name: 10|美国 - 东洛杉矶 - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 107.151.188.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1531
+  name: 10|美国 - 惠顿 - 18
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 34.16.97.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  delay: 2470
+  delay: 2592
   name: 10,12|🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
@@ -213,47 +327,82 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  country: 🇬🇧 GB
-  delay: 428
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
-  network: tcp
+  delay: 957
+  name: 10|美国 - 洛杉矶 - 2
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.9
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
-  delay: 501
+  delay: 1544
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 8
-  port: 9027
-  server: select-us.ddnskunlun.com
+  name: 10|美国 - 洛杉矶 - 4
+  network: ws
+  port: 443
+  server: cf.scpnb.top
+  servername: partition-shepherd-vic-behalf.trycloudflare.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 524
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 9
-  port: 9028
-  server: select-us.ddnskunlun.com
+  uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
+  ws-opts:
+    headers:
+      HOST: partition-shepherd-vic-behalf.trycloudflare.com
+    path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm
+- delay: 1367
+  name: 10|美国 - 迈阿密 - 20
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 50.228.203.26
   skip-cert-verify: true
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- delay: 1070
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1117
+  name: 10|美国 - 紐約 - 24
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 80.209.242.70
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1147
+  name: 10|美国 - 紐約 - 33
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 199.119.137.41
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1018
   name: 10|美国 - 聖荷西 - 10
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.70.6
+  server: 147.185.161.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -262,12 +411,320 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 811
-  name: 10|美国 - 聖荷西 - 11
+- delay: 1003
+  name: 10|美国 - 聖荷西 - 15
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 166.62.107.253
+  server: 43.153.105.7
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1018
+  name: 10|美国 - 聖荷西 - 17
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 184.169.181.217
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 993
+  name: 10|美国 - 聖荷西 - 25
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 27.50.48.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 951
+  name: 10|美国 - 聖荷西 - 27
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 166.62.115.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr+|+免费机场TG@proxyshareCN+|+
+- delay: 2262
+  name: 10|美国 - 聖荷西 - 28
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.200.160.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1820
+  name: 10|美国 - 聖荷西 - 29
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 166.62.105.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 977
+  name: 10|美国 - 聖荷西 - 30
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 161.145.150.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 785
+  name: 10|美国 - 聖荷西 - 37
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.59.5.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1101
+  name: 10|美国 - 聖荷西 - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 92.243.75.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1018
+  name: 10|美国 - 聖荷西 - 6
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 141.193.27.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1024
+  name: 10|美国 - 聖荷西 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.40.154.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1076
+  name: 10|美国 - 聖荷西 - 9
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.129.165.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1941
+  name: 10|美国 - 天堂市 - 11
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.58.50.23
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1073
+  name: 10|美国 - 天堂市 - 26
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.57.63.63
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1064
+  name: 10|美国 - 天堂市 - 36
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.61.140.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1929
+  name: 10|美国 - Cheektowaga - 19
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 172.245.156.126
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1094
+  name: 10|美国 - Flower Mound - 21
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.137.213.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2404
+  name: 10|美国 - Flower Mound - 23
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 23.94.103.194
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1088
+  name: 10|美国 - Flower Mound - 31
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 193.233.87.41
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- delay: 1090
+  name: 10|美国 - Flower Mound - 32
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.245.226.122
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1484
+  name: 10|美国 - Reston - 16
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 128.14.196.46
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2404
+  name: 10|美国 - Reston - 22
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.234.50.53
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2241
+  name: 10|美国 - South Fulton - 12
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.110.109.228
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -278,39 +735,38 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 586
+  country: 🏁ZZ
+  delay: 1626
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 水牛城 - 7
+  name: 10|挪威 - 奥斯陆 - 1
   network: tcp
-  port: 10086
-  server: 107.172.75.141
+  port: 11912
+  server: board-01.ddnskunlun.com
+  servername: board-01.ddnskunlun.com
   skip-cert-verify: true
   type: vmess
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 638
-  name: 10|美国 - Dublin - 5
-  password: amazonskr05
-  port: 443
-  server: 3.145.151.197
-  type: ss
-- cipher: aes-256-cfb
-  delay: 531
-  name: 10|美国 - Dublin - 6
-  password: amazonskr05
-  port: 443
-  server: 3.142.119.79
-  type: ss
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+- delay: 441
+  name: 10|日本 - 成田市 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 11307
+  server: 47.79.85.210
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-- delay: 1386
-  name: 10|美国 - Reynoldsburg - 12
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2243
+  name: 10|瑞典 - Steninge - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 18.216.55.100
+  server: 95.81.113.186
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -320,19 +776,19 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 622
-  name: 10|瑞典 - 斯德哥尔摩 - 1
-  password: amazonskr05
-  port: 443
-  server: 51.20.135.154
+  country: 🇪🇸ES
+  delay: 830
+  name: 10|西班牙 - 马德里 - 1
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 5.188.181.201
   type: ss
-- delay: 912
+- delay: 2967
   name: 10|新加坡 - 新加坡 - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 173.245.59.253
+  server: 47.236.119.109
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -341,12 +797,26 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 439
+- delay: 1331
   name: 10|新加坡 - 新加坡 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 108.162.192.253
+  server: 43.134.174.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- delay: 1563
+  name: 10|新加坡 - 新加坡 - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.82.178.58
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -355,12 +825,20 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 768
+  name: 10|英国 - 科尔切斯特 - 1
+  password: ImklcJyi52glFmSRoVko7K
+  port: 443
+  server: 51.241.20.195
+  type: ss
 - cipher: aes-256-cfb
-  delay: 1939
+  delay: 1960
   name: 10|越南 - Hải Dương - 1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.132
+  server: 103.186.155.55
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -368,411 +846,313 @@ proxies:
   name: 10|越南 - Hải Dương - 10
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.200
+  server: 103.186.155.28
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 700
+  delay: 1664
   name: 10|越南 - Hải Dương - 11
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.191
+  server: 103.186.155.31
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 720
+  delay: 645
   name: 10|越南 - Hải Dương - 12
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.63
+  server: 103.186.154.236
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1086
+  delay: 1643
   name: 10|越南 - Hải Dương - 13
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.193
+  server: 103.186.154.219
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1155
+  delay: 902
   name: 10|越南 - Hải Dương - 14
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.160
+  server: 103.186.155.103
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 729
+  delay: 2558
   name: 10|越南 - Hải Dương - 15
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.8
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 678
-  name: 10|越南 - Hải Dương - 16
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2855
-  name: 10|越南 - Hải Dương - 17
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 755
-  name: 10|越南 - Hải Dương - 18
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.83
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1677
-  name: 10|越南 - Hải Dương - 19
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.254
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1923
-  name: 10|越南 - Hải Dương - 2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.221
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 689
-  name: 10|越南 - Hải Dương - 20
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1720
-  name: 10|越南 - Hải Dương - 21
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.204
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 717
-  name: 10|越南 - Hải Dương - 22
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 672
-  name: 10|越南 - Hải Dương - 23
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.131
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 679
-  name: 10|越南 - Hải Dương - 24
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.218
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 789
-  name: 10|越南 - Hải Dương - 25
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.79
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 648
-  name: 10|越南 - Hải Dương - 26
+  delay: 664
+  name: 10|越南 - Hải Dương - 16
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.24
+  server: 103.186.154.28
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 631
-  name: 10|越南 - Hải Dương - 27
+  delay: 1160
+  name: 10|越南 - Hải Dương - 17
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.53
+  server: 103.186.155.202
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 716
-  name: 10|越南 - Hải Dương - 28
+  delay: 1266
+  name: 10|越南 - Hải Dương - 18
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.139
+  server: 103.186.155.135
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1653
-  name: 10|越南 - Hải Dương - 29
+  delay: 1256
+  name: 10|越南 - Hải Dương - 19
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.194
+  server: 103.186.155.32
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1921
-  name: 10|越南 - Hải Dương - 3
+  delay: 754
+  name: 10|越南 - Hải Dương - 2
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.69
+  server: 103.186.154.56
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 613
-  name: 10|越南 - Hải Dương - 30
+  delay: 1232
+  name: 10|越南 - Hải Dương - 20
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.58
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1244
+  name: 10|越南 - Hải Dương - 21
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.222
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 662
-  name: 10|越南 - Hải Dương - 31
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.45
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1642
-  name: 10|越南 - Hải Dương - 32
+  delay: 2476
+  name: 10|越南 - Hải Dương - 22
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.62
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 715
-  name: 10|越南 - Hải Dương - 33
+  delay: 886
+  name: 10|越南 - Hải Dương - 23
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.220
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 699
+  name: 10|越南 - Hải Dương - 24
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.50
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 666
-  name: 10|越南 - Hải Dương - 34
+  delay: 826
+  name: 10|越南 - Hải Dương - 25
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.224
+  server: 103.186.155.209
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 682
-  name: 10|越南 - Hải Dương - 35
+  delay: 783
+  name: 10|越南 - Hải Dương - 26
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.115
+  server: 103.186.155.45
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 671
-  name: 10|越南 - Hải Dương - 36
+  delay: 751
+  name: 10|越南 - Hải Dương - 27
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.203
+  server: 103.186.155.213
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 670
-  name: 10|越南 - Hải Dương - 37
+  delay: 867
+  name: 10|越南 - Hải Dương - 28
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.56
+  server: 103.186.155.104
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 687
-  name: 10|越南 - Hải Dương - 38
+  delay: 1355
+  name: 10|越南 - Hải Dương - 29
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.240
+  server: 103.186.154.172
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1639
-  name: 10|越南 - Hải Dương - 39
+  delay: 753
+  name: 10|越南 - Hải Dương - 3
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.59
+  server: 103.186.154.208
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1953
+  delay: 1353
+  name: 10|越南 - Hải Dương - 30
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.210
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 808
   name: 10|越南 - Hải Dương - 4
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.199
+  server: 103.186.154.139
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 698
-  name: 10|越南 - Hải Dương - 40
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.39
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 628
-  name: 10|越南 - Hải Dương - 41
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 681
-  name: 10|越南 - Hải Dương - 42
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.205
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 2388
-  name: 10|越南 - Hải Dương - 43
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.237
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 917
-  name: 10|越南 - Hải Dương - 44
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 637
-  name: 10|越南 - Hải Dương - 45
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.50
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 643
-  name: 10|越南 - Hải Dương - 46
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.238
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 694
-  name: 10|越南 - Hải Dương - 47
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.162
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  delay: 1938
+  delay: 800
   name: 10|越南 - Hải Dương - 5
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.207
+  server: 103.186.154.200
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1928
+  delay: 1820
   name: 10|越南 - Hải Dương - 6
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.57
+  server: 103.186.155.47
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 691
+  delay: 720
   name: 10|越南 - Hải Dương - 7
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.110
+  server: 103.186.154.63
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 631
+  delay: 747
   name: 10|越南 - Hải Dương - 8
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.117
+  server: 103.186.155.3
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 713
+  delay: 1700
   name: 10|越南 - Hải Dương - 9
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.31
+  server: 103.186.154.206
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   country: 🏁 ZZ
-  delay: 2747
-  http-opts: {}
-  name: 10|中国 - 香港 - 1
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- cipher: aes-256-cfb
-  delay: 2393
-  name: 10|中国 - 香港 - 2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 203.23.128.33
+  delay: 1906
+  name: 10|中国 - 台湾 - 1
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 362
+  name: 10|中国 - 台湾 - 2
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 923
+  name: 10|中国 - 台湾 - 3
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇳CN
-  delay: 162
-  name: 10|中国 - 香港 - 3
-  password: feng3d@ss2025
-  port: 8388
-  server: li.feng3d.com
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 796
-  http-opts: {}
+- delay: 817
   name: 10|中国 - 香港 - 4
-  network: tcp
-  port: 30813
-  server: v13.zgtfqs.click
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.76.218.163
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2047
+  name: 10|中国 - 香港 - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.136.14.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 380
+  name: 10|中国 - 香港 - 6
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 884
+  name: 10|中国 - 香港 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.150
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -792,7 +1172,7 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 53018
-  server: 54.238.212.30
+  server: 35.74.68.72
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -800,55 +1180,55 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 5823
-  server: 18.183.247.220
+  server: 18.181.229.56
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 18.183.7.25
+  port: 6463
+  server: 16.162.220.210
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 16.162.100.5
+  port: 24184
+  server: 18.180.158.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 8066
-  server: 3.112.61.186
+  port: 24184
+  server: 18.166.75.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 2511
-  server: 54.238.212.30
+  port: 667
+  server: 18.180.158.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 1180
-  server: 16.163.139.177
+  port: 3842
+  server: 35.74.68.72
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 5159
-  server: 18.163.28.128
+  port: 4203
+  server: 18.183.190.191
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -856,7 +1236,7 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
-  server: 54.238.212.30
+  server: 18.166.75.171
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -871,8 +1251,8 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 35.76.116.18
+  port: 23255
+  server: 35.78.209.219
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -915,3 +1295,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 14|US_speednode_0066
+  network: ws
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: TEst-63W.PaGEs.deV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: TEst-63W.PaGEs.deV
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
