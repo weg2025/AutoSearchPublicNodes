@@ -1,6 +1,6 @@
 proxies:
-- delay: 441
-  name: 10|日本 - 成田市 - 1
+- delay: 2428
+  name: 10|日本 - 成田市 - 4
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 11307
@@ -13,27 +13,117 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- delay: 1550
+  name: 10|日本 - 成田市 - 7
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16957
+  server: 150.230.214.172
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2171
+  name: 10|日本 - 成田市 - 8
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 161.248.254.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 797
+  http-opts: {}
+  name: 10|日本 - 大阪市 - 2
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- cipher: aes-256-gcm
+  delay: 196
+  name: 10|日本 - 东京 - 1
+  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
+  port: 40003
+  server: 47.79.144.115
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1420
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - Chiyoda City - 3
+  network: tcp
+  port: 51556
+  server: 103.181.164.145
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- delay: 1121
+  name: 10|日本 - Ōkubo-naka - 5
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 2431
+  name: 10|日本 - Ōkubo-naka - 6
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6463
-  server: 16.162.220.210
+  port: 443
+  server: 116.80.61.236
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 24184
-  server: 18.180.158.187
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 3135
+  server: 43.199.35.161
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 7ebc402f3383366fe4f554abd8625439
-  port: 24184
-  server: 18.166.75.171
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 11541
+  server: 43.206.134.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan

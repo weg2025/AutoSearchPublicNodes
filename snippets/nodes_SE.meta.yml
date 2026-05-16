@@ -1,10 +1,10 @@
 proxies:
-- delay: 2243
+- delay: 1158
   name: 10|瑞典 - Steninge - 1
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.81.113.186
+  port: 8443
+  server: 95.85.245.152
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -13,17 +13,31 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 14|SE_speednode_0046
+- delay: 1811
+  name: 10|瑞典 - Steninge - 2
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 206.168.212.162
-  servername: sni.111000.dns.army
+  server: 185.130.46.81
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.dns.army
-    path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 1301
+  name: 10|瑞典 - Steninge - 3
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 217.145.79.218
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
