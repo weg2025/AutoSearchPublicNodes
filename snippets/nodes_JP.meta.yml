@@ -1,19 +1,5 @@
 proxies:
-- delay: 960
-  name: 10|日本 - 成田市 - 1
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 650
+- delay: 964
   name: 10|日本 - 成田市 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -27,12 +13,12 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1627
-  name: 10|日本 - 成田市 - 4
+- delay: 1379
+  name: 10|日本 - 成田市 - 3
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 176.97.70.51
+  port: 443
+  server: 45.32.51.200
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -41,41 +27,32 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1057
-  name: 10|日本 - Ōkubo-naka - 3
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 64.176.38.23
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1998
+  http-opts: {}
+  name: 10|日本 - 大阪市 - 1
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6463
-  server: 16.162.188.88
+  port: 4099
+  server: 43.198.79.5
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 12,13|日本2|@ripaojiedian
-  network: tcp
-  password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 3135
-  server: 3.112.129.188
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 3135
-  server: 54.238.114.193
+  port: 11541
+  server: 54.46.53.87
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
