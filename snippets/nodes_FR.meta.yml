@@ -1,33 +1,55 @@
 proxies:
-- country: 🇺🇸US
-  delay: 1363
-  name: 10|法国 - 巴黎 - 2
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.44.62.234
+- country: 🇫🇷FR
+  delay: 1433
+  name: 10|法国 - 巴黎 - 1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.166.105
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 751
+- country: 🇫🇷FR
+  delay: 772
+  name: 10|法国 - 巴黎 - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.237.38.184
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 763
   name: 10|法国 - 巴黎 - 3
   password: telegram-id-privatevpns
   port: 22222
-  server: 15.224.82.53
+  server: 15.237.38.184
   skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1524
-  http-opts: {}
-  name: 10|法国 - 斯特拉斯堡 - 1
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
+- country: 🇫🇷FR
+  delay: 752
+  name: 10|法国 - 巴黎 - 4
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.166.105
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|FR_speednode_0004
+  port: 20567
+  reality-opts:
+    public-key: 1WOtQYIQ-3sJtbrhSA1LW6gAnO-wG0Z5aCnlL_zoiXQ
+    short-id: b82d7208fe23
+  server: fr.gryaz-vpn.com
+  servername: cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
