@@ -1,14 +1,9 @@
 proxies:
-- country: 🇺🇸US
-  delay: 2384
-  name: 10|英国 - 霍本 - 1
-  password: mJVGfrOkZGnMywJD2uwmuXgOQ
-  port: 443
-  server: hl-freedom-2.undef.network
-  sni: HL-FREEDOM-2.UNDEF.NETWORK
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hl-freedom-2.undef.network
-    path: /f2fc2a1f
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 893
+  name: 10|英国 - 伦敦 - 1
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
+  type: ss
