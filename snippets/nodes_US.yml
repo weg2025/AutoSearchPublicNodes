@@ -1,35 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  delay: 420
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 1
-  network: tcp
-  port: 180
-  server: 82.198.246.214
+- delay: 1463
+  name: 9|美国 - 拉斯维加斯 - 9
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 20770
+  server: 219.103.68.164
   skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  delay: 1076
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn1.rnmcnm.com
+    path: /trj-ws
 - alterId: 0
   cipher: auto
   country: 🇬🇧 GB
-  delay: 436
+  delay: 434
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
+  name: 9|美国 - 洛杉矶 - 1
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -38,8 +27,8 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  delay: 418
-  name: 10|美国 - 洛杉矶 - 4
+  delay: 406
+  name: 9|美国 - 洛杉矶 - 10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -49,50 +38,44 @@ proxies:
   server: 88.210.36.106
   type: ss
   udp: true
-- delay: 1731
-  name: 10|美国 - 紐約 - 6
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.150.65.54
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 1194
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.9
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 1394
-  name: 10|美国 - 聖荷西 - 10
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 165.227.26.242
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 434
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 3
+  network: tcp
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  delay: 2287
+  name: 9,11|🇺🇸 美国5|@ripaojiedian
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 2214
-  name: 10|美国 - 聖荷西 - 11
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 165.232.54.102
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 1436
-  name: 10|美国 - 聖荷西 - 12
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- delay: 1356
+  name: 9|美国 - 聖荷西 - 11
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -105,22 +88,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 2389
-  name: 10|美国 - 聖荷西 - 13
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 138.197.194.78
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 2438
-  name: 10|美国 - 聖荷西 - 14
+- delay: 770
+  name: 9|美国 - 聖荷西 - 12
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -133,8 +102,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1394
-  name: 10|美国 - 聖荷西 - 15
+- delay: 786
+  name: 9|美国 - 聖荷西 - 13
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -147,8 +116,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1709
-  name: 10|美国 - 聖荷西 - 16
+- delay: 2101
+  name: 9|美国 - 聖荷西 - 14
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -161,8 +130,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1393
-  name: 10|美国 - 聖荷西 - 17
+- delay: 829
+  name: 9|美国 - 聖荷西 - 15
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -175,8 +144,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1921
-  name: 10|美国 - 聖荷西 - 18
+- delay: 801
+  name: 9|美国 - 聖荷西 - 16
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -189,8 +158,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1394
-  name: 10|美国 - 聖荷西 - 19
+- delay: 1604
+  name: 9|美国 - 聖荷西 - 17
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -203,8 +172,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: '/tr | 免费机场TG@proxyshareCN | '
-- delay: 1394
-  name: 10|美国 - 聖荷西 - 20
+- delay: 1018
+  name: 9|美国 - 聖荷西 - 18
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -217,8 +186,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 2685
-  name: 10|美国 - 聖荷西 - 21
+- delay: 783
+  name: 9|美国 - 聖荷西 - 19
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -231,22 +200,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 2256
-  name: 10|美国 - 聖荷西 - 22
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.207.198.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 1393
-  name: 10|美国 - 聖荷西 - 23
+- delay: 1515
+  name: 9|美国 - 聖荷西 - 20
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -259,22 +214,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1393
-  name: 10|美国 - 聖荷西 - 24
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 166.62.105.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 1435
-  name: 10|美国 - 聖荷西 - 25
+- delay: 1530
+  name: 9|美国 - 聖荷西 - 21
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -287,8 +228,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 1474
-  name: 10|美国 - 聖荷西 - 26
+- delay: 2401
+  name: 9|美国 - 聖荷西 - 22
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -301,85 +242,50 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- delay: 2819
-  name: 10|美国 - 聖荷西 - 7
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 157.245.182.9
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- delay: 1459
-  name: 10|美国 - 聖荷西 - 8
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 157.230.140.153
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 1722
-  name: 10|美国 - 聖荷西 - 9
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+- alterId: 2
+  cipher: auto
+  delay: 2007
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 水牛城 - 6
+  network: tcp
+  port: 30824
+  server: 103.182.97.245
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  delay: 528
+  name: 9|美国 - Ashburn - 5
+  password: amazonskr05
   port: 443
-  server: 138.197.194.78
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  server: 35.175.185.227
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 2848
-  name: 10|美国 - Flower Mound - 27
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 107.172.201.15
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- delay: 2435
-  name: 10|美国 - Reston - 5
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 615
+  name: 9|美国 - Ashburn - 7
+  password: amazonskr05
   port: 443
-  server: 150.136.254.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 12,13|美国|@ripaojiedian
+  server: 54.234.5.174
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 803
+  name: 9|美国 - Ashburn - 8
+  password: amazonskr05
+  port: 443
+  server: 100.26.47.172
+  type: ss
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
-  port: 6604
-  server: 18.183.147.31
+  port: 5224
+  server: 18.181.205.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 2663
@@ -387,17 +293,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 8359
-  server: 54.249.46.16
+  server: 13.114.188.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -406,16 +312,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 12|美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -425,7 +322,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 13|美国5|@ripaojiedian
+  name: 12|美国5|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.233
