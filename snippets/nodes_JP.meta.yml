@@ -1,24 +1,37 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 206
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 10|日本 - 東京都 - 1
-  network: http
-  port: 53229
-  server: 103.127.243.54
-  type: vmess
+- delay: 2449
+  name: 10|日本 - 成田市 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 103.125.216.22
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- delay: 1803
+  name: 10|日本 - 成田市 - 2
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 161.248.254.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2140
-  server: 13.158.82.174
+  port: 4633
+  server: 54.248.176.41
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -26,7 +39,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
-  server: 18.183.203.240
+  server: 95.40.49.62
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -34,7 +47,49 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 52.195.217.94
+  server: 3.112.12.209
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0013
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: j0uhwj.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: tu2aq8.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0015
+  port: 443
+  reality-opts:
+    public-key: CNUdP4EqYrvDYcw3E3EHCm1flSgKAUaO22XE5F2HAjI
+    short-id: 0eb5fb6958f835da
+  server: rt643a.jpvless.yydzx.xyz
+  servername: www.bandainamcoent.co.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280

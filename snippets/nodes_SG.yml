@@ -1,6 +1,20 @@
 proxies:
-- delay: 1974
+- delay: 385
   name: 10|新加坡 - 新加坡 - 1
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 18.143.76.130
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- delay: 946
+  name: 10|新加坡 - 新加坡 - 2
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 14706
@@ -16,8 +30,8 @@ proxies:
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 1180
-  server: 13.113.236.116
+  port: 3842
+  server: 95.40.28.136
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -25,15 +39,15 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2511
-  server: 18.181.205.14
+  server: 13.115.88.193
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10478
-  server: 13.158.82.174
+  port: 443
+  server: 140.235.140.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
