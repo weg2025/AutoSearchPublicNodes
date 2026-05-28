@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 869
+  name: 9|英国 - 伦敦 - 2
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
+  type: ss
+- country: 🇬🇧GB
+  delay: 2738
+  name: 9|英国 - 倫敦金融城 - 1
+  password: ASoZeIVwzX4w4wxwig
+  port: 443
+  server: uk-1.tr202605.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true

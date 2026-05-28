@@ -1,29 +1,25 @@
 proxies:
-- delay: 1544
-  name: 10|加拿大 - 列治文 - 1
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 23.173.104.205
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+- cipher: aes-256-cfb
+  delay: 557
+  name: 9|加拿大 - 多伦多 - 1
+  password: amazonskr05
+  port: 443
+  server: 15.222.60.36
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- delay: 2045
-  name: 10|加拿大 - 列治文 - 2
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 23.173.104.238
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+- cipher: aes-256-cfb
+  delay: 1297
+  name: 9|加拿大 - 多伦多 - 2
+  password: amazonskr05
+  port: 443
+  server: 35.183.129.131
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-256-cfb
+  delay: 546
+  name: 9|加拿大 - 多伦多 - 3
+  password: amazonskr05
+  port: 443
+  server: 15.157.68.13
+  type: ss
+  udp: true
