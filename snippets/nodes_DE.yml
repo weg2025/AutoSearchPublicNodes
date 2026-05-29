@@ -1,53 +1,49 @@
 proxies:
-- country: 🇺🇸US
-  delay: 851
-  name: 9|德国 - Frankfurt am Main - 2
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.182.182.4
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 851
-  name: 9|德国 - Frankfurt Am Main - 3
-  password: ASoZeIVwzX4w4wxwig
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  delay: 2268
+  name: 10|德国 - 纽伦堡 - 3
+  password: veGSVG75_0tsHxxicKRnbf87JGcYNaeW
+  port: 20900
+  server: vip.tekcloud.site
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  delay: 2658
+  name: 10|德国 - 纽伦堡 - 4
+  password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
   port: 443
-  server: 193.8.169.74
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 850
-  name: 9|德国 - Frankfurt am Main - 4
-  password: telegram-id-directvpn
-  port: 22223
-  server: 63.182.182.4
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 851
-  name: 9|德国 - Frankfurt Am Main - 5
-  password: ASoZeIVwzX4w4wxwig
+  server: vip9.myspacex.shop
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  delay: 2258
+  name: 10|德国 - 纽伦堡 - 5
+  password: Ufawbp6zK1Td03IUL9cav7_r6Bbu2FoU
+  port: 20900
+  server: vip.tekcloud.site
+  type: ss
+- cipher: aes-256-cfb
+  delay: 1178
+  name: 10|德国 - Frankfurt am Main - 1
+  password: amazonskr05
   port: 443
-  server: de-3.tr202605.com
-  skip-cert-verify: true
-  type: trojan
+  server: 18.195.213.130
+  type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇷IR
+  delay: 1540
+  name: 10|德国 - Frankfurt Am Main - 2
+  password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
+  port: 80
+  server: vip9.myspacex.shop
+  type: ss
+- cipher: aes-256-cfb
   country: 🇺🇸US
-  delay: 2139
-  h2-opts: {}
-  http-opts: {}
-  name: 9|印度 - 新德里 - 1
-  network: tcp
-  port: 2053
-  server: in.connfull.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f074d083-cb28-45c2-8a3c-e5ebbc041b5c
+  delay: 465
+  name: 10|德国 - Frankfurt am Main - 6
+  password: amazonskr05
+  port: 443
+  server: 63.180.239.185
+  type: ss
