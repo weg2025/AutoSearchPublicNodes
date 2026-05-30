@@ -1,6 +1,89 @@
 proxies:
-- delay: 1993
-  name: 10,14|US_speednode_0045
+- alterId: 0
+  cipher: auto
+  delay: 434
+  name: 9|美国 - 洛杉矶 - 2
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  delay: 887
+  name: 9|美国 - 水牛城 - 1
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 11,12|美国|@ripaojiedian
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 2663
+  server: 18.163.128.27
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|美国2|@ripaojiedian
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 6604
+  server: 54.238.76.39
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 17801
+  server: 43.199.229.84
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 11|🇺🇸 美国5|@ripaojiedian
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 12|美国5|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 13|US_speednode_0045
   network: ws
   password: mitivpn
   port: 443
@@ -13,22 +96,7 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: /?ed=2048
-- delay: 2070
-  name: 10,14|SC_speednode_0040
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- delay: 781
-  name: 10,14|US_speednode_0046
+- name: 13|US_speednode_0046
   network: ws
   password: mitivpn
   port: 443
@@ -41,69 +109,7 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: /?ed=2048
-- name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 95.40.114.115
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 52.69.114.14
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 12,13|美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2702
-  server: 43.206.155.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 13|美国5|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|US_speednode_0048
+- name: 13|US_speednode_0048
   network: ws
   password: mitivpn
   port: 443
@@ -116,7 +122,7 @@ proxies:
     headers:
       Host: www.app-cloud.ir
     path: /
-- name: 14|US_speednode_0049
+- name: 13|US_speednode_0049
   network: ws
   password: mitivpn
   port: 443

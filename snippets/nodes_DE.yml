@@ -1,49 +1,75 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  delay: 2268
-  name: 10|德国 - 纽伦堡 - 3
-  password: veGSVG75_0tsHxxicKRnbf87JGcYNaeW
-  port: 20900
-  server: vip.tekcloud.site
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  delay: 2658
-  name: 10|德国 - 纽伦堡 - 4
-  password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
+- delay: 1060
+  name: 9|德国 - Frankfurt - 2
+  password: M7v%w11Se*
   port: 443
-  server: vip9.myspacex.shop
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  delay: 2258
-  name: 10|德国 - 纽伦堡 - 5
-  password: Ufawbp6zK1Td03IUL9cav7_r6Bbu2FoU
-  port: 20900
-  server: vip.tekcloud.site
-  type: ss
-- cipher: aes-256-cfb
-  delay: 1178
-  name: 10|德国 - Frankfurt am Main - 1
-  password: amazonskr05
-  port: 443
-  server: 18.195.213.130
-  type: ss
+  server: dggg.wsone.icu
+  skip-cert-verify: true
+  sni: dggg.wsone.icu
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇮🇷IR
-  delay: 1540
-  name: 10|德国 - Frankfurt Am Main - 2
-  password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 835
+  h2-opts: {}
+  http-opts: {}
+  name: 9|德国 - Frankfurt Am Main - 1
+  network: ws
   port: 80
-  server: vip9.myspacex.shop
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 465
-  name: 10|德国 - Frankfurt am Main - 6
-  password: amazonskr05
+  server: speedtest.org
+  servername: de2.ping-game.ir
+  skip-cert-verify: true
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      HOST: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- country: 🇺🇸US
+  delay: 1440
+  name: 9|德国 - Frankfurt am Main - 3
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.185.71.248
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 748
+  name: 9|德国 - Frankfurt am Main - 4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.185.3.163
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1038
+  name: 9|德国 - Frankfurt am Main - 5
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.185.3.163
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 745
+  name: 9|德国 - Frankfurt am Main - 6
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.185.71.248
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 2081
+  name: 9|印度 - 德里 - 1
+  password: M7v%w11Se*
   port: 443
-  server: 63.180.239.185
-  type: ss
+  server: 34.131.228.210
+  sni: hyfuuf6.wsone.icu
+  type: trojan
