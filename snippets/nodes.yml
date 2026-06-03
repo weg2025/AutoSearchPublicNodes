@@ -1,305 +1,293 @@
 proxies:
-- country: 🇭🇰HK
-  delay: 757
-  name: 10|澳大利亚 - 悉尼 - 1
-  password: owreRY1bmquS1WcYN2
-  port: 443
-  server: au-3.tr202605.com
+- delay: 1035
+  name: 10|冰岛 - 雷克亞維克 - 1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 155.117.198.87
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
   type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇺🇸 US
-  delay: 1009
-  http-opts: {}
+- delay: 1047
+  name: 10|德国 - 法兰克福 - 1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.86
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- delay: 1049
   name: 10|德国 - 法兰克福 - 2
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- delay: 1060
+  name: 10|德国 - 法兰克福 - 3
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.82
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1566
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - 6
+  network: ws
+  port: 10000
+  server: 51.195.91.135
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
+  uuid: 533ae32c-5dda-11f1-a6eb-23a176880b5a
+  ws-opts:
+    path: /vpnjantit
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 490
+  name: 10|德国 - 陶努斯山麓巴德索登 - 4
+  password: DQHK4mtugy7xMNChJjB9Jm
+  port: 443
+  server: 185.129.84.12
+  type: ss
 - country: 🇩🇪DE
-  delay: 1130
-  name: 10|德国 - Frankfurt am Main - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.57.7.168
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 712
-  name: 10|法国 - 巴黎 - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.205.209
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇫🇷FR
-  delay: 1685
-  name: 10|法国 - 巴黎 - 2
+  delay: 746
+  name: 10|德国 - Frankfurt am Main - 5
   password: telegram-id-directvpn
   port: 22223
-  server: 52.47.172.108
+  server: 3.66.185.190
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1337
+  name: 10|法国 - 巴黎 - 1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- delay: 1002
+  name: 10|法国 - 巴黎 - 2
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.86
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  delay: 1055
+  name: 10|法国 - 巴黎 - 3
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- delay: 1013
+  name: 10|法国 - 巴黎 - 4
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.87
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 805
+  name: 10|法国 - 巴黎 - 5
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.237.22.206
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 2845
+  name: 10|法国 - 巴黎 - 6
+  password: RjG_Pd534ZVJRMdODjCNMA
+  port: 1080
+  server: 45.92.218.56
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 2317
+  name: 10|芬兰 - 赫尔辛基 - 1
+  password: NMao3laQtxBnEgzbuJ0khb
+  port: 51544
+  server: 109.107.182.229
+  type: ss
 - country: 🏁ZZ
-  delay: 707
-  name: 10|列支敦士登 - 瓦都茲 - 1
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 45.15.167.20
+  delay: 1338
+  name: 10|加纳 - 阿克拉 - 1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  delay: 413
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 1
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+- delay: 1036
+  name: 10|加纳 - 阿克拉 - 2
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.87
   skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  delay: 1033
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
-  network: ws
-  port: 443
-  server: cg1c06.waimaojd.com
-  servername: cg1c06.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c06.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 1000
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
-  network: ws
-  port: 443
-  server: cg1c03.waimaojd.com
-  servername: cg1c03.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c03.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 1028
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 4
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- alpn:
+  - http/1.1
+  delay: 1079
+  name: 10|加纳 - 阿克拉 - 3
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- delay: 1022
+  name: 10|加纳 - 阿克拉 - 4
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.86
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- delay: 1042
+  name: 10|加纳 - 阿克拉 - 5
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.82
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
-  delay: 1801
+  delay: 1012
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 5
+  name: 10|美国 - 達拉斯 - 4
   network: ws
   port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
+  server: 107.175.91.118
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
   ws-opts:
-    headers:
-      HOST: cg1c02.waimaojd.com
-    path: /api/v1/graphql
+    path: /v2ray-wisp
 - alterId: 0
   cipher: auto
-  delay: 2293
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 6
-  network: ws
-  port: 443
-  server: cg1c05.waimaojd.com
-  servername: cg1c05.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      Host: cg1c05.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  delay: 608
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 7
-  network: tcp
+  delay: 1038
+  name: 10|美国 - 洛杉矶 - 1
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.37
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
+- delay: 2016
+  name: 10,14|US_speednode_0050
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   delay: 513
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 8
-  port: 9027
+  name: 10|美国 - 洛杉矶 - 5
+  port: 9028
   server: select-us.ddnskunlun.com
   skip-cert-verify: true
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- country: 🇿🇦ZA
-  delay: 2097
-  name: 10|南非 - 约翰内斯堡 - 1
-  password: 3ac6a6ca99f74941b1eaf892818e2ddb
-  port: 443
-  server: 169.239.128.39
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 2285
-  http-opts: {}
-  name: 10|日本 - 大阪市 - 2
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- country: 🇺🇸US
-  delay: 960
-  name: 10|日本 - 东京 - 1
+- delay: 2456
+  name: 10,14|US_speednode_0054
   password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
+  port: 17801
+  server: 95.40.68.192
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  delay: 284
-  name: 10|中国 - 上海 - 5
+  country: 🇯🇵JP
+  delay: 623
+  name: 10|日本 - 东京 - 1
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19287
+  server: ss.021.node-for-bigairport.win
+  type: ss
+- delay: 1074
+  name: 10|瑞士 - 苏黎世 - 1
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- delay: 1011
+  name: 10|瑞士 - 苏黎世 - 2
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.87
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- country: 🇨🇿CZ
+  delay: 2854
+  name: 10|土耳其 - 伊斯坦布尔 - 1
+  password: tunnel-jdybi
+  port: 8441
+  server: tr-1.stunnel.cc
+  skip-cert-verify: true
+  sni: creativecommons.org
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  delay: 694
+  name: 10|西班牙 - 马德里 - 1
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-gcm
+  delay: 149
+  name: 10|中国 - 上海 - 2
   password: '123'
   port: 1001
   server: 61.171.92.202
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1483
-  name: 10|中国 - 台湾 - 4
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  delay: 1282
-  name: 10|中国 - 台湾 - 6
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  delay: 783
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 台湾 - 7
+- delay: 862
+  name: 10,12,13|香港5|@ripaojiedian
   network: tcp
-  port: 2512
-  server: world.t.51guangtaobao.com
+  password: BxceQaOe
+  port: 50712
+  server: 18.183.163.141
   skip-cert-verify: true
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 831
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 台湾 - 8
-  network: ws
-  port: 33404
-  server: yd3.ainivp.com
-  servername: yd3.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      HOST: yd3.ainivp.com
-    path: /ray
-- country: 🇬🇧GB
-  delay: 539
-  name: 10,14|GB_speednode_0018
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40015
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: 1.lossyesterday.xyz
-  type: trojan
-  udp: true
-- country: 🇬🇧GB
-  delay: 528
-  name: 10,14|GB_speednode_0019
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 52225
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: i.comfortableyou.top
-  type: trojan
-  udp: true
-- country: 🇬🇧GB
-  delay: 567
-  name: 10,14|GB_speednode_0020
-  password: da292191-b895-3264-b41c-200512b8f965
-  port: 40017
-  server: a.twodnwnpoe.xyz
-  skip-cert-verify: true
-  sni: water.waittomorrow.top
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -321,31 +309,23 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
-  server: 18.163.33.60
+  server: 18.181.199.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11541
-  server: 43.198.204.47
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 12,13|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 50712
-  server: 18.183.163.141
+  port: 11031
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.183.163.141
+  port: 30022
+  server: 43.207.209.201
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -368,8 +348,8 @@ proxies:
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 1180
-  server: 18.181.199.223
+  port: 2511
+  server: 18.162.232.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -377,7 +357,7 @@ proxies:
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 3842
-  server: 18.163.33.60
+  server: 18.181.199.223
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -385,23 +365,23 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 10478
-  server: 43.206.130.64
+  server: 43.199.217.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 18.163.33.60
+  port: 6604
+  server: 18.162.232.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
+  port: 2702
+  server: 95.40.68.150
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -434,19 +414,27 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|HK_speednode_0023
+- name: 14|JP_speednode_0022
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 1180
+  server: 18.181.199.223
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 14|JP_speednode_0023
   password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
+  port: 4099
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 14|US_speednode_0053
+- name: 14|US_speednode_0052
   password: BxceQaOe
   port: 2520
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: 95.40.4.37
   type: trojan
   udp: true

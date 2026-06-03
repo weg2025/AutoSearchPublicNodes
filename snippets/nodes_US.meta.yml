@@ -1,142 +1,74 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇬🇧 GB
-  delay: 413
+  country: 🇺🇸US
+  delay: 1012
+  h2-opts: {}
   http-opts: {}
+  name: 10|美国 - 達拉斯 - 4
+  network: ws
+  port: 443
+  server: 107.175.91.118
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
+  ws-opts:
+    path: /v2ray-wisp
+- alterId: 0
+  cipher: auto
+  delay: 1038
   name: 10|美国 - 洛杉矶 - 1
-  network: tcp
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  delay: 1033
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 2
-  network: ws
-  port: 443
-  server: cg1c06.waimaojd.com
-  servername: cg1c06.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c06.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 1000
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 3
-  network: ws
-  port: 443
-  server: cg1c03.waimaojd.com
-  servername: cg1c03.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c03.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 1028
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 4
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: a60f3900-bfc6-4e99-a221-239f9692d59e
-  ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1801
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 5
-  network: ws
-  port: 443
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
+- delay: 2016
+  name: 10,14|US_speednode_0050
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      HOST: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  delay: 2293
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 6
-  network: ws
-  port: 443
-  server: cg1c05.waimaojd.com
-  servername: cg1c05.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
-  ws-opts:
-    headers:
-      Host: cg1c05.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧 GB
-  delay: 608
-  http-opts: {}
-  name: 10|美国 - 洛杉矶 - 7
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   delay: 513
   h2-opts: {}
   http-opts: {}
-  name: 10|美国 - 洛杉矶 - 8
-  port: 9027
+  name: 10|美国 - 洛杉矶 - 5
+  port: 9028
   server: select-us.ddnskunlun.com
   skip-cert-verify: true
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- delay: 2456
+  name: 10,14|US_speednode_0054
+  password: BxceQaOe
+  port: 17801
+  server: 95.40.68.192
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 18.163.33.60
+  port: 6604
+  server: 18.162.232.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
+  port: 2702
+  server: 95.40.68.150
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -159,34 +91,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 14|US_speednode_0051
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|US_speednode_0049
   port: 443
-  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  reality-opts:
+    public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+    short-id: e6d59aff03e5b0
+  server: tw4.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 14|US_speednode_0052
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3443
-  server: 9bbaef12-ta0g00-taad0h-24c4.tkydc3.cdnbytescm.com
-  tls: true
-  type: http
-  udp: true
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: 14|US_speednode_0053
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
+  uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: 14|US_speednode_0054
+  name: 14|US_speednode_0051
   network: ws
   port: 443
   server: kobe.ns.cloudflare.com
@@ -200,3 +122,28 @@ proxies:
     headers:
       Host: 35cdnws.frnstatic.info
     path: /35cdnws
+- name: 14|US_speednode_0052
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: 95.40.4.37
+  type: trojan
+  udp: true
+- name: 14|US_speednode_0055
+  network: ws
+  port: 443
+  server: 172.67.195.79
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true

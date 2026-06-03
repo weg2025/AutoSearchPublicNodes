@@ -1,32 +1,17 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  delay: 2285
-  http-opts: {}
-  name: 10|日本 - 大阪市 - 2
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- country: 🇺🇸US
-  delay: 960
+- cipher: aes-256-gcm
+  country: 🇯🇵JP
+  delay: 623
   name: 10|日本 - 东京 - 1
-  password: BxceQaOe
-  port: 47655
-  server: 43.199.61.178
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19287
+  server: ss.021.node-for-bigairport.win
+  type: ss
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.183.163.141
+  port: 30022
+  server: 43.207.209.201
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -46,3 +31,33 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 14|JP_speednode_0022
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 1180
+  server: 18.181.199.223
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 14|JP_speednode_0023
+  password: BxceQaOe
+  port: 4099
+  server: 18.183.163.141
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0024
+  port: 443
+  reality-opts:
+    public-key: 3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI
+    short-id: 226509f017e4c36d
+  server: vnldc.mostserv.xyz
+  servername: vnldc.mostserv.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7

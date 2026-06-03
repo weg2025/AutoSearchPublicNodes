@@ -9,12 +9,58 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 1130
-  name: 10|德国 - Frankfurt am Main - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.57.7.168
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  delay: 1566
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - 6
+  network: ws
+  port: 10000
+  server: 51.195.91.135
   skip-cert-verify: true
+  type: vmess
+  uuid: 533ae32c-5dda-11f1-a6eb-23a176880b5a
+  ws-opts:
+    path: /vpnjantit
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 490
+  name: 10|德国 - 陶努斯山麓巴德索登 - 4
+  password: DQHK4mtugy7xMNChJjB9Jm
+  port: 443
+  server: 185.129.84.12
+  type: ss
+- country: 🇩🇪DE
+  delay: 746
+  name: 10|德国 - Frankfurt am Main - 5
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.66.185.190
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸ES
+  delay: 694
+  name: 10|西班牙 - 马德里 - 1
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 5.188.181.201
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|DE_speednode_0006
+  port: 55152
+  reality-opts:
+    public-key: fX2XkujtqhnkQDy-Lwgqm_OofDs1qO5ytvVNM6aV4C4
+    short-id: ddcac8ed
+  server: 193.23.222.99
+  servername: cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 827466ba-0910-4c48-b156-2f37fdbda362
