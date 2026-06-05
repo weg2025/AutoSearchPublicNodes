@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  delay: 578
+  name: 10|德国 - Frankfurt am Main - 1
+  password: amazonskr05
+  port: 443
+  server: 18.159.210.129
+  type: ss
+- cipher: aes-256-cfb
+  delay: 468
+  name: 10|德国 - Frankfurt am Main - 2
+  password: amazonskr05
+  port: 443
+  server: 3.79.104.163
+  type: ss
+- country: 🇺🇸US
+  delay: 962
+  name: 10|德国 - Frankfurt am Main - 3
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.176.37.226
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 14|DE_speednode_0011
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true

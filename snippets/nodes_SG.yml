@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 621
+  name: 10|新加坡 - 新加坡 - 1
+  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  port: 54612
+  server: bgroup.node3.s2.nodelist-airport.com
+  type: ss
+- name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 48402
+  server: 16.162.93.34
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 42710
+  server: 54.46.44.219
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
