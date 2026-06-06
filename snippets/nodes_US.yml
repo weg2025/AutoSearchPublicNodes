@@ -1,52 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  delay: 2448
-  name: 10|美国 - 洛杉矶 - 1
-  port: 180
-  server: 82.198.246.37
+- name: 12,13|美国|@ripaojiedian
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 6604
+  server: 95.40.35.52
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 1502
-  name: 10|美国 - Secaucus - 2
-  password: lioxj6qx5wj7hz4m9pom
-  port: 10875
-  server: 174.138.187.118
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸 US
-  delay: 1544
-  name: 10|美国 - Secaucus - 3
-  password: t6d26id0pjzdo3x5wtlf
-  port: 10878
-  server: 69.164.240.83
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 533
-  name: 10|美国 - Secaucus - 4
-  password: 3px0wmx0e81145g568ga
-  port: 10880
-  server: 69.164.240.86
-  type: ss
+  sni: www.nintendogames.net
+  type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 5224
-  server: 16.162.93.34
+  port: 17005
+  server: 18.167.42.231
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2520
-  server: 95.40.84.43
+  port: 44265
+  server: 95.40.40.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

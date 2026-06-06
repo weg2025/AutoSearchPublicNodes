@@ -9,15 +9,17 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪49583 | ⚡️Telegram = t.me/SO...
-  password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  port: 11000
-  server: 185.227.108.195
+- name: 9|internet_azad_2026🇩🇪
+  obfs: salamander
+  obfs-password: Masir_Sefid
+  password: Masir_Sefid
+  port: 4040
+  server: 18.157.222.169
   skip-cert-verify: false
-  sni: de-node.farnet.top
+  sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|@tootffarangi
+- name: '9|@internet_azad_2026🇩🇪 #4'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
@@ -27,26 +29,37 @@ proxies:
   sni: content.masir-sefid.shop
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  delay: 578
-  name: 10|德国 - Frankfurt am Main - 1
-  password: amazonskr05
-  port: 443
-  server: 18.159.210.129
-  type: ss
-- cipher: aes-256-cfb
-  delay: 468
-  name: 10|德国 - Frankfurt am Main - 2
-  password: amazonskr05
-  port: 443
-  server: 3.79.104.163
-  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 794
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 兰河畔林堡 - 1
+  network: ws
+  port: 80
+  server: de5.niekotin.de
+  type: vmess
+  uuid: 85bf5801-4658-441c-a2e5-842c6c71a521
+  ws-opts:
+    headers:
+      Host: de5.niekotin.de
+    path: /vmess
 - country: 🇺🇸US
-  delay: 962
+  delay: 684
   name: 10|德国 - Frankfurt am Main - 3
   password: telegram-id-directvpn
   port: 22223
-  server: 63.176.37.226
+  server: 63.185.124.176
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1362
+  name: 10|德国 - Frankfurt am Main - 4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.185.124.176
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
