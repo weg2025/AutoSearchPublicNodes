@@ -1,4 +1,12 @@
 proxies:
+- name: 8|SG
+  password: e7965e64-e001-4e8c-8273-39c61ff4a094
+  port: 30000
+  server: sg3.oomz.ru
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   delay: 957
   name: 10|新加坡 - 新加坡 - 1
@@ -6,27 +14,19 @@ proxies:
   port: 19001
   server: ss.050.node-for-bigairport.win
   type: ss
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 12143
-  server: 95.40.35.52
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
-  server: 18.167.42.231
+  server: 18.167.51.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.163.138.24
+  port: 28111
+  server: 95.40.47.145
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
