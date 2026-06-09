@@ -1,30 +1,34 @@
 proxies:
-- country: 🇺🇸US
-  delay: 1808
+- country: 🇫🇷FR
+  delay: 731
   name: 10|法国 - 巴黎 - 1
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.236.237.21
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 1047
+- country: 🇫🇷FR
+  delay: 726
   name: 10|法国 - 巴黎 - 2
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.237.21
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- delay: 1012
-  name: 10|法国 - 巴黎 - 3
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.86
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 1153
+  http-opts: {}
+  name: 10|法国 - 斯特拉斯堡 - 3
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /

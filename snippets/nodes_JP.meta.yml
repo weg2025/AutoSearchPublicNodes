@@ -6,27 +6,54 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 869
+  http-opts: {}
+  name: 10|日本 - 大阪市 - 1
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16712
-  server: 35.77.201.105
+  port: 6737
+  server: 54.178.8.69
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 5701
-  server: 16.163.146.65
+  port: 3743
+  server: 43.199.189.110
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 55973
-  server: 43.199.144.41
+  port: 3743
+  server: 43.198.108.17
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|JP_speednode_0013
+  port: 39611
+  reality-opts:
+    public-key: bffq0wpw2vUOczXypqTqoXzYEzwXAZQzhOut1fvFyWQ
+    short-id: d7627055cafc62
+  server: 18.183.94.154
+  servername: www.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f032fd94-715d-4d37-835f-13959a63df14
