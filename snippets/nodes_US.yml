@@ -1,36 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2223
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 圣路易斯 - 2
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1476
-  name: 10|美国 - Sulphur Springs - 1
-  password: 097H_-eSMWbWFtuktVuT8wWjANSN9tmh
-  port: 1080
-  server: 198.71.54.21
+- cipher: aes-256-gcm
+  country: 🇷🇺RU
+  delay: 506
+  name: 10|美国 - 堪薩斯城 - 1
+  password: Rt2YkW
+  port: 1019
+  server: 95.182.86.97
   type: ss
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 48277
-  server: 18.162.244.255
+  port: 17005
+  server: 95.40.55.96
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -38,7 +19,7 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
-  server: 16.162.163.189
+  server: 16.163.144.103
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -46,7 +27,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 17801
-  server: 18.166.30.83
+  server: 43.198.12.196
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
