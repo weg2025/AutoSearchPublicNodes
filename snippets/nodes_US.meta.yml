@@ -8,18 +8,54 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 540
+  delay: 694
+  name: 10|美国 - 洛杉矶 - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2329
+  name: 10|美国 - 洛杉矶 - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 404
+  name: 10|美国 - 洛杉矶 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2456
   name: 10|美国 - 纽约 - 1
   password: eDfN7SODQceIOmIAbtJJtK
   port: 443
   server: 198.98.53.130
   type: ss
+  udp: true
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 18.162.187.25
+  server: 43.198.107.157
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -27,15 +63,15 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 18.183.118.126
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.166.228.198
+  port: 41889
+  server: 18.162.213.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

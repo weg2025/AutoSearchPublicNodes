@@ -63,6 +63,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 9|🇩🇪73619 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: hg26zdlxvw7bj6pd
+  password: 0djglvgv7lh45uz9
+  port: 32254
+  server: 91.107.137.0
+  skip-cert-verify: false
+  sni: saeed.saeedposivip.ir
+  tls: false
+  type: hysteria2
 - name: 9|  @vistav2ray  👈👈اا  ✅
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -163,7 +173,51 @@ proxies:
   sni: tunel1.washing.help
   tls: false
   type: hysteria2
-- delay: 761
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  fingerprint: chrome
+  name: '9|🇩🇪  𝗻  '
+  obfs: salamander
+  obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
+  password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
+  port: 30781
+  server: endpoint.neoservers.ir
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|MiX--@V2rayAlpha--20
+  obfs: salamander
+  obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
+  password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
+  port: 30781
+  server: endpoint.neoservers.ir
+  skip-cert-verify: false
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- country: 🇺🇸US
+  delay: 1800
+  name: 10|德国 - Frankfurt am Main - 1
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.186.46.224
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1704
+  name: 10|德国 - Frankfurt am Main - 2
+  password: telegram-id-directvpn
+  port: 22223
+  server: 63.186.46.224
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- delay: 744
   name: 10,14|KR_speednode_0003
   port: 1090
   server: 121.169.46.116
@@ -171,46 +225,15 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  delay: 1666
-  name: 10|荷兰 - 阿姆斯特丹 - 1
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.16
-  type: ss
 - cipher: aes-256-cfb
-  country: 🇨🇦CA
-  delay: 549
+  delay: 1258
   name: 10|加拿大 - 多伦多 - 1
   password: amazonskr05
   port: 443
   server: 35.182.251.131
   type: ss
-- cipher: aes-256-cfb
-  delay: 547
-  name: 10|加拿大 - 多伦多 - 2
-  password: amazonskr05
-  port: 443
-  server: 35.183.126.173
-  type: ss
-- cipher: aes-256-cfb
-  delay: 541
-  name: 10|加拿大 - 多伦多 - 3
-  password: amazonskr05
-  port: 443
-  server: 15.223.5.86
-  type: ss
   udp: true
-- delay: 1118
-  name: 10|罗马尼亚 - 布加勒斯特 - 1
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1441
+- delay: 1932
   name: 10,14|RO_speednode_0019
   port: 9002
   server: 84.239.49.164
@@ -218,135 +241,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1710
-  name: 10,14|RO_speednode_0020
-  port: 9002
-  server: 84.239.49.154
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1762
-  name: 10,14|RO_speednode_0021
-  port: 9002
-  server: 84.239.49.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2079
-  name: 10,14|RO_speednode_0022
-  port: 9002
-  server: 84.239.49.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2489
-  name: 10,14|RO_speednode_0024
-  port: 9002
-  server: 84.239.49.171
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1707
-  name: 10,14|RO_speednode_0025
-  port: 9002
-  server: 84.239.49.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1206
-  name: 10,14|RO_speednode_0034
-  port: 9002
-  server: 84.239.49.160
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1134
-  name: 10,14|RO_speednode_0035
-  port: 9002
-  server: 84.239.14.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1287
-  name: 10,14|RO_speednode_0036
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2096
-  name: 10,14|RO_speednode_0037
-  port: 9002
-  server: 84.239.49.227
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2586
-  name: 10,14|RO_speednode_0006
-  port: 9002
-  server: 84.239.49.231
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1135
-  name: 10,14|RO_speednode_0038
-  port: 9002
-  server: 84.239.49.37
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2324
-  name: 10,14|RO_speednode_0039
-  port: 9002
-  server: 84.239.49.249
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1315
-  name: 10,14|RO_speednode_0041
-  port: 9002
-  server: 84.239.14.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2644
-  name: 10,14|RO_speednode_0042
-  port: 9002
-  server: 84.239.14.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1123
-  name: 10,14|RO_speednode_0044
-  port: 9002
-  server: 84.239.14.159
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1164
-  name: 10,14|RO_speednode_0046
-  port: 9002
-  server: 84.239.49.223
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1310
+- delay: 1295
   name: 10,14|RO_speednode_0047
   port: 9002
   server: 84.239.49.253
@@ -354,15 +249,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2450
-  name: 10,14|RO_speednode_0008
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2910
+- delay: 2750
   name: 10,14|RO_speednode_0010
   port: 9002
   server: 84.239.49.214
@@ -370,31 +257,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2116
-  name: 10,14|RO_speednode_0011
-  port: 9002
-  server: 84.239.49.176
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1141
-  name: 10,14|RO_speednode_0014
-  port: 9002
-  server: 84.239.49.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1399
-  name: 10,14|RO_speednode_0016
-  port: 9002
-  server: 84.239.14.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2425
+- delay: 1226
   name: 10,14|RO_speednode_0017
   port: 9002
   server: 84.239.49.40
@@ -402,7 +265,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2271
+- delay: 1881
   name: 10,14|RO_speednode_0018
   port: 9002
   server: 84.239.14.152
@@ -410,13 +273,120 @@ proxies:
   tls: true
   type: http
   udp: true
+- delay: 1165
+  name: 10,14|RO_speednode_0020
+  port: 9002
+  server: 84.239.49.154
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1947
+  name: 10,14|RO_speednode_0021
+  port: 9002
+  server: 84.239.49.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1210
+  name: 10,14|RO_speednode_0022
+  port: 9002
+  server: 84.239.49.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2051
+  name: 10,14|RO_speednode_0025
+  port: 9002
+  server: 84.239.49.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1915
+  name: 10,14|RO_speednode_0036
+  port: 9002
+  server: 84.239.49.178
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1494
+  name: 10,14|RO_speednode_0037
+  port: 9002
+  server: 84.239.49.227
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2957
+  name: 10,14|RO_speednode_0041
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2234
+  name: 10,14|RO_speednode_0046
+  port: 9002
+  server: 84.239.49.223
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 540
+  delay: 694
+  name: 10|美国 - 洛杉矶 - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2329
+  name: 10|美国 - 洛杉矶 - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 404
+  name: 10|美国 - 洛杉矶 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 2456
   name: 10|美国 - 纽约 - 1
   password: eDfN7SODQceIOmIAbtJJtK
   port: 443
   server: 198.98.53.130
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 201
+  name: 10|中国 - 上海 - 1
+  password: '123'
+  port: 1001
+  server: 61.171.92.202
   type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
@@ -436,8 +406,8 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 2008
-  server: 18.183.118.126
+  port: 53018
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -445,7 +415,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 16.162.33.127
+  server: 18.163.84.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -453,31 +423,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 16.162.190.109
+  server: 16.163.107.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 19706
-  server: 18.183.247.142
+  port: 4099
+  server: 18.181.78.148
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 55973
-  server: 18.183.118.126
+  port: 37973
+  server: 35.75.4.144
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 37973
-  server: 16.162.19.220
+  port: 5701
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -485,7 +455,7 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 6357
-  server: 18.162.187.25
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -493,15 +463,15 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 29642
-  server: 18.183.118.126
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 18.166.62.207
+  port: 9149
+  server: 18.163.84.233
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -509,7 +479,7 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 18.162.187.25
+  server: 43.198.107.157
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -517,15 +487,15 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 18.183.118.126
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.166.228.198
+  port: 41889
+  server: 18.162.213.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -606,6 +576,13 @@ proxies:
   type: vless
   udp: true
   uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
+- name: 14|RO_speednode_0006
+  port: 9002
+  server: 84.239.49.231
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0007
   port: 9002
   server: 84.239.49.224
@@ -613,9 +590,23 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|RO_speednode_0008
+  port: 9002
+  server: 84.239.49.175
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0009
   port: 9002
   server: 84.239.49.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0011
+  port: 9002
+  server: 84.239.49.176
   skip-cert-verify: true
   tls: true
   type: http
@@ -634,6 +625,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|RO_speednode_0014
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0015
   port: 9002
   server: 84.239.49.42
@@ -641,9 +639,23 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|RO_speednode_0016
+  port: 9002
+  server: 84.239.14.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0023
   port: 9002
   server: 84.239.49.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0024
+  port: 9002
+  server: 84.239.49.171
   skip-cert-verify: true
   tls: true
   type: http
@@ -704,6 +716,34 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|RO_speednode_0034
+  port: 9002
+  server: 84.239.49.160
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0035
+  port: 9002
+  server: 84.239.14.149
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0038
+  port: 9002
+  server: 84.239.49.37
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0039
+  port: 9002
+  server: 84.239.49.249
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0040
   port: 9002
   server: 84.239.49.239
@@ -711,9 +751,23 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|RO_speednode_0042
+  port: 9002
+  server: 84.239.14.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|RO_speednode_0043
   port: 9002
   server: 84.239.49.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|RO_speednode_0044
+  port: 9002
+  server: 84.239.14.159
   skip-cert-verify: true
   tls: true
   type: http
