@@ -1,29 +1,95 @@
 proxies:
-- country: 🇺🇸US
-  delay: 1800
-  name: 10|德国 - Frankfurt am Main - 1
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.186.46.224
+- alterId: 0
+  cipher: auto
+  country: 🇩🇪DE
+  delay: 496
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 纽伦堡 - 2
+  network: tcp
+  port: 14991
+  server: 167.235.108.86
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1704
-  name: 10|德国 - Frankfurt am Main - 2
+  type: vmess
+  uuid: d4dd0481-bc9c-4521-86ea-0c9f55f0aad5
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 496
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 纽伦堡 - 7
+  network: tcp
+  port: 14991
+  server: 46.225.252.32
+  skip-cert-verify: true
+  type: vmess
+  uuid: d4dd0481-bc9c-4521-86ea-0c9f55f0aad5
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 1498
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - 纽伦堡 - 8
+  network: tcp
+  port: 14991
+  server: 46.225.255.82
+  skip-cert-verify: true
+  type: vmess
+  uuid: d4dd0481-bc9c-4521-86ea-0c9f55f0aad5
+- country: 🇩🇪DE
+  delay: 717
+  name: 10|德国 - Frankfurt am Main - 3
   password: telegram-id-directvpn
   port: 22223
-  server: 63.186.46.224
+  server: 18.193.218.173
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 14|DE_speednode_0001
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
+- country: 🇩🇪DE
+  delay: 1643
+  name: 10|德国 - Frankfurt am Main - 4
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.193.218.173
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: 🇩🇪DE
+  delay: 1366
+  name: 10|德国 - Frankfurt am Main - 5
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.64.2.50
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1996
+  name: 10|德国 - Frankfurt am Main - 6
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.64.2.50
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 1383
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - Frankfurt Am Main - 9
+  network: ws
+  port: 6066
+  server: 188.121.109.55
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9aeb91f7-c539-4f15-8fbd-fb17efaca0e6
+  ws-opts:
+    path: /
