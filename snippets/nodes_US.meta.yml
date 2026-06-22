@@ -1,5 +1,5 @@
 proxies:
-- name: 8|美国2
+- name: 7|美国2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: mg2.mangshe.xyz
@@ -7,32 +7,83 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: 12,13|美国|@ripaojiedian
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 426
+  name: 9|美国 - 洛杉矶 - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.107
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 418
+  name: 9|美国 - 洛杉矶 - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1651
+  name: 9|美国 - 洛杉矶 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1550
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 水牛城 - 1
+  network: ws
+  port: 6666
+  server: 107.173.27.219
+  skip-cert-verify: true
+  type: vmess
+  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
+  ws-opts:
+    path: /youtube
+- name: 11,12|美国|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
-  server: 43.198.206.201
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
-  server: 13.115.223.251
+  server: 95.40.53.232
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.80.94
+  port: 11993
+  server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: randomized
-  name: 14|US_speednode_0112
+  name: 13|US_speednode_0112
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -47,7 +98,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0113
+  name: 13|US_speednode_0113
   network: ws
   port: 2095
   server: www.temu.com
@@ -62,7 +113,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0114
+  name: 13|US_speednode_0114
   network: ws
   port: 2095
   server: www.shopify.com
@@ -77,7 +128,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0115
+  name: 13|US_speednode_0115
   network: ws
   port: 2095
   server: ns.cloudflare.com
@@ -92,7 +143,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0116
+  name: 13|US_speednode_0116
   network: ws
   port: 2095
   server: cloudflare-dns.com
@@ -107,7 +158,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0117
+  name: 13|US_speednode_0117
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -122,7 +173,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0118
+  name: 13|US_speednode_0118
   network: ws
   port: 2095
   server: www.wto.org
@@ -137,7 +188,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0119
+  name: 13|US_speednode_0119
   network: ws
   port: 2095
   server: blog.cloudflare.com
@@ -152,7 +203,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0120
+  name: 13|US_speednode_0120
   network: ws
   port: 2095
   server: developers.cloudflare.com
@@ -167,7 +218,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0121
+  name: 13|US_speednode_0121
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -182,7 +233,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0122
+  name: 13|US_speednode_0122
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -197,7 +248,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0123
+  name: 13|US_speednode_0123
   network: ws
   port: 2095
   server: docs.cloudflare.com
@@ -212,7 +263,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0124
+  name: 13|US_speednode_0124
   network: ws
   port: 2095
   server: www.whatismyip.net
@@ -227,7 +278,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0125
+  name: 13|US_speednode_0125
   network: ws
   port: 2095
   server: cdnjs.com
@@ -242,7 +293,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0126
+  name: 13|US_speednode_0126
   network: ws
   port: 2095
   server: www.udemy.com
@@ -257,7 +308,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0127
+  name: 13|US_speednode_0127
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -272,7 +323,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /
 - client-fingerprint: randomized
-  name: 14|US_speednode_0128
+  name: 13|US_speednode_0128
   network: ws
   port: 2095
   server: itarmy.com.ua
@@ -288,7 +339,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0129
+  name: 13|US_speednode_0129
   port: 443
   server: assets.trorays.com
   servername: assets.trorays.com
@@ -298,7 +349,7 @@ proxies:
   udp: true
   uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
 - client-fingerprint: chrome
-  name: 14|US_speednode_0130
+  name: 13|US_speednode_0130
   port: 38334
   reality-opts:
     public-key: NziHXc_dnhzsVEfn_asAz4JONCuwQYHNiCW_2-GX5FA
@@ -312,7 +363,7 @@ proxies:
   uuid: e5d07969-f008-42ee-bbab-7995ef4d1e1d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0131
+  name: 13|US_speednode_0131
   port: 443
   reality-opts:
     public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
