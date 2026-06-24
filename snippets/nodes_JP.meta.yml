@@ -9,38 +9,24 @@ proxies:
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45691
-  server: 18.179.204.16
+  port: 10624
+  server: 18.183.54.150
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 2009158055b4d37156cee7082c50ffde
-  port: 5701
-  server: 43.199.200.130
+  password: ba5b6f1d3a9da87096165da523fb4375
+  port: 37973
+  server: 16.163.95.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 2009158055b4d37156cee7082c50ffde
-  port: 5701
-  server: 18.163.125.35
+  password: ba5b6f1d3a9da87096165da523fb4375
+  port: 3743
+  server: 95.40.43.133
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14|JP_speednode_0010
-  network: ws
-  port: 80
-  server: 151.101.109.223
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
