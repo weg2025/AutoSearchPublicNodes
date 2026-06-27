@@ -1,9 +1,121 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 736
+  name: 10|美国 - 旧金山 - 5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1047
+  name: 10|美国 - 旧金山 - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1712
+  name: 10|美国 - 旧金山 - 7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1745
+  name: 10|美国 - 旧金山 - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 737
+  name: 10|美国 - 旧金山 - 9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧 GB
+  delay: 731
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 3
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2518
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 普若佛 - 4
+  network: ws
+  port: 443
+  server: h1.bnm.uw.to
+  servername: h1.bnm.uw.to
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 32d7c5c7-ab96-4803-bff3-cb9c67e66a64
+  ws-opts:
+    headers:
+      HOST: h1.bnm.uw.to
+    path: /32d7c5c7-ab96-4803-bff3-cb9c67e66a64-vm
+- country: 🇺🇸US
+  delay: 1486
+  name: 10|美国 - 聖荷西 - 1
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: 42531
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 2177
+  name: 10|美国 - 聖荷西 - 2
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 56168
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
+  udp: true
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: 333967de4411e1e833244ba4becc20bf
+  password: 230012981ba34c12fec11deca0379005
   port: 49277
-  server: 18.163.100.203
+  server: 54.46.30.217
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -11,7 +123,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 16.162.121.169
+  server: 54.46.109.132
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
