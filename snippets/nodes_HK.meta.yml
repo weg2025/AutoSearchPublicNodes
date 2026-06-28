@@ -26,16 +26,16 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -49,3 +49,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|HK_speednode_0008
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 8443
+  server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9

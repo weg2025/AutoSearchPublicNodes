@@ -176,24 +176,24 @@ proxies:
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
+  port: 3941
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -225,7 +225,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -241,7 +241,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -255,3 +255,55 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|AE_speednode_0001
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- name: 14|GB_speednode_0005
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: 14|NL_speednode_0016
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: 14|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
