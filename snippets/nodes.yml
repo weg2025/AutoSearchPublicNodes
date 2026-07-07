@@ -1,103 +1,58 @@
 proxies:
-- country: 🇷🇺RU
-  delay: 856
-  name: 10|德国 - 法兰克福 - 1
-  password: SoftNetConnect
-  port: 42549
-  server: 213.108.20.209
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  delay: 486
-  name: 10|法国 - 巴黎 - 1
-  password: amazonskr05
-  port: 443
-  server: 15.237.74.149
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 315
-  h2-opts: {}
-  http-opts: {}
-  name: 10|荷兰 - 阿姆斯特丹 - 1
-  network: tcp
-  port: 9006
-  server: select-hk.ddnskunlun.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- delay: 966
-  name: 10|美国 - 德雷珀 - 1
-  password: BxceQaOe
-  port: 34638
-  server: 18.162.53.72
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  delay: 515
-  name: 10|美国 - Dublin - 2
-  password: amazonskr05
-  port: 443
-  server: 3.133.132.79
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁ZZ
-  delay: 767
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - 大阪市 - 2
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  servername: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  delay: 274
-  name: 10|日本 - 东京 - 1
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.042.node-for-bigairport.win
+  country: 🇫🇷FR
+  delay: 2838
+  name: 10|法国 - 巴黎 - 1
+  password: mdp65g6lfwphz2w6
+  port: 1010
+  server: 0706-def.kovira2.ir
   type: ss
-- delay: 2258
-  name: 10|土耳其 - 伊斯坦布尔 - 1
-  network: ws
-  password: dfdse334053vuohm
-  port: 443
-  server: auto.mhjstudio.ir
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1398
+  name: 10|芬兰 - 赫尔辛基 - 1
+  password: x3ZJXCnqxaoaAIrrkfoaNB
+  port: 51544
+  server: 109.107.182.229
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1399
+  name: 10|芬兰 - 赫尔辛基 - 2
+  password: 72FligLnSYd0rNQ4WE1y7x
+  port: 51544
+  server: 109.107.182.229
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇸🇪SE
+  delay: 2989
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|韩国 - 首尔特别市 - 1
+  network: http
+  port: 80
+  server: 217.142.138.61
   skip-cert-verify: true
-  sni: alternative.mhjstudio.ir
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- delay: 349
+  name: 10|新加坡 - 新加坡 - 1
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.37.237
+  skip-cert-verify: true
+  sni: S-o-W.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: alternative.mhjstudio.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1012
-  name: 10|英国 - Erith - 1
-  network: ws
-  port: 80
-  server: 104.17.124.179
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
+      Host: S-o-W.MaQror.ir
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -113,90 +68,112 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 12|🇭🇰 香港3|@ripaojiedian
+- name: 12,13|香港3|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
-  server: 18.162.58.236
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇭🇰 香港4|@ripaojiedian
+- name: 12,13|香港4|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 16.163.150.200
+  port: 4374
+  server: 16.162.33.88
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12|🇭🇰 香港5|@ripaojiedian
+- name: 12,13|香港5|@ripaojiedian
+  network: tcp
   password: BxceQaOe
   port: 29449
-  server: 16.162.150.200
+  server: 16.162.119.181
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 12|🇯🇵 日本|@ripaojiedian
+- name: 12,13|日本|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 3.112.52.247
+  port: 47656
+  server: 18.162.113.168
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12|🇯🇵 日本2|@ripaojiedian
+- name: 12,13|日本2|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 55973
-  server: 16.163.138.198
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇯🇵 日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 3743
-  server: 16.163.138.198
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇸🇬 新加坡|@ripaojiedian
+- name: 12,13|新加坡|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 6357
   server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇸🇬 新加坡2|@ripaojiedian
+- name: 12,13|新加坡2|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 48738
-  server: 16.163.50.86
+  port: 29642
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇸🇬 新加坡3|@ripaojiedian
+- name: 12,13|新加坡3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.163.150.200
+  port: 9149
+  server: 18.166.66.1
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 12|🇺🇸 美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
   server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇺🇸 美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
   server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇺🇸 美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.58.154
+  port: 22657
+  server: 18.162.111.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 13|香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 14|AE_speednode_0001
   network: ws
   password: MITIVPN

@@ -1,30 +1,25 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 515
-  name: 10|美国 - Dublin - 2
-  password: amazonskr05
-  port: 443
-  server: 3.133.132.79
-  type: ss
-  udp: true
-- name: 12|🇺🇸 美国|@ripaojiedian
+- name: 12,13|美国|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
   server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇺🇸 美国2|@ripaojiedian
+- name: 12,13|美国2|@ripaojiedian
+  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
   server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12|🇺🇸 美国3|@ripaojiedian
+- name: 12,13|美国3|@ripaojiedian
+  network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.58.154
+  port: 22657
+  server: 18.162.111.216
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
