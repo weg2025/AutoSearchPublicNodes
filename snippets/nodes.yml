@@ -1,58 +1,40 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 2838
-  name: 10|法国 - 巴黎 - 1
-  password: mdp65g6lfwphz2w6
-  port: 1010
-  server: 0706-def.kovira2.ir
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 1398
-  name: 10|芬兰 - 赫尔辛基 - 1
-  password: x3ZJXCnqxaoaAIrrkfoaNB
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  delay: 1399
-  name: 10|芬兰 - 赫尔辛基 - 2
-  password: 72FligLnSYd0rNQ4WE1y7x
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇸🇪SE
-  delay: 2989
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|韩国 - 首尔特别市 - 1
-  network: http
-  port: 80
-  server: 217.142.138.61
+- country: 🇩🇪DE
+  delay: 707
+  name: 10|德国 - Frankfurt am Main - 1
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.66.180.209
   skip-cert-verify: true
-  type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- delay: 349
-  name: 10|新加坡 - 新加坡 - 1
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.18.37.237
-  skip-cert-verify: true
-  sni: S-o-W.MaQror.ir
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: S-o-W.MaQror.ir
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+- country: 🇫🇷FR
+  delay: 730
+  name: 10|法国 - 巴黎 - 1
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.139.191
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 534
+  name: 10|美国 - Dublin - 1
+  password: amazonskr05
+  port: 443
+  server: 3.147.78.9
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇵🇱PL
+  delay: 488
+  name: 10|中国 - 香港 - 1
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.046.node-for-bigairport.win
+  type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -71,56 +53,56 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
+  port: 3743
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 16.163.50.86
+  port: 55973
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
-  server: 18.162.58.236
+  port: 29642
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -135,8 +117,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
+  port: 22459
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -144,7 +126,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -152,15 +134,15 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

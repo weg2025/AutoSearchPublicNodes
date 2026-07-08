@@ -1,12 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  delay: 2838
+- country: 🇫🇷FR
+  delay: 730
   name: 10|法国 - 巴黎 - 1
-  password: mdp65g6lfwphz2w6
-  port: 1010
-  server: 0706-def.kovira2.ir
-  type: ss
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.39.139.191
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - name: 14|FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
