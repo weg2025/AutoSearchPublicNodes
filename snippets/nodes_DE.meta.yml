@@ -17,10 +17,20 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|V2RayyNGvpn🇩🇪
+- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TWlkdqFSQH
+  password: QjdEEystFJ
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪@V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: TGzLlWQaFb
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -36,11 +46,45 @@ proxies:
   tls: false
   type: hysteria2
 - country: 🇩🇪DE
-  delay: 707
-  name: 10|德国 - Frankfurt am Main - 1
+  delay: 1021
+  name: 10|德国 - 格尔恩豪森 - 3
+  password: SqJydYxsuCEX9RpFUXcbK7GLeZ-baJe4
+  port: 7443
+  server: cnn-1.hysteria.ltd
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1080
+  name: 10|德国 - 格尔恩豪森 - 4
+  password: SqJydYxsuCEX9RpFUXcbK7GLeZ-baJe4
+  port: 6443
+  server: cnn-2.hysteria.ltd
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 463
+  name: 10|德国 - Falkenstein - 1
+  password: rhZiP66_E1XGUTjPfZOWQw
+  port: 2096
+  server: de2.v4trojn.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 713
+  name: 10|德国 - Falkenstein - 2
+  password: FfrEPkxURnFQi00uMlQwOA
+  port: 2096
+  server: 188.245.87.3
+  type: ss
+- country: 🇺🇸US
+  delay: 1680
+  name: 10|德国 - Frankfurt am Main - 5
   password: telegram-id-directvpn
   port: 22223
-  server: 3.66.180.209
+  server: 63.176.232.190
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
