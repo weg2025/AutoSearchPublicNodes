@@ -1,97 +1,50 @@
 proxies:
 - country: 🇯🇵JP
-  delay: 614
+  delay: 271
   name: 10|日本 - 东京 - 1
-  password: XG59623478
+  password: HW85960347
   port: 443
-  server: allowing-ram.rooster465.autos
+  server: happy-monkfish.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇯🇵JP
-  delay: 628
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 228
   name: 10|日本 - 东京 - 2
-  password: XG59623478
+  password: amazonskr05
   port: 443
-  server: united-grouse.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- delay: 654
+  server: 13.192.184.199
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 343
   name: 10|日本 - 东京 - 3
-  password: XG59623478
+  password: amazonskr05
   port: 443
-  server: mature-lamprey.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 2597
-  name: 10|日本 - 东京 - 4
-  password: XG59623478
-  port: 443
-  server: rational-joey.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 804
-  name: 10|日本 - 东京 - 5
-  password: XG59623478
-  port: 443
-  server: immense-eagle.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 838
-  name: 10|日本 - 东京 - 6
-  password: XG59623478
-  port: 443
-  server: wise-rhino.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 918
-  name: 10|日本 - 东京 - 7
-  password: XG59623478
-  port: 443
-  server: dashing-bedbug.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 1065
-  name: 10|日本 - 东京 - 8
-  password: XG59623478
-  port: 443
-  server: allowed-hermit.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 2612
-  name: 10|日本 - 东京 - 9
-  password: XG59623478
-  port: 443
-  server: composed-sheep.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  server: 13.193.101.147
+  type: ss
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54411
-  server: 18.183.199.219
+  port: 10624
+  server: 43.199.31.196
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 12,13|日本2|@ripaojiedian
+  network: tcp
+  password: b1a42ca60884057bf527d8d38b618cfb
+  port: 40138
+  server: 16.163.56.186
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
-  port: 24370
-  server: 95.40.99.31
-  skip-cert-verify: true
+  password: b1a42ca60884057bf527d8d38b618cfb
+  port: 40138
+  server: 18.166.63.229
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

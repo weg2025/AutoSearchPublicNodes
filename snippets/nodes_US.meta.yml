@@ -7,85 +7,61 @@ proxies:
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- country: 🇺🇸US
-  delay: 650
-  name: 10|美国 - 波特蘭 - 1
-  password: XG59623478
-  port: 443
-  server: novel-bat.rooster465.autos
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 486
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 3
+  port: 9027
+  server: select-us.ddnskunlun.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 1309
-  name: 10|美国 - 波特蘭 - 2
-  password: XG59623478
-  port: 443
-  server: frank-piranha.rooster465.autos
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1335
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 圣克拉拉 - 2
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 692
-  name: 10|美国 - 波特蘭 - 3
-  password: XG59623478
-  port: 443
-  server: pleased-lobster.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 784
-  name: 10|美国 - 波特蘭 - 4
-  password: XG59623478
-  port: 443
-  server: funny-squid.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- delay: 1827
-  name: 10|美国 - 东洛杉矶 - 6
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.72.2
-  skip-cert-verify: true
-  sni: sww-w.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: sww-w.MaQror.ir
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sw
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - cipher: aes-256-cfb
-  delay: 523
-  name: 10|美国 - Dublin - 5
+  country: 🇺🇸US
+  delay: 533
+  name: 10|美国 - Dublin - 1
   password: amazonskr05
   port: 443
-  server: 3.147.78.9
+  server: 13.58.60.229
   type: ss
-  udp: true
 - name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 95.40.99.31
+  server: 18.163.105.231
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 43.199.215.77
-  skip-cert-verify: true
+  server: 18.166.63.229
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.162.154.153
+  port: 44265
+  server: 18.163.115.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
