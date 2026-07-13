@@ -1,34 +1,41 @@
 proxies:
-- country: 🇯🇵JP
-  delay: 271
-  name: 10|日本 - 东京 - 1
-  password: HW85960347
-  port: 443
-  server: happy-monkfish.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 228
-  name: 10|日本 - 东京 - 2
+  country: 🇯🇵JP
+  delay: 1229
+  name: 10|日本 - 东京 - 1
   password: amazonskr05
   port: 443
-  server: 13.192.184.199
+  server: 18.183.180.62
   type: ss
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 343
+  country: 🇯🇵JP
+  delay: 187
   name: 10|日本 - 东京 - 3
   password: amazonskr05
   port: 443
-  server: 13.193.101.147
+  server: 52.195.12.64
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 2896
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 東京都 - 2
+  network: ws
+  port: 443
+  server: vps123.kbxa.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
+  ws-opts:
+    path: /123
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 54411
-  server: 43.199.29.120
+  port: 27826
+  server: 18.162.60.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -36,15 +43,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
-  server: 16.163.109.165
+  server: 95.40.13.204
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 16.163.109.165
+  port: 40138
+  server: 18.163.103.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
