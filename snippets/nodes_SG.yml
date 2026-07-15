@@ -1,33 +1,51 @@
 proxies:
-- cipher: aes-256-gcm
-  delay: 210
+- delay: 1980
   name: 10|新加坡 - 新加坡 - 1
-  password: a338A9
-  port: 8888
-  server: aw-sg.vndmall.pro
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 160
-  name: 10|新加坡 - 新加坡 - 2
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.049.node-for-bigairport.win
-  type: ss
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.163.121.106
+  password: CF68213490
+  port: 443
+  server: logical-koala.rooster465.autos
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: logical-koala.rooster465.autos
   type: trojan
+  udp: true
+- delay: 1211
+  name: 10|新加坡 - 新加坡 - 2
+  password: CF68213490
+  port: 443
+  server: sharp-scorpion.rooster465.autos
+  skip-cert-verify: true
+  sni: sharp-scorpion.rooster465.autos
+  type: trojan
+  udp: true
+- delay: 573
+  name: 10|新加坡 - 新加坡 - 3
+  password: CF68213490
+  port: 443
+  server: saved-tuna.rooster465.autos
+  skip-cert-verify: true
+  sni: saved-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 300
+  h2-opts: {}
+  http-opts: {}
+  name: 10|新加坡 - 新加坡 - 4
+  network: ws
+  port: 443
+  server: 13.214.178.3
+  skip-cert-verify: true
+  type: vmess
+  uuid: 714d82c3-184d-457b-bbb3-d8ad3861e5ef
+  ws-opts:
+    path: /vmess
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 16.163.41.104
+  server: 18.163.123.154
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -35,7 +53,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 32434
-  server: 18.166.58.225
+  server: 95.40.110.2
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
