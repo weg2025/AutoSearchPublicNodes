@@ -1,8 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 904
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 2
+  network: tcp
+  port: 10004
+  server: zjs001.kfc-520.com
+  servername: zjs001.kfc-520.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 2
   cipher: auto
-  delay: 2674
-  name: 10|美国 - 洛杉矶 - 1
+  delay: 877
+  name: 9|美国 - 洛杉矶 - 4
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -10,43 +24,39 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  delay: 497
-  name: 10|美国 - 洛杉矶 - 2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
+- cipher: aes-256-cfb
+  delay: 1926
+  name: 9|美国 - Dublin - 3
+  password: amazonskr05
+  port: 443
+  server: 3.145.162.175
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.166.55.241
+  port: 49277
+  server: 16.163.108.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
-  server: 43.198.71.42
+  server: 16.163.108.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
+  port: 25651
+  server: 43.199.202.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 14|US_speednode_0063
+- name: 13|US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443

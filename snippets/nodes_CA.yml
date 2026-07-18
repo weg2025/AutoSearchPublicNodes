@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦CA
+  delay: 1692
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 9|加拿大 - 多伦多 - 1
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 2892
+  h2-opts: {}
+  http-opts: {}
+  name: 9|加拿大 - 多伦多 - 2
+  network: tcp
+  port: 10043
+  server: family.bucket.x9.kfc-520.com
+  servername: family.bucket.x9.kfc-520.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc

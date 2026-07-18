@@ -1,8 +1,30 @@
 proxies:
+- name: 7|美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 904
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 2
+  network: tcp
+  port: 10004
+  server: zjs001.kfc-520.com
+  servername: zjs001.kfc-520.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 2
   cipher: auto
-  delay: 2674
-  name: 10|美国 - 洛杉矶 - 1
+  delay: 877
+  name: 9|美国 - 洛杉矶 - 4
   port: 30804
   server: v4.hdacd.com
   skip-cert-verify: true
@@ -10,45 +32,41 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  delay: 497
-  name: 10|美国 - 洛杉矶 - 2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
+- cipher: aes-256-cfb
+  delay: 1926
+  name: 9|美国 - Dublin - 3
+  password: amazonskr05
+  port: 443
+  server: 3.145.162.175
   type: ss
   udp: true
-- name: 12,13|美国|@ripaojiedian
+- name: 11,12|美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.166.55.241
+  port: 49277
+  server: 16.163.108.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国2|@ripaojiedian
+- name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
-  server: 43.198.71.42
+  server: 16.163.108.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|美国3|@ripaojiedian
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
+  port: 25651
+  server: 43.199.202.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0055
+  name: 13|US_speednode_0055
   port: 14005
   reality-opts:
     public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
@@ -62,7 +80,7 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0056
+  name: 13|US_speednode_0056
   port: 443
   reality-opts:
     public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
@@ -74,7 +92,7 @@ proxies:
   type: vless
   udp: true
   uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
-- name: 14|US_speednode_0058
+- name: 13|US_speednode_0058
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: e760451b-ta1og0-tan99f-1rdqg.jp.oshuawei.com
@@ -82,7 +100,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 14|US_speednode_0059
+- name: 13|US_speednode_0059
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -90,7 +108,7 @@ proxies:
   type: http
   udp: true
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 14|US_speednode_0060
+- name: 13|US_speednode_0060
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
@@ -98,7 +116,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 14|US_speednode_0061
+- name: 13|US_speednode_0061
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 786f666d-t9zts0-tatrrz-yjq0.sjc.oshuawei.com
@@ -106,7 +124,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 14|US_speednode_0062
+- name: 13|US_speednode_0062
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
@@ -114,7 +132,7 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 14|US_speednode_0063
+- name: 13|US_speednode_0063
   network: ws
   password: Mitivpn
   port: 443
