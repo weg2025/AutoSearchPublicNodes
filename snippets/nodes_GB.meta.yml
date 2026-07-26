@@ -1,37 +1,23 @@
 proxies:
-- name: 8|2@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.212
-  sni: grape-turbo-fr.roxa.org
+- name: 8|24@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.179.138.96
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-- name: 13|GB_speednode_0005
-  network: ws
-  password: MITIVPN
+- client-fingerprint: chrome
+  name: 13|GB_speednode_0003
+  packet-encoding: xudp
   port: 443
-  server: 164.38.155.135
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
   skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=De
-- name: 13|GB_speednode_0006
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 443
-  server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 13|GB_speednode_0007
-  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-  port: 443
-  server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
