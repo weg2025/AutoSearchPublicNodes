@@ -18,24 +18,24 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 47867
-  server: 18.166.67.128
+  port: 13118
+  server: 18.163.118.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 16.162.119.232
+  port: 11035
+  server: 95.40.61.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39412
-  server: 43.198.187.250
+  port: 27161
+  server: 43.199.34.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,29 +51,29 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|HK_speednode_0004
-  port: 443
-  reality-opts:
-    public-key: 1FryqGmMpa7T_bHmy3Uy11C5GWe6F2uzcsCYa9QXJBw
-    short-id: ff993907a731979a
-  server: pol1.panel11.ru
-  servername: pol1.panel11.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f165affe-ffb4-4f13-a081-f14434e51152
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0005
+  name: 13|HK_speednode_0003
   port: 443
   reality-opts:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
     short-id: c6ef72e4635d15a5
-  server: 45.196.201.62
+  server: 45.196.201.48
   servername: storage.yandex.net
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|HK_speednode_0004
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: 5895914d
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134

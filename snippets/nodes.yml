@@ -33,12 +33,12 @@ proxies:
   server: 54.197.30.38
   type: ss
 - delay: 1009
-  name: 9,13|NL_speednode_0006
+  name: 9|新加坡 - 新加坡 - 1
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
@@ -87,32 +87,32 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 47867
-  server: 18.166.67.128
+  port: 13118
+  server: 18.163.118.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 16.162.119.232
+  port: 11035
+  server: 95.40.61.23
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39412
-  server: 43.198.187.250
+  port: 27161
+  server: 43.199.34.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 6102
-  server: 18.183.93.4
+  port: 45691
+  server: 18.163.208.174
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -120,7 +120,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 16.162.91.50
+  server: 18.162.62.144
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -128,7 +128,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
-  server: 16.163.57.145
+  server: 18.163.85.97
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -136,23 +136,23 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
-  server: 18.166.67.128
+  server: 18.163.180.201
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 16.162.91.50
-  skip-cert-verify: true
+  port: 48738
+  server: 18.163.180.201
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.166.29.72
+  port: 9194
+  server: 18.162.152.65
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -160,7 +160,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
-  server: 18.163.123.29
+  server: 16.162.105.149
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -168,15 +168,15 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 18.163.123.29
+  server: 16.162.105.149
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.183.93.4
+  port: 29085
+  server: 95.41.27.1
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -190,16 +190,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13|US_speednode_0090
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
