@@ -9,7 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 8|@V2RayyNGvpn🇩🇪
+- name: 8|🇩🇪@V2RayyNGvpn🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: EaDTeupk9I
@@ -39,20 +39,20 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 Telegram = V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: V2RayyNGvpn
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
 - name: 8|🇩🇪 t- me - V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: c8L7Asi4ur
+  port: 43913
+  server: 91.107.178.22
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: pBrV8FUdJf
   port: 43913
   server: 91.107.178.22
   skip-cert-verify: false
@@ -69,3 +69,18 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0010
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
