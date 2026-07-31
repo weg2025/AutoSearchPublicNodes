@@ -1,26 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇯🇵JP
+  delay: 585
+  name: 9|日本 - 东京 - 1
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.043.node-for-bigairport.win
+  type: ss
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45691
-  server: 18.163.208.174
+  port: 49811
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12,13|HK_speednode_0029
+- name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.163.111.105
+  server: 3.114.9.167
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 11,12|日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 4099
-  server: 18.167.12.183
+  port: 40138
+  server: 3.114.9.167
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

@@ -1,39 +1,44 @@
 proxies:
-- delay: 1009
+- alterId: 0
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 1817
+  h2-opts: {}
+  http-opts: {}
   name: 9|新加坡 - 新加坡 - 1
   network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
+  port: 36809
+  server: cindy58.ceoiii.com
+  servername: ajax.microsoft.com
   skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- name: 11,12|新加坡|@ripaojiedian
+      HOST: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 11,12,13|HK_speednode_0005
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
-  server: 16.162.55.106
-  skip-cert-verify: true
+  server: 18.167.20.3
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 57.183.19.130
+  port: 48738
+  server: 18.167.20.3
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.166.236.71
+  port: 32434
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
