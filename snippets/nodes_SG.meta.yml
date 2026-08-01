@@ -1,73 +1,39 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇸🇬SG
-  delay: 1817
-  h2-opts: {}
-  http-opts: {}
-  name: 9|新加坡 - 新加坡 - 1
-  network: ws
-  port: 36809
-  server: cindy58.ceoiii.com
-  servername: ajax.microsoft.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-  ws-opts:
-    headers:
-      HOST: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 11,12,13|HK_speednode_0005
+- name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
+  port: 45744
+  server: 188.163.100.58
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.167.20.3
+  port: 32434
+  server: 18.166.178.12
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 43.198.187.59
+  port: 45744
+  server: 43.198.98.22
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: firefox
-  name: 13|SG_speednode_0086
-  network: ws
-  port: 30175
-  server: 3x.isoziyuan.com
-  servername: 3x.isoziyuan.com
-  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  name: 13|SG_speednode_0171
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs
+  server: most.lodkirmm.ru
+  servername: most.lodkirmm.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 900e5a83-c6ef-4af5-85ab-627549a73196
-  ws-opts:
-    headers:
-      Host: 3x.isoziyuan.com
-    path: /
-- name: 13|SG_speednode_0087
-  network: ws
-  port: 30175
-  server: 3x.isoziyuan.com
-  servername: 3x.isoziyuan.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3633dcc3-0204-4842-bd7f-2faeef02001e
-  ws-opts:
-    headers:
-      Host: 3x.isoziyuan.com
-    path: /
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
