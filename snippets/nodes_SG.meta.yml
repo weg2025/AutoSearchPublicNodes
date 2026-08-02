@@ -2,38 +2,24 @@ proxies:
 - name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 45744
-  server: 188.163.100.58
+  port: 51396
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 32434
-  server: 18.166.178.12
-  skip-cert-verify: false
+  port: 51396
+  server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 43.198.98.22
+  server: 18.163.90.221
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|SG_speednode_0171
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6fwpt8WW46VND7VgVV5lQSteCUgJsZbRR092VDZ2nFs
-  server: most.lodkirmm.ru
-  servername: most.lodkirmm.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
