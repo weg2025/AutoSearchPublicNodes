@@ -1,5 +1,52 @@
 proxies:
-- delay: 1042
+- name: 7|US
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  tls: false
+  type: hysteria2
+- name: 7|🇺🇸US
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  delay: 759
+  name: 9|美国 - 洛杉矶 - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦CA
+  delay: 1861
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 2
+  network: ws
+  port: 28167
+  server: 142.171.48.179
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+  ws-opts:
+    headers:
+      HOST: gw.alicdn.com
+    path: /
+- delay: 950
   name: 9,13|US_speednode_0250
   port: 9002
   server: 138.199.35.207
@@ -7,7 +54,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 810
+- delay: 2397
   name: 9,13|US_speednode_0247
   port: 9002
   server: 138.199.35.205
@@ -15,7 +62,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 823
+- delay: 973
   name: 9,13|US_speednode_0245
   port: 9002
   server: 138.199.35.204
@@ -23,15 +70,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1427
-  name: 9,13|US_speednode_0251
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1664
+- delay: 2262
   name: 9,13|US_speednode_0249
   port: 9002
   server: 138.199.35.198
@@ -39,7 +78,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1834
+- delay: 970
   name: 9,13|US_speednode_0244
   port: 9002
   server: 138.199.35.209
@@ -47,7 +86,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2142
+- delay: 839
   name: 9,13|US_speednode_0255
   port: 9002
   server: 138.199.35.197
@@ -55,7 +94,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1415
+- delay: 1601
   name: 9,13|US_speednode_0253
   port: 9002
   server: 138.199.35.220
@@ -63,17 +102,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1450
-  name: 9|美国 - 洛杉矶 - 8
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 995
+- delay: 1983
   name: 9,13|US_speednode_0267
   port: 9002
   server: 156.146.59.8
@@ -81,7 +110,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1074
+- delay: 1128
   name: 9,13|US_speednode_0263
   port: 9002
   server: 156.146.59.7
@@ -89,31 +118,38 @@ proxies:
   tls: true
   type: http
   udp: true
+- cipher: aes-256-cfb
+  delay: 908
+  name: 9|美国 - Ashburn - 1
+  password: amazonskr05
+  port: 443
+  server: 54.196.207.151
+  type: ss
+  udp: true
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 34039
-  server: 95.40.107.76
+  port: 28051
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 53001
-  server: 18.163.100.58
+  port: 28051
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12,13|HK_speednode_0052
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29085
-  server: 18.163.90.221
+  server: 16.162.164.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 13|US_speednode_0243
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -132,6 +168,13 @@ proxies:
 - name: 13|US_speednode_0248
   port: 9002
   server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0251
+  port: 9002
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http

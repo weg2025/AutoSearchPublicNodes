@@ -1,5 +1,13 @@
 proxies:
-- name: 7|🇬🇧英国
+- name: 7|🇰🇷KR
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: 7|未命名
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
   server: 5.183.102.113
@@ -7,7 +15,15 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- name: 7|未命名
+- name: 7|🇰
+  password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
+  port: 443
+  server: 82.47.32.31
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  tls: false
+  type: hysteria2
+- name: '7|未命名 #1'
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
@@ -25,6 +41,33 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 7|US
+  obfs: salamander
+  obfs-password: XBvVbvzQCq6Ovbnh
+  password: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  port: 14101
+  server: usaw2.awo-link.com
+  sni: usaw2.awo-link.com
+  tls: false
+  type: hysteria2
+- name: 7|🇺🇸US
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
+- name: 8|Proxy_mtm 6
+  obfs: salamander
+  obfs-password: dnwx30hvcobf7xcf
+  password: 0ansucp5k6aop125
+  port: 32950
+  server: 185.47.172.226
+  skip-cert-verify: false
+  sni: 185.47.172.226
+  tls: false
+  type: hysteria2
 - name: 8|@Daily_Configs
   obfs: salamander
   obfs-password: w0tx1ju9iix6913p
@@ -33,6 +76,13 @@ proxies:
   server: assets.gateway-stream.com
   skip-cert-verify: true
   sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 8|29@oneclickvpnkeys
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: 83.243.86.80
+  sni: prodfr.h2corp.org
   tls: false
   type: hysteria2
 - name: 8||01
@@ -52,98 +102,18 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|4️️@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 6fb01f11e04c0e33c9b62e64bfeb4c10
-  password: 5e1a0806-8be7-44e9-966d-517541307fbd
-  port: 55000
-  server: 212.119.42.98
-  skip-cert-verify: true
-  sni: ok.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️36@oneclickvpnkeys
+- name: 8|3🧬@oneclickvpnkeys
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: 107.181.134.90
-  sni: wopa7.api3-max.ru
+  server: 167.104.219.217
+  sni: taga5.api3-max.ru
   tls: false
   type: hysteria2
-- name: 8|3👁️‍🗨️@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+- name: 8|️57@oneclickvpnkeys
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
   port: 443
-  server: taga2.api3-max.ru
-  sni: taga2.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|1👁️‍🗨️@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga3.api3-max.ru
-  sni: taga3.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️78@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga9.api3-max.ru
-  sni: taga9.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️62@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️38@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa3.api3-max.ru
-  sni: wopa3.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️23@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa5.api3-max.ru
-  sni: wopa5.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️58@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa6.api3-max.ru
-  sni: wopa6.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️43@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa7.api3-max.ru
-  sni: wopa7.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️61@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: true
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️44@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa9.api3-max.ru
-  sni: wopa9.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️65@oneclickvpnkeys
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: swe-one.quiet-rogue.site
-  sni: swe-one.quiet-rogue.site
+  server: 138.124.68.188
+  sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
 - name: '8| t.me/bigAVPN   '
@@ -156,7 +126,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|✅  @vistav2ray  👈انا  ✅
+- name: 8|@erfanandroid
   obfs: salamander
   obfs-password: l960g2kn19nphlra
   password: 84eyebdtl3tcbssn
@@ -166,14 +136,22 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|️‍🗨️59@oneclickvpnkeys
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
+- name: 8|26@oneclickvpnkeys
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
-  server: 92.118.205.238
-  sni: grape-power-pl.ddnsguru.com
+  server: 76.164.202.213
+  sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-- name: '8|انال تلگرام : https://t.me/Ast...'
+- name: 8|🧬20@oneclickvpnkeys
+  password: 9dada88d-f8f8-459d-8a4f-4df2c973fe43
+  port: 8443
+  server: 216.57.111.222
+  skip-cert-verify: true
+  sni: h2.ecliptic-it.ru
+  tls: false
+  type: hysteria2
+- name: '8|انا تلگرام : https://t.me/Astr...'
   obfs: salamander
   obfs-password: 4b6gmo4jujpapx99
   password: AstroVPN_official
@@ -183,15 +161,33 @@ proxies:
   sni: vhd.nth.gelzaro.ir
   tls: false
   type: hysteria2
-- name: 8|🇫130308 | ⚡️Telegram = t.me/SO...
+- name: 8| t-me-V2RayyNGvpn 🇩🇪
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: DSgrpvSRAu
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
+- name: 8|🧬23@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-fr-002.fastervpn.world
+  server: 15.237.197.139
   skip-cert-verify: true
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 8|Telegram=V2RayyNGvpn⚡🇩🇪
+- name: 8|🧬36@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 51.44.213.137
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 8|🇩🇪Telegram=V2RayyNGvpn⚡🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HChdbj6duc
@@ -209,24 +205,6 @@ proxies:
   server: 179.61.132.96
   skip-cert-verify: true
   sni: 179.61.132.96
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️73@oneclickvpnkeys
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️76@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  port: 443
-  server: hy2-new.aspidnet.xyz
-  skip-cert-verify: true
-  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 8| - NL - @FreeOnlineVPN
@@ -281,10 +259,10 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 8|🇩🇪 Telegram= V2RayyNGvpn 🇩🇪7
+- name: '8|🇩🇪 t-me-V2RayyNGvpn '
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: hSKnm6Byp7
+  password: jeLq05gFPe
   port: 443
   server: 91.107.178.22
   skip-cert-verify: true
@@ -301,16 +279,6 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 8|Proxy_mtm Channel 27
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: 130.49.161.70
-  skip-cert-verify: true
-  sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -323,32 +291,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: 8|👁️‍🗨️84@oneclickvpnkeys
-  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
-  port: 443
-  server: ro.h2corp.org
-  sni: ro.h2corp.org
-  tls: false
-  type: hysteria2
-- name: 8|MTMVPN Channel 15
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: voQTxwGh4I
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️60@oneclickvpnkeys
-  password: vpn-hy2-lv-2026
-  port: 8444
-  server: 185.236.22.119
-  skip-cert-verify: true
-  sni: 185.236.22.119
-  tls: false
-  type: hysteria2
-- name: 8|👁️‍🗨️16@oneclickvpnkeys
+- name: 8|️️16@oneclickvpnkeys
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -356,7 +299,7 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- delay: 2121
+- delay: 2718
   name: 9,13|NL_speednode_0084
   port: 9002
   server: 84.17.47.150
@@ -364,7 +307,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1997
+- delay: 2736
   name: 9,13|NL_speednode_0082
   port: 9002
   server: 84.17.47.148
@@ -372,7 +315,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2778
+- delay: 1225
   name: 9,13|RO_speednode_0147
   port: 9002
   server: 193.176.84.34
@@ -380,7 +323,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2179
+- delay: 1143
   name: 9,13|RO_speednode_0144
   port: 9002
   server: 193.176.84.26
@@ -388,7 +331,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1132
+- delay: 1111
   name: 9,13|RO_speednode_0141
   port: 9002
   server: 193.176.84.24
@@ -396,15 +339,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1411
-  name: 9|罗马尼亚 - 布加勒斯特 - 22
+- delay: 1176
+  name: 9|罗马尼亚 - 布加勒斯特 - 4
   port: 9002
   server: 193.176.84.36
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- delay: 1180
+- delay: 1193
   name: 9,13|RO_speednode_0171
   port: 9002
   server: 193.176.84.30
@@ -412,15 +355,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1361
-  name: 9|罗马尼亚 - 布加勒斯特 - 29
+- delay: 2525
+  name: 9|罗马尼亚 - 布加勒斯特 - 6
   port: 9002
   server: 193.176.84.31
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- delay: 2040
+- delay: 1227
   name: 9,13|RO_speednode_0229
   port: 9002
   server: 193.176.84.38
@@ -428,31 +371,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1733
-  name: 9|罗马尼亚 - 布加勒斯特 - 36
+- delay: 1154
+  name: 9|罗马尼亚 - 布加勒斯特 - 8
   port: 9002
   server: 193.176.84.22
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- delay: 1124
-  name: 9,13|RO_speednode_0129
-  port: 9002
-  server: 84.239.49.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1155
-  name: 9,13|RO_speednode_0120
-  port: 9002
-  server: 84.239.49.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1094
+- delay: 1518
   name: 9,13|RO_speednode_0110
   port: 9002
   server: 84.239.49.53
@@ -460,7 +387,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2154
+- delay: 2649
   name: 9,13|RO_speednode_0109
   port: 9002
   server: 84.239.14.159
@@ -468,23 +395,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2165
-  name: 9|罗马尼亚 - Voluntari - 14
-  port: 9002
-  server: 84.239.49.254
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2282
-  name: 9,13|RO_speednode_0104
-  port: 9002
-  server: 84.239.49.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2611
+- delay: 1133
   name: 9,13|RO_speednode_0112
   port: 9002
   server: 84.239.49.49
@@ -492,23 +403,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1159
-  name: 9,13|RO_speednode_0130
-  port: 9002
-  server: 84.239.49.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1125
-  name: 9,13|RO_speednode_0212
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1100
+- delay: 1569
   name: 9,13|RO_speednode_0132
   port: 9002
   server: 84.239.14.153
@@ -516,7 +411,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1056
+- delay: 2156
   name: 9,13|RO_speednode_0122
   port: 9002
   server: 84.239.49.207
@@ -524,15 +419,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2121
-  name: 9,13|RO_speednode_0124
-  port: 9002
-  server: 84.239.49.60
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1262
+- delay: 1615
   name: 9,13|RO_speednode_0134
   port: 9002
   server: 84.239.49.231
@@ -540,7 +427,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2731
+- delay: 1137
   name: 9,13|RO_speednode_0143
   password: None
   port: 9002
@@ -549,7 +436,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1233
+- delay: 1562
   name: 9,13|RO_speednode_0159
   port: 9002
   server: 84.239.49.209
@@ -557,7 +444,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1087
+- delay: 1438
   name: 9,13|RO_speednode_0154
   port: 9002
   server: 84.239.49.170
@@ -565,15 +452,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2581
-  name: 9,13|RO_speednode_0121
-  port: 9002
-  server: 84.239.49.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2126
+- delay: 1581
   name: 9,13|RO_speednode_0146
   port: 9002
   server: 84.239.49.248
@@ -581,15 +460,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1084
-  name: 9,13|RO_speednode_0153
-  port: 9002
-  server: 84.239.49.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1700
+- delay: 2143
   name: 9,13|RO_speednode_0139
   port: 9002
   server: 84.239.14.152
@@ -597,7 +468,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1123
+- delay: 1611
   name: 9,13|RO_speednode_0161
   password: None
   port: 9002
@@ -606,7 +477,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1138
+- delay: 1117
   name: 9,13|RO_speednode_0148
   port: 9002
   server: 84.239.49.227
@@ -614,15 +485,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1114
-  name: 9,13|RO_speednode_0123
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1406
+- delay: 1879
   name: 9,13|RO_speednode_0105
   port: 9002
   server: 84.239.14.146
@@ -630,15 +493,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1939
-  name: 9,13|RO_speednode_0136
-  port: 9002
-  server: 84.239.14.160
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2092
+- delay: 1544
   name: 9,13|RO_speednode_0107
   port: 9002
   server: 84.239.49.181
@@ -646,15 +501,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1199
-  name: 9,13|RO_speednode_0106
-  port: 9002
-  server: 84.239.49.191
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1149
+- delay: 1575
   name: 9,13|RO_speednode_0108
   port: 9002
   server: 84.239.49.176
@@ -662,7 +509,45 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1042
+- delay: 2524
+  name: 9,13|RO_speednode_0120
+  port: 9002
+  server: 84.239.49.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 759
+  name: 9|美国 - 洛杉矶 - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦CA
+  delay: 1861
+  h2-opts: {}
+  http-opts: {}
+  name: 9|美国 - 洛杉矶 - 2
+  network: ws
+  port: 28167
+  server: 142.171.48.179
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+  ws-opts:
+    headers:
+      HOST: gw.alicdn.com
+    path: /
+- delay: 950
   name: 9,13|US_speednode_0250
   port: 9002
   server: 138.199.35.207
@@ -670,7 +555,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 810
+- delay: 2397
   name: 9,13|US_speednode_0247
   port: 9002
   server: 138.199.35.205
@@ -678,7 +563,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 823
+- delay: 973
   name: 9,13|US_speednode_0245
   port: 9002
   server: 138.199.35.204
@@ -686,15 +571,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1427
-  name: 9,13|US_speednode_0251
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1664
+- delay: 2262
   name: 9,13|US_speednode_0249
   port: 9002
   server: 138.199.35.198
@@ -702,7 +579,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1834
+- delay: 970
   name: 9,13|US_speednode_0244
   port: 9002
   server: 138.199.35.209
@@ -710,7 +587,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2142
+- delay: 839
   name: 9,13|US_speednode_0255
   port: 9002
   server: 138.199.35.197
@@ -718,7 +595,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1415
+- delay: 1601
   name: 9,13|US_speednode_0253
   port: 9002
   server: 138.199.35.220
@@ -726,17 +603,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1450
-  name: 9|美国 - 洛杉矶 - 8
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 995
+- delay: 1983
   name: 9,13|US_speednode_0267
   port: 9002
   server: 156.146.59.8
@@ -744,7 +611,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1074
+- delay: 1128
   name: 9,13|US_speednode_0263
   port: 9002
   server: 156.146.59.7
@@ -752,25 +619,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- alterId: 2
-  cipher: auto
+- cipher: aes-256-cfb
+  delay: 908
+  name: 9|美国 - Ashburn - 1
+  password: amazonskr05
+  port: 443
+  server: 54.196.207.151
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
   country: 🇨🇳CN
-  delay: 821
-  h2-opts: {}
-  http-opts: {}
-  name: 9|中国 - 香港 - 1
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  country: 🇭🇰HK
-  delay: 273
-  name: 9|中国 - 香港 - 2
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.046.node-for-bigairport.win
+  delay: 175
+  name: 9|中国 - 上海 - 1
+  password: '123'
+  port: 1001
+  server: 61.171.92.202
   type: ss
 - cipher: aes-256-cfb
   name: 11|tg频道:@ripaojiedian
@@ -790,40 +653,39 @@ proxies:
 - name: 11,12|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 50887
-  server: 95.40.107.76
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12,13|HK_speednode_0051
+- name: 11,12|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 11,12|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 16.163.123.222
+  port: 27161
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 11,12|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7630
-  server: 16.163.123.222
+  port: 49811
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 11,12|日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 14625
+  port: 3415
   server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -832,7 +694,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
-  server: 57.183.7.187
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -840,7 +702,7 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
-  server: 18.163.100.58
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -855,36 +717,35 @@ proxies:
 - name: 11,12|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.163.90.221
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 34039
-  server: 95.40.107.76
+  port: 28051
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 53001
-  server: 18.163.100.58
+  port: 28051
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12,13|HK_speednode_0052
+- name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 29085
-  server: 18.163.90.221
+  server: 16.162.164.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
@@ -1580,6 +1441,22 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
+- name: 13|HK_speednode_0051
+  password: BxceQaOe
+  port: 29443
+  server: 18.166.249.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 13|HK_speednode_0052
+  password: BxceQaOe
+  port: 29085
+  server: 18.163.90.221
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 13|HK_speednode_0053
@@ -2211,6 +2088,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 13|RO_speednode_0104
+  port: 9002
+  server: 84.239.49.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0106
+  port: 9002
+  server: 84.239.49.191
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 13|RO_speednode_0111
   port: 9002
   server: 84.239.49.219
@@ -2267,6 +2158,27 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 13|RO_speednode_0121
+  port: 9002
+  server: 84.239.49.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0123
+  port: 9002
+  server: 84.239.49.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0124
+  port: 9002
+  server: 84.239.49.60
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 13|RO_speednode_0125
   port: 9002
   server: 84.239.49.178
@@ -2295,6 +2207,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 13|RO_speednode_0129
+  port: 9002
+  server: 84.239.49.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0130
+  port: 9002
+  server: 84.239.49.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 13|RO_speednode_0131
   port: 9002
   server: 84.239.49.182
@@ -2312,6 +2238,13 @@ proxies:
 - name: 13|RO_speednode_0135
   port: 9002
   server: 84.239.49.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0136
+  port: 9002
+  server: 84.239.14.160
   skip-cert-verify: true
   tls: true
   type: http
@@ -2378,6 +2311,13 @@ proxies:
 - name: 13|RO_speednode_0152
   port: 9002
   server: 84.239.49.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|RO_speednode_0153
+  port: 9002
+  server: 84.239.49.47
   skip-cert-verify: true
   tls: true
   type: http
@@ -2773,6 +2713,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 13|RO_speednode_0212
+  port: 9002
+  server: 84.239.49.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 13|RO_speednode_0213
   port: 9002
   server: 84.239.49.160
@@ -3041,6 +2988,13 @@ proxies:
 - name: 13|US_speednode_0248
   port: 9002
   server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 13|US_speednode_0251
+  port: 9002
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
