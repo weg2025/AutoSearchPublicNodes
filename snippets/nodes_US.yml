@@ -1,87 +1,25 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 759
-  name: 9|美国 - 洛杉矶 - 12
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  delay: 1861
-  h2-opts: {}
-  http-opts: {}
-  name: 9|美国 - 洛杉矶 - 2
-  network: ws
-  port: 28167
-  server: 142.171.48.179
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
-  ws-opts:
-    headers:
-      HOST: gw.alicdn.com
-    path: /
-- cipher: aes-256-cfb
-  delay: 908
-  name: 9|美国 - Ashburn - 1
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
 - name: 11,12|美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  port: 39024
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+  port: 39024
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 11,12|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 13|US_speednode_0243
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 13|US_speednode_0262
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 13|US_speednode_0277
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
