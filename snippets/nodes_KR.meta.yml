@@ -1,5 +1,5 @@
 proxies:
-- name: 7|🇰🇷KR
+- name: 8|KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -7,8 +7,16 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
+- name: 8|🇰🇷 KR
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
+  tls: false
+  type: hysteria2
 - delay: 1048
-  name: 9,13|KR_speednode_0013
+  name: 10|韩国 - 首尔特别市 - 1
   password: ND91608427
   port: 443
   server: moved-meerkat.rooster465.autos
@@ -17,7 +25,7 @@ proxies:
   type: trojan
   udp: true
 - delay: 628
-  name: 9,13|KR_speednode_0012
+  name: 10|韩国 - 首尔特别市 - 2
   password: ND91608427
   port: 443
   server: definite-malamute.rooster465.autos
