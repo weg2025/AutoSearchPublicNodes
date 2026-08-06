@@ -1,23 +1,22 @@
 proxies:
-- delay: 964
-  name: 10|日本 - 东京 - 1
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
+- name: 8|JP
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
+  sni: freedom.chenlan.top
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   country: 🇯🇵JP
-  delay: 2521
+  delay: 252
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /
-  name: 10|日本 - 东京 - 2
+  name: 10|日本 - Tokyo - 1
   network: http
   port: 53268
   server: 47.74.43.250
@@ -48,33 +47,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|JP_speednode_0010
-  network: tcp
-  port: 10053
-  reality-opts:
-    public-key: o-ud3x7exNVYmknsVseZyUGMyK_680Nub0Cf6W4KiRw
-    short-id: cbbf64
-  server: family.bucket.9.kfc-520.com
-  servername: www.amd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 14|JP_speednode_0011
-  network: tcp
-  port: 10005
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: 1974efea3b2148
-  server: family.bucket.4.kfc-520.com
-  servername: www.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
