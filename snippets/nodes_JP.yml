@@ -1,25 +1,23 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇯🇵JP
-  delay: 252
+  country: 🇨🇳CN
+  delay: 392
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|日本 - Tokyo - 1
-  network: http
-  port: 53268
-  server: 47.74.43.250
+  http-opts: {}
+  name: 10|日本 - Osaka - 1
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  servername: v6.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
+  port: 9408
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

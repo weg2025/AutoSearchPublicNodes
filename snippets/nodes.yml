@@ -1,47 +1,319 @@
 proxies:
-- cipher: aes-256-gcm
-  delay: 726
-  name: 10|俄罗斯 - Moscow - 1
-  password: 895b4b796a357570
-  port: 7011
-  server: 176.32.35.51
-  type: ss
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇮🇹IT
-  delay: 2928
+  country: 🇭🇰HK
+  delay: 760
   h2-opts: {}
   http-opts: {}
-  name: 10|荷兰 - Haarlem - 1
+  name: 10|爱尔兰 - Dublin - 1
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1923
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - Frankfurt am Main - 1
   network: ws
-  port: 443
-  server: 89.150.35.155
-  servername: apjhdggyx.com
+  port: 2053
+  server: cf.levikogjgfdd.ir
+  servername: deapp.jisuyun.top
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
     headers:
-      HOST: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
+      HOST: deapp.jisuyun.top
+    path: /devm
+- alterId: 2
   cipher: auto
-  country: 🇯🇵JP
-  delay: 252
+  country: 🇨🇳CN
+  delay: 1069
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|日本 - Tokyo - 1
-  network: http
-  port: 53268
-  server: 47.74.43.250
+  http-opts: {}
+  name: 10|德国 - Frankfurt am Main - 2
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
   skip-cert-verify: true
   type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇬🇧GB
+  delay: 653
+  h2-opts: {}
+  http-opts: {}
+  name: 10|法国 - Paris - 1
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇩🇪DE
+  delay: 1751
+  name: 10|芬兰 - Helsinki - 1
+  password: d3dNkbPb1w5BCBx9Fr5xsb
+  port: 5223
+  server: creativeboxfin.zanity.net
+  type: ss
+- cipher: aes-128-gcm
+  country: 🏁ZZ
+  delay: 1054
+  name: 10|美国 - Los Angeles - 11
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 692
+  name: 10|美国 - Los Angeles - 12
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  delay: 1395
+  name: 10|美国 - Los Angeles - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 88.210.36.108
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1492
+  name: 10|美国 - San Jose - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 657
+  name: 10|美国 - San Jose - 10
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.115
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  delay: 404
+  name: 10|美国 - San Jose - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @VPNine1)817aa69:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.126
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 387
+  name: 10|美国 - San Jose - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 2409
+  name: 10|美国 - San Jose - 5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 134.195.101.231
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 366
+  name: 10|美国 - San Jose - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 629
+  name: 10|美国 - San Jose - 7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 397
+  name: 10|美国 - San Jose - 8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 627
+  name: 10|美国 - San Jose - 9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.125
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 392
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - Osaka - 1
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  servername: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇷BR
+  delay: 628
+  name: 10|瑞典 - Stockholm - 1
+  password: BsVzyLrGhbw4MivQz7k1_Q
+  port: 60035
+  server: 201.34.136.122
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 999
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - Hong Kong - 5
+  network: ws
+  port: 443
+  server: 43.198.204.35
+  servername: cE0gedPXwOU6cqoN.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      HOST: cE0gedPXwOU6cqoN.v.3dns.vip
+    path: /ws-vmess
+- alterId: 2
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 605
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - Kwai Chung - 1
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 589
+  name: 10|中国 - Taichung - 2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 60.249.35.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 188
+  name: 10|中国 - Taichung - 3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aee97b7:155033
+    mode: tls
+  port: 2377
+  server: 61.216.165.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 1779
+  name: 10|中国 - Taichung - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)5337fad:11915
+    mode: tls
+  port: 2377
+  server: 60.249.14.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 1843
+  name: 10|中国 - Taichung - 6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)7eb777f:123571
+    mode: tls
+  port: 2377
+  server: 59.125.62.188
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  delay: 212
+  name: 10|中国 - Tung Chung - 7
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -60,32 +332,32 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17111
-  server: 18.163.100.58
+  port: 5077
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50115
-  server: 16.162.3.64
+  port: 27161
+  server: 43.198.209.68
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 16.162.3.64
+  port: 29444
+  server: 16.162.161.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
+  port: 9408
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -124,8 +396,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26704
-  server: 95.40.205.94
+  port: 41421
+  server: 43.198.209.68
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -148,8 +420,8 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
+  port: 34039
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
