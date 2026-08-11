@@ -39,17 +39,26 @@ proxies:
   tls: false
   type: hysteria2
 - name: '8|德国 #3'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
   port: 443
-  server: bel-03.node.lumixnet.com
-  sni: bel-03.node.lumixnet.com
+  server: 87.120.84.189
+  sni: de1.apexvpn.space
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  delay: 480
+  delay: 434
   name: 10|德国 - Frankfurt am Main - 1
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
-  server: 130.61.86.101
+  server: 130.61.147.181
   type: ss
   udp: true
+- name: 14|DE_speednode_0001
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: testuser1

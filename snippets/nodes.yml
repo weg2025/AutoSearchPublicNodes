@@ -1,26 +1,51 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  delay: 480
+  delay: 434
   name: 10|德国 - Frankfurt am Main - 1
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
-  server: 130.61.86.101
+  server: 130.61.147.181
   type: ss
   udp: true
-- delay: 2043
-  name: 10|荷兰 - Amsterdam - 4
-  network: ws
-  password: MITIVPN
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  delay: 2620
+  name: 10|芬兰 - Helsinki - 1
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: autodiscover.fuzzyaytor.cyou
+  type: ss
+- delay: 775
+  name: 10|韩国 - Incheon - 1
+  password: ND91608427
   port: 443
-  server: 104.21.5.155
+  server: 52.78.13.238
   skip-cert-verify: true
-  sni: de1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  sni: upward-puma.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: de1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- country: 🇰🇷KR
+  delay: 1696
+  name: 10|韩国 - Incheon - 2
+  password: ND91608427
+  port: 443
+  server: upward-puma.rooster465.autos
+  skip-cert-verify: true
+  sni: upward-puma.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇸🇬SG
+  delay: 1199
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - Kwai Chung - 1
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -39,40 +64,41 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39412
+  port: 50887
   server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 12,13|香港4|@ripaojiedian
+- name: 12,13,14|HK_speednode_0013
   network: tcp
   password: BxceQaOe
-  port: 35151
-  server: 16.162.190.25
+  port: 27161
+  server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35151
-  server: 18.167.76.203
+  port: 29444
+  server: 18.162.120.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.167.76.203
+  port: 9408
+  server: 16.162.92.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 18.166.178.12
+  port: 18617
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -81,7 +107,7 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
@@ -97,14 +123,14 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.163.120.239
+  port: 41421
+  server: 95.40.53.193
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -119,8 +145,8 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.167.76.203
+  port: 39024
+  server: 18.166.226.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -134,3 +160,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 14|HK_speednode_0012
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 14|JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true
