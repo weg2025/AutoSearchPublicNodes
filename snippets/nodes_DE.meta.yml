@@ -2,26 +2,11 @@ proxies:
 - name: 8|德国
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
-  server: 144.31.166.91
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: '8|德国 #1'
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
   server: de-two.quiet-rogue.site
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: 8|DE
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: dg1.mangshe.xyz
-  skip-cert-verify: true
-  sni: dg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '8|德国 #2'
+- name: '8|德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.120
@@ -38,27 +23,56 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '8|德国 #3'
+- name: '8|德国 #2'
   password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
   port: 443
   server: 87.120.84.189
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: 9|️44@oneclickvpnkeys
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|dc-udp- Germany-Berlin-met_vg8...
   obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 22j0d00lev7mq0yv
-  port: 443
-  server: social.klipp.su
-  sni: social.klipp.su
+  obfs-password: mtg2vchyir6la3et
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52021
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|️40@oneclickvpnkeys
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|dc-udp-🇩🇪 Germany-Dusseldorf-m...
+  obfs: salamander
+  obfs-password: 1wcfqg6gwoyxlplo
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52022
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|dc-udp-🇩🇪 Germany-Frankfurt-me...
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52023
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 9|🇩🇪141289 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 103.27.156.125
-  sni: node-degame.bangboonet.ru
+  server: de2.sferavpn.pro
+  sni: de2.sferavpn.pro
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
