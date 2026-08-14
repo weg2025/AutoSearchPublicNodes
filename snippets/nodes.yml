@@ -1,46 +1,137 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 434
-  name: 10|德国 - Frankfurt am Main - 1
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.147.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  delay: 2620
-  name: 10|芬兰 - Helsinki - 1
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: autodiscover.fuzzyaytor.cyou
-  type: ss
-- delay: 775
-  name: 10|韩国 - Incheon - 1
-  password: ND91608427
+- country: 🇮🇳IN
+  delay: 2037
+  name: 10|波兰 - Ursynów - 1
+  password: AE62539071
   port: 443
-  server: 52.78.13.238
+  server: relative-locust.rooster465.autos
   skip-cert-verify: true
-  sni: upward-puma.rooster465.autos
   type: trojan
   udp: true
-- country: 🇰🇷KR
-  delay: 1696
-  name: 10|韩国 - Incheon - 2
-  password: ND91608427
+- country: 🇮🇳IN
+  delay: 978
+  name: 10|波兰 - Ursynów - 2
+  password: AE62539071
   port: 443
-  server: upward-puma.rooster465.autos
+  server: enough-basilisk.rooster465.autos
   skip-cert-verify: true
-  sni: upward-puma.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1106
+  name: 10|德国 - Frankfurt am Main - 1
+  password: AE62539071
+  port: 443
+  server: dashing-bedbug.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1359
+  name: 10|德国 - Frankfurt am Main - 2
+  password: AE62539071
+  port: 443
+  server: 3.79.7.150
+  skip-cert-verify: true
+  sni: moved-bluegill.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇨🇿CZ
+  delay: 675
+  name: 10|俄罗斯 - Saint Petersburg - 1
+  password: 81a20429165df87e
+  port: 30331
+  server: 195.133.23.200
+  type: ss
+- country: 🇫🇷FR
+  delay: 2972
+  name: 10|法国 - Paris - 1
+  password: AE62539071
+  port: 443
+  server: chief-cricket.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1004
+  name: 10|法国 - Paris - 2
+  password: AE62539071
+  port: 443
+  server: one-quail.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇫🇷FR
+  delay: 1134
+  name: 10|法国 - Paris - 3
+  password: AE62539071
+  port: 443
+  server: tough-hermit.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  delay: 1783
+  name: 10|法国 - Paris - 4
+  password: AE62539071
+  port: 443
+  server: distinct-quail.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇷🇴RO
+  delay: 1463
+  name: 10|荷兰 - Amsterdam - 1
+  password: AE62539071
+  port: 443
+  server: whole-woodcock.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 2349
+  name: 10|加拿大 - Toronto - 1
+  password: fbcec76953a2d173
+  port: 30331
+  server: 212.193.6.107
+  type: ss
+- country: 🇯🇵JP
+  delay: 1610
+  name: 10|日本 - Tokyo - 1
+  password: AE62539071
+  port: 443
+  server: improved-anteater.rooster465.autos
+  skip-cert-verify: true
+  sni: improved-anteater.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  delay: 1887
+  name: 10|中国 - Hong Kong - 1
+  password: AE62539071
+  port: 443
+  server: magical-kodiak.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇷🇴RO
+  delay: 884
+  name: 10|中国 - Hong Kong - 2
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
+  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 2
   cipher: auto
   country: 🇸🇬SG
-  delay: 1199
+  delay: 854
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - Kwai Chung - 1
+  name: 10|中国 - Kwai Chung - 3
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
@@ -64,40 +155,40 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 16.162.109.29
+  port: 7674
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29444
-  server: 18.162.156.145
+  port: 11035
+  server: 18.163.113.86
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.162.120.218
+  port: 25982
+  server: 18.163.113.86
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 16691
-  server: 16.162.33.15
+  port: 4099
+  server: 43.199.31.69
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 54876
-  server: 16.162.100.124
+  port: 18617
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -105,31 +196,31 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 3415
-  server: 16.162.109.29
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 45744
-  server: 16.162.109.29
+  port: 32434
+  server: 16.162.129.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 32434
-  server: 16.162.100.124
+  port: 45744
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 18.167.42.162
+  port: 45744
+  server: 43.199.31.69
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -137,7 +228,7 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
-  server: 18.163.126.92
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -152,8 +243,8 @@ proxies:
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.166.211.66
+  port: 53001
+  server: 16.162.192.11
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

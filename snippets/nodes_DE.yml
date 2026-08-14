@@ -1,9 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 434
+- country: 🇩🇪DE
+  delay: 1106
   name: 10|德国 - Frankfurt am Main - 1
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.147.181
-  type: ss
+  password: AE62539071
+  port: 443
+  server: dashing-bedbug.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  delay: 1359
+  name: 10|德国 - Frankfurt am Main - 2
+  password: AE62539071
+  port: 443
+  server: 3.79.7.150
+  skip-cert-verify: true
+  sni: moved-bluegill.rooster465.autos
+  type: trojan
   udp: true
