@@ -30,6 +30,28 @@ proxies:
   sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: 9||DE|@wxgqlfx|223
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr131.mechvpn.online
+  skip-cert-verify: true
+  sni: fr131.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 9|🇩🇪143501 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6w7g6soybp5uguk8
+  password: ig7jd1393f1qjp64
+  port: 56121
+  server: gym.akfitness.ir
+  skip-cert-verify: false
+  sni: gym.akfitness.ir
+  tls: false
+  type: hysteria2
 - name: 9|𝐧  𝐞𝐧  🇩🇪-@vpnserverrr
   obfs: salamander
   obfs-password: w086cefx0803sepr
@@ -40,26 +62,18 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
-- country: 🇩🇪DE
-  delay: 1106
-  name: 10|德国 - Frankfurt am Main - 1
-  password: AE62539071
+- alpn:
+  - h3
+  name: 9|🇪|DE|@wxgqlfx|213
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
-  server: dashing-bedbug.rooster465.autos
+  server: de.1.22.washing.help
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇩🇪DE
-  delay: 1359
-  name: 10|德国 - Frankfurt am Main - 2
-  password: AE62539071
-  port: 443
-  server: 3.79.7.150
-  skip-cert-verify: true
-  sni: moved-bluegill.rooster465.autos
-  type: trojan
-  udp: true
-- name: 14|DE_speednode_0001
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- delay: 1537
+  name: 10,14|DE_speednode_0001
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
