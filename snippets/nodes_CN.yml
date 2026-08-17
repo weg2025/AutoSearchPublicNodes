@@ -1,8 +1,32 @@
 proxies:
+- cipher: chacha20-ietf
+  delay: 1116
+  name: 10|中国 - Hoi Fu Court - 3
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8106
+  server: cn02.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  delay: 1116
+  name: 10|中国 - Hoi Fu Court - 4
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8108
+  server: cn02.somethingstranges.com
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   country: 🇸🇬SG
-  delay: 780
+  delay: 512
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - Kwai Chung - 1
@@ -11,3 +35,27 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf
+  delay: 1333
+  name: 10|中国 - Sha Tin - 2
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8102
+  server: cn01.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  delay: 2134
+  name: 10|中国 - Sha Tin - 5
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8101
+  server: cn01.somethingstranges.com
+  type: ss
+  udp: true
