@@ -1,12 +1,4 @@
 proxies:
-- name: 8|🇸US
-  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: true
-  sni: srvhy1.ezcon24.online
-  tls: false
-  type: hysteria2
 - name: 8,9|🇺🇸|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
@@ -37,6 +29,14 @@ proxies:
   port: 8458
   server: hy2-us.frdmhere.com
   sni: hy2.frdmhere.com
+  tls: false
+  type: hysteria2
+- name: '8|美国 #3'
+  password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
+  port: 11683
+  server: uswx4.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.153
   tls: false
   type: hysteria2
 - name: 8|🇺🇸139909 | Telegram = t.me/SOS...
@@ -328,24 +328,24 @@ proxies:
 - name: 12,13|美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 18.163.126.92
+  port: 39024
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 16.162.192.182
+  port: 39024
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 16.163.144.245
+  port: 53001
+  server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
