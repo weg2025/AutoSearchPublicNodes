@@ -1,5 +1,5 @@
 proxies:
-- name: 8,9|🇺🇸|US|@wxgqlfx|16
+- name: 8,9|рҹҮәрҹҮё|US|@wxgqlfx|16
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
@@ -7,99 +7,40 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 8,9|🇸|US|@wxgqlfx|16
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: 9|рҹҮрҹҮ|US|@wxgqlfx|251
+  password: 133f76fc-a5ab-463e-b46d-9587d7137e55
   port: 443
-  server: 18.226.172.222
+  server: node3.vpnushka.lol
   skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
+  sni: node3.vpnushka.lol
   tls: false
   type: hysteria2
-- name: '8|美国 #1'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: node1.sferavpn.pro
-  sni: node1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: '8|美国 #2'
-  password: e0c7af35-e2db-47c7-b1a3-ce5ec0dd0474
-  port: 8458
-  server: hy2-us.frdmhere.com
-  sni: hy2.frdmhere.com
-  tls: false
-  type: hysteria2
-- name: '8|美国 #3'
-  password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
-  port: 11683
-  server: uswx4.wxgqlfx.vip
+- country: 🇺🇸US
+  delay: 767
+  name: 10|美国 - Chicago - 25
+  password: fg20mtCFHy
+  port: 5446
+  server: 172.237.131.75
   skip-cert-verify: true
-  sni: 144.225.187.153
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸|US|@wxgqlfx|219
-  password: b41ad7f941ffce755cb8601bfd0f02ca
-  port: 50160
-  server: 35-209-199-239.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 35-209-199-239.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: 9|🇺🇸|US|@wxgqlfx|20
-  password: ed77b662dbdf1a817d5eb75ae940cac4
-  port: 50160
-  server: 198-46-188-116.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 198-46-188-116.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: 9|🇺🇸|US|@wxgqlfx|212
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: de.1.23.h2corp.org
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- delay: 1529
-  name: 10,14|US_speednode_0134
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: chosucy.southbyte.xyz
+  type: trojan
   udp: true
-- delay: 1523
-  name: 10,14|US_speednode_0135
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  delay: 1344
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|美国 - Los Angeles - 1
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  type: vmess
   udp: true
-- delay: 902
-  name: 10,14|US_speednode_0136
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 891
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- delay: 1459
   name: 10,14|US_speednode_0138
   port: 9002
   server: 138.199.35.211
@@ -107,7 +48,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 893
+- delay: 865
   name: 10,14|US_speednode_0139
   port: 9002
   server: 138.199.35.199
@@ -115,31 +56,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 902
-  name: 10,14|US_speednode_0140
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1329
-  name: 10,14|US_speednode_0141
-  port: 443
-  server: fan.226278.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 897
-  name: 10,14|US_speednode_0121
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 895
+- delay: 1492
   name: 10,14|US_speednode_0124
   port: 9002
   server: 138.199.35.210
@@ -147,7 +64,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 901
+- delay: 1412
   name: 10,14|US_speednode_0128
   port: 9002
   server: 138.199.35.212
@@ -155,7 +72,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 893
+- delay: 1580
   name: 10,14|US_speednode_0129
   port: 9002
   server: 138.199.35.208
@@ -163,7 +80,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1717
+- delay: 1465
   name: 10,14|US_speednode_0130
   port: 9002
   server: 138.199.35.214
@@ -171,7 +88,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 906
+- delay: 875
   name: 10,14|US_speednode_0131
   password: None
   port: 9002
@@ -180,7 +97,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 891
+- delay: 870
   name: 10,14|US_speednode_0132
   port: 9002
   server: 138.199.35.220
@@ -188,7 +105,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 887
+- delay: 867
   name: 10,14|US_speednode_0133
   port: 9002
   server: 138.199.35.197
@@ -196,7 +113,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1817
+- delay: 1448
+  name: 10,14|US_speednode_0135
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2145
   name: 10,14|US_speednode_0142
   port: 9002
   server: 156.146.59.4
@@ -204,15 +130,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1291
-  name: 10,14|US_speednode_0144
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1066
+- delay: 1025
   name: 10,14|US_speednode_0145
   password: None
   port: 9002
@@ -221,7 +139,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1124
+- delay: 1104
   name: 10,14|US_speednode_0146
   port: 9002
   server: 156.146.59.23
@@ -229,7 +147,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1126
+- delay: 1080
   name: 10,14|US_speednode_0147
   port: 9002
   server: 156.146.59.33
@@ -237,7 +155,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2029
+- delay: 1069
   name: 10,14|US_speednode_0148
   port: 9002
   server: 156.146.59.9
@@ -245,7 +163,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1124
+- delay: 1046
+  name: 10,14|US_speednode_0149
+  password: None
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2810
   name: 10,14|US_speednode_0150
   port: 9002
   server: 156.146.59.31
@@ -253,15 +180,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1126
-  name: 10,14|US_speednode_0151
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1507
+- delay: 2536
   name: 10,14|US_speednode_0152
   port: 9002
   server: 156.146.59.8
@@ -269,7 +188,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1124
+- delay: 2062
   name: 10,14|US_speednode_0154
   port: 9002
   server: 156.146.59.15
@@ -277,7 +196,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1289
+- delay: 1098
   name: 10,14|US_speednode_0155
   port: 9002
   server: 156.146.59.27
@@ -285,7 +204,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1507
+- delay: 1052
   name: 10,14|US_speednode_0156
   port: 9002
   server: 156.146.59.34
@@ -293,7 +212,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1121
+- delay: 1408
   name: 10,14|US_speednode_0157
   port: 9002
   server: 156.146.59.10
@@ -301,26 +220,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 2943
-  name: 10,14|US_speednode_0158
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1124
+- delay: 1571
   name: 10,14|US_speednode_0159
   port: 9002
   server: 156.146.59.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 913
-  name: 10,14|US_speednode_0119
-  port: 443
-  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
@@ -377,6 +280,13 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /musiclovers85_musiclovers85?ed=512
+- name: 14|US_speednode_0119
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   name: 14|US_speednode_0120
   network: ws
@@ -392,6 +302,13 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
+- name: 14|US_speednode_0121
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 14|US_speednode_0122
   network: ws
   port: 443
@@ -460,6 +377,21 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 14|US_speednode_0134
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0136
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0137
@@ -475,6 +407,19 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+- name: 14|US_speednode_0140
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0141
+  port: 443
+  server: fan.226278.xyz
+  tls: true
+  type: http
+  udp: true
 - name: 14|US_speednode_0143
   port: 9002
   server: 156.146.59.28
@@ -482,10 +427,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0149
-  password: None
+- name: 14|US_speednode_0144
   port: 9002
-  server: 156.146.59.19
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0151
+  port: 9002
+  server: 156.146.59.41
   skip-cert-verify: true
   tls: true
   type: http
@@ -493,6 +444,13 @@ proxies:
 - name: 14|US_speednode_0153
   port: 9002
   server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0158
+  port: 9002
+  server: 156.146.59.39
   skip-cert-verify: true
   tls: true
   type: http
