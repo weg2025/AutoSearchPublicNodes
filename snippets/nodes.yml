@@ -1,200 +1,228 @@
 proxies:
-- country: 🇺🇸US
-  delay: 882
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 527
   name: 10|德国 - Frankfurt am Main - 1
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
-  type: trojan
-  udp: true
+  password: amazonskr05
+  port: 443
+  server: 63.178.246.78
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 504
+  name: 10|德国 - Frankfurt am Main - 2
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
+  type: ss
 - cipher: aes-256-gcm
   country: 🇷🇺RU
-  delay: 1032
-  name: 10|俄罗斯 - Moscow - 3
-  password: 6b39ae3234dfd68b
-  port: 20887
-  server: 45.140.169.123
+  delay: 713
+  name: 10|俄罗斯 - Moscow - 1
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
   type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  delay: 1062
-  name: 10|俄罗斯 - Saint Petersburg - 1
-  password: d99c422199e62b6b
-  port: 20998
-  server: 195.133.23.5
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇨🇿CZ
-  delay: 717
-  name: 10|俄罗斯 - Saint Petersburg - 2
-  password: 81a20429165df87e
-  port: 10998
-  server: 195.133.23.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇪🇸ES
-  delay: 1353
-  name: 10|芬兰 - Helsinki - 1
-  password: YwkJ1ViArbK6AZBCyjEC2p
-  port: 5223
-  server: creativeboxvpnf.zanity.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 660
-  name: 10|韩国 - Gangseo-gu - 1
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
-  server: 211.91.158.24
-  type: ss
-  udp: true
-- country: 🇳🇱NL
-  delay: 831
-  name: 10|荷兰 - Amsterdam - 9
-  password: fg20mtCFHy
-  port: 5446
-  server: 206.189.7.80
+- country: 🇫🇷FR
+  delay: 1006
+  name: 10|法国 - Paris - 1
+  password: EQ30679154
+  port: 443
+  server: star-moray.rooster465.autos
   skip-cert-verify: true
-  sni: inxgc.southbyte.xyz
+  sni: star-moray.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇸🇬SG
+  delay: 393
+  name: 10|韩国 - Seoul - 1
+  password: StO6w4Osht9ZcK2mIv3U14
+  port: 8444
+  server: 43.133.253.211
+  skip-cert-verify: true
+  sni: 43.133.253.211
   type: trojan
   udp: true
 - country: 🇺🇸US
-  delay: 789
-  name: 10|加拿大 - Toronto - 1
-  password: fg20mtCFHy
-  port: 1921
-  server: 137.184.172.41
+  delay: 1015
+  name: 10|美国 - Boardman - 3
+  password: EQ30679154
+  port: 443
+  server: warm-krill.rooster465.autos
   skip-cert-verify: true
-  sni: sfecv.southbyte.xyz
+  sni: warm-krill.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 539
+  name: 10|美国 - Columbus - 1
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 539
+  name: 10|美国 - Columbus - 2
+  password: amazonskr05
+  port: 443
+  server: 18.188.213.207
+  type: ss
+- cipher: aes-256-cfb
+  delay: 347
+  name: 10|美国 - Los Angeles - 4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.234
+  type: ss
+- country: 🇯🇵JP
+  delay: 898
+  name: 10|日本 - Tokyo - 1
+  password: EQ30679154
+  port: 443
+  server: wealthy-gobbler.rooster465.autos
+  skip-cert-verify: true
+  sni: wealthy-gobbler.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇯🇵JP
+  delay: 885
+  name: 10|日本 - Tokyo - 2
+  password: EQ30679154
+  port: 443
+  server: concise-grackle.rooster465.autos
+  skip-cert-verify: true
+  sni: concise-grackle.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  delay: 317
+  name: 10|新加坡 - Singapore - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇸🇬SG
+  delay: 838
+  name: 10|新加坡 - Singapore - 2
+  password: kUIoP1MSXcvz
+  port: 8388
+  server: 167.99.66.226
+  type: ss
+- country: 🇸🇬SG
+  delay: 652
+  name: 10|新加坡 - Singapore - 3
+  password: EQ30679154
+  port: 443
+  server: picked-hamster.rooster465.autos
+  skip-cert-verify: true
+  sni: picked-hamster.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇸🇬SG
+  delay: 653
+  name: 10|新加坡 - Singapore - 4
+  password: EQ30679154
+  port: 443
+  server: internal-raccoon.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-raccoon.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇸🇬SG
+  delay: 1678
+  name: 10|新加坡 - Singapore - 5
+  password: EQ30679154
+  port: 443
+  server: willing-eagle.rooster465.autos
+  skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  delay: 767
-  name: 10|美国 - Chicago - 25
-  password: fg20mtCFHy
-  port: 5446
-  server: 172.237.131.75
+  delay: 667
+  name: 10|新加坡 - Singapore - 6
+  password: EQ30679154
+  port: 443
+  server: curious-ocelot.rooster465.autos
   skip-cert-verify: true
-  sni: chosucy.southbyte.xyz
+  sni: curious-ocelot.rooster465.autos
   type: trojan
   udp: true
+- country: 🇺🇸US
+  delay: 651
+  name: 10|新加坡 - Singapore - 7
+  password: EQ30679154
+  port: 443
+  server: modest-bat.rooster465.autos
+  skip-cert-verify: true
+  sni: modest-bat.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 175
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - Hefei - 2
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  delay: 1344
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|美国 - Los Angeles - 1
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 2123
-  name: 10|日本 - Asagaya-minami - 5
-  password: synlgmm
-  port: 443
-  server: 66.112.211.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: 🇯🇵JP
-  delay: 2309
-  name: 10|日本 - Ōi - 1
-  password: WbEN0g6Rbnsye8EJZz94OF
+  delay: 1297
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - Hong Kong - 1
+  network: ws
   port: 443
-  server: 108.61.223.231
+  server: 210.138.37.53
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      HOST: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-cfb
+  delay: 1150
+  name: 10|中国 - Hong Kong - 3
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.251.128
   type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 454
-  name: 10|日本 - Ōi - 6
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.27
+- cipher: aes-256-cfb
+  delay: 740
+  name: 10|中国 - Hong Kong - 4
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.97
   type: ss
-  udp: true
-- country: 🇯🇵JP
-  delay: 609
-  name: 10|日本 - Tokyo - 2
-  password: HC04361579
-  port: 443
-  server: legible-ocelot.rooster465.autos
-  skip-cert-verify: true
-  sni: legible-ocelot.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 1895
-  name: 10|日本 - Tokyo - 3
-  password: HC04361579
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 2912
-  name: 10|日本 - Tokyo - 4
-  password: HC04361579
-  port: 443
-  server: settling-shad.rooster465.autos
-  skip-cert-verify: true
-  sni: settling-shad.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 591
-  name: 10|日本 - Tokyo - 7
+- cipher: aes-256-cfb
+  delay: 136
+  name: 10|中国 - Hong Kong - 5
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.96
+  type: ss
+- country: 🇸🇬SG
+  delay: 417
+  name: 10|中国 - Hong Kong - 6
   password: fg20mtCFHy
-  port: 5710
-  server: 172.105.197.232
+  port: 5496
+  server: 8.217.167.229
   skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
+  sni: hyctx.southbyte.xyz
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 981
-  name: 10|瑞典 - Stockholm - 1
-  password: fg20mtCFHy
-  port: 5612
-  server: 172.234.100.80
-  skip-cert-verify: true
-  sni: yugdv.southbyte.xyz
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 945
-  name: 10|意大利 - Milan - 1
-  password: fg20mtCFHy
-  port: 5444
-  server: 172.238.226.26
-  skip-cert-verify: true
-  sni: xcvge.southbyte.xyz
-  type: trojan
-  udp: true
-- country: 🇮🇳IN
-  delay: 1251
-  name: 10|印度 - Bāshettihalli - 1
-  password: fg20mtCFHy
-  port: 5750
-  server: 157.245.99.215
-  skip-cert-verify: true
-  sni: inyct.southbyte.xyz
-  type: trojan
-  udp: true
-- delay: 899
-  name: 10|英国 - London - 1
-  password: fg20mtCFHy
-  port: 5624
-  server: 104.248.167.79
-  sni: dsgvc.southbyte.xyz
-  type: trojan
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -213,16 +241,16 @@ proxies:
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 18.162.156.145
+  port: 14684
+  server: 43.199.143.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 18.163.114.228
+  port: 11231
+  server: 95.40.89.31
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -230,38 +258,46 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 7674
-  server: 16.162.103.28
+  server: 95.40.89.31
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 54.46.126.133
+  port: 3878
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18617
-  server: 16.162.109.29
+  port: 14625
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 26704
-  server: 18.163.114.228
+  port: 55647
+  server: 16.162.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 12,13|新加坡|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 45744
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
+  port: 32434
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -269,8 +305,8 @@ proxies:
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 26704
-  server: 16.163.139.175
+  port: 45744
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -278,23 +314,23 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
-  server: 16.162.192.182
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.100.124
+  port: 28051
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.103.28
+  port: 10418
+  server: 18.163.74.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -308,27 +344,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 14|HK_speednode_0012
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 14|HK_speednode_0013
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 14|JP_speednode_0014
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
-  type: trojan
-  udp: true

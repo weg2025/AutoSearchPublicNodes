@@ -1,11 +1,17 @@
 proxies:
-- country: 🇺🇸US
-  delay: 882
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 527
   name: 10|德国 - Frankfurt am Main - 1
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
-  type: trojan
-  udp: true
+  password: amazonskr05
+  port: 443
+  server: 63.178.246.78
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇩🇪DE
+  delay: 504
+  name: 10|德国 - Frankfurt am Main - 2
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
+  type: ss

@@ -1,97 +1,45 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 2123
-  name: 10|日本 - Asagaya-minami - 5
-  password: synlgmm
+- country: 🇯🇵JP
+  delay: 898
+  name: 10|日本 - Tokyo - 1
+  password: EQ30679154
   port: 443
-  server: 66.112.211.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇯🇵JP
-  delay: 2309
-  name: 10|日本 - Ōi - 1
-  password: WbEN0g6Rbnsye8EJZz94OF
-  port: 443
-  server: 108.61.223.231
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 454
-  name: 10|日本 - Ōi - 6
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.27
-  type: ss
+  server: wealthy-gobbler.rooster465.autos
+  skip-cert-verify: true
+  sni: wealthy-gobbler.rooster465.autos
+  type: trojan
   udp: true
 - country: 🇯🇵JP
-  delay: 609
+  delay: 885
   name: 10|日本 - Tokyo - 2
-  password: HC04361579
+  password: EQ30679154
   port: 443
-  server: legible-ocelot.rooster465.autos
+  server: concise-grackle.rooster465.autos
   skip-cert-verify: true
-  sni: legible-ocelot.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 1895
-  name: 10|日本 - Tokyo - 3
-  password: HC04361579
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 2912
-  name: 10|日本 - Tokyo - 4
-  password: HC04361579
-  port: 443
-  server: settling-shad.rooster465.autos
-  skip-cert-verify: true
-  sni: settling-shad.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇯🇵JP
-  delay: 591
-  name: 10|日本 - Tokyo - 7
-  password: fg20mtCFHy
-  port: 5710
-  server: 172.105.197.232
-  skip-cert-verify: true
-  sni: jpcaw.southbyte.xyz
+  sni: concise-grackle.rooster465.autos
   type: trojan
   udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 54.46.126.133
+  port: 3878
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18617
-  server: 16.162.109.29
+  port: 14625
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 26704
-  server: 18.163.114.228
+  port: 55647
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 14|JP_speednode_0014
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
-  type: trojan
-  udp: true
