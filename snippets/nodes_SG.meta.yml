@@ -1,13 +1,5 @@
 proxies:
 - name: 8|SG
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 1935
-  server: sg2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '8|SG #1'
   password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
   port: 12645
   server: vip-sg-1.hkd4fwmg.vip
@@ -15,7 +7,7 @@ proxies:
   sni: vip-sg-1.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- name: 8|🇸🇬SG
+- name: 8|🇸SG
   password: P6qkAwznuC076mbIR2cGPg==
   port: 34567
   server: 43.156.90.144
@@ -23,84 +15,37 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  delay: 317
+- name: '8|SG #1'
+  password: ZYTopBPE6fGijECIcT3KxqFEpjQJ44ND
+  port: 55793
+  server: vip-sg-2.hkd4fwmg.vip
+  skip-cert-verify: true
+  sni: vip-sg-2.hkd4fwmg.vip
+  tls: false
+  type: hysteria2
+- country: 🇸🇬SG
+  delay: 1480
   name: 10|新加坡 - Singapore - 1
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.90
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 838
-  name: 10|新加坡 - Singapore - 2
-  password: kUIoP1MSXcvz
-  port: 8388
-  server: 167.99.66.226
-  type: ss
-- country: 🇸🇬SG
-  delay: 652
-  name: 10|新加坡 - Singapore - 3
-  password: EQ30679154
-  port: 443
-  server: picked-hamster.rooster465.autos
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
   skip-cert-verify: true
-  sni: picked-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  delay: 653
-  name: 10|新加坡 - Singapore - 4
-  password: EQ30679154
-  port: 443
-  server: internal-raccoon.rooster465.autos
-  skip-cert-verify: true
-  sni: internal-raccoon.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  delay: 1678
-  name: 10|新加坡 - Singapore - 5
-  password: EQ30679154
-  port: 443
-  server: willing-eagle.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 667
-  name: 10|新加坡 - Singapore - 6
-  password: EQ30679154
-  port: 443
-  server: curious-ocelot.rooster465.autos
-  skip-cert-verify: true
-  sni: curious-ocelot.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  delay: 651
-  name: 10|新加坡 - Singapore - 7
-  password: EQ30679154
-  port: 443
-  server: modest-bat.rooster465.autos
-  skip-cert-verify: true
-  sni: modest-bat.rooster465.autos
+  sni: 139.59.238.97
   type: trojan
   udp: true
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -108,7 +53,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

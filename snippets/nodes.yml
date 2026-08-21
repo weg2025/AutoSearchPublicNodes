@@ -1,228 +1,177 @@
 proxies:
+- delay: 1801
+  name: 10|爱尔兰 - Dublin - 1
+  password: AE62539071
+  port: 443
+  server: 54.74.159.195
+  sni: kind-stork.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇮🇪IE
+  delay: 2683
+  name: 10|爱尔兰 - Dublin - 2
+  password: EQ30679154
+  port: 443
+  server: funny-hen.rooster465.autos
+  skip-cert-verify: true
+  sni: funny-hen.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇮🇪 IE
+  delay: 2941
+  name: 10|爱尔兰 - Dublin - 3
+  password: AE62539071
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇮🇪IE
+  delay: 1730
+  name: 10|爱尔兰 - Dublin - 4
+  password: PQ05174892
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: true
+  sni: kind-stork.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇧🇬 BG
+  delay: 1489
+  name: 10|澳大利亚 - Sydney - 1
+  password: AE62539071
+  port: 443
+  server: together-dingo.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇧🇬 BG
+  delay: 1921
+  name: 10|澳大利亚 - Sydney - 2
+  password: AE62539071
+  port: 443
+  server: darling-mutt.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 1137
+  name: 10|澳大利亚 - Sydney - 3
+  password: AE62539071
+  port: 443
+  server: 87.121.33.162
+  sni: together-dingo.rooster465.autos
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 527
+  delay: 747
   name: 10|德国 - Frankfurt am Main - 1
   password: amazonskr05
   port: 443
-  server: 63.178.246.78
+  server: 3.66.86.250
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇩🇪DE
-  delay: 504
-  name: 10|德国 - Frankfurt am Main - 2
-  password: amazonskr05
-  port: 443
-  server: 3.79.230.55
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇷🇺RU
-  delay: 713
-  name: 10|俄罗斯 - Moscow - 1
-  password: 1eadd4e4a37b6601
-  port: 10801
-  server: 45.8.158.176
-  type: ss
-- country: 🇫🇷FR
-  delay: 1006
+  country: 🇫🇷FR
+  delay: 1164
   name: 10|法国 - Paris - 1
-  password: EQ30679154
+  password: amazonskr05
   port: 443
-  server: star-moray.rooster465.autos
+  server: 13.38.30.165
+  type: ss
+- country: 🇹🇷 TR
+  delay: 1180
+  name: 10|荷兰 - Amsterdam - 1
+  password: AE62539071
+  port: 443
+  server: thorough-falcon.rooster465.autos
   skip-cert-verify: true
-  sni: star-moray.rooster465.autos
   type: trojan
   udp: true
-- country: 🇸🇬SG
-  delay: 393
-  name: 10|韩国 - Seoul - 1
-  password: StO6w4Osht9ZcK2mIv3U14
-  port: 8444
-  server: 43.133.253.211
+- country: 🇹🇷TR
+  delay: 836
+  name: 10|荷兰 - Amsterdam - 2
+  password: EQ30679154
+  port: 443
+  server: thorough-falcon.rooster465.autos
   skip-cert-verify: true
-  sni: 43.133.253.211
+  type: trojan
+  udp: true
+- country: 🇹🇷TR
+  delay: 803
+  name: 10|荷兰 - Amsterdam - 3
+  password: AE62539071
+  port: 443
+  server: 193.169.239.160
+  skip-cert-verify: true
+  sni: thorough-falcon.rooster465.autos
   type: trojan
   udp: true
 - country: 🇺🇸US
-  delay: 1015
-  name: 10|美国 - Boardman - 3
-  password: EQ30679154
-  port: 443
-  server: warm-krill.rooster465.autos
+  delay: 1366
+  name: 10|美国 - Los Angeles - 2
+  password: fg20mtCFHy
+  port: 5531
+  server: 128.14.148.84
   skip-cert-verify: true
-  sni: warm-krill.rooster465.autos
+  sni: ycgsc.southbyte.xyz
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  delay: 539
-  name: 10|美国 - Columbus - 1
-  password: amazonskr05
-  port: 443
-  server: 3.144.19.187
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 554
+  name: 10|美国 - Secaucus - 1
+  password: 1BuVr1kYF7v435mF
+  port: 80
+  server: 162.243.36.19
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  delay: 539
-  name: 10|美国 - Columbus - 2
-  password: amazonskr05
-  port: 443
-  server: 18.188.213.207
-  type: ss
-- cipher: aes-256-cfb
-  delay: 347
-  name: 10|美国 - Los Angeles - 4
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.234
-  type: ss
-- country: 🇯🇵JP
-  delay: 898
+- country: 🇯🇵 JP
+  delay: 945
   name: 10|日本 - Tokyo - 1
-  password: EQ30679154
+  password: AE62539071
   port: 443
-  server: wealthy-gobbler.rooster465.autos
+  server: polished-imp.rooster465.autos
   skip-cert-verify: true
-  sni: wealthy-gobbler.rooster465.autos
   type: trojan
   udp: true
-- country: 🇯🇵JP
-  delay: 885
+- delay: 742
   name: 10|日本 - Tokyo - 2
-  password: EQ30679154
+  password: AE62539071
   port: 443
-  server: concise-grackle.rooster465.autos
-  skip-cert-verify: true
-  sni: concise-grackle.rooster465.autos
+  server: 13.115.230.84
+  sni: polished-imp.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  delay: 317
+- country: 🇸🇬SG
+  delay: 1480
   name: 10|新加坡 - Singapore - 1
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.90
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇸🇬SG
-  delay: 838
-  name: 10|新加坡 - Singapore - 2
-  password: kUIoP1MSXcvz
-  port: 8388
-  server: 167.99.66.226
-  type: ss
-- country: 🇸🇬SG
-  delay: 652
-  name: 10|新加坡 - Singapore - 3
-  password: EQ30679154
-  port: 443
-  server: picked-hamster.rooster465.autos
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
   skip-cert-verify: true
-  sni: picked-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  delay: 653
-  name: 10|新加坡 - Singapore - 4
-  password: EQ30679154
-  port: 443
-  server: internal-raccoon.rooster465.autos
-  skip-cert-verify: true
-  sni: internal-raccoon.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇸🇬SG
-  delay: 1678
-  name: 10|新加坡 - Singapore - 5
-  password: EQ30679154
-  port: 443
-  server: willing-eagle.rooster465.autos
-  skip-cert-verify: true
+  sni: 139.59.238.97
   type: trojan
   udp: true
 - country: 🇺🇸US
-  delay: 667
-  name: 10|新加坡 - Singapore - 6
-  password: EQ30679154
-  port: 443
-  server: curious-ocelot.rooster465.autos
+  delay: 430
+  name: 10|中国 - Hong Kong - 2
+  password: fg20mtCFHy
+  port: 5443
+  server: 47.86.107.20
   skip-cert-verify: true
-  sni: curious-ocelot.rooster465.autos
+  sni: hytfes.southbyte.xyz
   type: trojan
   udp: true
-- country: 🇺🇸US
-  delay: 651
-  name: 10|新加坡 - Singapore - 7
-  password: EQ30679154
-  port: 443
-  server: modest-bat.rooster465.autos
-  skip-cert-verify: true
-  sni: modest-bat.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 175
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - Hefei - 2
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  country: 🇯🇵JP
-  delay: 1297
+  delay: 1033
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - Hong Kong - 1
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
+  name: 10|中国 - Taipei - 1
+  port: 794
+  server: 2.27.174.110
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      HOST: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- cipher: aes-256-cfb
-  delay: 1150
-  name: 10|中国 - Hong Kong - 3
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.251.128
-  type: ss
-- cipher: aes-256-cfb
-  delay: 740
-  name: 10|中国 - Hong Kong - 4
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.97
-  type: ss
-- cipher: aes-256-cfb
-  delay: 136
-  name: 10|中国 - Hong Kong - 5
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.96
-  type: ss
-- country: 🇸🇬SG
-  delay: 417
-  name: 10|中国 - Hong Kong - 6
-  password: fg20mtCFHy
-  port: 5496
-  server: 8.217.167.229
-  skip-cert-verify: true
-  sni: hyctx.southbyte.xyz
-  type: trojan
   udp: true
+  uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
@@ -240,65 +189,65 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 12,13|香港3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|新加坡2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -306,31 +255,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|美国|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国2|@ripaojiedian
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
