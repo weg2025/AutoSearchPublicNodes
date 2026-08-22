@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  delay: 512
+  name: 10|英国 - London - 1
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 511
+  name: 10|英国 - London - 2
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21104
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  delay: 504
+  name: 10|英国 - London - 3
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.44
+  type: ss
+  udp: true

@@ -1,42 +1,41 @@
 proxies:
-- country: 🇯🇵 JP
-  delay: 945
-  name: 10|日本 - Tokyo - 1
-  password: AE62539071
-  port: 443
-  server: polished-imp.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  delay: 299
+  name: 10|日本 - Ōi - 1
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
   udp: true
-- delay: 742
-  name: 10|日本 - Tokyo - 2
-  password: AE62539071
-  port: 443
-  server: 13.115.230.84
-  sni: polished-imp.rooster465.autos
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  delay: 297
+  name: 10|日本 - Ōi - 2
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  type: ss
   udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 43.198.21.141
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 12,13|日本2|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 54876
-  server: 95.40.14.234
+  port: 40136
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 38936
-  server: 16.162.192.182
+  port: 18617
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
