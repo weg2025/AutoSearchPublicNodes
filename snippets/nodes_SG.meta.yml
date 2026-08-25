@@ -39,27 +39,11 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 252
-  name: 10|新加坡 - Singapore - 1
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 257
-  name: 10|新加坡 - Singapore - 2
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
-  udp: true
 - name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 18.183.103.86
+  port: 32434
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

@@ -1,14 +1,20 @@
 proxies:
 - alterId: 64
   cipher: auto
-  country: 🇨🇳CN
-  delay: 161
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - Hefei - 2
-  network: tcp
+  delay: 2176
+  name: 10|中国 - Hefei - 1
   port: 50002
   server: 112.132.215.108
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  delay: 240
+  name: 10,12|🇨🇳 台湾|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 30001
+  server: 36.33.35.105
+  type: ss
+  udp: true

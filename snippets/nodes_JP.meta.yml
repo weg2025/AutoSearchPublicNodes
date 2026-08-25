@@ -16,38 +16,34 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  delay: 299
-  name: 10|日本 - Ōi - 1
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.26
+  country: 🇯🇵JP
+  delay: 434
+  name: 10|日本 - Tokyo - 1
+  password: ljqdalu13..
+  port: 8319
+  server: 54.95.233.51
+  type: ss
+- cipher: aes-256-gcm
+  delay: 837
+  name: 10,12|🇯🇵 日本2|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 40001
+  server: 103.236.66.4
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 297
-  name: 10|日本 - Ōi - 2
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.44
+- cipher: aes-256-gcm
+  delay: 846
+  name: 10,12|🇯🇵 日本3|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 40002
+  server: 103.236.66.4
   type: ss
   udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 13.214.209.40
+  port: 16691
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 12|🇯🇵 日本3|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  type: ss

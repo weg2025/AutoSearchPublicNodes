@@ -1,25 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 543
-  name: 10|法国 - Aubervilliers - 1
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 526
-  name: 10|法国 - Aubervilliers - 2
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21122
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 513
-  name: 10|法国 - Aubervilliers - 3
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21126
-  server: 211.91.158.44
-  type: ss
-  udp: true
+- name: 8|法国
+  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  port: 443
+  server: dora3.api3-max.ru
+  skip-cert-verify: true
+  sni: dora3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '8|法国 #1'
+  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  port: 443
+  server: dora4.api3-max.ru
+  skip-cert-verify: true
+  sni: dora4.api3-max.ru
+  tls: false
+  type: hysteria2

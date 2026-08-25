@@ -1,62 +1,25 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  delay: 602
-  name: 10|美国 - Elk Grove Village - 5
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 561
-  name: 10|美国 - Elk Grove Village - 6
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- delay: 2718
-  name: 10|美国 - Los Angeles - 1
-  password: fg20mtCFHy
-  port: 5529
-  server: 128.14.156.48
-  skip-cert-verify: true
-  sni: gonets.southbyte.xyz
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 2034
-  name: 10|美国 - Los Angeles - 2
-  password: America2026@LAX
-  port: 48378
-  server: 192.220.55.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  delay: 1621
-  name: 10|美国 - Los Angeles - 7
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  delay: 1476
+  name: 10,12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 12|🇺🇸 美国|@ripaojiedian
+  delay: 2139
+  name: 10,12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
+  udp: true
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 54.179.227.94
+  port: 10418
+  server: 18.163.118.157
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

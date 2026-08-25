@@ -27,8 +27,9 @@ proxies:
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: node1.sferavpn.pro
-  sni: node1.sferavpn.pro
+  server: nl1.sferavpn.pro
+  skip-cert-verify: true
+  sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
 - name: '8|美国 #2'
@@ -47,80 +48,35 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  delay: 602
-  name: 10|美国 - Elk Grove Village - 5
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 561
-  name: 10|美国 - Elk Grove Village - 6
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- delay: 2718
-  name: 10|美国 - Los Angeles - 1
-  password: fg20mtCFHy
-  port: 5529
-  server: 128.14.156.48
-  skip-cert-verify: true
-  sni: gonets.southbyte.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 2034
-  name: 10|美国 - Los Angeles - 2
-  password: America2026@LAX
-  port: 48378
-  server: 192.220.55.35
-  type: ss
-- delay: 1048
-  name: 10,14|US_speednode_0141
+- name: '8|美国 #3'
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
-  server: 38.28.193.188
+  server: faq.wwwinternetvideo.click
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 959
-  name: 10,14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 1621
-  name: 10|美国 - Los Angeles - 7
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
-  type: ss
-  udp: true
+  sni: cabinet.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  delay: 1476
+  name: 10,12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 12|🇺🇸 美国|@ripaojiedian
+  delay: 2139
+  name: 10,12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
+  udp: true
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 54.179.227.94
+  port: 10418
+  server: 18.163.118.157
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -258,6 +214,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
@@ -273,6 +236,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
