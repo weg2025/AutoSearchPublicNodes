@@ -2,16 +2,16 @@ proxies:
 - name: 8|法国
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
-  server: dora3.api3-max.ru
-  skip-cert-verify: true
-  sni: dora3.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '8|法国 #1'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
   server: dora4.api3-max.ru
   skip-cert-verify: true
   sni: dora4.api3-max.ru
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  delay: 1553
+  name: 10|法国 - Paris - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss

@@ -1,33 +1,28 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇯🇵JP
-  delay: 434
-  name: 10|日本 - Tokyo - 1
-  password: ljqdalu13..
-  port: 8319
-  server: 54.95.233.51
-  type: ss
+- name: 12|🇯🇵 日本|@ripaojiedian
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.11126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - cipher: aes-256-gcm
-  delay: 837
-  name: 10,12|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  delay: 846
-  name: 10,12|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-  udp: true
-- name: 12,13|日本|@ripaojiedian
+- name: 13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 49811
-  server: 54.238.251.95
+  port: 9408
+  server: 18.163.115.126
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan

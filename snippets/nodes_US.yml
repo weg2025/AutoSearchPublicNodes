@@ -1,25 +1,37 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  delay: 469
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|美国 - San Gabriel - 1
+  network: http
+  port: 50269
+  server: 103.179.142.158
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
 - cipher: aes-256-gcm
-  delay: 1476
-  name: 10,12|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  delay: 2139
-  name: 10,12|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-  udp: true
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 1431
+  server: 43.198.210.207
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

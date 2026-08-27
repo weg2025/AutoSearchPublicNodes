@@ -8,6 +8,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: 8|美国
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 82.39.214.98
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '8|美国 #1'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -15,14 +22,6 @@ proxies:
   server: nl1.sferavpn.pro
   skip-cert-verify: true
   sni: nl1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- name: '8|美国 #1'
-  password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
-  port: 11683
-  server: uswx4.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 144.225.187.153
   tls: false
   type: hysteria2
 - name: 8|🇺🇸139909 | Telegram = t.me/SOS...
@@ -41,27 +40,74 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
+- name: 9|45@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: ru1.sferavpn.pro
+  sni: ru1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- delay: 2242
+  name: 10,14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- delay: 922
+  name: 10,14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1006
+  name: 10,14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- alterId: 0
+  cipher: auto
+  delay: 469
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 10|美国 - San Gabriel - 1
+  network: http
+  port: 50269
+  server: 103.179.142.158
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
 - cipher: aes-256-gcm
-  delay: 1476
-  name: 10,12|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  delay: 2139
-  name: 10,12|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-  udp: true
 - name: 12,13|美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 1431
+  server: 43.198.210.207
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -80,15 +126,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 14|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132
@@ -199,13 +236,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
@@ -221,13 +251,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
