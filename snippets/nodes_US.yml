@@ -1,20 +1,34 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  delay: 469
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|美国 - San Gabriel - 1
-  network: http
-  port: 50269
-  server: 103.179.142.158
+  country: 🇭🇰HK
+  delay: 1330
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Buffalo - 3
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  delay: 1500
+  name: 10|美国 - Los Angeles - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  delay: 435
+  name: 10|美国 - Los Angeles - 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527

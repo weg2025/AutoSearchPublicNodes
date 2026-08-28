@@ -1,12 +1,4 @@
 proxies:
-- name: 8|US
-  password: 17aVvwmiSU
-  port: 10929
-  server: do.aigh.store
-  skip-cert-verify: true
-  sni: do.aigh.store
-  tls: false
-  type: hysteria2
 - name: 8|美国
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8080
@@ -24,15 +16,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
-- name: '8|美国 #2'
+- name: 8,9|📍92@oneclickvpnkeys
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
   server: faq.wwwinternetvideo.click
@@ -40,16 +24,54 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- name: 9|45@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  delay: 1330
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Buffalo - 3
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- delay: 1015
+  name: 10,14|US_speednode_0134
   port: 443
-  server: ru1.sferavpn.pro
-  sni: ru1.sferavpn.pro
-  tls: false
-  type: hysteria2
-- delay: 2242
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 2073
+  name: 10,14|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  delay: 1500
+  name: 10|美国 - Los Angeles - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  delay: 435
+  name: 10|美国 - Los Angeles - 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- delay: 2696
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -59,7 +81,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 922
+- delay: 1020
   name: 10,14|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -67,7 +89,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1006
+- delay: 1549
   name: 10,14|US_speednode_0143
   port: 9002
   server: 138.199.35.198
@@ -75,22 +97,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- alterId: 0
-  cipher: auto
-  delay: 469
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 10|美国 - San Gabriel - 1
-  network: http
-  port: 50269
-  server: 103.179.142.158
+- delay: 926
+  name: 10,14|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  tls: true
+  type: http
   udp: true
-  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -141,19 +155,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135
@@ -229,13 +230,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 14|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
