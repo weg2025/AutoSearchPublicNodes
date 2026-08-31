@@ -1,32 +1,18 @@
 proxies:
-- name: 8|UK
-  password: 0bacdaea-099b-462b-b625-d7d44c89aace
-  port: 55000
-  server: 94.156.250.67
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  delay: 601
+  name: 10|英国 - London - 1
+  password: amazonskr05
+  port: 443
+  server: 18.133.240.229
+  type: ss
+- delay: 2554
+  name: 10|英国 - London - 2
+  password: None
+  port: 3118
+  server: 154.61.56.215
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
-  type: hysteria2
-- name: 8|英国
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-germany.unlimited-access.ru
-  skip-cert-verify: true
-  sni: hy2-germany.unlimited-access.ru
-  tls: false
-  type: hysteria2
-- name: '8|英国 #1'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.234
-  skip-cert-verify: true
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- name: '8|英国 #2'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 138.124.0.168
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
+  type: http
+  udp: true
