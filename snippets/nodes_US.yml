@@ -1,22 +1,10 @@
 proxies:
 - cipher: aes-256-cfb
-  delay: 342
+  delay: 2748
   name: 10|美国 - Los Angeles - 1
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 772
-  name: 10|美国 - San Jose - 9
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
+  server: 121.46.230.233
   type: ss
   udp: true
 - cipher: aes-256-gcm
