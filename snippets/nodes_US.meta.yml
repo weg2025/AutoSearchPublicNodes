@@ -17,7 +17,7 @@ proxies:
   sni: nl1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: 8|🇸US
+- name: 8|US
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
@@ -41,7 +41,21 @@ proxies:
   sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- delay: 1660
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 1031
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Buffalo - 2
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  servername: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- delay: 900
   name: 10,14|US_speednode_0134
   port: 443
   server: voteshirleysew.club
@@ -49,24 +63,34 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1075
-  name: 10,14|US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - cipher: aes-256-cfb
-  delay: 2748
+  delay: 353
   name: 10|美国 - Los Angeles - 1
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.233
   type: ss
   udp: true
-- delay: 862
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1797
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - Los Angeles - 3
+  network: ws
+  port: 443
+  server: www.361371.xyz
+  servername: www.361371.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: da77c564-3815-468c-8867-0aea0b397027
+  ws-opts:
+    headers:
+      HOST: www.361371.xyz
+    path: /ws-6rm27y
+- delay: 1699
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -76,26 +100,10 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 859
-  name: 10,14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 835
+- delay: 857
   name: 10,14|US_speednode_0141
   port: 443
   server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 873
-  name: 10,14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
@@ -150,6 +158,13 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 14|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135
@@ -225,6 +240,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 14|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
@@ -240,6 +262,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144

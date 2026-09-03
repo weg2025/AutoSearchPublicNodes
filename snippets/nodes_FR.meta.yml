@@ -33,7 +33,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|VCONFING #2'
+  name: '9|VCONFING #3'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -43,3 +43,11 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  delay: 1318
+  name: 10|法国 - Paris - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+  udp: true
