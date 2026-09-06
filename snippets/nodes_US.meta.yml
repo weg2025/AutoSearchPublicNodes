@@ -7,56 +7,7 @@ proxies:
   sni: mkm.icu
   tls: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1031
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - Buffalo - 2
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  servername: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- delay: 900
-  name: 10,14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  delay: 353
-  name: 10|美国 - Los Angeles - 1
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1797
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - Los Angeles - 3
-  network: ws
-  port: 443
-  server: www.361371.xyz
-  servername: www.361371.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: da77c564-3815-468c-8867-0aea0b397027
-  ws-opts:
-    headers:
-      HOST: www.361371.xyz
-    path: /ws-6rm27y
-- delay: 1699
+- delay: 794
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -66,7 +17,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 857
+- delay: 831
   name: 10,14|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -74,6 +25,18 @@ proxies:
   tls: true
   type: http
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1411
+  name: 10|美国 - San Jose - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 134.195.101.231
+  type: ss
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国2|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -128,6 +91,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true

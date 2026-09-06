@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- alterId: 2
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 2934
+  h2-opts: {}
+  http-opts: {}
+  name: 10|英国 - London - 1
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- cipher: aes-256-cfb
+  country: 🇬🇧GB
+  delay: 485
+  name: 10|英国 - London - 2
+  password: amazonskr05
+  port: 443
+  server: 35.178.200.252
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  delay: 465
+  name: 10|英国 - London - 3
+  password: amazonskr05
+  port: 443
+  server: 13.40.17.62
+  type: ss
