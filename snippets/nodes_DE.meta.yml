@@ -2,14 +2,6 @@ proxies:
 - name: 8|德国
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '8|德国 #1'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
   server: 85.204.107.181
   sni: hopp-romania-new.roxa.org
   tls: false
@@ -31,7 +23,17 @@ proxies:
   sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: '8|德国 #2'
+- name: '8|DE #1'
+  obfs: salamander
+  obfs-password: f832485b7363626ee836f58576aad25f
+  password: f0098427ecce06a25089f5c18f4ac666
+  port: 443
+  server: 92.5.43.121
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '8|德国 #1'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -39,15 +41,10 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 9|-🇩🇪 @VConfing
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
+- name: 9|🇩🇪All⁴ | @BigSmoke_Config
+  password: 4savc5ig1n3549e4
   port: 52023
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -60,7 +57,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '9|-🇩🇪 @VConfing #1'
+  name: 9|-🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: nqlool6l2dnfg45q
@@ -73,7 +70,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '9|-🇩🇪 @VConfing #2'
+  name: '9|-🇩🇪 @VConfing #1'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -86,7 +83,7 @@ proxies:
 - name: 9|🇩🇪@AZARBAYJAB1
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
+  password: vz86jgszv4zszchv
   port: 52021
   server: giftcard.gateway-stream.com
   skip-cert-verify: false

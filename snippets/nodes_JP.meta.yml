@@ -25,14 +25,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '8|日本 #3'
-  password: a9081889-1949-49ba-a2aa-7054515716de
-  port: 3488
-  server: c2.bestai.beauty
-  skip-cert-verify: true
-  sni: c2.bestai.beauty
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
@@ -45,14 +37,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  delay: 514
-  name: 10|日本 - Tokyo - 1
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-  udp: true
 - name: 12,13|日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
