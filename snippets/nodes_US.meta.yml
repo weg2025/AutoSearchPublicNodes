@@ -9,27 +9,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇺🇸9@JKVPN
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52088
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  delay: 707
-  name: 10|美国 - Los Angeles - 1
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
+- delay: 2500
+  name: 10,14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- delay: 836
+- delay: 1876
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -39,7 +27,15 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 759
+- delay: 984
+  name: 10,14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1397
   name: 10,14|US_speednode_0143
   port: 9002
   server: 138.199.35.198
@@ -47,13 +43,13 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1187
-  name: 10,14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-cfb
+  delay: 352
+  name: 10|美国 - Los Angeles - 5
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -105,9 +101,10 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 14|US_speednode_0134
+- name: 14|US_speednode_0133
   port: 443
-  server: voteshirleysew.club
+  server: fan.365747.xyz
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -190,13 +187,6 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true

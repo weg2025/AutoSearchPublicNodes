@@ -1,6 +1,20 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  delay: 2799
+  h2-opts: {}
+  http-opts: {}
+  name: 10|德国 - Frankfurt am Main - 1
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: v33.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  delay: 1196
+  delay: 2461
   name: 10|法国 - Paris - 1
   password: 7eadc6dbe2ae
   port: 65443
@@ -8,7 +22,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 624
+  delay: 402
   name: 10|马来西亚 - Cyberjaya - 1
   password: 7eadc6dbe2ae
   port: 65443
@@ -16,8 +30,8 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 707
-  name: 10|美国 - Los Angeles - 1
+  delay: 352
+  name: 10|美国 - Los Angeles - 5
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
@@ -26,7 +40,7 @@ proxies:
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 2990
+  delay: 2180
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - Hefei - 1
@@ -37,19 +51,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 111
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - Kunming - 2
-  network: tcp
-  port: 2648
-  server: 150.242.244.116
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05
