@@ -9,48 +9,43 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- delay: 2500
-  name: 10,14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1876
-  name: 10,14|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 984
-  name: 10,14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1397
-  name: 10,14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: 9|🇺🇸9@JKVPN
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52088
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  delay: 354
+  name: 10|美国 - Los Angeles - 1
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 352
-  name: 10|美国 - Los Angeles - 5
+  delay: 969
+  name: 10|美国 - Los Angeles - 3
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.232
   type: ss
   udp: true
+- delay: 2453
+  name: 10|美国 - Seattle - 2
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+  username: test123
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -86,6 +81,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132
@@ -105,6 +109,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -190,6 +200,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
@@ -205,6 +222,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
