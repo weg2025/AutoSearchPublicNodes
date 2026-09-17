@@ -1,29 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇫🇷3@JKVPN
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52030
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|🇫🇷@AZARBAYJAB1
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vz86jgszv4zszchv
-  port: 52030
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
   country: 🇫🇷FR
-  delay: 763
+  delay: 480
   name: 10|法国 - 巴黎 - 1
   password: amazonskr05
   port: 443
@@ -31,31 +9,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: 🇫🇷FR
-  delay: 479
+  delay: 1159
   name: 10|法国 - 巴黎 - 2
   password: amazonskr05
   port: 443
   server: 15.237.137.134
   type: ss
-- cipher: aes-256-cfb
-  delay: 2951
-  name: 10|法国 - 巴黎 - 3
-  password: amazonskr05
-  port: 443
-  server: 15.188.246.220
-  type: ss
-  udp: true
-- delay: 833
-  name: 10|法国 - 巴黎 - 4
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
