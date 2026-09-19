@@ -1,48 +1,24 @@
 proxies:
 - cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 480
-  name: 10|法国 - 巴黎 - 1
-  password: amazonskr05
-  port: 443
-  server: 13.38.76.125
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  delay: 1159
-  name: 10|法国 - 巴黎 - 2
-  password: amazonskr05
-  port: 443
-  server: 15.237.137.134
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 650
+  delay: 1255
   name: 10|美国 - 哥伦布 - 1
   password: amazonskr05
   port: 443
-  server: 3.144.113.215
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 624
-  name: 10|美国 - 哥伦布 - 2
-  password: amazonskr05
-  port: 443
-  server: 18.191.174.144
-  type: ss
-- cipher: aes-256-cfb
-  delay: 559
-  name: 10|美国 - 哥伦布 - 8
-  password: amazonskr05
-  port: 443
-  server: 3.149.6.228
+  server: 3.141.200.225
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1401
+  name: 10|美国 - 圣克拉拉 - 2
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  port: 443
+  server: 107.174.88.128
+  type: ss
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 138
+  delay: 280
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 合肥 - 1

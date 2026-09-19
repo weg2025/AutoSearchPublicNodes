@@ -1,51 +1,22 @@
 proxies:
-- name: 8|US
-  obfs: salamander
-  obfs-password: 7a5537b116d923fe572f85f1db7fe501
-  password: cbb5cf13f04b22883390f1a073753123
+- delay: 950
+  name: 10|美国 - 費利蒙 - 8
+  password: None
   port: 443
-  server: 147.224.12.19
+  server: jgwynphotoarts.pro
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: 9|🇺🇸9@RK_VPS
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
-  port: 52088
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 650
+  delay: 1255
   name: 10|美国 - 哥伦布 - 1
   password: amazonskr05
   port: 443
-  server: 3.144.113.215
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 624
-  name: 10|美国 - 哥伦布 - 2
-  password: amazonskr05
-  port: 443
-  server: 18.191.174.144
-  type: ss
-- cipher: aes-256-cfb
-  delay: 559
-  name: 10|美国 - 哥伦布 - 8
-  password: amazonskr05
-  port: 443
-  server: 3.149.6.228
+  server: 3.141.200.225
   type: ss
   udp: true
-- delay: 827
+- delay: 945
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -55,23 +26,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 821
-  name: 10,14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 936
-  name: 10,14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 951
+- delay: 1228
   name: 10,14|US_speednode_0133
   port: 443
   server: fan.365747.xyz
@@ -79,11 +34,37 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1747
-  name: 10,14|US_speednode_0140
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1401
+  name: 10|美国 - 圣克拉拉 - 2
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  port: 443
+  server: 107.174.88.128
+  type: ss
+- delay: 1246
+  name: 10,14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 910
+  name: 10|美国 - 西文多弗 - 7
+  password: 'null'
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- delay: 2932
+  name: 10|美国 - 夏延 - 6
   password: None
   port: 443
-  server: purposebydesig.club
+  server: mmgr.club
   skip-cert-verify: true
   tls: true
   type: http
@@ -138,12 +119,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135
@@ -219,6 +194,20 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: 14|US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0142
@@ -234,6 +223,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
