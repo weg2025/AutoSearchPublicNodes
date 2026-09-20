@@ -1,74 +1,61 @@
 proxies:
-- delay: 950
-  name: 10|美国 - 費利蒙 - 8
+- cipher: aes-256-cfb
+  delay: 355
+  name: 10|美国 - 洛杉矶 - 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  type: ss
+  udp: true
+- delay: 784
+  name: 10|美国 - 洛杉矶 - 3
   password: None
-  port: 443
-  server: jgwynphotoarts.pro
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- cipher: aes-256-cfb
-  delay: 1255
-  name: 10|美国 - 哥伦布 - 1
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
-  type: ss
+- delay: 1661
+  name: 10|美国 - 洛杉矶 - 4
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- delay: 945
-  name: 10,14|US_speednode_0131
+- delay: 1369
+  name: 10|美国 - 洛杉矶 - 5
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1569
+  name: 10|美国 - 洛杉矶 - 6
   password: 'null'
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 'null'
-- delay: 1228
-  name: 10,14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2114
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1401
-  name: 10|美国 - 圣克拉拉 - 2
-  password: 063aee2ed1124285b5d8a8b049e24cba
-  port: 443
-  server: 107.174.88.128
-  type: ss
-- delay: 1246
-  name: 10,14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 910
-  name: 10|美国 - 西文多弗 - 7
-  password: 'null'
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-- delay: 2932
-  name: 10|美国 - 夏延 - 6
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
@@ -104,6 +91,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132
@@ -119,6 +115,19 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 14|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135

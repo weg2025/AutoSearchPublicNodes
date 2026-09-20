@@ -1,24 +1,60 @@
 proxies:
 - cipher: aes-256-cfb
-  delay: 1255
-  name: 10|美国 - 哥伦布 - 1
+  country: 🇺🇸US
+  delay: 439
+  name: 10|德国 - Frankfurt - 1
   password: amazonskr05
   port: 443
-  server: 3.141.200.225
+  server: 63.185.90.235
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  delay: 772
+  name: 10|法国 - 巴黎 - 1
+  password: amazonskr05
+  port: 443
+  server: 15.237.210.147
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  delay: 2428
+  h2-opts: {}
+  http-opts: {}
+  name: 10|荷兰 - 阿姆斯特丹 - 1
+  network: ws
+  port: 33736
+  server: 151.243.173.119
+  skip-cert-verify: true
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    path: /vmess-ws
+- cipher: aes-256-cfb
+  delay: 355
+  name: 10|美国 - 洛杉矶 - 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1401
-  name: 10|美国 - 圣克拉拉 - 2
-  password: 063aee2ed1124285b5d8a8b049e24cba
-  port: 443
-  server: 107.174.88.128
-  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2114
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
   country: 🇨🇳CN
-  delay: 280
+  delay: 133
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 合肥 - 1

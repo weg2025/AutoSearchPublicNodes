@@ -1,20 +1,25 @@
 proxies:
 - cipher: aes-256-cfb
-  delay: 1255
-  name: 10|美国 - 哥伦布 - 1
-  password: amazonskr05
-  port: 443
-  server: 3.141.200.225
+  delay: 355
+  name: 10|美国 - 洛杉矶 - 2
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  delay: 1401
-  name: 10|美国 - 圣克拉拉 - 2
-  password: 063aee2ed1124285b5d8a8b049e24cba
-  port: 443
-  server: 107.174.88.128
-  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2114
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 12|🇺🇸 美国|@ripaojiedian
   password: Butterfly123@qwe9527
