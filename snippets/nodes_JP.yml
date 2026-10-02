@@ -1,1 +1,102 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  country: 🇯🇵 JP
+  delay: 524
+  name: 10|日本 - 東京都 - 1
+  password: amazonskr05
+  port: 443
+  server: 18.181.145.202
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 457
+  name: 10|日本 - 東京都 - 2
+  password: amazonskr05
+  port: 443
+  server: 54.95.40.17
+  type: ss
+- cipher: aes-256-cfb
+  delay: 435
+  name: 10|日本 - 東京都 - 3
+  password: amazonskr05
+  port: 443
+  server: 13.115.71.198
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 1051
+  name: 10|日本 - 東京都 - 4
+  password: amazonskr05
+  port: 443
+  server: 13.230.223.121
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇯🇵JP
+  delay: 1432
+  name: 10|日本 - 東京都 - 5
+  password: amazonskr05
+  port: 443
+  server: 54.199.248.166
+  type: ss
+- cipher: aes-256-cfb
+  delay: 421
+  name: 10|日本 - 東京都 - 6
+  password: amazonskr05
+  port: 443
+  server: 13.113.166.191
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 443
+  server: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 443
+  server: kQov7UKaDknXb8a3.v.3dns.vip
+  servername: kQov7UKaDknXb8a3.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kQov7UKaDknXb8a3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  server: kneNaKHeSXnZH259.v.3dns.vip
+  servername: kneNaKHeSXnZH259.v.3dns.vip
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kneNaKHeSXnZH259.v.3dns.vip
+    path: /ws-vmess
+- name: 13|日本2|@ripaojiedian
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10125
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
