@@ -1,10 +1,51 @@
 proxies:
+- delay: 2937
+  name: 10,14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- delay: 1113
+  name: 10,14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1192
+  name: 10,14|US_speednode_0133
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1979
+  name: 10,14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
 - cipher: aes-256-cfb
-  delay: 498
+  delay: 701
   name: 10|美国 - Ashburn - 1
   password: amazonskr05
   port: 443
-  server: 54.90.169.61
+  server: 98.89.22.134
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  delay: 1094
+  name: 10|美国 - Ashburn - 6
+  password: amazonskr05
+  port: 443
+  server: 98.88.75.157
   type: ss
   udp: true
 - alterId: 0
@@ -68,15 +109,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 14|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132
@@ -92,19 +124,6 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135
@@ -184,13 +203,6 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true
