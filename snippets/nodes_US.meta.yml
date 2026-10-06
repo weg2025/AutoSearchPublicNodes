@@ -1,5 +1,5 @@
 proxies:
-- delay: 2937
+- delay: 1802
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -9,7 +9,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 1113
+- delay: 980
   name: 10,14|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -17,7 +17,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1192
+- delay: 877
   name: 10,14|US_speednode_0133
   port: 443
   server: fan.365747.xyz
@@ -25,27 +25,34 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1979
-  name: 10,14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
+- alterId: 2
+  cipher: auto
+  delay: 832
+  name: 10|美国 - 水牛城 - 6
+  network: tcp
+  port: 11268
+  server: goldcnmltyljgfwgov.vip68.wogcnmnnagfwgov.com
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  delay: 701
-  name: 10|美国 - Ashburn - 1
-  password: amazonskr05
-  port: 443
-  server: 98.89.22.134
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- cipher: chacha20-ietf-poly1305
+  delay: 1415
+  name: 10|美国 - 锡拉丘兹 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1094
-  name: 10|美国 - Ashburn - 6
+  delay: 1539
+  name: 10|美国 - Ashburn - 5
   password: amazonskr05
   port: 443
-  server: 98.88.75.157
+  server: 100.48.94.91
   type: ss
   udp: true
 - alterId: 0
@@ -124,6 +131,12 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 14|US_speednode_0135

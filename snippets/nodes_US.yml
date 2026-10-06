@@ -1,18 +1,32 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 701
-  name: 10|美国 - Ashburn - 1
-  password: amazonskr05
-  port: 443
-  server: 98.89.22.134
+- alterId: 2
+  cipher: auto
+  delay: 832
+  name: 10|美国 - 水牛城 - 6
+  network: tcp
+  port: 11268
+  server: goldcnmltyljgfwgov.vip68.wogcnmnnagfwgov.com
+  type: vmess
+  udp: true
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+- cipher: chacha20-ietf-poly1305
+  delay: 1415
+  name: 10|美国 - 锡拉丘兹 - 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+    mode: tls
+  port: 2377
+  server: 134.195.101.119
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  delay: 1094
-  name: 10|美国 - Ashburn - 6
+  delay: 1539
+  name: 10|美国 - Ashburn - 5
   password: amazonskr05
   port: 443
-  server: 98.88.75.157
+  server: 100.48.94.91
   type: ss
   udp: true
 - alterId: 0
