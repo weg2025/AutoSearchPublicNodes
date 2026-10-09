@@ -1,11 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  delay: 493
-  name: 10|美国 - Ashburn - 3
-  password: amazonskr05
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳 CN
+  delay: 488
+  http-opts: {}
+  name: 10|美国 - 洛杉矶 - 1
+  network: tcp
+  port: 11221
+  server: sbgfgov.vip21.wogacnmnagfwgov.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  ws-path: /
+- country: 🇺🇸US
+  delay: 1464
+  name: 10|美国 - Boardman - 2
+  password: UX82473651
   port: 443
-  server: 107.21.80.138
-  type: ss
+  server: alert-titmouse.rooster465.autos
+  skip-cert-verify: true
+  sni: alert-titmouse.rooster465.autos
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
