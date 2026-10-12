@@ -1,8 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 301
-  name: 10|中国 - 合肥 - 1
+  country: 🇨🇳CN
+  delay: 169
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 北京 - 1
+  network: ws
+  port: 10086
+  server: 120.48.133.162
+  skip-cert-verify: true
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 128
+  name: 10|中国 - 合肥 - 2
   port: 50002
   server: 112.132.215.108
   tls: false
