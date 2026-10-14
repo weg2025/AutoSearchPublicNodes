@@ -1,5 +1,5 @@
 proxies:
-- delay: 1418
+- delay: 1099
   name: 10,14|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -7,7 +7,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 1081
+- delay: 1653
+  name: 10,14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 697
   name: 10,14|US_speednode_0133
   port: 443
   server: fan.365747.xyz
@@ -203,13 +211,6 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
