@@ -1,13 +1,5 @@
 proxies:
-- delay: 1099
-  name: 10,14|US_speednode_0141
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 1653
+- delay: 2149
   name: 10,14|US_speednode_0143
   port: 9002
   server: 138.199.35.198
@@ -15,11 +7,20 @@ proxies:
   tls: true
   type: http
   udp: true
-- delay: 697
-  name: 10,14|US_speednode_0133
-  port: 443
-  server: fan.365747.xyz
+- delay: 2956
+  name: 10,14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- delay: 2856
+  name: 10,14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -84,15 +85,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 14|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132
@@ -108,9 +100,10 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 14|US_speednode_0134
+- name: 14|US_speednode_0133
   port: 443
-  server: voteshirleysew.club
+  server: fan.365747.xyz
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -193,6 +186,13 @@ proxies:
   password: None
   port: 443
   server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0141
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
