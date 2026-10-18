@@ -1,13 +1,5 @@
 proxies:
-- delay: 2149
-  name: 10,14|US_speednode_0143
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- delay: 2956
+- delay: 1957
   name: 10,14|US_speednode_0131
   password: 'null'
   port: 9002
@@ -17,13 +9,18 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- delay: 2856
-  name: 10,14|US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🏁ZZ
+  delay: 1405
+  name: 10|美国 - 锡拉丘兹 - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.is:164892
+    mode: tls
+  port: 2377
+  server: 134.195.101.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -104,6 +101,12 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0134
+  port: 443
+  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -211,6 +214,13 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 14|US_speednode_0143
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0144
