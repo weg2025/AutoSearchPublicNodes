@@ -1,26 +1,13 @@
 proxies:
-- delay: 1957
-  name: 10,14|US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
+- delay: 624
+  name: 10|美国 - 洛杉矶 - 1
+  password: 1f8dc24373d4add7767beac448e32397
+  port: 8443
+  server: 38.150.35.208
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.apple.com
+  type: trojan
   udp: true
-  username: 'null'
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  delay: 1405
-  name: 10|美国 - 锡拉丘兹 - 1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.is:164892
-    mode: tls
-  port: 2377
-  server: 134.195.101.231
-  type: ss
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -82,6 +69,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: 14|US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|US_speednode_0132

@@ -1,16 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🏁ZZ
-  delay: 1405
-  name: 10|美国 - 锡拉丘兹 - 1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 403880e.default.microsoft.is:164892
-    mode: tls
-  port: 2377
-  server: 134.195.101.231
-  type: ss
+- delay: 624
+  name: 10|美国 - 洛杉矶 - 1
+  password: 1f8dc24373d4add7767beac448e32397
+  port: 8443
+  server: 38.150.35.208
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国|@ripaojiedian
