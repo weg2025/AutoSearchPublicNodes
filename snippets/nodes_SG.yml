@@ -1,12 +1,19 @@
 proxies:
-- delay: 2100
+- cipher: rc4-md5
+  delay: 1413
   name: 10|新加坡 - 新加坡 - 1
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12013
-  server: 4c2d5151.266nets.com
-  skip-cert-verify: true
-  sni: ixigua.com
-  type: trojan
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.73
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1172
+  name: 10|新加坡 - 新加坡 - 2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.132
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto

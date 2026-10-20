@@ -1,43 +1,57 @@
 proxies:
-- delay: 624
-  name: 10|美国 - 洛杉矶 - 1
-  password: 1f8dc24373d4add7767beac448e32397
-  port: 8443
-  server: 38.150.35.208
+- delay: 1402
+  name: 10|马来西亚 - 吉隆坡 - 1
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: 47.250.84.25
   type: trojan
   udp: true
+- cipher: rc4-md5
+  delay: 1028
+  name: 10|美国 - 紐約 - 3
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 98.98.79.198
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  delay: 326
+  delay: 1342
   name: 10|日本 - 东京 - 1
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
   udp: true
-- delay: 909
-  name: 10|日本 - 东京 - 2
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12019
-  server: 4c2d5151.266nets.com
-  skip-cert-verify: true
-  sni: ixigua.com
-  type: trojan
-  udp: true
-- delay: 2100
+- cipher: rc4-md5
+  delay: 1413
   name: 10|新加坡 - 新加坡 - 1
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12013
-  server: 4c2d5151.266nets.com
-  skip-cert-verify: true
-  sni: ixigua.com
-  type: trojan
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.73
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1172
+  name: 10|新加坡 - 新加坡 - 2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.132
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  delay: 1032
+  name: 10|英国 - Stretford - 2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  delay: 246
-  name: 10|中国 - 北京 - 3
+  delay: 206
+  name: 10|中国 - 北京 - 2
   network: ws
   port: 10086
   server: 120.48.133.162
@@ -46,22 +60,25 @@ proxies:
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
 - alterId: 0
   cipher: auto
-  delay: 1862
-  name: 10|中国 - 合肥 - 1
+  delay: 558
+  name: 10|中国 - 合肥 - 3
   port: 50002
   server: 112.132.215.108
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- delay: 825
-  name: 10|中国 - 香港 - 2
-  password: bad06c3525a6eaee1757b34776b83892
-  port: 12001
-  server: 4c2d5151.266nets.com
-  skip-cert-verify: true
-  sni: ixigua.com
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  delay: 610
+  name: 10|中国 - 台湾 - 1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @WangCai2)5337fad:11915
+    mode: tls
+  port: 2377
+  server: 60.249.14.95
+  type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05

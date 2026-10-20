@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- delay: 948
+  name: 10|英国 - Bexley - 1
+  network: tcp
+  port: 10002
+  server: connect.hondamotor.site
+  type: vless
+  udp: true
+  uuid: c6362720-0931-4b91-b187-d8ecf3149734
+- cipher: rc4-md5
+  delay: 1032
+  name: 10|英国 - Stretford - 2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.46.214
+  type: ss
+  udp: true
