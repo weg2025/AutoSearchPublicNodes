@@ -1,20 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 206
+  country: 🇨🇳CN
+  delay: 1416
+  h2-opts: {}
+  http-opts: {}
   name: 10|中国 - 北京 - 2
   network: ws
   port: 10086
   server: 120.48.133.162
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-- alterId: 0
+  ws-opts:
+    path: /
+- alterId: 64
   cipher: auto
-  delay: 558
-  name: 10|中国 - 合肥 - 3
+  country: 🇨🇳CN
+  delay: 1119
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 合肥 - 1
+  network: tcp
   port: 50002
   server: 112.132.215.108
-  tls: false
+  servername: 112.132.215.108
+  skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

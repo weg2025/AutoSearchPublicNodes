@@ -7,12 +7,35 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 14|DE_speednode_0001
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
+- name: 8,9|@KAFING_2
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 14|DE_speednode_0002
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: testuser1
+- name: 14|DE_speednode_0003
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|DE_speednode_0004
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

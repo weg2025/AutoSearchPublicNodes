@@ -1,10 +1,71 @@
 proxies:
-- cipher: rc4-md5
-  delay: 1028
-  name: 10|美国 - 紐約 - 3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
+- cipher: aes-256-gcm
+  delay: 457
+  name: 10|美国 - 鳳凰城 - 2
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 556
+  name: 10|美国 - 华盛顿特区 - 3
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 566
+  name: 10|美国 - 迈阿密 - 4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 532
+  name: 10|美国 - 紐華克 - 5
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1138
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  delay: 512
+  name: 10|美国 - 亚特兰大 - 6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 511
+  name: 10|美国 - 亚特兰大 - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 548
+  name: 10|美国 - Ashburn - 8
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
   type: ss
   udp: true
 - alterId: 0

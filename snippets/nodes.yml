@@ -1,84 +1,144 @@
 proxies:
-- delay: 1402
+- country: 🇺🇸 US
+  delay: 1449
   name: 10|马来西亚 - 吉隆坡 - 1
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
   skip-cert-verify: true
-  sni: 47.250.84.25
   type: trojan
   udp: true
-- cipher: rc4-md5
-  delay: 1028
-  name: 10|美国 - 紐約 - 3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
+- cipher: aes-256-gcm
+  delay: 457
+  name: 10|美国 - 鳳凰城 - 2
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  delay: 1342
-  name: 10|日本 - 东京 - 1
+  delay: 556
+  name: 10|美国 - 华盛顿特区 - 3
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 566
+  name: 10|美国 - 迈阿密 - 4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 532
+  name: 10|美国 - 紐華克 - 5
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1138
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  delay: 512
+  name: 10|美国 - 亚特兰大 - 6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 511
+  name: 10|美国 - 亚特兰大 - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 548
+  name: 10|美国 - Ashburn - 8
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 1613
+  name: 10|日本 - 东京 - 2
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 1413
-  name: 10|新加坡 - 新加坡 - 1
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.73
+- delay: 1643
+  name: 10|日本 - Minamishinagawa - 1
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 45.32.52.173
+  skip-cert-verify: true
+  sni: 45.32.52.173
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  delay: 630
+  name: 10|意大利 - Milan - 1
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
   type: ss
   udp: true
-- cipher: rc4-md5
-  delay: 1172
-  name: 10|新加坡 - 新加坡 - 2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.132
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  delay: 1032
-  name: 10|英国 - Stretford - 2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.46.214
+- cipher: aes-256-gcm
+  delay: 2978
+  name: 10|意大利 - Milan - 2
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  delay: 206
+  country: 🇨🇳CN
+  delay: 1416
+  h2-opts: {}
+  http-opts: {}
   name: 10|中国 - 北京 - 2
   network: ws
   port: 10086
   server: 120.48.133.162
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-- alterId: 0
+  ws-opts:
+    path: /
+- alterId: 64
   cipher: auto
-  delay: 558
-  name: 10|中国 - 合肥 - 3
+  country: 🇨🇳CN
+  delay: 1119
+  h2-opts: {}
+  http-opts: {}
+  name: 10|中国 - 合肥 - 1
+  network: tcp
   port: 50002
   server: 112.132.215.108
-  tls: false
+  servername: 112.132.215.108
+  skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  country: 🇹🇼TW
-  delay: 610
-  name: 10|中国 - 台湾 - 1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)5337fad:11915
-    mode: tls
-  port: 2377
-  server: 60.249.14.95
-  type: ss
 - cipher: aes-256-cfb
   name: 12|tg频道:@ripaojiedian
   password: amazonskr05

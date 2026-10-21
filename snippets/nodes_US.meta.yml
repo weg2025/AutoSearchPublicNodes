@@ -1,28 +1,72 @@
 proxies:
-- delay: 2117
-  name: 10,14|US_speednode_0026
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: rc4-md5
-  delay: 1028
-  name: 10|美国 - 紐約 - 3
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
+- cipher: aes-256-gcm
+  delay: 457
+  name: 10|美国 - 鳳凰城 - 2
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
   type: ss
   udp: true
-- delay: 2087
-  name: 10,14|US_speednode_0027
-  port: 443
-  server: 192.227.176.234
+- cipher: aes-256-gcm
+  delay: 556
+  name: 10|美国 - 华盛顿特区 - 3
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 566
+  name: 10|美国 - 迈阿密 - 4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 532
+  name: 10|美国 - 紐華克 - 5
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🏁ZZ
+  delay: 1138
+  h2-opts: {}
+  http-opts: {}
+  name: 10|美国 - 水牛城 - 1
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
   skip-cert-verify: true
-  tls: true
-  type: http
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  delay: 512
+  name: 10|美国 - 亚特兰大 - 6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.9
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 511
+  name: 10|美国 - 亚特兰大 - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.18
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 548
+  name: 10|美国 - Ashburn - 8
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -70,58 +114,39 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 14|US_speednode_0022
-  network: ws
-  port: 80
-  server: platform109.golnamakcert.top
-  servername: platform109.halalkhor.info
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    headers:
-      Host: platform109.halalkhor.info
-    path: /platform109
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 14|US_speednode_0023
-  network: http
+- name: 14|US_speednode_0028
   port: 443
-  server: 44.251.76.224
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 14|US_speednode_0024
-  network: http
-  port: 443
-  server: 100.54.27.217
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 14|US_speednode_0029
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 14|US_speednode_0025
+- name: 14|US_speednode_0030
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- client-fingerprint: random
+  name: 14|US_speednode_0031
+  network: ws
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: jp-osa.862400.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
