@@ -1,15 +1,22 @@
 proxies:
-- name: 14|GB_speednode_0009
-  password: None
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|GB_speednode_0013
+  network: tcp
   port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 14|GB_speednode_0010
-  port: 443
-  server: 212.102.63.61
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+- name: 14|GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
   skip-cert-verify: true
   tls: true
   type: http

@@ -114,39 +114,55 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 14|US_speednode_0028
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0029
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0030
+- name: 14|US_speednode_0039
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: random
-  name: 14|US_speednode_0031
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: jp-osa.862400.xyz
-  skip-cert-verify: false
+- name: 14|US_speednode_0040
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
-  ws-opts:
-    headers:
-      Host: jp-osa.862400.xyz
-    path: /announcement?ed=2048
+- name: 14|US_speednode_0041
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0042
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0043
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: 14|US_speednode_0044
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0045
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
