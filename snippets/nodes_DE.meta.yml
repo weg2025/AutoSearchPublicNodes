@@ -7,32 +7,15 @@ proxies:
   sni: vpn-de-002.fastervpn.world
   tls: false
   type: hysteria2
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 14|DE_speednode_0002
-  network: http
-  port: 443
-  server: 3.79.233.186
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 14|DE_speednode_0003
-  password: None
+- name: 14|DE_speednode_0001
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|DE_speednode_0004
+- name: 14|DE_speednode_0002
+  password: None
   port: 443
   server: 213.109.163.119
   skip-cert-verify: true
