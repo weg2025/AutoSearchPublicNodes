@@ -1,7 +1,22 @@
 proxies:
-- name: 14|GB_speednode_0009
-  port: 8443
-  server: 198.105.124.180
+- name: 14|GB_speednode_0016
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|GB_speednode_0017
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|GB_speednode_0018
+  password: None
+  port: 9443
+  server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
