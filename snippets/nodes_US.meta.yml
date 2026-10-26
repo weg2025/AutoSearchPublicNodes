@@ -1,73 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  delay: 457
-  name: 10|美国 - 鳳凰城 - 2
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 95.215.201.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 556
-  name: 10|美国 - 华盛顿特区 - 3
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.230.230.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 566
-  name: 10|美国 - 迈阿密 - 4
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 532
-  name: 10|美国 - 紐華克 - 5
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.163.18
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁ZZ
-  delay: 1138
-  h2-opts: {}
-  http-opts: {}
-  name: 10|美国 - 水牛城 - 1
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  delay: 512
-  name: 10|美国 - 亚特兰大 - 6
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.215.132.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 511
-  name: 10|美国 - 亚特兰大 - 7
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.215.132.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 548
-  name: 10|美国 - Ashburn - 8
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 45.86.51.18
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国|@ripaojiedian
@@ -114,75 +45,44 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 14|US_speednode_0050
-  password: None
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0051
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0052
+- name: 14|US_speednode_0039
   port: 8443
   server: 44.248.167.117
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0053
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0054
+- name: 14|US_speednode_0040
   port: 443
   server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0055
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0056
+- name: 14|US_speednode_0041
   port: 443
-  server: 12.202.180.118
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 14|US_speednode_0057
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 14|US_speednode_0042
+  port: 19167
+  server: mx001.zestapp778.com
+  servername: mx001.zestapp778.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 14|US_speednode_0058
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: 14|US_speednode_0043
+  port: 54857
+  server: 130.94.18.208
+  servername: us001.zestapp778.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 14|US_speednode_0059
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
