@@ -1,12 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  delay: 175
+- country: 🇯🇵JP
+  delay: 441
   name: 10|日本 - 东京 - 1
-  password: BeaUf9c0AEWH40Pu
-  port: 8388
-  server: 154.36.158.197
-  type: ss
+  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
+  port: 8443
+  server: 160.21.74.183
+  skip-cert-verify: true
+  sni: 160.21.74.183
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   name: 12|🇯🇵 日本｜08｜BGP
   network: ws
