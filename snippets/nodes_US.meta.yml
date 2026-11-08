@@ -1,20 +1,41 @@
 proxies:
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  delay: 564
-  name: 10|美国 - 達拉斯 - 2
-  password: 4e501338a6c03d7626f2fa0e09ed66d6
-  port: 19690
-  server: 66.23.203.19
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  delay: 693
-  name: 10|美国 - 芝加哥 - 1
-  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-  port: 1080
-  server: 88.216.254.18
-  type: ss
+- name: 8|🇺🇸 7@exclavevpn
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  port: 443
+  server: fi1.obxodvpn.us
+  sni: fi1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- delay: 1497
+  name: 10,14|US_speednode_0040
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- delay: 1480
+  name: 10|美国 - 洛杉矶 - 1
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- delay: 571
+  name: 10|美国 - 亚特兰大 - 2
+  port: 58764
+  server: 118.184.140.90
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -86,13 +107,6 @@ proxies:
 - name: 14|US_speednode_0039
   port: 8443
   server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 14|US_speednode_0040
-  port: 443
-  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http

@@ -1,14 +1,22 @@
 proxies:
-- name: 8,9|@KAFING_2
+- name: '9|Telegram@vpnjey #5'
   obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
+  obfs-password: Telegram@vpnjey
+  password: vpnJey
+  port: 36264
+  server: 179.61.138.145
   skip-cert-verify: true
-  sni: api.kermanshahi.org
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
+- delay: 935
+  name: 10,14|DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: firefox
   name: 12|🇩🇪 德国｜06｜BGP
   network: ws
@@ -71,10 +79,3 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
-- name: 14|DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true

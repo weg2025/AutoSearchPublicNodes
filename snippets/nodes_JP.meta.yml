@@ -1,14 +1,20 @@
 proxies:
-- country: 🇯🇵JP
-  delay: 441
-  name: 10|日本 - 东京 - 1
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  port: 8443
-  server: 160.21.74.183
-  skip-cert-verify: true
-  sni: 160.21.74.183
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 304
+  name: 10|日本 - 東京都 - 1
+  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
+  port: 443
+  server: 45.12.89.202
+  type: ss
+- delay: 1776
+  name: 10|日本 - Shibuya City - 2
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  port: 443
+  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - client-fingerprint: firefox
   name: 12|🇯🇵 日本｜08｜BGP
   network: ws
