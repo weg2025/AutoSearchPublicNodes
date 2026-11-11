@@ -1,12 +1,5 @@
 proxies:
-- name: 8|🇺🇸 7@exclavevpn
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  port: 443
-  server: fi1.obxodvpn.us
-  sni: fi1.obxodvpn.us
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸139909 | Telegram = t.me/SOS...
+- name: 8|🇺🇸139909 | ⚡️Telegram = t.me/S...
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.213.89.22
@@ -14,64 +7,70 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- delay: 1497
-  name: 10,14|US_speednode_0040
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12,13|美国|@ripaojiedian
+  network: tcp
   port: 443
-  server: 38.247.141.135
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.39
+  servername: www.apple.com
   skip-cert-verify: true
-  tls: true
-  type: http
+  tfo: false
+  tls: false
+  type: vless
   udp: true
-- delay: 1480
-  name: 10|美国 - 洛杉矶 - 1
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-- delay: 571
-  name: 10|美国 - 亚特兰大 - 2
-  port: 58764
-  server: 118.184.140.90
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 12|🇺🇸 US1@ripaojiedian
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+- client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 156.225.64.8
-  servername: speedtest.danfengno1.kdns.fr
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
   ws-opts:
     headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 12|🇺🇸 US2@ripaojiedian
+      Host: imanvipreserved.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+  server: 38.145.220.39
+  servername: www.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+- client-fingerprint: chrome
+  name: 12|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: 443
-  server: 154.17.9.239
-  servername: speedtest.danfengno1.kdns.fr
+  port: 8443
+  server: cdn-us.skyvora.app
+  servername: cdn-us.skyvora.app
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
   ws-opts:
     headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+      Host: cdn-us.skyvora.app
+    path: /kqdyeo2k4b1
 - client-fingerprint: chrome
   flow: ''
   name: 13|美国2|@ripaojiedian
@@ -87,34 +86,29 @@ proxies:
       Host: imanvipreserved.pages.dev
     path: '%2F'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '13|美国2|@ripaojiedian #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
-    short-id: 732d5d
-  server: jp2static.xyy123.bid
-  servername: image.semiconductor.samsung.com
-  tls: false
+  flow: ''
+  name: 13|美国4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: cdn-us.skyvora.app
+  servername: cdn-us.skyvora.app
+  tls: true
   type: vless
-  uuid: 2aabf881-60dd-492b-97f6-774377dc3882
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|美国1|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CKfGUIOy-k2OfwtxsqeHIQWwR29WAbypOvKH4bAVo18
-    short-id: 732d5d
-  server: jp2static.xyy123.bid
-  servername: download.led.samsung.com
-  tls: false
-  type: vless
-  uuid: d8af34bf-d02f-4fe2-8063-386635d026ae
+  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  ws-opts:
+    headers:
+      Host: cdn-us.skyvora.app
+    path: '%2Fkqdyeo2k4b1'
 - name: 14|US_speednode_0039
   port: 8443
   server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 14|US_speednode_0040
+  port: 443
+  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
