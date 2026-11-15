@@ -1,7 +1,24 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  delay: 1822
+  name: 10|芬兰 - 赫尔辛基 - 1
+  password: VYSbsLYaCBSquKAq7Tc059Bppmhzs2Yw
+  port: 6079
+  server: 13.140.86.73
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇦🇱AL
+  delay: 740
+  name: 10|荷兰 - 阿姆斯特丹 - 1
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: 109.104.153.43
+  type: ssr
 - cipher: aes-256-gcm
-  country: 🇺🇸 US
-  delay: 786
+  delay: 1319
   name: 10|日本 - 东京 - 1
   password: BeaUf9c0AEWH40Pu
   port: 8388
@@ -9,30 +26,15 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: 🇳🇿 NZ
-  delay: 1414
+  delay: 613
   name: 10|意大利 - Milan - 1
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.45
+  server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  delay: 1608
-  name: 10|意大利 - Milan - 10
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  delay: 600
-  name: 10,12|🇮🇹 意大利|@ripaojiedian
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  delay: 588
-  name: 10|意大利 - Milan - 3
+  delay: 568
+  name: 10|意大利 - Milan - 2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -40,70 +42,63 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇳🇿 NZ
-  delay: 1349
-  name: 10|意大利 - Milan - 4
+  delay: 562
+  name: 10|意大利 - Milan - 3
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
+  server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  delay: 587
-  name: 10|意大利 - Milan - 5
+  delay: 609
+  name: 10|意大利 - Milan - 4
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  delay: 600
-  name: 10|意大利 - Milan - 6
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  delay: 1596
-  name: 10,12|🇮🇹 意大利2|@ripaojiedian
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇳🇿 NZ
-  delay: 561
-  name: 10|意大利 - Milan - 8
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- cipher: aes-256-gcm
-  delay: 605
-  name: 10|意大利 - Milan - 9
+  delay: 879
+  name: 10|意大利 - Milan - 5
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  delay: 589
+  name: 10|意大利 - Milan - 6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇳🇿 NZ
+  delay: 595
+  name: 10|意大利 - Milan - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
+  delay: 576
+  name: 10,12|🇮🇹 意大利|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇳🇿 NZ
+  delay: 1445
+  name: 10|意大利 - Milan - 9
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
 - alterId: 0
   cipher: auto
   country: 🇨🇳CN
-  delay: 151
-  h2-opts: {}
-  http-opts: {}
-  name: 10|中国 - 深圳 - 1
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  skip-cert-verify: true
-  type: vmess
-  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 158
+  delay: 153
   h2-opts: {}
   http-opts: {}
   name: 10|中国 - 深圳 - 2
@@ -112,21 +107,58 @@ proxies:
   server: 39.108.113.127
   skip-cert-verify: true
   type: vmess
-  uuid: 74e07df3-f82a-4791-987f-247c3c395866
+  uuid: d50cc563-0c03-4136-899f-85cbc0b02699
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  delay: 752
+  country: 🏁ZZ
+  delay: 1495
   h2-opts: {}
   http-opts: {}
-  name: 10|中国 - 香港 - 3
+  name: 10|中国 - 香港 - 1
   network: ws
-  port: 57278
-  server: 156.239.224.107
+  port: 443
+  server: grab-assistance-crawford-capital.trycloudflare.com
+  servername: grab-assistance-crawford-capital.trycloudflare.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 1270bed5-f908-4ecc-f1c8-de246033b186
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
   ws-opts:
-    path: /
+    headers:
+      HOST: grab-assistance-crawford-capital.trycloudflare.com
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+- cipher: aes-256-gcm
+  name: 12|🇮🇹 意大利2|@ripaojiedian
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- name: 12,13|美国4|@ripaojiedian
+  network: tcp
+  password: MiTiVPN
+  port: 443
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- name: 12,13|日本2|@ripaojiedian
+  network: tcp
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 12,13|美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
