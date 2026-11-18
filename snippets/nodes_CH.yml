@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  delay: 1486
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /3x
+  name: 10|瑞士 - 呂姆朗 - 1
+  network: http
+  port: 42831
+  server: 179.43.140.24
+  type: vmess
+  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416

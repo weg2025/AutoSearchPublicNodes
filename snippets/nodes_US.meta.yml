@@ -7,15 +7,33 @@ proxies:
   sni: 192.255.152.147
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 503
-  name: 10|美国 - 哥伦布 - 1
-  password: amazonskr05
+- delay: 1802
+  name: 10,14|US_speednode_0040
   port: 443
-  server: 3.22.241.58
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  delay: 1585
+  name: 10|美国 - 华盛顿特区 - 1
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+  port: 18443
+  server: 48.103.218.241
   type: ss
-- delay: 1818
+- cipher: chacha20-ietf
+  country: 🇺🇸 US
+  delay: 1937
+  name: 10|美国 - 聖荷西 - 2
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: ssr2.762988.xyz
+  type: ssr
+- delay: 921
   name: 10,14|US_speednode_0039
   port: 8443
   server: 44.248.167.117
@@ -105,13 +123,6 @@ proxies:
   uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
     path: '%2Fws'
-- name: 14|US_speednode_0040
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 14|US_speednode_0041
   port: 443
   server: 64.98.50.100

@@ -1,57 +1,127 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  delay: 503
-  name: 10|美国 - 哥伦布 - 1
-  password: amazonskr05
-  port: 443
-  server: 3.22.241.58
-  type: ss
+- country: 🇸🇬SG
+  delay: 2447
+  name: 10|阿拉伯联合酋长国 - 富吉拉 - 1
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20086
+  server: sclass-c1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  delay: 1129
+  country: 🇺🇸 US
+  delay: 1585
+  name: 10|美国 - 华盛顿特区 - 1
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+  port: 18443
+  server: 48.103.218.241
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇺🇸 US
+  delay: 1937
+  name: 10|美国 - 聖荷西 - 2
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: ssr2.762988.xyz
+  type: ssr
+- cipher: aes-256-gcm
+  delay: 158
   name: 10|日本 - 东京 - 1
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
+- alterId: 0
+  cipher: auto
+  delay: 1486
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /3x
+  name: 10|瑞士 - 呂姆朗 - 1
+  network: http
+  port: 42831
+  server: 179.43.140.24
+  type: vmess
+  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
 - cipher: aes-256-gcm
-  delay: 2934
+  country: 🇧🇪BE
+  delay: 718
   name: 10|意大利 - Milan - 1
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.27.21
+  type: ss
+- cipher: aes-256-gcm
+  delay: 609
+  name: 10,12|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.90
+  server: 202.50.253.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  delay: 679
-  name: 10|意大利 - Milan - 2
+  delay: 938
+  name: 10|意大利 - Milan - 3
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  delay: 629
-  name: 10|意大利 - Milan - 3
+  country: 🇳🇿 NZ
+  delay: 1406
+  name: 10|意大利 - Milan - 4
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.99
+  server: 202.50.253.18
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 12|🇮🇹 意大利|@ripaojiedian
+  delay: 2033
+  name: 10,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 12|🇮🇹 意大利2|@ripaojiedian
+  delay: 613
+  name: 10|意大利 - Milan - 6
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.99
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  delay: 2905
+  name: 10|意大利 - Milan - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇳🇿 NZ
+  delay: 1969
+  name: 10|意大利 - Milan - 8
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  delay: 2478
+  name: 10|意大利 - Milan - 9
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
 - name: 12,13|美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
