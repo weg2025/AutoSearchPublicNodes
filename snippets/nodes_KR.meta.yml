@@ -2,23 +2,6 @@ proxies:
 - client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian
   network: ws
-  port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: /
-    v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
-  network: ws
   port: 12101
   server: 14.44.19.57
   servername: senflarelink-node-nwz76h.pages.dev
@@ -36,20 +19,6 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   name: 13|韩国|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: 13|韩国2|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57

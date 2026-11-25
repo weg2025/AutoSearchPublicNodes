@@ -1,102 +1,93 @@
 proxies:
-- cipher: chacha20-ietf
-  country: 🇺🇸 US
-  delay: 2226
-  name: 10|美国 - 聖荷西 - 1
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: ssr2.762988.xyz
-  type: ssr
-- country: 🇨🇳 CN
-  delay: 1737
-  name: 10|尼日利亚 - 拉哥斯 - 1
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20103
-  server: sclass-00.catcat321.com
+- alterId: 1
+  cipher: auto
+  country: 🇧🇪BE
+  delay: 264
+  h2-opts: {}
+  http-opts: {}
+  name: 10|日本 - 東京都 - 1
+  network: tcp
+  port: 21581
+  server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
+  servername: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
   skip-cert-verify: true
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 91710d35-76ad-3513-bb14-4caddae68539
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  delay: 773
+  name: 10|土耳其 - 伊斯坦布尔 - 1
+  password: ff4d354078394558933d699be149ad69
+  port: 19084
+  server: 38.180.104.37
+  type: ss
 - cipher: aes-256-gcm
-  country: 🇳🇿 NZ
-  delay: 2736
+  delay: 1049
   name: 10|意大利 - Milan - 1
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.18
+  server: 202.50.253.45
   type: ss
 - cipher: aes-256-gcm
-  country: 🇳🇿 NZ
-  delay: 670
-  name: 10|意大利 - Milan - 2
+  delay: 788
+  name: 10,12|🇮🇹 意大利2|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
+  server: 202.50.253.27
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  delay: 981
+  delay: 1049
   name: 10|意大利 - Milan - 3
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.54
+  server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇳🇿 NZ
-  delay: 1379
+  delay: 1049
   name: 10|意大利 - Milan - 4
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
-  type: ss
-- cipher: aes-256-gcm
-  delay: 1424
-  name: 10|意大利 - Milan - 5
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
+  server: 202.50.253.72
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  delay: 1887
+  delay: 752
   name: 10,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  delay: 752
+  name: 10|意大利 - Milan - 6
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  delay: 548
+  name: 10|意大利 - Milan - 7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  delay: 582
+  name: 10|意大利 - Milan - 8
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
 - country: 🇨🇳CN
-  delay: 973
+  delay: 274
   name: 10|undefined - undefined - 1
   password: 06cf12a7fab279375e55e2f0cfdef381
   port: 59443
   server: ja304.magiclampcloud.cn
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 12|🇮🇹 意大利2|@ripaojiedian
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-- name: 12,13|日本|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
-  skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  type: trojan
-  udp: true
-- name: 12,13|越南|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: xvxn1hkzf.mateflora.com
-  skip-cert-verify: true
-  sni: xvxn1hkzf.mateflora.com
   type: trojan
   udp: true
