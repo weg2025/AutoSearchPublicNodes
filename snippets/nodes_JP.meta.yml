@@ -1,21 +1,6 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  country: 🇧🇪BE
-  delay: 264
-  h2-opts: {}
-  http-opts: {}
-  name: 10|日本 - 東京都 - 1
-  network: tcp
-  port: 21581
-  server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
-  servername: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
 - client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -35,7 +20,7 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -55,42 +40,68 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: 8443
-  server: 166.88.14.71
-  servername: senflarelink-node-71i.pages.dev
+  port: 443
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  server: 172.105.203.15
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
-  name: 12|🇯🇵 日本5|@ripaojiedian
+  name: 11|🇯🇵 日本1|@ripaojiedian
   network: ws
-  port: 8443
-  server: 45.32.57.15
-  servername: senflarelink-node-nwz76h.pages.dev
+  port: 443
+  reality-opts:
+    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+    short-id: d1244137
+  server: 139.162.91.228
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
   ws-opts:
     headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: /
+      Host: itunes.apple.com
+    path: /ws
+    v2ray-http-upgrade: false
+- client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: 772bef67
+  server: 172.105.197.24
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: /ws
     v2ray-http-upgrade: false
 - client-fingerprint: chrome
   flow: ''
-  name: 13|日本3|@ripaojiedian
+  name: 12|日本3|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -107,7 +118,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: 13|日本2|@ripaojiedian
+  name: 12|日本2|@ripaojiedian
   network: ws
   port: 443
   reality-opts:
@@ -124,29 +135,52 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: 13|日本4|@ripaojiedian
+  name: 12|日本|@ripaojiedian
   network: ws
-  port: 8443
-  server: 166.88.14.71
-  servername: senflarelink-node-71i.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  server: 172.105.203.15
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
   ws-opts:
     headers:
-      Host: senflarelink-node-71i.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: 13|日本5|@ripaojiedian
+  name: 12|日本1|@ripaojiedian
   network: ws
-  port: 8443
-  server: 45.32.57.15
-  servername: senflarelink-node-nwz76h.pages.dev
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: s73obybmPs4rzBkigf3zyIwAJWbRUnhPk3m6keetT3c
+    short-id: d1244137
+  server: 139.162.91.228
+  servername: itunes.apple.com
+  tls: false
   type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  uuid: 911dce8c-a2d7-4267-acb4-1dec7cc360c4
   ws-opts:
     headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: '%2F'
+      Host: itunes.apple.com
+    path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 12|日本4|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: EfNOl6-YAuW-WSg7Op-1YOqKZV9emIuLwH8YPhzc7ms
+    short-id: 772bef67
+  server: 172.105.197.24
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 81f4e114-5a60-41b5-9038-8d742380c84f
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2Fws'
